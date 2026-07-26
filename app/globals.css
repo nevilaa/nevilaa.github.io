@@ -558,6 +558,13 @@ select:focus-visible {
   letter-spacing: -0.015em;
 }
 
+.conclusion-header > div:first-child > p {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
 .conclusion-rating {
   display: flex;
   align-items: center;
@@ -591,24 +598,24 @@ select:focus-visible {
   background: var(--company);
 }
 
-.conclusion-grid,
-.conclusion-context {
+.strategy-thesis {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  border-bottom: 1px solid var(--border-strong);
 }
 
-.conclusion-grid article,
-.conclusion-context article {
-  padding: 16px;
+.strategy-thesis article {
+  padding: 18px;
 }
 
-.conclusion-grid article + article,
-.conclusion-context article + article {
+.strategy-thesis article + article {
   border-left: 1px solid var(--border);
+  background: #fafbfc;
 }
 
-.conclusion-grid article > span,
-.conclusion-context article > span {
+.strategy-thesis span,
+.strategy-ledger header > span,
+.strategy-boundary span {
   display: block;
   margin-bottom: 8px;
   color: var(--accent);
@@ -616,43 +623,125 @@ select:focus-visible {
   font-weight: 680;
 }
 
-.conclusion-grid p {
-  color: var(--ink-soft);
-  font-size: 11px;
-  line-height: 1.65;
-}
-
-.conclusion-grid .conclusion-primary p {
+.strategy-thesis p {
+  max-width: 72ch;
   color: var(--ink);
   font-size: 14px;
-  font-weight: 620;
+  font-weight: 610;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.strategy-thesis article + article p {
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.strategy-ledger {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.strategy-ledger > section + section {
+  border-left: 1px solid var(--border-strong);
+}
+
+.strategy-ledger > section > header {
+  min-height: 66px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-subtle);
+}
+
+.strategy-ledger header > span {
+  margin-bottom: 3px;
+  color: var(--muted);
+}
+
+.strategy-ledger h3 {
+  font-size: 14px;
+  font-weight: 680;
+}
+
+.strategy-ledger > section > div > article {
+  min-height: 142px;
+  padding: 15px 16px;
+}
+
+.strategy-ledger > section > div > article + article {
+  border-top: 1px solid var(--border);
+}
+
+.strategy-ledger h4 {
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-weight: 680;
+  line-height: 1.45;
+}
+
+.strategy-ledger p {
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.strategy-ledger small {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 10px;
   line-height: 1.55;
 }
 
-.conclusion-context {
+.strategy-ledger dl {
+  margin-top: 10px;
   border-top: 1px solid var(--border);
-  background: #fafbfc;
 }
 
-.conclusion-context p {
-  color: var(--ink-soft);
-  font-size: 10px;
-  line-height: 1.6;
+.strategy-ledger dl > div {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 9px;
+  padding-top: 7px;
 }
 
-.conclusion-context small {
-  display: block;
-  margin-top: 6px;
+.strategy-ledger dt {
   color: var(--muted);
   font-size: 9px;
 }
 
-.conclusion-context .positive-text {
-  color: var(--positive);
+.strategy-ledger dd {
+  color: var(--ink-soft);
+  font-size: 10px;
+  line-height: 1.5;
 }
 
-.conclusion-context .negative-text {
-  color: var(--negative);
+.strategy-boundary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--border-strong);
+  background: #fafbfc;
+}
+
+.strategy-boundary article {
+  padding: 15px 16px;
+}
+
+.strategy-boundary article + article {
+  border-left: 1px solid var(--border);
+}
+
+.strategy-boundary span {
+  margin-bottom: 6px;
+  color: var(--muted);
+}
+
+.strategy-boundary p {
+  color: var(--ink-soft);
+  font-size: 10px;
+  line-height: 1.6;
 }
 
 .overview-section,
@@ -1731,15 +1820,6 @@ tbody tr:hover {
     max-width: 640px;
   }
 
-  .conclusion-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .conclusion-grid article + article {
-    border-top: 1px solid var(--border);
-    border-left: 0;
-  }
-
   .module-directory {
     grid-template-columns: 1fr;
   }
@@ -1960,13 +2040,21 @@ tbody tr:hover {
     margin-left: auto;
   }
 
-  .conclusion-context {
+  .strategy-thesis,
+  .strategy-ledger,
+  .strategy-boundary {
     grid-template-columns: 1fr;
   }
 
-  .conclusion-context article + article {
+  .strategy-thesis article + article,
+  .strategy-ledger > section + section,
+  .strategy-boundary article + article {
     border-top: 1px solid var(--border);
     border-left: 0;
+  }
+
+  .strategy-ledger > section > div > article {
+    min-height: 0;
   }
 
   .report-facts {

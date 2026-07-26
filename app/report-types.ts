@@ -110,6 +110,19 @@ export type EventItem = {
   impact: string;
 };
 
+export type StrategicChallenge = {
+  title: string;
+  evidence: string;
+  implication: string;
+};
+
+export type StrategicDirection = {
+  title: string;
+  rationale: string;
+  managementSignal: string;
+  validation: string;
+};
+
 export type ReportData = {
   schemaVersion: string;
   slug: string;
@@ -142,6 +155,12 @@ export type ReportData = {
     marketCap: number;
     marketCapUnit: string;
     valuationContext: string;
+    strategicSummary?: {
+      primaryDifficulty: string;
+      strategicJudgment: string;
+      currentChallenges: StrategicChallenge[];
+      futureDirections: StrategicDirection[];
+    };
   };
   keyMetrics: KeyMetric[];
   segments: Segment[];

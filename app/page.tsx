@@ -146,6 +146,93 @@ function formatUpdatedAt(value: string) {
   });
 }
 
+function strategicSummary(data: ReportData) {
+  if (data.thesis.strategicSummary) {
+    return data.thesis.strategicSummary;
+  }
+
+  const layer = (id: string) =>
+    data.analysisLayers.find((item) => item.id === id);
+  const management = layer("management");
+  const business = layer("business");
+  const cost = layer("cost");
+  const competition = layer("competition");
+  const future = layer("future");
+  const managementSignals = management?.signals ?? [];
+  const watchlist = future?.watchlist ?? [];
+
+  return {
+    primaryDifficulty: `${data.company.name}当前最难的不是获得增长，而是在竞争投入侵蚀核心利润时守住用户与商家基本盘，并证明新增投入能形成更好的单位经济。`,
+    strategicJudgment:
+      "管理层正在用核心业务的短期利润换取防守时间，同时把资源投向即时零售、海外和 AI。方向已经明确，财务兑现仍处在验证期。",
+    currentChallenges: [
+      {
+        title: "核心利润与市场份额难以同时守住",
+        evidence:
+          cost?.verdict ??
+          competition?.verdict ??
+          "竞争投入正在压低核心业务利润。",
+        implication:
+          "如果补贴退坡后单位经济不能修复，规模优势将难以重新转化为利润。",
+      },
+      {
+        title: "新增长业务尚未证明增长质量",
+        evidence:
+          business?.verdict ??
+          "即时零售与海外业务增长，但单位经济仍需更多季度验证。",
+        implication:
+          "收入增量只有在履约效率和亏损率同步改善时，才会成为可持续的第二曲线。",
+      },
+      {
+        title: "长期战略还缺少可量化兑现",
+        evidence:
+          management?.verdict ??
+          "战略叙事已经变化，但缺少用户、收入或效率指标。",
+        implication:
+          "AI 与海外目前更多影响长期估值想象，尚未形成可验证的利润贡献。",
+      },
+    ],
+    futureDirections: [
+      {
+        title: "守住外卖基本盘，优先修复单位经济",
+        rationale:
+          "核心业务仍是现金流与用户入口，战略转型必须先稳定这一底座。",
+        managementSignal:
+          managementSignals.find((item) => item.speaker.includes("CFO"))
+            ?.signal ?? "管理层承诺改善外卖单位经济",
+        validation:
+          watchlist[0]
+            ? `${watchlist[0].metric}：${watchlist[0].target}`
+            : data.thesis.falsifiableSignal,
+      },
+      {
+        title: "把即时零售做成第二个规模业务",
+        rationale:
+          "闪购和自营零售承接更高频、更广品类需求，是本地生活平台的自然延伸。",
+        managementSignal:
+          managementSignals.find((item) => item.signal.includes("零售"))
+            ?.signal ?? "继续推进零售与科技战略",
+        validation:
+          watchlist[2]
+            ? `${watchlist[2].metric}：${watchlist[2].target}`
+            : "扩张同时保持履约效率与亏损率改善",
+      },
+      {
+        title: "用海外与 AI 培育长期增长期权",
+        rationale:
+          "国内核心业务成熟后，海外市场和智能化能力决定增长边界能否继续外扩。",
+        managementSignal:
+          managementSignals.find((item) => item.signal.includes("AI"))
+            ?.signal ?? "把 AI 与海外列为长期战略方向",
+        validation:
+          watchlist[3]
+            ? `${watchlist[3].metric}：${watchlist[3].target}`
+            : "披露可核验的用户、收入或效率贡献",
+      },
+    ],
+  };
+}
+
 function ArrowUpRightIcon() {
   return (
     <svg aria-hidden="true" viewBox="0 0 16 16">
@@ -793,6 +880,8 @@ function ModuleDirectory({
 }
 
 function ReportOverview({ data }: { data: ReportData }) {
+  const strategy = strategicSummary(data);
+
   return (
     <>
       <section className="report-hero" id="report-top">
@@ -847,11 +936,12 @@ function ReportOverview({ data }: { data: ReportData }) {
         >
           <header className="conclusion-header">
             <div>
-              <span>Research conclusion</span>
-              <h2 id="conclusion-summary-title">研究结论摘要</h2>
+              <span>Operating outlook</span>
+              <h2 id="conclusion-summary-title">经营难点与战略方向</h2>
+              <p>通过财报识别企业卡在哪里，以及管理层准备把资源投向哪里。</p>
             </div>
             <div className="conclusion-rating">
-              <span>投资判断</span>
+              <span>研究判断</span>
               <strong>{data.thesis.rating}</strong>
               <div
                 className="conclusion-score"
@@ -868,35 +958,72 @@ function ReportOverview({ data }: { data: ReportData }) {
             </div>
           </header>
 
-          <div className="conclusion-grid">
-            <article className="conclusion-primary">
-              <span>核心判断</span>
-              <p>{data.thesis.headline}</p>
+          <div className="strategy-thesis">
+            <article>
+              <span>当前最需要看清的难题</span>
+              <p>{strategy.primaryDifficulty}</p>
             </article>
             <article>
-              <span>核心矛盾</span>
-              <p>{data.thesis.coreConflict}</p>
-            </article>
-            <article>
-              <span>关键证伪条件</span>
-              <p>{data.thesis.falsifiableSignal}</p>
+              <span>战略判断</span>
+              <p>{strategy.strategicJudgment}</p>
             </article>
           </div>
 
-          <div className="conclusion-context">
+          <div className="strategy-ledger">
+            <section aria-labelledby="current-challenges-title">
+              <header>
+                <span>企业目前卡在哪里</span>
+                <h3 id="current-challenges-title">当前难点</h3>
+              </header>
+              <div>
+                {strategy.currentChallenges.map((challenge) => (
+                  <article key={challenge.title}>
+                    <h4>{challenge.title}</h4>
+                    <p>{challenge.evidence}</p>
+                    <small>{challenge.implication}</small>
+                  </article>
+                ))}
+              </div>
+            </section>
+
+            <section aria-labelledby="future-directions-title">
+              <header>
+                <span>管理层准备往哪里走</span>
+                <h3 id="future-directions-title">未来战略方向</h3>
+              </header>
+              <div>
+                {strategy.futureDirections.map((direction) => (
+                  <article key={direction.title}>
+                    <h4>{direction.title}</h4>
+                    <p>{direction.rationale}</p>
+                    <dl>
+                      <div>
+                        <dt>管理层信号</dt>
+                        <dd>{direction.managementSignal}</dd>
+                      </div>
+                      <div>
+                        <dt>验证指标</dt>
+                        <dd>{direction.validation}</dd>
+                      </div>
+                    </dl>
+                  </article>
+                ))}
+              </div>
+            </section>
+          </div>
+
+          <div className="strategy-boundary">
             <article>
-              <span>估值语境</span>
+              <span>财报给出的核心矛盾</span>
+              <p>{data.thesis.coreConflict}</p>
+            </article>
+            <article>
+              <span>什么会推翻当前判断</span>
+              <p>{data.thesis.falsifiableSignal}</p>
+            </article>
+            <article>
+              <span>市场定价语境</span>
               <p>{data.thesis.valuationContext}</p>
-            </article>
-            <article>
-              <span className="positive-text">关键催化</span>
-              <p>{data.catalysts[0]?.event ?? "暂无明确催化剂"}</p>
-              <small>{data.catalysts[0]?.impact}</small>
-            </article>
-            <article>
-              <span className="negative-text">主要风险</span>
-              <p>{data.risks[0]?.event ?? "暂无明确风险项"}</p>
-              <small>{data.risks[0]?.impact}</small>
             </article>
           </div>
         </section>
