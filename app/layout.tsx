@@ -3,31 +3,31 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nevilaa.github.io"),
-  title: "思航研究 — 财报分析排行榜",
+  title: "美团 2026 Q1 财报深度分析｜思航研究",
   description:
-    "用同一套框架比较公司的增长、盈利与现金流，把冗长财报压缩成清晰的经营信号。",
-  keywords: ["财报分析", "公司研究", "基本面分析", "现金流", "思航研究"],
-  authors: [{ name: "Sihang", url: "https://github.com/nevilaa" }],
+    "用业务、成本、现金流、管理层、竞争、外部冲击、股价归因和情景推演八层框架，拆解美团 2026 Q1 财报。",
+  keywords: ["美团", "美团财报", "03690.HK", "财报分析", "公司研究", "思航研究"],
+  authors: [{ name: "姚思航", url: "https://github.com/nevilaa" }],
   openGraph: {
-    title: "思航研究 — 财报分析排行榜",
-    description: "比较增长、盈利与现金流，看懂公司经营质量。",
+    title: "美团 2026 Q1 财报深度分析",
+    description: "短期盈利让位长期战略，最坏时点或已过去，但拐点仍需 Q2 验证。",
     url: "https://nevilaa.github.io",
     siteName: "思航研究",
     locale: "zh_CN",
-    type: "website",
+    type: "article",
     images: [
       {
         url: "/og.png",
         width: 1536,
         height: 1024,
-        alt: "思航研究财报分析排行榜",
+        alt: "美团 2026 Q1 财报深度分析",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "思航研究 — 财报分析排行榜",
-    description: "比较增长、盈利与现金流，看懂公司经营质量。",
+    title: "美团 2026 Q1 财报深度分析",
+    description: "八层穿透框架：从财务数字到可证伪的 Q2 判断。",
     images: ["/og.png"],
   },
   icons: {
