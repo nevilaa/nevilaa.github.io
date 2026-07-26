@@ -816,7 +816,6 @@ function ReportOverview({ data }: { data: ReportData }) {
               {data.company.nameEn} · {data.company.ticker}
             </div>
             <h1>{data.report.title}</h1>
-            <p>{data.thesis.headline}</p>
           </div>
           <dl className="report-facts">
             <div>
@@ -841,6 +840,66 @@ function ReportOverview({ data }: { data: ReportData }) {
             </div>
           </dl>
         </div>
+
+        <section
+          className="conclusion-summary"
+          aria-labelledby="conclusion-summary-title"
+        >
+          <header className="conclusion-header">
+            <div>
+              <span>Research conclusion</span>
+              <h2 id="conclusion-summary-title">研究结论摘要</h2>
+            </div>
+            <div className="conclusion-rating">
+              <span>投资判断</span>
+              <strong>{data.thesis.rating}</strong>
+              <div
+                className="conclusion-score"
+                aria-label={`研究信心 ${data.thesis.stars} / 5`}
+              >
+                {Array.from({ length: 5 }, (_, index) => (
+                  <i
+                    className={index < data.thesis.stars ? "is-filled" : ""}
+                    key={index}
+                  />
+                ))}
+              </div>
+              <small>{data.thesis.stars} / 5</small>
+            </div>
+          </header>
+
+          <div className="conclusion-grid">
+            <article className="conclusion-primary">
+              <span>核心判断</span>
+              <p>{data.thesis.headline}</p>
+            </article>
+            <article>
+              <span>核心矛盾</span>
+              <p>{data.thesis.coreConflict}</p>
+            </article>
+            <article>
+              <span>关键证伪条件</span>
+              <p>{data.thesis.falsifiableSignal}</p>
+            </article>
+          </div>
+
+          <div className="conclusion-context">
+            <article>
+              <span>估值语境</span>
+              <p>{data.thesis.valuationContext}</p>
+            </article>
+            <article>
+              <span className="positive-text">关键催化</span>
+              <p>{data.catalysts[0]?.event ?? "暂无明确催化剂"}</p>
+              <small>{data.catalysts[0]?.impact}</small>
+            </article>
+            <article>
+              <span className="negative-text">主要风险</span>
+              <p>{data.risks[0]?.event ?? "暂无明确风险项"}</p>
+              <small>{data.risks[0]?.impact}</small>
+            </article>
+          </div>
+        </section>
       </section>
 
       <section className="overview-section" aria-labelledby="snapshot-title">
