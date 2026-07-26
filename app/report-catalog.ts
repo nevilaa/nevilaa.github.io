@@ -1,0 +1,68 @@
+export type ReportStatus = "published" | "draft";
+
+export type ReportCatalogEntry = {
+  id: string;
+  companyId: string;
+  companyName: string;
+  companyNameEn: string;
+  ticker: string;
+  fiscalYear: number;
+  quarter: "Q1" | "Q2" | "Q3" | "Q4" | "FY";
+  periodLabel: string;
+  publishedAt: string;
+  endpoint: string;
+  status: ReportStatus;
+};
+
+const DEFAULT_ENDPOINT =
+  "https://82.157.208.201/financial-data/meituan-2026-q1.json";
+
+/**
+ * Add future companies and quarters here. The interface derives both selectors
+ * and the research-library navigation from this single registry.
+ */
+export const REPORT_CATALOG: ReportCatalogEntry[] = [
+  {
+    id: "meituan-2026-q1",
+    companyId: "meituan",
+    companyName: "美团",
+    companyNameEn: "Meituan",
+    ticker: "03690.HK",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-06-01",
+    endpoint:
+      process.env.NEXT_PUBLIC_FINANCIAL_DATA_URL ?? DEFAULT_ENDPOINT,
+    status: "published",
+  },
+];
+
+export const PUBLISHED_REPORTS = REPORT_CATALOG.filter(
+  (report) => report.status === "published",
+).sort(
+  (a, b) =>
+    new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+);
+
+export const COMPANY_OPTIONS = Array.from(
+  new Map(
+    PUBLISHED_REPORTS.map((report) => [
+      report.companyId,
+      {
+        id: report.companyId,
+        name: report.companyName,
+        nameEn: report.companyNameEn,
+        ticker: report.ticker,
+      },
+    ]),
+  ).values(),
+);
+
+export function reportsForCompany(companyId: string) {
+  return PUBLISHED_REPORTS.filter((report) => report.companyId === companyId);
+}
+
+export function getDefaultReport() {
+  return PUBLISHED_REPORTS[0];
+}

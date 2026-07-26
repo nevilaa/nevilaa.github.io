@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-26T00:00:00+08:00",
+  "title": "Design System: Sihang Research Workbench",
+  "extensions": {
+    "colorMeta": {
+      "accent-indigo": {
+        "role": "primary",
+        "displayName": "Research Indigo",
+        "canonical": "#5D55D6",
+        "tonalRamp": ["#17143B", "#262064", "#373091", "#4840BD", "#5D55D6", "#837DE2", "#B0ACEE", "#EEECFF"]
+      },
+      "accent-indigo-dark": {
+        "role": "primary",
+        "displayName": "Deep Research Indigo",
+        "canonical": "#4840BD",
+        "tonalRamp": ["#141130", "#211C52", "#302979", "#3E36A1", "#4840BD", "#746DD3", "#AAA6E8", "#ECEAFC"]
+      },
+      "canvas-cool": {
+        "role": "neutral",
+        "displayName": "Cool Canvas",
+        "canonical": "#F7F8FA",
+        "tonalRamp": ["#1A1B1E", "#32353A", "#4F535B", "#6E747F", "#9298A2", "#B9BEC6", "#DDE0E5", "#F7F8FA"]
+      },
+      "surface-white": {
+        "role": "neutral",
+        "displayName": "Paper Surface",
+        "canonical": "#FFFFFF",
+        "tonalRamp": ["#1A1A1A", "#333333", "#4D4D4D", "#737373", "#999999", "#BFBFBF", "#E6E6E6", "#FFFFFF"]
+      },
+      "surface-subtle": {
+        "role": "neutral",
+        "displayName": "Quiet Toolbar",
+        "canonical": "#F1F3F6",
+        "tonalRamp": ["#191A1D", "#303338", "#4A4E56", "#686D77", "#8B919B", "#B3B8C0", "#D7DAE0", "#F1F3F6"]
+      },
+      "ink-primary": {
+        "role": "neutral",
+        "displayName": "Primary Ink",
+        "canonical": "#17181B",
+        "tonalRamp": ["#17181B", "#2C2E33", "#45484F", "#62666F", "#858A94", "#ADB1B9", "#D4D6DA", "#F4F5F6"]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Ledger Ink",
+        "canonical": "#68707D",
+        "tonalRamp": ["#16191E", "#292F37", "#414A56", "#566170", "#68707D", "#9299A3", "#C1C5CB", "#F0F1F3"]
+      },
+      "border-neutral": {
+        "role": "neutral",
+        "displayName": "Neutral Rule",
+        "canonical": "#E0E3E8",
+        "tonalRamp": ["#1B1C1F", "#34363B", "#50535A", "#70747D", "#969AA3", "#BEC1C8", "#E0E3E8", "#F7F8FA"]
+      },
+      "positive": {
+        "role": "positive",
+        "displayName": "Evidence Green",
+        "canonical": "#067647",
+        "tonalRamp": ["#042D1D", "#06452B", "#075D38", "#067647", "#10995F", "#47B985", "#98D9B8", "#ECFDF3"]
+      },
+      "negative": {
+        "role": "negative",
+        "displayName": "Risk Red",
+        "canonical": "#B42318",
+        "tonalRamp": ["#3D0B08", "#65110D", "#8D1A12", "#B42318", "#D04438", "#E47A72", "#F3B7B2", "#FEF3F2"]
+      },
+      "warning": {
+        "role": "warning",
+        "displayName": "Evidence Amber",
+        "canonical": "#B54708",
+        "tonalRamp": ["#3B1703", "#632705", "#8D3806", "#B54708", "#D96A16", "#EFA453", "#F7D59A", "#FFFAEB"]
+      },
+      "company-yellow": {
+        "role": "secondary",
+        "displayName": "Meituan Signal Yellow",
+        "canonical": "#FFD100",
+        "tonalRamp": ["#332A00", "#5C4B00", "#866E00", "#B39500", "#DDB800", "#FFD100", "#FFE680", "#FFF8D6"]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Report Display",
+        "purpose": "Latest report title on desktop only."
+      },
+      "headline": {
+        "displayName": "Workbench Headline",
+        "purpose": "Major analytical sections."
+      },
+      "title": {
+        "displayName": "Module Title",
+        "purpose": "Module, row, and decision emphasis."
+      },
+      "body": {
+        "displayName": "Analytical Body",
+        "purpose": "Evidence interpretation and source descriptions."
+      },
+      "label": {
+        "displayName": "Ledger Label",
+        "purpose": "Metadata, table headers, and compact states."
+      }
+    },
+    "shadows": [
+      {
+        "name": "header-float",
+        "value": "0 1px 2px rgb(16 24 40 / 0.06)",
+        "purpose": "Sticky global header separation only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-standard",
+        "value": "180ms cubic-bezier(0.2, 0, 0, 1)",
+        "purpose": "Hover, focus, and selection feedback."
+      }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "700px" },
+      { "name": "compact", "value": "920px" },
+      { "name": "wide", "value": "1180px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact primary action for retry and explicit commits.",
+      "html": "<button class=\"ds-btn-primary\">重新连接</button>",
+      "css": ".ds-btn-primary{border:0;border-radius:6px;background:var(--accent,#5D55D6);color:#fff;padding:9px 13px;font:650 11px/1.4 Inter,system-ui,sans-serif;transition:background 180ms cubic-bezier(.2,0,0,1)}.ds-btn-primary:hover{background:#4840BD}.ds-btn-primary:focus-visible{outline:2px solid #5D55D6;outline-offset:2px}"
+    },
+    {
+      "name": "Report Select",
+      "kind": "input",
+      "description": "Native company and quarter selector with simplified product styling.",
+      "html": "<label class=\"ds-select\"><span>财季</span><select><option>2026 Q1</option></select></label>",
+      "css": ".ds-select{display:flex;flex-direction:column;gap:2px;border:1px solid #E0E3E8;border-radius:6px;background:#fff;padding:8px 12px;color:#17181B;font-family:Inter,system-ui,sans-serif}.ds-select span{color:#68707D;font-size:10px;font-weight:570}.ds-select select{border:0;background:transparent;font-size:12px;font-weight:620;outline:0}.ds-select select:focus-visible{outline:2px solid #5D55D6;outline-offset:3px}"
+    },
+    {
+      "name": "Selected Module",
+      "kind": "nav",
+      "refersTo": "control-selected",
+      "description": "Active analytical module inside the grouped nine-module directory.",
+      "html": "<button class=\"ds-module\"><span>04</span><strong>管理层信号</strong><small>强调、承诺与回避分别是什么？</small></button>",
+      "css": ".ds-module{width:260px;display:grid;grid-template-columns:28px 1fr;gap:8px;border:0;border-radius:6px;background:#EEECFF;padding:12px;text-align:left;font-family:Inter,system-ui,sans-serif}.ds-module>span{color:#5D55D6;font-size:10px;font-weight:650}.ds-module strong,.ds-module small{grid-column:2}.ds-module strong{font-size:12px}.ds-module small{color:#68707D;font-size:9px;line-height:1.45}.ds-module:focus-visible{outline:2px solid #5D55D6;outline-offset:2px}"
+    },
+    {
+      "name": "Status Label",
+      "kind": "chip",
+      "description": "Text-first semantic status label; color supplements the written state.",
+      "html": "<span class=\"ds-status\">正面 · 优于预期</span>",
+      "css": ".ds-status{display:inline-flex;border-radius:4px;background:#ECFDF3;color:#067647;padding:4px 7px;font:640 10px/1.4 Inter,system-ui,sans-serif;white-space:nowrap}"
+    },
+    {
+      "name": "Data Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat, bordered analytical surface with restrained corners.",
+      "html": "<section class=\"ds-panel\"><span>当前结论</span><p>先确认财务事实，再解释经营变化。</p></section>",
+      "css": ".ds-panel{width:360px;border:1px solid #E0E3E8;border-radius:8px;background:#fff;padding:18px;color:#17181B;font-family:Inter,system-ui,sans-serif}.ds-panel span{display:block;margin-bottom:8px;color:#5D55D6;font-size:10px;font-weight:680}.ds-panel p{margin:0;font-size:12px;line-height:1.65}"
+    },
+    {
+      "name": "Company Item",
+      "kind": "nav",
+      "description": "Research-library row that keeps company identity local to a small marker.",
+      "html": "<button class=\"ds-company\"><i>M</i><span><strong>美团</strong><small>03690.HK · 1 份</small></span></button>",
+      "css": ".ds-company{width:210px;display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;border:0;border-radius:8px;background:#EEECFF;padding:8px;text-align:left;font-family:Inter,system-ui,sans-serif}.ds-company i{width:34px;height:34px;display:grid;place-items:center;border:1px solid #E5C100;border-radius:6px;background:#FFD100;color:#332C00;font-size:12px;font-style:normal;font-weight:750}.ds-company span{display:flex;flex-direction:column;gap:3px}.ds-company strong{font-size:12px}.ds-company small{color:#68707D;font-size:10px}.ds-company:focus-visible{outline:2px solid #5D55D6;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Analyst's Ledger",
+    "overview": "The system should feel like an analyst's continuously maintained ledger: every number belongs to a period, every interpretation belongs to a module, and every judgment exposes its evidence. It borrows the ordered density of a professional leaderboard while preserving the quieter rhythm needed for long-form company research. This is a product surface, so the interface disappears into the work. It explicitly rejects the old page's portfolio-scale headlines, saturated purple-and-yellow marketing treatment, dark campaign sections, card walls, and decorative pills.",
+    "keyCharacteristics": [
+      "Compact global company and quarter controls",
+      "Flat, bordered data surfaces with minimal elevation",
+      "Tables before cards when values need comparison",
+      "One indigo interaction accent, with semantic status colors",
+      "Nine modules grouped into a three-stage evidence chain"
+    ],
+    "rules": [
+      {
+        "name": "The One Interaction Voice Rule",
+        "body": "Research Indigo is reserved for current selection, focus, and primary action; it must not become decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Company Color Boundary",
+        "body": "Meituan Signal Yellow identifies Meituan only. Future companies receive their own small identity marker without recoloring the application chrome.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Product Scale Rule",
+        "body": "No fluid display typography and no headings larger than 42px. Density must remain stable across the application.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Ledger Rule",
+        "body": "If a resting panel needs a shadow to be understood, its border or hierarchy is wrong.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do default to the latest report and keep company and quarter selectors globally visible.",
+      "Do use semantic tables whenever values share columns or require comparison.",
+      "Do preserve 10–14px product typography, tabular numerals, and one-pixel structural rules.",
+      "Do group all nine modules into the same three-stage evidence chain.",
+      "Do provide visible focus states, reduced-motion behavior, and text labels for positive, negative, and neutral states."
+    ],
+    "donts": [
+      "Don't reproduce the old page's portfolio-style oversized headline, saturated purple-and-yellow marketing feel, or dark campaign sections.",
+      "Don't create a card wall or wrap every datum in an independent rounded card.",
+      "Don't use SaaS landing-page slogans, decorative gradients, glass navigation, or heavy shadows.",
+      "Don't scatter decorative pill labels across the interface; status labels must describe a real state.",
+      "Don't invent non-standard selectors, tables, or navigation for flavor.",
+      "Don't use company identity colors as application-wide accents."
+    ]
+  }
+}
