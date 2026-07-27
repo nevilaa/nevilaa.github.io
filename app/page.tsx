@@ -1121,6 +1121,10 @@ function ReportOverview({ data }: { data: ReportData }) {
 }
 
 function MethodAndSources({ data }: { data: ReportData }) {
+  const externalSources = data.sources.filter((source) =>
+    /^https?:\/\//.test(source.url),
+  );
+
   return (
     <>
       <section className="method-section" id="method">
@@ -1163,7 +1167,7 @@ function MethodAndSources({ data }: { data: ReportData }) {
           <p>{data.report.disclaimer}</p>
         </div>
         <div className="source-list">
-          {data.sources.map((source, index) => (
+          {externalSources.map((source, index) => (
             <a
               href={source.url}
               target="_blank"
