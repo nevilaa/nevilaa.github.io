@@ -1,0 +1,491 @@
+{
+  "schemaVersion": "1.0.0",
+  "slug": "kuaishou-2026-q1",
+  "updatedAt": "2026-07-27T17:20:00+08:00",
+  "company": {
+    "name": "快手科技",
+    "nameEn": "Kuaishou",
+    "ticker": "01024.HK",
+    "adrTicker": "KUASF",
+    "brandColor": "#FF5000"
+  },
+  "report": {
+    "title": "快手 2026 Q1：不是增长放慢，而是第二曲线开始接棒",
+    "period": "2026 Q1",
+    "periodEnd": "2026-03-31",
+    "publishedAt": "2026-07-27",
+    "analyzedAt": "2026-07-27",
+    "analysts": ["思航研究"],
+    "framework": "九模块证据链 + 苏格拉底式反证",
+    "disclaimer": "仅供研究学习，不构成投资建议。财务事实以公司公告及港交所文件为准；情景区间是研究假设，不是预测或投资建议。"
+  },
+  "thesis": {
+    "rating": "中性偏积极",
+    "stars": 3,
+    "headline": "快手的核心问题不是收入只有 3.4% 的同比增速，而是直播下滑与成本率上升正在压缩利润；可灵 AI、AI 广告和电商能否以更高质量的增量接棒，决定其从内容平台走向 AI 驱动商业平台的速度。",
+    "coreConflict": "公司正在用更高的技术和履约投入培育 AI 与电商增长，但国内分部经营利润同比下滑 28.8%，这要求新增商业化效率必须快于成本率上升。",
+    "falsifiableSignal": "若下一季度线上营销和其他服务仍增长、但毛利率继续低于 51.2%，且国内分部利润没有企稳，则“AI 增量正在改善经营杠杆”的判断应被下调。",
+    "priceAtAnalysis": 45.28,
+    "priceCurrency": "HKD（2026-05-27 收盘）",
+    "valuationContext": "未使用未经授权的卖方一致预期或估值数据。市场反应只作为信息变量：业绩披露日股价约跌 0.88%，说明市场没有仅因 AI 叙事而忽略利润率压力。",
+    "strategicSummary": {
+      "primaryDifficulty": "快手当前最难的不是获取更多流量，而是在直播收入同比下滑 13.5%、毛利率下降 3.4 个百分点时，证明 AI 和电商商业化的增量能够覆盖更高的成本与投入。",
+      "strategicJudgment": "管理层的资源配置正在从单一内容流量变现走向“AI 能力—商家效率—电商交易”的闭环。关键不在于可灵 AI 的收入跑得多快，而在于它能否同时成为独立收入来源和核心业务效率引擎。",
+      "currentChallenges": [
+        {
+          "title": "直播下滑与利润率收缩同时发生",
+          "evidence": "直播收入 85 亿元，同比 -13.5%；毛利率 51.2%，较去年同期下降 3.4 个百分点；经调整净利润 33.74 亿元，同比 -26.3%。",
+          "implication": "传统高毛利现金流业务回落时，新业务的增长不能只补收入，还要证明其成本结构。"
+        },
+        {
+          "title": "国内分部的增长没有同步转化为利润",
+          "evidence": "国内分部收入同比 +4.0% 至 325.54 亿元，但经营利润同比 -28.8% 至 30.93 亿元。",
+          "implication": "核心经营杠杆转弱，下一季度须观察广告和电商效率能否抵消成本率上行。"
+        },
+        {
+          "title": "海外业务从盈利重新转为微亏",
+          "evidence": "海外分部收入同比 -11.6% 至 11.62 亿元，经营结果从去年同期盈利 0.28 亿元变为亏损 0.31 亿元。",
+          "implication": "海外仍是期权而非稳定利润来源，不能用长期叙事替代短期单位经济验证。"
+        }
+      ],
+      "futureDirections": [
+        {
+          "title": "把 AI 变成“发动机”，而不是展示柜",
+          "rationale": "可灵 AI 一季度收入超过 6.5 亿元、同比增长超过 300%，并已被用于广告创意、投放、搜索和组织效率。",
+          "managementSignal": "公司披露 AI 约为国内线上营销服务收入带来 3%–4% 的增长，并推动电商搜索 GMV 增量约 3%。",
+          "validation": "可灵收入增速、广告 AI 对收入的增量贡献，以及毛利率是否随规模改善。"
+        },
+        {
+          "title": "从流量经营走向全域电商经营",
+          "rationale": "品牌商、商家供给和货架搜索共同提升，目的是让交易不只依赖内容推荐场景。",
+          "managementSignal": "活跃营销商家同比 +38%，品牌商营销消耗同比 +42%；电商意图搜索 PV 同比 +11%。",
+          "validation": "品牌商增长是否继续、搜索和商城买家增长能否转化为更稳定的 GMV 与广告变现。"
+        },
+        {
+          "title": "以更克制的海外扩张保留长期选择权",
+          "rationale": "海外业务在巴西聚焦获客效率、内容垂类和广告产品，而不是以规模换规模。",
+          "managementSignal": "公司称巴西 DAU 与时长环比保持稳定，并持续优化用户获取效率与用户结构。",
+          "validation": "海外收入能否恢复增长，经营结果能否从微亏重新转正。"
+        }
+      ]
+    }
+  },
+  "keyMetrics": [
+    {
+      "id": "revenue",
+      "label": "总收入",
+      "value": 337.16,
+      "unit": "亿元",
+      "yoy": 3.4,
+      "qoqText": "环比 -14.8%（季节性及业务组合共同影响）",
+      "result": "低个位数增长",
+      "tone": "neutral"
+    },
+    {
+      "id": "gross-margin",
+      "label": "毛利率",
+      "value": 51.2,
+      "unit": "%",
+      "yoyText": "同比 -3.4pp",
+      "qoqText": "环比 -4.0pp",
+      "result": "成本率上行",
+      "tone": "negative"
+    },
+    {
+      "id": "adjusted-profit",
+      "label": "经调整净利润",
+      "value": 33.74,
+      "unit": "亿元",
+      "yoy": -26.3,
+      "qoqText": "环比 -38.2%",
+      "result": "利润承压",
+      "tone": "negative"
+    },
+    {
+      "id": "kling-revenue",
+      "label": "可灵 AI 收入",
+      "value": 6.5,
+      "unit": "亿元以上",
+      "yoyText": "同比 +300% 以上",
+      "result": "第二曲线已商业化",
+      "tone": "positive"
+    },
+    {
+      "id": "dau",
+      "label": "快手 App 平均 DAU",
+      "value": 4.127,
+      "unit": "亿",
+      "yoy": 1.2,
+      "result": "用户规模稳住",
+      "tone": "neutral"
+    }
+  ],
+  "segments": [
+    {
+      "id": "domestic",
+      "name": "国内",
+      "revenue": 325.54,
+      "revenueUnit": "亿元",
+      "revenueYoy": 4.0,
+      "operatingProfit": 30.93,
+      "operatingProfitUnit": "亿元",
+      "priorYearOperatingProfit": 43.45,
+      "priorQuarterOperatingProfit": 60.65,
+      "margin": 9.5,
+      "priorYearMargin": 13.9,
+      "summary": "收入增长但利润率显著回落。AI 广告、电商和可灵提供增量，尚未完全抵消直播下滑与成本压力。"
+    },
+    {
+      "id": "overseas",
+      "name": "海外",
+      "revenue": 11.62,
+      "revenueUnit": "亿元",
+      "revenueYoy": -11.6,
+      "operatingProfit": -0.31,
+      "operatingProfitUnit": "亿元",
+      "priorYearOperatingProfit": 0.28,
+      "priorQuarterOperatingProfit": -0.59,
+      "margin": -2.7,
+      "priorYearMargin": 2.1,
+      "summary": "巴西经营指标环比稳定，但收入同比下降且经营结果回到微亏，仍须以效率而非规模评估。"
+    }
+  ],
+  "revenuePresentation": {
+    "changed": false,
+    "description": "本期仍按线上营销服务、直播和其他服务披露；公司未在公告中披露收入列报口径变更。",
+    "items": [
+      {
+        "name": "线上营销服务",
+        "detail": "AI 覆盖素材生成、投放、分析等全链路，并提升客户投放效率。",
+        "value": 196,
+        "unit": "亿元",
+        "yoy": 9.3
+      },
+      {
+        "name": "直播",
+        "detail": "公司优先建设健康生态与高质量内容；收入下滑仍是本季利润压力的重要来源。",
+        "value": 85,
+        "unit": "亿元",
+        "yoy": -13.5
+      },
+      {
+        "name": "其他服务",
+        "detail": "增长主要由可灵 AI 驱动，同时包含以电商为主的服务。",
+        "value": 56,
+        "unit": "亿元",
+        "yoy": 15.9
+      }
+    ]
+  },
+  "analysisLayers": [
+    {
+      "id": "business",
+      "index": 1,
+      "title": "业务拆解",
+      "question": "增长由量、价还是货币化驱动？",
+      "verdict": "增长不是由单一流量扩张带动，而是由 AI 提升广告效率、商家供给扩张和可灵 AI 商业化共同接棒；但直播收入的下降说明旧引擎仍在减速。",
+      "items": [
+        {
+          "name": "线上营销服务",
+          "volume": "DAU +1.2%；活跃营销商家 +38%",
+          "price": "平均每 DAU 广告收入 47.6 元，去年同期 44.1 元",
+          "effect": "收入 196 亿元，同比 +9.3%；AI 约贡献国内广告收入 3%–4% 增量"
+        },
+        {
+          "name": "电商",
+          "volume": "电商意图搜索 PV +11%；3 月商城新老买家 +36%",
+          "price": "品牌商营销消耗 +42%，全站推广成为主要投放产品",
+          "effect": "从内容交易延伸至搜索与商城，增长质量仍需 GMV 与变现率后续验证"
+        },
+        {
+          "name": "可灵 AI",
+          "volume": "专业创作者和企业场景渗透扩大",
+          "price": "3 月 ARR 约 5 亿美元",
+          "effect": "收入超 6.5 亿元、同比 +300% 以上，已成为可见的收入曲线"
+        },
+        {
+          "name": "直播",
+          "volume": "继续经营高质量内容与主播供给",
+          "price": "AI 礼物、互动工具提升付费体验",
+          "effect": "收入 85 亿元、同比 -13.5%，短期仍拖累整体增长和利润结构"
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "index": 2,
+      "title": "成本效率",
+      "question": "利润变化发生在哪一条费用线上？",
+      "verdict": "利润承压的核心不只是营销投放，而是销售成本增速快于收入：成本率同比上升 3.4 个百分点，足以使毛利率从 54.6% 降至 51.2%。",
+      "expenses": [
+        {
+          "name": "销售成本",
+          "value": 164.67,
+          "unit": "亿元",
+          "yoy": 11.1,
+          "revenueShare": 48.8,
+          "shareChangePp": 3.4
+        },
+        {
+          "name": "销售及营销开支",
+          "value": 103.33,
+          "unit": "亿元",
+          "yoy": 4.4,
+          "revenueShare": 30.6,
+          "shareChangePp": 0.3
+        },
+        {
+          "name": "研发开支",
+          "value": 36.21,
+          "unit": "亿元",
+          "yoy": 9.8,
+          "revenueShare": 10.7,
+          "shareChangePp": 0.6
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "index": 3,
+      "title": "现金与资产",
+      "question": "现金流与资产负债表是否验证利润？",
+      "verdict": "公司披露期末可利用资金 1,177 亿元，流动性充足；但本次公开研究未对经营现金流、资本开支与自由现金流作推断，不能把充裕现金误读为本季利润质量已获验证。",
+      "dataStatus": "部分覆盖 · 可利用资金已披露，现金流与资本开支不作未核验推断",
+      "watchItems": [
+        "下一期补齐经营现金流、资本开支、自由现金流与营运资本的原始披露。",
+        "追踪 AI 基础设施与可灵 AI 扩张是否推高资本开支和销售成本。",
+        "回购：截至 5 月 27 日，公司累计回购约 1,795.6 万股、总对价 8.54 亿港元。"
+      ]
+    },
+    {
+      "id": "management",
+      "index": 4,
+      "title": "管理层信号",
+      "question": "强调、承诺与回避分别是什么？",
+      "verdict": "管理层的叙事已从“内容平台增长”切换到“AI 贯穿内容、商业与组织”。方向不是把可灵单独做大，而是把模型能力嵌入广告、电商和内部效率；利润率修复的时间表仍未被量化承诺。",
+      "signals": [
+        {
+          "speaker": "程一笑 · CEO",
+          "signal": "推进 AI 战略，通过技术创新促进内容生态繁荣和商业增长",
+          "interpretation": "战略主轴清晰，但这是一项方向性表述，需用后续收入与利润率验证。"
+        },
+        {
+          "speaker": "公司业务披露",
+          "signal": "AI 约推动国内线上营销服务收入增长 3%–4%",
+          "interpretation": "这是本季最可量化的 AI 经营传导：模型能力已开始影响广告收入。"
+        },
+        {
+          "speaker": "公司业务披露",
+          "signal": "OneSearch V2 推动电商搜索业务 GMV 增量约 3%",
+          "interpretation": "AI 的第二条传导路径是交易效率；仍需验证其是否带来持续的变现与利润。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "index": 5,
+      "title": "竞争格局",
+      "question": "短期和长期威胁来自谁？",
+      "verdict": "本次只引用公司披露，未采用未经双源核验的市场份额或竞对补贴数字。可以确认的是：在短视频、直播和电商流量竞争下，快手正在以品牌商、供给、搜索和全域投放提高商家 ROI；这条路径需要同时守住用户体验与商业化效率。",
+      "competitors": [
+        {
+          "name": "短视频与直播同业",
+          "action": "争夺用户时长、主播供给、广告预算和电商商家",
+          "impact": "影响广告价格、直播生态和商家获客成本；本季直播收入同比下滑是需持续跟踪的经营信号",
+          "horizon": "持续"
+        },
+        {
+          "name": "生成式 AI 视频工具同业",
+          "action": "加速模型迭代与专业创作者商业化",
+          "impact": "影响可灵 AI 的定价、留存和获客投入；不能仅以 ARR 叙事替代单位经济",
+          "horizon": "中长期"
+        }
+      ]
+    },
+    {
+      "id": "external",
+      "index": 6,
+      "title": "外部变量",
+      "question": "监管、消费与地缘如何传导？",
+      "verdict": "公司将环境描述为复杂且动态。对本季最直接的外部映射不是抽象宏观判断，而是广告主预算、直播生态治理和海外本地化效率如何同时影响收入结构与成本率。",
+      "shocks": [
+        {
+          "source": "宏观与广告预算",
+          "intensity": "中等",
+          "direction": "双向",
+          "financialTrace": "线上营销收入仍同比 +9.3%，但整体收入只有 +3.4%，表明增长来源更集中。",
+          "nextQuarter": "关注内容消费、生活服务和 AI 应用行业广告需求是否保持。"
+        },
+        {
+          "source": "直播生态治理",
+          "intensity": "高",
+          "direction": "短期承压、长期质量改善",
+          "financialTrace": "直播收入同比 -13.5%，公司明确优先健康生态和高质量内容。",
+          "nextQuarter": "关注直播收入跌幅是否收窄，以及 AI 工具能否提高主播与用户付费效率。"
+        },
+        {
+          "source": "巴西经营环境",
+          "intensity": "中等",
+          "direction": "不确定",
+          "financialTrace": "海外收入同比 -11.6%，经营结果由盈利转为微亏。",
+          "nextQuarter": "关注获客效率、广告产品和电商转化能否令海外经营结果回正。"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "index": 7,
+      "title": "市场定价",
+      "question": "股价在奖励和担心什么？",
+      "verdict": "披露日收盘约下跌 0.88%。这不是对单一数字的定价，而是市场同时看见了可灵 AI 的商业化加速与毛利率、调整后利润的明显下行；因此后续应跟踪利润率而非只跟踪 AI 收入。",
+      "reaction": {
+        "intradayMaxPct": 0,
+        "closePct": -0.88,
+        "bullFactors": ["可灵 AI 一季度收入超过 6.5 亿元、同比增长超过 300%", "线上营销服务同比 +9.3%，AI 已披露对广告增长的可量化贡献", "电商商家与搜索指标改善，增长不只依赖单一内容场景"],
+        "bearFactors": ["毛利率同比下降 3.4 个百分点至 51.2%", "经调整净利润同比下降 26.3%", "直播收入同比下降 13.5%，海外重回微亏"]
+      }
+    },
+    {
+      "id": "future",
+      "index": 8,
+      "title": "情景与验证",
+      "question": "下一季度有哪些概率路径与验证点？",
+      "verdict": "基准情景并不要求直播迅速恢复，而要求广告、电商和可灵的效率增量先使毛利率和国内分部利润止跌。没有成本率修复的收入增长，仍应按低质量增长处理。",
+      "watchlist": [
+        {
+          "metric": "线上营销服务与毛利率",
+          "target": "广告保持中高个位数增长，毛利率不再低于 51.2%",
+          "why": "验证 AI 对广告的增量是否强到足以改善经营杠杆。"
+        },
+        {
+          "metric": "直播收入跌幅",
+          "target": "同比跌幅收窄",
+          "why": "验证生态治理是否已经从收入拖累转向更可持续的供给质量。"
+        },
+        {
+          "metric": "电商搜索与品牌商变现",
+          "target": "品牌商消耗、搜索转化和商城买家继续增长",
+          "why": "验证全域电商能否形成更稳定的商业化入口。"
+        },
+        {
+          "metric": "可灵 AI 与海外单位经济",
+          "target": "可灵收入增长不以更差成本率为代价；海外经营结果改善",
+          "why": "验证两条长期曲线是否开始具备可持续性。"
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "optimistic",
+      "name": "乐观",
+      "probability": 20,
+      "tone": "positive",
+      "triggers": ["广告 AI 效率继续提升", "直播收入跌幅快速收窄", "可灵增长未显著推高成本率"],
+      "coreLocalProfitRange": [3200, 3900],
+      "adjustedNetProfitRange": [3800, 4700],
+      "unit": "RMB 百万元"
+    },
+    {
+      "id": "base",
+      "name": "基准",
+      "probability": 55,
+      "tone": "neutral",
+      "triggers": ["广告和其他服务保持增长", "直播仍承压但不再恶化", "国内利润止跌、海外维持微亏或改善"],
+      "coreLocalProfitRange": [2600, 3300],
+      "adjustedNetProfitRange": [3000, 3900],
+      "unit": "RMB 百万元"
+    },
+    {
+      "id": "pessimistic",
+      "name": "谨慎",
+      "probability": 25,
+      "tone": "negative",
+      "triggers": ["直播下滑继续扩大", "销售成本率继续上升", "海外亏损扩大或广告需求走弱"],
+      "coreLocalProfitRange": [1800, 2600],
+      "adjustedNetProfitRange": [2100, 3000],
+      "unit": "RMB 百万元"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "AI 广告效率继续兑现",
+      "impact": "若广告 AI 的收入增量扩大且毛利率止跌，将同时强化增长质量与经营杠杆。"
+    },
+    {
+      "event": "可灵 AI 商业化与核心业务协同",
+      "impact": "可灵既能带来独立收入，也能降低广告、内容和商家运营的生产成本。"
+    },
+    {
+      "event": "电商全域经营深化",
+      "impact": "搜索、商城、品牌商和全站推广协同，有机会提升交易与广告的可持续性。"
+    }
+  ],
+  "risks": [
+    {
+      "event": "毛利率继续收缩",
+      "impact": "成本率若继续快于收入上升，可灵和广告的收入增长将难以转化为利润。"
+    },
+    {
+      "event": "直播生态恢复慢于预期",
+      "impact": "传统高毛利业务持续收缩会提高新业务补增长、补利润的门槛。"
+    },
+    {
+      "event": "AI 与海外投入的单位经济未验证",
+      "impact": "长期叙事会变成持续投入，进而加大现金流和利润率的不确定性。"
+    }
+  ],
+  "methodology": {
+    "name": "先事实、后解释、再判断：所有推断均给出下一季度可证伪信号。",
+    "principles": [
+      "财务事实优先使用公司 IR 与港交所公告；不以媒体摘要替代原始披露。",
+      "把收入、费用、分部经营结果和经营指标放在同一条传导链中解释。",
+      "把管理层方向、外部变量、情景假设与已披露事实分开呈现。",
+      "不以单一 AI 指标下结论；优先验证其是否改善增长质量与经营杠杆。"
+    ],
+    "workflow": [
+      {
+        "step": 1,
+        "name": "锁定原始披露",
+        "description": "确认报告期、单位、货币与公司/港交所来源。"
+      },
+      {
+        "step": 2,
+        "name": "重算关键变化",
+        "description": "核对同比、环比、利润率和分部经营结果。"
+      },
+      {
+        "step": 3,
+        "name": "寻找经营传导",
+        "description": "把 AI、广告、电商、直播与成本率连接到收入和利润。"
+      },
+      {
+        "step": 4,
+        "name": "反证与情景",
+        "description": "检验替代解释，保留能被下季度数据推翻的结论。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "company",
+      "title": "快手科技：2026 年第一季度未经审核财务业绩（公司 IR）",
+      "url": "https://ir.kuaishou.com/zh-hans/news-releases/news-release-details/kuaishoukejifabu2026niandiyijiduweijingshenhecaiwuyeji"
+    },
+    {
+      "type": "company",
+      "title": "快手科技：2026 Q1 业绩公告（港交所）",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0527/2026052700436.pdf"
+    },
+    {
+      "type": "data",
+      "title": "2026-05-27 市场价格记录（仅用于市场反应）",
+      "url": "https://stockinvest.us/earnings-report/1024.HK"
+    },
+    {
+      "type": "data",
+      "title": "完整研究报告（Kearney 风格润色版）",
+      "url": "/reports/kuaishou-2026-q1.md"
+    }
+  ]
+}

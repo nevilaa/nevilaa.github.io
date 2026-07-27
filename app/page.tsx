@@ -923,9 +923,11 @@ function ReportOverview({ data }: { data: ReportData }) {
             </div>
             <div>
               <dt>市值参考</dt>
-              <dd>
-                {data.thesis.marketCap} {data.thesis.marketCapUnit}
-              </dd>
+              <dd>{
+                typeof data.thesis.marketCap === "number"
+                  ? `${data.thesis.marketCap} ${data.thesis.marketCapUnit ?? ""}`
+                  : "未覆盖"
+              }</dd>
             </div>
           </dl>
         </div>

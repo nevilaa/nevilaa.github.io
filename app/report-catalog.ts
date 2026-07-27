@@ -23,6 +23,19 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "kuaishou-2026-q1",
+    companyId: "kuaishou",
+    companyName: "快手科技",
+    companyNameEn: "Kuaishou",
+    ticker: "01024.HK",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-07-27",
+    endpoint: "/data/kuaishou-2026-q1.json",
+    status: "published",
+  },
+  {
     id: "meituan-2026-q1",
     companyId: "meituan",
     companyName: "美团",

@@ -152,8 +152,8 @@ export type ReportData = {
     falsifiableSignal: string;
     priceAtAnalysis: number;
     priceCurrency: string;
-    marketCap: number;
-    marketCapUnit: string;
+    marketCap?: number;
+    marketCapUnit?: string;
     valuationContext: string;
     strategicSummary?: {
       primaryDifficulty: string;
