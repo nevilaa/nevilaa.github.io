@@ -308,17 +308,21 @@ select:focus-visible {
   background: var(--accent-soft);
 }
 
-.company-monogram {
+.company-icon {
   width: 34px;
   height: 34px;
   display: grid;
+  overflow: hidden;
   place-items: center;
-  border: 1px solid #e5c100;
+  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  background: var(--company);
-  color: #332c00;
-  font-size: 12px;
-  font-weight: 750;
+  background: var(--surface);
+}
+
+.company-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .company-item > span:last-child {

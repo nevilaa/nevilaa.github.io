@@ -6,6 +6,7 @@ export type ReportCatalogEntry = {
   companyName: string;
   companyNameEn: string;
   ticker: string;
+  iconUrl: string;
   fiscalYear: number;
   quarter: "Q1" | "Q2" | "Q3" | "Q4" | "FY";
   periodLabel: string;
@@ -28,6 +29,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "快手科技",
     companyNameEn: "Kuaishou",
     ticker: "01024.HK",
+    iconUrl: "https://www.kuaishou.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
     periodLabel: "2026 Q1",
@@ -41,6 +43,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "美团",
     companyNameEn: "Meituan",
     ticker: "03690.HK",
+    iconUrl: "https://www.meituan.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
     periodLabel: "2026 Q1",
@@ -67,6 +70,7 @@ export const COMPANY_OPTIONS = Array.from(
         name: report.companyName,
         nameEn: report.companyNameEn,
         ticker: report.ticker,
+        iconUrl: report.iconUrl,
       },
     ]),
   ).values(),

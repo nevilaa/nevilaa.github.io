@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Image from "next/image";
 import {
   COMPANY_OPTIONS,
   getDefaultReport,
@@ -406,8 +407,14 @@ function ResearchLibrary({
                 onClick={() => onSelectReport(reports[0].id)}
                 aria-current={active ? "page" : undefined}
               >
-                <span className="company-monogram">
-                  {company.nameEn.slice(0, 1)}
+                <span className="company-icon">
+                  <Image
+                    src={company.iconUrl}
+                    alt=""
+                    width={34}
+                    height={34}
+                    unoptimized
+                  />
                 </span>
                 <span>
                   <strong>{company.name}</strong>

@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      { protocol: "https", hostname: "www.kuaishou.com" },
+      { protocol: "https", hostname: "www.meituan.com" },
+    ],
   },
 };
 
