@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "tencent-2026-q1",
+    companyId: "tencent",
+    companyName: "腾讯控股",
+    companyNameEn: "Tencent Holdings",
+    ticker: "0700.HK",
+    iconUrl: "https://www.tencent.com/favicon.ico",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-07-30",
+    endpoint: "/data/tencent-2026-q1.json",
+    status: "published",
+  },
+  {
     id: "didi-2026-q1",
     companyId: "didi",
     companyName: "滴滴出行",

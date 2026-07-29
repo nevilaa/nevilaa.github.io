@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "slug": "tencent-2026-q1",
+  "updatedAt": "2026-07-30T01:50:00+08:00",
+  "company": {"name":"腾讯控股","nameEn":"Tencent Holdings","ticker":"0700.HK","adrTicker":"TCEHY","brandColor":"#0052D9"},
+  "report": {"title":"腾讯 2026 Q1：AI已进入广告和云，但利润闭环尚待证明","period":"2026 Q1","periodEnd":"2026-03-31","publishedAt":"2026-07-30","analyzedAt":"2026-07-30","analysts":["思航研究"],"framework":"九模块证据链 + 苏格拉底式反证","disclaimer":"仅供研究学习，不构成投资建议。财务事实以公司披露为准；情景区间是研究假设，不是预测或投资建议。"},
+  "thesis": {
+    "rating":"中性偏积极","stars":3,
+    "headline":"关键不在于腾讯收入同比增长9%，而在于广告、游戏和企业服务已经提供了AI投资所需的现金流，但新AI产品仍稀释当期经营利润率；下一阶段必须证明AI能将广告覆盖、云需求和用户入口转化为持续利润。",
+    "coreConflict":"剔除新AI产品后的非国际财务准则经营利润率为43.0%，集团口径为38.5%。现金流解决融资能力，不等于解决AI投入回报；4.5个百分点差距是组合稀释指标，并非AI独立亏损。",
+    "falsifiableSignal":"若下一季度营销服务和企业服务继续增长，且新AI产品对经营利润率的稀释收窄，则“AI投入尚未形成经营杠杆”的判断需要下调；反之则加强。",
+    "priceAtAnalysis":0,"priceCurrency":"0700.HK（未使用未经核验的价格记录）",
+    "valuationContext":"本研究未接入经授权的一致预期或可靠的业绩日市场数据，因此不把短期股价反应当作财报结论。",
+    "strategicSummary": {
+      "primaryDifficulty":"新AI产品的投入与商业化兑现不同步：剔除新AI产品后的经营利润率43.0%，集团口径38.5%，但公司没有披露AI的独立收入或盈利。",
+      "strategicJudgment":"管理层将资源投向广告推荐、云需求、协同办公与基础设施。短期取舍是容忍利润率稀释，换取广告分发、企业客户和模型基础设施的入口。",
+      "currentChallenges":[
+        {"title":"AI投入的利润率稀释尚待收入验证","evidence":"剔除新AI产品后的非国际财务准则经营利润率43.0%，集团口径38.5%；集团利润率同比持平。","implication":"必须同时看到广告、云和协作产品的变现，不能只看模型或产品发布。"},
+        {"title":"社交网络收入存在时点扰动","evidence":"社交网络收入319亿元、同比-2%，公司归因于春节时点影响应用内游戏虚拟道具销售。","implication":"单季下滑不能直接外推为基本盘转弱，需观察后续付费和内容商业化恢复。"},
+        {"title":"资本开支维持高位","evidence":"资本开支319亿元、同比+16%；自由现金流567亿元、同比+20%；期末净现金1,469亿元。","implication":"资金能力足够，但AI资本密度的回报率将成为利润质量的下一道检验。"}
+      ],
+      "futureDirections":[
+        {"title":"把AI嵌入广告闭环","rationale":"营销服务收入同比+20%，AIM+已服务约30%的营销服务总消耗。","managementSignal":"公司称AI推荐能力及微信闭环交易提升广告效果和定价。","validation":"营销服务增长和广告定价继续改善，同时AI利润率稀释收窄。"},
+        {"title":"用企业服务和云需求吸收基础设施投入","rationale":"企业服务收入同比+20%，公司归因于AI云需求和更高定价。","managementSignal":"管理层将Hy3、WorkBuddy及AI云需求与基础设施能力并列强调。","validation":"披露企业服务增速、定价或毛利率改善，而不只描述模型能力。"},
+        {"title":"维持成熟业务的现金流缓冲","rationale":"本土和国际游戏收入分别同比+6%和+13%，视频号使用时长同比+20%。","managementSignal":"管理层持续强调长青游戏、视频号内容和微信交易闭环。","validation":"游戏总收入继续增长，且社交网络收入摆脱春节时点扰动。"}
+      ]
+    }
+  },
+  "keyMetrics":[
+    {"id":"revenue","label":"总收入","value":1964.58,"unit":"亿元","yoy":9,"qoqText":"+1.1%","result":"广告和企业服务拉动","tone":"positive"},
+    {"id":"gross-profit","label":"毛利","value":1112.65,"unit":"亿元","yoy":11,"result":"快于收入增长","tone":"positive"},
+    {"id":"non-ifrs-op","label":"非国际财务准则经营利润","value":756.27,"unit":"亿元","yoy":9,"result":"利润率38.5%，同比持平","tone":"neutral"},
+    {"id":"marketing","label":"营销服务收入","value":381.71,"unit":"亿元","yoy":20,"result":"AI推荐和闭环交易驱动","tone":"positive"},
+    {"id":"free-cash-flow","label":"自由现金流","value":567,"unit":"亿元","yoy":20,"result":"覆盖本季资本开支","tone":"positive"}
+  ],
+  "segments":[],
+  "revenuePresentation":{"changed":false,"description":"腾讯按增值服务、营销服务、金融科技及企业服务披露收入，但未披露主要业务线的单独经营利润；本研究不把未披露利润填入分部表格。","items":[
+    {"name":"增值服务","detail":"收入961.10亿元，同比+4%；本土游戏收入+6%，国际游戏收入+13%。","value":961.1,"unit":"亿元","yoy":4},
+    {"name":"营销服务","detail":"收入381.71亿元，同比+20%；AI推荐和微信闭环交易改善广告效果及定价。","value":381.71,"unit":"亿元","yoy":20},
+    {"name":"金融科技及企业服务","detail":"收入598.85亿元，同比+9%；企业服务收入同比+20%，公司归因于AI云需求及更高定价。","value":598.85,"unit":"亿元","yoy":9},
+    {"name":"口径边界","detail":"剔除新AI产品后的43.0%经营利润率不可视为业务线利润，也不可把与集团38.5%的差距直接等同AI独立亏损。"}
+  ]},
+  "analysisLayers":[
+    {"id":"business","index":1,"title":"业务拆解","question":"增长来自哪里，能否延续？","verdict":"营销服务同比+20%、企业服务同比+20%，广告闭环和AI云需求是本季最强增长线；社交网络同比-2%受春节时点影响，需避免用单季数据外推生态趋势。","items":[
+      {"name":"游戏","volume":"本土游戏收入同比+6%；国际游戏+13%","price":"长青游戏与新作共同拉动","effect":"增值服务收入961.10亿元、同比+4%，仍提供现金流底座。"},
+      {"name":"营销服务","volume":"AIM+服务约30%的营销服务总消耗","price":"AI推荐和微信闭环交易提升广告效果与定价","effect":"收入381.71亿元、同比+20%，是增长最快主线。"},
+      {"name":"企业服务","volume":"AI云需求增加","price":"公司称定价提高","effect":"企业服务收入同比+20%，但未披露独立利润。"}
+    ]},
+    {"id":"cost","index":2,"title":"成本效率","question":"利润变化发生在哪里？","verdict":"毛利同比+11%快于收入+9%，但集团非国际财务准则经营利润率持平于38.5%。剔除新AI产品后为43.0%，说明新产品组合稀释当期利润率；4.5个百分点差距不是AI独立亏损。","expenses":[
+      {"name":"新AI产品利润率楔子","value":4.5,"unit":"个百分点","yoy":0,"revenueShare":0,"shareChangePp":0}
+    ]},
+    {"id":"balance","index":3,"title":"现金与资产","question":"现金流能否支撑投入？","verdict":"资本开支319亿元、同比+16%，自由现金流567亿元、同比+20%，期末净现金1,469亿元。现金流足以覆盖本季投入，但不等于AI回报已成立。","dataStatus":"完整覆盖 · 已披露资本开支、自由现金流和净现金","watchItems":["关注资本开支增速是否继续高于收入和利润增速。","关注广告、企业服务与利润率能否共同验证AI投入回报。"]},
+    {"id":"management","index":4,"title":"管理层信号","question":"资源会投向哪里？","verdict":"Hy3、WorkBuddy、广告推荐和AI云需求被放在同一资源组合。方向是以成熟业务现金流投资AI分发、企业工作流与基础设施，而非只追求独立模型叙事。","signals":[
+      {"speaker":"马化腾 · CEO","signal":"Hy3预览版重新设计了基础设施，并称其表现处于领先水平。","interpretation":"基础设施仍是明确资源投向，需结合资本开支和商业化指标评估。"},
+      {"speaker":"管理层","signal":"WorkBuddy快速增长并保持健康留存；核心业务现金流将支持AI投资和用例。","interpretation":"协作产品和AI用例处于扩张阶段，尚需直接收入或效率指标。"},
+      {"speaker":"管理层","signal":"AI推荐能力和微信闭环交易提升广告效果和定价。","interpretation":"广告是AI投入最先可观察到的商业化场景。"}
+    ]},
+    {"id":"competition","index":5,"title":"竞争格局","question":"竞争怎样传导到业绩？","verdict":"AI竞争正从模型能力延伸至内容创作、广告生产和企业工作流。报告不使用未经双源核验的市场份额或补贴数据，而用广告效果、内容供给和商业化速度跟踪传导。","competitors":[
+      {"name":"字节跳动 Seed","action":"2026年2月发布Seedance 2.0，称其支持文本、图像、音频和视频输入，并上线即梦AI、豆包等平台。","impact":"多模态创作工具会提高短视频、广告和内容创作场景的产品竞争强度；对腾讯的直接财务影响尚未披露。","horizon":"中期"},
+      {"name":"AI内容与广告工具竞品","action":"本研究不采用未经双源核验的份额或投入金额。","impact":"应观察广告主创意效率、视频号内容供给及AI产品商业化速度。","horizon":"持续"}
+    ]},
+    {"id":"external","index":6,"title":"外部变量","question":"哪些外部因素改变表观增速？","verdict":"春节时点影响应用内游戏虚拟道具销售，进而影响社交网络收入。生成式AI竞品迭代是中期变量，但现有证据不足以量化其对腾讯收入的直接影响。","shocks":[
+      {"source":"春节时点与递延确认","intensity":"中等","direction":"短期压低社交网络收入同比","financialTrace":"社交网络收入319亿元、同比-2%；公司归因于春节时点影响应用内游戏虚拟道具销售。","nextQuarter":"观察时点影响消退后的社交网络收入和游戏总收入。"},
+      {"source":"生成式AI产品竞争","intensity":"中等","direction":"内容和广告工具竞争上升","financialTrace":"字节跳动已发布并分发Seedance 2.0；未披露对腾讯的直接收入影响。","nextQuarter":"关注广告效果、视频号内容供给和AI产品商业化速度。"}
+    ]},
+    {"id":"market","index":7,"title":"市场定价","question":"市场应奖励和担心什么？","verdict":"缺少可审计的一致预期和业绩日价格数据，不能把单日波动当作业绩结论。更重要的是比较AI利润率稀释与广告、企业服务增长能否同步改善。","reaction":{"intradayMaxPct":0,"closePct":0,"bullFactors":["营销服务收入同比+20%","企业服务收入同比+20%","自由现金流567亿元、净现金1,469亿元"],"bearFactors":["集团经营利润率同比持平","AI产品独立收入及回报率未披露","资本开支同比+16%"]}},
+    {"id":"future","index":8,"title":"情景与验证","question":"下季有哪些可验证路径？","verdict":"基准情景的核心不是收入单点加速，而是营销服务和企业服务仍增长时，AI产品对经营利润率的稀释不再扩大。情景均为研究假设，不是公司指引。","watchlist":[
+      {"metric":"AI利润率稀释","target":"在收入增长中收窄","why":"区分AI分发与AI利润闭环。"},
+      {"metric":"营销服务","target":"保持较快增长并改善定价","why":"验证广告推荐和交易闭环的商业化。"},
+      {"metric":"企业服务","target":"持续增长并出现毛利或定价证据","why":"验证AI云需求能否吸收基础设施投入。"}
+    ]}
+  ],
+  "scenarios":[
+    {"id":"optimistic","name":"乐观","probability":20,"tone":"positive","triggers":["营销服务保持高双位数增长","企业服务出现定价或毛利改善","AI利润率稀释收窄"],"coreLocalProfitRange":[880,940],"adjustedNetProfitRange":[720,780],"unit":"亿元"},
+    {"id":"base","name":"基准","probability":55,"tone":"neutral","triggers":["广告和企业服务增长温和回落","资本开支维持高位","AI利润率稀释大致稳定"],"coreLocalProfitRange":[820,880],"adjustedNetProfitRange":[680,740],"unit":"亿元"},
+    {"id":"pessimistic","name":"谨慎","probability":25,"tone":"negative","triggers":["广告需求或定价放缓","AI投入继续抬升","社交网络未恢复"],"coreLocalProfitRange":[760,820],"adjustedNetProfitRange":[600,680],"unit":"亿元"}
+  ],
+  "catalysts":[{"event":"AI广告覆盖和定价继续提升","impact":"营销服务保持较快增长且利润率稀释收窄，证明分发开始转成经营杠杆。"},{"event":"AI云需求持续兑现","impact":"企业服务增长、定价或毛利改善，可验证基础设施投入的回报路径。"}],
+  "risks":[{"event":"资本开支和新AI产品投入继续上行","impact":"若广告、云与协作产品没有可量化回报，利润率稀释可能长期化。"},{"event":"春节时点影响后社交网络仍疲弱","impact":"会削弱对游戏道具销售与内容商业化的时点解释。"}],
+  "methodology":{"name":"九模块证据链 + 苏格拉底式反证","principles":["财报事实、推导指标、外部事实、研究推断和情景假设严格区分。","不将AI利润率楔子误读为AI独立亏损。","不以现金余额替代投资回报，不以未经核验的短期价格替代市场定价。"],"workflow":[{"step":1,"name":"官方来源核验","description":"优先使用腾讯官方2026Q1业绩公告。"},{"step":2,"name":"指标重算","description":"核验同比、利润率与AI产品组合稀释指标。"},{"step":3,"name":"反证审视","description":"区分AI分发覆盖与AI利润闭环。"},{"step":4,"name":"情景映射","description":"以广告、企业服务、资本开支和利润率构建三档可验证路径。"}]},
+  "sources":[
+    {"type":"company","title":"Tencent Announces 2026 First Quarter Results","url":"https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf"},
+    {"type":"company","title":"Seedance 2.0 正式发布","url":"https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0?view_from=content_recommend"}
+  ]
+}
