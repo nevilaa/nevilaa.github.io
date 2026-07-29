@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "didi-2026-q1",
+    companyId: "didi",
+    companyName: "滴滴出行",
+    companyNameEn: "DiDi Global",
+    ticker: "DIDIY",
+    iconUrl: "https://website.didiglobal.com/DDlogo.ico",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-07-30",
+    endpoint: "/data/didi-2026-q1.json",
+    status: "published",
+  },
+  {
     id: "kuaishou-2026-q1",
     companyId: "kuaishou",
     companyName: "快手科技",

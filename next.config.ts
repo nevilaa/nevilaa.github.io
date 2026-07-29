@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "www.kuaishou.com" },
       { protocol: "https", hostname: "www.meituan.com" },
+      { protocol: "https", hostname: "website.didiglobal.com" },
     ],
   },
 };

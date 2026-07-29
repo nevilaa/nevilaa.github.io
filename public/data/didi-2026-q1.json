@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "slug": "didi-2026-q1",
+  "updatedAt": "2026-07-30T01:25:00+08:00",
+  "company": {"name":"滴滴出行","nameEn":"DiDi Global","ticker":"DIDIY","adrTicker":"DIDI","brandColor":"#FF6E29"},
+  "report": {"title":"滴滴 2026 Q1：国际规模跑得更快，但利润验证没有跟上","period":"2026 Q1","periodEnd":"2026-03-31","publishedAt":"2026-07-30","analyzedAt":"2026-07-30","analysts":["思航研究"],"framework":"九模块证据链 + 苏格拉底式反证","disclaimer":"仅供研究学习，不构成投资建议。财务事实以公司披露为准；情景区间是研究假设，不是预测或投资建议。"},
+  "thesis": {
+    "rating":"中性偏谨慎","stars":2,
+    "headline":"关键不在于滴滴一季度交易和GTV仍保持双位数增长，而在于国际业务以更快的规模扩张换来了更大的调整后EBITA亏损；中国出行的利润改善能否覆盖这一投入，是下一阶段增长质量的决定变量。",
+    "coreConflict":"中国出行调整后EBITA已升至40亿元，但国际业务GTV同比增长59.5%时，调整后EBITA亏损从1.76亿元扩大至28.85亿元。集团在为可持续海外网络效应投资，还是在购买暂时性规模，尚无财务证据定论。",
+    "falsifiableSignal":"若下一季度国际业务调整后EBITA亏损明显收窄，同时国际GTV和平台销售保持双位数增长，则“国际增长主要靠更差单位经济换取”的判断失效。",
+    "priceAtAnalysis":0,"priceCurrency":"DIDIY（OTC，未使用不可靠的价格记录）",
+    "valuationContext":"滴滴以DIDIY在OTC市场交易，价格发现与成交流动性有限；本报告不使用未经授权的一致预期或把短期股价变动作为结论依据。",
+    "strategicSummary": {
+      "primaryDifficulty":"国际业务的规模扩张尚未转化为可验证的单位经济：国际GTV同比增长59.5%，但调整后EBITA亏损从1.76亿元扩大至28.85亿元。",
+      "strategicJudgment":"管理层把资源投向国际本地化服务、司机和消费者服务基础设施、AI安全能力与自动驾驶部署。取舍是短期利润和现金缓冲，换取海外供给、用户与产品能力的长期密度。",
+      "currentChallenges":[
+        {"title":"国际业务的利润拖累急剧扩大","evidence":"国际调整后EBITA亏损28.85亿元，较上年同期亏损1.76亿元增加约27亿元；公司说明主要原因是激励与营销开支增加。","implication":"国际扩张不能仅凭GTV和订单增速证明成功，下一步必须看到亏损率或获客、供给成本的改善。"},
+        {"title":"集团增长与利润表脱节","evidence":"总收入约587亿元、同比+10.3%，核心平台GTV同比+21.4%，但归母亏损12亿元；调整后EBITA仅2亿元，低于上年同期24亿元。","implication":"规模增长没有同步形成集团经营杠杆，国际投入的边际回报是最关键的解释变量。"},
+        {"title":"中国核心业务要继续承担利润缓冲","evidence":"中国出行调整后EBITA为40亿元，高于上年同期31亿元；但其GTV同比仅+9.9%。","implication":"中国业务既要维持服务和供给投入，又要为国际和新业务提供利润缓冲，资源配置约束变强。"}
+      ],
+      "futureDirections":[
+        {"title":"让国际扩张从补贴驱动转向本地化服务密度","rationale":"国际交易同比+26.9%、GTV同比+59.5%，但亏损同步急剧扩大，扩张效率尚未被证明。","managementSignal":"CEO称将继续深化本地化服务并加强全球布局。","validation":"国际GTV与平台销售仍增长时，调整后EBITA亏损绝对额和亏损率必须收窄。"},
+        {"title":"在中国出行以服务质量守住利润缓冲","rationale":"中国出行调整后EBITA为40亿元，是集团当前最明确的利润来源。","managementSignal":"管理层披露扩建线下服务设施、深化服务类别并升级会员体系。","validation":"中国出行调整后EBITA至少保持同比增长，且平台销售增速不明显低于GTV。"},
+        {"title":"将AI与自动驾驶定位为经营能力投入","rationale":"管理层发布AI出行助手、升级安全系统，并称将加大自动驾驶投资。","managementSignal":"CEO明确把AI安全升级和自动驾驶在中国及国际市场的部署并列为长期投入。","validation":"后续披露应出现安全、服务效率、供给成本或商业化指标，而不应只重复技术叙事。"}
+      ]
+    }
+  },
+  "keyMetrics":[
+    {"id":"revenue","label":"总收入","value":587,"unit":"亿元","yoy":10.3,"result":"增长快于年报期","tone":"positive"},
+    {"id":"transactions","label":"核心平台订单","value":48.02,"unit":"亿单","yoy":13.1,"result":"需求保持增长","tone":"positive"},
+    {"id":"gtv","label":"核心平台 GTV","value":1233,"unit":"亿元","yoy":21.4,"result":"国际组合拉动","tone":"positive"},
+    {"id":"adjusted-ebita","label":"调整后 EBITA","value":2,"unit":"亿元","yoy":-91.7,"result":"集团经营杠杆承压","tone":"negative"},
+    {"id":"international-ebita","label":"国际调整后 EBITA","value":-28.85,"unit":"亿元","yoyText":"亏损同比增加约 27 亿元","result":"增长质量待验证","tone":"negative"}
+  ],
+  "segments":[],
+  "revenuePresentation":{"changed":false,"description":"公司本季业绩公告重点披露中国出行和国际业务的订单、GTV、平台销售及调整后EBITA；本公开研究未将未披露的分部收入填入表格。","items":[
+    {"name":"中国出行","detail":"订单 35.47 亿单，同比 +8.9%；GTV 858 亿元，同比 +9.9%；平台销售 196 亿元，同比 +22.2%；调整后 EBITA 40 亿元。"},
+    {"name":"国际业务","detail":"订单 12.55 亿单，同比 +26.9%；GTV 375.75 亿元，同比 +59.5%；平台销售 29.3 亿元，同比 +17.0%；调整后 EBITA 亏损 28.85 亿元。"},
+    {"name":"口径边界","detail":"平台销售是GTV扣除司机和合作伙伴收益、激励、通行费、税费等后的指标，不能机械当作抽佣率。"}
+  ]},
+  "analysisLayers":[
+    {"id":"business","index":1,"title":"业务拆解","question":"增长由量、价还是货币化驱动？","verdict":"核心平台订单同比+13.1%、GTV同比+21.4%，增长由中国业务稳步扩大和国际业务高速扩张共同推动。国际GTV快于订单，披露显示食品配送等更高客单价组合也是原因之一。","items":[
+      {"name":"中国出行","volume":"订单 35.47 亿单，同比 +8.9%","price":"GTV 858 亿元，同比 +9.9%","effect":"平台销售 196 亿元，同比 +22.2%；调整后 EBITA 40 亿元，仍是集团利润缓冲。"},
+      {"name":"国际业务","volume":"订单 12.55 亿单，同比 +26.9%","price":"GTV 375.75 亿元，同比 +59.5%；固定汇率 +49.3%","effect":"平台销售 29.3 亿元，同比 +17.0%，但调整后 EBITA 亏损 28.85 亿元。"},
+      {"name":"平台销售口径","volume":"不适用","price":"GTV扣除司机/伙伴收益、激励及税费等","effect":"不能把平台销售/GTV机械等同为纯抽佣率。"}
+    ]},
+    {"id":"cost","index":2,"title":"成本效率","question":"利润变化发生在哪一条费用线上？","verdict":"本季可核验材料未提供完整逐项费用表。可确认的是，国际调整后EBITA亏损扩大主要由司机和合作伙伴激励及营销开支增加导致；这不是完整利润桥。","expenses":[
+      {"name":"国际激励及营销","value":0,"unit":"本季未披露绝对额","yoy":0,"revenueShare":0,"shareChangePp":0}
+    ]},
+    {"id":"balance","index":3,"title":"现金与资产","question":"现金流与资产负债表是否验证利润？","verdict":"期末现金、现金等价物及库藏投资合计487亿元，提供继续投入的流动性缓冲；但公开材料未形成经营现金流、资本开支和自由现金流的完整季度桥，不能用现金余额替代现金创造能力。","dataStatus":"部分覆盖 · 已披露现金及库藏投资，现金流与资本开支不作未核验推断","watchItems":["补齐后续季度的经营现金流、资本开支、自由现金流及营运资本原始披露。","跟踪国际投入是否开始通过亏损率收窄转化为更好的现金回报。"]},
+    {"id":"management","index":4,"title":"管理层信号","question":"强调、承诺与回避分别是什么？","verdict":"管理层把AI出行助手、安全升级、线下服务、会员体系、国际本地化与自动驾驶放在同一资源组合中。方向清晰，但本季尚未给出AI和自动驾驶对利润或效率的量化兑现指标。","signals":[
+      {"speaker":"程维 · CEO","signal":"继续深化国际市场的本地化服务并强化全球布局。","interpretation":"国际扩张仍是明确的资源投向，下一步须看亏损率而不只看GTV。"},
+      {"speaker":"程维 · CEO","signal":"推出AI出行助手并升级安全管理系统。","interpretation":"AI目前首先被定位为服务和安全能力，而非短期独立利润线。"},
+      {"speaker":"程维 · CEO","signal":"加大自动驾驶技术投资并加速在中国和国际市场部署。","interpretation":"长期技术投入会与短期利润目标形成资源取舍。"}
+    ]},
+    {"id":"competition","index":5,"title":"竞争格局","question":"短期和长期威胁来自谁？","verdict":"国际竞争已从单一出行产品延伸到会员、配送和技术能力组合。不能用未经双源核验的市场份额数据下结论，但可追踪竞对已完成的具体动作及其对供给、频次、获客成本的传导。","competitors":[
+      {"name":"Uber","action":"Q1 2026 Uber One会员达到5,000万，会员贡献其Mobility和Delivery总预订额约一半；公司称将以资本效率方式投资自动驾驶和AI。","impact":"在业务重叠的国际市场，会员与多场景服务会影响用户频次、供给留存和获客成本；滴滴需以国际平台销售与EBITA亏损率验证应对效果。","horizon":"中期"},
+      {"name":"国际本地平台","action":"本季未使用未经双源核验的具体份额或补贴金额。","impact":"本地供给和监管优势会传导至司机激励、营销支出和订单密度。","horizon":"持续"}
+    ]},
+    {"id":"external","index":6,"title":"外部变量","question":"监管、消费与地缘如何传导？","verdict":"国际GTV报告口径同比+59.5%，固定汇率口径+49.3%，表明汇率对表观增速有正向影响。海外本地监管、供给与汇率会通过激励、营销和订单结构影响单位经济。","shocks":[
+      {"source":"汇率与业务组合","intensity":"中等","direction":"报告增速高于固定汇率增速","financialTrace":"国际GTV报告口径 +59.5%，固定汇率 +49.3%。","nextQuarter":"同时跟踪报告与固定汇率GTV，并以EBITA亏损率验证质量。"},
+      {"source":"海外本地化与供给竞争","intensity":"高","direction":"短期成本上行风险","financialTrace":"公司归因于国际激励和营销增加，国际EBITA亏损扩大。","nextQuarter":"国际订单和GTV增长时，激励与营销投入是否开始下降或更有效率。"}
+    ]},
+    {"id":"market","index":7,"title":"市场定价","question":"股价在奖励和担心什么？","verdict":"DIDIY为OTC交易，公开价格记录和流动性有限。本研究不将单日价格反应作为业绩定价结论；市场判断应聚焦国际投入能否形成亏损收窄。","reaction":{"intradayMaxPct":0,"closePct":0,"bullFactors":["中国出行调整后EBITA同比改善","核心平台交易和GTV持续双位数增长","现金及库藏投资487亿元"],"bearFactors":["国际调整后EBITA亏损急剧扩大","集团调整后EBITA显著下滑","OTC流动性限制价格信号"]}},
+    {"id":"future","index":8,"title":"情景与验证","question":"下一季度有哪些概率路径与验证点？","verdict":"基准情景的核心不是收入加速，而是国际亏损停止恶化。情景均为研究假设，不是公司指引。","watchlist":[
+      {"metric":"国际调整后 EBITA","target":"在国际GTV和平台销售继续增长时，亏损绝对额与亏损率收窄","why":"区分可持续网络密度与补贴驱动规模。"},
+      {"metric":"中国出行调整后 EBITA","target":"同比继续改善","why":"验证核心业务能否维持利润缓冲。"},
+      {"metric":"AI与自动驾驶量化指标","target":"披露安全、效率、供给成本或商业化结果","why":"验证技术资源投入是否进入经营系统。"}
+    ]}
+  ],
+  "scenarios":[
+    {"id":"optimistic","name":"乐观","probability":20,"tone":"positive","triggers":["国际GTV保持双位数增长","国际调整后EBITA亏损显著收窄","中国出行EBITA继续同比改善"],"coreLocalProfitRange":[42,50],"adjustedNetProfitRange":[12,25],"unit":"亿元"},
+    {"id":"base","name":"基准","probability":55,"tone":"neutral","triggers":["国际GTV继续增长但增速回落","国际亏损在高位趋稳","中国出行EBITA温和增长"],"coreLocalProfitRange":[38,46],"adjustedNetProfitRange":[0,10],"unit":"亿元"},
+    {"id":"pessimistic","name":"谨慎","probability":25,"tone":"negative","triggers":["国际激励和营销继续增加","国际EBITA亏损进一步扩大","中国出行GTV或平台销售走弱"],"coreLocalProfitRange":[30,39],"adjustedNetProfitRange":[-18,-5],"unit":"亿元"}
+  ],
+  "catalysts":[{"event":"国际增长中的亏损收窄","impact":"若国际GTV、平台销售增长与EBITA亏损收窄同步出现，增长质量判断可上调。"},{"event":"中国出行利润持续改善","impact":"核心利润缓冲增强，可降低集团投入对经营杠杆的压力。"}],
+  "risks":[{"event":"国际激励与营销持续加码","impact":"国际规模增长继续以更差单位经济换取，拖累集团调整后利润。"},{"event":"技术投入缺少量化兑现","impact":"AI和自动驾驶投入只停留在叙事层，不能改善安全、服务效率或成本。"}],
+  "methodology":{"name":"九模块证据链 + 苏格拉底式反证","principles":["财报事实、推导指标、外部事实、研究推断和情景假设严格区分。","不以现金余额替代自由现金流，不以OTC短期价格替代市场定价。","所有核心推断都给出下一季度可证伪指标。"],"workflow":[{"step":1,"name":"官方来源核验","description":"优先使用公司IR Q1业绩公告与SEC 20-F。"},{"step":2,"name":"指标重算","description":"核验同比、分部盈利与口径边界。"},{"step":3,"name":"反证审视","description":"用国际亏损率检验增长质量，而不只复述GTV。"},{"step":4,"name":"情景映射","description":"以中国出行EBITA和集团EBITA构建三档可验证路径。"}]},
+  "sources":[
+    {"type":"company","title":"DiDi Announces Results for First Quarter 2026","url":"https://ir.didiglobal.com/static-files/ecefa64e-9101-4928-a628-89a2eeed2fd0"},
+    {"type":"company","title":"DiDi Global 2025 Form 20-F","url":"https://www.sec.gov/Archives/edgar/data/1764757/000110465926042350/didi-20251231x20f.htm"},
+    {"type":"company","title":"Uber Announces Results for First Quarter 2026","url":"https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-First-Quarter-2026/default.aspx"}
+  ]
+}
