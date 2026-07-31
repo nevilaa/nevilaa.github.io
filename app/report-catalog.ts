@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "alibaba-2026-fy",
+    companyId: "alibaba",
+    companyName: "阿里巴巴集团",
+    companyNameEn: "Alibaba Group",
+    ticker: "9988.HK",
+    iconUrl: "https://www.alibaba.com/favicon.ico",
+    fiscalYear: 2026,
+    quarter: "FY",
+    periodLabel: "2026 FY",
+    publishedAt: "2026-07-31",
+    endpoint: "/data/alibaba-2026-fy.json",
+    status: "published",
+  },
+  {
     id: "tencent-2026-q1",
     companyId: "tencent",
     companyName: "腾讯控股",

@@ -1,0 +1,626 @@
+{
+  "schemaVersion": "site-1.0.0",
+  "slug": "alibaba-2026-fy",
+  "updatedAt": "2026-07-31T19:30:00+08:00",
+  "company": {
+    "name": "阿里巴巴集团",
+    "nameEn": "Alibaba Group Holding",
+    "ticker": "9988.HK",
+    "adrTicker": "BABA",
+    "brandColor": "#FF6A00"
+  },
+  "report": {
+    "title": "阿里巴巴 FY2026：AI云与即时零售吃掉当期利润，现金流成为下一道考题",
+    "period": "2026 FY",
+    "periodEnd": "2026-03-31",
+    "publishedAt": "2026-07-31",
+    "analyzedAt": "2026-07-31",
+    "analysts": [
+      "思航研究"
+    ],
+    "framework": "九模块证据链 + 苏格拉底式反证",
+    "disclaimer": "仅供研究学习，不构成投资建议。财务事实以公司披露为准；情景区间、研究推断与市场反应归因均为研究假设，不代表预测或交易建议。"
+  },
+  "thesis": {
+    "rating": "中性偏谨慎",
+    "stars": 2,
+    "headline": "关键不在于阿里收入能否增长，而在于投入换增长的现金循环是否成立：AI+云与即时零售正在把当期利润和自由现金流变成增长，但下一财年必须同时证明云外部收入增速、AI产品占比和自由现金流方向。",
+    "coreConflict": "增长真实性已被云和AIDC证明，但现金流与利润率尚未被证明；市场必须在“AI+云重估”与“FCF与资本开支风险”之间选择锚。自由现金流-466.09亿元、云EBITA利润率仅9.0%，是当前最大反证。",
+    "falsifiableSignal": "若2026年8月左右的Q1 FY2027财报显示云外部增速≥30%、AI产品占外部云收入≥30%且自由现金流缺口收窄，结论转向积极；若FCF缺口扩大且销售费用率继续高于23%，结论下调。",
+    "priceAtAnalysis": 145.81,
+    "priceCurrency": "USD（BABA ADR，2026-05-13收盘）",
+    "valuationContext": "业绩日BABA ADR收盘145.81美元（+8.2%），随后两个交易日回落至132.59美元（-9.1%）；9988.HK次一交易日137.90港元（+3.8%）。本报告未使用经授权的一致预期，此为低置信度市场观察。",
+    "strategicSummary": {
+      "primaryDifficulty": "把AI+云与即时零售投入转成经营现金流：经营现金流762.13亿元（-53%），资本开支/经营现金流约165%，自由现金流-466.09亿元。",
+      "strategicJudgment": "管理层把资源投向AI+云基础设施和消费体验：资本开支+47%、销售费用+70%、发债融资，同时把年度股息从每股ADS 2.00美元降至1.05美元、回购从866.62亿元骤降至约10亿美元。",
+      "currentChallenges": [
+        {
+          "title": "现金循环未闭合",
+          "evidence": "FY经营现金流762.13亿元（-53%），资本开支1,260.63亿元（+47%），自由现金流-466.09亿元（上年+738.70亿元）。",
+          "implication": "继续高投入需要债务、现金余额下降或股东回报让渡，财务弹性被逐年消耗。"
+        },
+        {
+          "title": "补贴与销售费用把增长和费用捆在一起",
+          "evidence": "Q4 CMR报表口径+1%、同口径+8%；销售费用率FY23.9%（+9.4pp），新业务发展计划把补贴从销售费用改为收入冲减。",
+          "implication": "只看同口径CMR会高估货币化质量，需同时跟踪S&M/CMR比率。"
+        },
+        {
+          "title": "AI云收入增长尚未形成利润率杠杆",
+          "evidence": "云收入+34%，AI相关产品占外部云收入30%，但云调整后EBITA利润率仅9.0%（上年8.9%）。",
+          "implication": "AI相关产品可能是低毛利算力而非高毛利模型/代理服务，利润率是验证AI变现质量的核心。"
+        }
+      ],
+      "futureDirections": [
+        {
+          "title": "AI+云商业化：外部云收入与AI产品占比优先",
+          "rationale": "云外部收入Q4+40%、AI相关产品连续11个季度三位数增长，是全集团增速最高的主引擎。",
+          "managementSignal": "CEO称“from incubation to commercialization at scale”；CFO称“continue to invest in AI + Cloud”。",
+          "validation": "云外部收入增速≥30%且AI相关产品占外部云收入≥30%，同时云EBITA利润率向上。"
+        },
+        {
+          "title": "消费体验：即时零售与88VIP留存",
+          "rationale": "即时零售FY+47%、Q4+57%，88VIP超过6,200万，单位经济与AOV环比改善。",
+          "managementSignal": "CFO称quick commerce unit economics和AOV steadily improved。",
+          "validation": "即时零售收入增速、AOV与分部亏损收窄同时成立，而非只靠补贴冲量。"
+        },
+        {
+          "title": "国际业务接近盈亏平衡并继续扩品类",
+          "rationale": "AIDC FY亏损从151.37亿元收窄至20.51亿元，Q4仅亏损1.38亿元；AliExpress Brand+渗透率超30%。",
+          "managementSignal": "公司称unit economics substantially improved、approaching break-even。",
+          "validation": "AIDC单季EBITA转正且收入保持双位数增长。"
+        }
+      ]
+    }
+  },
+  "keyMetrics": [
+    {
+      "id": "revenue",
+      "label": "总收入",
+      "value": 10236.7,
+      "unit": "亿元",
+      "yoy": 3,
+      "yoyText": "+3%（同口径+11%）",
+      "result": "云与即时零售拉动，报表增速受高鑫/银泰出售拖累",
+      "tone": "neutral"
+    },
+    {
+      "id": "adjusted-ebita",
+      "label": "调整后EBITA",
+      "value": 764.16,
+      "unit": "亿元",
+      "yoy": -56,
+      "result": "利润率7.5%，Q4仅51.02亿元",
+      "tone": "negative"
+    },
+    {
+      "id": "non-gaap-ni",
+      "label": "非GAAP净利润",
+      "value": 606.58,
+      "unit": "亿元",
+      "yoy": -62,
+      "result": "Q4仅0.86亿元（-100%）",
+      "tone": "negative"
+    },
+    {
+      "id": "fcf",
+      "label": "自由现金流",
+      "value": -466.09,
+      "unit": "亿元",
+      "yoyText": "上年+738.70亿元",
+      "result": "资本开支/经营现金流约165%",
+      "tone": "negative"
+    },
+    {
+      "id": "cloud-revenue",
+      "label": "云智能收入",
+      "value": 1581.32,
+      "unit": "亿元",
+      "yoy": 34,
+      "result": "外部客户+33%，Q4外部+40%",
+      "tone": "positive"
+    },
+    {
+      "id": "cmr",
+      "label": "客户管理收入",
+      "value": 3438.67,
+      "unit": "亿元",
+      "yoy": 5,
+      "yoyText": "+5%（同口径+7%）",
+      "result": "货币化率改善，但受补贴冲减口径影响",
+      "tone": "positive"
+    },
+    {
+      "id": "capex",
+      "label": "资本开支",
+      "value": 1260.63,
+      "unit": "亿元",
+      "yoy": 47,
+      "result": "资本承诺541.36亿元",
+      "tone": "neutral"
+    }
+  ],
+  "segments": [
+    {
+      "id": "china-ecommerce",
+      "name": "阿里中国电商",
+      "revenue": 554217,
+      "revenueUnit": "百万元",
+      "revenueYoy": 9,
+      "operatingProfit": 107509,
+      "operatingProfitUnit": "百万元",
+      "priorYearOperatingProfit": 193223,
+      "priorQuarterOperatingProfit": 24010,
+      "margin": 19.4,
+      "priorYearMargin": 38.0,
+      "summary": "CMR+5%（同口径+7%），即时零售+47%；EBITA-44%，主因补贴与体验投入。"
+    },
+    {
+      "id": "aidc",
+      "name": "国际数字商业",
+      "revenue": 144170,
+      "revenueUnit": "百万元",
+      "revenueYoy": 9,
+      "operatingProfit": -2051,
+      "operatingProfitUnit": "百万元",
+      "priorYearOperatingProfit": -15137,
+      "priorQuarterOperatingProfit": -138,
+      "margin": -1.4,
+      "priorYearMargin": -11.4,
+      "summary": "Q4亏损收窄至1.38亿元，接近盈亏平衡；AliExpress效率改善。"
+    },
+    {
+      "id": "cloud",
+      "name": "云智能",
+      "revenue": 158132,
+      "revenueUnit": "百万元",
+      "revenueYoy": 34,
+      "operatingProfit": 14265,
+      "operatingProfitUnit": "百万元",
+      "priorYearOperatingProfit": 10556,
+      "priorQuarterOperatingProfit": 3796,
+      "margin": 9.0,
+      "priorYearMargin": 8.9,
+      "summary": "外部客户+33%，AI相关产品占外部云收入30%，利润率微升。"
+    },
+    {
+      "id": "all-others",
+      "name": "其他（含Qwen、菜鸟、盒马等）",
+      "revenue": 254367,
+      "revenueUnit": "百万元",
+      "revenueYoy": -25,
+      "operatingProfit": -35737,
+      "operatingProfitUnit": "百万元",
+      "priorYearOperatingProfit": -9499,
+      "priorQuarterOperatingProfit": -21160,
+      "margin": -14.0,
+      "priorYearMargin": -2.8,
+      "summary": "高鑫/银泰出表、菜鸟收入下降；Qwen获客与商誉减值扩大亏损。"
+    }
+  ],
+  "revenuePresentation": {
+    "changed": true,
+    "description": "FY2026分部口径发生两次实质变化：补贴由销售费用改列CMR收入冲减；淘宝天猫、饿了么、飞猪合并为阿里中国电商，菜鸟、高德、互娱改列All others。",
+    "items": [
+      {
+        "name": "新业务发展计划",
+        "detail": "平台补贴由销售费用改列CMR冲减，Q4 CMR报表口径+1%、同口径+8%；销售费用率同步+6.6pp。"
+      },
+      {
+        "name": "分部重构",
+        "detail": "FY2026起中国电商集团合并淘宝天猫、饿了么、飞猪；菜鸟、高德、互娱改列All others，同比口径已重述。"
+      },
+      {
+        "name": "出售业务",
+        "detail": "高鑫零售与银泰退出并表：报表收入+3%、同口径+11%。"
+      },
+      {
+        "name": "云与AI",
+        "detail": "云智能收入1,581.32亿元（+34%），AI相关产品占外部云收入30%。"
+      }
+    ]
+  },
+  "analysisLayers": [
+    {
+      "id": "business",
+      "index": 1,
+      "title": "业务拆解",
+      "question": "增长由量、价还是货币化驱动？",
+      "verdict": "增长引擎已切换为云智能（FY+34%、Q4外部+40%）和即时零售（FY+47%）；CMR同口径+7%但报表口径被补贴冲减，量的驱动超过价的驱动。",
+      "items": [
+        {
+          "name": "客户管理收入",
+          "volume": "88VIP超6,200万，双位数增长",
+          "price": "货币化率同比改善",
+          "effect": "FY 3,438.67亿元（+5%，同口径+7%）；Q4报表+1%、同口径+8%。"
+        },
+        {
+          "name": "即时零售",
+          "volume": "淘宝闪购2025年4月底上线后订单高增",
+          "price": "AOV与单位经济环比改善",
+          "effect": "FY 785.20亿元（+47%）；Q4 199.88亿元（+57%）。"
+        },
+        {
+          "name": "云智能",
+          "volume": "Model Studio客户数同比+8倍",
+          "price": "MaaS与AI推理需求抬升定价",
+          "effect": "FY 1,581.32亿元（+34%）；Q4外部客户+40%，AI相关产品占30%。"
+        },
+        {
+          "name": "国际数字商业",
+          "volume": "AliExpress Brand+季度交易消费者渗透率超30%",
+          "price": "单位经济与运营效率改善",
+          "effect": "FY 1,441.70亿元（+9%）；Q4 EBITA亏损收窄至1.38亿元。"
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "index": 2,
+      "title": "成本效率",
+      "question": "利润变化发生在哪里？",
+      "verdict": "销售费用是利润表最大单点变量：FY 2,450.23亿元（+70%），费用率23.9%（+9.4pp）；调整后EBITA利润率从17.4%降至7.5%。",
+      "expenses": [
+        {
+          "name": "销售及市场费用",
+          "value": 2450.23,
+          "unit": "亿元",
+          "yoy": 70,
+          "revenueShare": 23.9,
+          "shareChangePp": 9.4
+        },
+        {
+          "name": "产品开发费用",
+          "value": 665.33,
+          "unit": "亿元",
+          "yoy": 16,
+          "revenueShare": 6.5,
+          "shareChangePp": 0.8
+        },
+        {
+          "name": "一般及行政费用",
+          "value": 330.82,
+          "unit": "亿元",
+          "yoy": -25,
+          "revenueShare": 3.2,
+          "shareChangePp": -1.2
+        },
+        {
+          "name": "商誉减值",
+          "value": 95.15,
+          "unit": "亿元",
+          "yoy": 54,
+          "revenueShare": 0.9,
+          "shareChangePp": 0.3
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "index": 3,
+      "title": "现金与资产",
+      "question": "现金流能否支撑投入？",
+      "verdict": "经营现金流762.13亿元（-53%），资本开支1,260.63亿元（+47%），自由现金流-466.09亿元；资本开支/经营现金流约165%，增长由当期利润与股东回报转移支付。",
+      "dataStatus": "已披露经营现金流、资本开支、自由现金流、现金余额、债务比率与资本承诺",
+      "watchItems": [
+        "资本开支/经营现金流约165%，资本开支已超过经营现金流。",
+        "关注云EBITA利润率是否突破10%，验证AI收入经营杠杆。",
+        "关注回购与股息政策：若回购恢复而资本开支仍高，说明投入未挤占股东回报。"
+      ]
+    },
+    {
+      "id": "management",
+      "index": 4,
+      "title": "管理层信号",
+      "question": "资源会投向哪里？",
+      "verdict": "管理层明确把AI+云与消费体验放在资源优先级首位，并以发债、股息下调、回购骤降为代价；公告口径证明云收入与AI占比，未披露AI独立利润或Qwen获客ROI。",
+      "signals": [
+        {
+          "speaker": "Eddie Wu · CEO",
+          "signal": "全栈AI投资已从孵化进入规模化商业化；云外部收入增速加速至40%，AI相关产品占30%；Qwen App完整整合电商能力。",
+          "interpretation": "AI商业化是核心叙事，但公告只披露收入占比，没有独立利润口径。"
+        },
+        {
+          "speaker": "Toby Xu · CFO",
+          "signal": "云收入继续加速，AI相关产品收入连续第11个季度三位数增长；CMR同口径+8%；即时零售单位经济和AOV改善；将继续投资AI + Cloud。",
+          "interpretation": "CFO把云、AI和即时零售单位经济放在同一验证组合，暗示补贴要换单位经济改善。"
+        },
+        {
+          "speaker": "资源信号",
+          "signal": "员工+5.7%、资本开支+47%、销售费用+70%、资本承诺541.36亿元；年度股息从2.00美元/ADS降至1.05美元/ADS，回购降至约10亿美元。",
+          "interpretation": "钱和人都流向AI+云与消费体验，股东现金回报排在投入之后。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "index": 5,
+      "title": "竞争格局",
+      "question": "短期和长期威胁来自谁？",
+      "verdict": "PDD/京东争夺电商钱包与即时零售，腾讯/字节争夺广告与AI入口；京东零售利润率创纪录、PDD交易服务+20%、腾讯营销与企业服务+20%是具体竞争动作。",
+      "competitors": [
+        {
+          "name": "京东",
+          "action": "2026Q1净收入3,157亿元（+4.9%），京东零售经营利润率5.6%创纪录；外卖亏损环比显著收窄；3月16日Joybuy上线欧洲六国。",
+          "impact": "即时零售补贴强度、3C/家电价格竞争、跨境物流分流。",
+          "horizon": "2026Q2"
+        },
+        {
+          "name": "PDD",
+          "action": "2026Q1总收入1,062亿元（+11%），经营利润196亿元（+22%），交易服务收入+20%；宣布供应链与第一方品牌业务长期投入。",
+          "impact": "低价与跨境份额竞争、广告/交易抽成率压力。",
+          "horizon": "2026Q2"
+        },
+        {
+          "name": "腾讯",
+          "action": "2026Q1营销服务收入+20%、企业服务收入+20%，AI云需求、Hy3基础设施与WorkBuddy为重点。",
+          "impact": "广告预算、企业AI云与协作入口竞争。",
+          "horizon": "2026Q2"
+        },
+        {
+          "name": "字节跳动",
+          "action": "Seedance 2.0于2026年2月正式发布，上线即梦AI、豆包等平台。",
+          "impact": "AI多模态产品、豆包vs Qwen用户与广告入口竞争。",
+          "horizon": "2026Q2"
+        }
+      ]
+    },
+    {
+      "id": "external",
+      "index": 6,
+      "title": "外部变量",
+      "question": "监管、消费与地缘如何传导？",
+      "verdict": "宏观消费疲软（上半年社零+1.3%）限制货币化率抬升空间；AI云需求是主要对冲；美国ICTS云限制与关税是尾部风险，落地将直接压制海外云与跨境物流利润。",
+      "shocks": [
+        {
+          "source": "宏观消费",
+          "intensity": "高",
+          "direction": "社零+1.3%、6月+1.0%，网上商品+4.8%",
+          "financialTrace": "CMR同口径+7%但报表口径被补贴冲减；即时零售靠补贴换量。",
+          "nextQuarter": "若社零增速低于1%且CMR同口径跌破5%，货币化压力上升。"
+        },
+        {
+          "source": "美国ICTS云规则",
+          "intensity": "中高",
+          "direction": "拟议限制中国云在美服务",
+          "financialTrace": "20-F风险因素明示NPRM可能限制云接入美国市场。",
+          "nextQuarter": "规则落地将压制海外云收入与数据中心利用率。"
+        },
+        {
+          "source": "关税与地缘",
+          "intensity": "中",
+          "direction": "中美贸易谈判仍不确定",
+          "financialTrace": "AIDC收入依赖跨境与本地履约；汇率波动使现金减少133.75亿元。",
+          "nextQuarter": "关税升级将抬升跨境物流成本与补贴需求。"
+        },
+        {
+          "source": "欧盟DSA",
+          "intensity": "中",
+          "direction": "AliExpress被认定超大型平台",
+          "financialTrace": "20-F披露更高透明度、审计与合规义务。",
+          "nextQuarter": "合规成本上升，影响跨境业务利润率。"
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "index": 7,
+      "title": "市场定价",
+      "question": "市场应奖励和担心什么？",
+      "verdict": "BABA ADR业绩日+8.2%后两个交易日-9.1%，说明AI叙事被部分定价而FCF担忧未消除；盘中最大幅度未获取，本报告不把短期价格当基本面结论。",
+      "reaction": {
+        "intradayMaxPct": 0,
+        "closePct": 8.2,
+        "bullFactors": [
+          "云外部收入Q4+40%",
+          "AI相关产品占外部云收入30%、连续11季三位数增长",
+          "AIDC接近盈亏平衡",
+          "88VIP超6,200万"
+        ],
+        "bearFactors": [
+          "自由现金流-466.09亿元",
+          "销售费用率23.9%（+9.4pp）",
+          "云EBITA利润率仅9.0%",
+          "回购骤降、股息腰斩"
+        ]
+      }
+    },
+    {
+      "id": "future",
+      "index": 8,
+      "title": "情景与验证",
+      "question": "下季有哪些可验证路径？",
+      "verdict": "基准情景（55%）的核心是云外部增速25-35%、AI占比25-30%、CMR同口径+5-7%、销售费用率20-22%、FCF接近零或小幅为负；情景区间为研究假设，不是公司指引。",
+      "watchlist": [
+        {
+          "metric": "云外部收入增速",
+          "target": "≥30%",
+          "why": "验证AI+云投入是否仍处加速通道。"
+        },
+        {
+          "metric": "AI产品占外部云收入",
+          "target": "维持≥30%",
+          "why": "验证AI相关产品占比不是一次性披露。"
+        },
+        {
+          "metric": "CMR同口径增速与S&M",
+          "target": "同口径+5%以上且销售费用率下行",
+          "why": "区分补贴冲量与真实货币化改善。"
+        },
+        {
+          "metric": "自由现金流",
+          "target": "缺口收窄或转正",
+          "why": "判断投入换增长的现金循环是否闭合。"
+        },
+        {
+          "metric": "即时零售AOV与单位经济",
+          "target": "继续环比改善",
+          "why": "验证补贴换量是否逐步变成可盈利规模。"
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "optimistic",
+      "name": "乐观",
+      "probability": 25,
+      "tone": "positive",
+      "triggers": [
+        "云外部增速维持35%以上，AI产品占外部云收入30%以上",
+        "CMR同口径+7%以上且销售费用率回落至20%以下",
+        "即时零售单位经济持续改善，FCF转正"
+      ],
+      "coreLocalProfitRange": [
+        300,
+        400
+      ],
+      "adjustedNetProfitRange": [
+        700,
+        900
+      ],
+      "unit": "亿元"
+    },
+    {
+      "id": "base",
+      "name": "基准",
+      "probability": 55,
+      "tone": "neutral",
+      "triggers": [
+        "云外部增速25-35%，AI产品占比25-30%",
+        "CMR同口径+5-7%，销售费用率20-22%",
+        "FCF接近零或小幅为负，资本开支维持高位"
+      ],
+      "coreLocalProfitRange": [
+        220,
+        300
+      ],
+      "adjustedNetProfitRange": [
+        500,
+        700
+      ],
+      "unit": "亿元"
+    },
+    {
+      "id": "pessimistic",
+      "name": "谨慎",
+      "probability": 20,
+      "tone": "negative",
+      "triggers": [
+        "社零增速低于1%，即时零售与Qwen获客费用继续升级",
+        "美国云限制、关税或跨境监管冲击落地",
+        "新增商誉/无形资产减值，FCF缺口连续两季扩大"
+      ],
+      "coreLocalProfitRange": [
+        150,
+        220
+      ],
+      "adjustedNetProfitRange": [
+        300,
+        500
+      ],
+      "unit": "亿元"
+    }
+  ],
+  "catalysts": [
+    {
+      "event": "Q1 FY2027财报（约2026年8月）",
+      "impact": "若云外部增速≥30%、AI占比≥30%且FCF缺口收窄，将强化AI变现叙事。"
+    },
+    {
+      "event": "云EBITA利润率突破10%",
+      "impact": "证明AI收入开始形成经营杠杆，估值锚可转向成长与ROIC。"
+    }
+  ],
+  "risks": [
+    {
+      "event": "自由现金流持续为负",
+      "impact": "现金余额下降、杠杆上升，估值锚被迫从成长切回现金流。"
+    },
+    {
+      "event": "美国ICTS云限制或关税升级",
+      "impact": "压制海外云与跨境业务收入与利润。"
+    },
+    {
+      "event": "Qwen App获客费用失控",
+      "impact": "All others亏损继续扩大，集团销售费用率维持24%附近。"
+    }
+  ],
+  "methodology": {
+    "name": "九模块证据链 + 苏格拉底式反证",
+    "principles": [
+      "财报事实、推导指标、外部事实、研究推断和情景假设严格区分。",
+      "不把CMR同口径增长与销售费用率分开解读，不把AI收入占比等同AI利润。",
+      "不以现金余额替代现金流方向，不以短期价格替代市场定价。",
+      "每一研究推断必须有可证伪指标和反方证据。"
+    ],
+    "workflow": [
+      {
+        "step": 1,
+        "name": "官方来源核验",
+        "description": "使用阿里2026财年业绩公告（SEC 6-K Exhibit 99.1）与20-F。"
+      },
+      {
+        "step": 2,
+        "name": "指标重算",
+        "description": "核验同比、利润率、资本开支/经营现金流与分部调节。"
+      },
+      {
+        "step": 3,
+        "name": "反证审视",
+        "description": "苏格拉底式审视覆盖现金循环、CMR口径与云利润率三大反证。"
+      },
+      {
+        "step": 4,
+        "name": "情景映射",
+        "description": "以云增速、AI占比、CMR、销售费用率与FCF构建三档可验证路径。"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "type": "company",
+      "title": "Alibaba Group 2026财年业绩公告（SEC 6-K Exhibit 99.1）",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926060224/tm2614494d1_ex99-1.htm"
+    },
+    {
+      "type": "company",
+      "title": "Alibaba Group Form 20-F FY2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/baba-20260331.htm"
+    },
+    {
+      "type": "government",
+      "title": "国家统计局：2026年上半年社会消费品零售总额增长1.3%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964127.html"
+    },
+    {
+      "type": "competitor",
+      "title": "JD.com Announces First Quarter 2026 Results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526218013/d128173dex991.htm"
+    },
+    {
+      "type": "competitor",
+      "title": "PDD Holdings Announces First Quarter 2026 Unaudited Financial Results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465926067186/tm2615739d1_ex99-1.htm"
+    },
+    {
+      "type": "competitor",
+      "title": "Tencent Announces 2026 First Quarter Results",
+      "url": "https://static.www.tencent.com/uploads/2026/05/13/47382ae415a209fd161bc19a1f9b3704.pdf"
+    },
+    {
+      "type": "competitor",
+      "title": "字节跳动Seed：Seedance 2.0正式发布",
+      "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0?view_from=content_recommend"
+    },
+    {
+      "type": "market",
+      "title": "Yahoo Finance BABA日线行情",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BABA?period1=1778342400&period2=1779292800&interval=1d"
+    },
+    {
+      "type": "market",
+      "title": "Yahoo Finance 9988.HK日线行情",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/9988.HK?period1=1778342400&period2=1779292800&interval=1d"
+    }
+  ]
+}
