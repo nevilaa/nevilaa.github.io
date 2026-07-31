@@ -9,6 +9,7 @@ import {
   reportsForCompany,
   type ReportCatalogEntry,
 } from "./report-catalog";
+import { normalizeReportPayload } from "./report-normalizer";
 import type {
   KeyMetric,
   ReportData,
@@ -1249,8 +1250,7 @@ export default function Home() {
         if (!response.ok) {
           throw new Error(`数据服务返回 ${response.status}`);
         }
-        const report = (await response.json()) as ReportData;
-        setData(report);
+        setData(normalizeReportPayload(await response.json()));
       } catch (loadError) {
         if (
           loadError instanceof DOMException &&
