@@ -1,0 +1,1363 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "bidu-2026q1",
+  "generated_at": "2026-07-31T11:41:37.964795+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "百度集团",
+    "ticker": "BIDU",
+    "period": "2026Q1",
+    "status": "approved",
+    "thesis": "百度正从搜索广告公司向 AI 基础设施公司切换收入引擎：AI 相关收入首次过半（52%），但传统广告加速失血（-22% YoY）、百度 App MAU 连续三季下滑，资本开支同比近翻倍使自由现金流转负。公司的价值锚已从‘搜索利润’转向‘昆仑芯分拆 + AI 云规模化’，这一切换能否在盈利端兑现，是未来 2-4 个季度的核心问题。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "收入引擎切换期：传统广告（占核心收入 48%）仍在以 -22% 同比的速度失血，而接替它的 AI 业务虽然增长快（+49%），但资本开支强度远超其当期毛利贡献，自由现金流已转负，盈利拐点尚未确立。",
+      "current_difficulties": [
+        {
+          "title": "搜索广告结构性失血，MAU 持续流失",
+          "evidence": "Q1 在线营销收入 126 亿元，同比 -22%（Q4 为 -26%）；百度 App MAU 6.55 亿，连续三个季度下滑，Q1 环比减少约 2200 万。",
+          "implication": "广告是当前唯一利润中心，其萎缩直接压低整体利润率；MAU 下滑意味着流量基本盘被 AI 原生平台（豆包、元宝、DeepSeek）分流，且短期看不到拐点。"
+        },
+        {
+          "title": "AI 云增长靠资本开支硬推，自由现金流转负",
+          "evidence": "Q1 资本开支 59.16 亿元（同比近翻倍），经营现金流仅 26.7 亿元，自由现金流 -32.46 亿元；AI 云收入 88 亿元中 65% 是算力基础设施，毛利率低于传统业务。",
+          "implication": "增长质量存疑：收入端增长 79% 由资本开支驱动而非单位经济性改善；若 AI 云增速在 H2 放缓（花旗预期 Q2 AI 云增速降至 60%），投入回报周期将拉长。"
+        },
+        {
+          "title": "盈利依赖‘非经营性’项目支撑",
+          "evidence": "净利 34.45 亿元同比 -55%；Non-GAAP 净利 43.32 亿元 -33%；Total other income 从去年 44.87 亿降至 6.26 亿，公允价值损益波动大。",
+          "implication": "经营性利润的真实盈利能力弱于报表数字，市场对‘利润质量’的担忧压制估值倍数。"
+        }
+      ],
+      "strategic_judgment": "管理层选择用广告失血换 AI 云与自研芯片的‘第二增长曲线’，并试图通过昆仑芯分拆上市把 AI 资产价值变现来支撑估值。这是清晰的战略方向，但代价是当期利润与现金流，且成败系于昆仑芯 IPO 定价与 AI 云盈利模型是否成立。",
+      "strategic_directions": [
+        {
+          "direction": "AI 云基础设施规模化（GPU 云优先）",
+          "rationale": "GPU 云收入 +184% YoY，是全集团增速最快、最可规模化的业务；AI 云收入已占核心收入 34%。",
+          "management_signal": "管理层明确强调‘AI Cloud Infra delivered exceptional momentum’；Q1 AI 云收入 88 亿 +79%，连续超预期。",
+          "validation": "下一季度 AI 云收入增速是否维持 60%+（花旗预期 Q2 降至 60%），以及 GPU 云增速是否维持三位数。"
+        },
+        {
+          "direction": "昆仑芯分拆上市，AI 芯片资产价值变现",
+          "rationale": "昆仑芯目标估值约 500 亿美元（接近百度自身市值），DBS/高盛均将其视为估值重估的最大催化。",
+          "management_signal": "2026 年 1 月港交所递表、5 月启动科创板辅导，A+H 双线推进；管理层在公告中罕见地将 Apollo Go 与昆仑芯并列提及。",
+          "validation": "昆仑芯 IPO 是否在 2H26 落地、发行估值是否接近 500 亿美元目标、以及分拆后百度持股比例（预计维持约 50%）。"
+        },
+        {
+          "direction": "AI 应用与 Agent 生态（ERNIE 5.1 / DuMate / 萝卜快跑）",
+          "rationale": "AI 应用收入 25 亿与去年持平，是 AI 业务中唯一未起量的板块；管理层加大 Agent 产品投放。",
+          "management_signal": "发布 ERNIE 5.1、DuMate 通用 Agent、Miaoda 3.0；Apollo Go 全球 27 城、320 万单全无人驾驶订单 +120%。",
+          "validation": "AI 应用收入环比是否转正，以及 DuMate/Agent 产品是否贡献可量化的广告或订阅收入。"
+        }
+      ],
+      "core_conflict": "增长与盈利的矛盾：AI 云每多赚 1 元收入需要投入远超 1 元的资本开支，传统广告失血短期内无法由 AI 业务利润弥补，因此整体盈利能力和自由现金流在可见未来 2-4 个季度内仍将承压。",
+      "falsifier": "若下一季度出现以下任一情况则本判断被推翻：① AI 云收入增速跌至 50% 以下且毛利率无明显改善；② 广告收入降幅收窄至 -10% 以内或转正；③ 昆仑芯 IPO 估值显著低于 300 亿美元（说明市场对 AI 芯片资产定价存疑）；④ 自由现金流转正。",
+      "valuation_context": "当前股价 107.48 美元（7/31），52 周区间 84.64-165.3，自 5 月财报后下跌约 25%。分析师平均目标价约 166 美元（隐含 ~55% 上行空间），但 EPS 预期过去一个月被下修约 21%。市场共识：传统业务零估值甚至负估值，估值完全押注 AI 云与昆仑芯。",
+      "catalyst": "昆仑芯分拆 IPO（目标估值 500 亿美元，乐观情景下对应百度权益价值约 1800 亿元人民币，相当于百度市值约 55%）；港股双重主要上市（纳入港股通改善流动性）；AI 云盈利模型验证。",
+      "risk": "昆仑芯 IPO 估值不及预期或配售机制争议（‘订单换认购’被质疑人为抬高收入）导致价值重估落空；AI 云价格战重启（字节/火山引擎‘不需要盈利’的竞争）；传统广告下滑超预期；地缘政治与出口管制影响 P800 芯片供应链。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。本报告基于公开财报、官方公告与公开市场数据，可能存在信息滞后或误差。"
+  },
+  "conclusion_summary": {
+    "thesis": "百度正从搜索广告公司向 AI 基础设施公司切换收入引擎：AI 相关收入首次过半（52%），但传统广告加速失血（-22% YoY）、百度 App MAU 连续三季下滑，资本开支同比近翻倍使自由现金流转负。公司的价值锚已从‘搜索利润’转向‘昆仑芯分拆 + AI 云规模化’，这一切换能否在盈利端兑现，是未来 2-4 个季度的核心问题。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "收入引擎切换期：传统广告（占核心收入 48%）仍在以 -22% 同比的速度失血，而接替它的 AI 业务虽然增长快（+49%），但资本开支强度远超其当期毛利贡献，自由现金流已转负，盈利拐点尚未确立。",
+    "current_difficulties": [
+      {
+        "title": "搜索广告结构性失血，MAU 持续流失",
+        "evidence": "Q1 在线营销收入 126 亿元，同比 -22%（Q4 为 -26%）；百度 App MAU 6.55 亿，连续三个季度下滑，Q1 环比减少约 2200 万。",
+        "implication": "广告是当前唯一利润中心，其萎缩直接压低整体利润率；MAU 下滑意味着流量基本盘被 AI 原生平台（豆包、元宝、DeepSeek）分流，且短期看不到拐点。"
+      },
+      {
+        "title": "AI 云增长靠资本开支硬推，自由现金流转负",
+        "evidence": "Q1 资本开支 59.16 亿元（同比近翻倍），经营现金流仅 26.7 亿元，自由现金流 -32.46 亿元；AI 云收入 88 亿元中 65% 是算力基础设施，毛利率低于传统业务。",
+        "implication": "增长质量存疑：收入端增长 79% 由资本开支驱动而非单位经济性改善；若 AI 云增速在 H2 放缓（花旗预期 Q2 AI 云增速降至 60%），投入回报周期将拉长。"
+      },
+      {
+        "title": "盈利依赖‘非经营性’项目支撑",
+        "evidence": "净利 34.45 亿元同比 -55%；Non-GAAP 净利 43.32 亿元 -33%；Total other income 从去年 44.87 亿降至 6.26 亿，公允价值损益波动大。",
+        "implication": "经营性利润的真实盈利能力弱于报表数字，市场对‘利润质量’的担忧压制估值倍数。"
+      }
+    ],
+    "strategic_judgment": "管理层选择用广告失血换 AI 云与自研芯片的‘第二增长曲线’，并试图通过昆仑芯分拆上市把 AI 资产价值变现来支撑估值。这是清晰的战略方向，但代价是当期利润与现金流，且成败系于昆仑芯 IPO 定价与 AI 云盈利模型是否成立。",
+    "strategic_directions": [
+      {
+        "direction": "AI 云基础设施规模化（GPU 云优先）",
+        "rationale": "GPU 云收入 +184% YoY，是全集团增速最快、最可规模化的业务；AI 云收入已占核心收入 34%。",
+        "management_signal": "管理层明确强调‘AI Cloud Infra delivered exceptional momentum’；Q1 AI 云收入 88 亿 +79%，连续超预期。",
+        "validation": "下一季度 AI 云收入增速是否维持 60%+（花旗预期 Q2 降至 60%），以及 GPU 云增速是否维持三位数。"
+      },
+      {
+        "direction": "昆仑芯分拆上市，AI 芯片资产价值变现",
+        "rationale": "昆仑芯目标估值约 500 亿美元（接近百度自身市值），DBS/高盛均将其视为估值重估的最大催化。",
+        "management_signal": "2026 年 1 月港交所递表、5 月启动科创板辅导，A+H 双线推进；管理层在公告中罕见地将 Apollo Go 与昆仑芯并列提及。",
+        "validation": "昆仑芯 IPO 是否在 2H26 落地、发行估值是否接近 500 亿美元目标、以及分拆后百度持股比例（预计维持约 50%）。"
+      },
+      {
+        "direction": "AI 应用与 Agent 生态（ERNIE 5.1 / DuMate / 萝卜快跑）",
+        "rationale": "AI 应用收入 25 亿与去年持平，是 AI 业务中唯一未起量的板块；管理层加大 Agent 产品投放。",
+        "management_signal": "发布 ERNIE 5.1、DuMate 通用 Agent、Miaoda 3.0；Apollo Go 全球 27 城、320 万单全无人驾驶订单 +120%。",
+        "validation": "AI 应用收入环比是否转正，以及 DuMate/Agent 产品是否贡献可量化的广告或订阅收入。"
+      }
+    ],
+    "core_conflict": "增长与盈利的矛盾：AI 云每多赚 1 元收入需要投入远超 1 元的资本开支，传统广告失血短期内无法由 AI 业务利润弥补，因此整体盈利能力和自由现金流在可见未来 2-4 个季度内仍将承压。",
+    "falsifier": "若下一季度出现以下任一情况则本判断被推翻：① AI 云收入增速跌至 50% 以下且毛利率无明显改善；② 广告收入降幅收窄至 -10% 以内或转正；③ 昆仑芯 IPO 估值显著低于 300 亿美元（说明市场对 AI 芯片资产定价存疑）；④ 自由现金流转正。",
+    "valuation_context": "当前股价 107.48 美元（7/31），52 周区间 84.64-165.3，自 5 月财报后下跌约 25%。分析师平均目标价约 166 美元（隐含 ~55% 上行空间），但 EPS 预期过去一个月被下修约 21%。市场共识：传统业务零估值甚至负估值，估值完全押注 AI 云与昆仑芯。",
+    "catalyst": "昆仑芯分拆 IPO（目标估值 500 亿美元，乐观情景下对应百度权益价值约 1800 亿元人民币，相当于百度市值约 55%）；港股双重主要上市（纳入港股通改善流动性）；AI 云盈利模型验证。",
+    "risk": "昆仑芯 IPO 估值不及预期或配售机制争议（‘订单换认购’被质疑人为抬高收入）导致价值重估落空；AI 云价格战重启（字节/火山引擎‘不需要盈利’的竞争）；传统广告下滑超预期；地缘政治与出口管制影响 P800 芯片供应链。"
+  },
+  "sources": [
+    {
+      "id": "official-q1-results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526228123/d156481dex991.htm",
+      "title": "Baidu Announces First Quarter 2026 Results (Form 6-K Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-07-31T19:29:00+08:00"
+    },
+    {
+      "id": "official-20f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526109289/d38065d20f.htm",
+      "title": "Baidu, Inc. Annual Report on Form 20-F (FY2025)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-07-31T19:30:00+08:00"
+    },
+    {
+      "id": "official-6k-cover",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526228123/d156481d6k.htm",
+      "title": "Baidu, Inc. Form 6-K cover (May 2026)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-07-31T19:29:00+08:00"
+    },
+    {
+      "id": "external-market-bidu",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BIDU",
+      "title": "Yahoo Finance daily price data BIDU (Apr-Jul 2026)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-07-31T19:30:00+08:00"
+    },
+    {
+      "id": "external-market-9888hk",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/9888.HK",
+      "title": "Yahoo Finance daily price data 9888.HK (Apr-Jul 2026)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-07-31T19:30:00+08:00"
+    },
+    {
+      "id": "external-analyst-views",
+      "url": "https://www.dbs.com.sg/treasures/aics/templatedata/article/recentdevelopment/data/en/DBSV/052026/9888_HK_19052026.xml",
+      "title": "DBS / 交银国际 / 花旗 / 大摩 / 高盛 / 浦银国际等券商对百度 2026Q1 财报点评（二手汇总）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-07-31T19:31:00+08:00"
+    },
+    {
+      "id": "external-ai-cloud-market",
+      "url": "https://m.36kr.com/p/3829726886847879",
+      "title": "Q1 财报拆解：阿里、百度、腾讯云战升级（36氪，含 IDC 市场份额数据）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-07-31T19:31:00+08:00"
+    },
+    {
+      "id": "external-kunlunxin-ipo",
+      "url": "https://www.sohu.com/a/1045974631_122014422",
+      "title": "昆仑芯 IPO 进展与估值争议（The Information / 高盛 / 中金口径汇总）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-07-31T19:31:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "fact-01",
+      "metric": "total_revenue",
+      "value": 32075,
+      "display_value": "320.75亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Revenue 32,075 (RMB million)",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-02",
+      "metric": "revenue_baidu_general",
+      "value": 26001,
+      "display_value": "260.01亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "Baidu General Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Baidu General Business revenue 26,001",
+      "location": "Selected Information"
+    },
+    {
+      "id": "fact-03",
+      "metric": "revenue_iqiyi",
+      "value": 6226,
+      "display_value": "62.26亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "iQIYI",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "iQIYI revenue 6,226",
+      "location": "Selected Information"
+    },
+    {
+      "id": "fact-04",
+      "metric": "online_marketing_revenue",
+      "value": 12600,
+      "display_value": "126亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "Online Marketing Services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Online Marketing Services RMB12.6 billion, -22% YoY",
+      "location": "Revenue highlights table"
+    },
+    {
+      "id": "fact-05",
+      "metric": "online_marketing_pct",
+      "value": 48,
+      "display_value": "48%",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "Online Marketing % of Baidu General Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "48%, down from 63% a year ago",
+      "location": "Revenue highlights table"
+    },
+    {
+      "id": "fact-06",
+      "metric": "cost_of_revenue",
+      "value": 19589,
+      "display_value": "195.89亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Cost of revenue 19,589",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-07",
+      "metric": "sga_expense",
+      "value": 4912,
+      "display_value": "49.12亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "SG&A 4,912",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-08",
+      "metric": "rd_expense",
+      "value": 4381,
+      "display_value": "43.81亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "R&D 4,381",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-09",
+      "metric": "operating_income",
+      "value": 3193,
+      "display_value": "31.93亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Operating income 3,193",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-10",
+      "metric": "non_gaap_operating_income",
+      "value": 3807,
+      "display_value": "38.07亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Non-GAAP operating income 3,807",
+      "location": "Reconciliations"
+    },
+    {
+      "id": "fact-11",
+      "metric": "net_income_attributable",
+      "value": 3445,
+      "display_value": "34.45亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Net income attributable to Baidu 3,445",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-12",
+      "metric": "non_gaap_net_income",
+      "value": 4332,
+      "display_value": "43.32亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Non-GAAP net income 4,332",
+      "location": "Reconciliations"
+    },
+    {
+      "id": "fact-13",
+      "metric": "adjusted_ebitda",
+      "value": 5954,
+      "display_value": "59.54亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Adjusted EBITDA 5,954",
+      "location": "Reconciliations"
+    },
+    {
+      "id": "fact-14",
+      "metric": "total_cash_investments",
+      "value": 279300,
+      "display_value": "2,793亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Total cash and investments RMB279.3 billion",
+      "location": "First Quarter Financial Results"
+    },
+    {
+      "id": "fact-15",
+      "metric": "operating_cash_flow",
+      "value": 2670,
+      "display_value": "26.70亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Operating cash flow RMB2.7 billion",
+      "location": "Cash Flows"
+    },
+    {
+      "id": "fact-16",
+      "metric": "capex",
+      "value": 5916,
+      "display_value": "59.16亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Capital expenditures 5,916",
+      "location": "Cash Flows"
+    },
+    {
+      "id": "fact-17",
+      "metric": "free_cash_flow",
+      "value": -3246,
+      "display_value": "-32.46亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Free cash flow -3,246",
+      "location": "Cash Flows"
+    },
+    {
+      "id": "fact-18",
+      "metric": "ai_powered_revenue",
+      "value": 13600,
+      "display_value": "136亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "Core AI-powered Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB13.6 billion, +49% YoY, 52% of Baidu General Business",
+      "location": "AI-powered Business table"
+    },
+    {
+      "id": "fact-19",
+      "metric": "ai_cloud_infra_revenue",
+      "value": 8800,
+      "display_value": "88亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "AI Cloud Infra",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB8.8 billion, +79% YoY",
+      "location": "AI-powered Business table"
+    },
+    {
+      "id": "fact-20",
+      "metric": "ai_applications_revenue",
+      "value": 2500,
+      "display_value": "25亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "AI Applications",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB2.5 billion, ~flat YoY",
+      "location": "AI-powered Business table"
+    },
+    {
+      "id": "fact-21",
+      "metric": "ai_native_marketing_revenue",
+      "value": 2300,
+      "display_value": "23亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "AI-native Marketing Services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB2.3 billion, +36% YoY",
+      "location": "AI-powered Business table"
+    },
+    {
+      "id": "fact-22",
+      "metric": "legacy_business_revenue",
+      "value": 10200,
+      "display_value": "102亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "Legacy Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB10.2 billion, -29% YoY",
+      "location": "AI-powered Business table"
+    },
+    {
+      "id": "fact-23",
+      "metric": "gpu_cloud_revenue_growth",
+      "value": 184,
+      "display_value": "+184% YoY",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "GPU Cloud",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "GPU Cloud revenue +184% YoY",
+      "location": "Operational Highlights"
+    },
+    {
+      "id": "fact-24",
+      "metric": "apollo_go_driverless_rides",
+      "value": 3200000,
+      "display_value": "320万单",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "Apollo Go",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "3.2 million fully driverless rides, +120% YoY",
+      "location": "Operational Highlights"
+    },
+    {
+      "id": "fact-25",
+      "metric": "baidu_app_mau",
+      "value": 655,
+      "display_value": "6.55亿",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": "Baidu App",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "MAUs 655 million in March 2026",
+      "location": "Operational Highlights"
+    },
+    {
+      "id": "fact-26",
+      "metric": "share_repurchase",
+      "value": 172,
+      "display_value": "1.72亿美元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "US$172 million repurchased in Q1",
+      "location": "Operational Highlights"
+    },
+    {
+      "id": "fact-27",
+      "metric": "total_revenue_prev",
+      "value": 32452,
+      "display_value": "324.52亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Revenue 32,452",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-28",
+      "metric": "online_marketing_prev",
+      "value": 16000,
+      "display_value": "160亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q1",
+      "segment": "Online Marketing Services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB16.0 billion",
+      "location": "Revenue highlights table"
+    },
+    {
+      "id": "fact-29",
+      "metric": "net_income_prev",
+      "value": 7717,
+      "display_value": "77.17亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Net income 7,717",
+      "location": "Income Statement"
+    },
+    {
+      "id": "fact-30",
+      "metric": "non_gaap_net_income_prev",
+      "value": 6469,
+      "display_value": "64.69亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "Non-GAAP net income 6,469",
+      "location": "Reconciliations"
+    },
+    {
+      "id": "fact-31",
+      "metric": "ai_powered_revenue_prev",
+      "value": 9100,
+      "display_value": "91亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q1",
+      "segment": "Core AI-powered Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB9.1 billion",
+      "location": "AI-powered Business table"
+    },
+    {
+      "id": "fact-32",
+      "metric": "ai_cloud_infra_prev",
+      "value": 4900,
+      "display_value": "49亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q1",
+      "segment": "AI Cloud Infra",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-results"
+      ],
+      "evidence": "RMB4.9 billion",
+      "location": "AI-powered Business table"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "百度核心业务收入 260.01 亿元，同比 +2%，止住连续下滑但整体增长近乎停滞；其中在线营销收入 126 亿元同比 -22%，Others 收入 134 亿元 +42%（主要由 AI 云驱动），广告与 AI 云呈现‘此消彼长’的收入再平衡。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "AI 相关业务收入 136 亿元，同比 +49%，占核心业务收入比重首次突破 50% 达 52%（上年同期 36%、上季 43%）。这是公司业务结构的历史性转折点，但也意味着‘AI 收入过半’已透支了低基数红利。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "AI 业务内部结构：AI 云基础设施 88 亿（占 AI 业务 65%，+79% YoY），GPU 云 +184%；AI 应用 25 亿（~flat YoY，环比 -10%）；AI 原生营销 23 亿（+36% YoY，环比 -15%）。AI 应用与 AI 原生营销环比均下滑，说明 AI 变现仍高度依赖算力租赁而非应用/广告。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "传统业务（Legacy Business）收入 102 亿元，同比 -29%，环比 -18%，是所有板块中下滑最快的。传统搜索/信息流广告的商业化基础在持续收缩。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "iQIYI 收入 62.26 亿元，环比 -8%，低于市场预期的 64.3 亿，是集团增长的另一拖累；爱奇艺营业利润 -2.28 亿元（转亏），Non-GAAP 营业利润 -1.48 亿元。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results",
+            "external-analyst-views"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "Apollo Go 萝卜快跑 Q1 全无人驾驶订单 320 万单（+120% YoY），周峰值超 35 万单，累计超 2200 万单，覆盖全球 27 城（迪拜多区运营、瑞士/伦敦推进测试）。Robotaxi 是唯一保持三位数增长的运营指标，但收入贡献尚未在分部数据中单列。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "毛利率 38.9%（营收 320.75 亿 - 营业成本 195.89 亿），环比改善但同比承压。成本上升主要由 AI 云相关成本驱动（GPU 折旧/电费/算力建设），公告明确‘cost of revenue 环比 +7% primarily due to AI Cloud business’；内容成本与流量获取成本下降部分对冲。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "SG&A 49.12 亿元，环比 -34%（因信用减值损失与人员费用下降）；研发 43.81 亿元，环比 -22%（人员费用下降）。费用压缩是 Q1 利润率环比改善的主要来源，而非收入增长。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "营业利润 31.93 亿元（营业利润率 10%），Non-GAAP 营业利润 38.07 亿（11.9%），环比均有明显改善（上季营业利润率 5%），但同比仍弱：上年同期营业利润率 14%。利润改善靠‘砍费用’而非‘涨收入’。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "成本结构失衡：AI 云收入 88 亿对应的资本开支 59 亿，算力投入强度接近 67%；而 AI 应用（25 亿）+ AI 原生营销（23 亿）合计仅 48 亿收入，不足资本开支。AI 业务的‘重资产化’特征显著，短期难现传统互联网的规模效应。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": "若下季 AI 应用+原生营销收入环比增长超过 30%，说明 AI 变现正在多元化，算力投入效率改善。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "总现金及投资 2793 亿元（截至 2026-03-31），现金储备雄厚；但经营性现金流 26.7 亿元环比大幅下滑（上季 26.09 亿，本季 26.7 亿基本持平），资本开支 59.16 亿（同比近翻倍），自由现金流 -32.46 亿元，自 2024 年以来首次连续为负。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "资本开支去向：主要投向 AI 云基础设施（GPU 服务器、智算中心）。与阿里（2026 财年购置物业设备支出 1220 亿，+45%）和字节（2026 年预计资本开支约 2000 亿元）相比，百度 59 亿/季的投入强度相对克制，但也限制了 AI 云的扩张速度。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "external-ai-cloud-market"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "投资活动现金流转正（+49.42 亿元），主要因短期投资到期收回；融资活动 -16.35 亿元（回购与偿还借款）。公司通过‘卖投资’而非‘赚利润’支撑现金流，长期不可持续。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "现金充裕 + 现金流转负的组合意味着：短期内无流动性风险，但若 AI 云资本开支持续 2 年以上且增速放缓，自由现金流的‘失血’将削弱市场对公司回报股东能力（回购/分红）的信心。Q1 回购 1.72 亿美元（全年 50 亿美元计划约 10.7% 市值），节奏温和。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": "若连续两季自由现金流转正或回购节奏显著加快，说明现金流压力已缓解。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "CEO 李彦宏明确将 AI 定为核心：'Core AI-powered Business exceeded half of Baidu General Business revenue for the first time, marking a clear signal that AI has become the core driver of Baidu.' ——这是公司首次在官方公告中用‘核心驱动’定性 AI 业务。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "CFO 何海建强调三个财务信号：核心业务 Non-GAAP 营业利润环比 +39%（至 40 亿）、经营现金流转正（26.7 亿）、AI 云收入 +79%。用‘利润环比改善 + 现金流转正’对冲‘净利同比腰斩’的负面观感，是典型的预期管理话术。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "管理层对传统广告的表述显著淡化：公告全文未直接回应广告下滑的拐点预期，仅以‘AI-native Marketing Services +36%’暗示广告正在 AI 化转型。回避了广告收入何时止跌这一关键问题。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": "若下一季度管理层在电话会明确给出广告企稳的时间表或措施，则本判断需修正。"
+        },
+        {
+          "text": "资源投向信号：资本开支优先 GPU 云（+184%）、Apollo Go 全球扩张（27 城）、Agent 产品线（ERNIE 5.1/DuMate/Miaoda/Famou）。管理层正在把广告时代积累的现金流重新配置到 AI 基础设施——这是明确的战略选择，但意味着对当期利润的容忍度在提高。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results",
+            "external-kunlunxin-ipo"
+          ],
+          "falsifier": "若管理层在下一季度电话会明确给出广告企稳时间表或具体措施，本判断需修正。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "搜索广告竞争：抖音（豆包）、腾讯（元宝）、字节 AI 原生平台正分流百度搜索流量，叠加 DeepSeek 等大模型应用改变用户搜索习惯。百度 App MAU 连续三季下滑（6.55 亿）是流量基本盘被侵蚀的直接证据。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "external-ai-cloud-market"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "AI 云竞争格局：阿里云 AI 云份额 38.1% 第一、火山引擎（字节）20.4% 第二、百度第三；但百度在政企市场领先（2026H1 公开中标 13.85 亿元/47 项目，占五家云厂商近六成，居第一）。百度 AI 云是‘份额第三但政企中标第一’的错位竞争。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "external-ai-cloud-market"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "GPU 云/算力竞争：火山引擎 GPU 云 2025H1 收入约 35 亿（+200%），阿里平头哥芯片量产后 60%+ 算力服务外部客户，英伟达仍占中国 AI 加速卡 55% 份额。百度 GPU 云 +184% 增速虽强，但面对的是资本开支 2000 亿级的字节和 1200 亿级的阿里，弹药差距显著。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "external-ai-cloud-market"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "芯片竞争（昆仑芯）：IDC 2025 年中国 AI 加速卡出货量，英伟达 55%、华为昇腾约 20%、阿里平头哥约 6.6%、昆仑芯与寒武纪并列国产第三（各约 2.9%）。昆仑芯 P800（对标 A800）是百度对冲英伟达管制风险的关键资产。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "external-kunlunxin-ipo"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "监管与政策：中国 AI 大模型监管框架趋严但总体支持创新；国产 AI 芯片自主可控政策（信创）利好昆仑芯，但也带来供应链管制风险（P800 采用三星 7nm，受地缘政治与出口管制影响）。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "external-kunlunxin-ipo"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "宏观消费：中国互联网广告大盘增速放缓，广告主预算收缩叠加 AI 工具分流，是百度广告 -22% 的重要外部背景（春节时间错位也有影响，但非主因）。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "external-analyst-views"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "AI 云价格环境：2026 年 3 月起头部云厂商集体涨价（阿里平头哥真武 810E +5%~34%、腾讯混元部分模型 +463%），终结持续多年的价格战。涨价潮对百度是顺风——GPU 云收入增长受益于价格上行；但字节/火山引擎选择‘不跟涨、靠广告输血’，构成不对称竞争。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "external-ai-cloud-market"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "汇率与海外：Q1 外汇损失 9.89 亿元（上季 -10.54 亿），人民币波动影响净利；Apollo Go 海外扩张（迪拜/瑞士/伦敦）增加投入但短期不贡献收入。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "财报日（5/18）股价小幅收涨（+2.1% 至 137.71），但随后 5 个交易日从 137.71 跌至 127.79（-7.2%），说明市场对‘beat 预期’的反应短暂，随即重新定价广告失血与 FCF 转负的担忧。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "external-market-bidu"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "5 月中旬至今（5/14 高点 143.29 → 7/31 收盘 107.48），BIDU 累计下跌约 25%，港股 9888.HK 同期从 140.9 跌至 105.9（-25%）。期间跌幅显著大于美股科技板块，反映市场对百度‘AI 叙事 vs 盈利现实’的信任度下降。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "external-market-bidu",
+            "external-market-9888hk"
+          ],
+          "falsifier": "若财报后股价重新站上财报前高点（>140 美元），说明市场接受了 AI 叙事定价，本判断被推翻。"
+        },
+        {
+          "text": "分析师分歧显著：DBS 升目标价（‘AI inflection point’，上调至 192 美元），但摩根士丹利下调至 130 美元、花旗下调至 177 美元（预计 Q2 AI 云增速降至 60%、广告 -20%）、交银国际下调至 170.1 美元。市场平均目标价约 166 美元，隐含 ~55% 上行，但分歧本身说明不确定性高。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "external-analyst-views"
+          ],
+          "falsifier": "若同期美股中概股整体跌幅相当，则下跌主要归因于板块而非公司基本面。"
+        },
+        {
+          "text": "市场定价结构：百度当前市值约 370 亿美元，而昆仑芯单 IPO 目标估值即约 500 亿美元。市场实际在交易‘昆仑芯期权 + AI 云’的组合，传统搜索业务几乎被给予零估值——这是‘分部估值法’的极端案例，也是估值脆弱性的来源。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "external-kunlunxin-ipo",
+            "external-market-bidu"
+          ],
+          "falsifier": "若昆仑芯 IPO 估值显著低于 300 亿美元，说明市场对百度 AI 资产定价的信心不足，估值锚需下移。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "乐观情景（概率 25%）：昆仑芯 IPO 以接近 500 亿美元估值落地 + AI 云增速维持 70%+ + 广告降幅收窄至 -15% 以内 + 自由现金流单季转正。对应 Non-GAAP 净利回升至 50-60 亿元/季，股价有望重估至 160-190 美元区间。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "external-kunlunxin-ipo",
+            "external-analyst-views"
+          ],
+          "falsifier": "若昆仑芯 IPO 估值低于 400 亿美元或 AI 云 Q2 增速低于 50%，乐观情景不成立。"
+        },
+        {
+          "text": "中性情景（概率 55%）：昆仑芯 IPO 落地但估值低于目标（300-400 亿美元）；AI 云增速逐步放缓至 50-60%；广告维持 -20% 左右降幅；FCF 全年维持小幅负值。Non-GAAP 净利 35-45 亿元/季，股价在 100-140 美元区间震荡。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results",
+            "external-analyst-views"
+          ],
+          "falsifier": "若昆仑芯 IPO 估值超过 500 亿美元或广告降幅收窄至 -10% 以内，中性情景应上移为乐观。"
+        },
+        {
+          "text": "悲观情景（概率 20%）：昆仑芯 IPO 延迟或估值大幅不及预期（<300 亿美元）+ AI 云价格战重启（字节低价抢单）+ 广告加速下滑（-30% 以上）+ 自由现金流持续大幅为负（资本开支被迫削减）。Non-GAAP 净利跌至 25-30 亿元/季，股价可能下探 80-95 美元（逼近 52 周低点 84.64）。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "external-ai-cloud-market",
+            "external-market-bidu"
+          ],
+          "falsifier": "若昆仑芯 IPO 如期落地且 AI 云增速维持 60% 以上，悲观情景不成立。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "核心结论：百度正处于‘收入引擎切换’的过渡期——广告利润中心萎缩（-22%），AI 云增长中心尚未盈利（资本开支吞噬 FCF）。这一切换能否成功取决于三件事：昆仑芯 IPO 能否兑现价值、AI 云增速能否维持高位且毛利率改善、广告能否止跌。三者至少需两件兑现，估值才能稳住。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results",
+            "external-kunlunxin-ipo"
+          ],
+          "falsifier": "见结论假说。"
+        },
+        {
+          "text": "最难的经营约束：不是缺钱（现金 2793 亿），而是‘增长与盈利不可兼得’——AI 云高增长必然伴随资本开支与利润率稀释，广告的利润贡献却在快速消失，两条曲线的交汇点是盈利底。当前利润底尚未确认。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q1-results"
+          ],
+          "falsifier": "若下季广告降幅收窄至 -10% 以内且 AI 云毛利率改善，则‘增长与盈利不可兼得’的判断被削弱，盈利底可能已确认。"
+        },
+        {
+          "text": "下一季度最重要的可证伪指标（按重要性排序）：① AI 云收入增速（<50% 则切换叙事受损）；② 广告收入降幅（收窄至 -10% 内则见底，扩大至 -25% 则恶化）；③ 昆仑芯 IPO 估值与进度；④ 自由现金流转正与否；⑤ AI 应用收入环比。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "official-q1-results",
+            "external-analyst-views"
+          ],
+          "falsifier": "若下季 FCF 转正或收窄至 -10 亿内，说明 AI 云进入自我造血阶段，需上修盈利预期。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场共识认为百度 AI 业务过半（52%）是结构性拐点，AI 已替代广告成为核心驱动。这个共识依赖什么隐藏假设？",
+        "answer": "依赖‘AI 收入 = 高质量收入’的假设：即 AI 云收入的增长不需要等比例的资本开支，或者 AI 云毛利率终将改善。但 Q1 数据显示资本开支 59 亿 vs AI 云收入 88 亿（投入强度 67%），自由现金流 -32.5 亿，说明 AI 收入的高增长是以利润与现金流为代价的。",
+        "source_ids": [
+          "official-q1-results"
+        ],
+        "counterevidence": "自由现金流连续为负、AI 应用环比 -10%，AI 变现结构高度依赖重资产算力租赁。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "广告 -22% 是否主要是春节时间错位与宏观，而非结构性流失？",
+        "answer": "春节错位可以解释 QoQ 部分波动，但无法解释 YoY -22%（上年同期同样有春节），也无法解释百度 App MAU 连续三季下滑。广告下滑是结构性的：AI 原生平台（豆包/元宝/DeepSeek）分流搜索流量。",
+        "source_ids": [
+          "official-q1-results",
+          "external-ai-cloud-market"
+        ],
+        "counterevidence": "抖音/腾讯流量成本上升可能使部分广告主回流传统搜索，这是待观察的相反证据。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "如果 AI 是核心驱动，为何净利同比 -55%、Non-GAAP -33%？",
+        "answer": "因为 AI 云是‘收入增长、利润稀释’的业务：毛利率低于广告，且资本开支/折旧/电费前置。Non-GAAP 净利下滑的另一半来自其他收益大幅减少（公允价值损益从 -18.9 亿转为 +3.65 亿的波动）与投资减值。利润下滑是 AI 转型的成本，市场需要评估这一成本何时见顶。",
+        "source_ids": [
+          "official-q1-results"
+        ],
+        "counterevidence": "Non-GAAP 营业利润环比 +39%（费用大幅压缩），说明经营层面利润率在环比改善，只是同比基数高。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "昆仑芯 500 亿美元目标估值是否合理？市场是否高估了分拆价值？",
+        "answer": "按寒武纪约 40 倍 2026E 市销率类比，高盛测算昆仑芯 100% 股权约 373 亿美元，百度所持（约 57%）约 220 亿美元，相当于百度市值约 45%。但 500 亿美元目标（约 45 倍 2026E P/S）高于富瑞（160-230 亿）、野村（440 亿）的区间，且‘订单换认购’配售机制、关联交易依赖（历史上大部分芯片卖给母公司）使收入质量存疑。估值跳涨 16 倍（vs D 轮 210 亿元）更像流动性驱动而非基本面驱动。",
+        "source_ids": [
+          "external-kunlunxin-ipo"
+        ],
+        "counterevidence": "国产 AI 芯片政策红利 + 英伟达管制背景可能支撑更高估值；寒武纪市值一度破万亿，昆仑芯作为中国第三大 AI 芯片厂有稀缺性溢价。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "为什么 AI 应用（25 亿，~flat YoY，环比 -10%）与 AI 原生营销（23 亿，+36% YoY，环比 -15%）双双环比下滑？",
+        "answer": "可能原因：① Q4 是营销旺季（双11/年货节），Q1 环比回落属季节正常；② AI 应用商业化（订阅/付费）尚未规模兑现；③ 竞争加剧（豆包/元宝 MAU 增长快，分流 AI 应用使用）。这解释了为何百度 AI 变现仍主要靠算力而非应用。",
+        "source_ids": [
+          "official-q1-results",
+          "external-ai-cloud-market"
+        ],
+        "counterevidence": "AI 原生营销 +36% YoY 说明 AI 广告技术对现有广告主有提效价值，只是规模尚小。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "资本开支 59 亿/季（同比近翻倍）是否是可持续的竞争策略？与阿里（1200 亿/年）、字节（2000 亿/年）相比是否不足？",
+        "answer": "百度资本开支强度相对克制（59 亿/季 ≈ 236 亿/年），约为字节的 1/8、阿里的 1/5。这意味着百度在 GPU 算力储备上处于下风，AI 云增长天花板受制于投入规模。但另一方面，克制投入也保护了资产负债表（现金 2793 亿）与股东回报能力。昆仑芯自研芯片可能降低单位算力成本，是差异化杠杆。",
+        "source_ids": [
+          "external-ai-cloud-market"
+        ],
+        "counterevidence": "AI 云并非纯规模游戏——政企客户看重安全、合规与定制化，百度政企中标第一（13.85 亿/47 项目）说明差异化路径可行。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "财报后股价从 137 跌到 107（-22%），是市场错了还是叙事泡沫破裂？",
+        "answer": "两者皆有：财报本身 beat 预期（Non-GAAP EPS 超一致预期 4%），但股价下跌说明市场在重新定价‘盈利质量’。5 月中的股价高点（143）可能已透支昆仑芯 IPO 预期，随后 6-7 月昆仑芯估值争议、AI 云增速预期下修（花旗预计 Q2 降至 60%）导致估值回吐。当前 107 美元对应约 20 倍 2026E Non-GAAP EPS，对一家广告下滑+AI 烧钱的公司仍不便宜。",
+        "source_ids": [
+          "external-market-bidu",
+          "external-analyst-views"
+        ],
+        "counterevidence": "DBS 上调目标价至 192 美元，认为 AI inflection 已确认，股价下跌是错杀。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "百度广告下滑 22%，AI 原生营销 +36%，这是否说明广告正在‘AI 化’而非‘死亡’？",
+        "answer": "部分成立。AI 原生营销（AI 生成广告创意、智能投放）是广告主从传统搜索广告转向 AI 广告工具的表现，百度能从中分一杯羹。但问题是：AI 原生营销 23 亿 vs 传统广告下滑 34 亿（126-160），增量远不及失血量；且字节/腾讯在 AI 广告技术上投入更大。广告整体仍是负贡献。",
+        "source_ids": [
+          "official-q1-results",
+          "external-ai-cloud-market"
+        ],
+        "counterevidence": "若 AI 原生营销增速持续 >50% 且传统广告降幅收窄，则广告‘AI 化’叙事可部分成立。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "Robotaxi（Apollo Go）是否被市场低估？320 万单/季 +120%，但为何不被视为核心资产？",
+        "answer": "因为 Robotaxi 目前只贡献运营数据、不单列收入与利润，且是重投入（车队、地图、路测）业务。市场更关注 IPO 可见性（昆仑芯）而非远期期权（Robotaxi）。但若 Robotaxi 商业化（运营城市盈利模型跑通）成为下一个分拆标的，将带来额外期权价值。",
+        "source_ids": [
+          "official-q1-results",
+          "external-analyst-views"
+        ],
+        "counterevidence": "海外竞对 Waymo 也在快速扩张，Robotaxi 竞争格局未定。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "市场给予百度传统搜索业务零估值是否合理？",
+        "answer": "部分合理：搜索广告连续 5+ 季下滑且 MAU 下滑，DCF 估值趋近于零。但零估值是过度悲观——百度仍是中国第一大搜索引擎（信息流+搜索 MAU 6.55 亿），广告主迁移有粘性，且 AI 原生营销提供转型路径。零估值更多反映市场情绪而非基本面。",
+        "source_ids": [
+          "official-q1-results",
+          "external-analyst-views"
+        ],
+        "counterevidence": "若广告降幅持续收窄或企稳，市场将重新给搜索业务正估值。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "什么情况下百度盈利会超预期？",
+        "answer": "若资本开支增速放缓 + AI 云毛利率因涨价潮与昆仑芯自研芯片上量而改善 + 传统广告企稳，Non-GAAP 利润率可能快于市场预期回升。具体观察指标：AI 云收入增速维持 70%+ 的同时经营费用率下降。",
+        "source_ids": [
+          "official-q1-results",
+          "external-ai-cloud-market"
+        ],
+        "counterevidence": "字节‘不需要盈利’的竞争可能持续压制 AI 云价格，盈利改善可能延迟。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "如果只能用一个指标判断百度下季表现，是什么？",
+        "answer": "自由现金流是否转正/收窄。因为它综合了收入增长质量（AI 云变现）、资本开支纪律（算力投入）与经营效率（费用控制）。若 FCF 从 -32 亿收窄至 -10 亿以内或转正，说明 AI 云开始‘自我造血’；若继续扩大至 -50 亿以上，则增长叙事需打折扣。",
+        "source_ids": [
+          "official-q1-results"
+        ],
+        "counterevidence": "若下季 FCF 仍为负但 AI 云增速维持 70%+ 且资本开支占比下降，说明短期 FCF 为负是投入期现象而非经营恶化。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-capital-burn-ratio",
+        "title": "资本开支/AI云收入比值达 67%，百度 AI 云增长是‘资本堆砌’而非‘规模效应’",
+        "consensus_view": "市场普遍将 AI 云 +79%、AI 收入占比 52% 解读为百度转型成功的信号，聚焦收入增速。",
+        "new_view": "Q1 资本开支 59.16 亿 vs AI 云收入 88 亿，投入强度 67%；自由现金流 -32.5 亿。AI 云每产生 1 元收入需投入约 0.67 元资本开支，显著高于成熟云厂商（AWS 约 15-20%）。百度 AI 云的高增长更像‘资本堆砌型增长’，规模效应尚未显现。真正的拐点信号不是收入增速，而是资本开支/AI 云收入比值的下降。",
+        "mechanism": "AI 云收入主要由 GPU 算力租赁贡献（占 65%），GPU 采购、智算中心、电力是前置重资产投入；折旧随规模线性放大，只有 GPU 利用率提升 + 昆仑芯自研芯片摊薄成本 + 涨价传导，才能让单位收入对应的资本开支下降。",
+        "implication": "改变对 AI 云‘增长质量’的评估框架：从看收入增速转为看资本开支强度（Capex/AI Cloud Revenue）。若该比值连续两季下降，AI 云开始进入规模效应阶段，估值可上修；反之，增长可能不创造股东价值。",
+        "source_ids": [
+          "official-q1-results"
+        ],
+        "counterevidence": "AI 云收入增速 79% 远高于资本开支增速（59.16 亿 vs 上年同期约 30 亿，约 +97%），收入与投入接近同步放大；但 Q1 相对 Q4（资本开支 19.72 亿）环比大幅增加 200%，说明公司正在加速投入，比值短期可能进一步恶化。",
+        "falsifier": "下一季度若资本开支/AI云收入比值从 67% 降至 55% 以下且 AI 云增速维持 60%+，说明规模效应出现，本观点被推翻。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 12
+      },
+      {
+        "id": "insight-search-zero-valuation",
+        "title": "市场对百度搜索业务的‘零估值’定价隐含了 AI 原生平台对搜索的根本性替代，而非暂时分流",
+        "consensus_view": "市场普遍认为百度广告下滑是‘周期+竞争’的暂时现象，搜索仍是刚需入口，估值给了零是因为短期盈利差。",
+        "new_view": "百度 App MAU 连续三季下滑 + 广告 -22% 的组合，与当年诺基亚功能机在智能机时代的路径一致：用户习惯从‘搜索式信息获取’转向‘问答式/推荐式 AI 交互’（豆包、元宝、DeepSeek），这是入口级替代而非流量分流。如果这个判断成立，搜索业务不是‘零估值’而是‘负资产’——它消耗的服务器、流量获取成本与组织资源，正在拖累公司向 AI 原生形态转型。百度正确的策略是加速将搜索入口改造为 AI 入口（如 AI 搜索、AI 智能体），而不是保护传统搜索收入。",
+        "mechanism": "广告收入 = MAU × 单用户广告价值 × 广告主预算份额。MAU 下滑（入口替代）与单用户广告价值下滑（广告主转向 AI 投放）同时发生，形成乘数效应；AI 原生平台（字节/腾讯）通过免费 AI 工具获客后导入广告，形成对传统搜索广告的双重挤占。",
+        "implication": "若判断成立，则：① 百度传统搜索业务不能按‘等待复苏’估值，应视为正在贬值中的资产；② 投资的胜负手完全在 AI 业务（云+芯片+Agent）能否补足利润缺口；③ 下一季度百度 App MAU 是否止跌（环比转正）是入口替代是否被逆转的关键观察点。",
+        "source_ids": [
+          "official-q1-results",
+          "external-ai-cloud-market"
+        ],
+        "counterevidence": "中国用户对搜索的依赖有强粘性（主动检索仍是刚需），且监管限制部分 AI 应用联网获取实时信息，百度搜索仍有合规入口优势；AI 原生营销 +36% 说明百度正把 AI 能力内化到广告系统。",
+        "falsifier": "若下一季度百度 App MAU 环比转正 且 广告降幅收窄至 -15% 以内，则入口替代被证伪，搜索资产价值应上修。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-kunlunxin-valuation-anchor",
+        "title": "昆仑芯 IPO 是百度的‘估值期权’而非‘基本面支撑’——500 亿美元目标 vs 关联交易依赖的矛盾，决定分拆是价值创造还是价值转移",
+        "consensus_view": "市场将昆仑芯分拆视为百度最大催化：目标估值 500 亿美元 ≈ 百度市值 1.35 倍，多数机构按‘寒武纪类比’上调百度估值。",
+        "new_view": "昆仑芯的‘收入质量’存在根本矛盾：历史上大部分芯片卖给母公司百度（关联交易），外部销售占比刚过半；‘订单换认购’配售机制（基石投资人承诺采购 3-7 倍认购额的芯片）被人为抬高收入之嫌。若 IPO 后外部收入占比不提升，500 亿美元估值将因‘重估溢价’而回落；且分拆后百度持股从 57% 降至约 50%，百度对昆仑芯的价值敞口被稀释。分拆是‘价值创造’还是‘价值转移’，取决于外部收入能否真正打开——这才是比 IPO 估值更重要的观察点。",
+        "mechanism": "分拆估值 = 外部收入 × 市场给国产 AI 芯片的市销率。当前 500 亿目标对应的隐含假设是外部收入快速放量（摩根大通预计 2026 年收入增长 6 倍、外部销售占比提升至 50%+）。若外部收入不达预期，市销率估值会随收入下修而塌缩（参照寒武纪波动）。百度通过分拆将芯片业务‘独立定价’，本质是把关联交易利润显性化，能否持续取决于真实外部客户。",
+        "implication": "改变对昆仑芯分拆的评估：从‘IPO 估值’转向‘IPO 后外部收入占比’。若上市后首个披露期的外部收入占比 <40%，说明分拆主要是价值转移（把母公司采购计价显性化）；若 >50% 且增长来自外部客户（移动、政企、云厂商），则价值创造成立。这直接影响百度母公司的市值重估。",
+        "source_ids": [
+          "external-kunlunxin-ipo"
+        ],
+        "counterevidence": "中国移动 2025 年 8 月中标十亿元级集采（三个标包第一）说明昆仑芯已获得外部大客户；国产替代政策红利可能推动外部需求持续增长。",
+        "falsifier": "若昆仑芯 IPO 后外部收入占比稳定在 50%+ 且非关联大客户（中国移动/政企）订单持续增长，则价值创造观点成立，本观点被推翻。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-cashflow-regime",
+        "title": "百度自由现金流转负是‘战略性失血’还是‘经营质量恶化’？——看投资现金流来源即可区分",
+        "consensus_view": "多数分析将 FCF -32.5 亿视为 AI 转型的必然成本，认为现金储备 2793 亿足以覆盖，无需担忧。",
+        "new_view": "Q1 自由现金流 -32.5 亿，但投资活动现金流转正（+49.4 亿，主要靠短期投资到期收回）。这说明公司正在用‘变卖投资组合’为资本开支供血，而非经营现金流改善。这种‘以卖养投’的模式可持续性存疑：短期投资总有卖完的一天，且出售投资会减少未来收益。真正的健康信号应是经营现金流（不含投资处置）足以覆盖资本开支——当前经营现金流 26.7 亿 vs 资本开支 59.2 亿，缺口 32.5 亿完全靠投资回收补足。",
+        "mechanism": "FCF = 经营现金流 - 资本开支。当资本开支大幅增长（AI 云投入）而经营现金流持平，缺口通过投资活动（出售短期投资/长期投资）弥补。若长期维持，公司将被迫放缓资本开支（伤增长）或增加举债（伤资产负债表）。",
+        "implication": "改变对百度‘现金储备雄厚=安全’的认知：应跟踪‘经营现金流-资本开支’的缺口是否收窄，以及投资回收来源是否枯竭。若下季投资活动现金流转负（没有更多投资可卖）而 FCF 仍为负，说明公司进入真正的现金流压力期。",
+        "source_ids": [
+          "official-q1-results"
+        ],
+        "counterevidence": "现金及投资 2793 亿中大量为长期投资（可出售），公司在 AI 云投入期主动选择变卖低效资产，是一种合理的资本再配置；Q1 投资回收可能只是季节性。",
+        "falsifier": "若下季度经营现金流改善（>40 亿）或资本开支放缓（<45 亿）使 FCF 收窄至 -10 亿以内，则现金流压力担忧解除，本观点被削弱。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 1,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "昆仑芯 IPO 以 400-500 亿美元估值落地，外部收入占比 50%+",
+        "AI 云收入增速维持 70%+（花旗担忧的 Q2 放缓未兑现）",
+        "广告降幅收窄至 -15% 以内，MAU 环比企稳",
+        "自由现金流单季转正或收窄至 -10 亿内",
+        "国产 AI 芯片政策加码，昆仑芯获新大客户"
+      ],
+      "segment_profit_range": [
+        45,
+        60
+      ],
+      "group_profit_range": [
+        50,
+        65
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "昆仑芯 IPO 落地但估值 300-400 亿美元，外部收入占比 40-50%",
+        "AI 云收入增速放缓至 50-60%",
+        "广告维持 -20% 左右降幅",
+        "自由现金流全年小幅负值，资本开支稳中有增",
+        "港股双重主要上市落地，流动性小幅改善"
+      ],
+      "segment_profit_range": [
+        30,
+        45
+      ],
+      "group_profit_range": [
+        35,
+        50
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 20,
+      "triggers": [
+        "昆仑芯 IPO 延迟或估值 <300 亿美元",
+        "AI 云价格战重启（字节低价抢单），毛利率恶化",
+        "广告加速下滑至 -30%",
+        "自由现金流持续 -50 亿以上，被迫削减资本开支",
+        "P800 芯片供应链受地缘政治/出口管制影响"
+      ],
+      "segment_profit_range": [
+        20,
+        32
+      ],
+      "group_profit_range": [
+        22,
+        35
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "管理层电话会原文未获取，管理层信号基于官方公告引语",
+      "券商目标价与预测为二手报道汇总，未经原始研报验证",
+      "百度 App MAU 连续下滑为外部报道口径，官方公告仅披露 6.55 亿（无环比对比）",
+      "昆仑芯估值/股权结构数据来源为公开报道（The Information/高盛/中金），存在口径差异"
+    ]
+  }
+}

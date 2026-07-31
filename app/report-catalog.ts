@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "baidu-2026-q1",
+    companyId: "baidu",
+    companyName: "百度集团",
+    companyNameEn: "Baidu",
+    ticker: "BIDU",
+    iconUrl: "https://www.baidu.com/favicon.ico",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-07-31",
+    endpoint: "/data/bidu-2026q1.json",
+    status: "published",
+  },
+  {
     id: "alibaba-2026-fy",
     companyId: "alibaba",
     companyName: "阿里巴巴集团",
