@@ -1,7 +1,7 @@
 {
   "schema_version": "site-1.0.0",
   "id": "9618-hk-2026q1",
-  "generated_at": "2026-08-03T06:00:57.104731+00:00",
+  "generated_at": "2026-08-03T07:03:47.156235+00:00",
   "preview_only": false,
   "report": {
     "company": "京东集团",
@@ -57,7 +57,14 @@
       "catalyst": "Q2 财报外卖亏损进一步收窄且带电跌幅符合预期；国补基数下半年正常化后带电回升；佣金广告收入持续高增；回购（剩余 US$14 亿额度至 2027 年 8 月）继续执行。",
       "risk": "外卖补贴战反复（美团/淘宝闪购重新加码）；3C 涨价与消费疲软持续；宏观社零增速低迷；监管罚款或合规成本再发生；海外扩张（Joybuy）投入超预期。"
     },
-    "disclaimer": "本报告仅供研究学习，不构成投资建议。所有数据来自公开官方文件与公开媒体，分析结论带有推断性质，请以公司官方披露为准。"
+    "disclaimer": "本报告仅供研究学习，不构成投资建议。所有数据来自公开官方文件与公开媒体，分析结论带有推断性质，请以公司官方披露为准。",
+    "company_name_en": "JD.com",
+    "period_end": "2026-03-31",
+    "share_price": 129.2,
+    "share_price_currency": "HKD",
+    "market_intraday_max_pct": 5.7,
+    "market_close_pct": 6.0,
+    "revenue_presentation_changed": true
   },
   "conclusion_summary": {
     "thesis": "京东正处于增长引擎换挡与利润结构重构的交汇点：零售主业经营利润率创历史新高（5.6%），但集团净利润同比下滑 53%，二者错位来自新业务（外卖）投入、一次性监管罚款与高毛利服务收入占比提升的叠加。市场已用“新业务减亏斜率”而非“当期利润水平”为京东定价，因此外卖减亏的可持续性与带电品类 Q2 高基数，是下一个季度必须验证的两个变量。",
@@ -199,6 +206,13 @@
       "title": "外卖大战一年账单：烧掉 1500 亿（亿邦动力/定焦One：Q1 美团外卖日均约 6500 万单、淘宝闪购约 5000 万单、京东外卖约 900 万单）",
       "authority_level": "tier4",
       "retrieved_at": "2026-08-03T14:10:00+08:00"
+    },
+    {
+      "id": "yahoo-finance-quote-20260803",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/9618.HK?interval=1d&range=5d",
+      "title": "Yahoo Finance 9618.HK 行情（2026-08-03 收盘 HK$129.20，HKD）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-08-03T14:50:00+08:00"
     }
   ],
   "facts": [
@@ -216,7 +230,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Total net revenues RMB315,694 million (US$45,766 million), +4.9% YoY",
-      "location": "Statements of Operations"
+      "location": "Statements of Operations",
+      "previous_value": 301082
     },
     {
       "id": "product-revenue",
@@ -232,7 +247,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Net product revenues RMB244,819 million, +1.0% YoY",
-      "location": "Statements of Operations"
+      "location": "Statements of Operations",
+      "previous_value": 242309
     },
     {
       "id": "service-revenue",
@@ -248,7 +264,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Net service revenues RMB70,875 million, +20.6% YoY",
-      "location": "Statements of Operations"
+      "location": "Statements of Operations",
+      "previous_value": 58773
     },
     {
       "id": "marketplace-marketing-revenue",
@@ -264,7 +281,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Marketplace and marketing revenues RMB26,517 million, +18.8% YoY",
-      "location": "Revenue table"
+      "location": "Revenue table",
+      "previous_value": 22320
     },
     {
       "id": "logistics-other-service-revenue",
@@ -280,7 +298,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Logistics and other service revenues RMB44,358 million, +21.7% YoY",
-      "location": "Revenue table"
+      "location": "Revenue table",
+      "previous_value": 36453
     },
     {
       "id": "eha-revenue",
@@ -296,7 +315,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Electronics and home appliances revenues RMB132,171 million, -8.4% YoY (Q1'25: RMB144,295 million)",
-      "location": "Revenue table"
+      "location": "Revenue table",
+      "previous_value": 144295
     },
     {
       "id": "gm-revenue",
@@ -312,7 +332,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "General merchandise revenues RMB112,648 million, +14.9% YoY (Q1'25: RMB98,014 million)",
-      "location": "Revenue table"
+      "location": "Revenue table",
+      "previous_value": 98014
     },
     {
       "id": "cost-of-revenue",
@@ -328,7 +349,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Cost of revenues RMB262,667 million, +3.7% YoY (Q1'25: RMB253,234 million)",
-      "location": "Statements of Operations"
+      "location": "Statements of Operations",
+      "previous_value": 253234
     },
     {
       "id": "fulfillment",
@@ -344,7 +366,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Fulfillment expenses RMB23,393 million, +18.5% YoY; 7.4% of net revenues (6.6% in Q1'25)",
-      "location": "Financial Results"
+      "location": "Financial Results",
+      "previous_value": 19737
     },
     {
       "id": "marketing",
@@ -360,7 +383,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Marketing expenses RMB15,372 million, +45.8% YoY; 4.9% of net revenues (3.5% in Q1'25)",
-      "location": "Statements of Operations / Financial Results"
+      "location": "Statements of Operations / Financial Results",
+      "previous_value": 10543
     },
     {
       "id": "rnd",
@@ -376,7 +400,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "R&D expenses RMB6,866 million, +48.6% YoY; 2.2% of net revenues (1.5% in Q1'25)",
-      "location": "Statements of Operations / Financial Results"
+      "location": "Statements of Operations / Financial Results",
+      "previous_value": 4621
     },
     {
       "id": "ga",
@@ -392,7 +417,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "G&A expenses RMB3,589 million, +48.7% YoY; 1.1% of net revenues (0.8% in Q1'25); includes SAMR fine of approx. RMB635 million",
-      "location": "Statements of Operations / Financial Results footnote 6"
+      "location": "Statements of Operations / Financial Results footnote 6",
+      "previous_value": 2414
     },
     {
       "id": "income-from-operations",
@@ -408,7 +434,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Income from operations RMB3,807 million vs RMB10,533 million in Q1'25; operating margin 1.2% vs 3.5%",
-      "location": "Statements of Operations"
+      "location": "Statements of Operations",
+      "previous_value": 10533
     },
     {
       "id": "nongaap-op-income",
@@ -424,7 +451,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Non-GAAP income from operations RMB5,608 million vs RMB11,713 million; non-GAAP operating margin 1.8% vs 3.9%",
-      "location": "Financial Results"
+      "location": "Financial Results",
+      "previous_value": 11713
     },
     {
       "id": "nongaap-ebitda",
@@ -440,7 +468,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Non-GAAP EBITDA RMB8,028 million vs RMB13,741 million in Q1'25; margin 2.5% vs 4.6%",
-      "location": "Financial Results"
+      "location": "Financial Results",
+      "previous_value": 13741
     },
     {
       "id": "net-income-attr",
@@ -456,7 +485,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Net income attributable to ordinary shareholders RMB5,102 million vs RMB10,890 million in Q1'25; net margin 1.6% vs 3.6%",
-      "location": "Statements of Operations"
+      "location": "Statements of Operations",
+      "previous_value": 10890
     },
     {
       "id": "nongaap-net-income",
@@ -472,7 +502,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Non-GAAP net income attributable to ordinary shareholders RMB7,379 million vs RMB12,758 million in Q1'25; non-GAAP net margin 2.3% vs 4.2%",
-      "location": "Unaudited Reconciliation of GAAP and Non-GAAP Results"
+      "location": "Unaudited Reconciliation of GAAP and Non-GAAP Results",
+      "previous_value": 12758
     },
     {
       "id": "diluted-eps-ads",
@@ -504,7 +535,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "JD Retail net revenues RMB268,588 million, +1.8% YoY",
-      "location": "Supplemental Information segment table"
+      "location": "Supplemental Information segment table",
+      "previous_value": 263845
     },
     {
       "id": "seg-op-income-retail",
@@ -520,7 +552,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "JD Retail income from operations RMB14,960 million vs RMB12,846 million in Q1'25; operating margin 5.6% vs 4.9%",
-      "location": "Supplemental Information segment table"
+      "location": "Supplemental Information segment table",
+      "previous_value": 12846
     },
     {
       "id": "seg-revenue-logistics",
@@ -536,7 +569,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "JD Logistics net revenues RMB60,581 million, +29.0% YoY",
-      "location": "Supplemental Information segment table"
+      "location": "Supplemental Information segment table",
+      "previous_value": 46967
     },
     {
       "id": "seg-op-income-logistics",
@@ -552,7 +586,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "JD Logistics income from operations RMB1,020 million vs RMB145 million in Q1'25; operating margin 1.7% vs 0.3%",
-      "location": "Supplemental Information segment table"
+      "location": "Supplemental Information segment table",
+      "previous_value": 145
     },
     {
       "id": "seg-revenue-newbiz",
@@ -568,7 +603,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "New Businesses net revenues RMB6,279 million, +9.1% YoY",
-      "location": "Supplemental Information segment table"
+      "location": "Supplemental Information segment table",
+      "previous_value": 5753
     },
     {
       "id": "seg-op-income-newbiz",
@@ -584,7 +620,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "New Businesses loss from operations RMB(10,352) million vs RMB(1,327) million in Q1'25; operating margin -164.9% vs -23.1%",
-      "location": "Supplemental Information segment table"
+      "location": "Supplemental Information segment table",
+      "previous_value": -1327
     },
     {
       "id": "cash-and-investments",
@@ -680,7 +717,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Net cash provided by operating activities RMB555 million vs RMB(18,262) million in Q1'25",
-      "location": "Statements of Cash Flows and Free Cash Flow"
+      "location": "Statements of Cash Flows and Free Cash Flow",
+      "previous_value": -18262
     },
     {
       "id": "fcf-q1",
@@ -696,7 +734,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Free cash flow RMB(6,481) million in Q1'26 vs RMB(21,603) million in Q1'25 (OCF 555 - consumer financing impact 1,973 - capex net 5,063)",
-      "location": "Cash Flow and Working Capital"
+      "location": "Cash Flow and Working Capital",
+      "previous_value": -21603
     },
     {
       "id": "fcf-ttm",
@@ -712,7 +751,8 @@
         "sec-6k-ex991-20260512"
       ],
       "evidence": "Twelve-month FCF RMB21,598 million vs RMB37,613 million for twelve months ended Mar 31 2025",
-      "location": "Cash Flow and Working Capital"
+      "location": "Cash Flow and Working Capital",
+      "previous_value": 37613
     },
     {
       "id": "samr-fine",

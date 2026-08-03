@@ -926,7 +926,9 @@ function ReportOverview({ data }: { data: ReportData }) {
             <div>
               <dt>股价参考</dt>
               <dd>
-                {data.thesis.priceAtAnalysis} {data.thesis.priceCurrency}
+                {data.thesis.priceAtAnalysis > 0
+                  ? `${data.thesis.priceAtAnalysis} ${data.thesis.priceCurrency}`
+                  : "未覆盖"}
               </dd>
             </div>
             <div>

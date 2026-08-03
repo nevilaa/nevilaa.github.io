@@ -1,6 +1,8 @@
 import type {
   AnalysisLayer,
+  BusinessItem,
   EventItem,
+  Expense,
   ReportData,
   Scenario,
   StrategicChallenge,
@@ -47,10 +49,112 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   const sources = list(payload.sources);
   const fact = (metric: string) => facts.find((item) => item.metric === metric);
   const factValue = (metric: string) => numberValue(fact(metric)?.value) / 100;
+  const factDisplay = (metric: string) => stringValue(fact(metric)?.display_value);
+  const previousValue = (metric: string) => {
+    const own = numberValue(fact(metric)?.previous_value);
+    if (own) return own;
+    const PREV_ALIASES: Record<string, string> = {
+      total_revenue: "total_revenue_prev",
+      online_marketing_revenue: "online_marketing_prev",
+      net_income_attributable: "net_income_prev",
+      non_gaap_net_income: "non_gaap_net_income_prev",
+      ai_powered_revenue: "ai_powered_revenue_prev",
+    };
+    return numberValue(fact(PREV_ALIASES[metric] ?? `${metric}_prev`)?.value);
+  };
+  const yoyOf = (metric: string) => {
+    const current = numberValue(fact(metric)?.value);
+    const previous = previousValue(metric);
+    if (!current || !previous) return undefined;
+    return Math.round((current / previous - 1) * 1000) / 10;
+  };
+  const yoyTextOf = (metric: string) => {
+    const yoy = yoyOf(metric);
+    return typeof yoy === "number" ? `${yoy >= 0 ? "+" : ""}${yoy}% YoY` : undefined;
+  };
+  const yoyOfFact = (item: UnknownRecord) => {
+    const current = numberValue(item.value);
+    const previous = numberValue(item.previous_value);
+    if (!current || !previous) return 0;
+    return Math.round((current / previous - 1) * 1000) / 10;
+  };
+  const splitFactors = (value: unknown) =>
+    stringValue(value)
+      .split(/[；;]/)
+      .map((item) => item.trim())
+      .filter(Boolean);
   const thesis = stringValue(
     summary.thesis ?? rawReport.thesis,
-    "百度正在切换收入引擎，AI 业务增长与盈利质量仍需验证。",
+    "请以结构化数据中的研究结论为准。",
   );
+  const segmentRevenueFacts = facts.filter(
+    (item) => item.metric === "segment_revenue" && stringValue(item.segment),
+  );
+  const segmentOpBySegment = new Map(
+    facts
+      .filter(
+        (item) =>
+          item.metric === "segment_income_from_operations" &&
+          stringValue(item.segment),
+      )
+      .map((item) => [stringValue(item.segment), item]),
+  );
+  const KEY_METRIC_CATALOG: Record<
+    string,
+    { label: string; tone: "positive" | "negative" | "neutral"; result: string }
+  > = {
+    total_revenue: { label: "总收入", tone: "neutral", result: "规模稳定" },
+    net_income_attributable_to_ordinary_shareholders: {
+      label: "归母净利润",
+      tone: "negative",
+      result: "同比下滑",
+    },
+    net_income_attributable: { label: "归母净利润", tone: "negative", result: "同比下滑" },
+    nongaap_net_income_attributable_to_ordinary_shareholders: {
+      label: "Non-GAAP 归母净利",
+      tone: "negative",
+      result: "同比下滑",
+    },
+    nongaap_net_income: { label: "Non-GAAP 归母净利", tone: "negative", result: "同比下滑" },
+    free_cash_flow: { label: "自由现金流", tone: "negative", result: "承压" },
+    electronics_and_home_appliances_revenues: {
+      label: "带电品类收入",
+      tone: "negative",
+      result: "同比下滑",
+    },
+    eha_revenues: { label: "带电品类收入", tone: "negative", result: "同比下滑" },
+    general_merchandise_revenues: { label: "日百品类收入", tone: "positive", result: "高增长" },
+    gm_revenues: { label: "日百品类收入", tone: "positive", result: "高增长" },
+    marketplace_and_marketing_revenues: {
+      label: "平台及广告收入",
+      tone: "positive",
+      result: "高增长",
+    },
+    marketplace_marketing_revenues: {
+      label: "平台及广告收入",
+      tone: "positive",
+      result: "高增长",
+    },
+    net_service_revenues: { label: "服务收入", tone: "positive", result: "高增长" },
+    service_revenue: { label: "服务收入", tone: "positive", result: "高增长" },
+    ai_powered_revenue: { label: "AI 相关收入", tone: "positive", result: "增长引擎" },
+    online_marketing_revenue: {
+      label: "在线营销收入",
+      tone: "negative",
+      result: "持续承压",
+    },
+  };
+  const BRAND_COLORS: Array<[RegExp, string]> = [
+    [/9618|JD/i, "#e1251b"],
+    [/BIDU/i, "#2932e1"],
+    [/0700/i, "#00a2e8"],
+    [/9988/i, "#ff6a00"],
+    [/01024/i, "#ff7100"],
+    [/DIDI/i, "#fc6b00"],
+  ];
+  const brandColorFor = (ticker: string, name: string) =>
+    BRAND_COLORS.find(([pattern]) => pattern.test(ticker) || pattern.test(name))?.[1] ??
+    "#1f2937";
   const currentChallenges: StrategicChallenge[] = list(summary.current_difficulties).map(
     (item) => ({
       title: stringValue(item.title, "待观察问题"),
@@ -132,21 +236,84 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   const managementClaims = moduleClaims("management");
   const competitionClaims = moduleClaims("competition");
   const externalClaims = moduleClaims("external_shocks");
+  const businessClaims = moduleClaims("business");
+  const balanceClaims = moduleClaims("cash_flow");
+  const totalRevenueValue = numberValue(fact("total_revenue")?.value);
+  const previousTotalRevenueValue = previousValue("total_revenue");
+  const expenseCatalog: Array<{ metric: string; name: string }> = [
+    { metric: "fulfillment_expenses", name: "履约费用" },
+    { metric: "marketing_expenses", name: "营销费用" },
+    { metric: "research_and_development_expenses", name: "研发费用" },
+    { metric: "general_and_administrative_expenses", name: "管理费用" },
+    { metric: "fulfillment", name: "履约费用" },
+    { metric: "marketing", name: "营销费用" },
+    { metric: "rnd", name: "研发费用" },
+    { metric: "ga", name: "管理费用" },
+  ];
+  const expenses: Expense[] = expenseCatalog
+    .filter((item) => fact(item.metric))
+    .map((item) => {
+      const value = numberValue(fact(item.metric)?.value);
+      const previous = previousValue(item.metric);
+      const share = totalRevenueValue
+        ? Math.round((value / totalRevenueValue) * 1000) / 10
+        : 0;
+      const previousShare =
+        previousTotalRevenueValue && previous
+          ? Math.round((previous / previousTotalRevenueValue) * 1000) / 10
+          : 0;
+      return {
+        name: item.name,
+        value: Math.round((value / 100) * 10) / 10,
+        unit: "亿元",
+        yoy: yoyOf(item.metric) ?? 0,
+        revenueShare: share,
+        shareChangePp: Math.round((share - previousShare) * 10) / 10,
+      };
+    });
+  const BUSINESS_ITEM_CATALOG: Array<{ metric: string; name: string; effect: string }> = [
+    { metric: "ai_powered_revenue", name: "AI 相关收入", effect: "增长引擎" },
+    { metric: "online_marketing_revenue", name: "在线营销收入", effect: "持续承压" },
+    {
+      metric: "electronics_and_home_appliances_revenues",
+      name: "带电品类（3C+家电）",
+      effect: "高基数与涨价承压",
+    },
+    { metric: "eha_revenues", name: "带电品类（3C+家电）", effect: "高基数与涨价承压" },
+    { metric: "general_merchandise_revenues", name: "日用百货", effect: "增长主轴" },
+    { metric: "gm_revenues", name: "日用百货", effect: "增长主轴" },
+    { metric: "net_service_revenues", name: "服务收入", effect: "高毛利引擎" },
+    { metric: "service_revenue", name: "服务收入", effect: "高毛利引擎" },
+  ];
+  const businessItems: BusinessItem[] = BUSINESS_ITEM_CATALOG.filter((item) =>
+    fact(item.metric),
+  ).map((item) => ({
+    name: item.name,
+    volume: factDisplay(item.metric),
+    price: yoyTextOf(item.metric) ?? "未披露",
+    effect: item.effect,
+  }));
+  const marketIntraday = numberValue(rawReport.market_intraday_max_pct);
+  const marketClose = numberValue(rawReport.market_close_pct);
+  const reaction =
+    marketIntraday > 0 || marketClose > 0
+      ? {
+          intradayMaxPct: marketIntraday,
+          closePct: marketClose,
+          bullFactors: splitFactors(summary.catalyst).slice(0, 3),
+          bearFactors: splitFactors(summary.risk).slice(0, 3),
+        }
+      : undefined;
   const analysisLayers: AnalysisLayer[] = [
-    layer("business", 1, "业务拆解", {
-      items: [
-        { name: "AI 云基础设施", volume: "88 亿元", price: "+79% YoY", effect: "AI 收入核心来源" },
-        { name: "AI 应用", volume: "25 亿元", price: "大致持平", effect: "环比下滑" },
-        { name: "在线营销", volume: "126 亿元", price: "-22% YoY", effect: "传统利润承压" },
-      ],
-    }),
+    layer("business", 1, "业务拆解", { items: businessItems }),
     layer("costs", 2, "成本效率", {
-      dataStatus: "已覆盖关键成本事实",
-      watchItems: ["AI 云成本与资本开支强度", "研发和销售费用压缩是否可持续"],
+      dataStatus: expenses.length ? "已覆盖关键成本事实" : "待补充",
+      watchItems: ["新业务投入斜率", "履约与研发投入的回报"],
+      ...(expenses.length ? { expenses } : {}),
     }),
     layer("cash_flow", 3, "现金与资产", {
-      dataStatus: "已覆盖现金流事实",
-      watchItems: ["自由现金流能否转正", "资本开支与 AI 云收入的匹配度"],
+      dataStatus: balanceClaims.length ? "已覆盖现金流事实" : "待补充",
+      watchItems: ["自由现金流走向", "资本开支与股东回报的平衡"],
     }),
     layer("management", 4, "管理层信号", {
       signals: managementClaims.slice(0, 4).map((claim) => ({
@@ -173,12 +340,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       })),
     }),
     layer("market_reaction", 7, "市场定价", {
-      reaction: {
-        intradayMaxPct: 2.1,
-        closePct: 2.1,
-        bullFactors: ["AI 云收入保持较快增长", "昆仑芯分拆提供估值期权"],
-        bearFactors: ["广告收入持续下滑", "自由现金流转负"],
-      },
+      ...(reaction ? { reaction } : {}),
     }),
     layer("future_scenarios", 8, "情景与验证", {
       watchlist: normalizedScenarios.flatMap((item) =>
@@ -197,19 +359,19 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
 
   return {
     schemaVersion: stringValue(payload.schema_version, "site-1.0.0"),
-    slug: stringValue(payload.id, "baidu-2026q1"),
+    slug: stringValue(payload.id, "report"),
     updatedAt: generatedAt,
     company: {
       name: companyName,
-      nameEn: "Baidu",
-      ticker: stringValue(rawReport.ticker, "BIDU"),
-      adrTicker: "BIDU",
-      brandColor: "#2932e1",
+      nameEn: stringValue(rawReport.company_name_en, companyName),
+      ticker: stringValue(rawReport.ticker, "—"),
+      adrTicker: stringValue(rawReport.ticker, "—"),
+      brandColor: brandColorFor(stringValue(rawReport.ticker), companyName),
     },
     report: {
-      title: `${companyName} ${period}：AI 增长与盈利质量仍需验证`,
+      title: `${companyName} ${period} 财报深度分析`,
       period,
-      periodEnd: "2026-03-31",
+      periodEnd: stringValue(rawReport.period_end, "未披露"),
       publishedAt: generatedAt.slice(0, 10),
       analyzedAt: generatedAt.slice(0, 10),
       analysts: ["思航研究"],
@@ -217,14 +379,14 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       disclaimer: stringValue(rawReport.disclaimer, "仅供研究学习，不构成投资建议。"),
     },
     thesis: {
-      rating: stringValue(summary.rating, "中性偏谨慎"),
+      rating: stringValue(summary.rating, "中性"),
       stars: summary.confidence === "high" ? 4 : summary.confidence === "low" ? 2 : 3,
       headline: thesis,
       coreConflict: stringValue(summary.core_conflict, thesis),
       falsifiableSignal: stringValue(summary.falsifier, "下一季度数据改善将推翻当前判断。"),
-      priceAtAnalysis: 107.48,
-      priceCurrency: "USD",
-      valuationContext: stringValue(summary.valuation_context, "估值仍取决于 AI 业务兑现。"),
+      priceAtAnalysis: numberValue(rawReport.share_price),
+      priceCurrency: stringValue(rawReport.share_price_currency),
+      valuationContext: stringValue(summary.valuation_context, "估值判断见研究结论。"),
       strategicSummary: {
         primaryDifficulty: stringValue(summary.primary_difficulty, thesis),
         strategicJudgment: stringValue(summary.strategic_judgment, thesis),
@@ -232,20 +394,79 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
         futureDirections,
       },
     },
-    keyMetrics: [
-      metric("revenue", "总收入", factValue("total_revenue"), "规模稳定", "neutral"),
-      metric("ai", "AI 相关收入", factValue("ai_powered_revenue"), "增长引擎", "positive", "+49% YoY"),
-      metric("marketing", "在线营销收入", factValue("online_marketing_revenue"), "持续承压", "negative", "-22% YoY"),
-      metric("net-income", "归母净利润", factValue("net_income_attributable"), "同比下滑", "negative", "-55% YoY"),
-      metric("free-cash-flow", "自由现金流", factValue("free_cash_flow"), "转负", "negative"),
-    ],
-    segments: [],
+    keyMetrics: Object.entries(KEY_METRIC_CATALOG)
+      .filter(([metricKey]) => fact(metricKey))
+      .map(([metricKey, config]) =>
+        metric(
+          metricKey,
+          config.label,
+          factValue(metricKey),
+          config.result,
+          config.tone,
+          yoyTextOf(metricKey),
+        ),
+      ),
+    segments: segmentRevenueFacts.map((item, index) => {
+      const name = stringValue(item.segment);
+      const opFact = segmentOpBySegment.get(name);
+      const revenue = numberValue(item.value) / 100;
+      const operatingProfit = opFact ? numberValue(opFact.value) / 100 : 0;
+      const previousRevenue = numberValue(item.previous_value);
+      const previousOp = opFact ? numberValue(opFact.previous_value) : 0;
+      return {
+        id: `segment-${index + 1}`,
+        name,
+        revenue: Math.round(revenue * 10) / 10,
+        revenueUnit: "亿元",
+        revenueYoy: yoyOfFact(item),
+        operatingProfit: Math.round(operatingProfit * 10) / 10,
+        operatingProfitUnit: "亿元",
+        priorYearOperatingProfit: Math.round((previousOp / 100) * 10) / 10,
+        priorQuarterOperatingProfit: 0,
+        margin: revenue ? Math.round((operatingProfit / revenue) * 1000) / 10 : 0,
+        priorYearMargin: previousRevenue
+          ? Math.round((previousOp / previousRevenue) * 1000) / 10
+          : 0,
+        summary: opFact
+          ? stringValue(opFact.display_value)
+          : "分部利润未单独披露",
+      };
+    }),
     revenuePresentation: {
-      changed: true,
-      description: "AI 业务已成为百度核心业务的主要收入增长来源。",
+      changed: Boolean(rawReport.revenue_presentation_changed),
+      description: businessClaims[0]
+        ? claimText(businessClaims[0]).slice(0, 140)
+        : "收入结构数据见财务快照与分部经济性。",
       items: [
-        { name: "AI 云基础设施", detail: "收入 88 亿元，同比增长 79%。", value: factValue("ai_cloud_infra_revenue"), unit: "亿元", yoy: 79 },
-        { name: "在线营销", detail: "收入 126 亿元，同比下降 22%。", value: factValue("online_marketing_revenue"), unit: "亿元", yoy: -22 },
+        ...(fact("net_product_revenues")
+          ? [
+              {
+                name: "产品收入",
+                detail: "自营商品销售",
+                value: factValue("net_product_revenues"),
+                unit: "亿元",
+                yoy: yoyOf("net_product_revenues") ?? 0,
+              },
+            ]
+          : []),
+        ...(fact("net_service_revenues")
+          ? [
+              {
+                name: "服务收入",
+                detail: "平台、广告、物流等服务",
+                value: factValue("net_service_revenues"),
+                unit: "亿元",
+                yoy: yoyOf("net_service_revenues") ?? 0,
+              },
+            ]
+          : []),
+        ...segmentRevenueFacts.map((item) => ({
+          name: stringValue(item.segment),
+          detail: "分部收入",
+          value: Math.round((numberValue(item.value) / 100) * 10) / 10,
+          unit: "亿元",
+          yoy: yoyOfFact(item),
+        })),
       ],
     },
     analysisLayers,
