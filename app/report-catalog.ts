@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "jd-2026-q1",
+    companyId: "jd",
+    companyName: "京东集团",
+    companyNameEn: "JD.com",
+    ticker: "9618.HK",
+    iconUrl: "https://www.jd.com/favicon.ico",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-08-03",
+    endpoint: "/data/9618-hk-2026q1.json",
+    status: "published",
+  },
+  {
     id: "baidu-2026-q1",
     companyId: "baidu",
     companyName: "百度集团",
