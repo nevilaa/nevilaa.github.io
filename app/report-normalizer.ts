@@ -143,9 +143,17 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       tone: "negative",
       result: "持续承压",
     },
+    transaction_services_revenue: {
+      label: "交易服务收入",
+      tone: "positive",
+      result: "结构拐点",
+    },
+    gross_profit: { label: "毛利润", tone: "neutral", result: "规模稳定" },
+    operating_income: { label: "营业利润", tone: "positive", result: "持续扩张" },
   };
   const BRAND_COLORS: Array<[RegExp, string]> = [
     [/9618|JD/i, "#e1251b"],
+    [/PDD/i, "#e02e24"],
     [/BIDU/i, "#2932e1"],
     [/0700/i, "#00a2e8"],
     [/9988/i, "#ff6a00"],
@@ -238,13 +246,17 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   const externalClaims = moduleClaims("external_shocks");
   const businessClaims = moduleClaims("business");
   const balanceClaims = moduleClaims("cash_flow");
+  const researchClaims = moduleClaims("research_signal");
   const totalRevenueValue = numberValue(fact("total_revenue")?.value);
   const previousTotalRevenueValue = previousValue("total_revenue");
   const expenseCatalog: Array<{ metric: string; name: string }> = [
+    { metric: "cost_of_revenue", name: "营业成本" },
     { metric: "fulfillment_expenses", name: "履约费用" },
     { metric: "marketing_expenses", name: "营销费用" },
+    { metric: "sales_and_marketing_expenses", name: "营销费用" },
     { metric: "research_and_development_expenses", name: "研发费用" },
     { metric: "general_and_administrative_expenses", name: "管理费用" },
+    { metric: "cost_of_revenues", name: "营业成本" },
     { metric: "fulfillment", name: "履约费用" },
     { metric: "marketing", name: "营销费用" },
     { metric: "rnd", name: "研发费用" },
@@ -255,20 +267,21 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     .map((item) => {
       const value = numberValue(fact(item.metric)?.value);
       const previous = previousValue(item.metric);
-      const share = totalRevenueValue
-        ? Math.round((value / totalRevenueValue) * 1000) / 10
-        : 0;
-      const previousShare =
+      const shareRaw = totalRevenueValue ? (value / totalRevenueValue) * 100 : 0;
+      const previousShareRaw =
         previousTotalRevenueValue && previous
-          ? Math.round((previous / previousTotalRevenueValue) * 1000) / 10
+          ? (previous / previousTotalRevenueValue) * 100
           : 0;
       return {
         name: item.name,
         value: Math.round((value / 100) * 10) / 10,
         unit: "亿元",
         yoy: yoyOf(item.metric) ?? 0,
-        revenueShare: share,
-        shareChangePp: Math.round((share - previousShare) * 10) / 10,
+        revenueShare: Math.round(shareRaw * 10) / 10,
+        shareChangePp:
+          previousTotalRevenueValue && previous
+            ? Math.round((shareRaw - previousShareRaw) * 10) / 10
+            : 0,
       };
     });
   const BUSINESS_ITEM_CATALOG: Array<{ metric: string; name: string; effect: string }> = [
@@ -284,6 +297,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     { metric: "gm_revenues", name: "日用百货", effect: "增长主轴" },
     { metric: "net_service_revenues", name: "服务收入", effect: "高毛利引擎" },
     { metric: "service_revenue", name: "服务收入", effect: "高毛利引擎" },
+    { metric: "transaction_services_revenue", name: "交易服务收入", effect: "结构拐点" },
   ];
   const businessItems: BusinessItem[] = BUSINESS_ITEM_CATALOG.filter((item) =>
     fact(item.metric),
@@ -296,7 +310,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   const marketIntraday = numberValue(rawReport.market_intraday_max_pct);
   const marketClose = numberValue(rawReport.market_close_pct);
   const reaction =
-    marketIntraday > 0 || marketClose > 0
+    marketIntraday !== 0 || marketClose !== 0
       ? {
           intradayMaxPct: marketIntraday,
           closePct: marketClose,
@@ -350,6 +364,11 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
           why: "用于验证该情景是否正在发生。",
         })),
       ),
+    }),
+    layer("research_signal", 9, "研究结论", {
+      verdict: researchClaims[0]
+        ? claimText(researchClaims[0]).slice(0, 160)
+        : "研究结论见结语与写在最后。",
     }),
   ];
   const event = (value: unknown, fallback: string): EventItem => ({
@@ -457,6 +476,28 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
                 value: factValue("net_service_revenues"),
                 unit: "亿元",
                 yoy: yoyOf("net_service_revenues") ?? 0,
+              },
+            ]
+          : []),
+        ...(fact("online_marketing_revenue")
+          ? [
+              {
+                name: "在线营销收入",
+                detail: "商家广告费（高毛利收费口）",
+                value: factValue("online_marketing_revenue"),
+                unit: "亿元",
+                yoy: yoyOf("online_marketing_revenue") ?? 0,
+              },
+            ]
+          : []),
+        ...(fact("transaction_services_revenue")
+          ? [
+              {
+                name: "交易服务收入",
+                detail: "交易抽佣、多多买菜与平台服务费",
+                value: factValue("transaction_services_revenue"),
+                unit: "亿元",
+                yoy: yoyOf("transaction_services_revenue") ?? 0,
               },
             ]
           : []),

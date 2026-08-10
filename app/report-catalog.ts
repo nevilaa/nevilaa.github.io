@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "pdd-2026-q1",
+    companyId: "pdd",
+    companyName: "拼多多",
+    companyNameEn: "PDD Holdings",
+    ticker: "PDD",
+    iconUrl: "https://icons.duckduckgo.com/ip3/www.pinduoduo.com.ico",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-08-10",
+    endpoint: "/data/pdd-2026q1.json",
+    status: "published",
+  },
+  {
     id: "jd-2026-q1",
     companyId: "jd",
     companyName: "京东集团",
