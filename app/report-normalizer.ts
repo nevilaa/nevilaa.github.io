@@ -167,6 +167,17 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       )
       .map((item) => [stringValue(item.segment), item]),
   );
+  // MiniMax 分部事实的 segment 字段为英文名，表格/口径变更区需展示中文名；
+  // 其他 8 家公司的 metric 不在此映射中，渲染不受影响。
+  const SEGMENT_NAME_OVERRIDES: Record<string, string> = {
+    revenue_ai_native_products: "AI 原生产品",
+    revenue_open_platform: "开放平台及企业服务",
+    revenue_open_platform_enterprise: "开放平台及企业服务",
+  };
+  const segmentNameOf = (item: UnknownRecord) =>
+    SEGMENT_NAME_OVERRIDES[stringValue(item.metric)] ||
+    stringValue(item.segment) ||
+    stringValue(item.metric);
   const KEY_METRIC_CATALOG: Record<
     string,
     { label: string; tone: "positive" | "negative" | "neutral"; result: string }
@@ -573,8 +584,9 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
         );
       }),
     segments: segmentRevenueFacts.map((item, index) => {
-      const name = stringValue(item.segment) || stringValue(item.metric);
-      const opFact = segmentOpBySegment.get(name);
+      const rawName = stringValue(item.segment) || stringValue(item.metric);
+      const opFact = segmentOpBySegment.get(rawName);
+      const name = segmentNameOf(item);
       const revenue = numberValue(item.value) / moneyScale();
       const operatingProfit = opFact ? numberValue(opFact.value) / moneyScale() : 0;
       const previousRevenue = numberValue(item.previous_value);
@@ -649,7 +661,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
             ]
           : []),
         ...segmentRevenueFacts.map((item) => ({
-          name: stringValue(item.segment) || stringValue(item.metric),
+          name: segmentNameOf(item),
           detail: item.metric === "segment_revenue" ? "分部收入" : "分部收入",
           value: Math.round((numberValue(item.value) / moneyScale()) * 10) / 10,
           unit: moneyUnit(),
