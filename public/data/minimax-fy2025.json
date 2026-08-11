@@ -881,7 +881,7 @@
           "falsifier": "若2026H1开放平台毛利/ARPU在价格战中下滑则证实价格战传导。"
         },
         {
-          "text": "外部竞争力榜单（external，单来源）：MiniMax（M3）位居中游，落后于头部厂商（外部口径、未经独立核验）。",
+          "text": "外部行业评测（外部口径、未经独立核验）显示 MiniMax（M3）位居中游，落后于头部厂商。",
           "claim_type": "external_fact",
           "confidence": "low",
           "source_ids": []
