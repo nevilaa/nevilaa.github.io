@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "minimax-fy2025",
+    companyId: "minimax",
+    companyName: "稀宇科技",
+    companyNameEn: "MiniMax",
+    ticker: "0100.HK",
+    iconUrl: "https://icons.duckduckgo.com/ip3/www.minimax.io.ico",
+    fiscalYear: 2025,
+    quarter: "FY",
+    periodLabel: "2025 FY",
+    publishedAt: "2026-08-11",
+    endpoint: "/data/minimax-fy2025.json",
+    status: "published",
+  },
+  {
     id: "pdd-2026-q1",
     companyId: "pdd",
     companyName: "拼多多",

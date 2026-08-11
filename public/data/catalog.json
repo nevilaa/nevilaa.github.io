@@ -2,6 +2,16 @@
   "schema_version": "site-catalog-1.0.0",
   "reports": [
     {
+      "id": "minimax-fy2025",
+      "company": "稀宇科技 (MiniMax Group Inc.)",
+      "ticker": "0100.HK",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "MiniMax以全球消费端AI产品（海外收入占73%）为增长引擎，FY2025实现收入$79.0M（+158.9%）、毛利率12.2%→25.4%的效率改善，但模型研发烧钱（R&D $252.8M、经营现金流-$279.6M）使调整后净亏仍达$250.9M；估值已建立在2026-27超高速增长预期之上，核心矛盾是'全球消费增长引擎Hailuo的版权诉讼风险（披露但零拨备）'与'烧钱换规模仍需持续稀释融资'之间的权衡。",
+      "generated_at": "2026-08-11T00:00:00+00:00",
+      "data_url": "minimax-fy2025.json"
+    },
+    {
       "id": "pdd-2026q1",
       "company": "拼多多",
       "ticker": "PDD",

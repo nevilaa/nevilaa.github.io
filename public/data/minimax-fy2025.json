@@ -1,0 +1,1402 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "minimax-fy2025",
+  "generated_at": "2026-08-11T00:00:00+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "稀宇科技 (MiniMax Group Inc.)",
+    "ticker": "0100.HK",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "MiniMax以全球消费端AI产品（海外收入占73%）为增长引擎，FY2025实现收入$79.0M（+158.9%）、毛利率12.2%→25.4%的效率改善，但模型研发烧钱（R&D $252.8M、经营现金流-$279.6M）使调整后净亏仍达$250.9M；估值已建立在2026-27超高速增长预期之上，核心矛盾是'全球消费增长引擎Hailuo的版权诉讼风险（披露但零拨备）'与'烧钱换规模仍需持续稀释融资'之间的权衡。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "全球消费端增长引擎Hailuo面临迪士尼/环球/华纳版权诉讼：年报已完整披露（LEGAL PROCEEDINGS p.34 + 审计后Note 28）但Note 28未计提任何拨备（unable to predict outcome），管理层断言without merit且无material adverse effect，而2026-05-23撤诉动议被驳回（属人管辖权成立）；叠加模型研发与云算力的高烧钱结构（经营现金流-$279.6M/年），公司必须在法律风险未决与规模亏损扩大的双重约束下维持增长叙事。",
+      "current_difficulties": [
+        {
+          "title": "版权诉讼直击核心收入来源",
+          "evidence": "Hailuo（视频生成600M+）支撑AI原生收入（67.2%），海外收入占73%；2025-09起诉、2026-05-23驳回撤诉动议；年报Note 28披露诉讼但零拨备（unable to predict outcome），管理层主张without merit并确认无material adverse effect。",
+          "implication": "若不利裁决（禁令/赔偿/内容下架）将直接冲击最大收入线与美国市场准入，且该风险无法靠增加投入快速化解。"
+        },
+        {
+          "title": "结构性烧钱与规模缺口",
+          "evidence": "R&D $252.8M（占收入320%）+经营现金流-$279.6M vs 收入仅$79.0M，调整后净亏$250.9M；资本开支仅$0.92M、算力为云租赁。",
+          "implication": "盈亏平衡需收入规模放大5倍以上，期间持续依赖资本市场融资与股东稀释。"
+        },
+        {
+          "title": "中国基座模型价格战与集中度提升",
+          "evidence": "国内基座模型调用份额向头部集中（外部口径），MiniMax位居中游。",
+          "implication": "开放平台token定价与毛利承压，MiniMax需靠全球消费与开发者社区差异化。"
+        }
+      ],
+      "strategic_judgment": "管理层正从'大模型公司'向'AI时代平台公司'转型，以AI原生组织（agent interns覆盖近90%员工）与模型效率（M2.5 $1/小时连续运行）为杠杆，压缩营销开支、依赖产品自增长，并通过频繁资本市场融资（IPO HK$53亿+2026-07约$19亿配售/可转债）支撑算力与研发投入——以'效率+资本'对冲'烧钱+法律'。",
+      "strategic_directions": [
+        {
+          "direction": "模型效率驱动商业化",
+          "rationale": "M2.5在编码/工具调用/工作场景领先且$1/小时的经济性直接改善token单位成本，是量价剪刀差为正的关键。",
+          "management_signal": "M2系列2026-02日均token消耗达2025-12的6倍、Coding Plan超10倍；毛利率12.2%→25.4%。",
+          "validation": "2026H1毛利率是否>28%、用户/开发者指标是否披露并保持高增。"
+        },
+        {
+          "direction": "AI原生组织降本",
+          "rationale": "agent interns覆盖近90%员工，用AI压缩人力环节，应对428员工+$84.3M薪酬的刚性成本。",
+          "management_signal": "2026-01产品化推出MiniMax Agent AI-native Workspace。",
+          "validation": "员工增速是否低于收入增速、人均收入是否持续提升。"
+        },
+        {
+          "direction": "全球化与多模态内容",
+          "rationale": "海外收入占73%，视频/语音/音乐全模态（600M+视频、200M+小时语音）是差异化壁垒。",
+          "management_signal": "全球200+国家/地区、多模态模型全覆盖；Hailuo全球化运营。",
+          "validation": "海外收入占比、Hailuo版权诉讼进展与海外内容合规投入。"
+        }
+      ],
+      "core_conflict": "用烧钱换规模（R&D+算力投入）与法律/融资风险敞口（版权诉讼+持续稀释）之间的张力——增长越快越依赖外部资本与海外市场许可，任一环节断裂都会放大下行。",
+      "falsifier": "2026H1：若诉讼出现计提/禁令、毛利率回落<25%、用户/开发者指标增速放缓（外部口径）、或S&D/收入回升，则'效率改善+全球化增长'主线证伪。",
+      "valuation_context": "上市首日+109%（HK$345、市值>1000亿港元），市场已将2026-27年超高速增长预期定价在内——该估值语境仅作参考，不构成官方事实。",
+      "catalyst": "M2.5系列带动开发者采纳与Coding Plan增长、用户/开发者指标加速披露；版权诉讼和解/有利裁决；2026H1收入超预期。",
+      "risk": "版权诉讼不利裁决（禁令/赔偿）、2026-07 $19亿配售+可转债的稀释与股价压力、基座模型价格战侵蚀Open Platform毛利、算力/芯片供给受限。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "MiniMax以全球消费端AI产品（海外收入占73%）为增长引擎，FY2025实现收入$79.0M（+158.9%）、毛利率12.2%→25.4%的效率改善，但模型研发烧钱（R&D $252.8M、经营现金流-$279.6M）使调整后净亏仍达$250.9M；估值已建立在2026-27超高速增长预期之上，核心矛盾是'全球消费增长引擎Hailuo的版权诉讼风险（披露但零拨备）'与'烧钱换规模仍需持续稀释融资'之间的权衡。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "全球消费端增长引擎Hailuo面临迪士尼/环球/华纳版权诉讼：年报已完整披露（LEGAL PROCEEDINGS p.34 + 审计后Note 28）但Note 28未计提任何拨备（unable to predict outcome），管理层断言without merit且无material adverse effect，而2026-05-23撤诉动议被驳回（属人管辖权成立）；叠加模型研发与云算力的高烧钱结构（经营现金流-$279.6M/年），公司必须在法律风险未决与规模亏损扩大的双重约束下维持增长叙事。",
+    "current_difficulties": [
+      {
+        "title": "版权诉讼直击核心收入来源",
+        "evidence": "Hailuo（视频生成600M+）支撑AI原生收入（67.2%），海外收入占73%；2025-09起诉、2026-05-23驳回撤诉动议；年报Note 28披露诉讼但零拨备（unable to predict outcome），管理层主张without merit并确认无material adverse effect。",
+        "implication": "若不利裁决（禁令/赔偿/内容下架）将直接冲击最大收入线与美国市场准入，且该风险无法靠增加投入快速化解。"
+      },
+      {
+        "title": "结构性烧钱与规模缺口",
+        "evidence": "R&D $252.8M（占收入320%）+经营现金流-$279.6M vs 收入仅$79.0M，调整后净亏$250.9M；资本开支仅$0.92M、算力为云租赁。",
+        "implication": "盈亏平衡需收入规模放大5倍以上，期间持续依赖资本市场融资与股东稀释。"
+      },
+      {
+        "title": "中国基座模型价格战与集中度提升",
+        "evidence": "国内基座模型调用份额向头部集中（外部口径），MiniMax位居中游。",
+        "implication": "开放平台token定价与毛利承压，MiniMax需靠全球消费与开发者社区差异化。"
+      }
+    ],
+    "strategic_judgment": "管理层正从'大模型公司'向'AI时代平台公司'转型，以AI原生组织（agent interns覆盖近90%员工）与模型效率（M2.5 $1/小时连续运行）为杠杆，压缩营销开支、依赖产品自增长，并通过频繁资本市场融资（IPO HK$53亿+2026-07约$19亿配售/可转债）支撑算力与研发投入——以'效率+资本'对冲'烧钱+法律'。",
+    "strategic_directions": [
+      {
+        "direction": "模型效率驱动商业化",
+        "rationale": "M2.5在编码/工具调用/工作场景领先且$1/小时的经济性直接改善token单位成本，是量价剪刀差为正的关键。",
+        "management_signal": "M2系列2026-02日均token消耗达2025-12的6倍、Coding Plan超10倍；毛利率12.2%→25.4%。",
+        "validation": "2026H1毛利率是否>28%、用户/开发者指标是否披露并保持高增。"
+      },
+      {
+        "direction": "AI原生组织降本",
+        "rationale": "agent interns覆盖近90%员工，用AI压缩人力环节，应对428员工+$84.3M薪酬的刚性成本。",
+        "management_signal": "2026-01产品化推出MiniMax Agent AI-native Workspace。",
+        "validation": "员工增速是否低于收入增速、人均收入是否持续提升。"
+      },
+      {
+        "direction": "全球化与多模态内容",
+        "rationale": "海外收入占73%，视频/语音/音乐全模态（600M+视频、200M+小时语音）是差异化壁垒。",
+        "management_signal": "全球200+国家/地区、多模态模型全覆盖；Hailuo全球化运营。",
+        "validation": "海外收入占比、Hailuo版权诉讼进展与海外内容合规投入。"
+      }
+    ],
+    "core_conflict": "用烧钱换规模（R&D+算力投入）与法律/融资风险敞口（版权诉讼+持续稀释）之间的张力——增长越快越依赖外部资本与海外市场许可，任一环节断裂都会放大下行。",
+    "falsifier": "2026H1：若诉讼出现计提/禁令、毛利率回落<25%、用户/开发者指标增速放缓（外部口径）、或S&D/收入回升，则'效率改善+全球化增长'主线证伪。",
+    "valuation_context": "上市首日+109%（HK$345、市值>1000亿港元），市场已将2026-27年超高速增长预期定价在内——该估值语境仅作参考，不构成官方事实。",
+    "catalyst": "M2.5系列带动开发者采纳与Coding Plan增长、用户/开发者指标加速披露；版权诉讼和解/有利裁决；2026H1收入超预期。",
+    "risk": "版权诉讼不利裁决（禁令/赔偿）、2026-07 $19亿配售+可转债的稀释与股价压力、基座模型价格战侵蚀Open Platform毛利、算力/芯片供给受限。"
+  },
+  "sources": [
+    {
+      "id": "official-annual-results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0302/2026030202837.pdf",
+      "title": "MiniMax Group Inc. ANNUAL RESULTS ANNOUNCEMENT FOR THE YEAR ENDED DECEMBER 31, 2025 (HKEX)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-11T20:15:00+08:00"
+    },
+    {
+      "id": "official-annual-report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "title": "MiniMax Group Inc. 2025 Annual Report (HKEX)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-11T20:16:00+08:00"
+    },
+    {
+      "id": "reuters-2026-05-26",
+      "url": "https://www.reuters.com/legal/litigation/chinas-minimax-loses-bid-end-disney-copyright-lawsuit-over-ai-system-2026-05-26",
+      "title": "Reuters: China's MiniMax loses bid to end Disney copyright lawsuit over AI system (2026-05-26)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-11T20:20:00+08:00"
+    },
+    {
+      "id": "jdsupra-2490119",
+      "url": "https://www.jdsupra.com/legalnews/ai-back-in-court-minimax-studio-s-in-2490119",
+      "title": "JD Supra: AI Back in Court - MiniMax Studio's (Hailuo) Copyright Lawsuit (2026-05)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-11T20:20:00+08:00"
+    },
+    {
+      "id": "hkex-00100",
+      "url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=EN&market=SEHK&stockId=1000286746&category=0",
+      "title": "HKEXnews 0100.HK announcements: RMB shares proposal (2026-05-31) & placement/convertible bond (2026-07)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-11T20:20:00+08:00"
+    },
+    {
+      "id": "bloomberg-20260709",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-09/minimax-seeks-1-9-billion-from-share-sale-convertible-bond",
+      "title": "Bloomberg: MiniMax seeks $1.9 billion from share sale, convertible bond (2026-07-09)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-11T20:20:00+08:00"
+    },
+    {
+      "id": "cls-2253797",
+      "url": "https://www.cls.cn/detail/2253797",
+      "title": "财联社: AI六小虎上市格局（智谱/MiniMax上市、月之暗面C轮43亿美元, 2026-01）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-11T20:20:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "revenue_total",
+      "metric": "total_revenue",
+      "value": 79038000,
+      "display_value": "US$79,038 thousand (79.0M)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Revenue 79,038 (USD'000) for year ended Dec 31 2025",
+      "location": "FINANCIAL HIGHLIGHTS / P&L p.13"
+    },
+    {
+      "id": "revenue_prior",
+      "metric": "total_revenue_prior",
+      "value": 30523000,
+      "display_value": "US$30,523 thousand (30.5M)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2024",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Revenue 30,523 (USD'000) for year ended Dec 31 2024",
+      "location": "P&L p.13"
+    },
+    {
+      "id": "revenue_yoy",
+      "metric": "revenue_yoy",
+      "value": 158.9,
+      "display_value": "+158.9%",
+      "currency": "USD",
+      "unit": "percent",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Revenue increased 158.9% YoY",
+      "location": "Financial Review p.5"
+    },
+    {
+      "id": "revenue_ai_native_products",
+      "metric": "revenue_ai_native_products",
+      "value": 53075000,
+      "display_value": "US$53,075 thousand (67.2%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": "AI-native products",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "AI-native products 53,075 (USD'000) 67.2%, +143.4% YoY",
+      "location": "Financial Review p.5 / Note 3"
+    },
+    {
+      "id": "revenue_open_platform",
+      "metric": "revenue_open_platform_enterprise",
+      "value": 25963000,
+      "display_value": "US$25,963 thousand (32.8%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": "Open Platform and other AI-based enterprise services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Open Platform 25,963 (USD'000) 32.8%, +197.8% YoY",
+      "location": "Financial Review p.5 / Note 3"
+    },
+    {
+      "id": "revenue_geography_row",
+      "metric": "revenue_geography_rest_of_world",
+      "value": 57663000,
+      "display_value": "US$57,663 thousand (73.0%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": "Rest of the World",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "RoW revenue 57,663 (USD'000), approx 73.0% of total (China mainland 27.0%)",
+      "location": "Financial Review p.5"
+    },
+    {
+      "id": "gross_profit",
+      "metric": "gross_profit",
+      "value": 20079000,
+      "display_value": "US$20,079 thousand (20.1M)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Gross profit 20,079 (USD'000), +437.2% from 3,738",
+      "location": "P&L p.13"
+    },
+    {
+      "id": "gross_margin",
+      "metric": "gross_margin",
+      "value": 25.4,
+      "display_value": "25.4% (2024: 12.2%)",
+      "currency": "USD",
+      "unit": "percent",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "20,079/79,038=25.41%; company discloses 25.4% (2024: 12.2%)",
+      "location": "Financial Review p.6"
+    },
+    {
+      "id": "cost_of_sales",
+      "metric": "cost_of_sales",
+      "value": 58959000,
+      "display_value": "US$58,959 thousand",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Cost of sales 58,959 (USD'000), +120.1% from 26,785",
+      "location": "MD&A p.4 / P&L p.13"
+    },
+    {
+      "id": "selling_distribution",
+      "metric": "selling_and_distribution_expenses",
+      "value": 51896000,
+      "display_value": "US$51,896 thousand (-40.3%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Selling & distribution 51,896 (USD'000), -40.3% from 86,995",
+      "location": "MD&A p.6 / P&L p.13"
+    },
+    {
+      "id": "admin_expenses",
+      "metric": "administrative_expenses",
+      "value": 36813000,
+      "display_value": "US$36,813 thousand (+155.9%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Admin 36,813 (USD'000), +155.9% from 14,384; includes listing expenses 6,880",
+      "location": "MD&A p.6 / P&L p.13"
+    },
+    {
+      "id": "rd_expenses",
+      "metric": "research_and_development_expenses",
+      "value": 252771000,
+      "display_value": "US$252,771 thousand (252.8M, +33.8%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "R&D 252,771 (USD'000), +33.8% from 188,979; cloud services for training",
+      "location": "MD&A p.6 / P&L p.13"
+    },
+    {
+      "id": "other_income_gains",
+      "metric": "other_income_and_gains_net",
+      "value": 40369000,
+      "display_value": "US$40,369 thousand (+11.7%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Other income and gains net 40,369; wealth mgmt + FX gains",
+      "location": "MD&A p.6 / P&L p.13"
+    },
+    {
+      "id": "fair_value_loss_fin_liabilities",
+      "metric": "fair_value_loss_on_financial_liabilities",
+      "value": 1589850000,
+      "display_value": "US$1,589,850 thousand",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Fair value loss on financial liabilities 1,589,850 (preferred shares remeasurement)",
+      "location": "MD&A p.6 / P&L p.13"
+    },
+    {
+      "id": "loss_for_year",
+      "metric": "net_loss_gaap",
+      "value": 1871617000,
+      "display_value": "US$(1,871,617) thousand (1,871.6M)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Loss for the year (1,871,617) (USD'000), +302.3% from (465,238)",
+      "location": "P&L p.13"
+    },
+    {
+      "id": "adjusted_net_loss",
+      "metric": "adjusted_net_loss_non_ifrs",
+      "value": 250856000,
+      "display_value": "US$(250,856) thousand (250.9M, +2.7%)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Adjusted net loss (250,856): add back SBP 24,031 + FV loss 1,589,850 + listing 6,880",
+      "location": "FINANCIAL HIGHLIGHTS p.1 / p.4"
+    },
+    {
+      "id": "cash_and_cash_equivalents",
+      "metric": "cash_and_cash_equivalents",
+      "value": 507621000,
+      "display_value": "US$507,621 thousand",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025-end",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Cash and cash equivalents 507,621 (USD'000)",
+      "location": "Liquidity p.7"
+    },
+    {
+      "id": "total_cash_balance",
+      "metric": "total_cash_and_financial_assets",
+      "value": 1050300000,
+      "display_value": "US$1,050.3 million (cash 507.6 + FVTPL 508.5 + restricted 20.4 + TD 13.8)",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025-end",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Cash balance 1,050.3M; 2024: 880.6M",
+      "location": "Liquidity p.7"
+    },
+    {
+      "id": "net_current_liabilities",
+      "metric": "net_current_liabilities",
+      "value": 2726263000,
+      "display_value": "US$(2,726,263) thousand",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025-end",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Net current liabilities 2,726,263 (USD'000), driven by preferred shares 3,597,566",
+      "location": "Statement of financial position p.15"
+    },
+    {
+      "id": "gearing_ratio",
+      "metric": "gearing_ratio",
+      "value": 343.3,
+      "display_value": "343.3% (2024: 187.8%)",
+      "currency": "USD",
+      "unit": "percent",
+      "period": "FY2025-end",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Gearing ratio 343.3% (total liabilities/total assets)",
+      "location": "MD&A p.8"
+    },
+    {
+      "id": "operating_cash_flow",
+      "metric": "net_cash_used_in_operating_activities",
+      "value": 279641000,
+      "display_value": "US$(279,641) thousand",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-report"
+      ],
+      "evidence": "Net cash used in operating (279,641); 2024: (258,483)",
+      "location": "Cash flow statement p.106"
+    },
+    {
+      "id": "investing_cash_flow",
+      "metric": "net_cash_from_investing",
+      "value": 72261000,
+      "display_value": "US$72,261 thousand",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-report"
+      ],
+      "evidence": "Net cash from investing 72,261; 2024: (431,300)",
+      "location": "Cash flow statement p.107"
+    },
+    {
+      "id": "financing_cash_flow",
+      "metric": "net_cash_from_financing",
+      "value": 423342000,
+      "display_value": "US$423,342 thousand",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-report"
+      ],
+      "evidence": "Net cash from financing 423,342; incl preferred shares 426,262",
+      "location": "Cash flow statement p.107"
+    },
+    {
+      "id": "capex_ppe",
+      "metric": "capex_ppe",
+      "value": 920000,
+      "display_value": "US$(920) thousand (2024: (759))",
+      "currency": "USD",
+      "unit": "thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-report"
+      ],
+      "evidence": "Purchases of PP&E (920) (USD'000)",
+      "location": "Cash flow statement p.107"
+    },
+    {
+      "id": "users_cumulative",
+      "metric": "cumulative_users",
+      "value": 236000000,
+      "display_value": ">236 million users",
+      "currency": "N/A",
+      "unit": "count",
+      "period": "FY2025-end",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "Cumulatively served >236 million users across 200+ countries",
+      "location": "Business Review p.2"
+    },
+    {
+      "id": "enterprise_customers",
+      "metric": "enterprise_customers_and_developers",
+      "value": 214000,
+      "display_value": "214,000 enterprise customers & developers",
+      "currency": "N/A",
+      "unit": "count",
+      "period": "FY2025-end",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "214,000 enterprise customers & developers from 100+ countries",
+      "location": "Business Review p.2"
+    },
+    {
+      "id": "employees",
+      "metric": "full_time_employees",
+      "value": 428,
+      "display_value": "428 full-time employees (remuneration US$84.3M)",
+      "currency": "N/A",
+      "unit": "count",
+      "period": "FY2025-end",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "428 full-time employees; total remuneration US$84.3M (2024: 54.6M)",
+      "location": "Employees and Remuneration p.9"
+    },
+    {
+      "id": "ipo_proceeds",
+      "metric": "ipo_net_proceeds",
+      "value": 4596100000,
+      "display_value": "approx HK$4,596.1M net (+over-allotment HK$697.29M)",
+      "currency": "HKD",
+      "unit": "thousand",
+      "period": "post-period (2026-01-09)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-annual-results"
+      ],
+      "evidence": "IPO 29,197,600 Class A shares at HK$165; net proceeds approx HK$4,596.1M; over-allotment 4,379,640 shares net HK$697.29M",
+      "location": "Events after the Reporting Period p.12"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "收入桥：FY2025收入$79.0M（+158.9%），其中AI原生产品$53.1M（+143.4%，占比67.2%）与开放平台及企业服务$26.0M（+197.8%，占比32.8%），两分部合计等于总收入（已验证：53,075+25,963=79,038）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "分部结构变化（derived）：AI原生占比由71.4%降至67.2%，开放平台/企业占比由28.6%升至32.8%，企业侧商业化提速、贡献占比提升。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "地理结构：非中国大陆（海外）收入占73.0%（$57.7M），中国大陆占27.0%（$21.4M）——公司本质是全球消费驱动的公司而非中国toB公司。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "规模指标：累计服务>236M用户、覆盖200+国家/地区；214,000企业客户与开发者；视频模型已生成600M+视频、语音200M+小时。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "产品与模型：M2系列（M2/M2.1/M2-her/M2.5）推动开发者采纳，M2成为OpenRouter首个日消耗超500亿token的中国模型；多模态覆盖语言/视频/语音/音乐。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "单位经济推断：累计236M用户对应$79M收入（人均<$0.34），绝大多数用户为免费/低价值，货币化集中于付费用户与API开发者；增长更多来自付费渗透率而非用户数量。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1披露付费用户数增速显著快于用户总量增速则成立，否则需下调该判断的权重。"
+        },
+        {
+          "text": "成本结构推断：资本开支仅$0.92M表明算力以云租赁为主（资产轻），成本/费用主要为可变算力成本（COS+云服务研发），单位经济改善依赖模型效率而非规模折旧。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results",
+            "official-annual-report"
+          ],
+          "falsifier": "若后续资本开支/固定资产显著上升（自建算力）则需修正。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "毛利桥：毛利率由12.2%升至25.4%（毛利$3.7M→$20.1M，+437.2%），驱动来自模型/系统效率提升与基础设施分配优化。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "费用结构：销售及分销$51.9M（-40.3%，占收入65.7%，2024占285%）、行政$36.8M（+155.9%，含一次性上市费用$6.9M）、研发$252.8M（+33.8%，占收入319.9%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "利润桥（derived）：收入$79.0M+其他收入$40.4M - 营业成本与三项费用$400.4M ≈ 经营层面亏损$281.0M（未含优先股公允价值变动与财务费用），对应调整后净亏$250.9M。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "调整后净亏$250.9M（+2.7%）：GAAP净亏$1,871.6M回加SBP $24.0M + 优先股公允价值损失$1,589.9M + 上市费用$6.9M（已验证）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "研发支出全额费用化：2025年未资本化任何内部开发成本，研发支出=研发费用$252.8M——会计处理保守，无资本化粉饰。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "经营杠杆推断：销售费用绝对额下降40%的同时收入翻2.6倍，说明获客转向产品自增长/口碑（成本结构从营销驱动转向算力驱动）；但R&D仍占收入320%，盈亏平衡需收入规模放大5倍以上。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1销售费用/收入回升或毛利率回落至<25%，则'效率主线'证伪。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "现金：总现金$1,050.3M（现金及等价物$507.6M + FVTPL $508.5M + 受限现金$20.4M + 定期存款$13.8M），2024年末$880.6M。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "现金流：经营现金流-$279.6M（2024: -$258.5M）、投资+$72.3M（2024: -$431.3M）、融资+$423.3M（含优先股$426.3M）；现金桥已验证。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-report"
+          ]
+        },
+        {
+          "text": "资产负债表失真（关键）：净流动负债-$2,726.3M、杠杆率343.3%几乎全部来自可转换可赎回优先股$3,597.6M被列示为流动负债，2026-01-09上市自动转股后消除——非真实偿债危机信号。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "自由现金流（derived）：资本开支仅$0.92M，FCF≈经营现金流≈-$280M；按FY2025现金$1,050.3M计静态跑道约3.7年（未计IPO/后续融资）。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results",
+            "official-annual-report"
+          ]
+        },
+        {
+          "text": "融资依赖推断：IPO净募约HK$53亿（含超额配售，2026-01-09）+2026-07配售及HK$65亿零息可转债（合计约$19亿），显示管理层对算力/研发投入的资本需求激进、持续依赖资本市场融资。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results",
+            "hkex-00100",
+            "bloomberg-20260709"
+          ],
+          "falsifier": "若2026H1经营现金流环比大幅收窄或管理层给出盈利时间表，则弱化该判断。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "明确战略承诺：管理层在业务展望中声明'we will evolve from a large-model company into a platform company for the AI era'（从大模型公司进化为AI时代平台公司）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "明确效率目标：M2.5较M2.1效率提升37%，连续运行1小时@100 token/s仅$1；M2系列2026-02日均token消耗达2025-12的6倍以上、Coding Plan超10倍。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "AI原生组织：agent interns支持近90%员工（研发/数据/运营/招聘/销售等场景），2026-01产品化推出MiniMax Agent AI-native Workspace。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "上市合规达成：FY2025收入$79.0M满足18C章Commercial Company的HKD250M收入门槛要求。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results"
+          ]
+        },
+        {
+          "text": "董事会抗辩（最强信号①）：年报LEGAL PROCEEDINGS章节披露，董事会基于美国诉讼律师意见认为迪士尼/环球/华纳诉讼'without merit in all material respects'且'insufficient evidence'，并categorically denies直接侵权（Hailuo仅响应用户提示、缺乏volitional conduct），同时主张间接侵权要件不满足。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-report"
+          ]
+        },
+        {
+          "text": "无重大不利影响确认（最强信号②）：董事会确认截至Latest Practicable Date，未涉及任何其相信会对业务/经营成果/财务状况/声誉与合规产生material adverse effect的未决或潜在法律程序。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-report"
+          ]
+        },
+        {
+          "text": "口径vs法律进展张力（最强信号③，推断）：管理层'without merit + 无重大不利影响'的绝对化口径，与2026-05-23联邦法院驳回撤诉动议（属人管辖权成立、案件进入实体程序）之间存在分歧——法律进程表明诉讼已越过管辖权门槛且主张具实质内容，管理层口径可能低估风险敞口；该分歧本身即是最强管理层信号。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-report",
+            "reuters-2026-05-26"
+          ],
+          "falsifier": "若2026H1出现诉讼计提/和解/禁令、或管理层修订'without merit'表述，则口径分歧显性化/收敛。"
+        },
+        {
+          "text": "指引缺口推断：业绩公告未披露用户/开发者指标与前瞻收入指引（外部口径数据未经独立核验），管理层以'智能供给扩张、应用层创新窗口'等定性语言描述前景，回避单位经济与盈利时间表。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若后续公告提供量化收入/用户指标指引则更新本判断。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "中国基座模型调用份额（external，外部口径）：头部厂商合计份额领先，集中度加速提升。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": []
+        },
+        {
+          "text": "竞争格局（external，双来源）：智谱（2026-01-08）与MiniMax（2026-01-09）相继上市；月之暗面完成C轮（投后估值$4.3B）暂不上市；百川/零一万物基本退出通用基模赛道。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "cls-2253797"
+          ]
+        },
+        {
+          "text": "传导路径推断：字节/阿里/DeepSeek的API价格战→开放平台token定价下行→Open Platform毛利率承压；MiniMax以全球消费产品（海外73%）与开发者社区差异化规避国内API价格战，但视频生成直面Sora/Veo/Kling竞争。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1开放平台毛利/ARPU在价格战中下滑则证实价格战传导。"
+        },
+        {
+          "text": "外部竞争力榜单（external，单来源）：MiniMax（M3）位居中游，落后于头部厂商（外部口径、未经独立核验）。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": []
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "版权诉讼（external，多来源）：2025-09-16迪士尼/环球/华纳（含漫威/DC/Lucas）在加州中区起诉MiniMax，指Hailuo使用受版权影片训练并生成含角色内容；2026-05-22/23联邦法官驳回撤诉动议（认可属人管辖权）。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "reuters-2026-05-26",
+            "jdsupra-2490119"
+          ]
+        },
+        {
+          "text": "诉讼传导推断：Hailuo是海外增长核心（视频生成600M+、AI原生收入67.2%、海外收入73%），若不利裁决→潜在赔偿/内容下架/美国市场准入受限→直接冲击最大收入线；年报LEGAL PROCEEDINGS章节与审计后Note 28已完整披露诉讼（不存在隐瞒），但Note 28明确'无法预测胜诉可能性与赔偿金额、未计提任何拨备'，叠加管理层'without merit/无重大不利影响'断言，与2026-05-23驳回撤诉动议（管辖权成立）并存——零拨备下的风险敞口可能被低估。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-report",
+            "reuters-2026-05-26"
+          ],
+          "falsifier": "若诉讼和解/胜诉且海外收入保持高增长则风险缓解；若出现计提/禁令则证实。"
+        },
+        {
+          "text": "融资与资本动作（external）：2026-05-31 HKEX公告拟发行人民币股份（科创板双上市/再融资意向）；2026-07-10提议配售+HK$65亿零息可转债（2027到期、25%转换溢价，合计约$19亿，07-16完成）。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-00100",
+            "bloomberg-20260709"
+          ]
+        },
+        {
+          "text": "宏观/行业（external，单来源）：2026年中国AI大模型市场规模持续扩张（外部口径）；行业焦点从参数规模转向效率与ROI、商业化能力成为分水岭。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": []
+        },
+        {
+          "text": "上游成本与地缘推断：云算力/先进芯片是COS与R&D主要构成（研发+33.8%主要来自训练云服务），芯片出口管制与云成本波动构成成本与供给风险；作为中国背景AI公司进入美国消费市场，监管/合规/地缘风险高于纯本土公司。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results",
+            "reuters-2026-05-26"
+          ],
+          "falsifier": "若出现算力受限（芯片/云服务限制）或公司披露相关风险则证实。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "IPO表现（external，多来源）：2026-01-09发行价HK$165，首日收HK$345（+109%），市值突破1000亿港元并超过智谱，募资约HK$48亿/$6.2亿美元。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "cls-2253797"
+          ]
+        },
+        {
+          "text": "2026-07融资反应（external）：配售+HK$65亿可转债公告后股价下跌（HKEX正式公告+彭博/晨星报道），市场对稀释与可转债悬顶反应负面。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-00100",
+            "bloomberg-20260709"
+          ]
+        },
+        {
+          "text": "券商目标价（external，单来源、未经独立核验）：券商普遍维持增持并给出高于发行价的长期目标价（约2027E市销率56x），预计2026-28年收入高速增长——该口径不作为官方事实，仅供内部参考。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": []
+        },
+        {
+          "text": "归因推断：IPO暴涨定价的是'AI平台叙事+全球消费增长'而非当期利润（FY2025净亏$18.7亿）；7月下跌源于稀释与可转债悬顶而非基本面恶化。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1收入不及券商预测则叙事下修、估值压缩。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "乐观情景（25%）：版权诉讼和解/有利裁决，Hailuo海外增长不受限；M2.5/Coding Plan带动token消耗持续高增；毛利率随模型效率升至30%+，调整后净亏收窄至$150-250M。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results",
+            "reuters-2026-05-26"
+          ],
+          "falsifier": "若2026H1收入增速<80%或诉讼出现不利裁定则乐观情景不成立。"
+        },
+        {
+          "text": "基准情景（50%）：2026收入$2.0-2.8亿（接近市场预期），毛利率28-32%，调整后净亏$250-350M，经营现金流-$300M左右；诉讼悬而未决（无禁令/无和解），2026H1或2027发生一次以上再融资。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1收入<1亿美元或出现重大诉讼计提则下修至悲观。"
+        },
+        {
+          "text": "悲观情景（25%）：版权诉讼不利（临时禁令/高额赔偿/美国内容下架），海外收入承压；国内API价格战使token单价下行>30%、毛利率回落<22%；token消耗增速放缓；估值下行导致再融资稀释加剧。调整后净亏扩大至$400M+。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "reuters-2026-05-26",
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1毛利率保持>28%且海外收入正增长则悲观情景不成立。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "最难约束1（推断）：版权诉讼直接威胁最大收入来源（Hailuo/视频生成+海外73%）——证据：诉讼被驳回撤诉动议+地理结构；影响：核心增长引擎存在法律与准入风险，且非花钱可快速解决。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "reuters-2026-05-26",
+            "official-annual-results"
+          ],
+          "falsifier": "若诉讼和解或海外收入加速则风险缓解。"
+        },
+        {
+          "text": "最难约束2（推断）：结构性烧钱——R&D $252.8M+经营现金流-$279.6M，收入仅$79M，盈亏平衡需规模放大5倍以上；影响：持续依赖融资与股东稀释。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "official-annual-results",
+            "official-annual-report"
+          ],
+          "falsifier": "若毛利率持续上行且调整后亏损收窄超预期则缓解。"
+        },
+        {
+          "text": "最难约束3（推断）：国内基座模型价格战与集中度提升压制开放平台定价；MiniMax以全球消费与开发者社区差异化。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [],
+          "falsifier": "若开放平台毛利/ARPU在价格战中企稳则弱化。"
+        },
+        {
+          "text": "战略方向与资源取舍（推断）：平台化（开放平台+197.8%）、AI原生组织（agent interns近90%）、全球化多模态——取舍：海外扩张带来法律/合规风险，算力与研发投入带来融资依赖；验证指标=毛利率、S&D/收入、用户/开发者指标披露、诉讼进展。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1这些指标恶化则战略兑现度下降。"
+        },
+        {
+          "text": "中央论点（推断）：MiniMax是'全球消费优先、效率导向'的AI平台，产品市场契合真实且效率改善显著（毛利率翻倍、S&D-40%），但估值已透支2026-27超高速增长（估值倍数来自外部单来源口径、未经独立核验，仅作估值语境参考），成败取决于token单位经济与法律风险解决。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results"
+          ],
+          "falsifier": "若毛利率回落<25%或用户/开发者指标增速放缓则论点动摇。"
+        },
+        {
+          "text": "共识与隐藏假设（推断）：市场共识将外部单来源口径的增长预期（未经独立核验）线性外推为2026-27年高速收入增长，并把版权诉讼视为可解决的一次性事件；隐藏假设=token消耗增速>单价下降速度（量价剪刀差为正）且法律成本/限制保持微小。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "reuters-2026-05-26"
+          ],
+          "falsifier": "若token单价降幅>效率降幅或诉讼成本显性化则共识被证伪。"
+        },
+        {
+          "text": "幸存新观点（推断）：①海外73%收入使版权诉讼从'边缘事件'变为核心收入线的关键输入：年报已披露诉讼但Note 28零拨备、管理层断言无重大不利影响，与2026-05-23管辖权裁定并存，风险溢价被低估；②费用结构证明公司是'效率导向'而非'营销导向'（S&D-40%、R&D增速<收入增速），盈亏平衡路径取决于token单位成本下降速度。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "reuters-2026-05-26",
+            "official-annual-results"
+          ],
+          "falsifier": "若2026H1出现诉讼计提/禁令、S&D/收入回升、或毛利率回落，则新观点被推翻。"
+        },
+        {
+          "text": "催化剂与风险（推断）：催化=M2.5采纳与用户/开发者指标披露、诉讼和解、2026H1收入超预期；风险=诉讼不利裁决、持续稀释、价格战、算力受限。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results",
+            "hkex-00100"
+          ],
+          "falsifier": "无（监控列表）。"
+        },
+        {
+          "text": "下一季度可证伪指标（推断）：用户/开发者指标增速、毛利率、S&D/收入、诉讼进展（计提/和解/禁令）、经营现金流、是否再融资、token单价——任一显著反向即重估。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-annual-results",
+            "reuters-2026-05-26"
+          ],
+          "falsifier": "监控列表本身为可观测指标。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "共识：市场从头条数字会得出什么结论？",
+        "answer": "收入+158.9%、毛利率12.2%→25.4%、调整后亏损基本持平（-$250.9M），被解读为'高增长+效率改善'的AI平台，叠加高速增长叙事，买入成长故事。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "调整后净亏仍达$250.9M且版权诉讼撤诉动议被驳回（2026-05-23），增长质量与法律风险并存。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "假设：该结论依赖什么隐藏假设？",
+        "answer": "隐藏假设是：外部单来源口径的增长预期（未经独立核验）可线性外推为2026-27年高速收入增长；token消耗增速持续>单价下降（量价剪刀差为正）；版权诉讼影响有限且可解决（尽管年报已披露诉讼、零拨备）。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "外部口径显示国内API价格战加剧（头部集中），以及2026-05-23诉讼不利裁定，均挑战该假设。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "矛盾：本季度/近期哪个事实最反对多头结论？",
+        "answer": "2026-05-23驳回撤诉动议（属人管辖权成立）+2026-07即需约$19亿再融资（账面现金$10.5亿仍大幅融资），暗示烧钱速度与法律敞口快于表观数据；同时调整后净亏$250.9M vs 收入$79M。",
+        "source_ids": [
+          "reuters-2026-05-26",
+          "hkex-00100",
+          "official-annual-results"
+        ],
+        "counterevidence": "现金$1,050.3M+IPO募资，短期偿债无虞；再融资也可能用于前瞻性算力/并购布局而非纯补血。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "机制：M2.5/token增长如何转化为收入？",
+        "answer": "开发者token消耗→开放平台API收入；Coding Plan订阅→AI原生产品收入；M2系列2026-02日均token消耗达2025-12的6倍、Coding Plan超10倍（外部口径）。",
+        "source_ids": [],
+        "counterevidence": "API单价下降会抵消量增；token消耗高增不必然等同收入同速增长。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "时点：效率改善为何出现在本报告期？",
+        "answer": "Q4-2025 M2系列模型代际提升+基础设施分配优化，使毛利率12.2%→25.4%、S&D绝对额-40.3%；2024年低基数（收入$30.5M）放大同比改善幅度。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "2024低基数效应使同比改善幅度虚高；绝对规模仍小。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "替代解释：会计或一次性因素能否解释改善？",
+        "answer": "毛利改善真实（业务组合+效率），但S&D下降部分是削减营销预算而非纯有机增长；Admin+155.9%含一次性上市费用$6.9M；其他收入$40.4M含理财与汇兑收益，非核心经营。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "SBP与上市费用已通过非IFRS调整剔除，调整后亏损口径相对干净。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "反事实：若无版权诉讼，业绩会怎样？",
+        "answer": "Hailuo/海外增长将不受法律约束，但美国市场准入与内容合规仍存不确定性；且无量化证据表明诉讼当前已抑制收入（FY2025尚无计提）。",
+        "source_ids": [
+          "reuters-2026-05-26",
+          "official-annual-results"
+        ],
+        "counterevidence": "FY2025海外收入仍在高增（73%占比），表明诉讼尚未在当期结果中显性化——无法量化反事实影响。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q8",
+        "question": "二阶效应：若token超高速增长持续，将发生什么？",
+        "answer": "若量增>价降：算力成本（R&D/COS）同步上升但单位成本随M2.5效率（$1/小时）下降，规模经济显现；若价降>量增：毛利与烧钱压力扩大，需要更多融资。方向取决于量价剪刀差。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "算力成本刚性（云/芯片）可能在token激增期使COS与R&D同比同步膨胀。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "多空：最强多头与空头解释？",
+        "answer": "多头：平台化转型+编码领先（M2.5 SWE-Bench记录）+全球消费+$19亿融资，用户/开发者指标增速高。空头：版权诉讼悬顶、API价格战、持续稀释、估值>100x当期PS且2026-27增长已price in。",
+        "source_ids": [
+          "reuters-2026-05-26",
+          "official-annual-results"
+        ],
+        "counterevidence": "多空双方的核心分歧在于量价剪刀差方向与诉讼结果，均为未决变量。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "定价：哪些已被市场定价？",
+        "answer": "IPO首日+109%（HK$345、市值>1000亿港元）、券商目标价已包含2026-27超高速增长预期；高速增长叙事基本price in；7月$19亿融资稀释亦部分反映。",
+        "source_ids": [],
+        "counterevidence": "若2026H1数据不及预期，估值压缩空间大（高基数叙事）。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "可证伪：下一季度什么会推翻本观点？",
+        "answer": "2026H1观察：用户/开发者指标环比增速、毛利率（<25%或>32%）、S&D/收入、诉讼进展（计提/和解/禁令）、经营现金流、是否再融资、token单价——任一显著反向即重估。",
+        "source_ids": [
+          "official-annual-results",
+          "reuters-2026-05-26"
+        ],
+        "counterevidence": "无（监控指标本身为可观测）。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "运营瓶颈：哪个约束花钱也难解决？",
+        "answer": "token单位成本下降速度（算力效率）与版权/司法/海外准入风险（法律与合规无法用钱直接解决）。这两项决定了增长能否转化为价值。",
+        "source_ids": [
+          "official-annual-results",
+          "reuters-2026-05-26"
+        ],
+        "counterevidence": "芯片/算力采购可通过资本开支缓解一部分；诉讼可通过和解金解决一部分——并非完全不可解。",
+        "status": "answered"
+      },
+      {
+        "id": "q13",
+        "question": "战略回应：'平台公司'是战略还是叙事？",
+        "answer": "部分兑现：开放平台收入+197.8%、MiniMax Agent产品化、开发者社区采纳（M2 OpenRouter第一）；但平台生态收入占比仅32.8%，'平台叙事'多于'生态现实'。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "开放平台增速（+197.8%）确实高于AI原生（+143.4%），趋势支持平台化方向。",
+        "status": "answered"
+      },
+      {
+        "id": "q14",
+        "question": "资源真相：投入是否印证战略？",
+        "answer": "印证：R&D+33.8%至$252.8M（模型/算力）、连续融资（IPO+配售/可转债$19亿）、S&D大幅削减（产品驱动增长）——资源配置与'平台+效率'战略一致。",
+        "source_ids": [
+          "official-annual-results",
+          "hkex-00100"
+        ],
+        "counterevidence": "R&D大部分是训练云成本而非平台生态投入；平台化最终仍依赖模型层竞争力。",
+        "status": "answered"
+      },
+      {
+        "id": "q15",
+        "question": "顺序：哪个环节必须先行成功？",
+        "answer": "模型能力→开发者采纳→token经济性。若量价剪刀差为负（价格降幅>效率降幅），规模越大亏损越多；M2.5效率（$1/小时）是扭转剪刀差的关键一步。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "竞争对手同样推进模型效率，剪刀差优势未必可持续。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "海外73%收入使迪士尼/环球/华纳版权诉讼成为核心收入线的关键输入：披露了却零拨备、断言无重大不利影响，风险溢价被低估",
+        "consensus_view": "市场把版权诉讼视为可解决、影响有限的偶发法律风险（一次性事件），焦点在估值与增长，并认为公司已披露诉讼故风险透明。",
+        "new_view": "公司并未隐瞒：年报LEGAL PROCEEDINGS章节与审计后Note 28已完整披露迪士尼/环球/华纳诉讼。真正的风险锚点是：Note 28明确'无法预测胜诉可能性与赔偿金额，因此未计提任何拨备'，同时管理层断言'without merit in all material respects'、categorically denies直接侵权并确认无material adverse effect——披露了诉讼却零拨备+绝对化抗辩，与2026-05-23法院驳回撤诉动议（属人管辖权成立、进入实体程序）并存，形成风险敞口不对称：不利结果一旦发生将一次性显性化、无预留缓冲。",
+        "mechanism": "诉讼已越过管辖权门槛（2026-05-23驳回撤诉动议）→ 若最终不利（赔偿/禁令/内容下架）→ 直接冲击海外收入（73%）与AI原生产品（67.2%）→ 而审计报表零拨备、管理层无重大不利影响断言 → 风险发生时一次性显性化（无缓冲）→ 实际下行空间大于定价假设。",
+        "implication": "风险溢价被低估的正确锚点=零拨备+无重大不利影响断言 vs 诉讼推进（管辖权被确认）的不对称；应提高诉讼在情景与风险定价中的权重；监测2026H1计提/和解/禁令与海外收入增速。",
+        "source_ids": [
+          "official-annual-report",
+          "reuters-2026-05-26",
+          "jdsupra-2490119"
+        ],
+        "counterevidence": "公司已完整披露诉讼（年报p.34 LEGAL PROCEEDINGS + Note 28），不存在隐瞒；董事会基于美国诉讼律师意见主张无依据（without merit）且缺乏证据；案件仍处早期（2026-05刚驳回撤诉动议、尚未进入实体审理）；美国法院对中国公司执行与属地赔偿存在不确定性；诉讼亦可能以和解收场。",
+        "falsifier": "2026H1若出现诉讼计提/和解/禁令，或海外收入增速显著放缓→证实；若诉讼和解且海外收入加速→证伪。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 12
+      },
+      {
+        "id": "insight-2",
+        "title": "费用结构显示MiniMax是'效率导向'而非'营销导向'的AI公司，盈亏平衡取决于token单位成本下降速度",
+        "consensus_view": "AI六小虎都被视为烧钱换规模的同质化公司，关注融资与市占。",
+        "new_view": "S&D绝对额-40.3%（$87.0M→$51.9M）同时收入+158.9%，R&D增速（+33.8%）<收入增速，毛利率12.2%→25.4%，capex仅$0.92M（算力租赁）——成本结构是算力驱动+产品自增长，经营杠杆形态与营销驱动的同行不同。",
+        "mechanism": "产品自增长/口碑→S&D下降；模型效率→单位token成本下降→毛利率上升；云租赁→capex低、可变成本主导。盈利路径=token量×（单价-单位成本），取决于量价剪刀差。",
+        "implication": "相比营销驱动的竞争对手，MiniMax的瓶颈是token单位经济而非获客成本；毛利率与S&D/收入是比收入增速更重要的先行指标。",
+        "source_ids": [
+          "official-annual-results"
+        ],
+        "counterevidence": "收入基数极低（$79M），同比改善有基数效应；毛利率25.4%仍低；调整后净亏$250.9M仍大；R&D占收入320%显示规模远未到位。",
+        "falsifier": "2026H1若毛利率回落<25%或S&D/收入回升→效率主线证伪；若毛利率升至30%+且S&D/收入<50%→证实。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 12
+      },
+      {
+        "id": "insight-3",
+        "title": "FY2025资产负债表的'危险信号'（净流动负债-$27亿、杠杆率343%）是上市前会计失真，2026-01-09已自动消除；真正风险是上市后现金消耗vs持续稀释",
+        "consensus_view": "部分市场参与者可能被净流动负债-$2.7B与杠杆率343%解读为资不抵债。",
+        "new_view": "这些指标几乎全部来自可转换可赎回优先股$3,597.6M被列示为流动负债，上市时自动转股消除；真实风险是经营现金流-$280M/年的消耗速度与持续融资（IPO+2026-07 $19亿）带来的稀释。",
+        "mechanism": "优先股→上市转股→负债转权益→净流动负债与杠杆率消失；持续融资→摊薄每股→每股收益与估值压力。",
+        "implication": "评估应聚焦稀释后每股/现金跑道而非表观负债；2026-07 $19亿融资暗示跑道压力大于表观现金$10.5亿。",
+        "source_ids": [
+          "official-annual-results",
+          "hkex-00100",
+          "bloomberg-20260709"
+        ],
+        "counterevidence": "优先股转换是既定机制（招股书披露），港股机构可能已理解；7月融资也可能用于算力/并购前瞻投入而非纯补血。",
+        "falsifier": "若上市后首次中报显示净流动负债大幅改善且无新增重大融资→证实会计失真论；若持续季度性巨额融资→证实稀释风险。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 1,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "版权诉讼和解或有利裁决（驳回/撤诉），Hailuo海外增长不受法律限制",
+        "M2.5/Coding Plan带动开发者token消耗持续高增（M2系列消耗维持6倍以上增速）",
+        "毛利率随模型效率升至30%+，算力成本下降带来调整后净亏收窄至$250M以内",
+        "2026H1收入超券商预测（>$120M）且海外收入占比维持70%+"
+      ],
+      "segment_profit_range": [
+        20,
+        45
+      ],
+      "group_profit_range": [
+        -250,
+        -150
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "2026收入$2.0-2.8亿（接近市场预期），用户/开发者指标温和增长",
+        "毛利率28-32%，调整后净亏$250-350M，经营现金流约-$300M/年",
+        "版权诉讼悬而未决（无禁令/无和解），2026H1海外收入增速放缓但仍正增长",
+        "2026H1或2027发生一次以上再融资（配售/可转债/科创板人民币股份）"
+      ],
+      "segment_profit_range": [
+        15,
+        35
+      ],
+      "group_profit_range": [
+        -350,
+        -250
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "版权诉讼不利（临时禁令/高额赔偿/美国市场内容下架），Hailuo与海外收入承压",
+        "国内API价格战加剧，开放平台token单价下降>30%，毛利率回落<22%",
+        "token消耗增速放缓（M2.5红利衰减），用户/开发者指标增速放缓",
+        "再融资条件恶化（估值下行→稀释更大）或监管/出口管制限制算力供给"
+      ],
+      "segment_profit_range": [
+        5,
+        15
+      ],
+      "group_profit_range": [
+        -500,
+        -350
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "外部单来源数据（未经独立核验）仅作估值语境/内部参考，不进公开站点；核心报告结构与结论不依赖该单来源数据（核心论点由官方财报+多来源诉讼证据支撑）。",
+      "券商目标价为单来源汇总（香港经济日报），不建议作为公开发布依据。",
+      "外部行业份额与竞争力数据均为单来源，方法论未独立验证。",
+      "未使用特许共识数据提供商；2026H1/中期报告尚未发布，三档情景为基于FY2025+外部证据的推断。",
+      "segment_profit_range以AI-native产品毛利贡献口径（US$M）表达，与group_profit_range（调整后净亏，US$M）口径不同，已在情景claim中说明。",
+      "报告期仅FY2025（截至2025-12-31，2026-03-02发布）；截至检索日无2026中期/Q1官方数据。"
+    ]
+  }
+}
