@@ -596,7 +596,7 @@ function LayerContent({
     <article className="module-panel" key={module.id}>
       <LayerHeading module={module} verdict={verdict} />
 
-      {module.id === "business" && layer?.items && (
+      {module.id === "business" && layer?.items && layer.items.length > 0 && (
         <div className="table-frame">
           <table>
             <thead>
@@ -731,13 +731,15 @@ function LayerContent({
 
       {module.id === "market" && layer?.reaction && (
         <div className="market-grid">
-          <div className="market-move">
-            <span>财报当日</span>
-            <strong>{formatSigned(layer.reaction.closePct, "%")}</strong>
-            <small>
-              盘中最大 {formatSigned(layer.reaction.intradayMaxPct, "%")}
-            </small>
-          </div>
+          {(layer.reaction.closePct !== 0 || layer.reaction.intradayMaxPct !== 0) && (
+            <div className="market-move">
+              <span>财报当日</span>
+              <strong>{formatSigned(layer.reaction.closePct, "%")}</strong>
+              <small>
+                盘中最大 {formatSigned(layer.reaction.intradayMaxPct, "%")}
+              </small>
+            </div>
+          )}
           <div>
             <span className="list-label positive-label">市场在奖励</span>
             <ul>
