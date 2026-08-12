@@ -2,6 +2,15 @@
   "schema_version": "site-catalog-1.0.0",
   "reports": [
     {
+      "id": "0700-hk-2026q2",
+      "company": "腾讯控股",
+      "ticker": "0700.HK",
+      "period": "2026Q2",
+      "status": "published",
+      "generated_at": "2026-08-12T11:01:00+00:00",
+      "data_url": "tencent-2026-q2.json"
+    },
+    {
       "id": "minimax-fy2025",
       "company": "稀宇科技 (MiniMax Group Inc.)",
       "ticker": "0100.HK",

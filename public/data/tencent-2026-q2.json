@@ -1,0 +1,1231 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "0700-hk-2026q2",
+  "generated_at": "2026-08-12T11:01:13.251252+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "腾讯控股",
+    "ticker": "0700.HK",
+    "period": "2026Q2",
+    "status": "published",
+    "thesis": "关键不在于腾讯收入同比增长11%，而在于AI已经成为广告、云和办公产品的增量引擎，却同时把现金流和资本开支的检验推向更高强度：本季剔除新AI产品的非国际财务准则经营利润率为42%，集团口径为36.9%，自由现金流转负13.8亿元。下一阶段要验证的不是模型能否使用，而是Compute投入能否转成可持续的广告、云和工作流收入与利润。",
+    "conclusion_summary": {
+      "rating": "中性偏积极",
+      "confidence": "medium",
+      "primary_difficulty": "AI投入与商业回报出现时间差：收入和毛利仍在增长，但资本开支同比增长176%，包含计算资源预付款的自由现金流为负138亿元；剔除新AI产品后的非国际财务准则经营利润率为42%，集团口径为36.9%。",
+      "current_difficulties": [
+        {
+          "title": "计算资源投入先于现金回报",
+          "evidence": "资本开支为528亿元、同比增长176%；经营活动现金流527亿元被资本开支支付593亿元、媒体内容支付50亿元和租赁负债支付22亿元抵消，季度自由现金流为负138亿元。",
+          "implication": "腾讯资金仍可支撑投入，但AI增长质量从利润表问题转为预付款、算力利用率和现金回收速度问题。"
+        },
+        {
+          "title": "AI商业化已出现，但利润闭环尚未完成",
+          "evidence": "营销服务收入436亿元、同比增长22%；云收入增速加快至低双位数，但集团非国际财务准则经营利润率由37.5%降至36.9%，剔除新AI产品后为42%。",
+          "implication": "广告和云是最先可观察的变现路径，需看到收入增长与利润率稀释同时收窄，才能证明AI投入形成经营杠杆。"
+        },
+        {
+          "title": "增长仍依赖游戏与广告两条不同传导链",
+          "evidence": "本土游戏收入同比增长17%，营销服务收入同比增长22%；但国际游戏按报告口径下降0.8%，付费增值服务订阅日均数同比下降2%。",
+          "implication": "成熟业务仍提供现金流缓冲，但增长不能简单归因于AI，需要分别跟踪新游戏生命周期、广告定价和订阅趋势。"
+        }
+      ],
+      "strategic_judgment": "管理层把资源投向三层AI体系：Hy模型、WorkBuddy与CodeBuddy等生产力应用，以及面向内部和腾讯云的计算基础设施。这个顺序体现了以成熟业务现金流换取应用入口和算力能力的取舍；公司已经披露广告、云和产品使用信号，但尚未披露新AI产品的独立收入和利润。",
+      "strategic_directions": [
+        {
+          "direction": "把AI嵌入广告投放和微信交易闭环",
+          "rationale": "营销服务收入同比增长22%，公司将增长归因于AI广告推荐、AIM+端到端投放和微信生态闭环营销能力。",
+          "management_signal": "公司披露广告推荐模型、AIM+以及小店和小游戏广告工具均在升级。",
+          "validation": "下一季度营销服务增速、eCPM/曝光量或广告定价继续改善，同时新AI产品造成的利润率差距收窄。"
+        },
+        {
+          "direction": "以WorkBuddy、CodeBuddy和腾讯云承接AI需求",
+          "rationale": "企业服务收入增长由AI相关云需求、国际扩张和更有利的定价环境推动；公司同时称仍受算力约束。",
+          "management_signal": "WorkBuddy和CodeBuddy保持快速用户增长，云收入增长加速至低双位数，GPU租用、模型即服务及产品收入均受AI需求带动。",
+          "validation": "企业服务继续增长并出现定价、毛利或算力利用率证据，而不是只有用户和模型排名。"
+        },
+        {
+          "direction": "用成熟游戏和微信内容维持现金流底座",
+          "rationale": "本土游戏收入同比增长17%，视频号总使用时长同比增长超过20%，为AI基础设施投入提供了经营缓冲。",
+          "management_signal": "公司强调Delta Force、VALORANT PC及新游戏的用户与流水表现，并继续扩大视频号内容和广告库存。",
+          "validation": "游戏收入保持增长、视频号内容时长继续扩大，且自由现金流在计算资源预付款扰动后恢复为正。"
+        }
+      ],
+      "core_conflict": "腾讯有能力为AI投入融资，但本季计算资源预付款和资本开支已经压过经营现金流；广告、云和办公产品的增长尚不足以证明AI投入正在带来集团利润率改善。",
+      "falsifier": "若下一季度营销服务和企业服务继续保持较快增长，集团非国际财务准则经营利润率回升且包含计算资源预付款的自由现金流转正，则“AI投入回报滞后于投入”的判断需要下调；若投入继续扩大而增速和利润率同步走弱，则判断加强。",
+      "valuation_context": "财报于2026年8月12日业绩会当天发布，本报告未使用未经授权的一致预期或尚未完整形成的业绩日股价反应；市场定价仅保留可验证的经营变量。",
+      "catalyst": "营销服务和AI云需求继续保持增长，并在算力投入高峰后带动利润率稀释收窄、自由现金流恢复。",
+      "risk": "资本开支、计算资源预付款和研发投入继续快速增加，但WorkBuddy、CodeBuddy、广告和云业务未形成相称的收入、毛利或现金回收。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。财务事实以腾讯官方披露为准；情景区间是研究假设，不是预测或投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于腾讯收入同比增长11%，而在于AI已经成为广告、云和办公产品的增量引擎，却同时把现金流和资本开支的检验推向更高强度：本季剔除新AI产品的非国际财务准则经营利润率为42%，集团口径为36.9%，自由现金流转负13.8亿元。下一阶段要验证的不是模型能否使用，而是Compute投入能否转成可持续的广告、云和工作流收入与利润。",
+    "rating": "中性偏积极",
+    "confidence": "medium",
+    "primary_difficulty": "AI投入与商业回报出现时间差：收入和毛利仍在增长，但资本开支同比增长176%，包含计算资源预付款的自由现金流为负138亿元；剔除新AI产品后的非国际财务准则经营利润率为42%，集团口径为36.9%。",
+    "current_difficulties": [
+      {
+        "title": "计算资源投入先于现金回报",
+        "evidence": "资本开支为528亿元、同比增长176%；经营活动现金流527亿元被资本开支支付593亿元、媒体内容支付50亿元和租赁负债支付22亿元抵消，季度自由现金流为负138亿元。",
+        "implication": "腾讯资金仍可支撑投入，但AI增长质量从利润表问题转为预付款、算力利用率和现金回收速度问题。"
+      },
+      {
+        "title": "AI商业化已出现，但利润闭环尚未完成",
+        "evidence": "营销服务收入436亿元、同比增长22%；云收入增速加快至低双位数，但集团非国际财务准则经营利润率由37.5%降至36.9%，剔除新AI产品后为42%。",
+        "implication": "广告和云是最先可观察的变现路径，需看到收入增长与利润率稀释同时收窄，才能证明AI投入形成经营杠杆。"
+      },
+      {
+        "title": "增长仍依赖游戏与广告两条不同传导链",
+        "evidence": "本土游戏收入同比增长17%，营销服务收入同比增长22%；但国际游戏按报告口径下降0.8%，付费增值服务订阅日均数同比下降2%。",
+        "implication": "成熟业务仍提供现金流缓冲，但增长不能简单归因于AI，需要分别跟踪新游戏生命周期、广告定价和订阅趋势。"
+      }
+    ],
+    "strategic_judgment": "管理层把资源投向三层AI体系：Hy模型、WorkBuddy与CodeBuddy等生产力应用，以及面向内部和腾讯云的计算基础设施。这个顺序体现了以成熟业务现金流换取应用入口和算力能力的取舍；公司已经披露广告、云和产品使用信号，但尚未披露新AI产品的独立收入和利润。",
+    "strategic_directions": [
+      {
+        "direction": "把AI嵌入广告投放和微信交易闭环",
+        "rationale": "营销服务收入同比增长22%，公司将增长归因于AI广告推荐、AIM+端到端投放和微信生态闭环营销能力。",
+        "management_signal": "公司披露广告推荐模型、AIM+以及小店和小游戏广告工具均在升级。",
+        "validation": "下一季度营销服务增速、eCPM/曝光量或广告定价继续改善，同时新AI产品造成的利润率差距收窄。"
+      },
+      {
+        "direction": "以WorkBuddy、CodeBuddy和腾讯云承接AI需求",
+        "rationale": "企业服务收入增长由AI相关云需求、国际扩张和更有利的定价环境推动；公司同时称仍受算力约束。",
+        "management_signal": "WorkBuddy和CodeBuddy保持快速用户增长，云收入增长加速至低双位数，GPU租用、模型即服务及产品收入均受AI需求带动。",
+        "validation": "企业服务继续增长并出现定价、毛利或算力利用率证据，而不是只有用户和模型排名。"
+      },
+      {
+        "direction": "用成熟游戏和微信内容维持现金流底座",
+        "rationale": "本土游戏收入同比增长17%，视频号总使用时长同比增长超过20%，为AI基础设施投入提供了经营缓冲。",
+        "management_signal": "公司强调Delta Force、VALORANT PC及新游戏的用户与流水表现，并继续扩大视频号内容和广告库存。",
+        "validation": "游戏收入保持增长、视频号内容时长继续扩大，且自由现金流在计算资源预付款扰动后恢复为正。"
+      }
+    ],
+    "core_conflict": "腾讯有能力为AI投入融资，但本季计算资源预付款和资本开支已经压过经营现金流；广告、云和办公产品的增长尚不足以证明AI投入正在带来集团利润率改善。",
+    "falsifier": "若下一季度营销服务和企业服务继续保持较快增长，集团非国际财务准则经营利润率回升且包含计算资源预付款的自由现金流转正，则“AI投入回报滞后于投入”的判断需要下调；若投入继续扩大而增速和利润率同步走弱，则判断加强。",
+    "valuation_context": "财报于2026年8月12日业绩会当天发布，本报告未使用未经授权的一致预期或尚未完整形成的业绩日股价反应；市场定价仅保留可验证的经营变量。",
+    "catalyst": "营销服务和AI云需求继续保持增长，并在算力投入高峰后带动利润率稀释收窄、自由现金流恢复。",
+    "risk": "资本开支、计算资源预付款和研发投入继续快速增加，但WorkBuddy、CodeBuddy、广告和云业务未形成相称的收入、毛利或现金回收。"
+  },
+  "sources": [
+    {
+      "id": "official-results",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+      "title": "Tencent Announces 2026 Second Quarter Results",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-12T18:49:00+08:00"
+    },
+    {
+      "id": "official-presentation",
+      "url": "https://static.www.tencent.com/website-2026-upload/2Q26-earnings-PPT_20260812_1800-88b183.pdf",
+      "title": "Tencent 2026 Second Quarter Results Presentation",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-12T18:49:00+08:00"
+    },
+    {
+      "id": "hkex-announcement",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf",
+      "title": "Tencent 2026 Second Quarter HKEX Announcement",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-12T18:49:00+08:00"
+    },
+    {
+      "id": "bytedance-seedance",
+      "url": "https://seed.bytedance.com/blog/seedance-2-0-official-launch",
+      "title": "Seedance 2.0 Official Launch",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-12T18:52:49+08:00"
+    },
+    {
+      "id": "cac-ai-regulation",
+      "url": "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",
+      "title": "人工智能拟人化互动服务管理暂行办法",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-12T18:52:49+08:00"
+    },
+    {
+      "id": "tencent-cloud-pricing",
+      "url": "https://cloud.tencent.com/announce/detail/2270",
+      "title": "腾讯云代码助手关于 CodeBuddy、WorkBuddy 计费方案调整的公告",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-12T18:52:49+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "revenue",
+      "metric": "total_revenue",
+      "value": 204785000000,
+      "previous_value": 184504000000,
+      "display_value": "2,047.85亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Revenues were RMB204,785 million in 2Q2026, compared with RMB184,504 million in 2Q2025 and RMB196,458 million in 1Q2026.",
+      "location": "p.1, p.5"
+    },
+    {
+      "id": "vas-revenue",
+      "metric": "segment_revenue",
+      "value": 98414000000,
+      "previous_value": 91368000000,
+      "display_value": "984.14亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "VAS revenue was RMB98,414 million, up 8% YoY.",
+      "location": "p.2, p.5"
+    },
+    {
+      "id": "marketing-revenue",
+      "metric": "segment_revenue",
+      "value": 43565000000,
+      "previous_value": 35762000000,
+      "display_value": "435.65亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "营销服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Marketing Services revenue was RMB43,565 million, up 22% YoY.",
+      "location": "p.2, p.5"
+    },
+    {
+      "id": "fintech-business-revenue",
+      "metric": "segment_revenue",
+      "value": 60286000000,
+      "previous_value": 55536000000,
+      "display_value": "602.86亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "金融科技及企业服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "FinTech and Business Services revenue was RMB60,286 million, up 9% YoY.",
+      "location": "p.2, p.5"
+    },
+    {
+      "id": "social-revenue",
+      "metric": "segment_revenue",
+      "value": 32500000000,
+      "previous_value": 32200000000,
+      "display_value": "325亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "社交网络",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Social Networks revenue was RMB32.5 billion, up 0.8% YoY.",
+      "location": "p.2, presentation p.15"
+    },
+    {
+      "id": "domestic-games",
+      "metric": "segment_revenue",
+      "value": 47300000000,
+      "previous_value": 40400000000,
+      "display_value": "473亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "本土游戏",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Domestic Games revenue was RMB47.3 billion, up 17% YoY.",
+      "location": "p.2, presentation p.15"
+    },
+    {
+      "id": "international-games",
+      "metric": "segment_revenue",
+      "value": 18600000000,
+      "previous_value": 18800000000,
+      "display_value": "186亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "国际游戏",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "International Games revenue was RMB18.6 billion, down 0.8% YoY on a reported basis and up 4% in constant currency.",
+      "location": "p.2"
+    },
+    {
+      "id": "gross-profit",
+      "metric": "gross_profit",
+      "value": 118433000000,
+      "previous_value": 105013000000,
+      "display_value": "1,184.33亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Gross profit was RMB118,433 million, up 13% YoY.",
+      "location": "p.1, p.5"
+    },
+    {
+      "id": "gross-margin",
+      "metric": "gross_margin",
+      "value": 57.8,
+      "previous_value": 56.9,
+      "display_value": "57.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Gross margin calculated as gross profit divided by revenue: 118,433 / 204,785 = 57.8%; prior year 105,013 / 184,504 = 56.9%.",
+      "location": "p.5"
+    },
+    {
+      "id": "ifrs-operating-profit",
+      "metric": "operating_profit",
+      "value": 67276000000,
+      "previous_value": 60104000000,
+      "display_value": "672.76亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "IFRS operating profit was RMB67,276 million, up 12% YoY.",
+      "location": "p.1, p.5"
+    },
+    {
+      "id": "non-ifrs-operating-profit",
+      "metric": "non_ifrs_operating_profit",
+      "value": 75636000000,
+      "previous_value": 69248000000,
+      "display_value": "756.36亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS operating profit was RMB75,636 million, up 9% YoY.",
+      "location": "p.1, p.5"
+    },
+    {
+      "id": "non-ifrs-op-margin",
+      "metric": "non_ifrs_operating_margin",
+      "value": 36.9,
+      "previous_value": 37.5,
+      "display_value": "36.9%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Non-IFRS operating margin was 36.9% in 2Q2026 versus 37.5% in 2Q2025.",
+      "location": "presentation p.4, p.9"
+    },
+    {
+      "id": "non-ifrs-op-ex-ai",
+      "metric": "non_ifrs_operating_profit_excluding_new_ai",
+      "value": 86100000000,
+      "previous_value": 72400000000,
+      "display_value": "861亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Non-IFRS operating profit excluding New AI Products was RMB86.1 billion, up 19% YoY; the comparable 2Q2025 figure was RMB72.4 billion.",
+      "location": "p.1, presentation p.4"
+    },
+    {
+      "id": "non-ifrs-op-margin-ex-ai",
+      "metric": "non_ifrs_operating_margin_excluding_new_ai",
+      "value": 42.0,
+      "previous_value": 39.0,
+      "display_value": "42.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Non-IFRS operating margin excluding New AI Products increased to 42% from 39% last year.",
+      "location": "p.1, presentation p.25"
+    },
+    {
+      "id": "ai-margin-wedge",
+      "metric": "new_ai_product_margin_wedge",
+      "value": 5.1,
+      "previous_value": 1.5,
+      "display_value": "5.1个百分点",
+      "currency": "N/A",
+      "unit": "percentage_point",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Margin wedge calculated as non-IFRS operating margin excluding New AI Products minus reported non-IFRS operating margin: 42.0% - 36.9% = 5.1 percentage points; prior year 39.0% - 37.5% = 1.5 percentage points.",
+      "location": "p.1, presentation p.25"
+    },
+    {
+      "id": "ifrs-net-attributable",
+      "metric": "net_income_attributable",
+      "value": 56022000000,
+      "previous_value": 55628000000,
+      "display_value": "560.22亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "IFRS net profit attributable to equity holders was RMB56,022 million, up 0.7% YoY.",
+      "location": "p.1, p.5"
+    },
+    {
+      "id": "non-ifrs-net-attributable",
+      "metric": "non_gaap_net_income",
+      "value": 68415000000,
+      "previous_value": 63052000000,
+      "display_value": "684.15亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS net profit attributable to equity holders was RMB68,415 million, up 9% YoY.",
+      "location": "p.1, p.5"
+    },
+    {
+      "id": "operating-expenses",
+      "metric": "operating_expenses",
+      "value": 50677000000,
+      "previous_value": 41331000000,
+      "display_value": "506.77亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Operating expenses were RMB50.6 billion versus RMB41.3 billion, up 23% YoY.",
+      "location": "presentation p.22"
+    },
+    {
+      "id": "selling-marketing",
+      "metric": "selling_and_marketing_expenses",
+      "value": 11869000000,
+      "previous_value": 9410000000,
+      "display_value": "118.69亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Selling and marketing expenses were RMB11,869 million versus RMB9,410 million.",
+      "location": "p.5, presentation p.24"
+    },
+    {
+      "id": "research-development",
+      "metric": "research_and_development_expenses",
+      "value": 27200000000,
+      "previous_value": 20300000000,
+      "display_value": "272亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Presentation shows non-IFRS R&D expense of RMB27.2 billion versus RMB20.3 billion, up 35% YoY.",
+      "location": "presentation p.24"
+    },
+    {
+      "id": "capex",
+      "metric": "capital_expenditure",
+      "value": 52784000000,
+      "previous_value": 19107000000,
+      "display_value": "527.84亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Capital expenditures were RMB52,784 million, up 176% YoY.",
+      "location": "p.1, p.6, presentation p.25"
+    },
+    {
+      "id": "operating-cash-flow",
+      "metric": "operating_cash_flow",
+      "value": 52700000000,
+      "display_value": "527亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Net cash generated from operating activities was RMB52.7 billion.",
+      "location": "p.2"
+    },
+    {
+      "id": "free-cash-flow",
+      "metric": "free_cash_flow",
+      "value": -13800000000,
+      "previous_value": 43000000000,
+      "display_value": "-138亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Free cash flow was negative RMB13.8 billion versus RMB43.0 billion in 2Q2025 and RMB56.7 billion in 1Q2026.",
+      "location": "p.2, presentation p.25"
+    },
+    {
+      "id": "free-cash-flow-ex-compute",
+      "metric": "free_cash_flow_excluding_compute_prepayments",
+      "value": 37600000000,
+      "display_value": "376亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Excluding prepayments for compute procurement, free cash flow would have been RMB37.6 billion.",
+      "location": "p.2"
+    },
+    {
+      "id": "total-cash",
+      "metric": "total_cash",
+      "value": 511200000000,
+      "previous_value": 468400000000,
+      "display_value": "5,112亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Total cash was RMB511.2 billion, up 9% YoY.",
+      "location": "p.1, presentation p.25"
+    },
+    {
+      "id": "net-cash",
+      "metric": "net_cash",
+      "value": 58200000000,
+      "previous_value": 74592000000,
+      "display_value": "582亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Net cash was RMB58.2 billion, down 22% YoY.",
+      "location": "p.1, p.6, presentation p.25"
+    },
+    {
+      "id": "total-debt",
+      "metric": "total_debt",
+      "value": 453000000000,
+      "previous_value": 393800000000,
+      "display_value": "4,530亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Presentation shows total debt of RMB453.0 billion versus RMB393.8 billion in 2Q2025.",
+      "location": "presentation p.25"
+    },
+    {
+      "id": "weixin-mau",
+      "metric": "weixin_combined_mau",
+      "value": 1439000000,
+      "previous_value": 1411000000,
+      "display_value": "14.39亿",
+      "currency": "N/A",
+      "unit": "users",
+      "period": "2026Q2",
+      "segment": "微信及WeChat",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Combined MAU of Weixin and WeChat was 1,439 million, up 2% YoY.",
+      "location": "p.2"
+    },
+    {
+      "id": "qq-mau",
+      "metric": "qq_mobile_mau",
+      "value": 520000000,
+      "previous_value": 532000000,
+      "display_value": "5.20亿",
+      "currency": "N/A",
+      "unit": "users",
+      "period": "2026Q2",
+      "segment": "QQ",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Mobile device MAU of QQ was 520 million, down 2% YoY.",
+      "location": "p.2"
+    },
+    {
+      "id": "vas-subscriptions",
+      "metric": "fee_based_vas_subscriptions",
+      "value": 259000000,
+      "previous_value": 264000000,
+      "display_value": "2.59亿",
+      "currency": "N/A",
+      "unit": "subscriptions",
+      "period": "2026Q2",
+      "segment": "增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Average daily fee-based VAS subscriptions were 259 million, down 2% YoY.",
+      "location": "p.2"
+    },
+    {
+      "id": "buyback",
+      "metric": "share_buyback",
+      "value": 16900000000,
+      "display_value": "约169亿港元",
+      "currency": "HKD",
+      "unit": "yuan_equivalent_not_used",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Tencent repurchased approximately 37.4 million shares for an aggregate consideration of approximately HKD16.9 billion during 2Q2026.",
+      "location": "p.2"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "收入同比增长11%，营销服务增长22%、本土游戏增长17%，是本季最强的两条增量链；金融科技及企业服务增长9%，其中云业务受AI需求推动。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "增长并非全线同步：国际游戏按报告口径下降0.8%，付费增值服务订阅日均数下降2%，因此不能把总收入增长全部归因于AI商业化。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results"
+          ],
+          "falsifier": "若后续国际游戏和付费订阅同时恢复增长，当前的结构分化判断需要下调。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "毛利同比增长13%快于收入增长11%，但经营费用同比增长23%，非国际财务准则经营利润仅增长9%，利润率由37.5%降至36.9%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "剔除新AI产品后的非国际财务准则经营利润率由39%升至42%，与集团口径的差距扩大至5.1个百分点；这是组合稀释指标，不是新AI产品独立亏损额。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "研发费用在演示稿口径下同比增长35%，说明资源投入集中在模型、应用和基础设施，但当前费用增长快于集团经营利润增长。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-presentation"
+          ],
+          "falsifier": "若后续研发增速明显回落而广告、云和工作流收入继续加速，投入先行的判断需要修正。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "现金与资产",
+      "claims": [
+        {
+          "text": "本季自由现金流为负138亿元，主要因为资本开支支付593亿元、媒体内容支付50亿元、租赁负债支付22亿元，且包含支持AI基础设施的计算资源预付款。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results"
+          ]
+        },
+        {
+          "text": "剔除计算资源预付款后自由现金流仍为正376亿元，说明现金流压力具有投入时点属性，但净现金由上季1469亿元降至582亿元，资金缓冲已明显变薄。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "若下一季度计算资源投入继续扩大且剔除预付款后现金流也转负，则时点属性不足以解释压力。"
+        },
+        {
+          "text": "现金流足以支撑当前投入，不等于AI回报已经成立；下一步应观察算力利用率、云收入、AI应用付费和自由现金流恢复是否同步。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "若AI应用付费和云收入在投入下降后仍保持增长，说明回报路径开始脱离现金投入。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "马化腾将AI资源分为智能、应用和基础设施三层：Hy3生产版、WorkBuddy与CodeBuddy快速增长，以及显著增加计算资源采购。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results"
+          ]
+        },
+        {
+          "text": "管理层对WorkBuddy的商业化表述从用户增长延伸到订阅和按量充值意愿，但仍以高留存和付费意愿为主，尚未给出独立收入和利润。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "若公司后续披露AI产品收入、毛利或付费用户并持续增长，商业化尚未量化的判断需要更新。"
+        },
+        {
+          "text": "公司同时强调AI推荐、AIM+、微信小店、云GPU租用和模型即服务，资源配置显示其优先建设可嵌入既有生态的AI分发和算力能力。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "若后续资源转向独立消费AI而广告、云和微信场景投入下降，当前的生态嵌入判断将被削弱。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "字节跳动Seed团队于2026年2月发布Seedance 2.0，强调复杂交互、运动场景和工业级创作可用性；这会提高广告创意、视频内容和游戏资产生产的竞争强度，但本季没有可归因于该产品的腾讯财务损失。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "bytedance-seedance"
+          ],
+          "falsifier": "若腾讯广告eCPM、视频号时长和内容供给在竞品迭代后仍改善，直接冲击假设会减弱。"
+        },
+        {
+          "text": "腾讯的竞争防守点不是单一模型排名，而是将Hy接入WorkBuddy、CodeBuddy、微信和游戏生产流程，并以微信支付、腾讯云和企业工具形成分发闭环。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-presentation",
+            "bytedance-seedance"
+          ],
+          "falsifier": "若用户增长无法转化为付费、云需求或广告效率，生态闭环优势不能被视为已兑现。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部变量",
+      "claims": [
+        {
+          "text": "中国《人工智能拟人化互动服务管理暂行办法》自2026年7月15日起施行，要求服务提供者关注用户权益、退出机制和风险管理；这会提高面向消费者的AI产品设计与合规成本。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "cac-ai-regulation"
+          ],
+          "falsifier": "若后续监管边界未扩展至腾讯相关产品且产品上线节奏不受影响，当前成本压力判断需下调。"
+        },
+        {
+          "text": "腾讯云已调整CodeBuddy、WorkBuddy计费方案，说明生产力AI开始进入付费设计阶段，但计费调整本身不能证明规模化收入或利润。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "tencent-cloud-pricing"
+          ],
+          "falsifier": "若后续公开披露付费用户、收入和毛利均未改善，计费设计的商业化含义有限。"
+        },
+        {
+          "text": "算力供给仍是业务约束：腾讯称云业务AI需求带动GPU租用、模型即服务和WorkBuddy/CodeBuddy收入，但同时明确表示仍受计算资源限制。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-presentation"
+          ],
+          "falsifier": "若算力采购增长后云服务收入增速和利润率没有改善，供给约束就不是主要瓶颈。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场定价",
+      "claims": [
+        {
+          "text": "财报在2026年8月12日业绩会当天发布，当前报告不使用尚未完整形成的业绩日价格反应或未经授权的一致预期；可审计的市场判断暂限定为经营变量。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "official-results"
+          ],
+          "falsifier": "下一交易日形成可复核的价格、成交量和一致预期数据后，应补充市场反应层。"
+        },
+        {
+          "text": "潜在正面定价变量是营销服务增长22%、本土游戏增长17%和AI云需求；潜在负面变量是资本开支增长176%、自由现金流转负和非国际财务准则经营利润率下降。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "情景与验证",
+      "claims": [
+        {
+          "text": "基准情景的核心不是收入再次加速，而是营销服务和企业服务仍增长、资本开支增速开始正常化、自由现金流在计算资源投入后恢复为正。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "若收入增长保持而自由现金流继续深度为负，基准情景的现金回收条件不成立。"
+        },
+        {
+          "text": "乐观情景要求广告和云需求将AI使用转成定价或付费，并使非国际财务准则经营利润率回升；谨慎情景则是算力投入继续扩张而利润率和现金流同步恶化。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "下一季度利润率、自由现金流和AI相关收入披露将直接区分三种情景。"
+        },
+        {
+          "text": "因腾讯未披露独立分部经营利润，情景中的核心经营利润区间使用集团非国际财务准则经营利润作为关键经营代理，集团利润区间使用非国际财务准则归母净利润。",
+          "claim_type": "scenario",
+          "confidence": "high",
+          "source_ids": [
+            "official-results"
+          ],
+          "falsifier": "若公司后续披露可复核的AI或业务线经营利润，应替换代理口径。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究结论",
+      "claims": [
+        {
+          "text": "当前最难的问题是把计算资源和研发投入转成可持续的现金回报；管理层准备把资源投向Hy模型、生产力应用、广告推荐、微信交易和腾讯云基础设施。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "若下一季度广告、云和AI应用付费均改善且自由现金流恢复，核心判断将转为积极。"
+        },
+        {
+          "text": "本季最重要的新信息不是AI产品数量增加，而是AI投入已经在现金流中留下清晰痕迹；因此下季度验证优先级应从模型能力转向算力利用率、付费收入、利润率和自由现金流。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "若公司披露AI产品独立利润率显著改善，现金流痕迹不再代表回报滞后。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "合格分析师从 headline 数字会得出什么共识？",
+        "answer": "收入增长11%、毛利增长13%、广告增长22%，腾讯有能力继续投入AI；游戏和广告仍是增长底座。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "非国际财务准则经营利润率下降，自由现金流转负。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "这个共识依赖什么隐藏假设？",
+        "answer": "它假设AI使用增长会自然转成广告、云、办公产品的收入和利润，且算力投入只是短期前置成本。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "腾讯没有披露新AI产品独立收入和利润，且净现金环比下降。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "哪一个本季事实最抵抗上述共识？",
+        "answer": "包含计算资源预付款的自由现金流为负138亿元，资本开支同比增长176%，这是投入已经进入现金流而回报尚未同步进入的直接证据。",
+        "source_ids": [
+          "official-results"
+        ],
+        "counterevidence": "剔除计算资源预付款后自由现金流仍为正376亿元，说明压力部分具有时点属性。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "AI投入通过什么机制影响财务结果？",
+        "answer": "计算采购和研发先增加资本开支、预付款与费用；若模型进入广告推荐、云GPU租用、模型即服务和WorkBuddy付费，则通过收入、eCPM、定价与利用率回收。",
+        "source_ids": [
+          "official-results",
+          "official-presentation",
+          "tencent-cloud-pricing"
+        ],
+        "counterevidence": "当前披露仍以需求、用户增长和产品能力为主，缺少AI独立毛利。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "为什么变化现在出现，而不是更早出现？",
+        "answer": "2Q26同时发生Hy3生产版发布、WorkBuddy和CodeBuddy快速增长、腾讯云AI需求上升以及计算资源大幅采购，应用和基础设施进入同步扩张阶段。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "广告AI已经在此前季度产生增长，说明并非所有AI投资都刚刚开始。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "季节性、业务组合或一次性因素能否解释同一现象？",
+        "answer": "游戏和社交网络存在内容及产品组合因素，投资收益和联营公司损益也影响IFRS净利润；但资本开支、计算预付款和非国际财务准则经营利润率的变化仍直接指向AI投入。",
+        "source_ids": [
+          "official-results"
+        ],
+        "counterevidence": "剔除计算预付款后自由现金流为正，不能把全部现金流压力归于结构性恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "如果没有AI投入，本季结果会怎样？",
+        "answer": "公司披露剔除新AI产品后的非国际财务准则经营利润率为42%，高于集团口径36.9%；这表明成熟业务经营表现更强，但不能推导AI独立亏损。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "新AI产品也可能已经通过广告和云需求贡献收入，只是没有被单独量化。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "一阶效应持续后的二阶影响是什么？",
+        "answer": "若算力采购持续领先于现金回收，腾讯的净现金缓冲和资本配置弹性会下降；若应用入口先形成规模，则同一基础设施可能提高广告、云和办公产品的协同价值。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "总现金仍为5112亿元，且公司有投资组合和融资能力，短期流动性不是硬约束。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "最强的看多和看空解释分别是什么？",
+        "answer": "看多解释是广告和云已经出现AI需求，成熟游戏和微信内容提供现金流，投入可形成长期平台优势；看空解释是资本开支和研发增长先于AI收入，利润率和自由现金流下行可能持续。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "正负两种解释都缺少AI独立收入与利润披露。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "哪些部分可能已经被市场定价？",
+        "answer": "腾讯在广告、游戏和AI基础设施上的投入方向并非首次披露，因此“会投AI”本身可能已被预期；本季真正需要重估的是投入强度、现金流回收和利润率拐点。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "本报告没有授权一致预期和业绩日价格数据，无法量化已定价程度。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "下一季度什么结果会推翻核心判断？",
+        "answer": "若营销服务和企业服务继续增长，非国际财务准则经营利润率回升，且包含计算资源预付款的自由现金流转正，则AI投入回报滞后的判断会被推翻。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "即使自由现金流转正，也需要排除计算资源采购时点变化，不能单指标下结论。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "这个判断会改变什么决策或监控优先级？",
+        "answer": "会把下季度监控重点从模型排名转为四项经营指标：广告定价/效率、云和AI应用付费、非国际财务准则经营利润率、自由现金流与计算预付款。",
+        "source_ids": [
+          "official-results",
+          "official-presentation",
+          "tencent-cloud-pricing"
+        ],
+        "counterevidence": "模型能力和用户增长仍是商业化的先行指标，不能完全删除。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "AI投入已从利润表故事迁移为现金流回收问题",
+        "consensus_view": "腾讯现金充裕、成熟业务增长，因此AI投入主要是可承受的前置投资。",
+        "new_view": "本季真正变化是计算资源预付款和资本开支已经把AI回报检验从利润表推到现金流与资产负债表；可承受不等于已产生回报。",
+        "mechanism": "计算采购和预付款先压低自由现金流并抬高资本密度，广告、云和AI应用付费再通过收入、定价和利用率回收；若回收慢，净现金缓冲下降。",
+        "implication": "下一季估值与情景概率应提高对自由现金流、算力利用率和AI收入的权重，而不是只看模型能力。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "剔除计算资源预付款后自由现金流为正376亿元，总现金仍为5112亿元，说明短期并非融资危机。",
+        "falsifier": "下一季度包含计算资源预付款的自由现金流转正，同时云和AI应用收入继续增长。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 12
+      },
+      {
+        "id": "insight-2",
+        "title": "广告是AI商业化的先行验证器，模型收费仍是后验验证",
+        "consensus_view": "腾讯AI战略的核心成功标准是模型能力、用户排名和产品增长。",
+        "new_view": "腾讯最早能被财务验证的AI回报不在独立模型订阅，而在广告推荐、AIM+和微信闭环带来的eCPM、曝光和定价改善。",
+        "mechanism": "AI推荐提高匹配与转化，AIM+降低广告主投放复杂度，微信交易闭环扩大可归因效果，最终传导到营销服务收入和毛利。",
+        "implication": "广告增速和定价改善若持续，能够先证明AI的分发价值；WorkBuddy和Hy的直接利润可以滞后观察。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "营销服务增长也受整体广告预算和流量增长影响，不能将22%增速全部归因于AI。",
+        "falsifier": "若广告收入增长但eCPM、转化或利润率恶化，而AI应用付费未改善，广告先行验证器假设不成立。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-3",
+        "title": "腾讯的AI防守依赖生态闭环而非单模型领先",
+        "consensus_view": "AI竞争主要由模型参数、榜单和单产品用户规模决定。",
+        "new_view": "腾讯的可持续优势更可能来自模型、微信、云、支付、办公和游戏工具的组合，但该优势只有在跨业务收入或成本协同中才有财务意义。",
+        "mechanism": "模型进入高频应用并连接支付、云和企业工具，形成数据反馈、分发和交易闭环；若业务间不产生交叉变现，生态只是产品集合。",
+        "implication": "监控应从模型排名扩展到跨产品付费、云迁移、广告效率和工作流交易，而不是只追踪单一模型能力。",
+        "source_ids": [
+          "official-presentation",
+          "bytedance-seedance",
+          "tencent-cloud-pricing"
+        ],
+        "counterevidence": "生态协同目前主要来自公司产品叙述，尚缺独立的交叉销售、用户付费和单位经济数据。",
+        "falsifier": "若后续AI产品在无明显生态协同的情况下仍实现独立高毛利和正现金流，生态闭环并非必要条件。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 1,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 9
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 20,
+      "triggers": [
+        "营销服务保持高双位数增长并出现更强定价或效率证据",
+        "云、WorkBuddy和CodeBuddy收入继续增长且算力利用率改善",
+        "自由现金流在计算资源投入后恢复为正且利润率回升"
+      ],
+      "segment_profit_range": [
+        80000,
+        86000
+      ],
+      "group_profit_range": [
+        72000,
+        78000
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "营销服务和企业服务保持增长但增速温和回落",
+        "资本开支仍处高位但环比增速明显放缓",
+        "非国际财务准则经营利润率维持在36%至38%，自由现金流波动后改善"
+      ],
+      "segment_profit_range": [
+        75000,
+        81000
+      ],
+      "group_profit_range": [
+        67000,
+        73000
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "广告需求或定价放缓，云需求未能抵消算力约束",
+        "资本开支和计算资源预付款继续扩大",
+        "非国际财务准则经营利润率下探且自由现金流持续为负"
+      ],
+      "segment_profit_range": [
+        69000,
+        75000
+      ],
+      "group_profit_range": [
+        61000,
+        67000
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "腾讯未披露新AI产品独立收入、毛利和经营利润；报告将利润率差距作为组合指标，不将其等同AI独立亏损。",
+      "腾讯未单独披露业务线经营利润；情景中的segment_profit_range使用集团非国际财务准则经营利润作为核心经营代理。",
+      "财报于业绩会当天发布，尚未纳入完整的下一交易日股价、成交量和授权一致预期数据。",
+      "外部竞争与监管材料仅用于变量识别，不用于推导腾讯收入或市场份额。"
+    ]
+  }
+}
