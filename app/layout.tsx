@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = process.env.SITE_URL ?? "https://nevilaa.github.io";
+const siteUrl = process.env.SITE_URL ?? "https://www.shresearch.cn";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

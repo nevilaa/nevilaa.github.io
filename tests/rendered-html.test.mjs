@@ -14,5 +14,9 @@ test("exports the extensible earnings research workbench", async () => {
   assert.match(html, /财报工作台/);
   assert.match(html, /京ICP备2026051102号-1/);
   assert.match(html, /https:\/\/beian\.miit\.gov\.cn\//);
+  assert.match(
+    html,
+    /property="og:url" content="https:\/\/www\.shresearch\.cn\/"/,
+  );
   assert.doesNotMatch(html, /公司财报对比|NVIDIA|Microsoft/);
 });

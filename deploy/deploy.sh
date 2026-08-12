@@ -46,7 +46,7 @@ sudo systemctl reload nginx
 REMOTE
 
   curl --noproxy '*' --fail --silent --show-error --max-time 20 \
-    https://shresearch.cn/ >/dev/null
+    https://www.shresearch.cn/ >/dev/null
   echo "Rolled back to $release_id"
 }
 
@@ -57,7 +57,7 @@ deploy() {
   release_path="$RELEASE_ROOT/$release_id"
 
   echo ">> Building and testing the static export..."
-  (cd "$REPO_DIR" && SITE_URL=https://shresearch.cn npm test)
+  (cd "$REPO_DIR" && SITE_URL=https://www.shresearch.cn npm test)
 
   echo ">> Uploading release $release_id..."
   "${SSH[@]}" bash -s -- "$WEB_ROOT" "$RELEASE_ROOT" "$CURRENT_LINK" "$SRC_ROOT" <<'REMOTE'
@@ -88,7 +88,7 @@ release_path="$1"
 sudo test -s "$release_path/index.html"
 sudo test -s "$release_path/data/catalog.json"
 sudo grep -q '京ICP备2026051102号-1' "$release_path/index.html"
-sudo grep -q 'https://shresearch.cn' "$release_path/index.html"
+sudo grep -q 'https://www.shresearch.cn' "$release_path/index.html"
 REMOTE
 
   echo ">> Installing the site configuration and switching atomically..."
@@ -125,11 +125,13 @@ REMOTE
 
   echo ">> Verifying the public site..."
   curl --noproxy '*' --fail --silent --show-error --max-time 20 \
-    https://shresearch.cn/ | grep -q '京ICP备2026051102号-1'
+    https://www.shresearch.cn/ | grep -q '京ICP备2026051102号-1'
   curl --noproxy '*' --fail --silent --show-error --max-time 20 \
-    https://shresearch.cn/data/catalog.json >/dev/null
-  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
-    https://www.shresearch.cn/ >/dev/null
+    https://www.shresearch.cn/data/catalog.json >/dev/null
+  redirect="$(curl --noproxy '*' --silent --show-error --max-time 20 \
+    --output /dev/null --write-out '%{http_code} %{redirect_url}' \
+    https://shresearch.cn/)"
+  [[ "$redirect" == "301 https://www.shresearch.cn/" ]]
 
   "${SSH[@]}" "sudo find '$RELEASE_ROOT' -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | tail -n +$((KEEP_RELEASES + 1)) | cut -d' ' -f2- | xargs -r sudo rm -rf"
   echo ">> Published $release_id"
