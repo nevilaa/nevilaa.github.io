@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "tripcom-2026-q1",
+    companyId: "tripcom",
+    companyName: "携程集团",
+    companyNameEn: "Trip.com Group",
+    ticker: "9961.HK",
+    iconUrl: "https://icons.duckduckgo.com/ip3/trip.com.ico",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-08-13",
+    endpoint: "/data/9961-hk-2026q1.json",
+    status: "published",
+  },
+  {
     id: "minimax-fy2025",
     companyId: "minimax",
     companyName: "稀宇科技",

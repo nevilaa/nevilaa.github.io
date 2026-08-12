@@ -248,6 +248,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     },
   };
   const BRAND_COLORS: Array<[RegExp, string]> = [
+    [/9961|Trip\.com|携程/i, "#1471db"],
     [/9618|JD/i, "#e1251b"],
     [/PDD/i, "#e02e24"],
     [/BIDU/i, "#2932e1"],

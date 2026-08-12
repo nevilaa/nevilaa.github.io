@@ -1,0 +1,1167 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "9961-hk-2026q1",
+  "generated_at": "2026-08-12T16:55:50.356426+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "携程集团",
+    "company_name_en": "Trip.com Group",
+    "ticker": "9961.HK",
+    "period": "2026Q1",
+    "period_end": "2026-03-31",
+    "status": "approved",
+    "thesis": "市场把'净利润同比 -41.6%'读成盈利恶化，但这几乎全是会计噪声：归母净利 24.99 亿的下滑主要来自联营公司亏损扩大至 11.51 亿（主要系 MakeMyTrip 股价回调）与权益证券/可交换票据公允价值由去年同期 +5.26 亿收益转为本季 -8.76 亿损失，而核心经营利润实际 +10.7%、Non-GAAP 净利仅 -6.8%。真正需要定价的是两件事：火车票反垄断整改是否伤及占收入 37% 的交通票务货币化，以及 Q2 收入增速指引骤降至 3%–8% 究竟是需求空窗还是增长中枢下移。在监管结果落地、国际利润率兑现之前，估值折价难以收窄。",
+    "share_price": 310.8,
+    "share_price_currency": "HKD",
+    "market_intraday_max_pct": -12.55,
+    "market_close_pct": -12.1,
+    "revenue_presentation_changed": false,
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "最难的不是获得增长，而是监管合规落在最高频、最高毛利的火车票/交通票务主业上：2026 年 1 月市场监管总局就涉嫌滥用市场支配地位立案调查，6 月 11 日又联合网信办、国家铁路局约谈候补帮抢、买长乘短等票务乱象，6 月 13 日上海网信办再就数据出境违规罚款 1000 万元。这一连串监管风险无法定价，且可能改变交通票务（占收入 37%）的货币化方式，恰好叠加在 Q2 收入增速指引骤降至 3%–8% 的时点上。",
+      "current_difficulties": [
+        {
+          "title": "反垄断与合规风险落在高毛利票务主业",
+          "evidence": "SEC 6-K 披露 2026 年 1 月收到市场监管总局反垄断调查通知；6 月 11 日市场监管总局会同中央网信办、国家铁路局约谈携程等 7 家火车票第三方平台；6 月 13 日上海网信办对数据出境违规罚款 1000 万元。",
+          "implication": "若整改要求下架候补帮抢、付费选座等增值服务，将直接冲击交通票务（Q1 收入 60.50 亿元、占 37%）及其相关增值收入的货币化，风险从一次性罚款升级为结构性商业模式调整。"
+        },
+        {
+          "title": "增收不增利：费用增速全线快于收入",
+          "evidence": "Q1 收入 +17.2%，但营业成本 +23.1%、销售营销 +24.9%、产品研发 +15.2% 均快于收入，GAAP 经营利润率由 25.8% 降至 24.3%（约 -1.5pp），经调整 EBITDA 利润率由 31% 降至 30%。",
+          "implication": "国际扩张与 AI 投入抬高了获客与服务成本，利润弹性被摊薄；一旦 Q2 收入降至个位数而费用刚性，利润率下行压力会进一步放大。"
+        },
+        {
+          "title": "Q2 需求骤降叠加宏观逆风",
+          "evidence": "公司给出 Q2 净收入同比 +3%–8% 指引，为疫情修复周期之外、上市以来最弱单季指引；管理层归因于油价推高机票、地缘冲突波及境外、以及合规主动调整。",
+          "implication": "收入增长中枢可能从双位数下移至个位数，市场此前按持续双位数 OTA 增长定价的估值锚需要重新校准。"
+        }
+      ],
+      "strategic_judgment": "管理层选择用短期利润与合规整改换取长期全球规模：一方面全面配合监管、主动调整票务业务以对齐行业标准，另一方面把资源集中投向国际（国际平台预订量 +65%）与入境游（+90%，提出五年 2 亿入境游客目标）以及 AI/目的地赋能。这一取舍的成立，取决于反垄断结果不伤及票务主业的货币化、以及国际业务的单位经济能否随规模改善。",
+      "strategic_directions": [
+        {
+          "direction": "把国际与入境游做成第二增长曲线",
+          "rationale": "国际平台总预订量同比 +65%、入境游预订量 +90%，管理层提出五年吸引 2 亿入境游客的目标，境外市场仍有成倍扩张空间。",
+          "management_signal": "梁建章强调'入境游持续蓄力……创造长期价值'；孙洁称'继续加强伙伴生态，帮助更多目的地和供应商受益于国际旅游增长'，并披露国际 OTA 预订量 +65%。",
+          "validation": "下一季度国际平台预订量增速是否维持高位、国际业务利润率是否改善、入境游收入贡献是否开始放大。"
+        },
+        {
+          "direction": "用 AI 与目的地赋能降低服务成本、提升转化",
+          "rationale": "通过技术与 AI 解决语言、信息与预订门槛，让更多首次出海供应商对接全球需求，同时摊薄服务成本。",
+          "management_signal": "孙洁明确'通过技术、AI 驱动的解决方案……帮助旅行者克服语言和信息壁垒'；产品研发费用同比 +15.2% 至 40.62 亿元，为投入提供证据。",
+          "validation": "产品研发投入能否转化为可披露的 AI 赋能预订转化/客服效率提升，而非仅停留在研发费用增长。"
+        },
+        {
+          "direction": "合规整改并重构票务业务规范",
+          "rationale": "面对反垄断调查与联合约谈，管理层选择主动对齐'不断演进的行业标准与合规框架'，以换取业务长期可持续。",
+          "management_signal": "6-K 披露'全面配合市场监管总局调查、持续审查业务实践'；Q2 指引将'合规主动调整'列为放缓归因之一。",
+          "validation": "SAMR 调查是否以可预期的罚款+局部整改收场、交通票务收入与相关增值收入后续季度是否未出现显著下滑。"
+        }
+      ],
+      "core_conflict": "一边是仍具韧性但正在减速的国内 OTA（Q1 +17.2% vs Q2 指引 +3%–8%），一边是成本增速快于收入的国际/AI 扩张，二者之间还压着无法定价的反垄断调查——这家公司的核心矛盾是'增长换挡'与'合规成本'同时到来，而市场尚未决定按哪一条曲线重新定价。",
+      "falsifier": "下一季度若 Q2 收入增速落在 3% 下限、国际预订量增速显著放缓、且 Non-GAAP 经营利润率跌破约 26%，则'核心完好、扰动暂时'的判断被推翻；反之若 SAMR 调查以温和方式落地、Q2 贴近指引上沿、国际利润率改善，则悲观情景不成立。",
+      "valuation_context": "财报次日港股收跌 12.1% 报 310.8 港元（创年内新低、总市值约 2225 亿港元），美股 TCOM 收跌 12.55% 报 40.49 美元；Q1 收入 +17% 略超市场约 15% 的预期，但 Non-GAAP 每股收益 0.83 美元低于一致预期 0.85 美元、Non-GAAP 净利 39.05 亿低于市场约 42 亿预期。花旗维持买入、美股目标价 82 美元，认为 Non-GAAP 营运利润率 28.6% 略超预期、Q2 指引偏保守。",
+      "catalyst": "SAMR 调查以较小罚款或局部整改落地、Q2 收入贴近或高于指引上沿、国际/入境游利润率出现拐点。",
+      "risk": "SAMR 大额罚款并强制改变火车票货币化方式，叠加油价/地缘持续压制出境需求，使收入与利润率双降、估值中枢进一步下移。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "市场把'净利润同比 -41.6%'读成盈利恶化，但这几乎全是会计噪声：归母净利 24.99 亿的下滑主要来自联营公司亏损扩大至 11.51 亿（主要系 MakeMyTrip 股价回调）与权益证券/可交换票据公允价值由去年同期 +5.26 亿收益转为本季 -8.76 亿损失，而核心经营利润实际 +10.7%、Non-GAAP 净利仅 -6.8%。真正需要定价的是两件事：火车票反垄断整改是否伤及占收入 37% 的交通票务货币化，以及 Q2 收入增速指引骤降至 3%–8% 究竟是需求空窗还是增长中枢下移。在监管结果落地、国际利润率兑现之前，估值折价难以收窄。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "最难的不是获得增长，而是监管合规落在最高频、最高毛利的火车票/交通票务主业上：2026 年 1 月市场监管总局就涉嫌滥用市场支配地位立案调查，6 月 11 日又联合网信办、国家铁路局约谈候补帮抢、买长乘短等票务乱象，6 月 13 日上海网信办再就数据出境违规罚款 1000 万元。这一连串监管风险无法定价，且可能改变交通票务（占收入 37%）的货币化方式，恰好叠加在 Q2 收入增速指引骤降至 3%–8% 的时点上。",
+    "current_difficulties": [
+      {
+        "title": "反垄断与合规风险落在高毛利票务主业",
+        "evidence": "SEC 6-K 披露 2026 年 1 月收到市场监管总局反垄断调查通知；6 月 11 日市场监管总局会同中央网信办、国家铁路局约谈携程等 7 家火车票第三方平台；6 月 13 日上海网信办对数据出境违规罚款 1000 万元。",
+        "implication": "若整改要求下架候补帮抢、付费选座等增值服务，将直接冲击交通票务（Q1 收入 60.50 亿元、占 37%）及其相关增值收入的货币化，风险从一次性罚款升级为结构性商业模式调整。"
+      },
+      {
+        "title": "增收不增利：费用增速全线快于收入",
+        "evidence": "Q1 收入 +17.2%，但营业成本 +23.1%、销售营销 +24.9%、产品研发 +15.2% 均快于收入，GAAP 经营利润率由 25.8% 降至 24.3%（约 -1.5pp），经调整 EBITDA 利润率由 31% 降至 30%。",
+        "implication": "国际扩张与 AI 投入抬高了获客与服务成本，利润弹性被摊薄；一旦 Q2 收入降至个位数而费用刚性，利润率下行压力会进一步放大。"
+      },
+      {
+        "title": "Q2 需求骤降叠加宏观逆风",
+        "evidence": "公司给出 Q2 净收入同比 +3%–8% 指引，为疫情修复周期之外、上市以来最弱单季指引；管理层归因于油价推高机票、地缘冲突波及境外、以及合规主动调整。",
+        "implication": "收入增长中枢可能从双位数下移至个位数，市场此前按持续双位数 OTA 增长定价的估值锚需要重新校准。"
+      }
+    ],
+    "strategic_judgment": "管理层选择用短期利润与合规整改换取长期全球规模：一方面全面配合监管、主动调整票务业务以对齐行业标准，另一方面把资源集中投向国际（国际平台预订量 +65%）与入境游（+90%，提出五年 2 亿入境游客目标）以及 AI/目的地赋能。这一取舍的成立，取决于反垄断结果不伤及票务主业的货币化、以及国际业务的单位经济能否随规模改善。",
+    "strategic_directions": [
+      {
+        "direction": "把国际与入境游做成第二增长曲线",
+        "rationale": "国际平台总预订量同比 +65%、入境游预订量 +90%，管理层提出五年吸引 2 亿入境游客的目标，境外市场仍有成倍扩张空间。",
+        "management_signal": "梁建章强调'入境游持续蓄力……创造长期价值'；孙洁称'继续加强伙伴生态，帮助更多目的地和供应商受益于国际旅游增长'，并披露国际 OTA 预订量 +65%。",
+        "validation": "下一季度国际平台预订量增速是否维持高位、国际业务利润率是否改善、入境游收入贡献是否开始放大。"
+      },
+      {
+        "direction": "用 AI 与目的地赋能降低服务成本、提升转化",
+        "rationale": "通过技术与 AI 解决语言、信息与预订门槛，让更多首次出海供应商对接全球需求，同时摊薄服务成本。",
+        "management_signal": "孙洁明确'通过技术、AI 驱动的解决方案……帮助旅行者克服语言和信息壁垒'；产品研发费用同比 +15.2% 至 40.62 亿元，为投入提供证据。",
+        "validation": "产品研发投入能否转化为可披露的 AI 赋能预订转化/客服效率提升，而非仅停留在研发费用增长。"
+      },
+      {
+        "direction": "合规整改并重构票务业务规范",
+        "rationale": "面对反垄断调查与联合约谈，管理层选择主动对齐'不断演进的行业标准与合规框架'，以换取业务长期可持续。",
+        "management_signal": "6-K 披露'全面配合市场监管总局调查、持续审查业务实践'；Q2 指引将'合规主动调整'列为放缓归因之一。",
+        "validation": "SAMR 调查是否以可预期的罚款+局部整改收场、交通票务收入与相关增值收入后续季度是否未出现显著下滑。"
+      }
+    ],
+    "core_conflict": "一边是仍具韧性但正在减速的国内 OTA（Q1 +17.2% vs Q2 指引 +3%–8%），一边是成本增速快于收入的国际/AI 扩张，二者之间还压着无法定价的反垄断调查——这家公司的核心矛盾是'增长换挡'与'合规成本'同时到来，而市场尚未决定按哪一条曲线重新定价。",
+    "falsifier": "下一季度若 Q2 收入增速落在 3% 下限、国际预订量增速显著放缓、且 Non-GAAP 经营利润率跌破约 26%，则'核心完好、扰动暂时'的判断被推翻；反之若 SAMR 调查以温和方式落地、Q2 贴近指引上沿、国际利润率改善，则悲观情景不成立。",
+    "valuation_context": "财报次日港股收跌 12.1% 报 310.8 港元（创年内新低、总市值约 2225 亿港元），美股 TCOM 收跌 12.55% 报 40.49 美元；Q1 收入 +17% 略超市场约 15% 的预期，但 Non-GAAP 每股收益 0.83 美元低于一致预期 0.85 美元、Non-GAAP 净利 39.05 亿低于市场约 42 亿预期。花旗维持买入、美股目标价 82 美元，认为 Non-GAAP 营运利润率 28.6% 略超预期、Q2 指引偏保守。",
+    "catalyst": "SAMR 调查以较小罚款或局部整改落地、Q2 收入贴近或高于指引上沿、国际/入境游利润率出现拐点。",
+    "risk": "SAMR 大额罚款并强制改变火车票货币化方式，叠加油价/地缘持续压制出境需求，使收入与利润率双降、估值中枢进一步下移。"
+  },
+  "sources": [
+    {
+      "id": "sec-6k-ex991",
+      "url": "https://www.sec.gov/Archives/edgar/data/1269238/000119312526281805/d163607dex991.htm",
+      "title": "Trip.com Group Limited Reports Unaudited First Quarter of 2026 Financial Results (EX-99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "sec-6k-index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1269238/000119312526281805/0001193125-26-281805-index.htm",
+      "title": "SEC Form 6-K filing index (Trip.com Group Limited)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "samr",
+      "url": "https://www.samr.gov.cn:8083/xw/zj/art/2026/art_8fe89a8504fd4f95b08baf94fba898ee.html",
+      "title": "市场监管总局会同中央网信办、国家铁路局约谈7家涉火车票销售第三方平台",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "cctv",
+      "url": "https://news.cctv.com/2026/06/11/ARTIGf0SrpsoBgP32eVRxXzN260611.shtml",
+      "title": "市场监管总局等部门约谈7家涉火车票销售第三方平台（央视网）",
+      "authority_level": "tier2",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "bjnews",
+      "url": "https://www.bjnews.com.cn/detail/1781349319169293.html",
+      "title": "上海携程商务有限公司被罚款1000万元（新京报）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "citi",
+      "url": "https://www.aastocks.com/en/stocks/analysis/stock-aafn-con/09961/AAFN/NOW.1530499/hk-stock-news",
+      "title": "Citi: Trip.com-S 1Q Revenue and Adj. Operating Profit Slightly Beat; Adj. Net Profit Misses",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "21jingji",
+      "url": "https://www.21jingji.com/article/20260626/herald/91588990bf039e53d744aee8604903cc.html",
+      "title": "净利下滑41.6%，单日蒸发200亿港元！携程Q2增速预期更糟（21世纪经济报道）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "zacks",
+      "url": "https://www.nasdaq.com/articles/tripcom-tcom-lags-q1-earnings-estimates",
+      "title": "Trip.com (TCOM) Lags Q1 Earnings Estimates (Zacks via Nasdaq)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    },
+    {
+      "id": "nasdaq-selloff",
+      "url": "https://www.nasdaq.com/articles/tripcoms-selloff-raises-bigger-question-about-its-travel-recovery-story",
+      "title": "Trip.com's Selloff Raises a Bigger Question About Its Travel Recovery Story (Nasdaq)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-13T00:50:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "rev-total",
+      "metric": "total_revenue",
+      "value": 16208,
+      "display_value": "162.08 亿元（+17.2%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Total net revenues RMB16,208 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 13830
+    },
+    {
+      "id": "seg-accommodation",
+      "metric": "segment_revenue",
+      "value": 6510,
+      "display_value": "65.10 亿元（+17.5%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": "住宿预订",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Accommodation reservation RMB6,510 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 5541
+    },
+    {
+      "id": "seg-transportation",
+      "metric": "segment_revenue",
+      "value": 6050,
+      "display_value": "60.50 亿元（+11.7%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": "交通票务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Transportation ticketing RMB6,050 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 5418
+    },
+    {
+      "id": "seg-tour",
+      "metric": "segment_revenue",
+      "value": 1130,
+      "display_value": "11.30 亿元（+19.3%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": "度假打包",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Packaged-tour RMB1,130 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 947
+    },
+    {
+      "id": "seg-corporate",
+      "metric": "segment_revenue",
+      "value": 690,
+      "display_value": "6.90 亿元（+20.4%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": "商旅",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Corporate travel RMB690 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 573
+    },
+    {
+      "id": "seg-others",
+      "metric": "segment_revenue",
+      "value": 1828,
+      "display_value": "18.28 亿元（+35.3%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": "其他",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Others RMB1,828 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 1351
+    },
+    {
+      "id": "cor",
+      "metric": "cost_of_revenue",
+      "value": 3330,
+      "display_value": "33.30 亿元（+23.1%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Cost of revenue RMB3,330 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 2705
+    },
+    {
+      "id": "rnd",
+      "metric": "research_and_development_expenses",
+      "value": 4062,
+      "display_value": "40.62 亿元（产品研发，+15.2%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Product development RMB4,062 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 3525
+    },
+    {
+      "id": "snm",
+      "metric": "sales_and_marketing_expenses",
+      "value": 3747,
+      "display_value": "37.47 亿元（+24.9%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Sales and marketing RMB3,747 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 2999
+    },
+    {
+      "id": "ga",
+      "metric": "general_and_administrative_expenses",
+      "value": 1124,
+      "display_value": "11.24 亿元（+8.3%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "General and administrative RMB1,124 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 1038
+    },
+    {
+      "id": "opinc",
+      "metric": "operating_income",
+      "value": 39.45,
+      "display_value": "39.45 亿元（+10.7%）",
+      "currency": "CNY",
+      "unit": "亿元",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Income from operations RMB3,945 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 35.63
+    },
+    {
+      "id": "ni-attrib",
+      "metric": "net_income_attributable",
+      "value": 24.99,
+      "display_value": "24.99 亿元（-41.6%）",
+      "currency": "CNY",
+      "unit": "亿元",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Net income attributable to Trip.com Group Limited RMB2,499 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 42.77
+    },
+    {
+      "id": "ni-nongaap",
+      "metric": "nongaap_net_income",
+      "value": 39.05,
+      "display_value": "39.05 亿元（-6.8%）",
+      "currency": "CNY",
+      "unit": "亿元",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Non-GAAP net income attributable to Trip.com Group Limited RMB3,905 million",
+      "location": "Unaudited Reconciliation of GAAP and Non-GAAP Results",
+      "previous_value": 41.88
+    },
+    {
+      "id": "ebitda",
+      "metric": "adjusted_ebitda",
+      "value": 4830,
+      "display_value": "48.30 亿元（+13.7%）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Adjusted EBITDA RMB4,830 million",
+      "location": "Unaudited Reconciliation of GAAP and Non-GAAP Results",
+      "previous_value": 4247
+    },
+    {
+      "id": "eq-loss",
+      "metric": "equity_in_loss_of_affiliates",
+      "value": -1151,
+      "display_value": "联营公司亏损 11.51 亿元（上年同期 1.02 亿元）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Equity in loss of affiliates RMB1,151 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": -102
+    },
+    {
+      "id": "other-income",
+      "metric": "other_income",
+      "value": 176,
+      "display_value": "1.76 亿元（上年同期 11.37 亿元）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Other income RMB176 million",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 1137
+    },
+    {
+      "id": "cash",
+      "metric": "cash_and_cash_equivalents",
+      "value": 57124,
+      "display_value": "571.24 亿元",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Cash, cash equivalents and restricted cash RMB57,124 million",
+      "location": "Unaudited Consolidated Balance Sheets (as of March 31, 2026)",
+      "previous_value": 46451
+    },
+    {
+      "id": "st-inv",
+      "metric": "short_term_investments",
+      "value": 23892,
+      "display_value": "238.92 亿元",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Short-term investments RMB23,892 million",
+      "location": "Unaudited Consolidated Balance Sheets (as of March 31, 2026)",
+      "previous_value": 32007
+    },
+    {
+      "id": "inv",
+      "metric": "investments",
+      "value": 54791,
+      "display_value": "547.91 亿元（含持有至到期存款及理财产品 229.51 亿元）",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Investments RMB54,791 million",
+      "location": "Unaudited Consolidated Balance Sheets (as of March 31, 2026)",
+      "previous_value": 61375
+    },
+    {
+      "id": "total-cash",
+      "metric": "total_cash_and_financial_assets",
+      "value": 103967,
+      "display_value": "约 1,039.67 亿元",
+      "currency": "CNY",
+      "unit": "百万人民币",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Cash and cash equivalents, restricted cash, short-term investment, and held-to-maturity time deposit and financial products RMB104.0 billion",
+      "location": "Unaudited Consolidated Balance Sheets (as of March 31, 2026)"
+    },
+    {
+      "id": "eps",
+      "metric": "diluted_eps_gaap",
+      "value": 3.67,
+      "display_value": "3.67 元/股（摊薄）",
+      "currency": "CNY",
+      "unit": "元",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Diluted earnings per ordinary share and per ADS RMB3.67",
+      "location": "Unaudited Consolidated Statements of Income (quarter ended March 31, 2026)",
+      "previous_value": 6.09
+    },
+    {
+      "id": "eps-nongaap",
+      "metric": "nongaap_diluted_eps",
+      "value": 5.73,
+      "display_value": "5.73 元/股（摊薄，Non-GAAP）",
+      "currency": "CNY",
+      "unit": "元",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991"
+      ],
+      "evidence": "Non-GAAP diluted earnings per ordinary share and per ADS RMB5.73",
+      "location": "Unaudited Reconciliation of GAAP and Non-GAAP Results",
+      "previous_value": 5.96
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "Q1 总净收入 162.08 亿元，同比 +17.2%，主要靠旅游需求韧性；住宿预订 +17.5%、交通票务 +11.7%、度假打包 +19.3%、商旅 +20.4%、其他 +35.3%，四大主业全线双位数增长。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "国际平台总预订量同比 +65%、入境游预订量同比 +90%，是结构性亮点；公司提出未来五年吸引 2 亿入境游客的目标。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "收入结构上，住宿（40%）与交通票务（37%）是两大支柱；'其他'收入 +35.3% 最快，但公司未单独拆分其构成，可能包含广告与金融等增值业务。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若后续披露'其他'收入构成且其中高毛利增值业务占比下降，则本判断需修正。"
+        },
+        {
+          "text": "国际业务高增长（预订量 +65%）尚未在当期收入端等比例兑现，入境游贡献更多体现在后续季度，收入确认存在时滞。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若下一季度国际收入增速明显低于预订量增速且管理层未给出解释，则说明货币化未跟上。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "营业成本 +23.1% 至 33.30 亿元、销售营销 +24.9% 至 37.47 亿元、产品研发 +15.2% 至 40.62 亿元、管理费用 +8.3% 至 11.24 亿元；成本与销售营销增速快于收入。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "GAAP 经营利润率约 24.3%（39.45/162.08），较上年同期 25.8% 下降约 1.5 个百分点；经调整 EBITDA 利润率 30%，较上年同期 31% 下降 1 个百分点。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "费用率上行主要来自国际扩张与 AI 投入，属'以短期利润换长期规模'；若 Q2 收入增速降至个位数而费用刚性，利润率下行压力将放大。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若 Q2 销售营销/研发费用增速随收入同步回落，则费用刚性假设不成立。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "截至 2026-03-31，现金及现金等价物+受限现金 571.24 亿元、短期投资 238.92 亿元、投资（含持有至到期存款及理财产品）547.91 亿元，合计约 1040 亿元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "总资产 2632.13 亿元、总股东权益 1665.87 亿元，资产负债表稳健、无短期流动性压力。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "公司未在业绩公告中披露单季经营现金流与自由现金流；真正的资本纪律问题在于国际与 AI 投入的回报节奏，而非现金存量。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若后续 20-F/中报披露经营现金流显著恶化，则现金充裕的结论需修正。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "执行董事长梁建章强调入境游'创造机遇'、通过技术/产品创新/目的地赋能提升连接并'创造长期价值'；CEO 孙洁强调用技术与 AI 克服语言与信息壁垒、帮助供应商对接全球需求。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "公司给出 Q2 净收入同比增长 3%–8% 的指引，并明确'增速放缓将相应影响利润率与利润'。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "管理层将 Q2 放缓归因于油价推高机票、地缘冲突与合规主动调整，但主动预警利润率受冲击，说明其预期 Q2 是'增长换挡+利润承压'，而非需求反转。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若 Q2 实际利润率未出现明显下滑，则'利润承压'预警偏保守。"
+        },
+        {
+          "text": "公司称'全面配合市场监管总局调查'并持续审查业务实践，监管合规成为本季管理层表述中的显性优先项。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "6 月 11 日市场监管总局会同中央网信办、国家铁路局约谈携程、同程、去哪儿、飞猪、美团等 7 家火车票第三方平台，针对'候补帮抢'、付费选座、'买长乘短'等不当行为。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "samr",
+            "cctv"
+          ]
+        },
+        {
+          "text": "携程在国内高星酒店供应链壁垒仍深，21 世纪经济报道指其'国内高星酒店供应链壁垒无人轻易攻得动'。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "21jingji"
+          ]
+        },
+        {
+          "text": "火车票是高频流量入口但也是监管焦点；约谈覆盖 7 家同业，属行业性整改而非针对携程一家，竞争格局的边际变化更多来自监管而非价格战。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "samr",
+            "cctv"
+          ],
+          "falsifier": "若约谈后仅携程的票务增值收入显著下滑而同行未受影响，则行业性整改判断不成立。"
+        },
+        {
+          "text": "出境+入境双曲线尚未走完，飞猪、美团及社交内容平台在内容化与本地化上持续施压，携程的国际/入境领先需持续投入才能维持。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "21jingji"
+          ],
+          "falsifier": "若下一季度携程国际预订量增速仍显著高于同业，则竞争侵蚀判断被削弱。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "2026 年 1 月收到市场监管总局反垄断调查通知，涉嫌滥用市场支配地位从事垄断行为（依据《反垄断法》），调查仍在进行。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "6 月 13 日上海网信办通报对上海携程商务有限公司未落实数据出境安全评估、违法出境个人信息处以 1000 万元罚款。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "bjnews"
+          ]
+        },
+        {
+          "text": "油价高企推高机票成本、地缘冲突波及境外需求，是公司 Q2 指引放缓的直接归因之一。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ]
+        },
+        {
+          "text": "反垄断调查结果存在'大额罚款、经营行为改变'的尾部风险且无法定价，是压制估值的最主要不确定性。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991",
+            "21jingji"
+          ],
+          "falsifier": "若 SAMR 调查以较小罚款+局部整改落地且未改变票务商业模式，则该尾部风险被证伪。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "财报次日（6 月 25 日）港股收跌 12.1% 报 310.8 港元（创年内新低），总市值约 2225 亿港元；美股 TCOM 收跌 12.55% 报 40.49 美元。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "21jingji"
+          ]
+        },
+        {
+          "text": "Q1 收入 162.08 亿元（+17%）略超市场约 15% 的预期，但 Non-GAAP 每股收益 0.83 美元低于一致预期 0.85 美元，Non-GAAP 净利 39.05 亿低于市场约 42 亿预期。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "zacks",
+            "citi"
+          ]
+        },
+        {
+          "text": "市场抛售的主因不是 Q1 利润（核心经营仍增长），而是 Q2 收入 +3%–8% 的'脚踝斩'指引与反垄断悬而未决的组合，把增长叙事的定价锚从双位数下调。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "21jingji",
+            "nasdaq-selloff"
+          ],
+          "falsifier": "若股价在下一份财报前重新回到财报日前水平，则'定价锚下调'判断被证伪。"
+        },
+        {
+          "text": "花旗维持买入、美股目标价 82 美元，认为 Non-GAAP 营运利润率 28.6% 略超预期、Q2 指引偏保守。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "citi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "乐观情景（25%）：反垄断以较小罚款+局部整改落地，Q2 营收增速落在指引中上段（6%–8%），国际/入境继续高增且利润率改善。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若 Q2 收入低于 3% 下限，则乐观情景被推翻。"
+        },
+        {
+          "text": "基准情景（50%）：Q2 增速低个位数（3%–5%）、利润率小幅承压，监管以罚款+局部整改收场，国际投入继续但回报滞后。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若 Q2 收入重回双位数，则基准情景偏保守。"
+        },
+        {
+          "text": "悲观情景（25%）：SAMR 大额罚款+火车票商业模式被迫调整、油价/地缘持续压制需求，国际扩张烧钱侵蚀利润率。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若 SAMR 结果温和且 Q2 利润率守住，则悲观情景不成立。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究结论",
+      "claims": [
+        {
+          "text": "本季'净利润腰斩'是会计噪声：归母净利 -41.6% 主要来自联营公司亏损扩大至 11.51 亿（主要系 MakeMyTrip 股价回调）与权益证券/可交换票据公允价值由去年同期 +5.26 亿收益转为本季 -8.76 亿损失；核心经营利润实际 +10.7%、Non-GAAP 净利仅 -6.8%。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991",
+            "citi"
+          ],
+          "falsifier": "若剔除这些非经营项目后 Non-GAAP 净利仍连续多季下滑，则核心盈利也在恶化。"
+        },
+        {
+          "text": "真正需要验证的是：火车票合规整改是否损伤占收入 37% 的交通票务长期货币化，以及国际/入境投入何时兑现为利润率。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991",
+            "samr"
+          ],
+          "falsifier": "若后续季度交通票务收入与增值收入未下滑，则合规损伤担忧被证伪。"
+        },
+        {
+          "text": "下一季度验证指标：Q2 营收增速落在指引区间的位置、国际平台预订量增速与利润率、SAMR 调查进展、Non-GAAP 经营利润率是否守住约 26%–28%。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991"
+          ],
+          "falsifier": "若上述指标全部指向悲观（Q2 触及 3% 下限、国际增速骤降、经营利润率跌破 26%），则'核心完好'的结论被推翻。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场共识是什么？",
+        "answer": "增收不增利、净利润腰斩（-41.6%）、Q2 增长骤降至 3%–8%、反垄断调查悬而未决，盈利质量与增长叙事同步恶化。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "21jingji"
+        ],
+        "counterevidence": "经营利润 +10.7%、Non-GAAP 净利仅 -6.8%、国际预订量 +65%、入境 +90%，核心经营并未恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "支撑该共识的隐藏假设是什么？",
+        "answer": "假设 GAAP 归母净利反映核心盈利趋势，且 Q2 放缓代表需求见顶而非一次性/周期因素。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "nasdaq-selloff"
+        ],
+        "counterevidence": "GAAP 净利下滑主要由联营亏损与公允价值波动驱动，与核心 OTA 经营基本脱钩。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "本季最抵触该结论的事实是什么？",
+        "answer": "经营利润 39.45 亿（+10.7%）、Non-GAAP 归母净利 39.05 亿（-6.8%）、国际/入境预订量高速增长，核心主业仍在扩张。",
+        "source_ids": [
+          "sec-6k-ex991"
+        ],
+        "counterevidence": "费用率上行（成本 +23%、销售营销 +25%）使经营利润率下降约 1.5pp，盈利质量并非完全无虞。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "净利润下滑的会计机制是什么？",
+        "answer": "联营公司权益法损失由 1.02 亿扩大至 11.51 亿（主要系 MakeMyTrip 股价回调），权益证券/可交换票据公允价值由 +5.26 亿收益转为 -8.76 亿损失，两项目合计约 15 亿的负向摆动。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "citi"
+        ],
+        "counterevidence": "Non-GAAP 净利仍 -6.8%，说明剔除噪声后盈利也非增长。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "为什么本季出现这一现象？",
+        "answer": "MakeMyTrip 股价回调通过权益法直接计入损益，可交换票据/权益证券公允价值随市场波动，叠加去年同期一次性投资收益的高基数。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "citi"
+        ],
+        "counterevidence": "公允价值与联营损益的方向无法事前预测，属外生噪声而非经营信号。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "有无替代解释？",
+        "answer": "费用率上行说明经营利润率恶化是真实的，不能完全归咎于噪声；国际与 AI 投入正在稀释利润弹性。",
+        "source_ids": [
+          "sec-6k-ex991"
+        ],
+        "counterevidence": "Non-GAAP 营运利润率 28.6% 仍略超预期（花旗），说明利润下行幅度好于最坏情形。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "反事实推演？",
+        "answer": "若无联营亏损与公允价值波动，归母净利约为 Non-GAAP 口径的 39.05 亿，市场反应会温和得多。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "citi"
+        ],
+        "counterevidence": "即便按 Non-GAAP 口径，0.83 美元 EPS 仍低于 0.85 美元一致预期。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "二阶效应是什么？",
+        "answer": "若市场持续用 GAAP 口径下调盈利预期，会系统性低估核心 OTA 盈利能力；反之若监管落地为结构性整改，交通票务货币化受损才是真正的二阶风险。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "samr"
+        ],
+        "counterevidence": "交通票务 Q1 仍 +11.7%，且约谈覆盖 7 家同业，属行业性整改。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "最强多头与空头观点分别是什么？",
+        "answer": "多头：核心基本盘+国际曲线完好、花旗维持买入/82 美元目标价、指引偏保守；空头：反垄断无法定价 + Q2 脚踝斩 + 油价/地缘压制需求。",
+        "source_ids": [
+          "citi",
+          "21jingji",
+          "nasdaq-selloff"
+        ],
+        "counterevidence": "双方分歧的核心在 Q2 是'一次性扰动'还是'增长中枢下移'，尚无定论。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "什么已被 price in？",
+        "answer": "股价自年初监管启动时已持续下跌，本次 -12% 或已部分反映 Q2 放缓；但 SAMR 调查的最终结果仍未被定价。",
+        "source_ids": [
+          "21jingji",
+          "nasdaq-selloff"
+        ],
+        "counterevidence": "花旗 82 美元目标价意味着市场存在明显上行空间，说明悲观已部分定价。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "可证伪信号是什么？",
+        "answer": "Q2 营收增速落在 3%–8% 区间的位置、国际预订量增速与利润率、SAMR 调查进展、Non-GAAP 经营利润率是否守住约 26%–28%。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "21jingji"
+        ],
+        "counterevidence": "若以上指标全部指向乐观，则悲观定价需要纠偏。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "决策相关性？",
+        "answer": "决定估值锚是否从双位数增长下修至个位数、以及监管风险折价的幅度，直接改变情景概率与监控优先级。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "21jingji"
+        ],
+        "counterevidence": "若核心主业利润率稳定，则估值下修空间有限。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "'净利润腰斩'是会计噪声，不是经营恶化",
+        "consensus_view": "携程增收不增利，净利润同比 -41.6%，盈利质量恶化。",
+        "new_view": "归母净利下滑几乎全部来自非经营项目：联营公司（主要 MakeMyTrip）亏损扩大 10.5 亿、权益证券/可交换票据公允价值由 +5.26 亿收益转为 -8.76 亿损失；核心经营利润反而 +10.7%、Non-GAAP 净利仅 -6.8%。",
+        "mechanism": "权益法按持股比例确认 MakeMyTrip 当期损益，其股价回调直接计入损益表；可交换票据与权益证券公允价值变动计入'其他收入'，两项目叠加掩盖了核心经营的改善。",
+        "implication": "市场若按 GAAP 口径下调盈利预期，会系统性低估核心 OTA 盈利能力；应改用 Non-GAAP 经营利润/EBITDA 跟踪。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "citi"
+        ],
+        "counterevidence": "Non-GAAP 净利仍 -6.8%，且费用率（成本 +23%、销售营销 +25%）确实快于收入，经营利润率下滑约 1.5pp，盈利质量并非完全无虞。",
+        "falsifier": "下一季度若 Non-GAAP 经营利润率跌破约 26% 且 Non-GAAP 净利同比继续下滑，则说明核心经营本身也在恶化。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "监管焦点落在最高频、最高毛利的票务主业，风险是结构性的",
+        "consensus_view": "反垄断调查是模糊的尾部风险，对公司业绩影响有限。",
+        "new_view": "监管焦点集中在火车票（候补帮抢、买长乘短、付费选座）——这是携程最高频流量入口，且交通票务占收入 37%；合规整改可能直接改变这一高毛利线路的货币化方式，而非只是一次性罚款。",
+        "mechanism": "交通票务的增值服务（候补/选座/抢票）是免费流量变现的重要手段，若被要求下架或降价，将冲击'其他'收入与票务相关增值，传导到收入与利润率。",
+        "implication": "风险从'一次性罚款'升级为'结构性商业模式调整'，估值折价幅度应高于单纯罚款情景。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "samr",
+          "cctv",
+          "bjnews"
+        ],
+        "counterevidence": "交通票务 Q1 收入仍 +11.7%，且约谈涉及 7 家同业、属行业性整改，竞争格局或反而稳定。",
+        "falsifier": "若 SAMR 调查以仅罚款+局部整改落地、且后续季度交通票务收入/货币化未显著下滑，则此担忧被证伪。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-3",
+        "title": "Q2 指引是'需求空窗'与'合规换挡'的叠加，需区分周期与结构",
+        "consensus_view": "Q2 增速从 17% 掉到 3%–8% 只是高基数+短期油价扰动。",
+        "new_view": "管理层将放缓同时归因于'合规主动调整'与宏观（油价/地缘），并主动预警利润率受冲击，说明 Q2 是'增长换挡+利润承压'叠加，而非纯高基数；需区分周期性（油价）与结构性（合规/竞争）成分。",
+        "mechanism": "油价→机票价格→交通票务需求量价双压；合规整改→火车票增值服务收缩→直接拖累高毛利收入；两者叠加使收入与利润率同时承压。",
+        "implication": "若 Q2 低端（3%）兑现，意味着疫情修复周期外的增长中枢可能已下移至个位数，估值中枢需相应下修，而非仅是一次性扰动。",
+        "source_ids": [
+          "sec-6k-ex991",
+          "21jingji",
+          "citi"
+        ],
+        "counterevidence": "Q1 收入 +17% 仍超市场预期、国际/入境（+65%/+90%）高速增长、花旗认为指引偏保守并维持 82 美元目标价。",
+        "falsifier": "下一季度（Q3）若收入增速重回双位数、国际利润率继续改善，则 Q2 确为一次性扰动。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "SAMR 调查以较小罚款+局部整改落地，票务商业模式基本不变",
+        "Q2 营收增速落在指引中上段（6%–8%）",
+        "国际平台预订量维持高增且利润率改善",
+        "油价回落、地缘冲突缓和"
+      ],
+      "segment_profit_range": [
+        44,
+        50
+      ],
+      "group_profit_range": [
+        40,
+        46
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "监管以罚款+局部整改收场，票务商业模式基本不变",
+        "Q2 营收增速低个位数（3%–5%）",
+        "国际投入继续但利润率平稳",
+        "入境游持续增长但收入确认滞后"
+      ],
+      "segment_profit_range": [
+        36,
+        44
+      ],
+      "group_profit_range": [
+        33,
+        40
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "SAMR 大额罚款并强制改变火车票货币化模式",
+        "Q2 营收增速触及 3% 下限甚至更低",
+        "油价/地缘持续压制出境需求",
+        "国际扩张烧钱侵蚀利润率"
+      ],
+      "segment_profit_range": [
+        28,
+        36
+      ],
+      "group_profit_range": [
+        24,
+        33
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "公司未在业绩公告中披露单季经营现金流/自由现金流，现金与资产数据来自资产负债表。",
+      "'其他'收入（+35.3%）构成未单独披露。",
+      "联营公司亏损的具体构成（MakeMyTrip 贡献）为券商研报推断，非公司官方拆分。",
+      "监管约谈、罚款等具体事件以官方通报与媒体报道交叉验证。"
+    ]
+  }
+}
