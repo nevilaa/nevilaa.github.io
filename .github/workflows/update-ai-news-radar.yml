@@ -1,0 +1,26 @@
+name: Dispatch AI News Radar update
+
+# ai-news-radar 是 fork，GitHub 不会在 fork 里跑 schedule 事件，
+# 所以由这个非 fork 仓库每小时触发一次 workflow_dispatch。
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Dispatch update-news.yml on ai-news-radar
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::GH_PAT secret not configured; skipping dispatch"
+            exit 0
+          fi
+          gh workflow run update-news.yml --repo nevilaa/ai-news-radar --ref master
