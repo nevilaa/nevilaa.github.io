@@ -1332,20 +1332,26 @@ export default function Home() {
               </section>
 
               <MethodAndSources data={data} />
-
-              <footer className="report-footer">
-                <div>
-                  <span className="product-mark" aria-hidden="true">
-                    SR
-                  </span>
-                  <p>
-                    思航研究 · 用结构化证据跟踪公司经营，而不是追逐单季情绪。
-                  </p>
-                </div>
-                <a href="#report-top">回到顶部 ↑</a>
-              </footer>
             </>
           )}
+          <footer className="report-footer">
+            <div className="report-footer-brand">
+              <span className="product-mark" aria-hidden="true">
+                SR
+              </span>
+              <p>思航研究 · 用结构化证据跟踪公司经营，而不是追逐单季情绪。</p>
+            </div>
+            <nav className="report-footer-links" aria-label="网站信息">
+              <a
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                京ICP备2026051102号-1
+              </a>
+              <a href="#report-top">回到顶部 ↑</a>
+            </nav>
+          </footer>
         </main>
       </div>
     </div>

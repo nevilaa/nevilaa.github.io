@@ -1683,10 +1683,15 @@ tbody tr:hover {
   border-top: 1px solid var(--border);
 }
 
-.report-footer > div {
+.report-footer-brand,
+.report-footer-links {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.report-footer-links {
+  gap: 18px;
 }
 
 .report-footer p,
@@ -2160,6 +2165,12 @@ tbody tr:hover {
   .report-footer {
     align-items: start;
     flex-direction: column;
+  }
+
+  .report-footer-links {
+    align-items: start;
+    flex-direction: column;
+    gap: 8px;
   }
 
   .loading-table {
