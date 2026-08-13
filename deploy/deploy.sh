@@ -51,8 +51,19 @@ REMOTE
 }
 
 deploy() {
-  local revision release_id release_path
+  local revision release_id release_path verify_dir redirect origin_revision
+
+  if [[ -n "$(git -C "$REPO_DIR" status --porcelain --untracked-files=all)" ]]; then
+    echo "Commit and push the complete site before deploying." >&2
+    exit 2
+  fi
+  git -C "$REPO_DIR" fetch origin main
   revision="$(git -C "$REPO_DIR" rev-parse --short HEAD)"
+  origin_revision="$(git -C "$REPO_DIR" rev-parse origin/main)"
+  if [[ "$(git -C "$REPO_DIR" rev-parse HEAD)" != "$origin_revision" ]]; then
+    echo "Commit and push the complete site before deploying." >&2
+    exit 2
+  fi
   release_id="$(date -u +%Y%m%dT%H%M%SZ)-$revision"
   release_path="$RELEASE_ROOT/$release_id"
 
@@ -86,9 +97,14 @@ REMOTE
 set -euo pipefail
 release_path="$1"
 sudo test -s "$release_path/index.html"
+sudo test -s "$release_path/earnings/index.html"
+sudo test -s "$release_path/company-icons/minimax.png"
+sudo test -s "$release_path/company-icons/pdd.png"
 sudo test -s "$release_path/data/catalog.json"
 sudo grep -q '京ICP备2026051102号-1' "$release_path/index.html"
 sudo grep -q 'https://www.shresearch.cn' "$release_path/index.html"
+sudo grep -q 'AI 热点' "$release_path/index.html"
+sudo grep -q '财报工作台' "$release_path/earnings/index.html"
 REMOTE
 
   echo ">> Installing the site configuration and switching atomically..."
@@ -124,14 +140,34 @@ REMOTE
     "$REPO_DIR/" "$SERVER:$SRC_ROOT/"
 
   echo ">> Verifying the public site..."
+  verify_dir="$(mktemp -d)"
+  trap 'rm -rf "$verify_dir"' RETURN
   curl --noproxy '*' --fail --silent --show-error --max-time 20 \
-    https://www.shresearch.cn/ | grep -q '京ICP备2026051102号-1'
+    --output "$verify_dir/index.html" https://www.shresearch.cn/
+  grep -q '京ICP备2026051102号-1' "$verify_dir/index.html"
   curl --noproxy '*' --fail --silent --show-error --max-time 20 \
     https://www.shresearch.cn/data/catalog.json >/dev/null
+  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
+    --output "$verify_dir/earnings.html" https://www.shresearch.cn/earnings/
+  grep -q '财报工作台' "$verify_dir/earnings.html"
+  grep -q '返回首页导航' "$verify_dir/earnings.html"
+  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
+    --range 0-65535 \
+    --output "$verify_dir/radar.json" https://www.shresearch.cn/ai-radar/data/latest-24h.json
+  grep -q 'total_items' "$verify_dir/radar.json"
+  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
+    --output "$verify_dir/radar.html" https://www.shresearch.cn/ai-radar/
+  grep -q '返回首页导航' "$verify_dir/radar.html"
+  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
+    https://www.shresearch.cn/company-icons/minimax.png >/dev/null
+  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
+    https://www.shresearch.cn/company-icons/pdd.png >/dev/null
   redirect="$(curl --noproxy '*' --silent --show-error --max-time 20 \
     --output /dev/null --write-out '%{http_code} %{redirect_url}' \
     https://shresearch.cn/)"
   [[ "$redirect" == "301 https://www.shresearch.cn/" ]]
+  rm -rf "$verify_dir"
+  trap - RETURN
 
   "${SSH[@]}" "sudo find '$RELEASE_ROOT' -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | tail -n +$((KEEP_RELEASES + 1)) | cut -d' ' -f2- | xargs -r sudo rm -rf"
   echo ">> Published $release_id"
