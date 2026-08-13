@@ -41,5 +41,9 @@ next-env.d.ts
 /outputs/
 /work/
 
+# local visual QA evidence
+/.design-qa/
+/design-qa.md
+
 # local filing notes contain personal information
 /deploy/icp-filing-draft.md
