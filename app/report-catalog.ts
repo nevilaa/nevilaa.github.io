@@ -24,6 +24,20 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "alphabet-2026-q2",
+    companyId: "alphabet",
+    companyName: "谷歌母公司 Alphabet",
+    companyNameEn: "Alphabet Inc.",
+    ticker: "GOOGL",
+    iconUrl: "/company-icons/google.svg",
+    fiscalYear: 2026,
+    quarter: "Q2",
+    periodLabel: "2026 Q2",
+    publishedAt: "2026-08-19",
+    endpoint: "/data/googl-2026q2.json",
+    status: "published",
+  },
+  {
     id: "alphabet-2026-q1",
     companyId: "alphabet",
     companyName: "谷歌母公司 Alphabet",

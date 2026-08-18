@@ -12,6 +12,16 @@
       "data_url": "minimax-fy2025.json"
     },
     {
+      "id": "googl-2026q2",
+      "company": "谷歌母公司 Alphabet",
+      "ticker": "GOOGL",
+      "period": "2026Q2",
+      "status": "approved",
+      "thesis": "Q2 的关键不在于 24% 的收入增长或 298% 的净利润表观增速，而在于 Alphabet 已把 AI 基础设施扩张从内生现金流模式转向『经营现金流 + 大规模股债融资』的资本配置模式。Cloud 的 82% 增长和 35.6% 经营利润率证明需求与当期经营杠杆；但上半年 805.98 亿美元固定资产购买几乎吃掉 848.59 亿美元经营现金流，且净利润被 990.31 亿美元证券收益显著放大。下一步的裁决变量是：容量、Cloud 利润与现金流能否共同形成回报闭环。",
+      "generated_at": "2026-08-18T16:38:38.924635+00:00",
+      "data_url": "https://www.shresearch.cn/googl-2026q2.json"
+    },
+    {
       "id": "didiy-2026q2",
       "company": "滴滴出行",
       "ticker": "DIDIY",
