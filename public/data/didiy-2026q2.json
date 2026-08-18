@@ -1,0 +1,1176 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "didiy-2026q2",
+  "generated_at": "2026-08-18T14:22:32.193210+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "滴滴出行",
+    "company_name_en": "DiDi Global",
+    "ticker": "DIDIY",
+    "period": "2026Q2",
+    "period_end": "2026-06-30",
+    "status": "approved",
+    "thesis": "关键不在于滴滴本季 GAAP 扭亏（归母净利 8.66 亿元），而在于这个扭亏有多少来自去年同期 51 亿元股东集体诉讼一次性拨备的低基数、又有多少来自经营质量的真实改善。中国出行调整后 EBITA 稳步上行（41.67 亿元，+15%），但国际业务以 GTV +61.1% 的激进扩张换来了调整后 EBITA 亏损同比扩大 21.37 亿元，且本季经营现金流为负、现金储备环比下降 70 亿元。卸掉诉讼包袱后的利润成色，仍要靠下半年的现金流与亏损斜率来验证。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "利润扭亏成色不足：GAAP 转正是低基数（去年同期一次性诉讼拨备 53 亿元）叠加中国出行利润上行，但调整后 EBITA 同比 -78%、H1 归母净利仍亏 3.54 亿元，且 Q2 经营现金流转负（-7.97 亿元）。",
+      "current_difficulties": [
+        {
+          "title": "国际业务烧钱扩张与利润错位",
+          "evidence": "国际 GTV +61.1% 至 435.86 亿元，但调整后 EBITA 亏损 28.85 亿元、同比扩大 21.37 亿元；销售及营销费用 +66.6% 至 54.29 亿元",
+          "implication": "规模增长尚未转化为利润，激励与营销投入吃掉国内现金牛利润的空间。"
+        },
+        {
+          "title": "利润为正但现金为负的现金流错位",
+          "evidence": "Q2 净利 8.69 亿元但经营现金流 -7.97 亿元；H1 经营现金流 -85.32 亿元；现金及国债投资 486.89 亿元，环比下降 70.17 亿元；短期借款 123.54 亿元增至 212.33 亿元",
+          "implication": "增长靠借款与现金储备支撑，自由现金流造血能力未随利润转正。"
+        },
+        {
+          "title": "调整后口径同比大幅下滑",
+          "evidence": "调整后 EBITA 5.40 亿元（去年同期 25.02 亿元，-78%）、调整后净利 2.84 亿元（去年同期 30.69 亿元，-91%）、调整后 EBITDA 13.17 亿元（去年同期 31.98 亿元）",
+          "implication": "若剔除去年同期低基数，经营盈利能力实际在恶化，市场需区分会计口径与经营口径。"
+        }
+      ],
+      "strategic_judgment": "管理层选择用中国出行的现金流利润去养国际业务的规模扩张与 AI/自动驾驶投入：App 更名“滴滴”转向一站式超级生活平台、上线 AI 助手“小滴”，程维明确下半年继续加强司机权益保障并推进 AI 与自动驾驶。这是以短期利润与现金流为代价换取中长期平台与无人驾驶期权，代价与回报的兑现点都在未来 2-4 个季度。",
+      "strategic_directions": [
+        {
+          "direction": "中国出行深化货币化与生态协同",
+          "rationale": "中国出行平台销售/GTV 比率升至约 24.3%（去年同期 21.8%），日订单 4010 万单创新高，是当前唯一稳定利润源",
+          "management_signal": "程维强调中国出行业务“可持续的增长韧性”与司机权益保障",
+          "validation": "Q3 中国出行订单量增速是否守住高个位数（≥7%）、平台销售/GTV 比率是否继续提升"
+        },
+        {
+          "direction": "国际业务以效率控亏推进外卖等新业务",
+          "rationale": "国际 GTV +61.1% 主要由高客单价外卖业务拉动，但调整后 EBITA 亏损扩大，需要控制单位经济",
+          "management_signal": "国际出行上半年保持盈利，外卖/本地服务继续扩张，强调生态协同",
+          "validation": "Q3 国际调整后 EBITA 亏损是否收窄、GTV 增速与亏损增速的缺口是否收敛"
+        },
+        {
+          "direction": "AI 与自动驾驶的期权布局",
+          "rationale": "程维表态下半年推进 AI 与自动驾驶；App 更名“滴滴”并上线“小滴”AI 助手，是面向无人驾驶时代的入口卡位",
+          "management_signal": "CEO 明确“积极推进人工智能与自动驾驶领域的探索布局”",
+          "validation": "后续季度是否披露自动驾驶/robotaxi 合作或试点进展、AI 投入对费用的影响"
+        }
+      ],
+      "core_conflict": "国内现金牛利润上行 vs 国际烧钱与现金流出：市场已把“扭亏”计入价格（财报日 DIDIY +10.5%），若后续国际亏损斜率不收敛、现金流持续为负，则扭亏叙事会被证伪。",
+      "falsifier": "若 Q3 2026 国际调整后 EBITA 亏损不环比收窄，或中国出行订单量增速降至个位数以下，或经营现金流连续两季为负，则“卸包袱后利润可持续改善”的判断被证伪。",
+      "valuation_context": "DIDIY（OTC）8/13 收 3.91 美元（+10.5%），8/14 收 4.00，8/18 收 3.98；52 周区间 3.30-6.99 美元。OTC 流动性低、覆盖较少，缺乏统一一致预期；市场以财报日跳涨定价“扭亏+国内稳健”，尚未对国际亏损与现金流给出明确折价。",
+      "catalyst": "Q3 财报国际亏损环比收窄且经营现金流转正、中国出行订单量增速企稳、AI/自动驾驶合作落地、回购持续（累计 19.1 亿美元）。",
+      "risk": "国际激励/营销竞争加剧致亏损扩大、现金储备进一步下降叠加借款上升、国内网约车价格战或监管加码、自动驾驶投入拖累利润。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。",
+    "share_price": 3.98,
+    "share_price_currency": "USD",
+    "market_intraday_max_pct": 10.5,
+    "market_close_pct": 10.5
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于滴滴本季 GAAP 扭亏（归母净利 8.66 亿元），而在于这个扭亏有多少来自去年同期 51 亿元股东集体诉讼一次性拨备的低基数、又有多少来自经营质量的真实改善。中国出行调整后 EBITA 稳步上行（41.67 亿元，+15%），但国际业务以 GTV +61.1% 的激进扩张换来了调整后 EBITA 亏损同比扩大 21.37 亿元，且本季经营现金流为负、现金储备环比下降 70 亿元。卸掉诉讼包袱后的利润成色，仍要靠下半年的现金流与亏损斜率来验证。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "利润扭亏成色不足：GAAP 转正是低基数（去年同期一次性诉讼拨备 53 亿元）叠加中国出行利润上行，但调整后 EBITA 同比 -78%、H1 归母净利仍亏 3.54 亿元，且 Q2 经营现金流转负（-7.97 亿元）。",
+    "current_difficulties": [
+      {
+        "title": "国际业务烧钱扩张与利润错位",
+        "evidence": "国际 GTV +61.1% 至 435.86 亿元，但调整后 EBITA 亏损 28.85 亿元、同比扩大 21.37 亿元；销售及营销费用 +66.6% 至 54.29 亿元",
+        "implication": "规模增长尚未转化为利润，激励与营销投入吃掉国内现金牛利润的空间。"
+      },
+      {
+        "title": "利润为正但现金为负的现金流错位",
+        "evidence": "Q2 净利 8.69 亿元但经营现金流 -7.97 亿元；H1 经营现金流 -85.32 亿元；现金及国债投资 486.89 亿元，环比下降 70.17 亿元；短期借款 123.54 亿元增至 212.33 亿元",
+        "implication": "增长靠借款与现金储备支撑，自由现金流造血能力未随利润转正。"
+      },
+      {
+        "title": "调整后口径同比大幅下滑",
+        "evidence": "调整后 EBITA 5.40 亿元（去年同期 25.02 亿元，-78%）、调整后净利 2.84 亿元（去年同期 30.69 亿元，-91%）、调整后 EBITDA 13.17 亿元（去年同期 31.98 亿元）",
+        "implication": "若剔除去年同期低基数，经营盈利能力实际在恶化，市场需区分会计口径与经营口径。"
+      }
+    ],
+    "strategic_judgment": "管理层选择用中国出行的现金流利润去养国际业务的规模扩张与 AI/自动驾驶投入：App 更名“滴滴”转向一站式超级生活平台、上线 AI 助手“小滴”，程维明确下半年继续加强司机权益保障并推进 AI 与自动驾驶。这是以短期利润与现金流为代价换取中长期平台与无人驾驶期权，代价与回报的兑现点都在未来 2-4 个季度。",
+    "strategic_directions": [
+      {
+        "direction": "中国出行深化货币化与生态协同",
+        "rationale": "中国出行平台销售/GTV 比率升至约 24.3%（去年同期 21.8%），日订单 4010 万单创新高，是当前唯一稳定利润源",
+        "management_signal": "程维强调中国出行业务“可持续的增长韧性”与司机权益保障",
+        "validation": "Q3 中国出行订单量增速是否守住高个位数（≥7%）、平台销售/GTV 比率是否继续提升"
+      },
+      {
+        "direction": "国际业务以效率控亏推进外卖等新业务",
+        "rationale": "国际 GTV +61.1% 主要由高客单价外卖业务拉动，但调整后 EBITA 亏损扩大，需要控制单位经济",
+        "management_signal": "国际出行上半年保持盈利，外卖/本地服务继续扩张，强调生态协同",
+        "validation": "Q3 国际调整后 EBITA 亏损是否收窄、GTV 增速与亏损增速的缺口是否收敛"
+      },
+      {
+        "direction": "AI 与自动驾驶的期权布局",
+        "rationale": "程维表态下半年推进 AI 与自动驾驶；App 更名“滴滴”并上线“小滴”AI 助手，是面向无人驾驶时代的入口卡位",
+        "management_signal": "CEO 明确“积极推进人工智能与自动驾驶领域的探索布局”",
+        "validation": "后续季度是否披露自动驾驶/robotaxi 合作或试点进展、AI 投入对费用的影响"
+      }
+    ],
+    "core_conflict": "国内现金牛利润上行 vs 国际烧钱与现金流出：市场已把“扭亏”计入价格（财报日 DIDIY +10.5%），若后续国际亏损斜率不收敛、现金流持续为负，则扭亏叙事会被证伪。",
+    "falsifier": "若 Q3 2026 国际调整后 EBITA 亏损不环比收窄，或中国出行订单量增速降至个位数以下，或经营现金流连续两季为负，则“卸包袱后利润可持续改善”的判断被证伪。",
+    "valuation_context": "DIDIY（OTC）8/13 收 3.91 美元（+10.5%），8/14 收 4.00，8/18 收 3.98；52 周区间 3.30-6.99 美元。OTC 流动性低、覆盖较少，缺乏统一一致预期；市场以财报日跳涨定价“扭亏+国内稳健”，尚未对国际亏损与现金流给出明确折价。",
+    "catalyst": "Q3 财报国际亏损环比收窄且经营现金流转正、中国出行订单量增速企稳、AI/自动驾驶合作落地、回购持续（累计 19.1 亿美元）。",
+    "risk": "国际激励/营销竞争加剧致亏损扩大、现金储备进一步下降叠加借款上升、国内网约车价格战或监管加码、自动驾驶投入拖累利润。"
+  },
+  "sources": [
+    {
+      "id": "didi-ir-q2-2026",
+      "url": "https://ir.didiglobal.com/static-files/830e3adc-50e1-4422-808b-21995cf75b75",
+      "title": "DiDi Announces Results for Second Quarter 2026（IR 公告 PDF，13 页）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-18T22:10:00+08:00"
+    },
+    {
+      "id": "yahoo-didiy-quote-20260818",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/DIDIY?interval=1d&range=3mo",
+      "title": "Yahoo Finance DIDIY 行情（8/13 收 3.91、8/14 收 4.00、8/18 收 3.98）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-08-18T22:20:00+08:00"
+    },
+    {
+      "id": "leida-didi-2026",
+      "url": "https://www.leidacj.com/article/176564",
+      "title": "雷达财经：国内国外“双开花”，滴滴二季度交亮眼答卷（2026-08-15）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-18T22:20:00+08:00"
+    },
+    {
+      "id": "caixin-didi-2026",
+      "url": "https://www.caixin.com/2026-08-14/102474175.html",
+      "title": "财新：滴滴二季度扭亏 海外业务扩张拖累上半年利润（2026-08-14）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-18T22:20:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "rev",
+      "metric": "total_revenue",
+      "display_value": "625.22 亿元（+10.8%）",
+      "value": 62522,
+      "previous_value": 56404,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "625.22 亿元（+10.8%）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "profit-attr",
+      "metric": "profit_attributable_to_equity_holders",
+      "display_value": "8.66 亿元（去年同期 -24.85 亿元）",
+      "value": 866,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "8.66 亿元（去年同期 -24.85 亿元）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "op-income",
+      "metric": "operating_income",
+      "display_value": "10.45 亿元（去年同期 -32.21 亿元）",
+      "value": 1045,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "10.45 亿元（去年同期 -32.21 亿元）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "adj-ebita",
+      "metric": "adjusted_ebita",
+      "display_value": "5.40 亿元（去年同期 25.02 亿元）",
+      "value": 540,
+      "previous_value": 2502,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "5.40 亿元（去年同期 25.02 亿元）",
+      "location": "Highlights"
+    },
+    {
+      "id": "adj-ebitda",
+      "metric": "adjusted_ebitda",
+      "display_value": "13.17 亿元（去年同期 31.98 亿元）",
+      "value": 1317,
+      "previous_value": 3198,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "13.17 亿元（去年同期 31.98 亿元）",
+      "location": "Highlights"
+    },
+    {
+      "id": "adj-profit",
+      "metric": "adjusted_profit_non_ifrs",
+      "display_value": "2.84 亿元（去年同期 30.69 亿元）",
+      "value": 284,
+      "previous_value": 3069,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "2.84 亿元（去年同期 30.69 亿元）",
+      "location": "Highlights"
+    },
+    {
+      "id": "gvt",
+      "metric": "core_platform_gvt",
+      "display_value": "1,339.36 亿元（+22.2%，固定汇率 +20.2%）",
+      "value": 133936,
+      "previous_value": 109574,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "1,339.36 亿元（+22.2%，固定汇率 +20.2%）",
+      "location": "Highlights"
+    },
+    {
+      "id": "transactions",
+      "metric": "core_platform_transactions",
+      "display_value": "5,052 百万单（+13.2%）",
+      "value": 5052,
+      "previous_value": 4464,
+      "currency": "CNY",
+      "unit": "million orders",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "5,052 百万单（+13.2%）",
+      "location": "Highlights"
+    },
+    {
+      "id": "cost",
+      "metric": "cost_of_revenues",
+      "display_value": "499.10 亿元（+10.1%）",
+      "value": 49910,
+      "previous_value": 45328,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "499.10 亿元（+10.1%）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "ops-support",
+      "metric": "operations_and_support_expenses",
+      "display_value": "24.49 亿元（+22.6%）",
+      "value": 2449,
+      "previous_value": 1998,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "24.49 亿元（+22.6%）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "sale-mkt",
+      "metric": "sales_and_marketing_expenses",
+      "display_value": "54.29 亿元（+66.6%）",
+      "value": 5429,
+      "previous_value": 3258,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "54.29 亿元（+66.6%）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "rd",
+      "metric": "research_and_development_expenses",
+      "display_value": "23.76 亿元（+22.5%）",
+      "value": 2376,
+      "previous_value": 1939,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "23.76 亿元（+22.5%）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "ga",
+      "metric": "general_and_administrative_expenses",
+      "display_value": "25.45 亿元（-65.9%）",
+      "value": 2545,
+      "previous_value": 7473,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "25.45 亿元（-65.9%）",
+      "location": "Income Statements"
+    },
+    {
+      "id": "cash",
+      "metric": "total_cash_and_treasury_investments",
+      "display_value": "486.89 亿元（2025-12-31 为 557.06 亿元）",
+      "value": 48689,
+      "previous_value": 55706,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "486.89 亿元（2025-12-31 为 557.06 亿元）",
+      "location": "Liquidity and Cash Flow"
+    },
+    {
+      "id": "ocf",
+      "metric": "net_cash_flows_generated_from_operating_activities",
+      "display_value": "-7.97 亿元（去年同期 +32.72 亿元）",
+      "value": -797,
+      "previous_value": 3272,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "-7.97 亿元（去年同期 +32.72 亿元）",
+      "location": "Cash Flows"
+    },
+    {
+      "id": "borrowings",
+      "metric": "current_borrowings",
+      "display_value": "212.33 亿元（2025-12-31 为 123.54 亿元）",
+      "value": 21233,
+      "previous_value": 12354,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "212.33 亿元（2025-12-31 为 123.54 亿元）",
+      "location": "Statements of Financial Position"
+    },
+    {
+      "id": "equity",
+      "metric": "equity_attributable_to_holders",
+      "display_value": "881.72 亿元（2025-12-31 为 980.71 亿元）",
+      "value": 88172,
+      "previous_value": 98071,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "881.72 亿元（2025-12-31 为 980.71 亿元）",
+      "location": "Statements of Financial Position"
+    },
+    {
+      "id": "seg-rev-cn",
+      "metric": "segment_revenue",
+      "display_value": "中国出行 547.78 亿元（+8.8%）",
+      "value": 54778,
+      "previous_value": 50330,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "中国出行",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "中国出行 547.78 亿元（+8.8%）",
+      "location": "Segments"
+    },
+    {
+      "id": "seg-rev-int",
+      "metric": "segment_revenue",
+      "display_value": "国际 51.27 亿元（+50.2%）",
+      "value": 5127,
+      "previous_value": 3413,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "国际",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "国际 51.27 亿元（+50.2%）",
+      "location": "Segments"
+    },
+    {
+      "id": "seg-rev-oth",
+      "metric": "segment_revenue",
+      "display_value": "其他创新 26.17 亿元（-1.7%）",
+      "value": 2617,
+      "previous_value": 2661,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "其他创新",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "其他创新 26.17 亿元（-1.7%）",
+      "location": "Segments"
+    },
+    {
+      "id": "seg-ebita-cn",
+      "metric": "segment_income_from_operations",
+      "display_value": "中国出行调整后EBITA 41.67 亿元（+15.0%）",
+      "value": 4167,
+      "previous_value": 3623,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "中国出行",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "中国出行调整后EBITA 41.67 亿元（+15.0%）",
+      "location": "Segments"
+    },
+    {
+      "id": "seg-ebita-int",
+      "metric": "segment_income_from_operations",
+      "display_value": "国际调整后EBITA -28.85 亿元（去年同期 -7.48 亿元）",
+      "value": -2885,
+      "previous_value": -748,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "国际",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "国际调整后EBITA -28.85 亿元（去年同期 -7.48 亿元）",
+      "location": "Segments"
+    },
+    {
+      "id": "seg-ebita-oth",
+      "metric": "segment_income_from_operations",
+      "display_value": "其他创新调整后EBITA -7.42 亿元（去年同期 -3.73 亿元）",
+      "value": -742,
+      "previous_value": -373,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "其他创新",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "其他创新调整后EBITA -7.42 亿元（去年同期 -3.73 亿元）",
+      "location": "Segments"
+    },
+    {
+      "id": "gvt-cn",
+      "metric": "gtv_china_mobility",
+      "display_value": "中国出行 GTV 903.50 亿元（+9.5%）",
+      "value": 90350,
+      "previous_value": 82523,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "中国出行 GTV 903.50 亿元（+9.5%）",
+      "location": "Highlights"
+    },
+    {
+      "id": "gvt-int",
+      "metric": "gtv_international",
+      "display_value": "国际 GTV 435.86 亿元（+61.1%，固定汇率 +52.8%）",
+      "value": 43586,
+      "previous_value": 27051,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "国际 GTV 435.86 亿元（+61.1%，固定汇率 +52.8%）",
+      "location": "Highlights"
+    },
+    {
+      "id": "ps-cn",
+      "metric": "platform_sales_china_mobility",
+      "display_value": "中国出行平台收入 219.16 亿元（+21.6%）",
+      "value": 21916,
+      "previous_value": 18019,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "中国出行平台收入 219.16 亿元（+21.6%）",
+      "location": "Highlights"
+    },
+    {
+      "id": "ps-int",
+      "metric": "platform_sales_international",
+      "display_value": "国际平台收入 32.56 亿元（+18.4%）",
+      "value": 3256,
+      "previous_value": 2751,
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "didi-ir-q2-2026"
+      ],
+      "evidence": "国际平台收入 32.56 亿元（+18.4%）",
+      "location": "Highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "核心平台订单量 50.52 亿单（+13.2%），其中中国出行 36.48 亿单（+8.1%，日均 4010 万单创历史新高）、国际 14.03 亿单（+29.0%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若下一季中国出行订单量增速跌破 5%，则增长韧性叙事被削弱。"
+        },
+        {
+          "text": "收入桥：中国出行收入 547.78 亿元（+8.8%）贡献约 88%，国际 51.27 亿元（+50.2%）增长最快，其他创新 26.17 亿元（-1.7%）小幅收缩；总营收 625.22 亿元（+10.8%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "分部收入增速若逆转（国际增速骤降），则结构判断需修正。"
+        },
+        {
+          "text": "货币化结构：中国出行平台销售/GTV 比率升至约 24.3%（21,916/90,350，去年同期约 21.8%），国际该比率降至约 7.5%（3,256/43,586，去年同期约 10.2%），因国际业务结构向高客单价外卖倾斜。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若中国出行平台销售增速低于 GTV 增速，则货币化率上行假设被证伪。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "成本与费用桥：营业成本 499.10 亿元（+10.1%）占收入 79.8%；销售及营销 54.29 亿元（+66.6%，占 8.7%，同比 +2.9pp）；运营支持 24.49 亿元（+22.6%）；研发 23.76 亿元（+22.5%）；管理费用 25.45 亿元（-65.9%，因去年同期含 53 亿元诉讼拨备）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若销售及营销费用率连续两季不回落，则费用纪律未被证实。"
+        },
+        {
+          "text": "销售及营销费用同比 +66.6% 是费用端最大变量，主要来自国际业务与国内的用户激励、营销投入，直接对应国际调整后 EBITA 亏损扩大 21.37 亿元。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026",
+            "leida-didi-2026"
+          ],
+          "falsifier": "若下季营销费用率回落但国际 EBITA 亏损未收窄，则费用归因需修正。"
+        },
+        {
+          "text": "研发费用 +22.5% 至 23.76 亿元，反映 AI/自动驾驶相关的人员投入，与程维“推进 AI 与自动驾驶”的表态一致。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "didi-ir-q2-2026",
+            "leida-didi-2026"
+          ],
+          "falsifier": "若研发费用增速与 AI 项目进展脱钩（投入无产出），则期权叙事弱化。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "现金流错位：Q2 净利 8.69 亿元但经营现金流 -7.97 亿元，H1 经营现金流 -85.32 亿元；公司归因于非现金/非经营性调整与营运资金变动。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若经营现金流连续两季为负且无季节性解释，则盈利质量存疑。"
+        },
+        {
+          "text": "流动性：现金及国债投资 486.89 亿元，较 2025 年底 557.06 亿元下降 70.17 亿元；同时短期借款由 123.54 亿元升至 212.33 亿元，杠杆在上升。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若现金储备继续以每季 50 亿元+速度下降且借款持续扩张，则财务缓冲收窄。"
+        },
+        {
+          "text": "资本配置：Q2 投资活动现金净流出 28.23 亿元（主要购建固定资产，含充电/自动驾驶等基础设施）；融资活动净流入 37.71 亿元（新增借款，部分被 ADS 回购抵消）；截至 2026-07-31 累计回购 4.331 亿 ADS、对价约 19.11 亿美元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026",
+            "leida-didi-2026"
+          ],
+          "falsifier": "若未来季资本开支与回购同时放缓且无替代用途，则资本配置信号弱化。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "程维（创始人兼 CEO）：核心业务持续稳步发展、订单量创历史新高；中国出行在安全、确定性、效率与服务能力提升下展现可持续增长韧性；国际业务生态协同增强、全球发展信心足。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若下季管理层不再强调增长韧性而转向防御，则增长信号变化。"
+        },
+        {
+          "text": "下半年明确方向：继续加强司机权益保护举措，同时积极推进 AI 与自动驾驶领域探索，与全球合作伙伴协作（无人驾驶/生态期权）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若后续财报无任何自动驾驶/AI 落地进展披露，则表态可能停留在叙事。"
+        },
+        {
+          "text": "2026 年 6 月 App 由“滴滴出行”更名“滴滴”，新增出行、送货、旅行、车主等多场景入口，向一站式超级生活服务平台转型，并推出 AI 助手“小滴”。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "leida-didi-2026"
+          ],
+          "falsifier": "若更名后跨品类订单渗透率无明显提升，则超级平台叙事被弱化。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "国际业务主战场为拉美（巴西 99、墨西哥等）：GTV +61.1% 部分由高客单价外卖业务拉动，直接与 iFood、Rappi、Uber Eats 等争夺，靠激励与营销换取份额。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "didi-ir-q2-2026",
+            "leida-didi-2026"
+          ],
+          "falsifier": "若国际订单量增速（+29.0%）大幅落后 GTV 增速（+61.1%），则说明高客单外卖占比是主要驱动而非打车份额提升。"
+        },
+        {
+          "text": "国内网约车格局相对稳定，竞争对手为高德聚合、嘀嗒、哈啰等；滴滴靠司机生态与运营效率维持份额，中国出行调整后 EBITA 连续 14 个季度增长。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "leida-didi-2026"
+          ],
+          "falsifier": "若国内出现新的价格战（如聚合平台大幅补贴），中国出行利润上行趋势会被打断。"
+        },
+        {
+          "text": "自动驾驶/robotaxi 竞争：百度萝卜快跑等加速商业化，滴滴将自动驾驶定位为中长期期权，本季尚未披露规模化运营数据。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若竞对 robotaxi 规模化运营领先而滴滴无实质进展，则期权估值受损。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "股东集体诉讼“卸包袱”：Q2 2025 一次性计提 53 亿元诉讼准备，2026 年 2 月向法院指定托管账户存入全额和解款约 51 亿元（7.4 亿美元）——本季 GAAP 扭亏主要来自这一低基数。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若后续出现新的重大诉讼/监管拨备，则“卸包袱”假设被推翻。"
+        },
+        {
+          "text": "监管与司机权益：公司持续投入司机生态与权益保障（程维明确下半年继续），网约车行业监管与司机福利政策是影响单位经济的外部变量。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若司机激励支出占比大幅上升且无法转嫁，则单位经济恶化。"
+        },
+        {
+          "text": "汇率：国际业务以当地货币计价，Q2 固定汇率 GTV +52.8% 低于报表口径 +61.1%，本季汇兑对报表有正向扰动；综合收益表因汇率调整录得 -9.09 亿元其他综合损失。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "若汇率转向，报表口径增速与固定汇率口径增速的关系会反转。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "DIDIY 财报日（8/13）收 3.91 美元，较前一日 3.54 上涨约 +10.5%；8/14 续涨至 4.00，8/18 收 3.98，处于 52 周区间 3.30-6.99 的中低位。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "yahoo-didiy-quote-20260818"
+          ],
+          "falsifier": "若股价回落跌破财报前水平，则说明市场未认可扭亏质量。"
+        },
+        {
+          "text": "市场解读偏正面：“国内国外双开花”“卸掉包袱海外继续奔跑”，但财新指出上半年仍亏损、国际扩张拖累利润——多头关注扭亏与国内稳健，空头关注调整后口径与现金流。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "leida-didi-2026",
+            "caixin-didi-2026"
+          ],
+          "falsifier": "若后续媒体/机构聚焦国际亏损与现金流出并下调评价，则情绪面反转。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "三档情景（Q3 2026）：乐观 20%——中国出行订单量增速守 8%+、国际调整后 EBITA 亏损收窄至 -20 亿元内、经营现金流转正；中性 55%——中国出行高个位数增长、国际亏损维持 -25~-30 亿元、调整后 EBITA 5-8 亿元；悲观 25%——国内增速降至中低个位数、国际竞争加剧亏损扩大至 -35 亿元以上。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "didi-ir-q2-2026",
+            "leida-didi-2026"
+          ],
+          "falsifier": "Q3 实际数字落入哪档即可验证；若超出三档区间则需重设假设。"
+        },
+        {
+          "text": "期权路径：AI（小滴）+ 自动驾驶 + 超级生活平台转型构成中长期期权，但其兑现依赖持续投入，会继续压制当期利润与现金流。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "didi-ir-q2-2026",
+            "leida-didi-2026"
+          ],
+          "falsifier": "若期权投入持续无里程碑披露，则其估值权重应下调。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "当前最难约束：不是缺需求（订单创新高），而是“用国内现金牛利润 + 借款去养国际烧钱与 AI/自动驾驶投入”导致的现金流出与杠杆上升；卸掉诉讼包袱后的利润成色，要靠现金流验证。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "didi-ir-q2-2026",
+            "caixin-didi-2026"
+          ],
+          "falsifier": "若 Q3 经营现金流转正且国际亏损收窄，则约束缓解。"
+        },
+        {
+          "text": "下季度最重要可证伪指标：① 中国出行订单量增速（≥7% 为稳健）；② 国际调整后 EBITA 亏损环比；③ 经营现金流是否转正；④ 现金储备与短期借款变化。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "didi-ir-q2-2026"
+          ],
+          "falsifier": "任一指标恶化即触发重新评估。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "时效性 R1：本报告使用的是否为 DiDi 最新官方季度披露？",
+        "answer": "是。2026Q2 公告于 2026-08-13 在官网 IR 发布（SEC 无季度 6-K，属自愿披露），分析日 2026-08-18 距发布仅 5 天；H1 数据一并披露。Q3 预计 11 月发布，当前不存在更新的官方季度数据。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "DiDi 不以 SEC 6-K 披露季度业绩，需依赖官网公告，官方性与可检索性弱于 SEC 文件。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "时效性 R2：发布后 5 天内是否遗漏了改变结论的重大事件？",
+        "answer": "已纳入：财报日股价 +10.5%（3.54→3.91）、8/14 续涨至 4.00、8/18 收 3.98；财新（8/14）与雷达财经（8/15）两篇分析已吸收；6 月 App 更名、回购进度（截至 7/31）等都在正文覆盖。",
+        "source_ids": [
+          "yahoo-didiy-quote-20260818",
+          "leida-didi-2026",
+          "caixin-didi-2026"
+        ],
+        "counterevidence": "财报发布后至分析日不足一周，机构一致预期与深度跟踪报告尚未充分成形，共识证据偏弱。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "时效性 R3：是否把旧数据误当新数据使用？",
+        "answer": "已校验：检索到的多篇“拆解滴滴 Q2 财报”为 2025 年旧文，未采用；本报告全部财务数据来自 2026-08-13 官方公告，外部事实均标注 2026 年日期。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "部分媒体报道引用旧文时间戳，需逐一核对发布时间。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "深度 R1：市场共识是什么？",
+        "answer": "共识视角：GAAP 扭亏为盈（归母净利 8.66 亿 vs 去年同期 -24.85 亿）+ 中国出行创新高（日单 4010 万、调整后 EBITA +15%）→ “卸掉包袱、双轮驱动”的正面叙事，财报日股价 +10.5%。",
+        "source_ids": [
+          "didi-ir-q2-2026",
+          "leida-didi-2026",
+          "yahoo-didiy-quote-20260818"
+        ],
+        "counterevidence": "财新强调 H1 仍亏损 3.54 亿、国际扩张拖累利润，与正面叙事并存。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "深度 R2：共识依赖的隐藏假设是什么？",
+        "answer": "隐藏假设是“扭亏 = 经营质量改善”。该假设默认去年同期亏损完全来自一次性诉讼拨备、且本期经营盈利同步改善；但实际上调整后 EBITA -78%、调整后净利 -91%、H1 仍亏，经营口径并未同步改善。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "调整后 EBITA 5.40 亿（去年同期 25.02 亿）直接用数据反驳“经营同步改善”。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "深度 R3：本季度最有力的反证是什么？",
+        "answer": "最有力反证是现金流与利润的背离：Q2 净利 8.69 亿但经营现金流 -7.97 亿，H1 经营现金流 -85.32 亿，现金储备环比降 70.17 亿、短期借款 +88.79 亿——利润成色未转化为现金。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "管理层将负经营现金流归因于营运资金与季节性，需后续季度验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "深度 R4：国际业务的机制是什么？为什么出现“GTV 大增但亏损扩大”？",
+        "answer": "机制：国际 GTV +61.1% 由高客单价外卖业务拉动（固定汇率 +52.8%），外卖占 GMV 上升推高 GTV 但降低平台抽佣率（平台销售/GTV 从 10.2% 降至 7.5%）；同时激励与营销投入 +66.6%，导致调整后 EBITA 亏损扩大 21.37 亿。这是“用补贴换规模、用结构换 GTV”的典型扩张函数。",
+        "source_ids": [
+          "didi-ir-q2-2026",
+          "leida-didi-2026"
+        ],
+        "counterevidence": "管理层称国际出行（打车）上半年保持盈利，说明亏损集中在外卖等新业务。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "深度 R5：为什么利润拐点出现在现在而不是更早/更晚？",
+        "answer": "因为去年同期 Q2 2025 计提 53 亿元股东集体诉讼一次性拨备（并已于 2026 年 2 月存入 51 亿元和解款），形成极端低基数；本季无同类大额支出，GAAP 自然转正。若无该基数，归母净利 8.66 亿仍为盈利，但幅度显著低于调整后口径所隐含的经营水平。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "中国出行调整后 EBITA 41.67 亿（+15%）确实在改善，说明并非纯基数效应。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "深度 R6：替代解释是否成立？",
+        "answer": "替代解释——季节性/口径/一次性：① 去年同期诉讼拨备是一次性（成立，是扭亏主因）；② 调整后口径下滑包含国际扩张选择（成立，属战略选择而非会计扰动）；③ 汇率对报表口径有正向影响（固定汇率 +20.2% vs 报表 +22.2%）。这些替代解释都成立，故“经营全面好转”的结论不成立。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "中国出行内生增长（订单+8.1%、平台收入+21.6%）不支持“全无改善”。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "深度 R7：已计入价格的部分是什么？",
+        "answer": "财报日 +10.5% 已计入“扭亏 + 国内稳健”的正面信息；OTC 低流动性、覆盖少，一致预期不透明，市场尚未对国际亏损斜率与现金流为负给出明确折价，这部分定价分歧是后续波动来源。",
+        "source_ids": [
+          "yahoo-didiy-quote-20260818",
+          "caixin-didi-2026"
+        ],
+        "counterevidence": "若市场已充分定价国际扩张，则股价不会仅 +10.5%。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "深度 R8：多头与空头最强解释？",
+        "answer": "多头：中国出行现金牛稳健（调整后 EBITA +15%、平台货币化率上行、连续 14 季增长）+ 诉讼卸包袱 + 国际 GTV +61% + AI/自动驾驶期权；空头：调整后口径同比大幅下滑、经营现金流转负、现金储备下降与借款上升、国际亏损扩大 21.37 亿、资产负债率升至 45.36%。",
+        "source_ids": [
+          "didi-ir-q2-2026",
+          "caixin-didi-2026"
+        ],
+        "counterevidence": "两方证据并存，结论取决于对国际投入可持续性与现金流修复的判断。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "深度 R9：最难解决的经营瓶颈是什么？",
+        "answer": "最难约束是国际业务（尤其外卖）的“烧钱-规模-盈利”转化：管理层无法用更多资金简单解决单均经济性，需要靠本地化运营效率与生态协同（用户-司机-外卖交叉导流）收敛亏损，且该过程将延续消耗现金。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "若国际出行本身盈利，则瓶颈并非全公司而是新业务子集。",
+        "status": "answered"
+      },
+      {
+        "id": "q13",
+        "question": "深度 R10：战略与资源投放是否一致？",
+        "answer": "一致：现金牛利润 + 借款投向国际扩张与 AI/自动驾驶（研发 +22.5%、资本开支 28.23 亿、App 更名与小滴上线），回购仍继续（累计 19.11 亿美元），属“增长与回报并重”但增长优先的资源配置。",
+        "source_ids": [
+          "didi-ir-q2-2026",
+          "leida-didi-2026"
+        ],
+        "counterevidence": "在现金流为负的同时继续回购，说明资本配置存在张力。",
+        "status": "answered"
+      },
+      {
+        "id": "q14",
+        "question": "深度 R11：下季度可证伪指标是什么？",
+        "answer": "① 中国出行订单量增速（≥7% 稳健）；② 国际调整后 EBITA 亏损环比是否收窄；③ 经营现金流是否转正；④ 现金储备与短期借款变化；⑤ 是否披露自动驾驶/AI 实质进展。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "单一指标波动（如季节性）不足以证伪，需组合判断。",
+        "status": "answered"
+      },
+      {
+        "id": "q15",
+        "question": "深度 R12：这个洞察会改变决策吗？",
+        "answer": "会。若把“扭亏”归因为低基数+一次性，则不应按“经营拐点”给溢价，而应盯现金流与国际亏损斜率；这直接改变情景概率与监控优先级（从利润表转向现金流与分部亏损）。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "若 Q3 现金流转正+国际亏损收窄，则本研究判断应上调为经营拐点。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "扭亏的成色：GAAP 转正主要来自去年同期诉讼拨备的低基数，经营口径（调整后 EBITA -78%）并未同步改善",
+        "consensus_view": "市场把 8.66 亿归母净利解读为“卸掉包袱后利润持续向好”（财报日 +10.5%）。",
+        "new_view": "扭亏是“去年同期一次性计提 53 亿诉讼拨备”形成的低基数效应，剔除该基数后调整后 EBITA 5.40 亿较去年同期 25.02 亿 -78%、调整后净利 -91%，经营盈利实际在恶化。",
+        "mechanism": "2025Q2 一次性诉讼拨备 → 2026Q2 无同类支出 → GAAP 基数自然转正；同时国际扩张推高营销费用 +66.6%，压低了调整后口径 → 会计扭亏与经营恶化并存。",
+        "implication": "不应按“经营拐点”给估值溢价；跟踪应从利润表转向调整后 EBITA 与现金流。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "中国出行调整后 EBITA +15%、平台收入 +21.6% 说明并非全无改善。",
+        "falsifier": "若 Q3 调整后 EBITA 同比转正且经营现金流转正，则本判断被推翻。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 12
+      },
+      {
+        "id": "insight-2",
+        "title": "国际“用 GTV 换亏损”：外卖结构推高 GTV 却压低抽佣率，平台销售/GTV 比率从 10.2% 降至 7.5%",
+        "consensus_view": "国际 GTV +61.1% 被解读为国际业务高速成长（双开花）。",
+        "new_view": "GTV 高增部分来自向高客单价外卖的结构倾斜，该结构同时推高 GTV、拉低平台抽佣率并放大激励支出，导致调整后 EBITA 亏损扩大 21.37 亿——GTV 增速不代表盈利质量。",
+        "mechanism": "外卖订单客单价高于打车 → GTV 上升、平台销售/GTV 下降（10.2%→7.5%）→ 营销费用 +66.6% → 亏损扩大。",
+        "implication": "评估国际业务应看平台销售增速与亏损斜率，而非 GTV 增速。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "国际出行（打车）上半年保持盈利，亏损集中在外卖等新业务。",
+        "falsifier": "若下季国际平台销售/GTV 比率回升且亏损收窄，则本判断被削弱。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-3",
+        "title": "利润与现金的背离：净利转正但经营现金流为负，靠借款支撑增长与回购",
+        "consensus_view": "利润转正=公司更健康。",
+        "new_view": "Q2 净利 8.69 亿但经营现金流 -7.97 亿（H1 -85.32 亿），现金储备环比 -70.17 亿、短期借款 +88.79 亿，同时继续回购（累计 19.11 亿美元）——增长与股东回报靠资产负债表而非经营造血支撑。",
+        "mechanism": "营运资金占用（激励/补贴垫付）+ 国际扩张现金消耗 → 经营现金流为负；新增借款补缺口、维持回购 → 杠杆上升。",
+        "implication": "财务健康度应看自由现金流与净现金变化，而非净利。",
+        "source_ids": [
+          "didi-ir-q2-2026"
+        ],
+        "counterevidence": "公司称现金流为负来自营运资金与季节性，未必代表结构恶化。",
+        "falsifier": "若 Q3 经营现金流明显转正且借款不再扩张，则本判断被削弱。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 20,
+      "triggers": [
+        "中国出行订单量增速守 8% 以上",
+        "国际调整后 EBITA 亏损收窄至 -20 亿元内",
+        "经营现金流转正、借款不再扩张"
+      ],
+      "segment_profit_range": [
+        45,
+        50
+      ],
+      "group_profit_range": [
+        10,
+        15
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "中国出行高个位数增长（5%-8%）",
+        "国际亏损维持 -25~-30 亿元",
+        "现金流小幅改善但未转正"
+      ],
+      "segment_profit_range": [
+        40,
+        45
+      ],
+      "group_profit_range": [
+        6,
+        9
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "国内增速降至中低个位数",
+        "国际竞争加剧、亏损扩大至 -35 亿元以上",
+        "现金储备继续大降、借款上升"
+      ],
+      "segment_profit_range": [
+        35,
+        40
+      ],
+      "group_profit_range": [
+        0,
+        4
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "DiDi 不以 SEC 6-K 披露季度业绩，官方来源为公司官网 IR 公告（tier1）；OTC 流动性低、机构覆盖少，缺乏公开统一一致预期；国际业务分部利润为调整后 EBITA 口径，非 GAAP 分部营业利润；部分外部文章为 2025 旧文，已排除。"
+    ]
+  }
+}

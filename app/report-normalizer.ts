@@ -92,6 +92,19 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     "cost_of_revenues",
     "research_and_development_expenses",
     "segment_revenue",
+    "segment_income_from_operations",
+    "operating_income",
+    "profit_attributable_to_equity_holders",
+    "adjusted_ebita",
+    "adjusted_ebitda",
+    "adjusted_profit_non_ifrs",
+    "core_platform_gvt",
+    "gtv_china_mobility",
+    "gtv_international",
+    "platform_sales_china_mobility",
+    "platform_sales_international",
+    "total_cash_and_treasury_investments",
+    "operations_and_support_expenses",
   ]);
   const scaleValue = (metric: string, value: number | undefined) => {
     if (!value) return 0;
@@ -246,6 +259,14 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       tone: "positive",
       result: "资金充裕",
     },
+    // DiDi (DIDIY) 专属
+    profit_attributable_to_equity_holders: {
+      label: "归母净利润",
+      tone: "positive",
+      result: "扭亏为盈",
+    },
+    adjusted_ebita: { label: "调整后 EBITA", tone: "neutral", result: "经营口径观察" },
+    core_platform_gvt: { label: "核心平台 GTV", tone: "positive", result: "双位数增长" },
   };
   const BRAND_COLORS: Array<[RegExp, string]> = [
     [/9961|Trip\.com|携程/i, "#1471db"],
@@ -355,6 +376,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     { metric: "research_and_development_expenses", name: "研发费用" },
     { metric: "general_and_administrative_expenses", name: "管理费用" },
     { metric: "cost_of_revenues", name: "营业成本" },
+    { metric: "operations_and_support_expenses", name: "运营支持费用" },
     { metric: "fulfillment", name: "履约费用" },
     { metric: "marketing", name: "营销费用" },
     { metric: "rnd", name: "研发费用" },
