@@ -51,8 +51,9 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   // Unit adaptation: legacy payloads store values in "分" (cent) and display as 亿元;
   // MiniMax (0100.HK) stores absolute USD amounts -> display as US$M.
   const isMiniMax = /0100\.HK/i.test(stringValue(rawReport.ticker)) || /MiniMax/i.test(companyName);
+  const isUsdReport = /GOOGL|GOOG/i.test(stringValue(rawReport.ticker));
   const moneyScale = () => (isMiniMax ? 1_000_000 : 100);
-  const moneyUnit = () => (isMiniMax ? "US$M" : "亿元");
+  const moneyUnit = () => (isMiniMax ? "US$M" : isUsdReport ? "亿美元" : "亿元");
   // 金额类 metric 需要按币种缩放；百分数/计数类 metric 保持原值。
   const MONEY_METRICS = new Set([
     "total_revenue",
@@ -94,6 +95,9 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     "segment_revenue",
     "segment_income_from_operations",
     "operating_income",
+    "net_income",
+    "free_cash_flow",
+    "cash_and_marketable_securities",
     "profit_attributable_to_equity_holders",
     "adjusted_ebita",
     "adjusted_ebitda",
@@ -208,7 +212,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       result: "同比下滑",
     },
     nongaap_net_income: { label: "Non-GAAP 归母净利", tone: "negative", result: "同比下滑" },
-    free_cash_flow: { label: "自由现金流", tone: "negative", result: "承压" },
+    free_cash_flow: { label: "自由现金流", tone: "negative", result: "资本开支挤压" },
     electronics_and_home_appliances_revenues: {
       label: "带电品类收入",
       tone: "negative",
@@ -242,6 +246,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     },
     gross_profit: { label: "毛利润", tone: "neutral", result: "规模稳定" },
     operating_income: { label: "营业利润", tone: "positive", result: "持续扩张" },
+    net_income: { label: "净利润", tone: "neutral", result: "含非经营收益" },
     // MiniMax (0100.HK) 专属：美元口径，财务快照多行
     gross_margin: { label: "毛利率", tone: "positive", result: "效率改善" },
     adjusted_net_loss_non_ifrs: {

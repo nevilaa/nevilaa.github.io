@@ -31,6 +31,16 @@
       "data_url": "tencent-2026-q2.json"
     },
     {
+      "id": "googl-2026q1",
+      "company": "谷歌母公司 Alphabet",
+      "ticker": "GOOGL",
+      "period": "2026Q1",
+      "status": "approved",
+      "thesis": "关键不在于 Alphabet 在 Q1 是否实现收入与利润双高增，而在于 AI 资本开支翻倍后，Google Cloud 的利润和积压合同能否持续把这笔前置投入转成可重复的现金回报。Q1 已证明需求与当期经营利润，尚未证明资本回收期；且 2026-07-23 已披露 Q2，本报告只能作为 Q1 复盘而非截至今日的估值判断。",
+      "generated_at": "2026-08-18T16:15:04.129019+00:00",
+      "data_url": "googl-2026q1.json"
+    },
+    {
       "id": "9961-hk-2026q1",
       "company": "携程集团",
       "ticker": "9961.HK",
