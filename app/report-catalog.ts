@@ -1,4 +1,5 @@
 export type ReportStatus = "published" | "draft";
+export type ResearchCategory = "AI公司" | "互联网公司";
 
 export type ReportCatalogEntry = {
   id: string;
@@ -6,6 +7,7 @@ export type ReportCatalogEntry = {
   companyName: string;
   companyNameEn: string;
   ticker: string;
+  category: ResearchCategory;
   iconUrl: string;
   fiscalYear: number;
   quarter: "Q1" | "Q2" | "Q3" | "Q4" | "FY";
@@ -29,6 +31,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "谷歌母公司 Alphabet",
     companyNameEn: "Alphabet Inc.",
     ticker: "GOOGL",
+    category: "AI公司",
     iconUrl: "/company-icons/google.svg",
     fiscalYear: 2026,
     quarter: "Q2",
@@ -43,6 +46,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "谷歌母公司 Alphabet",
     companyNameEn: "Alphabet Inc.",
     ticker: "GOOGL",
+    category: "AI公司",
     iconUrl: "/company-icons/google.svg",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -57,6 +61,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "携程集团",
     companyNameEn: "Trip.com Group",
     ticker: "9961.HK",
+    category: "互联网公司",
     iconUrl: "https://icons.duckduckgo.com/ip3/trip.com.ico",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -71,6 +76,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "稀宇科技",
     companyNameEn: "MiniMax",
     ticker: "0100.HK",
+    category: "AI公司",
     iconUrl: "/company-icons/minimax.png",
     fiscalYear: 2025,
     quarter: "FY",
@@ -85,6 +91,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "拼多多",
     companyNameEn: "PDD Holdings",
     ticker: "PDD",
+    category: "互联网公司",
     iconUrl: "/company-icons/pdd.png",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -99,6 +106,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "京东集团",
     companyNameEn: "JD.com",
     ticker: "9618.HK",
+    category: "互联网公司",
     iconUrl: "https://www.jd.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -113,6 +121,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "百度集团",
     companyNameEn: "Baidu",
     ticker: "BIDU",
+    category: "AI公司",
     iconUrl: "https://www.baidu.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -127,6 +136,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "阿里巴巴集团",
     companyNameEn: "Alibaba Group",
     ticker: "9988.HK",
+    category: "互联网公司",
     iconUrl: "https://www.alibaba.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "FY",
@@ -141,6 +151,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "腾讯控股",
     companyNameEn: "Tencent Holdings",
     ticker: "0700.HK",
+    category: "互联网公司",
     iconUrl: "https://www.tencent.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q2",
@@ -155,6 +166,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "腾讯控股",
     companyNameEn: "Tencent Holdings",
     ticker: "0700.HK",
+    category: "互联网公司",
     iconUrl: "https://www.tencent.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -169,6 +181,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "滴滴出行",
     companyNameEn: "DiDi Global",
     ticker: "DIDIY",
+    category: "互联网公司",
     iconUrl: "https://website.didiglobal.com/DDlogo.ico",
     fiscalYear: 2026,
     quarter: "Q2",
@@ -183,6 +196,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "滴滴出行",
     companyNameEn: "DiDi Global",
     ticker: "DIDIY",
+    category: "互联网公司",
     iconUrl: "https://website.didiglobal.com/DDlogo.ico",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -197,6 +211,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "快手科技",
     companyNameEn: "Kuaishou",
     ticker: "01024.HK",
+    category: "互联网公司",
     iconUrl: "https://www.kuaishou.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -211,6 +226,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "美团",
     companyNameEn: "Meituan",
     ticker: "03690.HK",
+    category: "互联网公司",
     iconUrl: "https://www.meituan.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
@@ -238,6 +254,7 @@ export const COMPANY_OPTIONS = Array.from(
         name: report.companyName,
         nameEn: report.companyNameEn,
         ticker: report.ticker,
+        category: report.category,
         iconUrl: report.iconUrl,
       },
     ]),
@@ -246,6 +263,10 @@ export const COMPANY_OPTIONS = Array.from(
 
 export function reportsForCompany(companyId: string) {
   return PUBLISHED_REPORTS.filter((report) => report.companyId === companyId);
+}
+
+export function companiesForCategory(category: ResearchCategory) {
+  return COMPANY_OPTIONS.filter((company) => company.category === category);
 }
 
 export function getDefaultReport() {

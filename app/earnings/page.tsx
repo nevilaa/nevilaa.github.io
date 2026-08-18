@@ -3,13 +3,21 @@
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft } from "@phosphor-icons/react";
+import {
+  ArrowLeft,
+  Brain,
+  CaretDown,
+  GlobeHemisphereWest,
+  SquaresFour,
+} from "@phosphor-icons/react";
 import {
   COMPANY_OPTIONS,
+  companiesForCategory,
   getDefaultReport,
   PUBLISHED_REPORTS,
   reportsForCompany,
   type ReportCatalogEntry,
+  type ResearchCategory,
 } from "../report-catalog";
 import { normalizeReportPayload } from "../report-normalizer";
 import type {
@@ -395,6 +403,32 @@ function ResearchLibrary({
   selectedReport: ReportCatalogEntry;
   onSelectReport: (id: string) => void;
 }) {
+  const [activeCategory, setActiveCategory] = useState<
+    ResearchCategory | "全部"
+  >("全部");
+  const [collapsedCategories, setCollapsedCategories] = useState<
+    ResearchCategory[]
+  >([]);
+  const visibleCategories: ResearchCategory[] =
+    activeCategory === "全部" ? ["AI公司", "互联网公司"] : [activeCategory];
+
+  function chooseCategory(category: ResearchCategory | "全部") {
+    setActiveCategory(category);
+    if (category !== "全部") {
+      setCollapsedCategories((categories) =>
+        categories.filter((item) => item !== category),
+      );
+    }
+  }
+
+  function toggleCategory(category: ResearchCategory) {
+    setCollapsedCategories((categories) =>
+      categories.includes(category)
+        ? categories.filter((item) => item !== category)
+        : [...categories, category],
+    );
+  }
+
   return (
     <aside className="library-sidebar" aria-label="研究资料库">
       <div className="sidebar-section">
@@ -402,34 +436,94 @@ function ResearchLibrary({
           <span>研究库</span>
           <span>{COMPANY_OPTIONS.length} 家公司</span>
         </div>
-        <div className="company-list">
-          {COMPANY_OPTIONS.map((company) => {
-            const reports = reportsForCompany(company.id);
-            const active = company.id === selectedReport.companyId;
+        <div className="library-category-tabs" role="group" aria-label="公司分类">
+          <button
+            type="button"
+            className={activeCategory === "全部" ? "is-active" : ""}
+            onClick={() => chooseCategory("全部")}
+            aria-pressed={activeCategory === "全部"}
+          >
+            <SquaresFour size={14} weight="bold" aria-hidden="true" />
+            全部
+          </button>
+          <button
+            type="button"
+            className={activeCategory === "AI公司" ? "is-active" : ""}
+            onClick={() => chooseCategory("AI公司")}
+            aria-pressed={activeCategory === "AI公司"}
+          >
+            <Brain size={14} weight="bold" aria-hidden="true" />
+            AI
+          </button>
+          <button
+            type="button"
+            className={activeCategory === "互联网公司" ? "is-active" : ""}
+            onClick={() => chooseCategory("互联网公司")}
+            aria-pressed={activeCategory === "互联网公司"}
+          >
+            <GlobeHemisphereWest size={14} weight="bold" aria-hidden="true" />
+            互联网
+          </button>
+        </div>
+        <div className="company-category-list">
+          {visibleCategories.map((category) => {
+            const collapsed = collapsedCategories.includes(category);
             return (
-              <button
-                type="button"
-                className={active ? "company-item is-active" : "company-item"}
-                key={company.id}
-                onClick={() => onSelectReport(reports[0].id)}
-                aria-current={active ? "page" : undefined}
-              >
-                <span className="company-icon">
-                  <Image
-                    src={company.iconUrl}
-                    alt=""
-                    width={34}
-                    height={34}
-                    unoptimized
-                  />
-                </span>
-                <span>
-                  <strong>{company.name}</strong>
-                  <small>
-                    {company.ticker} · {reports.length} 份
-                  </small>
-                </span>
-              </button>
+              <section className="company-category" key={category}>
+                <button
+                  type="button"
+                  className="company-category-heading"
+                  onClick={() => toggleCategory(category)}
+                  aria-expanded={!collapsed}
+                  aria-controls={`company-category-${category}`}
+                >
+                  <span>{category}</span>
+                  <span>
+                    <small>{companiesForCategory(category).length}</small>
+                    <CaretDown
+                      size={13}
+                      weight="bold"
+                      aria-hidden="true"
+                      className={collapsed ? "is-collapsed" : ""}
+                    />
+                  </span>
+                </button>
+                {!collapsed && (
+                  <div className="company-list" id={`company-category-${category}`}>
+                    {companiesForCategory(category).map((company) => {
+                  const reports = reportsForCompany(company.id);
+                  const active = company.id === selectedReport.companyId;
+                  return (
+                    <button
+                      type="button"
+                      className={
+                        active ? "company-item is-active" : "company-item"
+                      }
+                      key={company.id}
+                      onClick={() => onSelectReport(reports[0].id)}
+                      aria-current={active ? "page" : undefined}
+                    >
+                      <span className="company-icon">
+                        <Image
+                          src={company.iconUrl}
+                          alt=""
+                          width={34}
+                          height={34}
+                          unoptimized
+                        />
+                      </span>
+                      <span>
+                        <strong>{company.name}</strong>
+                        <small>
+                          {company.ticker} · {reports.length} 份
+                        </small>
+                      </span>
+                    </button>
+                  );
+                    })}
+                  </div>
+                )}
+              </section>
             );
           })}
         </div>

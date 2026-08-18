@@ -310,6 +310,107 @@ select:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 
+.library-category-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3px;
+  min-width: 0;
+  margin: 0 4px 14px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-subtle);
+}
+
+.library-category-tabs button {
+  min-height: 30px;
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 680;
+  white-space: nowrap;
+  transition:
+    background var(--transition),
+    box-shadow var(--transition),
+    color var(--transition),
+    transform var(--transition);
+}
+
+.library-category-tabs button:hover {
+  color: var(--ink-soft);
+}
+
+.library-category-tabs button:active {
+  transform: scale(0.98);
+}
+
+.library-category-tabs button.is-active {
+  background: var(--surface);
+  color: var(--accent-dark);
+  box-shadow: 0 1px 3px rgb(16 24 40 / 0.1);
+}
+
+.library-category-tabs svg {
+  width: 13px;
+  height: 13px;
+}
+
+.company-category-list {
+  display: grid;
+  gap: 14px;
+}
+
+.company-category-heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px 5px;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 10px;
+  font-weight: 720;
+  text-align: left;
+}
+
+.company-category-heading:hover > span:first-child {
+  color: var(--accent-dark);
+}
+
+.company-category-heading > span:last-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.company-category-heading small {
+  min-width: 18px;
+  padding: 2px 5px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  font-size: 9px;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.company-category-heading svg {
+  width: 13px;
+  height: 13px;
+  color: var(--muted);
+  transition: transform var(--transition);
+}
+
+.company-category-heading svg.is-collapsed {
+  transform: rotate(-90deg);
+}
+
 .company-list {
   display: grid;
   gap: 4px;
@@ -2037,6 +2138,12 @@ tbody tr:hover {
   .library-sidebar {
     display: block;
     padding: 10px 14px;
+  }
+
+  .library-category-tabs {
+    width: calc(100vw - 28px);
+    max-width: 100%;
+    margin-inline: 0;
   }
 
   .period-section {
