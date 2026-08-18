@@ -51,7 +51,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   // Unit adaptation: legacy payloads store values in "分" (cent) and display as 亿元;
   // MiniMax (0100.HK) stores absolute USD amounts -> display as US$M.
   const isMiniMax = /0100\.HK/i.test(stringValue(rawReport.ticker)) || /MiniMax/i.test(companyName);
-  const isUsdReport = /GOOGL|GOOG/i.test(stringValue(rawReport.ticker));
+  const isUsdReport = /GOOGL|GOOG|META/i.test(stringValue(rawReport.ticker));
   const moneyScale = () => (isMiniMax ? 1_000_000 : 100);
   const moneyUnit = () => (isMiniMax ? "US$M" : isUsdReport ? "亿美元" : "亿元");
   // 金额类 metric 需要按币种缩放；百分数/计数类 metric 保持原值。

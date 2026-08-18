@@ -26,6 +26,21 @@ const DEFAULT_ENDPOINT =
  */
 export const REPORT_CATALOG: ReportCatalogEntry[] = [
   {
+    id: "meta-2026-q1",
+    companyId: "meta",
+    companyName: "Meta Platforms",
+    companyNameEn: "Meta Platforms, Inc.",
+    ticker: "META",
+    category: "AI公司",
+    iconUrl: "https://about.meta.com/favicon.ico",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-08-19",
+    endpoint: "/data/meta-2026q1.json",
+    status: "published",
+  },
+  {
     id: "alphabet-2026-q2",
     companyId: "alphabet",
     companyName: "谷歌母公司 Alphabet",

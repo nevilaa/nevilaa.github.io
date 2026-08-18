@@ -41,6 +41,16 @@
       "data_url": "tencent-2026-q2.json"
     },
     {
+      "id": "meta-2026q1",
+      "company": "Meta Platforms",
+      "ticker": "META",
+      "period": "2026Q1",
+      "status": "approved",
+      "thesis": "关键不在于 33% 的收入增长，而在于 Meta 正把广告业务形成的现金与利润同时投入 AI 算力和产品竞争：一季度广告展示量增长 19%、单价增长 12%，使 Family of Apps 经营利润增至 269 亿美元；但 198 亿美元资本开支、全年 1,250–1,450 亿美元资本开支指引以及 Reality Labs 持续亏损，意味着下一阶段必须证明 AI 能把广告效率和用户价值转化为足以覆盖资本强度的增量回报。",
+      "generated_at": "2026-08-18T17:21:11.054209+00:00",
+      "data_url": "https://www.shresearch.cn/data/meta-2026q1.json"
+    },
+    {
       "id": "googl-2026q1",
       "company": "谷歌母公司 Alphabet",
       "ticker": "GOOGL",

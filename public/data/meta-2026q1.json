@@ -1,0 +1,745 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "meta-2026q1",
+  "generated_at": "2026-08-18T17:21:11.054209+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "Meta Platforms",
+    "company_name_en": "Meta Platforms, Inc.",
+    "ticker": "META",
+    "period": "2026Q1",
+    "period_end": "2026-03-31",
+    "status": "approved",
+    "thesis": "关键不在于 33% 的收入增长，而在于 Meta 正把广告业务形成的现金与利润同时投入 AI 算力和产品竞争：一季度广告展示量增长 19%、单价增长 12%，使 Family of Apps 经营利润增至 269 亿美元；但 198 亿美元资本开支、全年 1,250–1,450 亿美元资本开支指引以及 Reality Labs 持续亏损，意味着下一阶段必须证明 AI 能把广告效率和用户价值转化为足以覆盖资本强度的增量回报。",
+    "conclusion_summary": {
+      "rating": "积极但资本回收待验证",
+      "confidence": "medium",
+      "primary_difficulty": "最难的问题不是广告需求是否恢复，而是公司能否在把资本开支显著前置的同时，持续证明 AI 对广告变现、用户参与和利润率的可量化回报。",
+      "current_difficulties": [
+        {
+          "title": "净利润被一次性税项收益抬升",
+          "evidence": "Q1 净利润为 267.73 亿美元，而所得税收益为 50.21 亿美元；公司说明其中包含 80.3 亿美元与美国税务处理变化相关的收益，若剔除该收益，稀释 EPS 将低 3.13 美元。",
+          "implication": "净利润同比增长不能直接代表主营盈利能力，应以经营利润、广告收入和现金流来判断 AI 投入的当期质量。"
+        },
+        {
+          "title": "资本开支的回收期被前置",
+          "evidence": "一季度资本开支（含融资租赁本金偿还）为 198.4 亿美元，同比增加约 46%；全年资本开支指引为 1,250–1,450 亿美元，且公司明确部分计算能力将服务未来年度。",
+          "implication": "经营现金流仍为 322.26 亿美元，但自由现金流仅 123.86 亿美元；容量扩张必须由后续收入、利用率和折旧后的利润共同验证。"
+        },
+        {
+          "title": "Reality Labs 仍是资源配置的负担",
+          "evidence": "Reality Labs Q1 收入 4.02 亿美元、经营亏损 40.28 亿美元；Family of Apps 经营利润为 269 亿美元。",
+          "implication": "广告业务不仅要负担 AI 基础设施，也继续补贴长期硬件与沉浸式计算探索，资本配置的取舍不能只用总利润掩盖。"
+        }
+      ],
+      "strategic_judgment": "管理层选择以 AI 基础设施、模型能力和产品分发共同提升广告系统与用户体验；当前财报已证实广告量价同时改善与 FoA 利润扩张，尚未单列 AI 带来的收入、单位推理成本或投资回收期。",
+      "strategic_directions": [
+        {
+          "direction": "优先将 AI 能力嵌入广告排序、创意和商业消息场景",
+          "rationale": "广告收入 550.24 亿美元，同比增长 33%，展示量与平均单价同时提升，是现有最大、最可测的商业化闭环。",
+          "management_signal": "CEO 将当季描述为应用端强劲动能并强调首个 Meta Superintelligence Labs 模型；公司仍未单列 AI 收入。",
+          "validation": "观察广告展示量、单价、FoA 经营利润率，以及公司是否披露 AI 驱动转化率或成本指标。"
+        },
+        {
+          "direction": "提前建设跨年度 AI 计算能力",
+          "rationale": "全年资本开支指引 1,250–1,450 亿美元，且管理层称部分支出支持未来年度容量。",
+          "management_signal": "公司维持全年费用指引 1,620–1,690 亿美元，并预期 2026 年经营利润高于 2025 年。",
+          "validation": "观察资本开支/经营现金流、折旧、自由现金流、广告增长和基础设施利用率是否同步改善。"
+        },
+        {
+          "direction": "保留 Reality Labs 的长期期权，但以 FoA 现金流承担代价",
+          "rationale": "Reality Labs 经营亏损 40.28 亿美元，仍未形成对集团利润有意义的收入。",
+          "management_signal": "公司持续将 RL 列为独立可报告分部。",
+          "validation": "观察 RL 亏损变化、收入、资本开支归属以及其是否开始获得可验证的商业化指标。"
+        }
+      ],
+      "core_conflict": "广告业务的 AI 化可能提升变现效率，但同一轮 AI 军备也要求 Meta 在没有独立 AI 收入披露的情况下，提前承受更高资本开支、折旧和长期项目亏损。",
+      "falsifier": "若后续季度广告展示量和单价走弱、FoA 经营利润率下降，而资本开支仍处指引高位且自由现金流未改善，则『广告 AI 回报能够吸收算力投入』的判断被削弱；若广告效率、经营现金流与自由现金流同步改善且公司补充 AI 单位经济指标，该判断得到加强。",
+      "valuation_context": "截至 2026-08-19，本研究只使用公司 4 月披露及 SEC 文件；未保存可复核的事件窗口股价或一致预期，故不把估值或股价反应写成结论。",
+      "catalyst": "广告系统的 AI 效率持续推动量价同增、FoA 利润率保持、资本开支转换为可用容量并未压低自由现金流、商业消息或生成式创意出现独立收入/效率披露。",
+      "risk": "算力供给建设超前、资本开支和折旧侵蚀现金回报、广告需求或定价转弱、RL 亏损扩大，以及税项收益不可重复导致 GAAP 净利润比较失真。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于 33% 的收入增长，而在于 Meta 正把广告业务形成的现金与利润同时投入 AI 算力和产品竞争：一季度广告展示量增长 19%、单价增长 12%，使 Family of Apps 经营利润增至 269 亿美元；但 198 亿美元资本开支、全年 1,250–1,450 亿美元资本开支指引以及 Reality Labs 持续亏损，意味着下一阶段必须证明 AI 能把广告效率和用户价值转化为足以覆盖资本强度的增量回报。",
+    "rating": "积极但资本回收待验证",
+    "confidence": "medium",
+    "primary_difficulty": "最难的问题不是广告需求是否恢复，而是公司能否在把资本开支显著前置的同时，持续证明 AI 对广告变现、用户参与和利润率的可量化回报。",
+    "current_difficulties": [
+      {
+        "title": "净利润被一次性税项收益抬升",
+        "evidence": "Q1 净利润为 267.73 亿美元，而所得税收益为 50.21 亿美元；公司说明其中包含 80.3 亿美元与美国税务处理变化相关的收益，若剔除该收益，稀释 EPS 将低 3.13 美元。",
+        "implication": "净利润同比增长不能直接代表主营盈利能力，应以经营利润、广告收入和现金流来判断 AI 投入的当期质量。"
+      },
+      {
+        "title": "资本开支的回收期被前置",
+        "evidence": "一季度资本开支（含融资租赁本金偿还）为 198.4 亿美元，同比增加约 46%；全年资本开支指引为 1,250–1,450 亿美元，且公司明确部分计算能力将服务未来年度。",
+        "implication": "经营现金流仍为 322.26 亿美元，但自由现金流仅 123.86 亿美元；容量扩张必须由后续收入、利用率和折旧后的利润共同验证。"
+      },
+      {
+        "title": "Reality Labs 仍是资源配置的负担",
+        "evidence": "Reality Labs Q1 收入 4.02 亿美元、经营亏损 40.28 亿美元；Family of Apps 经营利润为 269 亿美元。",
+        "implication": "广告业务不仅要负担 AI 基础设施，也继续补贴长期硬件与沉浸式计算探索，资本配置的取舍不能只用总利润掩盖。"
+      }
+    ],
+    "strategic_judgment": "管理层选择以 AI 基础设施、模型能力和产品分发共同提升广告系统与用户体验；当前财报已证实广告量价同时改善与 FoA 利润扩张，尚未单列 AI 带来的收入、单位推理成本或投资回收期。",
+    "strategic_directions": [
+      {
+        "direction": "优先将 AI 能力嵌入广告排序、创意和商业消息场景",
+        "rationale": "广告收入 550.24 亿美元，同比增长 33%，展示量与平均单价同时提升，是现有最大、最可测的商业化闭环。",
+        "management_signal": "CEO 将当季描述为应用端强劲动能并强调首个 Meta Superintelligence Labs 模型；公司仍未单列 AI 收入。",
+        "validation": "观察广告展示量、单价、FoA 经营利润率，以及公司是否披露 AI 驱动转化率或成本指标。"
+      },
+      {
+        "direction": "提前建设跨年度 AI 计算能力",
+        "rationale": "全年资本开支指引 1,250–1,450 亿美元，且管理层称部分支出支持未来年度容量。",
+        "management_signal": "公司维持全年费用指引 1,620–1,690 亿美元，并预期 2026 年经营利润高于 2025 年。",
+        "validation": "观察资本开支/经营现金流、折旧、自由现金流、广告增长和基础设施利用率是否同步改善。"
+      },
+      {
+        "direction": "保留 Reality Labs 的长期期权，但以 FoA 现金流承担代价",
+        "rationale": "Reality Labs 经营亏损 40.28 亿美元，仍未形成对集团利润有意义的收入。",
+        "management_signal": "公司持续将 RL 列为独立可报告分部。",
+        "validation": "观察 RL 亏损变化、收入、资本开支归属以及其是否开始获得可验证的商业化指标。"
+      }
+    ],
+    "core_conflict": "广告业务的 AI 化可能提升变现效率，但同一轮 AI 军备也要求 Meta 在没有独立 AI 收入披露的情况下，提前承受更高资本开支、折旧和长期项目亏损。",
+    "falsifier": "若后续季度广告展示量和单价走弱、FoA 经营利润率下降，而资本开支仍处指引高位且自由现金流未改善，则『广告 AI 回报能够吸收算力投入』的判断被削弱；若广告效率、经营现金流与自由现金流同步改善且公司补充 AI 单位经济指标，该判断得到加强。",
+    "valuation_context": "截至 2026-08-19，本研究只使用公司 4 月披露及 SEC 文件；未保存可复核的事件窗口股价或一致预期，故不把估值或股价反应写成结论。",
+    "catalyst": "广告系统的 AI 效率持续推动量价同增、FoA 利润率保持、资本开支转换为可用容量并未压低自由现金流、商业消息或生成式创意出现独立收入/效率披露。",
+    "risk": "算力供给建设超前、资本开支和折旧侵蚀现金回报、广告需求或定价转弱、RL 亏损扩大，以及税项收益不可重复导致 GAAP 净利润比较失真。"
+  },
+  "sources": [
+    {
+      "id": "meta-q1-release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm",
+      "title": "Meta Reports First Quarter 2026 Results (Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-19T01:17:00+08:00"
+    },
+    {
+      "id": "meta-q1-10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm",
+      "title": "Meta Platforms Form 10-Q for quarter ended March 31, 2026",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-19T01:17:00+08:00"
+    },
+    {
+      "id": "meta-q1-8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-20260429.htm",
+      "title": "Meta Platforms Form 8-K dated April 29, 2026",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-19T01:17:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "revenue",
+      "metric": "total_revenue",
+      "value": 56311,
+      "previous_value": 42314,
+      "display_value": "563.11 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Revenue was $56,311 million versus $42,314 million.",
+      "location": "Exhibit 99.1, Q1 Financial Highlights"
+    },
+    {
+      "id": "ad-revenue",
+      "metric": "online_marketing_revenue",
+      "value": 55024,
+      "previous_value": 41392,
+      "display_value": "550.24 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Advertising revenue was $55,024 million versus $41,392 million.",
+      "location": "Exhibit 99.1, Segment Results"
+    },
+    {
+      "id": "operating-income",
+      "metric": "operating_income",
+      "value": 22872,
+      "previous_value": 17555,
+      "display_value": "228.72 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Income from operations was $22,872 million versus $17,555 million; operating margin was 41% in both periods.",
+      "location": "Exhibit 99.1, Q1 Financial Highlights"
+    },
+    {
+      "id": "net-income",
+      "metric": "net_income",
+      "value": 26773,
+      "previous_value": 16644,
+      "display_value": "267.73 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Net income was $26,773 million versus $16,644 million.",
+      "location": "Exhibit 99.1, Condensed Consolidated Statements of Income"
+    },
+    {
+      "id": "foa-revenue",
+      "metric": "segment_revenue",
+      "value": 55909,
+      "previous_value": 41902,
+      "display_value": "559.09 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Family of Apps revenue was $55,909 million versus $41,902 million.",
+      "location": "Exhibit 99.1, Segment Results"
+    },
+    {
+      "id": "foa-op-income",
+      "metric": "segment_income_from_operations",
+      "value": 26900,
+      "previous_value": 21765,
+      "display_value": "269.00 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Family of Apps income from operations was $26,900 million versus $21,765 million.",
+      "location": "Exhibit 99.1, Segment Results"
+    },
+    {
+      "id": "rl-op-loss",
+      "metric": "segment_income_from_operations",
+      "value": -4028,
+      "previous_value": -4210,
+      "display_value": "-40.28 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Reality Labs loss from operations was $4,028 million versus $4,210 million.",
+      "location": "Exhibit 99.1, Segment Results"
+    },
+    {
+      "id": "dap",
+      "metric": "daily_active_people",
+      "value": 3560,
+      "previous_value": 3430,
+      "display_value": "35.6 亿人",
+      "currency": "N/A",
+      "unit": "million people",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Family daily active people was 3.56 billion on average in March 2026, up 4% year-over-year.",
+      "location": "Exhibit 99.1, Operational Highlights"
+    },
+    {
+      "id": "impressions-yoy",
+      "metric": "ad_impressions_yoy",
+      "value": 19,
+      "display_value": "+19%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Ad impressions delivered across Family of Apps increased 19% year-over-year.",
+      "location": "Exhibit 99.1, Operational Highlights"
+    },
+    {
+      "id": "price-yoy",
+      "metric": "ad_price_yoy",
+      "value": 12,
+      "display_value": "+12%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Average price per ad increased 12% year-over-year.",
+      "location": "Exhibit 99.1, Operational Highlights"
+    },
+    {
+      "id": "operating-cash-flow",
+      "metric": "operating_cash_flow",
+      "value": 32226,
+      "previous_value": 24026,
+      "display_value": "322.26 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Net cash provided by operating activities was $32,226 million versus $24,026 million.",
+      "location": "Exhibit 99.1, Cash Flows"
+    },
+    {
+      "id": "capex",
+      "metric": "capex_ppe",
+      "value": 19840,
+      "previous_value": 13692,
+      "display_value": "198.40 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Capital expenditures, including principal payments on finance leases, were $19,840 million.",
+      "location": "Exhibit 99.1, Operational Highlights"
+    },
+    {
+      "id": "free-cash-flow",
+      "metric": "free_cash_flow",
+      "value": 12386,
+      "previous_value": 10334,
+      "display_value": "123.86 亿美元",
+      "currency": "USD",
+      "unit": "million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Free cash flow was $12,386 million versus $10,334 million.",
+      "location": "Exhibit 99.1, Reconciliation of GAAP to Non-GAAP Results"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务拆解",
+      "claims": [
+        {
+          "text": "【财报事实】广告展示量同比增长 19%、平均单价增长 12%，广告收入增长 33% 至 550.24 亿美元；DAP 增长 4% 至 35.6 亿。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】本季广告增长并非单纯依赖用户数扩张，而是量价同时改善；这与 AI 排序和广告产品可能改善变现相容，但公司尚未披露可将增量独立归因于 AI 的指标。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若后续广告量价不能维持增长，或公司披露增量来自与 AI 无关的一次性结构变化，该推断应下调。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本效率",
+      "claims": [
+        {
+          "text": "【财报事实】总成本费用增长 35% 至 334.39 亿美元，高于收入 33% 增速；经营利润增长 30% 至 228.72 亿美元，经营利润率维持 41%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】利润率尚未恶化并不等于 AI 投入无压力：当前成本增长已略快于收入，后续折旧和计算成本能否被广告效率吸收是关键。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若成本增速持续快于收入且经营利润率下行，该判断得到加强；反之则削弱。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "现金与资产",
+      "claims": [
+        {
+          "text": "【财报事实】经营现金流为 322.26 亿美元，资本开支（含融资租赁本金）为 198.40 亿美元，自由现金流为 123.86 亿美元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】Meta 仍可用经营现金流支持扩张，但自由现金流相对经营现金流的剩余空间已成为资本强度的直接约束。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若资本开支提高后自由现金流仍随经营现金流同步扩张，该约束被削弱。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "【财报事实】管理层维持 2026 年总费用 1,620–1,690 亿美元、资本开支 1,250–1,450 亿美元的指引，并称部分计算能力支持未来年度。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】资源配置已从单季效率优化转向跨年度算力能力建设；管理层的承诺是否可信，取决于可观察的广告回报和现金回收，而不是模型发布节奏。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若指引下调且未见广告效率或容量回报改善，战略优先级或执行力需重估。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "【披露边界】本报告未采用未经双源验证的竞品份额、竞品资本开支或模型基准数；Meta 自身可验证的竞争结果是广告量价、FoA 利润和用户参与。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若获得可比且可验证的竞争数据证明这些指标不能代表竞争位置，需补充竞争模块。"
+        },
+        {
+          "text": "【推断】广告量价同增是竞争力改善的有力但不充分证据，也可能受宏观需求、地区组合和产品节奏影响。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若后续量价下行或同业可比指标显示增长主要来自行业而非 Meta 特有能力，该判断应下调。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部变量",
+      "claims": [
+        {
+          "text": "【财报事实】公司披露若以 2025 年汇率计算，Q1 收入为 545.62 亿美元；报告口径收入为 563.11 亿美元，汇率影响为 -17.49 亿美元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】汇率使报告增长与恒定汇率增长不可直接互换，因此不应用单一收入增速判断广告需求的全部变化。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若后续披露的汇率影响不再显著，报告与恒定汇率口径的差异应缩小。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场定价边界",
+      "claims": [
+        {
+          "text": "【披露边界】未保存可复核的财报日前后价格、成交量、指数及一致预期序列，因此不将单日股价或媒体标题作为本报告结论。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】即便市场对本季有反应，也不能仅凭价格区分其重估的是广告增长、税项收益还是资本开支路径；需要另行取得事件窗口与预期数据。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "获得可核验价格和一致预期后，可重做市场反应模块。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "情景与验证",
+      "claims": [
+        {
+          "text": "【情景】基准情景下，广告量价保持正增长、FoA 利润率大致稳定、资本开支按指引推进；核心观察不是单季净利润，而是自由现金流和广告效率能否共同改善。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q1-release"
+          ],
+          "falsifier": "若广告量价或自由现金流出现持续反向变化，基准情景应被下调。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究结论",
+      "claims": [
+        {
+          "text": "【推断】Meta 的核心研究信号是『广告业务已显示 AI 投入的近期变现可能性，但还没有证明长期资本开支回收』；因此应把 FoA 量价、经营现金流/资本开支和 RL 亏损作为同一套验证仪表盘。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q1-release",
+            "meta-q1-10q"
+          ],
+          "falsifier": "若资本开支高位延续而广告效率、FoA 利润和自由现金流无法共同改善，该研究信号失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "round1-timeliness",
+        "question": "第一轮：材料是否足够新？",
+        "answer": "核心财务材料为 2026-04-29 业绩发布和 2026-04-30 10-Q；检索日为 2026-08-19，后续 Q2 已存在但本报告严格锁定 Q1，不以更晚季度替代。",
+        "source_ids": [
+          "meta-q1-release",
+          "meta-q1-10q"
+        ],
+        "counterevidence": "Q1 距检索日已逾三个月，不能把它表述为最新业绩。",
+        "status": "answered"
+      },
+      {
+        "id": "round2-depth",
+        "question": "第二轮：33% 收入增长的隐藏假设是什么？",
+        "answer": "隐藏假设是收入加速足以证明 AI 回报；但广告量价、汇率、产品组合和宏观需求都可能共同驱动，且 AI 收入未单列。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "广告展示量和单价均增长，与广告系统效率改善相符。",
+        "status": "answered"
+      },
+      {
+        "id": "round3-depth",
+        "question": "第三轮：净利润增速是否等于经营改善？",
+        "answer": "不是。净利润包含 80.3 亿美元税项收益；经营利润仅增长 30%，应以经营利润和现金流为主。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "税项收益是公司正式确认的 GAAP 项目，并非虚构利润。",
+        "status": "answered"
+      },
+      {
+        "id": "q4-mechanism",
+        "question": "资本开支如何传导到研究结论？",
+        "answer": "资本开支先压低自由现金流，再通过容量、折旧与推理成本影响未来利润；只有广告效率或新收入持续提高才能形成回收闭环。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "公司仍产生 123.86 亿美元自由现金流。",
+        "status": "answered"
+      },
+      {
+        "id": "q5-alternative",
+        "question": "广告量价增长能否由非 AI 因素解释？",
+        "answer": "可以，地区组合、宏观广告需求和产品节奏均可能解释部分增长；本报告不把相关性写成因果。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "管理层持续把 AI 放在产品与基础设施资源配置中心。",
+        "status": "answered"
+      },
+      {
+        "id": "q6-bottleneck",
+        "question": "最难用更多花费解决的约束是什么？",
+        "answer": "不是获得算力，而是证明每一单位新增算力能改善广告单位经济并穿透到现金回报；公司未披露独立 AI 收入或推理成本。",
+        "source_ids": [
+          "meta-q1-release",
+          "meta-q1-10q"
+        ],
+        "counterevidence": "FoA 当季利润扩张，说明现有商业底座强。",
+        "status": "answered"
+      },
+      {
+        "id": "q7-bull-bear",
+        "question": "最强多头与空头分别会如何解释？",
+        "answer": "多头认为量价同增和 41% 经营利润率证明 AI 已提升核心广告引擎；空头认为资本开支指引把回收风险前置，而税项收益掩盖了净利润可比性。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "两种解释均未被公司单列 AI 单位经济直接证实。",
+        "status": "answered"
+      },
+      {
+        "id": "q8-falsifier",
+        "question": "什么结果会推翻中心判断？",
+        "answer": "若资本开支增加后广告量价、FoA 利润率和自由现金流同步改善，则回收担忧下降；若三者不能共同改善，则判断加强。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "Q1 单季不能给出长期资本回收答案。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-tax",
+        "title": "利润表增速高于经营增速",
+        "consensus_view": "净利润大幅增长说明 AI 投入已高回报。",
+        "new_view": "净利润被一次性税项收益明显抬升，经营质量应优先由经营利润、广告量价和现金流判断。",
+        "mechanism": "80.3 亿美元税项收益直接提高税后利润和 EPS，但不改变收入、经营利润或资本开支。",
+        "implication": "下调以 GAAP 净利润外推经营回报的权重。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "税项收益为正式 GAAP 项目。",
+        "falsifier": "若未来利润在无类似税项收益下仍显著扩张，该重估必要性下降。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-capex",
+        "title": "广告引擎已变成算力投资的融资来源",
+        "consensus_view": "广告增长与 AI 资本开支是两条独立叙事。",
+        "new_view": "广告量价和 FoA 利润是 AI 容量扩张能否自我融资的直接前置条件。",
+        "mechanism": "FoA 经营利润和经营现金流形成资金来源，资本开支先降低自由现金流，未来再由广告效率或新收入回收。",
+        "implication": "将广告量价、现金流/资本开支与折旧放在同一验证框架。",
+        "source_ids": [
+          "meta-q1-release"
+        ],
+        "counterevidence": "公司仍有较强流动性，短期不必依赖单季广告现金流。",
+        "falsifier": "若资本开支持续上升但自由现金流和广告效率仍扩张，该约束减弱。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "广告展示量和单价继续同步增长",
+        "FoA 经营利润率保持或提升",
+        "资本开支增加但自由现金流提升"
+      ],
+      "segment_profit_range": [
+        27000,
+        31000
+      ],
+      "group_profit_range": [
+        24000,
+        29000
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "广告量价维持正增长但增速回落",
+        "资本开支按指引推进",
+        "RL 亏损大致持平"
+      ],
+      "segment_profit_range": [
+        24000,
+        29000
+      ],
+      "group_profit_range": [
+        19000,
+        25000
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 20,
+      "triggers": [
+        "广告单价或展示量走弱",
+        "资本开支和折旧压力继续上升",
+        "RL 亏损扩大或 AI 收入/效率披露仍缺失"
+      ],
+      "segment_profit_range": [
+        20000,
+        24000
+      ],
+      "group_profit_range": [
+        13000,
+        19000
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "未保存可复核的事件窗口股价与一致预期，因此市场反应模块只陈述边界。",
+      "公司未单列 AI 收入、推理成本或广告转化归因，AI 因果关系保持为可证伪推断。"
+    ]
+  }
+}

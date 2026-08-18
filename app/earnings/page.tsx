@@ -1330,7 +1330,13 @@ function ErrorReport({
 
 export default function Home() {
   const defaultReport = getDefaultReport();
-  const [selectedReportId, setSelectedReportId] = useState(defaultReport.id);
+  const [selectedReportId, setSelectedReportId] = useState(() => {
+    if (typeof window === "undefined") return defaultReport.id;
+    const requestedId = new URLSearchParams(window.location.search).get("report");
+    return PUBLISHED_REPORTS.some((report) => report.id === requestedId)
+      ? requestedId
+      : defaultReport.id;
+  });
   const [activeModule, setActiveModule] = useState<ModuleId>("business");
   const [data, setData] = useState<ReportData | null>(null);
   const [error, setError] = useState("");
