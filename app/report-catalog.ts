@@ -121,7 +121,7 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
     companyName: "百度集团",
     companyNameEn: "Baidu",
     ticker: "BIDU",
-    category: "AI公司",
+    category: "互联网公司",
     iconUrl: "https://www.baidu.com/favicon.ico",
     fiscalYear: 2026,
     quarter: "Q1",
