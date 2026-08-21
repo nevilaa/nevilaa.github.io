@@ -109,6 +109,11 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     "platform_sales_international",
     "total_cash_and_treasury_investments",
     "operations_and_support_expenses",
+    // NetEase (9999.HK / NTES) 专属
+    "netease_net_income_attributable",
+    "netease_non_gaap_net_income",
+    "netease_free_cash_flow",
+    "net_cash",
   ]);
   const scaleValue = (metric: string, value: number | undefined) => {
     if (!value) return 0;
@@ -272,6 +277,23 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     },
     adjusted_ebita: { label: "调整后 EBITA", tone: "neutral", result: "经营口径观察" },
     core_platform_gvt: { label: "核心平台 GTV", tone: "positive", result: "双位数增长" },
+    // NetEase (9999.HK / NTES) 专属
+    netease_net_income_attributable: {
+      label: "归母净利润",
+      tone: "positive",
+      result: "同比稳增",
+    },
+    netease_non_gaap_net_income: {
+      label: "Non-GAAP 归母净利",
+      tone: "positive",
+      result: "同比稳增",
+    },
+    netease_free_cash_flow: {
+      label: "自由现金流",
+      tone: "positive",
+      result: "现金覆盖充足",
+    },
+    net_cash: { label: "净现金", tone: "positive", result: "资金充裕" },
   };
   const BRAND_COLORS: Array<[RegExp, string]> = [
     [/9961|Trip\.com|携程/i, "#1471db"],
@@ -282,6 +304,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     [/9988/i, "#ff6a00"],
     [/01024/i, "#ff7100"],
     [/DIDI/i, "#fc6b00"],
+    [/9999|NTES|网易/i, "#e60012"],
   ];
   const brandColorFor = (ticker: string, name: string) =>
     BRAND_COLORS.find(([pattern]) => pattern.test(ticker) || pattern.test(name))?.[1] ??

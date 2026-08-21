@@ -251,6 +251,21 @@ export const REPORT_CATALOG: ReportCatalogEntry[] = [
       process.env.NEXT_PUBLIC_FINANCIAL_DATA_URL ?? DEFAULT_ENDPOINT,
     status: "published",
   },
+  {
+    id: "netease-2026-q1",
+    companyId: "netease",
+    companyName: "网易",
+    companyNameEn: "NetEase, Inc.",
+    ticker: "9999.HK",
+    category: "互联网公司",
+    iconUrl: "/company-icons/netease.svg",
+    fiscalYear: 2026,
+    quarter: "Q1",
+    periodLabel: "2026 Q1",
+    publishedAt: "2026-08-21",
+    endpoint: "/data/9999-hk-2026q1.json",
+    status: "published",
+  },
 ];
 
 export const PUBLISHED_REPORTS = REPORT_CATALOG.filter(

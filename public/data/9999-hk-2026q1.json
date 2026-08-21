@@ -1,0 +1,1231 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "9999-hk-2026q1",
+  "generated_at": "2026-08-21T16:06:48.959582+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "网易",
+    "company_name_en": "NetEase, Inc.",
+    "ticker": "9999.HK",
+    "period": "2026Q1",
+    "period_end": "2026-03-31",
+    "status": "approved",
+    "thesis": "关键不在于网易 Q1 收入同比增长 6.1% 或毛利率升至 69.4%，而在于这份利润率改善主要来自平台收入分成下降（结构性让利），且这部分红利被营销投入扩大（销售及市场费用 +27.7%）、有效税率升至 18.9% 与汇兑损失 6.22 亿元同时吸收——毛利率 +5.3 个百分点并未转化为净利率扩张（归母净利率 34.9%，同比 -0.8 个百分点）。网易真正的经营约束是：在收入只有低个位数增长、增量主要靠《梦幻西游》系列与《燕云十六声》等既有自研游戏长线运营的背景下，下半年《Sea of Remnants》与《Ananta》等新游能否如期接棒并贡献可持续增量。资源正投向全球化发行、新游储备与技术/AI 能力，而非简单扩大投入。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "增长引擎的青黄不接与利润率改善的可持续性存疑：Q1 收入仅 +6.1%，增量主要来自既有自研游戏（《梦幻西游》系列、《燕云十六声》）的长线运营与《漫威争锋》等全球产品，而非新品爆发；毛利率提升主因平台收入分成下降（渠道让利），且红利被营销投入、税率与汇率吸收，净利率并未扩张。下半年 Sea of Remnants 拟 Q3 上线、Ananta 处于研发期，均面临开放世界等拥挤赛道，若新品不能接棒，增长中枢可能进一步下移。",
+      "current_difficulties": [
+        {
+          "title": "利润率改善的质量与可持续性存疑",
+          "evidence": "游戏分部毛利率 74.8%（+6.0pp），公司归因于平台收入分成下降；销售及市场费用同比 +27.7% 至 34.41 亿元（占收入 11.2% vs 上年同期 9.4%）；有效税率 18.9%（vs 15.3%）叠加净汇兑损失 6.22 亿元，归母净利率 34.9%（-0.8pp）、Non-GAAP 归母净利仅 +0.3%。",
+          "implication": "毛利率红利被费用、税率与汇率吸收，经营利润端的改善未能传导到净利率；若渠道让利回摆或税率维持高位，利润结构将承压。"
+        },
+        {
+          "title": "增长引擎青黄不接，新游接棒依赖度上升",
+          "evidence": "在线游戏收入占游戏分部 97.5%、同比 +7%；收入增量主要由《梦幻西游》系列、《燕云十六声》等运营贡献；Sea of Remnants 目标 Q3 上线（货币化以角色外观为核心）、Ananta 处于研发期，开放世界赛道拥挤。",
+          "implication": "在存量产品增速温和的背景下，新游上线节奏与流水表现决定增长中枢能否抬升，延期或不及预期将压低收入增速。"
+        },
+        {
+          "title": "非游戏业务缺乏增长引擎",
+          "evidence": "有道净收入 13.48 亿元（-14% QoQ，+3.8% YoY），毛利率降至 44.7%（-2.6pp）；创新及其他业务净收入 15.49 亿元（-24% QoQ，-4.6% YoY）。",
+          "implication": "游戏以外业务持续收缩或仅温和增长，集团增长仍高度依赖游戏单一引擎，业务结构缺乏第二增长曲线。"
+        }
+      ],
+      "strategic_judgment": "管理层把资源投向三层：全球化发行与跨平台能力（《燕云十六声》Steam 全球、《漫威争锋》、《Sea of Remnants》全球发行）、新游研发储备（Ananta 以都市开放世界差异化、Sea of Remnants 以角色外观为货币化重心）、以及技术与 AI 能力强化与暴雪系列本地化内容稳定运营；同时以季度股利加 50 亿美元回购计划（已延长至 2029 年 1 月）维持股东回报。整体是用既有业务现金流支撑全球化与新游投入，而非单纯扩大资本开支。",
+      "strategic_directions": [
+        {
+          "direction": "全球化发行与跨平台渗透",
+          "rationale": "国内游戏市场 Q1 收入 +13.38%，而中国自研游戏海外收入 +31.76%，海外增速显著更高；《燕云十六声》已在 Steam 获得高评分与销量。",
+          "management_signal": "丁磊称『我们在全球推出的新品和内容展现出卓越的跨市场吸引力，为全球化战略的继续实施提供了坚实支撑』；电话会确认将增强《燕云十六声》的跨设备兼容性与全球发行能力。",
+          "validation": "《燕云十六声》《漫威争锋》海外流水占比与 Steam 端收入增速。"
+        },
+        {
+          "direction": "新游储备接棒与差异化研发",
+          "rationale": "增长引擎需要新品接棒；Sea of Remnants 目标 Q3 上线，Ananta 以都市开放世界、沉浸式日常生活体验差异化避开同质化竞争。",
+          "management_signal": "电话会确认 Sea of Remnants 于 2 月技术测试后准备下一轮测试、目标 Q3 上线；Ananta 强调『都市开放世界、非传统 RPG』的差异点。",
+          "validation": "Sea of Remnants 是否如期 Q3 上线及其首月流水；Ananta 的测试数据与版号进度。"
+        },
+        {
+          "direction": "技术与 AI 能力投入 + 长青游戏长线运营",
+          "rationale": "《梦幻西游》系列、《逆水寒》手游、《蛋仔派对》《第五人格》等长青游戏靠高频内容迭代贡献活跃与收入；公司同时强化技术/AI 能力。",
+          "management_signal": "丁磊：『我们将依旧致力于强化技术能力，聚焦内容和研发创新』；《梦幻西游》Q1 峰值在线 390 万、实现历史最高单季收入。",
+          "validation": "长青游戏季度流水与活跃数据、研发费用占收入比、AI 在内容制作与运营中的落地。"
+        }
+      ],
+      "core_conflict": "收入低增长 + 毛利率高基数红利 vs 新游不确定性与费用再投入：毛利率改善若不来自定价权而来自渠道让利，那么随着新游（可能依赖渠道合作、分成较高）占比上升或渠道政策回摆，红利存在回吐风险；而为了维持增长，公司又必须把部分利润重新投入营销与新游开发，利润率改善的可持续性存疑。",
+      "falsifier": "若下一季度在线游戏收入增速明显回落（降至中个位数以下）、Sea of Remnants / Ananta 未如期上线或首月流水明显低于预期，同时游戏分部毛利率跌破 74% 或渠道让利回摆、有效税率维持 18% 以上，则『渠道让利驱动的利润率改善 + 新游接棒』的核心判断被削弱；若 Q2/Q3 在线游戏收入增速回升、游戏毛利率维持高位且新游如期兑现增量，判断则被加强。",
+      "valuation_context": "本报告截至 2026-08-21，网易 2026 Q2 业绩已于 8 月发布，本报告定位为 Q1 复盘而非截至今日的估值判断，未将 Q2 信息倒灌入 Q1 结论。Q1 财报发布后 NTES 于 2026-05-22 下跌约 2% 至 6%+，5 月 26 日 +5.94%，主要受盈利超一致预期（Non-GAAP EPS 超预期约 15.5%）、毛利率提升与 5 月版号获批（158 个，含网易一款新游）驱动，摩根士丹利等多家券商上调目标价并维持增持/买入评级；本报告未保存可复核的一致预期序列，故不以估值倍数写成结论。",
+      "catalyst": "Sea of Remnants 如期 Q3 上线并贡献增量、Ananta 研发进展与版号获批、长青游戏流水维持、出海收入占比提升、有效税率回落、50 亿美元回购持续推进。",
+      "risk": "新游上线延期或流水不及预期、开放世界等拥挤赛道的竞争加剧、渠道让利/分成政策回摆使毛利率红利回吐、有效税率维持高位、汇率波动（Q1 汇兑损失 6.22 亿元）、游戏行业监管与版号政策不确定性、非游戏业务持续收缩。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。财务事实以网易官方披露为准；情景区间是研究假设，不是预测或投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于网易 Q1 收入同比增长 6.1% 或毛利率升至 69.4%，而在于这份利润率改善主要来自平台收入分成下降（结构性让利），且这部分红利被营销投入扩大（销售及市场费用 +27.7%）、有效税率升至 18.9% 与汇兑损失 6.22 亿元同时吸收——毛利率 +5.3 个百分点并未转化为净利率扩张（归母净利率 34.9%，同比 -0.8 个百分点）。网易真正的经营约束是：在收入只有低个位数增长、增量主要靠《梦幻西游》系列与《燕云十六声》等既有自研游戏长线运营的背景下，下半年《Sea of Remnants》与《Ananta》等新游能否如期接棒并贡献可持续增量。资源正投向全球化发行、新游储备与技术/AI 能力，而非简单扩大投入。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "增长引擎的青黄不接与利润率改善的可持续性存疑：Q1 收入仅 +6.1%，增量主要来自既有自研游戏（《梦幻西游》系列、《燕云十六声》）的长线运营与《漫威争锋》等全球产品，而非新品爆发；毛利率提升主因平台收入分成下降（渠道让利），且红利被营销投入、税率与汇率吸收，净利率并未扩张。下半年 Sea of Remnants 拟 Q3 上线、Ananta 处于研发期，均面临开放世界等拥挤赛道，若新品不能接棒，增长中枢可能进一步下移。",
+    "current_difficulties": [
+      {
+        "title": "利润率改善的质量与可持续性存疑",
+        "evidence": "游戏分部毛利率 74.8%（+6.0pp），公司归因于平台收入分成下降；销售及市场费用同比 +27.7% 至 34.41 亿元（占收入 11.2% vs 上年同期 9.4%）；有效税率 18.9%（vs 15.3%）叠加净汇兑损失 6.22 亿元，归母净利率 34.9%（-0.8pp）、Non-GAAP 归母净利仅 +0.3%。",
+        "implication": "毛利率红利被费用、税率与汇率吸收，经营利润端的改善未能传导到净利率；若渠道让利回摆或税率维持高位，利润结构将承压。"
+      },
+      {
+        "title": "增长引擎青黄不接，新游接棒依赖度上升",
+        "evidence": "在线游戏收入占游戏分部 97.5%、同比 +7%；收入增量主要由《梦幻西游》系列、《燕云十六声》等运营贡献；Sea of Remnants 目标 Q3 上线（货币化以角色外观为核心）、Ananta 处于研发期，开放世界赛道拥挤。",
+        "implication": "在存量产品增速温和的背景下，新游上线节奏与流水表现决定增长中枢能否抬升，延期或不及预期将压低收入增速。"
+      },
+      {
+        "title": "非游戏业务缺乏增长引擎",
+        "evidence": "有道净收入 13.48 亿元（-14% QoQ，+3.8% YoY），毛利率降至 44.7%（-2.6pp）；创新及其他业务净收入 15.49 亿元（-24% QoQ，-4.6% YoY）。",
+        "implication": "游戏以外业务持续收缩或仅温和增长，集团增长仍高度依赖游戏单一引擎，业务结构缺乏第二增长曲线。"
+      }
+    ],
+    "strategic_judgment": "管理层把资源投向三层：全球化发行与跨平台能力（《燕云十六声》Steam 全球、《漫威争锋》、《Sea of Remnants》全球发行）、新游研发储备（Ananta 以都市开放世界差异化、Sea of Remnants 以角色外观为货币化重心）、以及技术与 AI 能力强化与暴雪系列本地化内容稳定运营；同时以季度股利加 50 亿美元回购计划（已延长至 2029 年 1 月）维持股东回报。整体是用既有业务现金流支撑全球化与新游投入，而非单纯扩大资本开支。",
+    "strategic_directions": [
+      {
+        "direction": "全球化发行与跨平台渗透",
+        "rationale": "国内游戏市场 Q1 收入 +13.38%，而中国自研游戏海外收入 +31.76%，海外增速显著更高；《燕云十六声》已在 Steam 获得高评分与销量。",
+        "management_signal": "丁磊称『我们在全球推出的新品和内容展现出卓越的跨市场吸引力，为全球化战略的继续实施提供了坚实支撑』；电话会确认将增强《燕云十六声》的跨设备兼容性与全球发行能力。",
+        "validation": "《燕云十六声》《漫威争锋》海外流水占比与 Steam 端收入增速。"
+      },
+      {
+        "direction": "新游储备接棒与差异化研发",
+        "rationale": "增长引擎需要新品接棒；Sea of Remnants 目标 Q3 上线，Ananta 以都市开放世界、沉浸式日常生活体验差异化避开同质化竞争。",
+        "management_signal": "电话会确认 Sea of Remnants 于 2 月技术测试后准备下一轮测试、目标 Q3 上线；Ananta 强调『都市开放世界、非传统 RPG』的差异点。",
+        "validation": "Sea of Remnants 是否如期 Q3 上线及其首月流水；Ananta 的测试数据与版号进度。"
+      },
+      {
+        "direction": "技术与 AI 能力投入 + 长青游戏长线运营",
+        "rationale": "《梦幻西游》系列、《逆水寒》手游、《蛋仔派对》《第五人格》等长青游戏靠高频内容迭代贡献活跃与收入；公司同时强化技术/AI 能力。",
+        "management_signal": "丁磊：『我们将依旧致力于强化技术能力，聚焦内容和研发创新』；《梦幻西游》Q1 峰值在线 390 万、实现历史最高单季收入。",
+        "validation": "长青游戏季度流水与活跃数据、研发费用占收入比、AI 在内容制作与运营中的落地。"
+      }
+    ],
+    "core_conflict": "收入低增长 + 毛利率高基数红利 vs 新游不确定性与费用再投入：毛利率改善若不来自定价权而来自渠道让利，那么随着新游（可能依赖渠道合作、分成较高）占比上升或渠道政策回摆，红利存在回吐风险；而为了维持增长，公司又必须把部分利润重新投入营销与新游开发，利润率改善的可持续性存疑。",
+    "falsifier": "若下一季度在线游戏收入增速明显回落（降至中个位数以下）、Sea of Remnants / Ananta 未如期上线或首月流水明显低于预期，同时游戏分部毛利率跌破 74% 或渠道让利回摆、有效税率维持 18% 以上，则『渠道让利驱动的利润率改善 + 新游接棒』的核心判断被削弱；若 Q2/Q3 在线游戏收入增速回升、游戏毛利率维持高位且新游如期兑现增量，判断则被加强。",
+    "valuation_context": "本报告截至 2026-08-21，网易 2026 Q2 业绩已于 8 月发布，本报告定位为 Q1 复盘而非截至今日的估值判断，未将 Q2 信息倒灌入 Q1 结论。Q1 财报发布后 NTES 于 2026-05-22 下跌约 2% 至 6%+，5 月 26 日 +5.94%，主要受盈利超一致预期（Non-GAAP EPS 超预期约 15.5%）、毛利率提升与 5 月版号获批（158 个，含网易一款新游）驱动，摩根士丹利等多家券商上调目标价并维持增持/买入评级；本报告未保存可复核的一致预期序列，故不以估值倍数写成结论。",
+    "catalyst": "Sea of Remnants 如期 Q3 上线并贡献增量、Ananta 研发进展与版号获批、长青游戏流水维持、出海收入占比提升、有效税率回落、50 亿美元回购持续推进。",
+    "risk": "新游上线延期或流水不及预期、开放世界等拥挤赛道的竞争加剧、渠道让利/分成政策回摆使毛利率红利回吐、有效税率维持高位、汇率波动（Q1 汇兑损失 6.22 亿元）、游戏行业监管与版号政策不确定性、非游戏业务持续收缩。"
+  },
+  "sources": [
+    {
+      "id": "official-press-en",
+      "url": "https://ir.netease.com/news-releases/news-release-details/netease-announces-first-quarter-2026-unaudited-financial-results",
+      "title": "NetEase Announces First Quarter 2026 Unaudited Financial Results (English)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-21T23:52:00+08:00"
+    },
+    {
+      "id": "official-press-zh",
+      "url": "https://ir.netease.com/static-files/a4475ac1-be2d-4b39-8329-9c7446ec94d4",
+      "title": "网易公布 2026 年第一季度未经审计财务业绩（中文正式公告）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-21T23:52:00+08:00"
+    },
+    {
+      "id": "official-6k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926064764/tm2615053d1_6k.htm",
+      "title": "NetEase Form 6-K filed 2026-05-21 (SEC EDGAR)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-21T23:55:00+08:00"
+    },
+    {
+      "id": "call-highlights-163",
+      "url": "https://www.163.com/dy/article/KTG2ERG40511CVBI.html",
+      "title": "网易Q1游戏收入257亿，高管称开放世界赛道拥挤非零和博弈（网易号，含业绩电话会要点）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-22T00:05:00+08:00"
+    },
+    {
+      "id": "industry-gama",
+      "url": "https://www.36kr.com/p/3770751773098498",
+      "title": "《2026 年第一季度中国游戏产业季度报告》要点（中国音数协游戏工委 / 36氪转载）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-22T00:06:00+08:00"
+    },
+    {
+      "id": "market-reaction",
+      "url": "https://www.tradingkey.com/zh-hans/news/market-movers/261929273-market-movers-ntes-20260526",
+      "title": "网易(NTES)股票5月26日收盘上涨5.94%：原因全解读（TradingKey）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-22T00:07:00+08:00"
+    },
+    {
+      "id": "tencent-q1-context",
+      "url": "https://www.bjnews.com.cn/detail/1778665454129768.html",
+      "title": "腾讯一季度收入同比增长9%，B端业务增速跑赢C端（新京报，含腾讯游戏收入）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-08-22T00:10:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "rev",
+      "metric": "total_revenue",
+      "value": 30591.28,
+      "previous_value": 28828.55,
+      "display_value": "305.91 亿元（+6.1%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Net revenues RMB30.6 billion (US$4.4 billion), compared with RMB27.5B and RMB28.8B for the preceding quarter and same quarter of 2025.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "games-rev",
+      "metric": "segment_revenue",
+      "value": 25712.98,
+      "previous_value": 24048.01,
+      "display_value": "257.13 亿元（+6.9%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "游戏及相关增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Games and related value-added services net revenues RMB25.7 billion, +6.9% YoY.",
+      "location": "2026Q1 业绩公告 · 分部信息"
+    },
+    {
+      "id": "youdao-rev",
+      "metric": "segment_revenue",
+      "value": 1348.02,
+      "previous_value": 1298.26,
+      "display_value": "13.48 亿元（+3.8% YoY，环比 -14%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "有道",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Youdao net revenues RMB1.3 billion (US$195.4M), +3.8% YoY; QoQ decrease from learning services and smart devices.",
+      "location": "2026Q1 业绩公告 · 分部信息"
+    },
+    {
+      "id": "cloudmusic-rev",
+      "metric": "segment_revenue",
+      "value": 1981.23,
+      "previous_value": 1858.39,
+      "display_value": "19.81 亿元（+6.6%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "网易云音乐",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "NetEase Cloud Music net revenues RMB2.0 billion (US$287.2M), +6.6% YoY.",
+      "location": "2026Q1 业绩公告 · 分部信息"
+    },
+    {
+      "id": "innovative-rev",
+      "metric": "segment_revenue",
+      "value": 1549.05,
+      "previous_value": 1623.89,
+      "display_value": "15.49 亿元（-4.6% YoY，环比 -24%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "创新及其他业务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Innovative businesses and others net revenues RMB1.5 billion (US$224.6M), -4.6% YoY; QoQ decrease from e-commerce and advertising.",
+      "location": "2026Q1 业绩公告 · 分部信息"
+    },
+    {
+      "id": "online-games",
+      "metric": "online_games_revenue",
+      "value": 25070.15,
+      "previous_value": 23446.81,
+      "display_value": "250.70 亿元（+7% YoY，占游戏分部 97.5%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-press-zh",
+        "call-highlights-163"
+      ],
+      "evidence": "在线游戏净收入约占游戏分部净收入的 97.5%；按 97.5% × 游戏分部收入 25,712,975 千元测算约 250.70 亿元，与业绩电话会口径（在线游戏收入约 251 亿元，+7% YoY）一致。",
+      "location": "2026Q1 业绩公告 · 净收入段 + 电话会"
+    },
+    {
+      "id": "cost",
+      "metric": "cost_of_revenues",
+      "value": 9374.21,
+      "previous_value": 10349.14,
+      "display_value": "93.74 亿元（-9.4%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Cost of revenues RMB9.4 billion, -9.4% YoY; decrease mainly from lower platform revenue share.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "gp",
+      "metric": "gross_profit",
+      "value": 21217.07,
+      "previous_value": 18479.41,
+      "display_value": "212.17 亿元（+14.8%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Gross profit RMB21.2 billion (US$3.1 billion), +14.8% YoY.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "gpm",
+      "metric": "gross_margin",
+      "value": 69.4,
+      "previous_value": 64.1,
+      "display_value": "69.4%（+5.3pp）",
+      "currency": "CNY",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Gross profit / net revenues = 21,217,072 / 30,591,281 = 69.4%；上年同期 18,479,406 / 28,828,545 = 64.1%。",
+      "location": "测算（业绩公告数据）"
+    },
+    {
+      "id": "games-gm",
+      "metric": "segment_gross_margin",
+      "value": 74.8,
+      "previous_value": 68.8,
+      "display_value": "游戏分部毛利率 74.8%（+6.0pp）",
+      "currency": "CNY",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": "游戏及相关增值服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Games gross profit 19,230,544 / revenue 25,712,975 = 74.8%；上年同期 16,552,745 / 24,048,007 = 68.8%。",
+      "location": "测算（业绩公告分部信息）"
+    },
+    {
+      "id": "sm",
+      "metric": "sales_and_marketing_expenses",
+      "value": 3441.49,
+      "previous_value": 2695.6,
+      "display_value": "34.41 亿元（+27.7%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Selling and marketing expenses RMB3,441,485 thousand, +27.7% YoY.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "ga",
+      "metric": "general_and_administrative_expenses",
+      "value": 636.6,
+      "previous_value": 956.34,
+      "display_value": "6.37 亿元（-33.4%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "General and administrative expenses RMB636,597 thousand, -33.4% YoY.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "rd",
+      "metric": "research_and_development_expenses",
+      "value": 4482.16,
+      "previous_value": 4386.31,
+      "display_value": "44.82 亿元（+2.2%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Research and development expenses RMB4,482,157 thousand, +2.2% YoY.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "opinc",
+      "metric": "operating_income",
+      "value": 12656.83,
+      "previous_value": 10441.16,
+      "display_value": "126.57 亿元（+21.2%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Operating profit RMB12,656,833 thousand, +21.2% YoY.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "opm",
+      "metric": "operating_margin",
+      "value": 41.4,
+      "previous_value": 36.2,
+      "display_value": "营业利润率 41.4%（+5.2pp）",
+      "currency": "CNY",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Operating profit / revenue = 12,656,833 / 30,591,281 = 41.4%；上年同期 10,441,159 / 28,828,545 = 36.2%。",
+      "location": "测算（业绩公告数据）"
+    },
+    {
+      "id": "ni",
+      "metric": "net_income",
+      "value": 10845.6,
+      "previous_value": 10546.77,
+      "display_value": "108.46 亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Net income RMB10,845,604 thousand, vs RMB10,546,771 thousand a year ago.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "ni-attrib",
+      "metric": "netease_net_income_attributable",
+      "value": 10674.11,
+      "previous_value": 10301.16,
+      "display_value": "106.74 亿元（+3.6%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Net income attributable to the Company's shareholders RMB10,674,106 thousand, +3.6% YoY.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    },
+    {
+      "id": "ni-nongaap",
+      "metric": "netease_non_gaap_net_income",
+      "value": 11274.82,
+      "previous_value": 11236.73,
+      "display_value": "112.75 亿元（+0.3%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Non-GAAP net income attributable to shareholders RMB11,274,824 thousand, +0.3% YoY (vs 11,236,727).",
+      "location": "2026Q1 业绩公告 · GAAP/Non-GAAP 调节表"
+    },
+    {
+      "id": "ocf",
+      "metric": "operating_cash_flow",
+      "value": 13733.07,
+      "previous_value": 12106.65,
+      "display_value": "137.33 亿元（+13.4%）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Net cash provided by operating activities RMB13,733,071 thousand, vs RMB12,106,652 thousand a year ago.",
+      "location": "2026Q1 业绩公告 · 简明合并现金流量表"
+    },
+    {
+      "id": "fcf",
+      "metric": "netease_free_cash_flow",
+      "value": 13130.9,
+      "display_value": "131.31 亿元（经营现金流 - 资本开支 - 内容/版权购置）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "13,733,071 - 312,148 (PP&E purchase) - 290,019 (intangible/content/copyright purchase) = 13,130,904 千元。公司未单列自由现金流，本值为测算口径。",
+      "location": "测算（业绩公告现金流量表）"
+    },
+    {
+      "id": "capex",
+      "metric": "capital_expenditure",
+      "value": 312.15,
+      "display_value": "3.12 亿元（购建物业、设备及软件）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Purchase of property, equipment and software RMB312,148 thousand.",
+      "location": "2026Q1 业绩公告 · 简明合并现金流量表"
+    },
+    {
+      "id": "content",
+      "metric": "intangible_content_purchase",
+      "value": 290.02,
+      "display_value": "2.90 亿元（无形资产、内容及版权购置）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en"
+      ],
+      "evidence": "Purchase of intangible assets, content and licensed copyrights RMB290,019 thousand.",
+      "location": "2026Q1 业绩公告 · 简明合并现金流量表"
+    },
+    {
+      "id": "cash",
+      "metric": "cash_and_cash_equivalents",
+      "value": 50815.21,
+      "display_value": "508.15 亿元（2026-03-31）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-zh"
+      ],
+      "evidence": "Cash and cash equivalents RMB50,815,211 thousand at 2026-03-31.",
+      "location": "2026Q1 业绩公告 · 简明合并资产负债表"
+    },
+    {
+      "id": "st-inv",
+      "metric": "short_term_investments",
+      "value": 39978.72,
+      "display_value": "399.79 亿元（2026-03-31）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-zh"
+      ],
+      "evidence": "Short-term investments RMB39,978,723 thousand at 2026-03-31.",
+      "location": "2026Q1 业绩公告 · 简明合并资产负债表"
+    },
+    {
+      "id": "net-cash",
+      "metric": "net_cash",
+      "value": 167500,
+      "display_value": "1,675 亿元（公司披露净现金，2026-03-31）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-zh"
+      ],
+      "evidence": "公司披露：截至 2026-03-31 净现金（现金及现金等价物、流动及非流动定期存款和受限制现金以及短期投资余额，扣除短期和长期借款）为人民币 1,675 亿元，2025-12-31 为 1,635 亿元。",
+      "location": "2026Q1 业绩公告 · 其他财务信息"
+    },
+    {
+      "id": "div",
+      "metric": "quarterly_dividend",
+      "value": 0.72,
+      "previous_value": 1.16,
+      "display_value": "0.72 美元/ADS（较 2025 Q4 的 1.16 美元/ADS 下降）",
+      "currency": "USD",
+      "unit": "usd_per_ads",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-zh"
+      ],
+      "evidence": "董事会批准 2026Q1 股利每股 0.144 美元（每 ADS 0.720 美元）；2025Q4 股利为每股 0.232 美元（每 ADS 1.16 美元）。",
+      "location": "2026Q1 业绩公告 · 季度股利"
+    },
+    {
+      "id": "buyback",
+      "metric": "share_buyback_cumulative",
+      "value": 2100,
+      "display_value": "约 21 亿美元（截至 2026-03-31 累计回购约 23.2M ADS）",
+      "currency": "USD",
+      "unit": "usd_million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-zh"
+      ],
+      "evidence": "50 亿美元回购计划延长至 2029-01-09；截至 2026-03-31 已回购约 23.2 百万股 ADS，共计约 21 亿美元。",
+      "location": "2026Q1 业绩公告 · 股份回购计划"
+    },
+    {
+      "id": "tax-rate",
+      "metric": "effective_tax_rate",
+      "value": 18.9,
+      "previous_value": 15.3,
+      "display_value": "有效税率 18.9%（上年同期 15.3%、上季 16.4%）",
+      "currency": "CNY",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "2026Q1 所得税费用 RMB2,523,838 thousand，有效税率 18.9%，上年同期 15.3%。",
+      "location": "2026Q1 业绩公告 · 所得税段"
+    },
+    {
+      "id": "fx-loss",
+      "metric": "foreign_exchange_loss",
+      "value": 622.11,
+      "display_value": "净汇兑损失 6.22 亿元（上年同期为净收益 0.02 亿元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-press-en",
+        "official-press-zh"
+      ],
+      "evidence": "Exchange losses, net RMB(622,108) thousand vs gain RMB1,803 thousand a year ago.",
+      "location": "2026Q1 业绩公告 · 简明合并利润表"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务拆解",
+      "claims": [
+        {
+          "text": "【财报事实】2026Q1 净收入 305.91 亿元（+6.1% YoY、+11.0% QoQ），游戏及相关增值服务 257.13 亿元（+6.9%），在线游戏占游戏分部净收入 97.5%；在线游戏净收入同比、环比增加主要来自《梦幻西游》系列和《燕云十六声》等自研游戏净收入提升。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【财报事实】有道净收入 13.48 亿元（+3.8% YoY、环比 -14%，主因学习服务与智能硬件收入下降）；网易云音乐 19.81 亿元（+6.6%）；创新及其他业务 15.49 亿元（-4.6% YoY、-24% QoQ，主因电商与广告收入下降）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【测算】集团毛利率 69.4%（+5.3pp）；游戏分部毛利率 74.8%（+6.0pp）、有道 44.7%（-2.6pp）、网易云音乐 37.1%（+0.3pp）、创新及其他 42.0%（+3.2pp）。毛利率提升主要来自平台收入分成下降。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【推断】增长引擎正从『新品上线拉动』切换为『既有自研游戏长线运营』：Q1 收入增量主要由《梦幻西游》系列、《燕云十六声》等存量产品的运营迭代贡献，而非新品爆发；若下半年 Sea of Remnants 与 Ananta 不能如期接棒，增长中枢将依赖存量产品增速。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-press-zh",
+            "call-highlights-163"
+          ],
+          "falsifier": "若 Q2/Q3 出现新品单季贡献显著增量（如 Sea of Remnants 首月流水显著高于预期），则『增量依赖存量产品』的判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本效率",
+      "claims": [
+        {
+          "text": "【财报事实】营业成本 93.74 亿元（-9.4% YoY），占收入比由 35.9% 降至 30.6%；环比减少主要由于产品成本下降，同比减少主要由于平台收入分成下降。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【财报事实】营业费用合计 85.60 亿元（+6.5%）：销售及市场费用 34.41 亿元（+27.7%，占收入 11.2% vs 9.4%）、研发费用 44.82 亿元（+2.2%）、一般及管理费用 6.37 亿元（-33.4%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【推断】毛利率 +5.3pp 的改善并未全部落到净利率：归母净利率 34.9%（-0.8pp），因销售及市场费用扩投、有效税率升至 18.9% 与净汇兑损失 6.22 亿元共同吸收；若营销费用率不能回落或税率维持高位，利润结构改善仍受限。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ],
+          "falsifier": "若下一季度净利率随毛利率同步扩张（归母净利率回到 36% 以上），则『毛利率红利被费用/税/汇率吸收』的判断需下调。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "现金与资产",
+      "claims": [
+        {
+          "text": "【财报事实】经营活动净现金流入 137.33 亿元（+13.4% YoY）；投资活动净流出 77.64 亿元（主因三个月内短期投资净投放 157.66 亿元与定期存款腾挪）；融资活动净流出 17.98 亿元（股利支付 51.56 亿元、回购 ADS 13.14 亿元，新增借款部分对冲）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【测算】自由现金流约 131.31 亿元（经营现金流 137.33 - 购建物业设备软件 3.12 - 无形资产/内容/版权购置 2.90），经营现金流对资本开支保持高覆盖，公司无需外部融资即可支撑投入。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en"
+          ]
+        },
+        {
+          "text": "【财报事实】截至 2026-03-31 净现金 1,675 亿元（2025-12-31 为 1,635 亿元）；现金及现金等价物 508.15 亿元、短期投资 399.79 亿元、定期存款 831.55 亿元（含非流动 30.45 亿元），短期借款 109.55 亿元（较年初 63.84 亿元增加）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "【财报事实】丁磊（CEO）：『2026 年第一季度，我们又一次展现了稳健的季度业绩，我们拥有优秀的游戏产品矩阵，新游戏的开发也在稳步推进』；『我们在全球推出的新品和内容展现出卓越的跨市场吸引力，为全球化战略的继续实施提供了坚实支撑』；『我们将依旧致力于强化技术能力，聚焦内容和研发创新』。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【财报事实】电话会披露：《Sea of Remnants》于 2 月技术测试后准备下一轮测试，目标 Q3 上线，货币化以角色外观为核心；《Ananta》以『都市开放世界、沉浸式日常生活体验』差异化切入拥挤的开放世界赛道。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-highlights-163"
+          ]
+        },
+        {
+          "text": "【财报事实】《梦幻西游》Q1 峰值在线 390 万，实现历史最高单季收入；《燕云十六声》在 Steam 获高评分与销量，公司计划增强跨设备兼容性与全球发行能力；暴雪系列本地化内容稳定更迭。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "official-press-zh",
+            "call-highlights-163"
+          ]
+        },
+        {
+          "text": "【推断】管理层把资源投向全球化发行、新游储备与技术/AI 能力，而非简单扩大资本开支；验证信号是 Sea of Remnants 如期 Q3 上线及其首月流水、以及新游在全球市场的落地进度。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-press-zh",
+            "call-highlights-163"
+          ],
+          "falsifier": "若 Sea of Remnants 延期上线或公司明显收缩全球化投入，则『资源投向全球化与新游』的判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "【外部事实】腾讯 2026Q1 本土市场游戏收入 454 亿元（+6% YoY）、国际市场游戏收入 188 亿元（+13%），《王者荣耀》等长青游戏流水创新高——同业竞争仍以长青游戏长线运营为主轴，与网易形成直接对标。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "tencent-q1-context"
+          ]
+        },
+        {
+          "text": "【外部事实】2026Q1 中国游戏市场实际销售收入 971.72 亿元（+13.38% YoY）：移动 676.23 亿元（+6.28%）、客户端 249.76 亿元（+39.38%，端游占比升至 25.7%）；中国自研游戏海外销售收入 63.31 亿美元（+31.76%）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "industry-gama"
+          ]
+        },
+        {
+          "text": "【推断】端游复苏与出海高增长对网易构成结构性顺风（网易端游/PC 能力强、出海占比提升），但开放世界等新游赛道拥挤，竞争加剧可能推高获客成本；验证信号是新游首发获客成本与流水表现。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "industry-gama",
+            "call-highlights-163"
+          ],
+          "falsifier": "若网易新游在拥挤赛道中首发获客成本显著低于同业且流水超预期，则『竞争推高获客成本』的判断被削弱。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部变量",
+      "claims": [
+        {
+          "text": "【外部事实】监管：国家新闻出版署持续按月发放版号，2026 年 5 月批准 158 个游戏版号（含网易一款新游），版号常态化有利于新品排期；行业监管与未成年人保护政策仍是长期变量。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "market-reaction"
+          ]
+        },
+        {
+          "text": "【财报事实】汇率：2026Q1 确认净汇兑损失 6.22 亿元（上年同期为收益 0.02 亿元）；人民币对美元按 2026-03-31 汇率 6.8980 折算。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【财报事实】税率：2026Q1 所得税费用 25.24 亿元，有效税率 18.9%（vs 上年同期 15.3%、上季 16.4%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh"
+          ]
+        },
+        {
+          "text": "【推断】有效税率上行与汇兑损失属外部/阶段性因素，若后续季度回落将部分释放利润；若税率中枢系统性上移，则对净利率形成持续压制。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-press-en"
+          ],
+          "falsifier": "若 Q2 有效税率回落至 16% 附近且汇兑转正，则『税率与汇率压制利润』的判断仅适用于本期。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场定价",
+      "claims": [
+        {
+          "text": "【外部事实】NTES 于 2026-05-21 盘后发布 Q1 财报，次日（5/22）股价下跌约 2% 至 6%+，5 月 26 日回升 +5.94%，主因盈利超一致预期（Non-GAAP EPS 超预期约 15.5%）、毛利率提升至 69.4%，以及 5 月版号获批（158 个，含网易一款新游）；摩根士丹利等多家券商上调目标价并维持增持/买入评级。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "market-reaction"
+          ]
+        },
+        {
+          "text": "【外部事实】市场对财报的即时反应偏平淡甚至下跌，被解读为收入增速（+6.1%）基本符合或略低于部分更高预期，且 Q1 每股股利 0.72 美元/ADS 较上季 1.16 美元/ADS 明显下降，引发对资本配置与现金流展望的讨论。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "market-reaction",
+            "official-press-zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "情景与验证",
+      "claims": [
+        {
+          "text": "【情景】乐观（25%）：Sea of Remnants 如期 Q3 上线且首月流水超预期、长青游戏流水维持且在线游戏增速回到双位数、有效税率回落至 16% 以下且汇兑转正、出海收入占比继续提升。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "official-press-zh",
+            "call-highlights-163"
+          ],
+          "falsifier": "新游上线延期或流水不及预期将退出乐观情景。"
+        },
+        {
+          "text": "【情景】中性（50%）：在线游戏收入增速维持 5%-8%、游戏毛利率维持在 73%-75%、Sea of Remnants 上线但流水温和、有效税率 16%-19%。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-press-zh"
+          ],
+          "falsifier": "新游流水明显超预期或渠道让利回摆将偏离中性情景。"
+        },
+        {
+          "text": "【情景】悲观（25%）：新游延期或首月流水明显低于预期、渠道让利回摆或新游依赖高分成渠道致游戏毛利率跌破 72%、有效税率维持 18% 以上且汇兑继续拖累、开放世界竞争加剧推高营销费用。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "official-press-zh",
+            "call-highlights-163"
+          ],
+          "falsifier": "若 Q2/Q3 收入与毛利率同步企稳则退出悲观情景。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究结论",
+      "claims": [
+        {
+          "text": "【研究结论】网易 Q1 的真实信号不在 6.1% 的收入增速，也不在 69.4% 的毛利率，而在『渠道让利驱动的毛利率改善 + 新游接棒的待验证性』：经营利润 +21.2%、营业利润率 +5.2pp 证明经营端改善真实，但营销扩投、税率升至 18.9% 与汇兑损失使净利率未同步扩张；增长仍依赖《梦幻西游》系列、《燕云十六声》等存量产品，下半年 Sea of Remnants 与 Ananta 是唯一的新增变量。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-press-en",
+            "official-press-zh",
+            "call-highlights-163"
+          ],
+          "falsifier": "若下一季度净利率随毛利率同步扩张、在线游戏收入增速回到双位数且新游如期兑现，则当前中性偏谨慎的判断需要上调。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1-consensus",
+        "question": "市场共识：Q1 毛利率大幅提升至 69.4% 且 EPS 超预期，是否等于盈利质量改善？",
+        "answer": "部分成立但被夸大。毛利率提升主要来自平台收入分成下降（渠道让利），并非定价权或经营杠杆提升；且销售及市场费用 +27.7%、有效税率升至 18.9%、净汇兑损失 6.22 亿元共同吸收红利，归母净利率 34.9%（-0.8pp）、Non-GAAP 归母净利仅 +0.3%，净利率并未扩张。",
+        "counterevidence": "归母净利率不升反降；营业利润 +21.2% 说明经营端确实改善，问题出在营业利润以下（税、汇兑）与费用再投入。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en",
+          "official-press-zh"
+        ]
+      },
+      {
+        "id": "q2-assumption",
+        "question": "共识隐含假设：毛利率提升可持续，且能传导到净利率？",
+        "answer": "该假设成立需要三个条件：渠道让利不回摆、营销费用率回落、有效税率回到 16% 以下。Q1 显示三者均未兑现（营销费用率上升 1.9pp、税率上升 3.6pp），因此净利率传导的前提在 Q1 不成立。",
+        "counterevidence": "有道毛利率反而下降 2.6pp；S&M 费用率上升，说明部分板块与费用项在恶化。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en"
+        ]
+      },
+      {
+        "id": "q3-contradiction",
+        "question": "本季度最抗拒共识的事实是什么？",
+        "answer": "收入 +6.1%、毛利率 +5.3pp，但归母净利仅 +3.6%、净利率 -0.8pp、Non-GAAP 归母净利 +0.3%。利润率改善没有转化为净利率扩张，这与『毛利率提升=盈利质量改善』的共识直接矛盾。",
+        "counterevidence": "营业利润 +21.2%、营业利润率 +5.2pp，经营层面确实改善，矛盾集中在税、汇兑与费用项。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en"
+        ]
+      },
+      {
+        "id": "q4-mechanism",
+        "question": "毛利率改善的传导机制是什么？",
+        "answer": "自研游戏占比提升 + 平台收入分成下降 → 游戏分部毛利率 +6.0pp → 集团毛利率 +5.3pp；同一季度公司加大营销与全球发行投入（S&M +27.7%）、有效税率上升 3.6pp、汇兑由小幅收益转为 6.22 亿元损失，使经营利润端的改善在净利端被部分抵消。",
+        "counterevidence": "营业利润仍 +21.2%，说明经营端改善是真实的；抵消发生在营业利润以下（税、汇兑）与费用再投入。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en",
+          "official-press-zh"
+        ]
+      },
+      {
+        "id": "q5-timing",
+        "question": "为什么毛利率红利在 Q1 出现，而不是更早或更晚？",
+        "answer": "渠道分成下降通常与自研产品占比提升和与渠道重新议价有关；Q1 恰逢公司自研产品线成熟（《梦幻西游》系列、《燕云十六声》）、以及平台分成政策调整，叠加春节档（2026 年春节较晚）拉动流水。",
+        "counterevidence": "公司未给出该红利的明确持续性判断，渠道政策存在回摆可能，无法确定是一次性还是结构性。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-zh",
+          "call-highlights-163"
+        ]
+      },
+      {
+        "id": "q6-alternative",
+        "question": "是否可用季节性、基数效应或会计列报解释同一观察？",
+        "answer": "部分成立。Q1 含春节档，流水与收入有季节性拉动；但毛利率提升是结构性（分成下降），非纯季节性；S&M 上升反映全球发行投入而非一次性。基数方面，Q1 2025 毛利率 64.1% 已是同期可比，同比 +5.3pp 并非低基数所致。",
+        "counterevidence": "有道、云音乐等板块毛利变化方向各异，单一季节性无法解释分板块差异。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en"
+        ]
+      },
+      {
+        "id": "q7-counterfactual",
+        "question": "若渠道让利（分成下降）不存在，结果会怎样？",
+        "answer": "游戏分部毛利率将回到约 69% 附近，集团毛利率约 64%，营业利润率与净利率将明显低于当前水平；在收入仅 +6% 的背景下，利润弹性会更弱，营业利润增速（+21.2%）将大幅收窄。",
+        "counterevidence": "该推演无法直接观测，属反事实分析；分成下降的幅度未在公告中单独量化。",
+        "status": "unresolved",
+        "source_ids": [
+          "official-press-en"
+        ]
+      },
+      {
+        "id": "q8-second-order",
+        "question": "若毛利率红利被确认，会带来哪些二阶影响？",
+        "answer": "公司可能把红利持续投入新游研发与全球发行（S&M 与研发），形成『毛利率高、净利率稳定』的新常态；若渠道让利回摆、同时新游依赖高分成渠道（如外部平台合作），则利润率将双重承压，增长投入的回报率成为关键变量。",
+        "counterevidence": "无直接反证，属二阶推演；需观察后续季度费用与分成结构。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en",
+          "call-highlights-163"
+        ]
+      },
+      {
+        "id": "q9-bull-bear",
+        "question": "最强多头与空头分别会怎么说？",
+        "answer": "多头：现金流强劲（OCF 137.33 亿元、净现金 1,675 亿元）、毛利率结构性改善、端游复苏与出海高增长顺风、新游储备（Sea of Remnants、Ananta）兑现可抬升增速、50 亿美元回购 + 季度股利回报股东。空头：收入低增长依赖存量、新游开放世界赛道拥挤且延期风险、股利环比 -38% 引发资本配置疑虑、税率与汇率压制利润、非游戏业务持续萎缩。",
+        "counterevidence": "双方证据分别见财务事实与外部变量；关键在于新游兑现与税率/汇率走向。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en",
+          "market-reaction",
+          "call-highlights-163"
+        ]
+      },
+      {
+        "id": "q10-priced-in",
+        "question": "哪些信息可能已被市场定价？",
+        "answer": "5 月 26 日 +5.94% 与券商上调目标价已部分计入盈利超预期（Non-GAAP EPS 超预期约 15.5%）与 5 月版号利好；但收入低增速与对新游兑现的担忧仍在定价中，随后股价在 127.89 一线回落 -4.14% 的行情显示多空分歧。",
+        "counterevidence": "缺乏可复核的一致预期序列，无法精确量化『已定价』程度。",
+        "status": "answered",
+        "source_ids": [
+          "market-reaction"
+        ]
+      },
+      {
+        "id": "q11-falsifier",
+        "question": "什么下一季度观测会推翻当前判断？",
+        "answer": "若 Q2 在线游戏收入增速降至中个位数以下、Sea of Remnants / Ananta 延期或首月流水明显低于预期、游戏分部毛利率跌破 74%、有效税率维持 18% 以上，则『渠道让利驱动 + 新游接棒』的核心判断被削弱；反之若在线游戏增速回升、毛利率维持高位且新游兑现，判断需上调。",
+        "counterevidence": "无直接反证，该问题定义了可证伪边界。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-zh",
+          "call-highlights-163"
+        ]
+      },
+      {
+        "id": "q12-decision-relevance",
+        "question": "该判断会改变什么决策相关变量？",
+        "answer": "会改变对『利润增长质量』的评估方式（以经营利润 vs 净利润为锚）、新游上线节奏的监控优先级、以及有效税率与汇兑对净利的敏感性；若净利率持续不能随毛利率改善，市场对网易的盈利预期应从『利润改善』转向『费用与税率结构』。",
+        "counterevidence": "无直接反证，属研究框架层面结论。",
+        "status": "answered",
+        "source_ids": [
+          "official-press-en"
+        ]
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "毛利率红利被税、汇率与费用再投入吸收：净利率不升反降",
+        "consensus_view": "毛利率大幅提升至 69.4% = 盈利质量改善，EPS 超预期得到确认。",
+        "new_view": "毛利率 +5.3pp 的改善几乎全部被营销扩投（+27.7%）、有效税率升至 18.9% 与净汇兑损失 6.22 亿元吸收，归母净利率反而 -0.8pp、Non-GAAP 归母净利仅 +0.3%——经营端（营业利润 +21.2%）与股东端（净利率下滑）出现明显分层。",
+        "mechanism": "自研占比提升 + 平台分成下降 → 毛利率扩张 → 但公司把红利再投入营销与全球发行（S&M 费用率 9.4%→11.2%），叠加税率 +3.6pp 与汇兑转亏，利润在营业利润以下被逐项抵消。",
+        "implication": "若以净利率衡量，网易 Q1 的『利润率改善』尚未兑现；市场应以营业利润率与税率/汇兑敏感性作为跟踪锚，而不是净利润的同比数字。",
+        "source_ids": [
+          "official-press-en",
+          "official-press-zh"
+        ],
+        "counterevidence": "营业利润 +21.2%、营业利润率 +5.2pp，经营层面确实改善，分层集中在税、汇兑与费用项。",
+        "falsifier": "若下一季度归母净利率回升至 36% 以上且与毛利率同步扩张，则『红利被吸收』的判断被削弱。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 12
+      },
+      {
+        "id": "insight-2",
+        "title": "渠道让利驱动的毛利率改善是『再分配』而非『定价权』，可持续性取决于自研占比与渠道政策",
+        "consensus_view": "毛利率提升说明网易对渠道/玩家有更强议价或定价能力。",
+        "new_view": "毛利率改善主要来自平台收入分成下降（渠道让利），是渠道链条上的再分配，而非产品定价权提升；其可持续性取决于自研游戏占比能否维持高位、以及渠道分成政策是否回摆。若新游（可能依赖外部渠道合作、分成较高）占比上升，红利存在回吐风险。",
+        "mechanism": "自研游戏占比提升 + 与渠道重新议价 → 平台分成下降 → 游戏分部毛利率 +6.0pp；但渠道分成是双边议价结果，非公司单方可控。",
+        "implication": "毛利率红利应视为『阶段性的结构性顺风』而非『盈利能力的永久抬升』；新游发行方式（自研渠道 vs 平台分成）将决定红利能否延续。",
+        "source_ids": [
+          "official-press-en",
+          "official-press-zh"
+        ],
+        "counterevidence": "公司未披露分成下降的具体幅度与持续性；若未来重新依赖高分成渠道，红利将回吐。",
+        "falsifier": "若下一季度游戏分部毛利率跌破 74%，或公司披露新游采用高分成渠道合作，则『红利可持续』的判断需下调。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-3",
+        "title": "增长引擎从新品驱动切换为长青游戏长线运营，新游成为唯一增量变量",
+        "consensus_view": "网易是『新品驱动的游戏公司』，Q1 增长靠新品。",
+        "new_view": "Q1 收入增量主要由《梦幻西游》系列、《燕云十六声》等既有自研游戏的长线运营贡献（在线游戏 +7%），而非新品爆发；下半年 Sea of Remnants（拟 Q3）与 Ananta 成为唯一的新增变量，而它们均面临开放世界等拥挤赛道，增长中枢能否抬升完全押注于这两款新游的兑现。",
+        "mechanism": "存量产品高频内容迭代（春节档运营、PC 版峰值 390 万）支撑基本盘；新品储备的排期与流水决定增量，赛道拥挤抬高不确定性。",
+        "implication": "对网易增长的监控重点应从『整体收入增速』转向『新游上线日历 + 首月流水 + 长青游戏流水』，这两个变量决定 2026 下半年增长中枢。",
+        "source_ids": [
+          "official-press-zh",
+          "call-highlights-163"
+        ],
+        "counterevidence": "《燕云十六声》《漫威争锋》仍处放量期，也可视为次新品的增量贡献，不完全是无新品。",
+        "falsifier": "若 Q2/Q3 出现新品单季显著贡献（Sea of Remnants 首月流水明显超预期），则『增量依赖存量』的判断不成立。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "Sea of Remnants 如期 Q3 上线且首月流水明显超预期",
+        "长青游戏流水维持，在线游戏收入增速回到双位数",
+        "有效税率回落至 16% 以下且汇兑转正",
+        "出海收入占比继续提升，端游复苏持续"
+      ],
+      "segment_profit_range": [
+        95,
+        110
+      ],
+      "group_profit_range": [
+        110,
+        130
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "在线游戏收入增速维持 5%-8%",
+        "游戏分部毛利率维持在 73%-75%",
+        "Sea of Remnants 上线但首月流水温和",
+        "有效税率维持在 16%-19%"
+      ],
+      "segment_profit_range": [
+        85,
+        95
+      ],
+      "group_profit_range": [
+        95,
+        110
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "新游延期或首月流水明显低于预期",
+        "渠道让利回摆或新游依赖高分成渠道，游戏分部毛利率跌破 72%",
+        "有效税率维持 18% 以上且汇兑继续拖累",
+        "开放世界等赛道竞争加剧，推高营销费用"
+      ],
+      "segment_profit_range": [
+        72,
+        85
+      ],
+      "group_profit_range": [
+        78,
+        95
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "网易不披露分部经营利润，分部利润率以毛利润率列示；自由现金流为测算口径（经营现金流 - 资本开支 - 内容/版权购置），非公司披露值。",
+      "Sea of Remnants / Ananta 等新游信息来自业绩电话会第三方转述（Tier 3），以公司后续公告为准。",
+      "本报告截至 2026-08-21，网易 2026 Q2 业绩已发布，本报告定位为 Q1 复盘。"
+    ]
+  }
+}
