@@ -1,0 +1,582 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "0700-hk-fy2025",
+  "generated_at": "2026-08-22T07:15:20.575217+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "腾讯控股",
+    "ticker": "0700.HK",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "腾讯 2025 年已把 AI 转化为广告定价、游戏参与和云利润的增量，且自由现金流增长 18%；下一阶段的难点是加大 AI 人才与基础设施投入后仍维持高质量现金回报。",
+    "conclusion_summary": {
+      "rating": "积极",
+      "confidence": "medium",
+      "primary_difficulty": "在扩大 AI 投入时维持自由现金流增速",
+      "current_difficulties": [
+        {
+          "title": "在扩大 AI 投入时维持自由现金流增速",
+          "evidence": "收入增长 14%、非 IFRS 经营利润增长 18%、自由现金流增长 18%；资本开支 792 亿元、增长 3%，管理层计划继续提高 AI 投入。",
+          "implication": "当前回报闭环优于多数同业，但投入加速后仍需验证利润增速是否继续快于收入。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“用 AI 强化广告、游戏、云并孵化原生应用”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "用 AI 强化广告、游戏、云并孵化原生应用",
+          "rationale": "成熟业务提供强现金流，但 AI 原生产品与算力扩张可能降低短期资本效率。",
+          "management_signal": "管理层明确把资金投向顶级 AI 人才、基础设施、混元 3.0 与元宝等产品。",
+          "validation": "广告定价、云增长与利润、资本开支和自由现金流。"
+        }
+      ],
+      "core_conflict": "成熟业务提供强现金流，但 AI 原生产品与算力扩张可能降低短期资本效率。",
+      "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。",
+      "valuation_context": "不使用即时股价；应以非 IFRS 利润增长与自由现金流覆盖资本开支的稳定性评估。",
+      "catalyst": "游戏长青化、AI 广告定价、云利润率提升、元宝等 AI 应用活跃。",
+      "risk": "游戏与内容监管、AI 投入效率、投资组合波动、宏观广告需求。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "腾讯 2025 年已把 AI 转化为广告定价、游戏参与和云利润的增量，且自由现金流增长 18%；下一阶段的难点是加大 AI 人才与基础设施投入后仍维持高质量现金回报。",
+    "rating": "积极",
+    "confidence": "medium",
+    "primary_difficulty": "在扩大 AI 投入时维持自由现金流增速",
+    "current_difficulties": [
+      {
+        "title": "在扩大 AI 投入时维持自由现金流增速",
+        "evidence": "收入增长 14%、非 IFRS 经营利润增长 18%、自由现金流增长 18%；资本开支 792 亿元、增长 3%，管理层计划继续提高 AI 投入。",
+        "implication": "当前回报闭环优于多数同业，但投入加速后仍需验证利润增速是否继续快于收入。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“用 AI 强化广告、游戏、云并孵化原生应用”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "用 AI 强化广告、游戏、云并孵化原生应用",
+        "rationale": "成熟业务提供强现金流，但 AI 原生产品与算力扩张可能降低短期资本效率。",
+        "management_signal": "管理层明确把资金投向顶级 AI 人才、基础设施、混元 3.0 与元宝等产品。",
+        "validation": "广告定价、云增长与利润、资本开支和自由现金流。"
+      }
+    ],
+    "core_conflict": "成熟业务提供强现金流，但 AI 原生产品与算力扩张可能降低短期资本效率。",
+    "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。",
+    "valuation_context": "不使用即时股价；应以非 IFRS 利润增长与自由现金流覆盖资本开支的稳定性评估。",
+    "catalyst": "游戏长青化、AI 广告定价、云利润率提升、元宝等 AI 应用活跃。",
+    "risk": "游戏与内容监管、AI 投入效率、投资组合波动、宏观广告需求。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://static.www.tencent.com/uploads/2026/03/18/bd32d8ee320b72f0d72d545fd2d65851.pdf",
+      "title": "Tencent 2025 Annual and Fourth Quarter Results",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 751800000000,
+      "display_value": "7,518亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY total revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 660257000000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 241600000000,
+      "display_value": "IFRS经营利润2,416亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "IFRS operating profit",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 224800000000,
+      "display_value": "归母净利2,248亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "IFRS attributable profit",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "free_cash_flow",
+      "metric": "free_cash_flow",
+      "value": 182600000000,
+      "display_value": "自由现金流1,826亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Free cash flow",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "cash_and_marketable_securities",
+      "metric": "cash_and_marketable_securities",
+      "value": 494900000000,
+      "display_value": "总现金4,949亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Total cash",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "capital_expenditures",
+      "metric": "capital_expenditures",
+      "value": 79200000000,
+      "display_value": "资本开支792亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Capital expenditure",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 369300000000,
+      "display_value": "3,693.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "增值服务",
+      "yoy": 16,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "增值服务 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-8",
+      "metric": "segment_revenue",
+      "value": 145000000000,
+      "display_value": "1,450.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "营销服务",
+      "yoy": 19,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "营销服务 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-9",
+      "metric": "segment_revenue",
+      "value": 229400000000,
+      "display_value": "2,294.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "金融科技及企业服务",
+      "yoy": 8,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "金融科技及企业服务 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "国内游戏增长 18%、国际游戏增长 33%、营销服务增长 19%，AI 已在三个核心收入引擎产生财务痕迹。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "资本开支仅增长 3%，利润和自由现金流增长快于收入，显示 2025 年 AI 投入尚未破坏经营杠杆。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "自由现金流 1,826 亿元、总现金 4,949 亿元，足以同时支持 AI 投入、回购和投资组合。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层从“使用 AI”转向“升级能力与加大投入”，元宝、WorkBuddy 和 QClaw 是原生应用试验。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "腾讯的优势是内容、社交和支付分发，但模型竞争会提高人才和算力价格。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "监管、游戏版号、广告周期和投资组合公允价值均可能影响表观利润与资本配置。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“广告定价、云增长与利润、资本开支和自由现金流。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "腾讯的 AI 回报已经先出现在广告价格与游戏参与，而非独立 AI 收入；判断框架应看核心业务增量毛利。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "腾讯的 AI 回报已经先出现在广告价格与游戏参与，而非独立 AI 收入；判断框架应看核心业务增量毛利。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "AI 原生产品仍早期，现有增长也可能来自游戏周期和宏观广告恢复。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "国内游戏增长 18%、国际游戏增长 33%、营销服务增长 19%，AI 已在三个核心收入引擎产生财务痕迹。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "AI 原生产品仍早期，现有增长也可能来自游戏周期和宏观广告恢复。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "自由现金流 1,826 亿元、总现金 4,949 亿元，足以同时支持 AI 投入、回购和投资组合。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层从“使用 AI”转向“升级能力与加大投入”，元宝、WorkBuddy 和 QClaw 是原生应用试验。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "管理层明确把资金投向顶级 AI 人才、基础设施、混元 3.0 与元宝等产品。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "腾讯的优势是内容、社交和支付分发，但模型竞争会提高人才和算力价格。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "AI 原生产品仍早期，现有增长也可能来自游戏周期和宏观广告恢复。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入增长 14%、非 IFRS 经营利润增长 18%、自由现金流增长 18%；资本开支 792 亿元、增长 3%，管理层计划继续提高 AI 投入。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“成熟业务提供强现金流，但 AI 原生产品与算力扩张可能降低短期资本效率。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "腾讯 2025 年已把 AI 转化为广告定价、游戏参与和云利润的增量，且自由现金流增长 18%；下一阶段的难点是加大 AI 人才与基础设施投入后仍维持高质量现金回报。",
+        "new_view": "腾讯的 AI 回报已经先出现在广告价格与游戏参与，而非独立 AI 收入；判断框架应看核心业务增量毛利。",
+        "mechanism": "成熟业务提供强现金流，但 AI 原生产品与算力扩张可能降低短期资本效率。",
+        "implication": "当前回报闭环优于多数同业，但投入加速后仍需验证利润增速是否继续快于收入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "AI 原生产品仍早期，现有增长也可能来自游戏周期和宏观广告恢复。",
+        "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "用 AI 强化广告、游戏、云并孵化原生应用",
+        "new_view": "广告定价、云增长与利润、资本开支和自由现金流。",
+        "mechanism": "管理层明确把资金投向顶级 AI 人才、基础设施、混元 3.0 与元宝等产品。",
+        "implication": "当前回报闭环优于多数同业，但投入加速后仍需验证利润增速是否继续快于收入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "AI 原生产品仍早期，现有增长也可能来自游戏周期和宏观广告恢复。",
+        "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "AI 原生产品仍早期，现有增长也可能来自游戏周期和宏观广告恢复。",
+        "new_view": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。",
+        "mechanism": "当前回报闭环优于多数同业，但投入加速后仍需验证利润增速是否继续快于收入。",
+        "implication": "当前回报闭环优于多数同业，但投入加速后仍需验证利润增速是否继续快于收入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "AI 原生产品仍早期，现有增长也可能来自游戏周期和宏观广告恢复。",
+        "falsifier": "若广告增速跌至个位数、资本开支增长超过 30%且自由现金流转负增长，则 AI 增强主线失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "广告定价、云增长与利润、资本开支和自由现金流。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        320,
+        345
+      ],
+      "group_profit_range": [
+        295,
+        325
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "广告定价、云增长与利润、资本开支和自由现金流。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        285,
+        320
+      ],
+      "group_profit_range": [
+        260,
+        295
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "广告定价、云增长与利润、资本开支和自由现金流。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        240,
+        280
+      ],
+      "group_profit_range": [
+        215,
+        255
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

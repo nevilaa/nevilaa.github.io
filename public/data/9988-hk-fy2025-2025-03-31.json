@@ -1,0 +1,570 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "9988-hk-fy2025-2025-03-31",
+  "generated_at": "2026-08-22T07:15:19.981284+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "阿里巴巴集团",
+    "ticker": "9988.HK",
+    "period": "FY2025 (截至2025-03-31)",
+    "status": "approved",
+    "thesis": "阿里 FY2025 的利润改善已成立，但自由现金流下降 53% 至 739 亿元，说明“用户优先、AI 驱动”正在把现金从回购与成熟平台转向云基础设施；关键是 Cloud 增长能否覆盖资本强度。",
+    "conclusion_summary": {
+      "rating": "中性偏积极",
+      "confidence": "medium",
+      "primary_difficulty": "在 AI 资本开支上升时守住自由现金流与电商竞争力",
+      "current_difficulties": [
+        {
+          "title": "在 AI 资本开支上升时守住自由现金流与电商竞争力",
+          "evidence": "收入增长 6% 至 9,963 亿元、经营利润增长 24%；自由现金流下降 53% 至 739 亿元，主要因云基础设施投入增加。",
+          "implication": "利润表受益于效率与减值下降，但现金流先行承受 AI 投入，资本纪律成为核心变量。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“聚焦电商与 AI+Cloud 双核心”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "聚焦电商与 AI+Cloud 双核心",
+          "rationale": "电商需要继续投入用户体验，AI 云又要求资本密集扩张，两条主线争夺同一现金池。",
+          "management_signal": "云季度收入增长加速至 18%，AI 产品连续七季三位数增长；全年回购 119 亿美元并减少 5.1% 股份。",
+          "validation": "Cloud 外部收入、资本开支、自由现金流和淘天客户管理收入。"
+        }
+      ],
+      "core_conflict": "电商需要继续投入用户体验，AI 云又要求资本密集扩张，两条主线争夺同一现金池。",
+      "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。",
+      "valuation_context": "FY2025 截至 2025-03-31，与自然年公司不可直接横比；应以 FCF 降幅与 Cloud 增速共同定价。",
+      "catalyst": "AI 云商业化、淘天货币化改善、国际业务减亏、持续回购。",
+      "risk": "云资本开支回收慢、即时零售竞争、跨境电商监管、非核心处置损失。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "阿里 FY2025 的利润改善已成立，但自由现金流下降 53% 至 739 亿元，说明“用户优先、AI 驱动”正在把现金从回购与成熟平台转向云基础设施；关键是 Cloud 增长能否覆盖资本强度。",
+    "rating": "中性偏积极",
+    "confidence": "medium",
+    "primary_difficulty": "在 AI 资本开支上升时守住自由现金流与电商竞争力",
+    "current_difficulties": [
+      {
+        "title": "在 AI 资本开支上升时守住自由现金流与电商竞争力",
+        "evidence": "收入增长 6% 至 9,963 亿元、经营利润增长 24%；自由现金流下降 53% 至 739 亿元，主要因云基础设施投入增加。",
+        "implication": "利润表受益于效率与减值下降，但现金流先行承受 AI 投入，资本纪律成为核心变量。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“聚焦电商与 AI+Cloud 双核心”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "聚焦电商与 AI+Cloud 双核心",
+        "rationale": "电商需要继续投入用户体验，AI 云又要求资本密集扩张，两条主线争夺同一现金池。",
+        "management_signal": "云季度收入增长加速至 18%，AI 产品连续七季三位数增长；全年回购 119 亿美元并减少 5.1% 股份。",
+        "validation": "Cloud 外部收入、资本开支、自由现金流和淘天客户管理收入。"
+      }
+    ],
+    "core_conflict": "电商需要继续投入用户体验，AI 云又要求资本密集扩张，两条主线争夺同一现金池。",
+    "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。",
+    "valuation_context": "FY2025 截至 2025-03-31，与自然年公司不可直接横比；应以 FCF 降幅与 Cloud 增速共同定价。",
+    "catalyst": "AI 云商业化、淘天货币化改善、国际业务减亏、持续回购。",
+    "risk": "云资本开支回收慢、即时零售竞争、跨境电商监管、非核心处置损失。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1577552/000095017025090161/baba-20250331.htm",
+      "title": "Alibaba Group Fiscal Year 2025 Form 20-F",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 996347000000,
+      "display_value": "9,963.5亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY revenue ended March 31 2025",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 941168000000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 140905000000,
+      "display_value": "1,409.1亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Income from operations",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 113350000000
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 125976000000,
+      "display_value": "1,259.8亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Net income",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 71332000000
+    },
+    {
+      "id": "free_cash_flow",
+      "metric": "free_cash_flow",
+      "value": 73870000000,
+      "display_value": "738.7亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Company-defined free cash flow",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 156210000000
+    },
+    {
+      "id": "operating_cash_flow",
+      "metric": "operating_cash_flow",
+      "value": 163509000000,
+      "display_value": "经营现金流1,635.1亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating cash flow",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 182593000000
+    },
+    {
+      "id": "segment-6",
+      "metric": "segment_revenue",
+      "value": 449827000000,
+      "display_value": "4,498.3亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": "淘天集团",
+      "yoy": 3,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "淘天集团 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 132300000000,
+      "display_value": "1,323.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": "国际数字商业",
+      "yoy": 29,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "国际数字商业 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-8",
+      "metric": "segment_revenue",
+      "value": 118000000000,
+      "display_value": "1,180.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025 (截至2025-03-31)",
+      "segment": "云智能",
+      "yoy": 11,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "云智能 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "淘天货币化在 3 月季度加速，国际电商仍高增并减亏，Cloud 受 AI 需求推动加速。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "经营利润增长部分来自减值与股权激励下降；真正新增资源集中在电商用户体验和云基础设施。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "经营现金流下降 10%，自由现金流下降 53%，资本开支成为利润与现金之间的主要裂口。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层把电商和 AI+Cloud 定义为两大核心，并用大额回购维持股东回报。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "电商竞争影响用户补贴与商家货币化，云竞争影响价格、算力利用率与资本开支。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "跨境监管、宏观消费、芯片供给和平台竞争会通过收入增速与现金流同时传导。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“Cloud 外部收入、资本开支、自由现金流和淘天客户管理收入。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "阿里 FY2025 最重要的变化不是净利润增长 77%，而是自由现金流腰斩后，资本回报框架从回购驱动转向 AI 产能兑现。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "阿里 FY2025 最重要的变化不是净利润增长 77%，而是自由现金流腰斩后，资本回报框架从回购驱动转向 AI 产能兑现。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "自由现金流下降来自主动云投入，Cloud 增长已经加速，并非核心经营恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "淘天货币化在 3 月季度加速，国际电商仍高增并减亏，Cloud 受 AI 需求推动加速。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "自由现金流下降来自主动云投入，Cloud 增长已经加速，并非核心经营恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "经营现金流下降 10%，自由现金流下降 53%，资本开支成为利润与现金之间的主要裂口。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层把电商和 AI+Cloud 定义为两大核心，并用大额回购维持股东回报。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "云季度收入增长加速至 18%，AI 产品连续七季三位数增长；全年回购 119 亿美元并减少 5.1% 股份。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "电商竞争影响用户补贴与商家货币化，云竞争影响价格、算力利用率与资本开支。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "自由现金流下降来自主动云投入，Cloud 增长已经加速，并非核心经营恶化。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入增长 6% 至 9,963 亿元、经营利润增长 24%；自由现金流下降 53% 至 739 亿元，主要因云基础设施投入增加。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“电商需要继续投入用户体验，AI 云又要求资本密集扩张，两条主线争夺同一现金池。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "阿里 FY2025 的利润改善已成立，但自由现金流下降 53% 至 739 亿元，说明“用户优先、AI 驱动”正在把现金从回购与成熟平台转向云基础设施；关键是 Cloud 增长能否覆盖资本强度。",
+        "new_view": "阿里 FY2025 最重要的变化不是净利润增长 77%，而是自由现金流腰斩后，资本回报框架从回购驱动转向 AI 产能兑现。",
+        "mechanism": "电商需要继续投入用户体验，AI 云又要求资本密集扩张，两条主线争夺同一现金池。",
+        "implication": "利润表受益于效率与减值下降，但现金流先行承受 AI 投入，资本纪律成为核心变量。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "自由现金流下降来自主动云投入，Cloud 增长已经加速，并非核心经营恶化。",
+        "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "聚焦电商与 AI+Cloud 双核心",
+        "new_view": "Cloud 外部收入、资本开支、自由现金流和淘天客户管理收入。",
+        "mechanism": "云季度收入增长加速至 18%，AI 产品连续七季三位数增长；全年回购 119 亿美元并减少 5.1% 股份。",
+        "implication": "利润表受益于效率与减值下降，但现金流先行承受 AI 投入，资本纪律成为核心变量。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "自由现金流下降来自主动云投入，Cloud 增长已经加速，并非核心经营恶化。",
+        "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "自由现金流下降来自主动云投入，Cloud 增长已经加速，并非核心经营恶化。",
+        "new_view": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。",
+        "mechanism": "利润表受益于效率与减值下降，但现金流先行承受 AI 投入，资本纪律成为核心变量。",
+        "implication": "利润表受益于效率与减值下降，但现金流先行承受 AI 投入，资本纪律成为核心变量。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "自由现金流下降来自主动云投入，Cloud 增长已经加速，并非核心经营恶化。",
+        "falsifier": "若 Cloud 增速回落至 10% 以下、自由现金流继续下降超过 30%，或淘天 CMR 重新低个位数，则双核心协同假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "Cloud 外部收入、资本开支、自由现金流和淘天客户管理收入。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        35,
+        45
+      ],
+      "group_profit_range": [
+        185,
+        210
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "Cloud 外部收入、资本开支、自由现金流和淘天客户管理收入。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        25,
+        35
+      ],
+      "group_profit_range": [
+        155,
+        185
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "Cloud 外部收入、资本开支、自由现金流和淘天客户管理收入。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        10,
+        22
+      ],
+      "group_profit_range": [
+        115,
+        150
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

@@ -52,7 +52,9 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   // MiniMax (0100.HK) stores absolute USD amounts -> display as US$M.
   const isMiniMax = /0100\.HK/i.test(stringValue(rawReport.ticker)) || /MiniMax/i.test(companyName);
   const isUsdReport = /GOOGL|GOOG|META/i.test(stringValue(rawReport.ticker));
-  const moneyScale = () => (isMiniMax ? 1_000_000 : 100);
+  const isFy2025BaseCurrency = /FY2025/i.test(stringValue(rawReport.period));
+  const moneyScale = () =>
+    isMiniMax ? 1_000_000 : isFy2025BaseCurrency ? 100_000_000 : 100;
   const moneyUnit = () => (isMiniMax ? "US$M" : isUsdReport ? "亿美元" : "亿元");
   // 金额类 metric 需要按币种缩放；百分数/计数类 metric 保持原值。
   const MONEY_METRICS = new Set([
@@ -75,6 +77,8 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     "total_cash_and_financial_assets",
     "net_current_liabilities",
     "net_cash_used_in_operating_activities",
+    "operating_cash_flow",
+    "capital_expenditures",
     "net_cash_from_investing",
     "net_cash_from_financing",
     "capex_ppe",
@@ -218,6 +222,8 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     },
     nongaap_net_income: { label: "Non-GAAP 归母净利", tone: "negative", result: "同比下滑" },
     free_cash_flow: { label: "自由现金流", tone: "negative", result: "资本开支挤压" },
+    operating_cash_flow: { label: "经营现金流", tone: "neutral", result: "现金转化" },
+    capital_expenditures: { label: "资本开支", tone: "neutral", result: "投入强度" },
     electronics_and_home_appliances_revenues: {
       label: "带电品类收入",
       tone: "negative",

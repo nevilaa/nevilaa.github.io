@@ -1,0 +1,587 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "9999-hk-fy2025",
+  "generated_at": "2026-08-22T07:15:20.464171+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "网易",
+    "ticker": "9999.HK",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "网易 2025 年游戏收入增长 10%、经营现金流增长 28%，经典 IP 与新品共同抬升利润；核心难点是将 AI 生产效率变成稳定新品供给，而不是进一步依赖少数长青产品。",
+    "conclusion_summary": {
+      "rating": "中性偏积极",
+      "confidence": "medium",
+      "primary_difficulty": "降低对长青游戏的集中度并稳定全球新品接续",
+      "current_difficulties": [
+        {
+          "title": "降低对长青游戏的集中度并稳定全球新品接续",
+          "evidence": "收入增长 6.9% 至 1,126 亿元，游戏收入增长 10.2% 至 921 亿元；云音乐下降、创新业务下降，增量更集中于游戏。",
+          "implication": "现金流强、利润改善，但收入结构更依赖游戏，产品延期或生命周期波动会放大集团波动。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“AI 贯穿研发运营、全球自研与长线运营”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "AI 贯穿研发运营、全球自研与长线运营",
+          "rationale": "AI 可降低生产成本，却也可能提高内容供给速度与营销竞争，最终仍需新品商业成功。",
+          "management_signal": "管理层称 AI 已覆盖美术、设计、编程、动画与 QA，并用于旗舰游戏动态玩法。",
+          "validation": "新游流水占比、海外收入、研发费用率、经营现金流和老游戏留存。"
+        }
+      ],
+      "core_conflict": "AI 可降低生产成本，却也可能提高内容供给速度与营销竞争，最终仍需新品商业成功。",
+      "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。",
+      "valuation_context": "净现金 1,635 亿元提供安全垫，但不能替代新品周期；估值应对产品集中度保留折价。",
+      "catalyst": "全球新品上线、经典 IP 长线更新、AI 降低研发周期、持续分红回购。",
+      "risk": "新品延期或不达预期、监管版号、海外发行、内容集中度。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "网易 2025 年游戏收入增长 10%、经营现金流增长 28%，经典 IP 与新品共同抬升利润；核心难点是将 AI 生产效率变成稳定新品供给，而不是进一步依赖少数长青产品。",
+    "rating": "中性偏积极",
+    "confidence": "medium",
+    "primary_difficulty": "降低对长青游戏的集中度并稳定全球新品接续",
+    "current_difficulties": [
+      {
+        "title": "降低对长青游戏的集中度并稳定全球新品接续",
+        "evidence": "收入增长 6.9% 至 1,126 亿元，游戏收入增长 10.2% 至 921 亿元；云音乐下降、创新业务下降，增量更集中于游戏。",
+        "implication": "现金流强、利润改善，但收入结构更依赖游戏，产品延期或生命周期波动会放大集团波动。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“AI 贯穿研发运营、全球自研与长线运营”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "AI 贯穿研发运营、全球自研与长线运营",
+        "rationale": "AI 可降低生产成本，却也可能提高内容供给速度与营销竞争，最终仍需新品商业成功。",
+        "management_signal": "管理层称 AI 已覆盖美术、设计、编程、动画与 QA，并用于旗舰游戏动态玩法。",
+        "validation": "新游流水占比、海外收入、研发费用率、经营现金流和老游戏留存。"
+      }
+    ],
+    "core_conflict": "AI 可降低生产成本，却也可能提高内容供给速度与营销竞争，最终仍需新品商业成功。",
+    "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。",
+    "valuation_context": "净现金 1,635 亿元提供安全垫，但不能替代新品周期；估值应对产品集中度保留折价。",
+    "catalyst": "全球新品上线、经典 IP 长线更新、AI 降低研发周期、持续分红回购。",
+    "risk": "新品延期或不达预期、监管版号、海外发行、内容集中度。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+      "title": "NetEase 2025 Form 20-F",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 112600000000,
+      "display_value": "1,126亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY net revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 105300000000
+    },
+    {
+      "id": "gross_profit",
+      "metric": "gross_profit",
+      "value": 72400000000,
+      "display_value": "毛利724亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Gross profit",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 65800000000
+    },
+    {
+      "id": "netease_net_income_attributable",
+      "metric": "netease_net_income_attributable",
+      "value": 33800000000,
+      "display_value": "归母净利338亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Attributable net income",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 29700000000
+    },
+    {
+      "id": "netease_non_gaap_net_income",
+      "metric": "netease_non_gaap_net_income",
+      "value": 37300000000,
+      "display_value": "Non-GAAP净利373亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Non-GAAP net income",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 33500000000
+    },
+    {
+      "id": "net_cash",
+      "metric": "net_cash",
+      "value": 163500000000,
+      "display_value": "净现金1,635亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Net cash",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 131500000000
+    },
+    {
+      "id": "operating_cash_flow",
+      "metric": "operating_cash_flow",
+      "value": 50700000000,
+      "display_value": "经营现金流507亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating cash flow",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 39700000000
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 92100000000,
+      "display_value": "921.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "游戏及相关增值服务",
+      "yoy": 10.2,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "游戏及相关增值服务 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-8",
+      "metric": "segment_revenue",
+      "value": 5900000000,
+      "display_value": "59.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "有道",
+      "yoy": 5.4,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "有道 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-9",
+      "metric": "segment_revenue",
+      "value": 7800000000,
+      "display_value": "78.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "云音乐",
+      "yoy": -2.5,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "云音乐 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "游戏增长由《梦幻西游》系列、《第五人格》《燕云十六声》和《漫威争锋》共同贡献；其他分部增长较弱。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "总运营费用仅增长约 1%，低于收入；更高游戏营销与研发投入仍被毛利增长覆盖。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "经营现金流 507 亿元、同比增长 27.7%，净现金 1,635 亿元，提供产品周期缓冲。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层把 AI 定义为研发与运营基础能力，而不是独立收入线，重点是提高生产规模和玩法创新。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "游戏竞争由内容质量、发行效率、IP 长线运营和全球渠道共同决定，AI 降本难以替代创意命中率。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "版号、海外文化差异、平台分成与新品延期会通过收入确认和营销费用影响利润。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“新游流水占比、海外收入、研发费用率、经营现金流和老游戏留存。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "网易的 AI 价值首先应在运营费用增速低于收入和新品迭代速度体现，而非等待单独披露 AI 收入。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "网易的 AI 价值首先应在运营费用增速低于收入和新品迭代速度体现，而非等待单独披露 AI 收入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年利润改善也可能主要来自高毛利老游戏组合，AI 的独立贡献尚不可量化。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "游戏增长由《梦幻西游》系列、《第五人格》《燕云十六声》和《漫威争锋》共同贡献；其他分部增长较弱。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年利润改善也可能主要来自高毛利老游戏组合，AI 的独立贡献尚不可量化。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "经营现金流 507 亿元、同比增长 27.7%，净现金 1,635 亿元，提供产品周期缓冲。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层把 AI 定义为研发与运营基础能力，而不是独立收入线，重点是提高生产规模和玩法创新。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "管理层称 AI 已覆盖美术、设计、编程、动画与 QA，并用于旗舰游戏动态玩法。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "游戏竞争由内容质量、发行效率、IP 长线运营和全球渠道共同决定，AI 降本难以替代创意命中率。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "2025 年利润改善也可能主要来自高毛利老游戏组合，AI 的独立贡献尚不可量化。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入增长 6.9% 至 1,126 亿元，游戏收入增长 10.2% 至 921 亿元；云音乐下降、创新业务下降，增量更集中于游戏。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“AI 可降低生产成本，却也可能提高内容供给速度与营销竞争，最终仍需新品商业成功。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "网易 2025 年游戏收入增长 10%、经营现金流增长 28%，经典 IP 与新品共同抬升利润；核心难点是将 AI 生产效率变成稳定新品供给，而不是进一步依赖少数长青产品。",
+        "new_view": "网易的 AI 价值首先应在运营费用增速低于收入和新品迭代速度体现，而非等待单独披露 AI 收入。",
+        "mechanism": "AI 可降低生产成本，却也可能提高内容供给速度与营销竞争，最终仍需新品商业成功。",
+        "implication": "现金流强、利润改善，但收入结构更依赖游戏，产品延期或生命周期波动会放大集团波动。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年利润改善也可能主要来自高毛利老游戏组合，AI 的独立贡献尚不可量化。",
+        "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "AI 贯穿研发运营、全球自研与长线运营",
+        "new_view": "新游流水占比、海外收入、研发费用率、经营现金流和老游戏留存。",
+        "mechanism": "管理层称 AI 已覆盖美术、设计、编程、动画与 QA，并用于旗舰游戏动态玩法。",
+        "implication": "现金流强、利润改善，但收入结构更依赖游戏，产品延期或生命周期波动会放大集团波动。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年利润改善也可能主要来自高毛利老游戏组合，AI 的独立贡献尚不可量化。",
+        "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "2025 年利润改善也可能主要来自高毛利老游戏组合，AI 的独立贡献尚不可量化。",
+        "new_view": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。",
+        "mechanism": "现金流强、利润改善，但收入结构更依赖游戏，产品延期或生命周期波动会放大集团波动。",
+        "implication": "现金流强、利润改善，但收入结构更依赖游戏，产品延期或生命周期波动会放大集团波动。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年利润改善也可能主要来自高毛利老游戏组合，AI 的独立贡献尚不可量化。",
+        "falsifier": "若新品收入贡献不足、游戏收入增速低于 5%且营销费用继续上升，则 AI 提效和产品接续主线失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "新游流水占比、海外收入、研发费用率、经营现金流和老游戏留存。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        45,
+        50
+      ],
+      "group_profit_range": [
+        40,
+        45
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "新游流水占比、海外收入、研发费用率、经营现金流和老游戏留存。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        38,
+        45
+      ],
+      "group_profit_range": [
+        34,
+        40
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "新游流水占比、海外收入、研发费用率、经营现金流和老游戏留存。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        28,
+        36
+      ],
+      "group_profit_range": [
+        25,
+        33
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "03690-hk-fy2025",
+  "generated_at": "2026-08-22T07:15:20.305913+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "美团",
+    "ticker": "03690.HK",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "美团 2025 年收入仍增长 8.1%，但外卖竞争使核心本地商业从利润转为亏损、销售营销费用增长 60.9%；核心问题不是份额是否守住，而是守住份额所需补贴会否固化。",
+    "conclusion_summary": {
+      "rating": "谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "终止非理性竞争并恢复核心本地商业单位经济",
+      "current_difficulties": [
+        {
+          "title": "终止非理性竞争并恢复核心本地商业单位经济",
+          "evidence": "收入 3,649 亿元、增长 8.1%；核心本地商业经营亏损 69 亿元，新业务亏损 101 亿元，集团净亏损 234 亿元。",
+          "implication": "平台交易仍增长，但补贴、骑手激励和海外投入把增长转成亏损，护城河的现金成本显著上升。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“反非理性竞争、会员与 AI、海外和杂货零售”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "反非理性竞争、会员与 AI、海外和杂货零售",
+          "rationale": "交易规模与份额仍在增长，但守份额的激励被从收入中扣减并同时抬高履约成本。",
+          "management_signal": "销售营销费用 1,029 亿元、增长 60.9%；研发创纪录 260 亿元，管理层将会员和 AI 置于核心战略。",
+          "validation": "核心本地商业利润、销售费用率、配送收入与 GTV、Keeta 单位经济。"
+        }
+      ],
+      "core_conflict": "交易规模与份额仍在增长，但守份额的激励被从收入中扣减并同时抬高履约成本。",
+      "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。",
+      "valuation_context": "不能用 2024 年利润率外推；估值应以补贴正常化后的核心利润和海外亏损上限为基础。",
+      "catalyst": "外卖竞争降温、核心利润转正、Keeta 单位经济改善、AI 提升转化与履约效率。",
+      "risk": "价格战延续、骑手保障成本、海外扩张、杂货零售与 AI 投入。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "美团 2025 年收入仍增长 8.1%，但外卖竞争使核心本地商业从利润转为亏损、销售营销费用增长 60.9%；核心问题不是份额是否守住，而是守住份额所需补贴会否固化。",
+    "rating": "谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "终止非理性竞争并恢复核心本地商业单位经济",
+    "current_difficulties": [
+      {
+        "title": "终止非理性竞争并恢复核心本地商业单位经济",
+        "evidence": "收入 3,649 亿元、增长 8.1%；核心本地商业经营亏损 69 亿元，新业务亏损 101 亿元，集团净亏损 234 亿元。",
+        "implication": "平台交易仍增长，但补贴、骑手激励和海外投入把增长转成亏损，护城河的现金成本显著上升。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“反非理性竞争、会员与 AI、海外和杂货零售”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "反非理性竞争、会员与 AI、海外和杂货零售",
+        "rationale": "交易规模与份额仍在增长，但守份额的激励被从收入中扣减并同时抬高履约成本。",
+        "management_signal": "销售营销费用 1,029 亿元、增长 60.9%；研发创纪录 260 亿元，管理层将会员和 AI 置于核心战略。",
+        "validation": "核心本地商业利润、销售费用率、配送收入与 GTV、Keeta 单位经济。"
+      }
+    ],
+    "core_conflict": "交易规模与份额仍在增长，但守份额的激励被从收入中扣减并同时抬高履约成本。",
+    "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。",
+    "valuation_context": "不能用 2024 年利润率外推；估值应以补贴正常化后的核心利润和海外亏损上限为基础。",
+    "catalyst": "外卖竞争降温、核心利润转正、Keeta 单位经济改善、AI 提升转化与履约效率。",
+    "risk": "价格战延续、骑手保障成本、海外扩张、杂货零售与 AI 投入。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042400179.pdf",
+      "title": "Meituan Annual Report 2025",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 364854746000,
+      "display_value": "3,648.5亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 337591576000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": -25000000000,
+      "display_value": "经营亏损约250亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating loss",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 36800000000
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": -23354194000,
+      "display_value": "净亏损233.5亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Loss for the year",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 35808322000
+    },
+    {
+      "id": "sales_and_marketing_expenses",
+      "metric": "sales_and_marketing_expenses",
+      "value": 102934044000,
+      "display_value": "销售营销1,029.3亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Sales and marketing",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 63975235000
+    },
+    {
+      "id": "research_and_development_expenses",
+      "metric": "research_and_development_expenses",
+      "value": 25998265000,
+      "display_value": "研发260亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "R&D expense",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 21053601000
+    },
+    {
+      "id": "segment-6",
+      "metric": "segment_revenue",
+      "value": 260826094000,
+      "display_value": "2,608.3亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "核心本地商业",
+      "yoy": 4.2,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "核心本地商业 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 104028652000,
+      "display_value": "1,040.3亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "新业务",
+      "yoy": 19.1,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "新业务 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "平台 GTV 与交易量双位数增长，但配送服务收入下降 2%，激励从收入中扣减改变了变现质量。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "成本收入增长 22.2%，销售营销增长 60.9%，两者把集团经营利润率从 10.9% 拉至 -6.9%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "核心本地商业和新业务合计分部亏损 170 亿元，现金消耗从单一新业务扩散到核心业务。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层宣称反对非理性竞争，同时继续加强价格竞争力；战略语言与当期投入之间存在张力。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "即时零售竞争直接通过收入抵扣、骑手激励和营销费用三条路径压利润。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "劳动保障、平台监管、消费需求与海外经营环境会进一步改变履约成本。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“核心本地商业利润、销售费用率、配送收入与 GTV、Keeta 单位经济。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "美团 2025 年真正受损的是变现权而非交易份额：GTV 增长但配送收入下降，说明补贴首先侵蚀 take rate。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "美团 2025 年真正受损的是变现权而非交易份额：GTV 增长但配送收入下降，说明补贴首先侵蚀 take rate。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "份额守住后补贴可能快速退坡，交易频次和会员关系仍可恢复长期变现。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "平台 GTV 与交易量双位数增长，但配送服务收入下降 2%，激励从收入中扣减改变了变现质量。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "份额守住后补贴可能快速退坡，交易频次和会员关系仍可恢复长期变现。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "核心本地商业和新业务合计分部亏损 170 亿元，现金消耗从单一新业务扩散到核心业务。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层宣称反对非理性竞争，同时继续加强价格竞争力；战略语言与当期投入之间存在张力。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "销售营销费用 1,029 亿元、增长 60.9%；研发创纪录 260 亿元，管理层将会员和 AI 置于核心战略。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "即时零售竞争直接通过收入抵扣、骑手激励和营销费用三条路径压利润。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "份额守住后补贴可能快速退坡，交易频次和会员关系仍可恢复长期变现。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入 3,649 亿元、增长 8.1%；核心本地商业经营亏损 69 亿元，新业务亏损 101 亿元，集团净亏损 234 亿元。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“交易规模与份额仍在增长，但守份额的激励被从收入中扣减并同时抬高履约成本。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "美团 2025 年收入仍增长 8.1%，但外卖竞争使核心本地商业从利润转为亏损、销售营销费用增长 60.9%；核心问题不是份额是否守住，而是守住份额所需补贴会否固化。",
+        "new_view": "美团 2025 年真正受损的是变现权而非交易份额：GTV 增长但配送收入下降，说明补贴首先侵蚀 take rate。",
+        "mechanism": "交易规模与份额仍在增长，但守份额的激励被从收入中扣减并同时抬高履约成本。",
+        "implication": "平台交易仍增长，但补贴、骑手激励和海外投入把增长转成亏损，护城河的现金成本显著上升。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "份额守住后补贴可能快速退坡，交易频次和会员关系仍可恢复长期变现。",
+        "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "反非理性竞争、会员与 AI、海外和杂货零售",
+        "new_view": "核心本地商业利润、销售费用率、配送收入与 GTV、Keeta 单位经济。",
+        "mechanism": "销售营销费用 1,029 亿元、增长 60.9%；研发创纪录 260 亿元，管理层将会员和 AI 置于核心战略。",
+        "implication": "平台交易仍增长，但补贴、骑手激励和海外投入把增长转成亏损，护城河的现金成本显著上升。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "份额守住后补贴可能快速退坡，交易频次和会员关系仍可恢复长期变现。",
+        "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "份额守住后补贴可能快速退坡，交易频次和会员关系仍可恢复长期变现。",
+        "new_view": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。",
+        "mechanism": "平台交易仍增长，但补贴、骑手激励和海外投入把增长转成亏损，护城河的现金成本显著上升。",
+        "implication": "平台交易仍增长，但补贴、骑手激励和海外投入把增长转成亏损，护城河的现金成本显著上升。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "份额守住后补贴可能快速退坡，交易频次和会员关系仍可恢复长期变现。",
+        "falsifier": "若销售费用率不能回落至 24% 以下、核心本地商业连续亏损且配送收入继续下滑，则竞争正常化假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "核心本地商业利润、销售费用率、配送收入与 GTV、Keeta 单位经济。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        12,
+        20
+      ],
+      "group_profit_range": [
+        5,
+        12
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "核心本地商业利润、销售费用率、配送收入与 GTV、Keeta 单位经济。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        0,
+        10
+      ],
+      "group_profit_range": [
+        -8,
+        3
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "核心本地商业利润、销售费用率、配送收入与 GTV、Keeta 单位经济。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        -18,
+        -5
+      ],
+      "group_profit_range": [
+        -30,
+        -12
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

@@ -2,6 +2,126 @@
   "schema_version": "site-catalog-1.0.0",
   "reports": [
     {
+      "id": "9988-hk-fy2025-2025-03-31",
+      "company": "阿里巴巴集团",
+      "ticker": "9988.HK",
+      "period": "FY2025 (截至2025-03-31)",
+      "status": "approved",
+      "thesis": "阿里 FY2025 的利润改善已成立，但自由现金流下降 53% 至 739 亿元，说明“用户优先、AI 驱动”正在把现金从回购与成熟平台转向云基础设施；关键是 Cloud 增长能否覆盖资本强度。",
+      "generated_at": "2026-08-22T07:15:19.981284+00:00",
+      "data_url": "https://www.shresearch.cn/data/9988-hk-fy2025-2025-03-31.json"
+    },
+    {
+      "id": "9961-hk-fy2025",
+      "company": "携程集团",
+      "ticker": "9961.HK",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "携程 2025 年 17% 的收入增长与国际 OTA 约 60% 的预订增长是真实经营改善，但 334 亿元净利润中含 199 亿元投资收益；研究重点应从表观利润转向国际扩张的获客效率与核心利润。",
+      "generated_at": "2026-08-22T07:15:20.629287+00:00",
+      "data_url": "https://www.shresearch.cn/data/9961-hk-fy2025.json"
+    },
+    {
+      "id": "0700-hk-fy2025",
+      "company": "腾讯控股",
+      "ticker": "0700.HK",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "腾讯 2025 年已把 AI 转化为广告定价、游戏参与和云利润的增量，且自由现金流增长 18%；下一阶段的难点是加大 AI 人才与基础设施投入后仍维持高质量现金回报。",
+      "generated_at": "2026-08-22T07:15:20.575217+00:00",
+      "data_url": "https://www.shresearch.cn/data/0700-hk-fy2025.json"
+    },
+    {
+      "id": "pdd-fy2025",
+      "company": "拼多多",
+      "ticker": "PDD",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "拼多多 2025 年收入仍增长 10%，但成本增长 23%、经营利润下降 13%、经营现金流下降 12%；这不是增长消失，而是平台主动把利润转向供应链、商家与跨境履约投入。",
+      "generated_at": "2026-08-22T07:15:20.520438+00:00",
+      "data_url": "https://www.shresearch.cn/data/pdd-fy2025.json"
+    },
+    {
+      "id": "9999-hk-fy2025",
+      "company": "网易",
+      "ticker": "9999.HK",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "网易 2025 年游戏收入增长 10%、经营现金流增长 28%，经典 IP 与新品共同抬升利润；核心难点是将 AI 生产效率变成稳定新品供给，而不是进一步依赖少数长青产品。",
+      "generated_at": "2026-08-22T07:15:20.464171+00:00",
+      "data_url": "https://www.shresearch.cn/data/9999-hk-fy2025.json"
+    },
+    {
+      "id": "meta-fy2025",
+      "company": "Meta Platforms",
+      "ticker": "META",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "Meta 2025 年的核心不是广告还能否增长，而是广告量价齐升形成的现金流，能否覆盖从 722 亿美元跳向 2026 年 1,150–1,350 亿美元的 AI 资本开支，同时不让 Reality Labs 与监管风险侵蚀回报。",
+      "generated_at": "2026-08-22T07:15:20.358438+00:00",
+      "data_url": "https://www.shresearch.cn/data/meta-fy2025.json"
+    },
+    {
+      "id": "03690-hk-fy2025",
+      "company": "美团",
+      "ticker": "03690.HK",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "美团 2025 年收入仍增长 8.1%，但外卖竞争使核心本地商业从利润转为亏损、销售营销费用增长 60.9%；核心问题不是份额是否守住，而是守住份额所需补贴会否固化。",
+      "generated_at": "2026-08-22T07:15:20.305913+00:00",
+      "data_url": "https://www.shresearch.cn/data/03690-hk-fy2025.json"
+    },
+    {
+      "id": "01024-hk-fy2025",
+      "company": "快手科技",
+      "ticker": "01024.HK",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "快手 2025 年收入增长 12.5%、经营利润增长 35%，海外分部接近盈亏平衡；可灵已出现 3.4 亿元季度收入，但第二增长曲线能否覆盖持续算力投入仍需用独立利润验证。",
+      "generated_at": "2026-08-22T07:15:20.251413+00:00",
+      "data_url": "https://www.shresearch.cn/data/01024-hk-fy2025.json"
+    },
+    {
+      "id": "9618-hk-fy2025",
+      "company": "京东集团",
+      "ticker": "9618.HK",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "京东 2025 年零售主业利润率升至 4.6%，却因外卖等新业务投入令集团经营利润从 387 亿元降至 28 亿元；核心不是零售失速，而是新业务何时停止吞噬主业利润。",
+      "generated_at": "2026-08-22T07:15:20.197808+00:00",
+      "data_url": "https://www.shresearch.cn/data/9618-hk-fy2025.json"
+    },
+    {
+      "id": "didiy-fy2025",
+      "company": "滴滴出行",
+      "ticker": "DIDIY",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "滴滴 2025 年 GTV 增长 14.8%、调整后利润增长 41%，但国际业务仍亏 61 亿元、营销费用增长 46%，集团 GAAP 利润仅 10 亿元；增长质量取决于海外扩张能否降低补贴强度。",
+      "generated_at": "2026-08-22T07:15:20.144973+00:00",
+      "data_url": "https://www.shresearch.cn/data/didiy-fy2025.json"
+    },
+    {
+      "id": "bidu-fy2025",
+      "company": "百度集团",
+      "ticker": "BIDU",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "百度 2025 年 AI 业务已增长至 400 亿元、同比 48%，但传统业务下滑、162 亿元减值与负 30 亿元经营现金流表明转型尚未完成自我融资；关键是 AI 增量能否快于搜索现金流流失。",
+      "generated_at": "2026-08-22T07:15:20.092431+00:00",
+      "data_url": "https://www.shresearch.cn/data/bidu-fy2025.json"
+    },
+    {
+      "id": "googl-fy2025",
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "period": "FY2025",
+      "status": "approved",
+      "thesis": "Alphabet 已证明 AI 能拉动 Cloud、Search 与订阅增长，却尚未证明 2026 年 1,750–1,850 亿美元资本开支的回收期；真正的核心是 Cloud 利润与积压合同能否快于折旧爬坡。",
+      "generated_at": "2026-08-22T07:15:20.038732+00:00",
+      "data_url": "https://www.shresearch.cn/data/googl-fy2025.json"
+    },
+    {
       "id": "minimax-fy2025",
       "company": "稀宇科技 (MiniMax Group Inc.)",
       "ticker": "0100.HK",
@@ -39,6 +159,16 @@
       "status": "published",
       "generated_at": "2026-08-12T11:01:00+00:00",
       "data_url": "tencent-2026-q2.json"
+    },
+    {
+      "id": "9999-hk-2026q1",
+      "company": "网易",
+      "ticker": "9999.HK",
+      "period": "2026Q1",
+      "status": "approved",
+      "thesis": "关键不在于网易 Q1 收入同比增长 6.1% 或毛利率升至 69.4%，而在于这份利润率改善主要来自平台收入分成下降（结构性让利），且这部分红利被营销投入扩大（销售及市场费用 +27.7%）、有效税率升至 18.9% 与汇兑损失 6.22 亿元同时吸收——毛利率 +5.3 个百分点并未转化为净利率扩张（归母净利率 34.9%，同比 -0.8 个百分点）。网易真正的经营约束是：在收入只有低个位数增长、增量主要靠《梦幻西游》系列与《燕云十六声》等既有自研游戏长线运营的背景下，下半年《Sea of Remnants》与《Ananta》等新游能否如期接棒并贡献可持续增量。资源正投向全球化发行、新游储备与技术/AI 能力，而非简单扩大投入。",
+      "generated_at": "2026-08-21T16:06:48.959582+00:00",
+      "data_url": "9999-hk-2026q1.json"
     },
     {
       "id": "meta-2026q1",
@@ -99,16 +229,6 @@
       "thesis": "百度正从搜索广告公司向 AI 基础设施公司切换收入引擎：AI 相关收入首次过半（52%），但传统广告加速失血（-22% YoY）、百度 App MAU 连续三季下滑，资本开支同比近翻倍使自由现金流转负。公司的价值锚已从‘搜索利润’转向‘昆仑芯分拆 + AI 云规模化’，这一切换能否在盈利端兑现，是未来 2-4 个季度的核心问题。",
       "generated_at": "2026-07-31T11:41:37.964795+00:00",
       "data_url": "bidu-2026q1.json"
-    },
-    {
-      "id": "9999-hk-2026q1",
-      "company": "网易",
-      "ticker": "9999.HK",
-      "period": "2026Q1",
-      "status": "approved",
-      "thesis": "关键不在于网易 Q1 收入同比增长 6.1% 或毛利率升至 69.4%，而在于这份利润率改善主要来自平台收入分成下降（结构性让利），且这部分红利被营销投入扩大（销售及市场费用 +27.7%）、有效税率升至 18.9% 与汇兑损失 6.22 亿元同时吸收——毛利率 +5.3 个百分点并未转化为净利率扩张（归母净利率 34.9%，同比 -0.8 个百分点）。网易真正的经营约束是：在收入只有低个位数增长、增量主要靠《梦幻西游》系列与《燕云十六声》等既有自研游戏长线运营的背景下，下半年《Sea of Remnants》与《Ananta》等新游能否如期接棒并贡献可持续增量。资源正投向全球化发行、新游储备与技术/AI 能力，而非简单扩大投入。",
-      "generated_at": "2026-08-21T16:06:48.959582+00:00",
-      "data_url": "9999-hk-2026q1.json"
     }
   ]
 }

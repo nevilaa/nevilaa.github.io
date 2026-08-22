@@ -1,0 +1,565 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "googl-fy2025",
+  "generated_at": "2026-08-22T07:15:20.038732+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "Alphabet Inc.",
+    "ticker": "GOOGL",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "Alphabet 已证明 AI 能拉动 Cloud、Search 与订阅增长，却尚未证明 2026 年 1,750–1,850 亿美元资本开支的回收期；真正的核心是 Cloud 利润与积压合同能否快于折旧爬坡。",
+    "conclusion_summary": {
+      "rating": "中性偏积极",
+      "confidence": "medium",
+      "primary_difficulty": "把 AI 需求转化为可重复的资本回报",
+      "current_difficulties": [
+        {
+          "title": "把 AI 需求转化为可重复的资本回报",
+          "evidence": "2025 年收入 4,030 亿美元、经营现金流 1,647 亿美元、自由现金流 733 亿美元；资本开支 914 亿美元后，2026 年指引几乎翻倍至 1,750–1,850 亿美元。",
+          "implication": "需求不足不是当前问题，供给扩张、折旧压力与回收期才是未来两年的利润约束。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“全栈 AI 基础设施优先供给 Cloud 与核心产品”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "全栈 AI 基础设施优先供给 Cloud 与核心产品",
+          "rationale": "AI 需求与 Cloud backlog 快速增长，但现金投入先于收入确认、折旧又滞后压利润。",
+          "management_signal": "2025 年资本开支约 60% 用于服务器、40% 用于数据中心和网络；2026 年过半 ML 算力预计给 Cloud。",
+          "validation": "Cloud 收入增速、经营利润率与 2,400 亿美元 backlog 转化是否同步。"
+        }
+      ],
+      "core_conflict": "AI 需求与 Cloud backlog 快速增长，但现金投入先于收入确认、折旧又滞后压利润。",
+      "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。",
+      "valuation_context": "不引用即时估值倍数；应把 2026 年自由现金流压缩作为必要投入还是资本纪律失效的分水岭。",
+      "catalyst": "Cloud backlog 加速转收入、Gemini 商业化、Search AI Mode 变现。",
+      "risk": "算力供给与能源约束、折旧增速、搜索入口迁移、反垄断补救措施。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "Alphabet 已证明 AI 能拉动 Cloud、Search 与订阅增长，却尚未证明 2026 年 1,750–1,850 亿美元资本开支的回收期；真正的核心是 Cloud 利润与积压合同能否快于折旧爬坡。",
+    "rating": "中性偏积极",
+    "confidence": "medium",
+    "primary_difficulty": "把 AI 需求转化为可重复的资本回报",
+    "current_difficulties": [
+      {
+        "title": "把 AI 需求转化为可重复的资本回报",
+        "evidence": "2025 年收入 4,030 亿美元、经营现金流 1,647 亿美元、自由现金流 733 亿美元；资本开支 914 亿美元后，2026 年指引几乎翻倍至 1,750–1,850 亿美元。",
+        "implication": "需求不足不是当前问题，供给扩张、折旧压力与回收期才是未来两年的利润约束。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“全栈 AI 基础设施优先供给 Cloud 与核心产品”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "全栈 AI 基础设施优先供给 Cloud 与核心产品",
+        "rationale": "AI 需求与 Cloud backlog 快速增长，但现金投入先于收入确认、折旧又滞后压利润。",
+        "management_signal": "2025 年资本开支约 60% 用于服务器、40% 用于数据中心和网络；2026 年过半 ML 算力预计给 Cloud。",
+        "validation": "Cloud 收入增速、经营利润率与 2,400 亿美元 backlog 转化是否同步。"
+      }
+    ],
+    "core_conflict": "AI 需求与 Cloud backlog 快速增长，但现金投入先于收入确认、折旧又滞后压利润。",
+    "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。",
+    "valuation_context": "不引用即时估值倍数；应把 2026 年自由现金流压缩作为必要投入还是资本纪律失效的分水岭。",
+    "catalyst": "Cloud backlog 加速转收入、Gemini 商业化、Search AI Mode 变现。",
+    "risk": "算力供给与能源约束、折旧增速、搜索入口迁移、反垄断补救措施。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "title": "Alphabet 2025 Form 10-K",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 403000000000,
+      "display_value": "$403.0bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY2025 consolidated revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 350018000000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 129000000000,
+      "display_value": "$129.0bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Approximate FY operating income from filing",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 132170000000,
+      "display_value": "$132.17bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY2025 net income",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "free_cash_flow",
+      "metric": "free_cash_flow",
+      "value": 73300000000,
+      "display_value": "$73.3bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY2025 free cash flow",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "cash_and_marketable_securities",
+      "metric": "cash_and_marketable_securities",
+      "value": 126800000000,
+      "display_value": "$126.8bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Year-end cash and marketable securities",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "capital_expenditures",
+      "metric": "capital_expenditures",
+      "value": 91400000000,
+      "display_value": "$91.4bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY2025 capex",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 342700000000,
+      "display_value": "3,427.0亿元",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "Google Services",
+      "yoy": 13,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Google Services FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-8",
+      "metric": "segment_revenue",
+      "value": 58700000000,
+      "display_value": "587.0亿元",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "Google Cloud",
+      "yoy": 32,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Google Cloud FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "全年收入首次超过 4,000 亿美元；Q4 Search 增长 17%，Cloud 增长 48%，Gemini 月活超过 7.5 亿。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "2025 年折旧增长 38% 至 211 亿美元，2026 年将进一步加速；AI 人才与数据中心运营成本也在上升。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "经营现金流 1,647 亿美元、自由现金流 733 亿美元；2026 年资本开支指引高于 2025 年经营现金流。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层把供给紧张而非需求不足作为 Cloud 约束，并计划将过半 ML 算力分配给 Cloud。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "Search、Cloud 与模型竞争同时发生；Alphabet 的差异是 TPU、Gemini、分发入口和广告系统一体化。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "反垄断补救、能源与芯片供给、AI 搜索对点击与广告库存结构的改变均可影响回报。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“Cloud 收入增速、经营利润率与 2,400 亿美元 backlog 转化是否同步。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "Alphabet 的 AI 投资已经从产品研发问题转为资产负债表与产能调度问题；Cloud backlog 的利润转化率比 Gemini 排名更重要。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "Alphabet 的 AI 投资已经从产品研发问题转为资产负债表与产能调度问题；Cloud backlog 的利润转化率比 Gemini 排名更重要。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "Cloud Q4 利润率已达 30.1%、backlog 2,400 亿美元，说明资本开支并非无需求支撑。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "全年收入首次超过 4,000 亿美元；Q4 Search 增长 17%，Cloud 增长 48%，Gemini 月活超过 7.5 亿。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "Cloud Q4 利润率已达 30.1%、backlog 2,400 亿美元，说明资本开支并非无需求支撑。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "经营现金流 1,647 亿美元、自由现金流 733 亿美元；2026 年资本开支指引高于 2025 年经营现金流。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层把供给紧张而非需求不足作为 Cloud 约束，并计划将过半 ML 算力分配给 Cloud。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "2025 年资本开支约 60% 用于服务器、40% 用于数据中心和网络；2026 年过半 ML 算力预计给 Cloud。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "Search、Cloud 与模型竞争同时发生；Alphabet 的差异是 TPU、Gemini、分发入口和广告系统一体化。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "Cloud Q4 利润率已达 30.1%、backlog 2,400 亿美元，说明资本开支并非无需求支撑。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年收入 4,030 亿美元、经营现金流 1,647 亿美元、自由现金流 733 亿美元；资本开支 914 亿美元后，2026 年指引几乎翻倍至 1,750–1,850 亿美元。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“AI 需求与 Cloud backlog 快速增长，但现金投入先于收入确认、折旧又滞后压利润。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "Alphabet 已证明 AI 能拉动 Cloud、Search 与订阅增长，却尚未证明 2026 年 1,750–1,850 亿美元资本开支的回收期；真正的核心是 Cloud 利润与积压合同能否快于折旧爬坡。",
+        "new_view": "Alphabet 的 AI 投资已经从产品研发问题转为资产负债表与产能调度问题；Cloud backlog 的利润转化率比 Gemini 排名更重要。",
+        "mechanism": "AI 需求与 Cloud backlog 快速增长，但现金投入先于收入确认、折旧又滞后压利润。",
+        "implication": "需求不足不是当前问题，供给扩张、折旧压力与回收期才是未来两年的利润约束。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "Cloud Q4 利润率已达 30.1%、backlog 2,400 亿美元，说明资本开支并非无需求支撑。",
+        "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "全栈 AI 基础设施优先供给 Cloud 与核心产品",
+        "new_view": "Cloud 收入增速、经营利润率与 2,400 亿美元 backlog 转化是否同步。",
+        "mechanism": "2025 年资本开支约 60% 用于服务器、40% 用于数据中心和网络；2026 年过半 ML 算力预计给 Cloud。",
+        "implication": "需求不足不是当前问题，供给扩张、折旧压力与回收期才是未来两年的利润约束。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "Cloud Q4 利润率已达 30.1%、backlog 2,400 亿美元，说明资本开支并非无需求支撑。",
+        "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "Cloud Q4 利润率已达 30.1%、backlog 2,400 亿美元，说明资本开支并非无需求支撑。",
+        "new_view": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。",
+        "mechanism": "需求不足不是当前问题，供给扩张、折旧压力与回收期才是未来两年的利润约束。",
+        "implication": "需求不足不是当前问题，供给扩张、折旧压力与回收期才是未来两年的利润约束。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "Cloud Q4 利润率已达 30.1%、backlog 2,400 亿美元，说明资本开支并非无需求支撑。",
+        "falsifier": "若 Cloud 增速低于 30%、利润率跌破 25%，同时资本开支仍接近指引上沿，则回报闭环假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "Cloud 收入增速、经营利润率与 2,400 亿美元 backlog 转化是否同步。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        55,
+        65
+      ],
+      "group_profit_range": [
+        145,
+        160
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "Cloud 收入增速、经营利润率与 2,400 亿美元 backlog 转化是否同步。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        45,
+        55
+      ],
+      "group_profit_range": [
+        125,
+        145
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "Cloud 收入增速、经营利润率与 2,400 亿美元 backlog 转化是否同步。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        32,
+        42
+      ],
+      "group_profit_range": [
+        95,
+        120
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

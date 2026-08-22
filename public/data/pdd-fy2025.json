@@ -1,0 +1,553 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "pdd-fy2025",
+  "generated_at": "2026-08-22T07:15:20.520438+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "拼多多",
+    "ticker": "PDD",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "拼多多 2025 年收入仍增长 10%，但成本增长 23%、经营利润下降 13%、经营现金流下降 12%；这不是增长消失，而是平台主动把利润转向供应链、商家与跨境履约投入。",
+    "conclusion_summary": {
+      "rating": "中性",
+      "confidence": "medium",
+      "primary_difficulty": "证明长期投入不会永久压低平台回报率",
+      "current_difficulties": [
+        {
+          "title": "证明长期投入不会永久压低平台回报率",
+          "evidence": "收入 4,318 亿元、同比增长 10%，成本收入增长 23%，经营利润 946 亿元、同比下降 13%，经营现金流 1,069 亿元、同比下降 12%。",
+          "implication": "收入仍有韧性，但利润与现金流同时弱于收入，说明投入并非纯会计重分类。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“未来十年以供应链投入为最高优先级”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "未来十年以供应链投入为最高优先级",
+          "rationale": "平台有充足现金，但长期投入缺少明确上限与回收期，短期利润可见度下降。",
+          "management_signal": "联席 CEO 明确称供应链是最大信念，将以 all-in 方式投入生态。",
+          "validation": "成本收入增速差、交易服务增长、商家留存与经营现金流。"
+        }
+      ],
+      "core_conflict": "平台有充足现金，但长期投入缺少明确上限与回收期，短期利润可见度下降。",
+      "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。",
+      "valuation_context": "不把高现金余额直接等同于价值；需扣除供应链与跨境投入所需的持续资本。",
+      "catalyst": "供应链服务提升商家供给、交易服务重新加速、投入强度见顶。",
+      "risk": "跨境监管与关税、价格竞争、商家补贴固化、利润披露不透明。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "拼多多 2025 年收入仍增长 10%，但成本增长 23%、经营利润下降 13%、经营现金流下降 12%；这不是增长消失，而是平台主动把利润转向供应链、商家与跨境履约投入。",
+    "rating": "中性",
+    "confidence": "medium",
+    "primary_difficulty": "证明长期投入不会永久压低平台回报率",
+    "current_difficulties": [
+      {
+        "title": "证明长期投入不会永久压低平台回报率",
+        "evidence": "收入 4,318 亿元、同比增长 10%，成本收入增长 23%，经营利润 946 亿元、同比下降 13%，经营现金流 1,069 亿元、同比下降 12%。",
+        "implication": "收入仍有韧性，但利润与现金流同时弱于收入，说明投入并非纯会计重分类。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“未来十年以供应链投入为最高优先级”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "未来十年以供应链投入为最高优先级",
+        "rationale": "平台有充足现金，但长期投入缺少明确上限与回收期，短期利润可见度下降。",
+        "management_signal": "联席 CEO 明确称供应链是最大信念，将以 all-in 方式投入生态。",
+        "validation": "成本收入增速差、交易服务增长、商家留存与经营现金流。"
+      }
+    ],
+    "core_conflict": "平台有充足现金，但长期投入缺少明确上限与回收期，短期利润可见度下降。",
+    "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。",
+    "valuation_context": "不把高现金余额直接等同于价值；需扣除供应链与跨境投入所需的持续资本。",
+    "catalyst": "供应链服务提升商家供给、交易服务重新加速、投入强度见顶。",
+    "risk": "跨境监管与关税、价格竞争、商家补贴固化、利润披露不透明。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465926050727/pdd-20251231x20f.htm",
+      "title": "PDD Holdings 2025 Form 20-F",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 431845700000,
+      "display_value": "4,318.5亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY total revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 393836100000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 94624100000,
+      "display_value": "946.2亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating profit",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 108422900000
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 99364500000,
+      "display_value": "993.6亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Net income attributable",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 112434500000
+    },
+    {
+      "id": "operating_cash_flow",
+      "metric": "operating_cash_flow",
+      "value": 106938700000,
+      "display_value": "经营现金流1,069.4亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating cash flow",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 121929300000
+    },
+    {
+      "id": "cash_and_marketable_securities",
+      "metric": "cash_and_marketable_securities",
+      "value": 422300000000,
+      "display_value": "现金及短投4,223亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Cash and short-term investments",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 331600000000
+    },
+    {
+      "id": "segment-6",
+      "metric": "segment_revenue",
+      "value": 217783000000,
+      "display_value": "2,177.8亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "在线营销及其他",
+      "yoy": 10,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "在线营销及其他 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 214062700000,
+      "display_value": "2,140.6亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "交易服务",
+      "yoy": 9,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "交易服务 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "广告与交易服务规模已接近，各自增长 10% 与 9%；结构没有进一步向高增交易服务倾斜。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "成本增长 23%、研发增长 30%、营销增长 13%，均高于收入增速，投入正在实质性压低经营杠杆。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "经营现金流仍达 1,069 亿元、现金及短投 4,223 亿元，财务承受力强，但现金流同比下降。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层没有给出投入上限，而是强调长期、坚定和供应链 all-in；可见度下降是战略的一部分。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "国内商家生态与跨境履约同时竞争，补贴、物流、合规和流量成本会共同进入成本率。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "关税、低价包裹规则和跨境合规可直接改变 Temu 单位经济。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“成本收入增速差、交易服务增长、商家留存与经营现金流。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "PDD 的下行风险不是收入失速，而是供应链投入从可变补贴变成长期固定成本，使现金转化率中枢下移。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "PDD 的下行风险不是收入失速，而是供应链投入从可变补贴变成长期固定成本，使现金转化率中枢下移。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金余额高、经营现金流仍为千亿元级，平台完全有能力以短期利润换生态。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "广告与交易服务规模已接近，各自增长 10% 与 9%；结构没有进一步向高增交易服务倾斜。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金余额高、经营现金流仍为千亿元级，平台完全有能力以短期利润换生态。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "经营现金流仍达 1,069 亿元、现金及短投 4,223 亿元，财务承受力强，但现金流同比下降。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层没有给出投入上限，而是强调长期、坚定和供应链 all-in；可见度下降是战略的一部分。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "联席 CEO 明确称供应链是最大信念，将以 all-in 方式投入生态。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "国内商家生态与跨境履约同时竞争，补贴、物流、合规和流量成本会共同进入成本率。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "现金余额高、经营现金流仍为千亿元级，平台完全有能力以短期利润换生态。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入 4,318 亿元、同比增长 10%，成本收入增长 23%，经营利润 946 亿元、同比下降 13%，经营现金流 1,069 亿元、同比下降 12%。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“平台有充足现金，但长期投入缺少明确上限与回收期，短期利润可见度下降。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "拼多多 2025 年收入仍增长 10%，但成本增长 23%、经营利润下降 13%、经营现金流下降 12%；这不是增长消失，而是平台主动把利润转向供应链、商家与跨境履约投入。",
+        "new_view": "PDD 的下行风险不是收入失速，而是供应链投入从可变补贴变成长期固定成本，使现金转化率中枢下移。",
+        "mechanism": "平台有充足现金，但长期投入缺少明确上限与回收期，短期利润可见度下降。",
+        "implication": "收入仍有韧性，但利润与现金流同时弱于收入，说明投入并非纯会计重分类。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金余额高、经营现金流仍为千亿元级，平台完全有能力以短期利润换生态。",
+        "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "未来十年以供应链投入为最高优先级",
+        "new_view": "成本收入增速差、交易服务增长、商家留存与经营现金流。",
+        "mechanism": "联席 CEO 明确称供应链是最大信念，将以 all-in 方式投入生态。",
+        "implication": "收入仍有韧性，但利润与现金流同时弱于收入，说明投入并非纯会计重分类。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金余额高、经营现金流仍为千亿元级，平台完全有能力以短期利润换生态。",
+        "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "现金余额高、经营现金流仍为千亿元级，平台完全有能力以短期利润换生态。",
+        "new_view": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。",
+        "mechanism": "收入仍有韧性，但利润与现金流同时弱于收入，说明投入并非纯会计重分类。",
+        "implication": "收入仍有韧性，但利润与现金流同时弱于收入，说明投入并非纯会计重分类。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金余额高、经营现金流仍为千亿元级，平台完全有能力以短期利润换生态。",
+        "falsifier": "若交易服务增速连续低于广告、成本增速持续高于收入 10 个百分点以上且经营现金流低于 900 亿元，则投入转化假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "成本收入增速差、交易服务增长、商家留存与经营现金流。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        110,
+        125
+      ],
+      "group_profit_range": [
+        105,
+        120
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "成本收入增速差、交易服务增长、商家留存与经营现金流。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        90,
+        108
+      ],
+      "group_profit_range": [
+        88,
+        105
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "成本收入增速差、交易服务增长、商家留存与经营现金流。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        60,
+        82
+      ],
+      "group_profit_range": [
+        58,
+        82
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

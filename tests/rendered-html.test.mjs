@@ -7,6 +7,8 @@ const earningsOutput = new URL("../out/earnings/index.html", import.meta.url);
 const portalSource = new URL("../app/page.tsx", import.meta.url);
 const stylesSource = new URL("../app/globals.css", import.meta.url);
 const deploySource = new URL("../deploy/deploy.sh", import.meta.url);
+const reportCatalogSource = new URL("../app/report-catalog.ts", import.meta.url);
+const publicCatalogSource = new URL("../public/data/catalog.json", import.meta.url);
 
 test("exports the two-frame personal research portal", async () => {
   const html = await readFile(portalOutput, "utf8");
@@ -65,4 +67,38 @@ test("blocks deployments from uncommitted or unpushed source", async () => {
   assert.match(script, /fetch origin main/);
   assert.match(script, /rev-parse origin\/main/);
   assert.match(script, /Commit and push the complete site before deploying/);
+});
+
+test("publishes a validated FY2025 report for every tracked company", async () => {
+  const [registry, publicCatalogText] = await Promise.all([
+    readFile(reportCatalogSource, "utf8"),
+    readFile(publicCatalogSource, "utf8"),
+  ]);
+  const publicCatalog = JSON.parse(publicCatalogText);
+  const fy2025 = publicCatalog.reports.filter((report) =>
+    report.period.includes("FY2025"),
+  );
+
+  assert.equal(
+    (registry.match(/fiscalYear: 2025,\n\s+quarter: "FY"/g) ?? []).length,
+    13,
+  );
+  assert.equal(fy2025.length, 13);
+
+  for (const report of fy2025) {
+    const dataFile = new URL(
+      `../public/data/${new URL(report.data_url, "https://www.shresearch.cn/data/").pathname.split("/").at(-1)}`,
+      import.meta.url,
+    );
+    const payload = JSON.parse(await readFile(dataFile, "utf8"));
+
+    assert.equal(payload.modules.length, 9, report.id);
+    assert.ok(payload.socratic_review.questions.length >= 8, report.id);
+    assert.ok(payload.socratic_review.surviving_insights.length >= 1, report.id);
+    assert.equal(
+      payload.scenarios.reduce((sum, scenario) => sum + scenario.probability, 0),
+      100,
+      report.id,
+    );
+  }
 });

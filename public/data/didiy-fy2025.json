@@ -1,0 +1,552 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "didiy-fy2025",
+  "generated_at": "2026-08-22T07:15:20.144973+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "滴滴出行",
+    "ticker": "DIDIY",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "滴滴 2025 年 GTV 增长 14.8%、调整后利润增长 41%，但国际业务仍亏 61 亿元、营销费用增长 46%，集团 GAAP 利润仅 10 亿元；增长质量取决于海外扩张能否降低补贴强度。",
+    "conclusion_summary": {
+      "rating": "中性",
+      "confidence": "medium",
+      "primary_difficulty": "让国际高增长跨过补贴与新业务投入的盈亏平衡点",
+      "current_difficulties": [
+        {
+          "title": "让国际高增长跨过补贴与新业务投入的盈亏平衡点",
+          "evidence": "收入增长 9.6% 至 2,267 亿元，核心平台 GTV 增长 14.8%；国际 GTV 增长 28.2%，但国际调整后 EBITA 亏损 61 亿元。",
+          "implication": "订单和 GTV 有规模效应，营销与新海外业务投入仍阻断其向集团利润转化。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“中国稳利润、国际扩规模并探索海外新业务”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "中国稳利润、国际扩规模并探索海外新业务",
+          "rationale": "国际业务越快扩张，补贴和新业务投入越高，规模优势尚未稳定转化为利润。",
+          "management_signal": "中国出行调整后 EBITA 124 亿元，国际 GTV 1,170 亿元；Q4 加大海外新业务投资。",
+          "validation": "国际 EBITA、营销费用率、平台销售/GTV 与经营现金流。"
+        }
+      ],
+      "core_conflict": "国际业务越快扩张，补贴和新业务投入越高，规模优势尚未稳定转化为利润。",
+      "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。",
+      "valuation_context": "GAAP 利润受 53 亿元诉讼拨备与 16 亿元税收利益影响；应以分部调整后 EBITA 判断。",
+      "catalyst": "国际业务减亏、拉美协同、自动驾驶商业化、中国出行利润稳定。",
+      "risk": "海外补贴、监管和汇率、诉讼、司机供给成本。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "滴滴 2025 年 GTV 增长 14.8%、调整后利润增长 41%，但国际业务仍亏 61 亿元、营销费用增长 46%，集团 GAAP 利润仅 10 亿元；增长质量取决于海外扩张能否降低补贴强度。",
+    "rating": "中性",
+    "confidence": "medium",
+    "primary_difficulty": "让国际高增长跨过补贴与新业务投入的盈亏平衡点",
+    "current_difficulties": [
+      {
+        "title": "让国际高增长跨过补贴与新业务投入的盈亏平衡点",
+        "evidence": "收入增长 9.6% 至 2,267 亿元，核心平台 GTV 增长 14.8%；国际 GTV 增长 28.2%，但国际调整后 EBITA 亏损 61 亿元。",
+        "implication": "订单和 GTV 有规模效应，营销与新海外业务投入仍阻断其向集团利润转化。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“中国稳利润、国际扩规模并探索海外新业务”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "中国稳利润、国际扩规模并探索海外新业务",
+        "rationale": "国际业务越快扩张，补贴和新业务投入越高，规模优势尚未稳定转化为利润。",
+        "management_signal": "中国出行调整后 EBITA 124 亿元，国际 GTV 1,170 亿元；Q4 加大海外新业务投资。",
+        "validation": "国际 EBITA、营销费用率、平台销售/GTV 与经营现金流。"
+      }
+    ],
+    "core_conflict": "国际业务越快扩张，补贴和新业务投入越高，规模优势尚未稳定转化为利润。",
+    "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。",
+    "valuation_context": "GAAP 利润受 53 亿元诉讼拨备与 16 亿元税收利益影响；应以分部调整后 EBITA 判断。",
+    "catalyst": "国际业务减亏、拉美协同、自动驾驶商业化、中国出行利润稳定。",
+    "risk": "海外补贴、监管和汇率、诉讼、司机供给成本。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1764757/000110465926042350/didi-20251231x20f.htm",
+      "title": "DiDi Global 2025 Form 20-F",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 226700000000,
+      "display_value": "2,267亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 206800000000
+    },
+    {
+      "id": "profit_attributable_to_equity_holders",
+      "metric": "profit_attributable_to_equity_holders",
+      "value": 1000000000,
+      "display_value": "归母利润10亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Attributable profit",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 1300000000
+    },
+    {
+      "id": "adjusted_ebita",
+      "metric": "adjusted_ebita",
+      "value": 3700000000,
+      "display_value": "调整后EBITA 37亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Adjusted EBITA",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 4300000000
+    },
+    {
+      "id": "adjusted_profit_non_ifrs",
+      "metric": "adjusted_profit_non_ifrs",
+      "value": 7900000000,
+      "display_value": "调整后利润79亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Adjusted profit",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 5600000000
+    },
+    {
+      "id": "total_cash_and_treasury_investments",
+      "metric": "total_cash_and_treasury_investments",
+      "value": 55700000000,
+      "display_value": "现金及理财557亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Cash and treasury investments",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "segment-6",
+      "metric": "segment_revenue",
+      "value": 333800000000,
+      "display_value": "3,338.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "中国出行GTV",
+      "yoy": 10.7,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "中国出行GTV FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 117000000000,
+      "display_value": "1,170.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "国际GTV",
+      "yoy": 28.2,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "国际GTV FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "核心平台交易量增长 14%，GTV 增长 14.8%；国际订单和 GTV 显著快于中国。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "销售营销费用增长 46.1%，管理费用因 53 亿元诉讼拨备增长 70.2%，使 GAAP 利润质量复杂。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "现金及理财 557 亿元；增长投资仍可负担，但需监控国际亏损和 Q4 新业务投入。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层强调中国连续十二季双位数增长、国际连续第二年盈利能力进展，同时承认 Q4 加大海外新业务投资。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "海外市场的司机与用户补贴、本地支付和食品配送协同，决定平台销售率和 EBITA。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "汇率、当地出行监管、司机保障与诉讼会直接改变费用率和资本回报。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“国际 EBITA、营销费用率、平台销售/GTV 与经营现金流。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "滴滴国际业务的真正信号不是 GTV 增长 28%，而是平台销售仅增长 18.8%；货币化率承压解释了亏损仍高。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "滴滴国际业务的真正信号不是 GTV 增长 28%，而是平台销售仅增长 18.8%；货币化率承压解释了亏损仍高。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "国际增长也包含新市场爬坡，平台销售率阶段性下降可能换来长期网络密度。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "核心平台交易量增长 14%，GTV 增长 14.8%；国际订单和 GTV 显著快于中国。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "国际增长也包含新市场爬坡，平台销售率阶段性下降可能换来长期网络密度。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "现金及理财 557 亿元；增长投资仍可负担，但需监控国际亏损和 Q4 新业务投入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层强调中国连续十二季双位数增长、国际连续第二年盈利能力进展，同时承认 Q4 加大海外新业务投资。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "中国出行调整后 EBITA 124 亿元，国际 GTV 1,170 亿元；Q4 加大海外新业务投资。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "海外市场的司机与用户补贴、本地支付和食品配送协同，决定平台销售率和 EBITA。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "国际增长也包含新市场爬坡，平台销售率阶段性下降可能换来长期网络密度。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入增长 9.6% 至 2,267 亿元，核心平台 GTV 增长 14.8%；国际 GTV 增长 28.2%，但国际调整后 EBITA 亏损 61 亿元。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“国际业务越快扩张，补贴和新业务投入越高，规模优势尚未稳定转化为利润。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "滴滴 2025 年 GTV 增长 14.8%、调整后利润增长 41%，但国际业务仍亏 61 亿元、营销费用增长 46%，集团 GAAP 利润仅 10 亿元；增长质量取决于海外扩张能否降低补贴强度。",
+        "new_view": "滴滴国际业务的真正信号不是 GTV 增长 28%，而是平台销售仅增长 18.8%；货币化率承压解释了亏损仍高。",
+        "mechanism": "国际业务越快扩张，补贴和新业务投入越高，规模优势尚未稳定转化为利润。",
+        "implication": "订单和 GTV 有规模效应，营销与新海外业务投入仍阻断其向集团利润转化。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "国际增长也包含新市场爬坡，平台销售率阶段性下降可能换来长期网络密度。",
+        "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "中国稳利润、国际扩规模并探索海外新业务",
+        "new_view": "国际 EBITA、营销费用率、平台销售/GTV 与经营现金流。",
+        "mechanism": "中国出行调整后 EBITA 124 亿元，国际 GTV 1,170 亿元；Q4 加大海外新业务投资。",
+        "implication": "订单和 GTV 有规模效应，营销与新海外业务投入仍阻断其向集团利润转化。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "国际增长也包含新市场爬坡，平台销售率阶段性下降可能换来长期网络密度。",
+        "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "国际增长也包含新市场爬坡，平台销售率阶段性下降可能换来长期网络密度。",
+        "new_view": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。",
+        "mechanism": "订单和 GTV 有规模效应，营销与新海外业务投入仍阻断其向集团利润转化。",
+        "implication": "订单和 GTV 有规模效应，营销与新海外业务投入仍阻断其向集团利润转化。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "国际增长也包含新市场爬坡，平台销售率阶段性下降可能换来长期网络密度。",
+        "falsifier": "若国际 GTV 仍增长 25% 以上但国际 EBITA 亏损不收窄、营销费用率继续上升，则规模经济假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "国际 EBITA、营销费用率、平台销售/GTV 与经营现金流。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        16,
+        20
+      ],
+      "group_profit_range": [
+        10,
+        14
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "国际 EBITA、营销费用率、平台销售/GTV 与经营现金流。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        12,
+        16
+      ],
+      "group_profit_range": [
+        6,
+        10
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "国际 EBITA、营销费用率、平台销售/GTV 与经营现金流。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        7,
+        11
+      ],
+      "group_profit_range": [
+        0,
+        5
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

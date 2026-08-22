@@ -1,0 +1,566 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "bidu-fy2025",
+  "generated_at": "2026-08-22T07:15:20.092431+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "百度集团",
+    "ticker": "BIDU",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "百度 2025 年 AI 业务已增长至 400 亿元、同比 48%，但传统业务下滑、162 亿元减值与负 30 亿元经营现金流表明转型尚未完成自我融资；关键是 AI 增量能否快于搜索现金流流失。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "让 AI 收入替代传统广告并恢复现金自循环",
+      "current_difficulties": [
+        {
+          "title": "让 AI 收入替代传统广告并恢复现金自循环",
+          "evidence": "总收入下降 3% 至 1,291 亿元，AI 业务收入增长 48% 至 400 亿元；计提 162 亿元长期资产减值，经营现金流为负 30 亿元。",
+          "implication": "AI 规模化已发生，但成本更高且传统业务收缩，转型仍在吞噬利润与现金。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“AI 云、AI 应用与昆仑芯资本化”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "AI 云、AI 应用与昆仑芯资本化",
+          "rationale": "AI 收入高增长与传统搜索变现下滑并存，且 AI 基础设施成本拉高成本收入。",
+          "management_signal": "AI 云收入约 198 亿元、增长 34%；AI 原生营销增长至 98 亿元；昆仑芯分拆上市推进。",
+          "validation": "AI 业务占比、传统业务降幅、经营现金流与昆仑芯外部客户收入。"
+        }
+      ],
+      "core_conflict": "AI 收入高增长与传统搜索变现下滑并存，且 AI 基础设施成本拉高成本收入。",
+      "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。",
+      "valuation_context": "昆仑芯分拆只能重估资产，不能替代集团现金流修复；估值应同时扣除传统业务衰减。",
+      "catalyst": "AI 云加速、昆仑芯上市、Apollo Go 商业化、回购与首次分红。",
+      "risk": "传统广告下滑、AI 算力成本、芯片与监管约束、资产继续减值。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "百度 2025 年 AI 业务已增长至 400 亿元、同比 48%，但传统业务下滑、162 亿元减值与负 30 亿元经营现金流表明转型尚未完成自我融资；关键是 AI 增量能否快于搜索现金流流失。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "让 AI 收入替代传统广告并恢复现金自循环",
+    "current_difficulties": [
+      {
+        "title": "让 AI 收入替代传统广告并恢复现金自循环",
+        "evidence": "总收入下降 3% 至 1,291 亿元，AI 业务收入增长 48% 至 400 亿元；计提 162 亿元长期资产减值，经营现金流为负 30 亿元。",
+        "implication": "AI 规模化已发生，但成本更高且传统业务收缩，转型仍在吞噬利润与现金。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“AI 云、AI 应用与昆仑芯资本化”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "AI 云、AI 应用与昆仑芯资本化",
+        "rationale": "AI 收入高增长与传统搜索变现下滑并存，且 AI 基础设施成本拉高成本收入。",
+        "management_signal": "AI 云收入约 198 亿元、增长 34%；AI 原生营销增长至 98 亿元；昆仑芯分拆上市推进。",
+        "validation": "AI 业务占比、传统业务降幅、经营现金流与昆仑芯外部客户收入。"
+      }
+    ],
+    "core_conflict": "AI 收入高增长与传统搜索变现下滑并存，且 AI 基础设施成本拉高成本收入。",
+    "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。",
+    "valuation_context": "昆仑芯分拆只能重估资产，不能替代集团现金流修复；估值应同时扣除传统业务衰减。",
+    "catalyst": "AI 云加速、昆仑芯上市、Apollo Go 商业化、回购与首次分红。",
+    "risk": "传统广告下滑、AI 算力成本、芯片与监管约束、资产继续减值。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526109289/d38065d20f.htm",
+      "title": "Baidu 2025 Form 20-F",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 129100000000,
+      "display_value": "1,291亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY total revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 133125000000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": -5800000000,
+      "display_value": "经营亏损58亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating loss after impairment",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 5600000000,
+      "display_value": "归母净利56亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Net income attributable",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "operating_cash_flow",
+      "metric": "operating_cash_flow",
+      "value": -3000000000,
+      "display_value": "经营现金流-30亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating cash flow",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "cash_and_marketable_securities",
+      "metric": "cash_and_marketable_securities",
+      "value": 294100000000,
+      "display_value": "现金及投资2,941亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Total cash and investments",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "segment-6",
+      "metric": "segment_revenue",
+      "value": 19800000000,
+      "display_value": "198.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "AI 云基础设施",
+      "yoy": 34,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "AI 云基础设施 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 10200000000,
+      "display_value": "102.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "AI 应用",
+      "yoy": 5,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "AI 应用 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-8",
+      "metric": "segment_revenue",
+      "value": 9800000000,
+      "display_value": "98.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "AI 原生营销",
+      "yoy": 301,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "AI 原生营销 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "AI 驱动业务收入 400 亿元、占 General Business 39%；AI 云、应用和原生营销的增速分化明显。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "成本收入增长 10%，销售管理费用增长 9%，研发反而下降 8%；162 亿元减值暴露传统资产预期下修。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "全年经营现金流为负 30 亿元，但下半年合计转正 39 亿元；现金及投资 2,941 亿元提供缓冲。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层把昆仑芯分拆、50 亿美元回购与首次分红并列，试图同时释放 AI 资产价值与股东回报。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "AI 云与大模型竞争要求持续算力投入，搜索入口竞争又侵蚀传统流量变现。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "芯片供应、内容监管、自动驾驶牌照与搜索广告周期均可影响转型速度。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“AI 业务占比、传统业务降幅、经营现金流与昆仑芯外部客户收入。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "百度真正的拐点不是 AI 收入过 400 亿元，而是下半年现金流转正能否延续为全年正现金流。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "百度真正的拐点不是 AI 收入过 400 亿元，而是下半年现金流转正能否延续为全年正现金流。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "162 亿元减值是非现金项目，剔除后经营利润 104 亿元，底层业务并非全面亏损。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "AI 驱动业务收入 400 亿元、占 General Business 39%；AI 云、应用和原生营销的增速分化明显。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "162 亿元减值是非现金项目，剔除后经营利润 104 亿元，底层业务并非全面亏损。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "全年经营现金流为负 30 亿元，但下半年合计转正 39 亿元；现金及投资 2,941 亿元提供缓冲。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层把昆仑芯分拆、50 亿美元回购与首次分红并列，试图同时释放 AI 资产价值与股东回报。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "AI 云收入约 198 亿元、增长 34%；AI 原生营销增长至 98 亿元；昆仑芯分拆上市推进。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "AI 云与大模型竞争要求持续算力投入，搜索入口竞争又侵蚀传统流量变现。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "162 亿元减值是非现金项目，剔除后经营利润 104 亿元，底层业务并非全面亏损。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "总收入下降 3% 至 1,291 亿元，AI 业务收入增长 48% 至 400 亿元；计提 162 亿元长期资产减值，经营现金流为负 30 亿元。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“AI 收入高增长与传统搜索变现下滑并存，且 AI 基础设施成本拉高成本收入。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "百度 2025 年 AI 业务已增长至 400 亿元、同比 48%，但传统业务下滑、162 亿元减值与负 30 亿元经营现金流表明转型尚未完成自我融资；关键是 AI 增量能否快于搜索现金流流失。",
+        "new_view": "百度真正的拐点不是 AI 收入过 400 亿元，而是下半年现金流转正能否延续为全年正现金流。",
+        "mechanism": "AI 收入高增长与传统搜索变现下滑并存，且 AI 基础设施成本拉高成本收入。",
+        "implication": "AI 规模化已发生，但成本更高且传统业务收缩，转型仍在吞噬利润与现金。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "162 亿元减值是非现金项目，剔除后经营利润 104 亿元，底层业务并非全面亏损。",
+        "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "AI 云、AI 应用与昆仑芯资本化",
+        "new_view": "AI 业务占比、传统业务降幅、经营现金流与昆仑芯外部客户收入。",
+        "mechanism": "AI 云收入约 198 亿元、增长 34%；AI 原生营销增长至 98 亿元；昆仑芯分拆上市推进。",
+        "implication": "AI 规模化已发生，但成本更高且传统业务收缩，转型仍在吞噬利润与现金。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "162 亿元减值是非现金项目，剔除后经营利润 104 亿元，底层业务并非全面亏损。",
+        "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "162 亿元减值是非现金项目，剔除后经营利润 104 亿元，底层业务并非全面亏损。",
+        "new_view": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。",
+        "mechanism": "AI 规模化已发生，但成本更高且传统业务收缩，转型仍在吞噬利润与现金。",
+        "implication": "AI 规模化已发生，但成本更高且传统业务收缩，转型仍在吞噬利润与现金。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "162 亿元减值是非现金项目，剔除后经营利润 104 亿元，底层业务并非全面亏损。",
+        "falsifier": "若 AI 业务增速低于 30%、传统业务仍双位数下滑且全年经营现金流不转正，则替代引擎假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "AI 业务占比、传统业务降幅、经营现金流与昆仑芯外部客户收入。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        20,
+        28
+      ],
+      "group_profit_range": [
+        15,
+        22
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "AI 业务占比、传统业务降幅、经营现金流与昆仑芯外部客户收入。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        14,
+        20
+      ],
+      "group_profit_range": [
+        8,
+        15
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "AI 业务占比、传统业务降幅、经营现金流与昆仑芯外部客户收入。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        7,
+        13
+      ],
+      "group_profit_range": [
+        -2,
+        6
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

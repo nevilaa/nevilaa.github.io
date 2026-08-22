@@ -1,0 +1,567 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "meta-fy2025",
+  "generated_at": "2026-08-22T07:15:20.358438+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "Meta Platforms",
+    "ticker": "META",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "Meta 2025 年的核心不是广告还能否增长，而是广告量价齐升形成的现金流，能否覆盖从 722 亿美元跳向 2026 年 1,150–1,350 亿美元的 AI 资本开支，同时不让 Reality Labs 与监管风险侵蚀回报。",
+    "conclusion_summary": {
+      "rating": "中性偏积极",
+      "confidence": "medium",
+      "primary_difficulty": "证明 AI 资本开支的增量回报率",
+      "current_difficulties": [
+        {
+          "title": "证明 AI 资本开支的增量回报率",
+          "evidence": "收入增长 22%、经营利润增长 20%，但资本开支已达 722 亿美元；管理层把 2026 年资本开支指引进一步上调至 1,150–1,350 亿美元。",
+          "implication": "广告引擎仍足够强，但现金流安全垫将更多转化为折旧、算力和人才成本，估值对回报周期更敏感。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“个人超级智能与核心广告基础设施并投”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "个人超级智能与核心广告基础设施并投",
+          "rationale": "广告现金牛的当期确定性，对冲不了 AI 基础设施回收期与 Reality Labs 长期亏损的不确定性。",
+          "management_signal": "2026 年资本开支主要支持 Meta Superintelligence Labs 与核心业务，费用增量最大项是基础设施。",
+          "validation": "广告单价与展示量是否继续双增，且 2026 年经营利润仍高于 2025 年。"
+        }
+      ],
+      "core_conflict": "广告现金牛的当期确定性，对冲不了 AI 基础设施回收期与 Reality Labs 长期亏损的不确定性。",
+      "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。",
+      "valuation_context": "本报告不使用不可复现的即时股价；估值应围绕 2026 年资本强度上升后自由现金流能否守住，而非仅外推 22% 收入增速。",
+      "catalyst": "AI 提升广告转化率、DAP 继续增长、2026 年经营利润兑现管理层承诺。",
+      "risk": "AI 投入回收慢于折旧确认、Reality Labs 持续亏损、欧美隐私和青少年诉讼。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "Meta 2025 年的核心不是广告还能否增长，而是广告量价齐升形成的现金流，能否覆盖从 722 亿美元跳向 2026 年 1,150–1,350 亿美元的 AI 资本开支，同时不让 Reality Labs 与监管风险侵蚀回报。",
+    "rating": "中性偏积极",
+    "confidence": "medium",
+    "primary_difficulty": "证明 AI 资本开支的增量回报率",
+    "current_difficulties": [
+      {
+        "title": "证明 AI 资本开支的增量回报率",
+        "evidence": "收入增长 22%、经营利润增长 20%，但资本开支已达 722 亿美元；管理层把 2026 年资本开支指引进一步上调至 1,150–1,350 亿美元。",
+        "implication": "广告引擎仍足够强，但现金流安全垫将更多转化为折旧、算力和人才成本，估值对回报周期更敏感。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“个人超级智能与核心广告基础设施并投”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "个人超级智能与核心广告基础设施并投",
+        "rationale": "广告现金牛的当期确定性，对冲不了 AI 基础设施回收期与 Reality Labs 长期亏损的不确定性。",
+        "management_signal": "2026 年资本开支主要支持 Meta Superintelligence Labs 与核心业务，费用增量最大项是基础设施。",
+        "validation": "广告单价与展示量是否继续双增，且 2026 年经营利润仍高于 2025 年。"
+      }
+    ],
+    "core_conflict": "广告现金牛的当期确定性，对冲不了 AI 基础设施回收期与 Reality Labs 长期亏损的不确定性。",
+    "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。",
+    "valuation_context": "本报告不使用不可复现的即时股价；估值应围绕 2026 年资本强度上升后自由现金流能否守住，而非仅外推 22% 收入增速。",
+    "catalyst": "AI 提升广告转化率、DAP 继续增长、2026 年经营利润兑现管理层承诺。",
+    "risk": "AI 投入回收慢于折旧确认、Reality Labs 持续亏损、欧美隐私和青少年诉讼。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "title": "Meta Platforms 2025 Form 10-K",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 200966000000,
+      "display_value": "$200.97bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Consolidated revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 164501000000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 83276000000,
+      "display_value": "$83.28bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Income from operations",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 69380000000
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 60458000000,
+      "display_value": "$60.46bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Net income; tax charge distorts YoY",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 62360000000
+    },
+    {
+      "id": "free_cash_flow",
+      "metric": "free_cash_flow",
+      "value": 43590000000,
+      "display_value": "$43.59bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Company-defined free cash flow",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "cash_and_marketable_securities",
+      "metric": "cash_and_marketable_securities",
+      "value": 81590000000,
+      "display_value": "$81.59bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Cash and marketable securities",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "capital_expenditures",
+      "metric": "capital_expenditures",
+      "value": 72220000000,
+      "display_value": "$72.22bn",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Capex including finance-lease principal",
+      "location": "official annual filing/results; financial tables and MD&A"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 198760000000,
+      "display_value": "1,987.6亿元",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "Family of Apps",
+      "yoy": 26,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Family of Apps FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-8",
+      "metric": "segment_revenue",
+      "value": 2206000000,
+      "display_value": "22.1亿元",
+      "currency": "USD",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "Reality Labs",
+      "yoy": -6,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Reality Labs FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "广告展示量全年增长 12%、单价增长 9%，增长由量价共同驱动；DAP 12 月达 35.8 亿、同比增长 7%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "总成本费用增长 24%，快于收入 22%；基础设施与技术人才将继续成为 2026 年费用增量主因。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "经营现金流 1,158 亿美元、自由现金流 436 亿美元，仍能自筹扩张，但资本开支已消耗约六成经营现金流。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层明确承诺即使资本开支大幅抬升，2026 年经营利润仍高于 2025 年，这是最清晰的检验点。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "竞争从社交产品份额扩展到模型、算力、AI 人才和智能眼镜；财务传导先落在折旧与薪酬，再看广告效率。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "欧美隐私、青少年保护与广告监管可能直接影响定向能力和诉讼损失。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“广告单价与展示量是否继续双增，且 2026 年经营利润仍高于 2025 年。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "Meta 的关键杠杆不是单纯削减成本，而是用广告量价双增为 AI 训练与分发同时融资；回报检验应从 EPS 转向自由现金流与广告效率的联动。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "Meta 的关键杠杆不是单纯削减成本，而是用广告量价双增为 AI 训练与分发同时融资；回报检验应从 EPS 转向自由现金流与广告效率的联动。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年净利润下降主要受一次性税项影响，剔除后核心利润并未恶化；同时广告增长可继续覆盖投入。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "广告展示量全年增长 12%、单价增长 9%，增长由量价共同驱动；DAP 12 月达 35.8 亿、同比增长 7%。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年净利润下降主要受一次性税项影响，剔除后核心利润并未恶化；同时广告增长可继续覆盖投入。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "经营现金流 1,158 亿美元、自由现金流 436 亿美元，仍能自筹扩张，但资本开支已消耗约六成经营现金流。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层明确承诺即使资本开支大幅抬升，2026 年经营利润仍高于 2025 年，这是最清晰的检验点。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "2026 年资本开支主要支持 Meta Superintelligence Labs 与核心业务，费用增量最大项是基础设施。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "竞争从社交产品份额扩展到模型、算力、AI 人才和智能眼镜；财务传导先落在折旧与薪酬，再看广告效率。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "2025 年净利润下降主要受一次性税项影响，剔除后核心利润并未恶化；同时广告增长可继续覆盖投入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入增长 22%、经营利润增长 20%，但资本开支已达 722 亿美元；管理层把 2026 年资本开支指引进一步上调至 1,150–1,350 亿美元。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“广告现金牛的当期确定性，对冲不了 AI 基础设施回收期与 Reality Labs 长期亏损的不确定性。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "Meta 2025 年的核心不是广告还能否增长，而是广告量价齐升形成的现金流，能否覆盖从 722 亿美元跳向 2026 年 1,150–1,350 亿美元的 AI 资本开支，同时不让 Reality Labs 与监管风险侵蚀回报。",
+        "new_view": "Meta 的关键杠杆不是单纯削减成本，而是用广告量价双增为 AI 训练与分发同时融资；回报检验应从 EPS 转向自由现金流与广告效率的联动。",
+        "mechanism": "广告现金牛的当期确定性，对冲不了 AI 基础设施回收期与 Reality Labs 长期亏损的不确定性。",
+        "implication": "广告引擎仍足够强，但现金流安全垫将更多转化为折旧、算力和人才成本，估值对回报周期更敏感。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年净利润下降主要受一次性税项影响，剔除后核心利润并未恶化；同时广告增长可继续覆盖投入。",
+        "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "个人超级智能与核心广告基础设施并投",
+        "new_view": "广告单价与展示量是否继续双增，且 2026 年经营利润仍高于 2025 年。",
+        "mechanism": "2026 年资本开支主要支持 Meta Superintelligence Labs 与核心业务，费用增量最大项是基础设施。",
+        "implication": "广告引擎仍足够强，但现金流安全垫将更多转化为折旧、算力和人才成本，估值对回报周期更敏感。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年净利润下降主要受一次性税项影响，剔除后核心利润并未恶化；同时广告增长可继续覆盖投入。",
+        "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "2025 年净利润下降主要受一次性税项影响，剔除后核心利润并未恶化；同时广告增长可继续覆盖投入。",
+        "new_view": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。",
+        "mechanism": "广告引擎仍足够强，但现金流安全垫将更多转化为折旧、算力和人才成本，估值对回报周期更敏感。",
+        "implication": "广告引擎仍足够强，但现金流安全垫将更多转化为折旧、算力和人才成本，估值对回报周期更敏感。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "2025 年净利润下降主要受一次性税项影响，剔除后核心利润并未恶化；同时广告增长可继续覆盖投入。",
+        "falsifier": "若广告单价或展示量任一连续转负、自由现金流明显低于 400 亿美元，或管理层撤回 2026 年经营利润高于 2025 年的判断，则资本开支可控的主线被推翻。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "广告单价与展示量是否继续双增，且 2026 年经营利润仍高于 2025 年。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        95,
+        105
+      ],
+      "group_profit_range": [
+        70,
+        80
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "广告单价与展示量是否继续双增，且 2026 年经营利润仍高于 2025 年。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        88,
+        98
+      ],
+      "group_profit_range": [
+        60,
+        70
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "广告单价与展示量是否继续双增，且 2026 年经营利润仍高于 2025 年。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        72,
+        85
+      ],
+      "group_profit_range": [
+        45,
+        58
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "01024-hk-fy2025",
+  "generated_at": "2026-08-22T07:15:20.251413+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "快手科技",
+    "ticker": "01024.HK",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "快手 2025 年收入增长 12.5%、经营利润增长 35%，海外分部接近盈亏平衡；可灵已出现 3.4 亿元季度收入，但第二增长曲线能否覆盖持续算力投入仍需用独立利润验证。",
+    "conclusion_summary": {
+      "rating": "中性偏积极",
+      "confidence": "medium",
+      "primary_difficulty": "在不破坏核心利润率的前提下把可灵做成第二曲线",
+      "current_difficulties": [
+        {
+          "title": "在不破坏核心利润率的前提下把可灵做成第二曲线",
+          "evidence": "收入 1,428 亿元、经营利润 206 亿元；可灵 Q4 收入 3.4 亿元、12 月 ARR 2.4 亿美元，规模仍远小于核心广告和电商。",
+          "implication": "AI 已改善广告与推荐，也开始独立变现，但算力资本化与收入规模的匹配尚未充分披露。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“可灵商业化与 AI 改造广告、电商、研发”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "可灵商业化与 AI 改造广告、电商、研发",
+          "rationale": "AI 同时是效率工具与高资本业务，核心平台贡献现金而可灵消耗算力。",
+          "management_signal": "Q4 AIGC 素材驱动广告消耗 40 亿元，生成式推荐带来约 5% 国内广告增量；40% 新代码由 CodeFlicker 生成。",
+          "validation": "可灵收入、AI 资本开支、广告增量、国内利润率和海外 EBITA。"
+        }
+      ],
+      "core_conflict": "AI 同时是效率工具与高资本业务，核心平台贡献现金而可灵消耗算力。",
+      "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。",
+      "valuation_context": "不使用即时市场价格；需按核心平台与可灵分部看待，而非把 ARR 直接按软件倍数外推。",
+      "catalyst": "可灵 3.0 商业化、广告 AI 增量、海外转正、生成式推荐继续提效。",
+      "risk": "视频模型竞争、算力和版权成本、广告周期、电商增速。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "快手 2025 年收入增长 12.5%、经营利润增长 35%，海外分部接近盈亏平衡；可灵已出现 3.4 亿元季度收入，但第二增长曲线能否覆盖持续算力投入仍需用独立利润验证。",
+    "rating": "中性偏积极",
+    "confidence": "medium",
+    "primary_difficulty": "在不破坏核心利润率的前提下把可灵做成第二曲线",
+    "current_difficulties": [
+      {
+        "title": "在不破坏核心利润率的前提下把可灵做成第二曲线",
+        "evidence": "收入 1,428 亿元、经营利润 206 亿元；可灵 Q4 收入 3.4 亿元、12 月 ARR 2.4 亿美元，规模仍远小于核心广告和电商。",
+        "implication": "AI 已改善广告与推荐，也开始独立变现，但算力资本化与收入规模的匹配尚未充分披露。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“可灵商业化与 AI 改造广告、电商、研发”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "可灵商业化与 AI 改造广告、电商、研发",
+        "rationale": "AI 同时是效率工具与高资本业务，核心平台贡献现金而可灵消耗算力。",
+        "management_signal": "Q4 AIGC 素材驱动广告消耗 40 亿元，生成式推荐带来约 5% 国内广告增量；40% 新代码由 CodeFlicker 生成。",
+        "validation": "可灵收入、AI 资本开支、广告增量、国内利润率和海外 EBITA。"
+      }
+    ],
+    "core_conflict": "AI 同时是效率工具与高资本业务，核心平台贡献现金而可灵消耗算力。",
+    "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。",
+    "valuation_context": "不使用即时市场价格；需按核心平台与可灵分部看待，而非把 ARR 直接按软件倍数外推。",
+    "catalyst": "可灵 3.0 商业化、广告 AI 增量、海外转正、生成式推荐继续提效。",
+    "risk": "视频模型竞争、算力和版权成本、广告周期、电商增速。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401899.pdf",
+      "title": "Kuaishou Technology Annual Report 2025",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 142776000000,
+      "display_value": "1,427.8亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 126898000000
+    },
+    {
+      "id": "gross_profit",
+      "metric": "gross_profit",
+      "value": 78549000000,
+      "display_value": "785.5亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Gross profit",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 69292000000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 20637000000,
+      "display_value": "经营利润206.4亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Operating profit",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 15287000000
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 18624000000,
+      "display_value": "净利润186.2亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Profit for the year",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 15344000000
+    },
+    {
+      "id": "adjusted_profit_non_ifrs",
+      "metric": "adjusted_profit_non_ifrs",
+      "value": 20647000000,
+      "display_value": "调整后净利206.5亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Adjusted net profit",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 17716000000
+    },
+    {
+      "id": "segment-6",
+      "metric": "segment_revenue",
+      "value": 137702000000,
+      "display_value": "1,377.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "国内",
+      "yoy": 12.7,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "国内 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 5074000000,
+      "display_value": "50.7亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "海外",
+      "yoy": 8.0,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "海外 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "平均 DAU 4.10 亿、GMV 1.60 万亿元；可灵 Q4 收入 3.4 亿元并在 12 月达到 2.4 亿美元 ARR。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "毛利率升至 55%，经营利润率升至 14.5%；AI 投入尚未阻断核心平台经营杠杆。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "国内分部经营利润 212 亿元，海外亏损收窄至 0.76 亿元，为 AI 投入提供利润缓冲。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层把 AI 同时嵌入内容、广告、电商和组织效率，并继续建设自有数据中心。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "视频生成模型竞争看质量、速度、成本与创作者工作流，核心平台竞争看流量和电商供给。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "版权、模型监管、算力供给和广告需求波动会影响可灵与核心业务。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“可灵收入、AI 资本开支、广告增量、国内利润率和海外 EBITA。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "快手的 AI 价值不只在可灵收入；Q4 约 5% 广告增量和代码生成率显示，内部提效可能先于独立业务利润兑现。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "快手的 AI 价值不只在可灵收入；Q4 约 5% 广告增量和代码生成率显示，内部提效可能先于独立业务利润兑现。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "管理层披露的是增量贡献估算，尚未给出完整成本与因果拆分，不能全部归因于 AI。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "平均 DAU 4.10 亿、GMV 1.60 万亿元；可灵 Q4 收入 3.4 亿元并在 12 月达到 2.4 亿美元 ARR。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "管理层披露的是增量贡献估算，尚未给出完整成本与因果拆分，不能全部归因于 AI。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "国内分部经营利润 212 亿元，海外亏损收窄至 0.76 亿元，为 AI 投入提供利润缓冲。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层把 AI 同时嵌入内容、广告、电商和组织效率，并继续建设自有数据中心。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "Q4 AIGC 素材驱动广告消耗 40 亿元，生成式推荐带来约 5% 国内广告增量；40% 新代码由 CodeFlicker 生成。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "视频生成模型竞争看质量、速度、成本与创作者工作流，核心平台竞争看流量和电商供给。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "管理层披露的是增量贡献估算，尚未给出完整成本与因果拆分，不能全部归因于 AI。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入 1,428 亿元、经营利润 206 亿元；可灵 Q4 收入 3.4 亿元、12 月 ARR 2.4 亿美元，规模仍远小于核心广告和电商。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“AI 同时是效率工具与高资本业务，核心平台贡献现金而可灵消耗算力。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "快手 2025 年收入增长 12.5%、经营利润增长 35%，海外分部接近盈亏平衡；可灵已出现 3.4 亿元季度收入，但第二增长曲线能否覆盖持续算力投入仍需用独立利润验证。",
+        "new_view": "快手的 AI 价值不只在可灵收入；Q4 约 5% 广告增量和代码生成率显示，内部提效可能先于独立业务利润兑现。",
+        "mechanism": "AI 同时是效率工具与高资本业务，核心平台贡献现金而可灵消耗算力。",
+        "implication": "AI 已改善广告与推荐，也开始独立变现，但算力资本化与收入规模的匹配尚未充分披露。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "管理层披露的是增量贡献估算，尚未给出完整成本与因果拆分，不能全部归因于 AI。",
+        "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "可灵商业化与 AI 改造广告、电商、研发",
+        "new_view": "可灵收入、AI 资本开支、广告增量、国内利润率和海外 EBITA。",
+        "mechanism": "Q4 AIGC 素材驱动广告消耗 40 亿元，生成式推荐带来约 5% 国内广告增量；40% 新代码由 CodeFlicker 生成。",
+        "implication": "AI 已改善广告与推荐，也开始独立变现，但算力资本化与收入规模的匹配尚未充分披露。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "管理层披露的是增量贡献估算，尚未给出完整成本与因果拆分，不能全部归因于 AI。",
+        "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "管理层披露的是增量贡献估算，尚未给出完整成本与因果拆分，不能全部归因于 AI。",
+        "new_view": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。",
+        "mechanism": "AI 已改善广告与推荐，也开始独立变现，但算力资本化与收入规模的匹配尚未充分披露。",
+        "implication": "AI 已改善广告与推荐，也开始独立变现，但算力资本化与收入规模的匹配尚未充分披露。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "管理层披露的是增量贡献估算，尚未给出完整成本与因果拆分，不能全部归因于 AI。",
+        "falsifier": "若可灵季度收入增速低于 50%、国内利润率下滑超过 2 个百分点且 AI 资本开支继续上升，则第二曲线假设失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "可灵收入、AI 资本开支、广告增量、国内利润率和海外 EBITA。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        25,
+        29
+      ],
+      "group_profit_range": [
+        24,
+        28
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "可灵收入、AI 资本开支、广告增量、国内利润率和海外 EBITA。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        21,
+        25
+      ],
+      "group_profit_range": [
+        20,
+        24
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "可灵收入、AI 资本开支、广告增量、国内利润率和海外 EBITA。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        16,
+        20
+      ],
+      "group_profit_range": [
+        14,
+        19
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}

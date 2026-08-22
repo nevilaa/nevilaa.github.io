@@ -1,0 +1,570 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "9618-hk-fy2025",
+  "generated_at": "2026-08-22T07:15:20.197808+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "京东集团",
+    "ticker": "9618.HK",
+    "period": "FY2025",
+    "status": "approved",
+    "thesis": "京东 2025 年零售主业利润率升至 4.6%，却因外卖等新业务投入令集团经营利润从 387 亿元降至 28 亿元；核心不是零售失速，而是新业务何时停止吞噬主业利润。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "把新业务减亏节奏重新置于零售现金创造力之内",
+      "current_difficulties": [
+        {
+          "title": "把新业务减亏节奏重新置于零售现金创造力之内",
+          "evidence": "收入增长 13% 至 1.31 万亿元，零售经营利润增长至 514 亿元；集团经营利润却仅 28 亿元，归母净利下降 53% 至 196 亿元。",
+          "implication": "主业改善是真实的，但集团层面的资本配置尚未证明回报，外卖与国际业务决定估值折价。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“零售效率筑底、外卖与即时零售扩规模”，本质是在增长、效率与现金回报之间重新分配资源。",
+      "strategic_directions": [
+        {
+          "direction": "零售效率筑底、外卖与即时零售扩规模",
+          "rationale": "零售利润率创新高，却被新业务的履约、人力和补贴投入几乎完全抵消。",
+          "management_signal": "管理层称外卖自上线后每季亏损收窄，京喜与国际业务继续投入。",
+          "validation": "新业务经营亏损、履约费用率、零售利润率与服务收入增速。"
+        }
+      ],
+      "core_conflict": "零售利润率创新高，却被新业务的履约、人力和补贴投入几乎完全抵消。",
+      "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。",
+      "valuation_context": "估值应分拆零售主业与新业务亏损，不宜用集团 0.2% 经营利润率否定零售资产，也不能忽略投入持续性。",
+      "catalyst": "外卖减亏、服务收入保持 20% 以上增长、零售利润率稳定。",
+      "risk": "即时零售价格战、骑手与履约成本、消费品高基数、海外扩张。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。"
+  },
+  "conclusion_summary": {
+    "thesis": "京东 2025 年零售主业利润率升至 4.6%，却因外卖等新业务投入令集团经营利润从 387 亿元降至 28 亿元；核心不是零售失速，而是新业务何时停止吞噬主业利润。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "把新业务减亏节奏重新置于零售现金创造力之内",
+    "current_difficulties": [
+      {
+        "title": "把新业务减亏节奏重新置于零售现金创造力之内",
+        "evidence": "收入增长 13% 至 1.31 万亿元，零售经营利润增长至 514 亿元；集团经营利润却仅 28 亿元，归母净利下降 53% 至 196 亿元。",
+        "implication": "主业改善是真实的，但集团层面的资本配置尚未证明回报，外卖与国际业务决定估值折价。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“零售效率筑底、外卖与即时零售扩规模”，本质是在增长、效率与现金回报之间重新分配资源。",
+    "strategic_directions": [
+      {
+        "direction": "零售效率筑底、外卖与即时零售扩规模",
+        "rationale": "零售利润率创新高，却被新业务的履约、人力和补贴投入几乎完全抵消。",
+        "management_signal": "管理层称外卖自上线后每季亏损收窄，京喜与国际业务继续投入。",
+        "validation": "新业务经营亏损、履约费用率、零售利润率与服务收入增速。"
+      }
+    ],
+    "core_conflict": "零售利润率创新高，却被新业务的履约、人力和补贴投入几乎完全抵消。",
+    "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。",
+    "valuation_context": "估值应分拆零售主业与新业务亏损，不宜用集团 0.2% 经营利润率否定零售资产，也不能忽略投入持续性。",
+    "catalyst": "外卖减亏、服务收入保持 20% 以上增长、零售利润率稳定。",
+    "risk": "即时零售价格战、骑手与履约成本、消费品高基数、海外扩张。"
+  },
+  "sources": [
+    {
+      "id": "official-filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526157870/d53690d20f.htm",
+      "title": "JD.com 2025 Form 20-F",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-08-22T07:15:19.869110+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 1309085000000,
+      "display_value": "13,090.9亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "FY net revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 1158819000000
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 2800000000,
+      "display_value": "28亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Group operating income",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 38700000000
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 19600000000,
+      "display_value": "196亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Net income attributable",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 41400000000
+    },
+    {
+      "id": "fulfillment_expenses",
+      "metric": "fulfillment_expenses",
+      "value": 88200000000,
+      "display_value": "882亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Fulfillment expense",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 70400000000
+    },
+    {
+      "id": "net_service_revenues",
+      "metric": "net_service_revenues",
+      "value": 285283000000,
+      "display_value": "2,852.8亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "Service revenue",
+      "location": "official annual filing/results; financial tables and MD&A",
+      "previous_value": 230812000000
+    },
+    {
+      "id": "segment-6",
+      "metric": "segment_revenue",
+      "value": 1126399000000,
+      "display_value": "11,264.0亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "京东零售",
+      "yoy": 10.9,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "京东零售 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-7",
+      "metric": "segment_revenue",
+      "value": 217146000000,
+      "display_value": "2,171.5亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "京东物流",
+      "yoy": 18.8,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "京东物流 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    },
+    {
+      "id": "segment-8",
+      "metric": "segment_revenue",
+      "value": 49282000000,
+      "display_value": "492.8亿元",
+      "currency": "CNY",
+      "unit": "base_currency",
+      "period": "FY2025",
+      "segment": "新业务",
+      "yoy": 157.3,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-filing"
+      ],
+      "evidence": "新业务 FY2025 disclosed revenue/volume proxy",
+      "location": "segment or operating highlights"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "产品收入增长 10.3%，服务收入增长 23.6%；高毛利服务扩张与新业务规模化同时发生。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "履约费用增长 25.2% 至 882 亿元，快于收入；新增业务投资使集团经营利润率从 3.3% 降至 0.2%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "零售主业利润足以提供资金，但集团层面利润缓冲显著变薄，需看新业务减亏而非单看收入。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "管理层将外卖表述为按路线图推进并逐季减亏，形成了可核验的方向性承诺。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-filing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "即时零售竞争的传导是用户补贴、骑手成本与仓配密度，最终落在履约费用率和新业务亏损。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "补贴竞争、劳动保障要求与耐用品需求波动会放大集团利润波动。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "本次分析未纳入可复现的同口径股价事件窗口，因此不把短期涨跌作为证据；市场定价语境只用于界定需要兑现的经营假设。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "补充经公司行为复权、带时区与成交量的公告前后价格数据后重做归因。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "基准情景围绕“新业务经营亏损、履约费用率、零售利润率与服务收入增速。”展开，概率 50%；上下行情景由投入效率和收入兑现共同触发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "京东零售效率改善并未消失；当前折价实质上是市场为新业务资本配置设定的或有负债。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-filing"
+          ],
+          "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场最容易被哪个表面数字误导？",
+        "answer": "京东零售效率改善并未消失；当前折价实质上是市场为新业务资本配置设定的或有负债。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "外卖能提高用户频次并复用供应链，短期亏损可能换来零售与广告协同。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "增长究竟来自量、价还是会计口径？",
+        "answer": "产品收入增长 10.3%，服务收入增长 23.6%；高毛利服务扩张与新业务规模化同时发生。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "外卖能提高用户频次并复用供应链，短期亏损可能换来零售与广告协同。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "利润改善是否能转化为现金？",
+        "answer": "零售主业利润足以提供资金，但集团层面利润缓冲显著变薄，需看新业务减亏而非单看收入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "现金流与利润的时间差可能来自主动投资，不能机械视为恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "最难的问题是否已被管理层正面回答？",
+        "answer": "管理层将外卖表述为按路线图推进并逐季减亏，形成了可核验的方向性承诺。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "战略表述不等于回报承诺，仍需下一期指标验证。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "资源投向是否与战略一致？",
+        "answer": "管理层称外卖自上线后每季亏损收窄，京喜与国际业务继续投入。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "投入规模可能同时包含防御性支出，不能全部视为增长投资。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "竞争会通过哪条财务链路传导？",
+        "answer": "即时零售竞争的传导是用户补贴、骑手成本与仓配密度，最终落在履约费用率和新业务亏损。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "竞争强度也可能在下一期下降，使当期费用率不可外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "最强反方证据是什么？",
+        "answer": "外卖能提高用户频次并复用供应链，短期亏损可能换来零售与广告协同。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "收入增长 13% 至 1.31 万亿元，零售经营利润增长至 514 亿元；集团经营利润却仅 28 亿元，归母净利下降 53% 至 196 亿元。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "什么数据能最快推翻结论？",
+        "answer": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "单季波动可能受季节性和会计确认影响，应连续观察。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "分析是否真正深入到机制而非复述数字？",
+        "answer": "是。结论通过“零售利润率创新高，却被新业务的履约、人力和补贴投入几乎完全抵消。”把业务、成本、现金与管理层资源配置连成可证伪链路。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "仍缺少统一口径的市场价格事件数据，因此市场反应层保持低置信度。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "利润表之外的资源迁移",
+        "consensus_view": "京东 2025 年零售主业利润率升至 4.6%，却因外卖等新业务投入令集团经营利润从 387 亿元降至 28 亿元；核心不是零售失速，而是新业务何时停止吞噬主业利润。",
+        "new_view": "京东零售效率改善并未消失；当前折价实质上是市场为新业务资本配置设定的或有负债。",
+        "mechanism": "零售利润率创新高，却被新业务的履约、人力和补贴投入几乎完全抵消。",
+        "implication": "主业改善是真实的，但集团层面的资本配置尚未证明回报，外卖与国际业务决定估值折价。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "外卖能提高用户频次并复用供应链，短期亏损可能换来零售与广告协同。",
+        "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "管理层战略的可检验版本",
+        "consensus_view": "零售效率筑底、外卖与即时零售扩规模",
+        "new_view": "新业务经营亏损、履约费用率、零售利润率与服务收入增速。",
+        "mechanism": "管理层称外卖自上线后每季亏损收窄，京喜与国际业务继续投入。",
+        "implication": "主业改善是真实的，但集团层面的资本配置尚未证明回报，外卖与国际业务决定估值折价。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "外卖能提高用户频次并复用供应链，短期亏损可能换来零售与广告协同。",
+        "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "最强反方与边界条件",
+        "consensus_view": "外卖能提高用户频次并复用供应链，短期亏损可能换来零售与广告协同。",
+        "new_view": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。",
+        "mechanism": "主业改善是真实的，但集团层面的资本配置尚未证明回报，外卖与国际业务决定估值折价。",
+        "implication": "主业改善是真实的，但集团层面的资本配置尚未证明回报，外卖与国际业务决定估值折价。",
+        "source_ids": [
+          "official-filing"
+        ],
+        "counterevidence": "外卖能提高用户频次并复用供应链，短期亏损可能换来零售与广告协同。",
+        "falsifier": "若新业务亏损不再环比收窄、履约费用率继续高于 7%，或零售利润率跌回 4% 以下，则集团利润修复逻辑失效。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "新业务经营亏损、履约费用率、零售利润率与服务收入增速。显著好于基准",
+        "核心收入增速高于 2025 年",
+        "投入效率与现金转化率同步改善"
+      ],
+      "segment_profit_range": [
+        58,
+        65
+      ],
+      "group_profit_range": [
+        40,
+        52
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "新业务经营亏损、履约费用率、零售利润率与服务收入增速。大体按计划",
+        "核心收入维持当前趋势",
+        "投入强度可控但没有快速下降"
+      ],
+      "segment_profit_range": [
+        52,
+        58
+      ],
+      "group_profit_range": [
+        25,
+        40
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "新业务经营亏损、履约费用率、零售利润率与服务收入增速。明显不及预期",
+        "竞争或监管冲击加剧",
+        "现金转化率与利润率同时恶化"
+      ],
+      "segment_profit_range": [
+        44,
+        50
+      ],
+      "group_profit_range": [
+        5,
+        20
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "缺少统一复权、带时区的市场事件窗口，市场反应层维持低置信度。",
+      "情景利润区间为研究假设，不是公司指引。"
+    ]
+  }
+}
