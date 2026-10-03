@@ -1,0 +1,4664 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "meta-2026q2",
+  "generated_at": "2026-10-03T16:24:02.489905+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "Meta Platforms",
+    "company_name_en": "Meta Platforms, Inc.",
+    "ticker": "META",
+    "exchange": "NASDAQ",
+    "filing_authority": "SEC EDGAR",
+    "period": "2026Q2",
+    "period_end": "2026-06-30",
+    "earnings_date": "2026-07-29",
+    "status": "published",
+    "review_state": "APPROVED",
+    "as_of": "2026-10-03",
+    "title": "Meta 2026Q2：广告引擎仍在加速，但已进入“广告利润 + 外部资本”为 AI 产能融资的阶段",
+    "thesis": "关键不在于 28% 的收入增长，而在于 Meta 已进入“广告利润与外部资本共同为 AI 产能融资”的阶段：Q2 资本开支（含融资租赁）310.78 亿美元吞掉经营现金流的 97.5%，自由现金流仅 7.84 亿美元；剔除法律与遣散费后成本仍增 42%，经营利润率 36.8% 低于去年同期的 43.0%。8 月约 100 亿美元的和解计提，又把“2026 年经营利润高于 2025 年”的承诺变成对 Q4 收入的硬测试（需同比增长约 29%–41%）。",
+    "conclusion_summary": {
+      "rating": "中性（由上期“积极但资本回收待验证”下调）",
+      "confidence": "medium",
+      "primary_difficulty": "企业目前最难的问题：AI 产能投入的速度已经快于广告利润和经营现金流的增长速度——剔除一次性项目后成本仍增 42%、资本开支吞掉 97.5% 的经营现金流，而可独立计价的新收入（FoA 其他收入 10.07 亿美元）与千亿美元级投入不在同一数量级；与此同时，青少年诉讼让法律成本和产品使用限制变成经常性约束。",
+      "current_difficulties": [
+        {
+          "title": "利润率结构性下移",
+          "evidence": "经营利润率 30.9%（去年同期 43.0%）；剔除 24.0 亿美元法律费用和 11.8 亿美元遣散费后仍为 36.8%，比 Q1 的 40.6% 低 3.8 个百分点；服务器折旧 +48.1%、研发 +67.3%。",
+          "implication": "利润弹性取决于收入加速而非一次性项目消退；在 2026–2027 年产能最大化计划下，折旧与算力成本还会继续上升。"
+        },
+        {
+          "title": "自由现金流归零，融资结构外移",
+          "evidence": "资本开支（含融资租赁）310.78 亿美元、自由现金流 7.84 亿美元；发债 250 亿美元、暂停回购；未起租租赁约 2,790 亿美元、7 月新增约 680 亿美元，合资担保敞口数百亿美元。",
+          "implication": "全年指引隐含下半年单季资本开支 395–470 亿美元，若经营现金流不跳升，下半年自由现金流为负（推断），资产负债表弹性开始成为战略约束。"
+        },
+        {
+          "title": "法律与监管从一次性费用变为经营约束",
+          "evidence": "Q2 法律费用 24.0 亿美元；8 月公告 Q3 计提约 100 亿美元（约 180 亿美元分 10 年支付）；协议要求未成年人默认每日 2 小时上限、夜间模式与可选非算法信息流；欧洲 LPA 全面推出。",
+          "implication": "全年“经营利润高于 2025 年”的承诺需 Q4 收入同比 +28.8% 至 +40.5% 才能兑现；时长约束无法靠资本开支解决。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“算力优先”：以最大化 2026–2027 年产能为目标，用经营现金流、债务和合资伙伴资本融资，以裁员约 8,000 人和暂停回购让出空间。取舍是用近期利润率、自由现金流和资产负债表弹性换取算力期权；目前只有广告 AI 化给出了可测回报，企业代理、API、算力出售和个人代理仍处于刚开始收费或尚无时间表的阶段。",
+      "strategic_directions": [
+        {
+          "direction": "把 LLM 深度嵌入推荐与广告系统，以单价和转化支撑核心收入",
+          "rationale": "广告收入 593.63 亿美元、单价 +12%，是唯一已被验证、能为全部投入提供现金的闭环。",
+          "management_signal": "Meta Generative Recommender、GEM 带来 Facebook 转化 +15.7%；Advantage+ 年化运行率超过 750 亿美元（管理层口径）。",
+          "validation": "Q3 展示量增速 ≥14%、单价增速 ≥12%，剔除计提的 FoA 利润率不低于 Q2 的 38.8%。"
+        },
+        {
+          "direction": "在广告之外为算力找到第二条变现路径：商业代理、API、算力出售与个人代理 Muse",
+          "rationale": "资本开支规模已远超广告单一业务可快速回收的范围，需要新的计价单位。",
+          "management_signal": "商业代理每周超 100 万家企业使用，8 月 1 日起按 token 收费；Muse Spark API 上线；9 月 8 日发布 Muse（免费为主、另设订阅）；CEO 称收到溢价购买算力的报价。",
+          "validation": "Q3 FoA 其他收入 ≥11 亿美元，并首次披露商业代理、API 或 Muse 订阅的收入或用户付费指标。"
+        },
+        {
+          "direction": "产能优先并分散融资：租赁、合资、担保与债务",
+          "rationale": "管理层判断近期产能比远期产能更有价值、行业供给将长期偏紧。",
+          "management_signal": "全年资本开支指引下限上调至 1,300 亿美元；5 月发债 250 亿美元；7 月与贝莱德组建 El Paso 合资；CFO 称将评估 2027 年全部融资选项。",
+          "validation": "Q3 资本开支与经营现金流之比、自由现金流符号、10-Q 中未起租租赁与担保敞口的增量，以及是否给出 2027 年资本开支框架。"
+        }
+      ],
+      "core_conflict": "广告 AI 正在提高单价与转化，但同一轮 AI 投入以更快的速度推高折旧、外购算力和人才成本；在新收入线进入可计价阶段之前，利润与现金的缺口只能由债务、合资伙伴资本和暂停回购来弥合，而法律成本又在同一时期反复出现。",
+      "falsifier": "若 Q3（约 10 月下旬公布）收入 ≥630 亿美元、剔除计提的经营利润率 ≥40%、季度自由现金流为正，且管理层在含计提口径下重申“经营利润高于 2025 年”并给出 Q4 收入指引下限不低于约 771.6 亿美元，则“赤字融资期”判断被推翻；若剔除计提利润率 <37%、自由现金流为负且承诺被取消或改口径，则判断被强化。",
+      "valuation_context": "财报次日下跌 7.95%（QQQ +3.30%）；8 月和解公告日 +1.07%；9 月在 Muse 发布后上涨 26.7%。按 10-Q 股本计，市值/过去四季 GAAP 经营利润从 7/30 的 15.8 倍升至 10/2 的 21.3 倍，过去四季自由现金流收益率由 2.76% 降至 2.04%。市场已从定价“现金流冲击”转向定价“AI 产品期权”；一致预期仅有媒体口径，未使用持牌数据。",
+      "catalyst": "Q3 财报（约 10 月下旬）：Q4 收入指引与利润承诺表述、商业代理/Muse/API 的首个收入或付费指标、2027 年资本开支框架、对外算力销售合同。",
+      "risk": "新增青少年诉讼计提（新墨西哥州另案主张最高 628.5 亿美元，另有大量个人与学区诉讼）、未成年人时长限制与欧洲 LPA 压低展示量、下半年自由现金流转负引发股权融资、2027 年资本开支再上台阶、RL 年亏损约 190 亿美元。"
+    },
+    "previous_report_reference": {
+      "id": "meta-2026q1",
+      "rating": "积极但资本回收待验证",
+      "note": "本期评级下调为中性；理由见 research_signal 层环比对比。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。",
+    "approved_at": "2026-10-03T16:24:02.393346+00:00",
+    "approved_by": "user (2026-10-04 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于 28% 的收入增长，而在于 Meta 已进入“广告利润与外部资本共同为 AI 产能融资”的阶段：Q2 资本开支（含融资租赁）310.78 亿美元吞掉经营现金流的 97.5%，自由现金流仅 7.84 亿美元；剔除法律与遣散费后成本仍增 42%，经营利润率 36.8% 低于去年同期的 43.0%。8 月约 100 亿美元的和解计提，又把“2026 年经营利润高于 2025 年”的承诺变成对 Q4 收入的硬测试（需同比增长约 29%–41%）。",
+    "rating": "中性（由上期“积极但资本回收待验证”下调）",
+    "confidence": "medium",
+    "primary_difficulty": "企业目前最难的问题：AI 产能投入的速度已经快于广告利润和经营现金流的增长速度——剔除一次性项目后成本仍增 42%、资本开支吞掉 97.5% 的经营现金流，而可独立计价的新收入（FoA 其他收入 10.07 亿美元）与千亿美元级投入不在同一数量级；与此同时，青少年诉讼让法律成本和产品使用限制变成经常性约束。",
+    "current_difficulties": [
+      {
+        "title": "利润率结构性下移",
+        "evidence": "经营利润率 30.9%（去年同期 43.0%）；剔除 24.0 亿美元法律费用和 11.8 亿美元遣散费后仍为 36.8%，比 Q1 的 40.6% 低 3.8 个百分点；服务器折旧 +48.1%、研发 +67.3%。",
+        "implication": "利润弹性取决于收入加速而非一次性项目消退；在 2026–2027 年产能最大化计划下，折旧与算力成本还会继续上升。"
+      },
+      {
+        "title": "自由现金流归零，融资结构外移",
+        "evidence": "资本开支（含融资租赁）310.78 亿美元、自由现金流 7.84 亿美元；发债 250 亿美元、暂停回购；未起租租赁约 2,790 亿美元、7 月新增约 680 亿美元，合资担保敞口数百亿美元。",
+        "implication": "全年指引隐含下半年单季资本开支 395–470 亿美元，若经营现金流不跳升，下半年自由现金流为负（推断），资产负债表弹性开始成为战略约束。"
+      },
+      {
+        "title": "法律与监管从一次性费用变为经营约束",
+        "evidence": "Q2 法律费用 24.0 亿美元；8 月公告 Q3 计提约 100 亿美元（约 180 亿美元分 10 年支付）；协议要求未成年人默认每日 2 小时上限、夜间模式与可选非算法信息流；欧洲 LPA 全面推出。",
+        "implication": "全年“经营利润高于 2025 年”的承诺需 Q4 收入同比 +28.8% 至 +40.5% 才能兑现；时长约束无法靠资本开支解决。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“算力优先”：以最大化 2026–2027 年产能为目标，用经营现金流、债务和合资伙伴资本融资，以裁员约 8,000 人和暂停回购让出空间。取舍是用近期利润率、自由现金流和资产负债表弹性换取算力期权；目前只有广告 AI 化给出了可测回报，企业代理、API、算力出售和个人代理仍处于刚开始收费或尚无时间表的阶段。",
+    "strategic_directions": [
+      {
+        "direction": "把 LLM 深度嵌入推荐与广告系统，以单价和转化支撑核心收入",
+        "rationale": "广告收入 593.63 亿美元、单价 +12%，是唯一已被验证、能为全部投入提供现金的闭环。",
+        "management_signal": "Meta Generative Recommender、GEM 带来 Facebook 转化 +15.7%；Advantage+ 年化运行率超过 750 亿美元（管理层口径）。",
+        "validation": "Q3 展示量增速 ≥14%、单价增速 ≥12%，剔除计提的 FoA 利润率不低于 Q2 的 38.8%。"
+      },
+      {
+        "direction": "在广告之外为算力找到第二条变现路径：商业代理、API、算力出售与个人代理 Muse",
+        "rationale": "资本开支规模已远超广告单一业务可快速回收的范围，需要新的计价单位。",
+        "management_signal": "商业代理每周超 100 万家企业使用，8 月 1 日起按 token 收费；Muse Spark API 上线；9 月 8 日发布 Muse（免费为主、另设订阅）；CEO 称收到溢价购买算力的报价。",
+        "validation": "Q3 FoA 其他收入 ≥11 亿美元，并首次披露商业代理、API 或 Muse 订阅的收入或用户付费指标。"
+      },
+      {
+        "direction": "产能优先并分散融资：租赁、合资、担保与债务",
+        "rationale": "管理层判断近期产能比远期产能更有价值、行业供给将长期偏紧。",
+        "management_signal": "全年资本开支指引下限上调至 1,300 亿美元；5 月发债 250 亿美元；7 月与贝莱德组建 El Paso 合资；CFO 称将评估 2027 年全部融资选项。",
+        "validation": "Q3 资本开支与经营现金流之比、自由现金流符号、10-Q 中未起租租赁与担保敞口的增量，以及是否给出 2027 年资本开支框架。"
+      }
+    ],
+    "core_conflict": "广告 AI 正在提高单价与转化，但同一轮 AI 投入以更快的速度推高折旧、外购算力和人才成本；在新收入线进入可计价阶段之前，利润与现金的缺口只能由债务、合资伙伴资本和暂停回购来弥合，而法律成本又在同一时期反复出现。",
+    "falsifier": "若 Q3（约 10 月下旬公布）收入 ≥630 亿美元、剔除计提的经营利润率 ≥40%、季度自由现金流为正，且管理层在含计提口径下重申“经营利润高于 2025 年”并给出 Q4 收入指引下限不低于约 771.6 亿美元，则“赤字融资期”判断被推翻；若剔除计提利润率 <37%、自由现金流为负且承诺被取消或改口径，则判断被强化。",
+    "valuation_context": "财报次日下跌 7.95%（QQQ +3.30%）；8 月和解公告日 +1.07%；9 月在 Muse 发布后上涨 26.7%。按 10-Q 股本计，市值/过去四季 GAAP 经营利润从 7/30 的 15.8 倍升至 10/2 的 21.3 倍，过去四季自由现金流收益率由 2.76% 降至 2.04%。市场已从定价“现金流冲击”转向定价“AI 产品期权”；一致预期仅有媒体口径，未使用持牌数据。",
+    "catalyst": "Q3 财报（约 10 月下旬）：Q4 收入指引与利润承诺表述、商业代理/Muse/API 的首个收入或付费指标、2027 年资本开支框架、对外算力销售合同。",
+    "risk": "新增青少年诉讼计提（新墨西哥州另案主张最高 628.5 亿美元，另有大量个人与学区诉讼）、未成年人时长限制与欧洲 LPA 压低展示量、下半年自由现金流转负引发股权融资、2027 年资本开支再上台阶、RL 年亏损约 190 亿美元。"
+  },
+  "sources": [
+    {
+      "id": "meta-q2-release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+      "title": "Meta Reports Second Quarter 2026 Results (8-K Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-q2-8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm",
+      "title": "Meta Platforms Form 8-K dated July 29, 2026 (Items 2.02, 9.01)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-q2-10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "title": "Meta Platforms Form 10-Q for the quarter ended June 30, 2026",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-q1-release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm",
+      "title": "Meta Reports First Quarter 2026 Results (8-K Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-notes-8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526204128/d134616d8k.htm",
+      "title": "Meta Platforms Form 8-K (May 2026 senior notes offering)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-sec-index",
+      "url": "https://data.sec.gov/submissions/CIK0001326801.json",
+      "title": "SEC EDGAR submissions index for Meta Platforms (CIK 1326801)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-q2-call",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf",
+      "title": "Meta Q2 2026 Earnings Conference Call Transcript (official IR)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-q2-followup",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Follow-Up-Call-Transcript.pdf",
+      "title": "Meta Q2 2026 Results Follow-Up Call Transcript (official IR)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-q2-slides",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Earnings-Presentation-Q2-2026.pdf",
+      "title": "Meta Earnings Presentation Q2 2026 (official IR)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-news-ag",
+      "url": "https://about.fb.com/news/2026/08/agreement-with-state-attorneys-general-supporting-teens/",
+      "title": "Meta Newsroom: Our Agreement With Bipartisan Attorneys General (financial details incl. Q3'26 accrual)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-news-elpaso",
+      "url": "https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/",
+      "title": "Meta Newsroom: New Strategic Venture With BlackRock to Develop Data Center in El Paso",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "googl-q2-release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+      "title": "Alphabet Q2 2026 Earnings Release (8-K Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "amzn-q2-release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+      "title": "Amazon Q2 2026 Earnings Release (8-K Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "price-nasdaq-meta",
+      "url": "https://api.nasdaq.com/api/quote/META/historical?assetclass=stocks&fromdate=2026-07-01&todate=2026-08-31&limit=100",
+      "title": "Nasdaq historical daily quotes, META, Jul-Aug 2026",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "price-yahoo-meta",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d",
+      "title": "Yahoo Finance chart API daily bars, META, 2026-06-25 to 2026-09-05",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "price-yahoo-qqq",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d",
+      "title": "Yahoo Finance chart API daily bars, QQQ (Nasdaq-100 ETF), 2026-06-25 to 2026-09-05",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-ap-fortune",
+      "url": "https://fortune.com/2026/07/30/zuckerberg-superintelligence-meta-cash-flow-drop/",
+      "title": "AP via Fortune: Meta earnings reveal cash flow drops 91% (FactSet consensus)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-cls",
+      "url": "https://finance.sina.com.cn/jjxw/2026-07-30/doc-inikpnuq9742279.shtml",
+      "title": "财联社（新浪财经转载）：日线10连跌后，Meta发完财报股价又崩了",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-variety",
+      "url": "https://variety.com/2026/digital/news/meta-q2-2026-earnings-results-legal-proceedings-charge-1236823577/",
+      "title": "Variety: Meta Takes $2.4 Billion Charge for Legal Proceedings in Q2",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-cbs-settlement",
+      "url": "https://www.cbsnews.com/news/meta-settles-social-media-addiction-lawsuit/",
+      "title": "CBS News: Meta settles social media addiction suit with states for up to $17.1 billion",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-ifn-settlement",
+      "url": "https://finance.sina.com.cn/wm/2026-08-27/doc-inipuiyu0762704.shtml",
+      "title": "国际金融报（新浪财经转载）：Meta官司达成和解，然而风险远未消散",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-gurufocus-settlement",
+      "url": "https://www.gurufocus.com/news/9054656/meta-platforms-meta-settles-legal-claims-with-bipartisan-coalition-of-attorneys-general",
+      "title": "GuruFocus: Meta Settles Legal Claims with Bipartisan Coalition of Attorneys General",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-reuters-elpaso",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/07/28/meta-blackrock-partner-on-us14-billion-el-paso-data-centre/",
+      "title": "Reuters via BNN Bloomberg: Meta, BlackRock partner on US$14 billion El Paso data centre",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-dj-elpaso",
+      "url": "https://www.morningstar.com/news/dow-jones/202607284347/blackrock-meta-platforms-in-14-billion-texas-data-center-venture-update",
+      "title": "Dow Jones via Morningstar: BlackRock, Meta Platforms in $14 Billion Texas Data Center Venture — Update",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-zhitong-trial",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-08-18/doc-ininuefi7277474.shtml",
+      "title": "智通财经（新浪财经转载）：Meta跌逾3% 或面临最高1.4万亿美元重罚风险",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "price-yahoo-meta-sep",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?interval=1d",
+      "title": "Yahoo Finance chart API daily bars, META, 2026-08-28 to 2026-10-02",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "price-yahoo-qqq-sep",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?interval=1d",
+      "title": "Yahoo Finance chart API daily bars, QQQ, 2026-08-28 to 2026-10-02",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "meta-news-muse",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "title": "Meta Newsroom: Introducing Muse, a personal AI agent (2026-09-08)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "media-163-sep-rally",
+      "url": "https://finance.sina.com.cn/stock/t/2026-09-25/doc-inisyywi4662002.shtml",
+      "title": "网易科技（新浪财经转载）：9月大涨36%！Meta创2013年来最佳月度表现",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "search-consensus",
+      "url": "search-api://web_search?q=Meta second quarter 2026 results LSEG estimates (snapshot incl. Zacks/Nasdaq, Motley Fool text)",
+      "title": "Search API snapshot: Zacks/Nasdaq and Motley Fool consensus excerpts (Nasdaq pages returned HTTP 403)",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    },
+    {
+      "id": "search-reaction",
+      "url": "search-api://web_search?q=Meta stock falls July 30 2026 (snapshot incl. Motley Fool 'fell 10%')",
+      "title": "Search API snapshot: post-earnings price-reaction articles (Nasdaq pages returned HTTP 403)",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:16:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "rev-q2-26",
+      "metric": "total_revenue",
+      "value": 60801,
+      "display_value": "608.01亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Revenue $60,801 (three months ended June 30, 2026)",
+      "location": "Ex.99.1 p.5 Condensed Consolidated Statements of Income"
+    },
+    {
+      "id": "rev-q2-25",
+      "metric": "total_revenue",
+      "value": 47516,
+      "display_value": "475.16亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Revenue $47,516 (three months ended June 30, 2025)",
+      "location": "Ex.99.1 p.5 Statements of Income"
+    },
+    {
+      "id": "rev-q1-26",
+      "metric": "total_revenue",
+      "value": 56311,
+      "display_value": "563.11亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Revenue $56,311 (three months ended March 31, 2026)",
+      "location": "Q1 Ex.99.1 p.5 Statements of Income"
+    },
+    {
+      "id": "ad-q2-26",
+      "metric": "advertising_revenue",
+      "value": 59363,
+      "display_value": "593.63亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Advertising $59,363",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "ad-q2-25",
+      "metric": "advertising_revenue",
+      "value": 46563,
+      "display_value": "465.63亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Advertising $46,563",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "ad-q1-26",
+      "metric": "advertising_revenue",
+      "value": 55024,
+      "display_value": "550.24亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Advertising $55,024",
+      "location": "Q1 Ex.99.1 Segment Results"
+    },
+    {
+      "id": "foa-other-q2-26",
+      "metric": "foa_other_revenue",
+      "value": 1007,
+      "display_value": "10.07亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Other revenue 1,007",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "foa-other-q2-25",
+      "metric": "foa_other_revenue",
+      "value": 583,
+      "display_value": "5.83亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Other revenue 583",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "foa-rev-q2-26",
+      "metric": "segment_revenue",
+      "value": 60370,
+      "display_value": "603.70亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Family of Apps 60,370",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "foa-rev-q2-25",
+      "metric": "segment_revenue",
+      "value": 47146,
+      "display_value": "471.46亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Family of Apps 47,146",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "foa-rev-q1-26",
+      "metric": "segment_revenue",
+      "value": 55909,
+      "display_value": "559.09亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Family of Apps 55,909",
+      "location": "Q1 Ex.99.1 Segment Results"
+    },
+    {
+      "id": "foa-other-q1-26",
+      "metric": "foa_other_revenue",
+      "value": 885,
+      "display_value": "8.85亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Other revenue 885",
+      "location": "Q1 Ex.99.1 Segment Results"
+    },
+    {
+      "id": "rl-rev-q1-26",
+      "metric": "segment_revenue",
+      "value": 402,
+      "display_value": "4.02亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Reality Labs 402",
+      "location": "Q1 Ex.99.1 Segment Results"
+    },
+    {
+      "id": "rl-oi-q1-26",
+      "metric": "segment_operating_income",
+      "value": -4028,
+      "display_value": "-40.28亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Reality Labs (4,028)",
+      "location": "Q1 Ex.99.1 Segment Results"
+    },
+    {
+      "id": "rl-rev-q2-26",
+      "metric": "segment_revenue",
+      "value": 431,
+      "display_value": "4.31亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Reality Labs 431",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "rl-rev-q2-25",
+      "metric": "segment_revenue",
+      "value": 370,
+      "display_value": "3.70亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Reality Labs 370",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "cor-q2-26",
+      "metric": "cost_of_revenue",
+      "value": 11330,
+      "display_value": "113.30亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Cost of revenue 11,330",
+      "location": "Ex.99.1 p.5 Statements of Income"
+    },
+    {
+      "id": "cor-q2-25",
+      "metric": "cost_of_revenue",
+      "value": 8491,
+      "display_value": "84.91亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Cost of revenue 8,491",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "rd-q2-26",
+      "metric": "research_and_development",
+      "value": 21656,
+      "display_value": "216.56亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Research and development 21,656",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "rd-q2-25",
+      "metric": "research_and_development",
+      "value": 12942,
+      "display_value": "129.42亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Research and development 12,942",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "rd-q1-26",
+      "metric": "research_and_development",
+      "value": 17699,
+      "display_value": "176.99亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Research and development 17,699",
+      "location": "Q1 Ex.99.1 p.5"
+    },
+    {
+      "id": "ms-q2-26",
+      "metric": "marketing_and_sales",
+      "value": 3431,
+      "display_value": "34.31亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Marketing and sales 3,431",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "ms-q2-25",
+      "metric": "marketing_and_sales",
+      "value": 2979,
+      "display_value": "29.79亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Marketing and sales 2,979",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "ga-q2-26",
+      "metric": "general_and_administrative",
+      "value": 5609,
+      "display_value": "56.09亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "General and administrative 5,609; includes $2.40 billion of charges related to legal proceedings",
+      "location": "Ex.99.1 p.5 and footnote (1)"
+    },
+    {
+      "id": "ga-q2-25",
+      "metric": "general_and_administrative",
+      "value": 2663,
+      "display_value": "26.63亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "General and administrative 2,663",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "costs-q2-26",
+      "metric": "total_costs_and_expenses",
+      "value": 42026,
+      "display_value": "420.26亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Total costs and expenses 42,026",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "costs-q2-25",
+      "metric": "total_costs_and_expenses",
+      "value": 27075,
+      "display_value": "270.75亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Total costs and expenses 27,075",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "costs-q1-26",
+      "metric": "total_costs_and_expenses",
+      "value": 33439,
+      "display_value": "334.39亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Total costs and expenses 33,439",
+      "location": "Q1 Ex.99.1 p.5"
+    },
+    {
+      "id": "oi-q2-26",
+      "metric": "operating_income",
+      "value": 18775,
+      "display_value": "187.75亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Income from operations $18,775; operating margin 31%",
+      "location": "Ex.99.1 p.1 Financial Highlights / p.5"
+    },
+    {
+      "id": "oi-q2-25",
+      "metric": "operating_income",
+      "value": 20441,
+      "display_value": "204.41亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Income from operations $20,441; operating margin 43%",
+      "location": "Ex.99.1 p.1 / p.5"
+    },
+    {
+      "id": "oi-q1-26",
+      "metric": "operating_income",
+      "value": 22872,
+      "display_value": "228.72亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Income from operations $22,872",
+      "location": "Q1 Ex.99.1 p.1"
+    },
+    {
+      "id": "other-inc-q2-26",
+      "metric": "interest_and_other_income",
+      "value": -19,
+      "display_value": "-0.19亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Interest and other income (expense), net (19)",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "pretax-q2-26",
+      "metric": "income_before_taxes",
+      "value": 18756,
+      "display_value": "187.56亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Income before income taxes 18,756",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "tax-q2-26",
+      "metric": "income_tax_provision",
+      "value": 2908,
+      "display_value": "29.08亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Provision (benefit) for income taxes 2,908; effective tax rate 16%",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "ni-q2-26",
+      "metric": "net_income",
+      "value": 15848,
+      "display_value": "158.48亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Net income $15,848",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "ni-q2-25",
+      "metric": "net_income",
+      "value": 18337,
+      "display_value": "183.37亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Net income $18,337",
+      "location": "Ex.99.1 p.5"
+    },
+    {
+      "id": "eps-q2-26",
+      "metric": "diluted_eps",
+      "value": 6.18,
+      "display_value": "6.18美元",
+      "currency": "USD",
+      "unit": "USD per share",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Diluted EPS $6.18",
+      "location": "Ex.99.1 p.1"
+    },
+    {
+      "id": "eps-q2-25",
+      "metric": "diluted_eps",
+      "value": 7.14,
+      "display_value": "7.14美元",
+      "currency": "USD",
+      "unit": "USD per share",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Diluted EPS $7.14",
+      "location": "Ex.99.1 p.1"
+    },
+    {
+      "id": "legal-q2-26",
+      "metric": "legal_charges",
+      "value": 2400,
+      "display_value": "24.0亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "includes $2.40 billion of charges related to legal proceedings",
+      "location": "Ex.99.1 p.1 Costs and expenses bullet; p.5 footnote (1)"
+    },
+    {
+      "id": "severance-q2-26",
+      "metric": "severance_expense",
+      "value": 1180,
+      "display_value": "11.8亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "includes $1.18 billion of severance expenses related to the May 2026 headcount reduction of approximately 8,000 employees",
+      "location": "10-Q Note 12 footnote (1), p.29"
+    },
+    {
+      "id": "foa-oi-q2-26",
+      "metric": "segment_operating_income",
+      "value": 23394,
+      "display_value": "233.94亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Family of Apps income from operations $23,394",
+      "location": "Ex.99.1 p.8 Segment Results"
+    },
+    {
+      "id": "foa-oi-q2-25",
+      "metric": "segment_operating_income",
+      "value": 24971,
+      "display_value": "249.71亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Family of Apps $24,971",
+      "location": "Ex.99.1 p.8"
+    },
+    {
+      "id": "foa-oi-q1-26",
+      "metric": "segment_operating_income",
+      "value": 26900,
+      "display_value": "269.00亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Family of Apps $26,900",
+      "location": "Q1 Ex.99.1 Segment Results"
+    },
+    {
+      "id": "rl-oi-q2-26",
+      "metric": "segment_operating_income",
+      "value": -4619,
+      "display_value": "-46.19亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Reality Labs (4,619)",
+      "location": "Ex.99.1 p.8"
+    },
+    {
+      "id": "rl-oi-q2-25",
+      "metric": "segment_operating_income",
+      "value": -4530,
+      "display_value": "-45.30亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Reality Labs (4,530)",
+      "location": "Ex.99.1 p.8"
+    },
+    {
+      "id": "foa-empcomp-q2-26",
+      "metric": "segment_employee_compensation",
+      "value": 14571,
+      "display_value": "145.71亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "FoA employee compensation (14,571)",
+      "location": "10-Q Note 12, p.29"
+    },
+    {
+      "id": "foa-empcomp-q2-25",
+      "metric": "segment_employee_compensation",
+      "value": 9336,
+      "display_value": "93.36亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "FoA employee compensation (9,336)",
+      "location": "10-Q Note 12, p.29"
+    },
+    {
+      "id": "foa-othercost-q2-26",
+      "metric": "segment_other_costs",
+      "value": 22405,
+      "display_value": "224.05亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "FoA other costs and expenses (22,405) incl. infrastructure, legal-related costs",
+      "location": "10-Q Note 12, p.29"
+    },
+    {
+      "id": "foa-othercost-q2-25",
+      "metric": "segment_other_costs",
+      "value": 12839,
+      "display_value": "128.39亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "FoA other costs and expenses (12,839)",
+      "location": "10-Q Note 12, p.29"
+    },
+    {
+      "id": "rl-empcomp-q2-26",
+      "metric": "segment_employee_compensation",
+      "value": 2468,
+      "display_value": "24.68亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "RL employee compensation (2,468)",
+      "location": "10-Q Note 12, p.29"
+    },
+    {
+      "id": "rl-othercost-q2-26",
+      "metric": "segment_other_costs",
+      "value": 2582,
+      "display_value": "25.82亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "RL other costs and expenses (2,582)",
+      "location": "10-Q Note 12, p.29"
+    },
+    {
+      "id": "geo-usc-q2-26",
+      "metric": "revenue_by_customer_geography",
+      "value": 23863,
+      "display_value": "238.63亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "US & Canada",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "United States and Canada $23,863",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "geo-eu-q2-26",
+      "metric": "revenue_by_customer_geography",
+      "value": 14009,
+      "display_value": "140.09亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Europe",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Europe 14,009",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "geo-apac-q2-26",
+      "metric": "revenue_by_customer_geography",
+      "value": 16073,
+      "display_value": "160.73亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Asia-Pacific",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Asia-Pacific 16,073",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "geo-row-q2-26",
+      "metric": "revenue_by_customer_geography",
+      "value": 6856,
+      "display_value": "68.56亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Rest of World",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Rest of World 6,856",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "geo-usc-q2-25",
+      "metric": "revenue_by_customer_geography",
+      "value": 18454,
+      "display_value": "184.54亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "US & Canada",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "United States and Canada $18,454",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "geo-eu-q2-25",
+      "metric": "revenue_by_customer_geography",
+      "value": 11128,
+      "display_value": "111.28亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Europe",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Europe 11,128",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "geo-apac-q2-25",
+      "metric": "revenue_by_customer_geography",
+      "value": 12858,
+      "display_value": "128.58亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Asia-Pacific",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Asia-Pacific 12,858",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "geo-row-q2-25",
+      "metric": "revenue_by_customer_geography",
+      "value": 5076,
+      "display_value": "50.76亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": "Rest of World",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Rest of World 5,076",
+      "location": "10-Q Note 2, p.13"
+    },
+    {
+      "id": "rev-cc-q2-26",
+      "metric": "revenue_constant_currency",
+      "value": 60116,
+      "display_value": "601.16亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Revenue excluding foreign exchange effect $60,116; FX effect (685)",
+      "location": "Ex.99.1 p.9 Reconciliation of GAAP to Non-GAAP"
+    },
+    {
+      "id": "ad-cc-growth-q2-26",
+      "metric": "advertising_revenue_cc_yoy",
+      "value": 26,
+      "display_value": "+26%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Advertising revenue excluding foreign exchange effect year-over-year change % 26",
+      "location": "Ex.99.1 p.9"
+    },
+    {
+      "id": "dap-jun-26",
+      "metric": "daily_active_people",
+      "value": 3600,
+      "display_value": "36.0亿人",
+      "currency": "n/a",
+      "unit": "million people",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "DAP was 3.60 billion on average for June 2026, an increase of 3% year-over-year",
+      "location": "Ex.99.1 p.1 Operational Highlights"
+    },
+    {
+      "id": "dap-jun-25",
+      "metric": "daily_active_people",
+      "value": 3480,
+      "display_value": "34.8亿人",
+      "currency": "n/a",
+      "unit": "million people",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Worldwide DAP increased 3% to 3.60 billion on average during June 2026 from 3.48 billion during June 2025",
+      "location": "10-Q MD&A Trends in Family Metrics, p.36"
+    },
+    {
+      "id": "dap-mar-26",
+      "metric": "daily_active_people",
+      "value": 3560,
+      "display_value": "35.6亿人",
+      "currency": "n/a",
+      "unit": "million people",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "DAP was 3.56 billion on average for March 2026",
+      "location": "Q1 Ex.99.1 p.1"
+    },
+    {
+      "id": "arpp-q2-26",
+      "metric": "arpp",
+      "value": 16.86,
+      "display_value": "16.86美元",
+      "currency": "USD",
+      "unit": "USD per person",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "worldwide ARPP was $16.86, an increase of 24% from the second quarter of 2025",
+      "location": "10-Q MD&A ARPP, p.37"
+    },
+    {
+      "id": "impr-yoy-q2-26",
+      "metric": "ad_impressions_yoy",
+      "value": 14,
+      "display_value": "+14%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Ad impressions ... increased by 14% year-over-year",
+      "location": "Ex.99.1 p.1"
+    },
+    {
+      "id": "impr-yoy-q1-26",
+      "metric": "ad_impressions_yoy",
+      "value": 19,
+      "display_value": "+19%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Ad impressions ... increased by 19% year-over-year",
+      "location": "Q1 Ex.99.1 p.1"
+    },
+    {
+      "id": "price-yoy-q2-26",
+      "metric": "avg_price_per_ad_yoy",
+      "value": 12,
+      "display_value": "+12%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Average price per ad increased by 12% year-over-year",
+      "location": "Ex.99.1 p.1"
+    },
+    {
+      "id": "headcount-q2-26",
+      "metric": "headcount",
+      "value": 75472,
+      "display_value": "75,472人",
+      "currency": "n/a",
+      "unit": "employees",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Headcount was 75,472 as of June 30, 2026 ... includes approximately 8,000 employees impacted by the May 2026 headcount reduction",
+      "location": "Ex.99.1 p.1"
+    },
+    {
+      "id": "headcount-q1-26",
+      "metric": "headcount",
+      "value": 77986,
+      "display_value": "77,986人",
+      "currency": "n/a",
+      "unit": "employees",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Headcount was 77,986 as of March 31, 2026",
+      "location": "Q1 Ex.99.1 p.1"
+    },
+    {
+      "id": "advplus-runrate",
+      "metric": "advantage_plus_annual_run_rate",
+      "value": 75000,
+      "display_value": ">750亿美元年化",
+      "currency": "USD",
+      "unit": "USD million (>)",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-call"
+      ],
+      "evidence": "Advantage+ end-to-end solutions ... reaching over $75 billion in annual revenue run-rate this quarter",
+      "location": "Earnings call transcript p.7 (Susan Li)"
+    },
+    {
+      "id": "da-q2-26",
+      "metric": "depreciation_and_amortization",
+      "value": 6356,
+      "display_value": "63.56亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Depreciation and amortization 6,356",
+      "location": "Ex.99.1 p.7 Cash Flows"
+    },
+    {
+      "id": "da-q2-25",
+      "metric": "depreciation_and_amortization",
+      "value": 4342,
+      "display_value": "43.42亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Depreciation and amortization 4,342",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "sbc-q2-26",
+      "metric": "share_based_compensation_cf",
+      "value": 7658,
+      "display_value": "76.58亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Share-based compensation 7,658",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "sbc-q2-25",
+      "metric": "share_based_compensation_cf",
+      "value": 4834,
+      "display_value": "48.34亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Share-based compensation 4,834",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "ocf-q2-26",
+      "metric": "operating_cash_flow",
+      "value": 31862,
+      "display_value": "318.62亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Net cash provided by operating activities 31,862",
+      "location": "Ex.99.1 p.7 / p.9"
+    },
+    {
+      "id": "ocf-q2-25",
+      "metric": "operating_cash_flow",
+      "value": 25561,
+      "display_value": "255.61亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Net cash provided by operating activities 25,561",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "ocf-q1-26",
+      "metric": "operating_cash_flow",
+      "value": 32226,
+      "display_value": "322.26亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Net cash provided by operating activities 32,226",
+      "location": "Q1 Ex.99.1 Cash Flows"
+    },
+    {
+      "id": "ppe-q2-26",
+      "metric": "purchases_of_ppe",
+      "value": 30116,
+      "display_value": "301.16亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Purchases of property and equipment (30,116)",
+      "location": "Ex.99.1 p.7 / p.9"
+    },
+    {
+      "id": "ppe-q2-25",
+      "metric": "purchases_of_ppe",
+      "value": 16538,
+      "display_value": "165.38亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Purchases of property and equipment (16,538)",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "ppe-q1-26",
+      "metric": "purchases_of_ppe",
+      "value": 18997,
+      "display_value": "189.97亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Purchases of property and equipment (18,997)",
+      "location": "Q1 Ex.99.1"
+    },
+    {
+      "id": "fl-q2-26",
+      "metric": "finance_lease_principal",
+      "value": 962,
+      "display_value": "9.62亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Principal payments on finance leases (962)",
+      "location": "Ex.99.1 p.7 / p.9"
+    },
+    {
+      "id": "fl-q2-25",
+      "metric": "finance_lease_principal",
+      "value": 474,
+      "display_value": "4.74亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Principal payments on finance leases (474)",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "fl-q1-26",
+      "metric": "finance_lease_principal",
+      "value": 843,
+      "display_value": "8.43亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Principal payments on finance leases (843)",
+      "location": "Q1 Ex.99.1"
+    },
+    {
+      "id": "capex-q2-26",
+      "metric": "capex_incl_finance_leases",
+      "value": 31078,
+      "display_value": "310.78亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Capital expenditures ... $31,078 (Q2'26); Ex.99.1 states $31.08 billion",
+      "location": "Earnings presentation p.9 Capital Expenditures"
+    },
+    {
+      "id": "capex-q1-26",
+      "metric": "capex_incl_finance_leases",
+      "value": 19840,
+      "display_value": "198.40亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Capital expenditures, including principal payments on finance leases, were $19.84 billion",
+      "location": "Q1 Ex.99.1 p.1"
+    },
+    {
+      "id": "fcf-q2-26",
+      "metric": "free_cash_flow",
+      "value": 784,
+      "display_value": "7.84亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Free cash flow $784",
+      "location": "Ex.99.1 p.9 Reconciliation"
+    },
+    {
+      "id": "fcf-q2-25",
+      "metric": "free_cash_flow",
+      "value": 8549,
+      "display_value": "85.49亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Free cash flow $8,549",
+      "location": "Ex.99.1 p.9"
+    },
+    {
+      "id": "fcf-q1-26",
+      "metric": "free_cash_flow",
+      "value": 12386,
+      "display_value": "123.86亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Free cash flow $12,386",
+      "location": "Q1 Ex.99.1 Reconciliation"
+    },
+    {
+      "id": "debt-proceeds-q2-26",
+      "metric": "proceeds_from_long_term_debt_net",
+      "value": 24910,
+      "display_value": "249.10亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Proceeds from issuance of long-term debt, net 24,910",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "buyback-q2-26",
+      "metric": "share_repurchases",
+      "value": 0,
+      "display_value": "0",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "We did not repurchase any shares of Class A common stock during the six months ended June 30, 2026",
+      "location": "10-Q Note 10, p.27"
+    },
+    {
+      "id": "dividends-q2-26",
+      "metric": "dividends_paid",
+      "value": 1353,
+      "display_value": "13.53亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Payments for dividends and dividend equivalents (1,353)",
+      "location": "Ex.99.1 p.7"
+    },
+    {
+      "id": "cash-q2-26",
+      "metric": "cash_and_equivalents",
+      "value": 15462,
+      "display_value": "154.62亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Cash and cash equivalents $15,462",
+      "location": "Ex.99.1 p.6 Balance Sheets"
+    },
+    {
+      "id": "mktsec-q2-26",
+      "metric": "marketable_securities",
+      "value": 74798,
+      "display_value": "747.98亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Marketable securities 74,798",
+      "location": "Ex.99.1 p.6"
+    },
+    {
+      "id": "cashsec-q2-26",
+      "metric": "cash_and_marketable_securities",
+      "value": 90260,
+      "display_value": "902.60亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Cash, cash equivalents, and marketable securities were $90.26 billion",
+      "location": "Ex.99.1 p.1"
+    },
+    {
+      "id": "cashsec-q1-26",
+      "metric": "cash_and_marketable_securities",
+      "value": 81180,
+      "display_value": "811.80亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-03-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Cash, cash equivalents, and marketable securities were $81.18 billion",
+      "location": "Q1 Ex.99.1 p.1"
+    },
+    {
+      "id": "ltd-q2-26",
+      "metric": "long_term_debt",
+      "value": 83664,
+      "display_value": "836.64亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Long-term debt 83,664",
+      "location": "Ex.99.1 p.6"
+    },
+    {
+      "id": "ltd-fy25",
+      "metric": "long_term_debt",
+      "value": 58744,
+      "display_value": "587.44亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Long-term debt 58,744",
+      "location": "Ex.99.1 p.6"
+    },
+    {
+      "id": "restricted-ce-q2-26",
+      "metric": "restricted_cash_equivalents",
+      "value": 13554,
+      "display_value": "135.54亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "restricted cash equivalents of $13.55 billion include $10.80 billion of money market funds related to escrow requirements",
+      "location": "10-Q Note 4, p.16"
+    },
+    {
+      "id": "escrow-q2-26",
+      "metric": "infrastructure_escrow",
+      "value": 10800,
+      "display_value": "108.0亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "$10.80 billion of money market funds ... escrow requirements under certain multi-year infrastructure purchase agreements ... released between 2028 and 2030",
+      "location": "10-Q Note 4, p.16; Liquidity p.46"
+    },
+    {
+      "id": "ppe-net-q2-26",
+      "metric": "property_and_equipment_net",
+      "value": 225724,
+      "display_value": "2257.24亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Property and equipment, net 225,724",
+      "location": "Ex.99.1 p.6"
+    },
+    {
+      "id": "cip-q2-26",
+      "metric": "construction_in_progress",
+      "value": 80345,
+      "display_value": "803.45亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Construction in progress 80,345",
+      "location": "10-Q Note 6, p.18"
+    },
+    {
+      "id": "cip-fy25",
+      "metric": "construction_in_progress",
+      "value": 50521,
+      "display_value": "505.21亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Construction in progress 50,521",
+      "location": "10-Q Note 6, p.18"
+    },
+    {
+      "id": "dep-q2-26",
+      "metric": "depreciation_ppe",
+      "value": 6000,
+      "display_value": "60.0亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Depreciation expense on property and equipment was $6.00 billion and $4.28 billion",
+      "location": "10-Q Note 6, p.18"
+    },
+    {
+      "id": "dep-q2-25",
+      "metric": "depreciation_ppe",
+      "value": 4280,
+      "display_value": "42.8亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Depreciation expense ... $4.28 billion (Q2 2025)",
+      "location": "10-Q Note 6, p.18"
+    },
+    {
+      "id": "dep-servers-q2-26",
+      "metric": "depreciation_servers_network",
+      "value": 4620,
+      "display_value": "46.2亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "servers and network assets depreciation expense was $4.62 billion and $3.12 billion",
+      "location": "10-Q Note 6, p.18"
+    },
+    {
+      "id": "dep-servers-q2-25",
+      "metric": "depreciation_servers_network",
+      "value": 3120,
+      "display_value": "31.2亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "servers and network assets depreciation ... $3.12 billion (Q2 2025)",
+      "location": "10-Q Note 6, p.18"
+    },
+    {
+      "id": "commit-noncancel",
+      "metric": "noncancelable_contractual_commitments",
+      "value": 349310,
+      "display_value": "3493.1亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "$349.31 billion of non-cancelable contractual commitments ... approximately $53.52 billion and $81.65 billion due in 2026 and 2027",
+      "location": "10-Q Note 9, p.20; Liquidity p.47"
+    },
+    {
+      "id": "commit-2027",
+      "metric": "commitments_due_2027",
+      "value": 81650,
+      "display_value": "816.5亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2027",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "approximately ... $81.65 billion due in ... 2027",
+      "location": "10-Q Note 9, p.20"
+    },
+    {
+      "id": "leases-not-commenced",
+      "metric": "leases_not_yet_commenced",
+      "value": 278990,
+      "display_value": "2789.9亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "lease obligations were approximately $278.99 billion ... In July 2026, we entered into additional data center leases with lease obligations of approximately $68 billion",
+      "location": "10-Q Note 9, p.20"
+    },
+    {
+      "id": "leases-july-26",
+      "metric": "leases_signed_july_2026",
+      "value": 68000,
+      "display_value": "约680亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "In July 2026 ... additional data center leases with lease obligations of approximately $68 billion",
+      "location": "10-Q Note 9, p.20"
+    },
+    {
+      "id": "hyperion-exposure",
+      "metric": "vie_max_exposure_louisiana",
+      "value": 46030,
+      "display_value": "460.3亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "maximum exposure to loss related to the Venture was $46.03 billion",
+      "location": "10-Q Note 5, p.17"
+    },
+    {
+      "id": "notes-face",
+      "metric": "notes_face_amount",
+      "value": 84000,
+      "display_value": "840亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Total face amount of long-term debt 84,000; May 2026 Notes 25,000",
+      "location": "10-Q Note 8, p.19"
+    },
+    {
+      "id": "int-exp-q2-26",
+      "metric": "interest_expense",
+      "value": 783,
+      "display_value": "7.83亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Interest expense (783) vs (241)",
+      "location": "10-Q MD&A Interest and other income, p.45"
+    },
+    {
+      "id": "int-exp-q2-25",
+      "metric": "interest_expense",
+      "value": 241,
+      "display_value": "2.41亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Interest expense (241)",
+      "location": "10-Q MD&A p.45"
+    },
+    {
+      "id": "unrec-sbc",
+      "metric": "unrecognized_rsu_expense",
+      "value": 79790,
+      "display_value": "797.9亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "unrecognized share-based compensation expense for RSU awards was $79.79 billion",
+      "location": "10-Q Note 10, p.28"
+    },
+    {
+      "id": "guide-q3-rev-low",
+      "metric": "q3_revenue_guidance_low",
+      "value": 61000,
+      "display_value": "610亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "third quarter 2026 total revenue to be in the range of $61-64 billion; FX ~1% headwind",
+      "location": "Ex.99.1 p.2 CFO Outlook"
+    },
+    {
+      "id": "guide-q3-rev-high",
+      "metric": "q3_revenue_guidance_high",
+      "value": 64000,
+      "display_value": "640亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "third quarter 2026 total revenue to be in the range of $61-64 billion",
+      "location": "Ex.99.1 p.2 CFO Outlook"
+    },
+    {
+      "id": "guide-fy-exp-low",
+      "metric": "fy_expense_guidance_low",
+      "value": 165000,
+      "display_value": "1650亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2026",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "full year 2026 total expenses to be in the range of $165-169 billion (raised low end for $2.4B legal charges)",
+      "location": "Ex.99.1 p.2"
+    },
+    {
+      "id": "guide-fy-exp-high",
+      "metric": "fy_expense_guidance_high",
+      "value": 169000,
+      "display_value": "1690亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2026",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "full year 2026 total expenses to be in the range of $165-169 billion",
+      "location": "Ex.99.1 p.2"
+    },
+    {
+      "id": "guide-capex-low",
+      "metric": "fy_capex_guidance_low",
+      "value": 130000,
+      "display_value": "1300亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2026",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "2026 capital expenditures ... $130-145 billion, narrowed from our prior outlook of $125-145 billion",
+      "location": "Ex.99.1 p.2"
+    },
+    {
+      "id": "guide-capex-high",
+      "metric": "fy_capex_guidance_high",
+      "value": 145000,
+      "display_value": "1450亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2026",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "2026 capital expenditures ... $130-145 billion",
+      "location": "Ex.99.1 p.2"
+    },
+    {
+      "id": "guide-oi-above-2025",
+      "metric": "fy_operating_income_commitment",
+      "value": 1,
+      "display_value": "2026年经营利润高于2025年",
+      "currency": "n/a",
+      "unit": "boolean",
+      "period": "FY2026",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "We continue to expect to deliver operating income this year that is above 2025 operating income.",
+      "location": "Ex.99.1 p.2"
+    },
+    {
+      "id": "oi-q3-25",
+      "metric": "operating_income",
+      "value": 20535,
+      "display_value": "205.35亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Total Income from Operations Q3'25 $20,535",
+      "location": "Earnings presentation p.4 Segment Results"
+    },
+    {
+      "id": "oi-q4-25",
+      "metric": "operating_income",
+      "value": 24745,
+      "display_value": "247.45亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q4",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Total Income from Operations Q4'25 $24,745",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "oi-q1-25",
+      "metric": "operating_income",
+      "value": 17555,
+      "display_value": "175.55亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Total Income from Operations Q1'25 $17,555",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "rev-q3-25",
+      "metric": "total_revenue",
+      "value": 51242,
+      "display_value": "512.42亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Total Revenue Q3'25 $51,242",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "rev-q4-25",
+      "metric": "total_revenue",
+      "value": 59893,
+      "display_value": "598.93亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q4",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Total Revenue Q4'25 $59,893",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "rl-oi-q1-25",
+      "metric": "segment_operating_income",
+      "value": -4210,
+      "display_value": "-42.10亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q1",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Reality Labs Operating (Loss) Q1'25 (4,210)",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "rl-oi-q3-25",
+      "metric": "segment_operating_income",
+      "value": -4432,
+      "display_value": "-44.32亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q3",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Reality Labs Operating (Loss) Q3'25 (4,432)",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "rl-oi-q4-25",
+      "metric": "segment_operating_income",
+      "value": -6021,
+      "display_value": "-60.21亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q4",
+      "segment": "Reality Labs",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Reality Labs Operating (Loss) Q4'25 (6,021)",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "foa-oi-q3-25",
+      "metric": "segment_operating_income",
+      "value": 24967,
+      "display_value": "249.67亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q3",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Family of Apps Operating Income Q3'25 $24,967",
+      "location": "Earnings presentation p.4"
+    },
+    {
+      "id": "fcf-q3-25",
+      "metric": "free_cash_flow",
+      "value": 10625,
+      "display_value": "106.25亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Free Cash Flow Q3'25 $10,625",
+      "location": "Earnings presentation p.15 FCF reconciliation"
+    },
+    {
+      "id": "fcf-q4-25",
+      "metric": "free_cash_flow",
+      "value": 14077,
+      "display_value": "140.77亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q4",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-slides"
+      ],
+      "evidence": "Free Cash Flow Q4'25 $14,077",
+      "location": "Earnings presentation p.15 FCF reconciliation"
+    },
+    {
+      "id": "shares-a",
+      "metric": "class_a_shares_outstanding",
+      "value": 2205.128509,
+      "display_value": "22.05亿股",
+      "currency": "n/a",
+      "unit": "million shares",
+      "period": "2026-07-24",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Class A Common Stock 2,205,128,509 shares outstanding as of July 24, 2026",
+      "location": "10-Q cover page"
+    },
+    {
+      "id": "shares-b",
+      "metric": "class_b_shares_outstanding",
+      "value": 342.377716,
+      "display_value": "3.42亿股",
+      "currency": "n/a",
+      "unit": "million shares",
+      "period": "2026-07-24",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Class B Common Stock 342,377,716 shares outstanding as of July 24, 2026",
+      "location": "10-Q cover page"
+    },
+    {
+      "id": "settle-total",
+      "metric": "ag_settlement_total",
+      "value": 18000,
+      "display_value": "约180亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3 (subsequent)",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-news-ag"
+      ],
+      "evidence": "The agreement includes a payment of approximately $18 billion ... distributed in annual installments over a 10-year period",
+      "location": "Meta Newsroom 2026-08-26, 'Financial Details'"
+    },
+    {
+      "id": "settle-base",
+      "metric": "ag_settlement_unconditional",
+      "value": 12700,
+      "display_value": "约127亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3 (subsequent)",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-news-ag"
+      ],
+      "evidence": "Participating states will receive approximately 70% (approximately $12.7 billion)",
+      "location": "Meta Newsroom 2026-08-26"
+    },
+    {
+      "id": "settle-contingent",
+      "metric": "ag_settlement_contingent",
+      "value": 5300,
+      "display_value": "约53亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3 (subsequent)",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-news-ag"
+      ],
+      "evidence": "The remaining 30% (approximately $5.3 billion) will be released only after two specific conditions are met",
+      "location": "Meta Newsroom 2026-08-26"
+    },
+    {
+      "id": "settle-q3-accrual",
+      "metric": "ag_settlement_q3_accrual",
+      "value": 10000,
+      "display_value": "约100亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3 (subsequent)",
+      "segment": "Family of Apps",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-news-ag"
+      ],
+      "evidence": "We expect to accrue a legal expense of approximately $10 billion in Q3'26 ... not contemplated in the expense range ... Otherwise, the guidance ranges ... remain unchanged",
+      "location": "Meta Newsroom 2026-08-26"
+    },
+    {
+      "id": "elpaso-devcost",
+      "metric": "el_paso_venture_development_cost",
+      "value": 14000,
+      "display_value": "约140亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3 (subsequent)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-news-elpaso"
+      ],
+      "evidence": "approximately $14 billion in total development costs ... Meta will retain the remaining 20% ownership",
+      "location": "Meta Newsroom 2026-07-28, 'Project Structure and Financing'"
+    },
+    {
+      "id": "elpaso-distribution",
+      "metric": "el_paso_one_time_distribution",
+      "value": 1000,
+      "display_value": "约10亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3 (subsequent)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "contribute approximately $2.3 billion of held-for-sale assets ... receive a one-time distribution of approximately $1 billion ... residual value guarantees with a maximum aggregate exposure of approximately $13 billion",
+      "location": "10-Q Note 13, p.30"
+    },
+    {
+      "id": "elpaso-rvg",
+      "metric": "el_paso_rvg_max",
+      "value": 13000,
+      "display_value": "约130亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q3 (subsequent)",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "residual value guarantees with a maximum aggregate exposure of approximately $13 billion",
+      "location": "10-Q Note 13, p.30"
+    },
+    {
+      "id": "rev-yoy",
+      "metric": "total_revenue_yoy",
+      "value": 27.96,
+      "display_value": "+28.0%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: rev_q2_26/rev_q2_25-1; inputs: rev-q2-26, rev-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "rev-qoq",
+      "metric": "total_revenue_qoq",
+      "value": 7.97,
+      "display_value": "+8.0%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: rev_q2_26/rev_q1_26-1; inputs: rev-q2-26, rev-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "ad-yoy",
+      "metric": "advertising_revenue_yoy",
+      "value": 27.49,
+      "display_value": "+27.5%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: ad/ad_py-1; inputs: ad-q2-26, ad-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "ad-incr-yoy",
+      "metric": "advertising_revenue_increment",
+      "value": 12800,
+      "display_value": "128.00亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: ad-ad_py; inputs: ad-q2-26, ad-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "foa-other-yoy",
+      "metric": "foa_other_revenue_yoy",
+      "value": 72.73,
+      "display_value": "+72.7%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: other/other_py-1; inputs: foa-other-q2-26, foa-other-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "costs-yoy",
+      "metric": "total_costs_yoy",
+      "value": 55.22,
+      "display_value": "+55.2%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: costs/costs_py-1; inputs: costs-q2-26, costs-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "costs-ex-oneoff-yoy",
+      "metric": "total_costs_ex_legal_severance_yoy",
+      "value": 42,
+      "display_value": "+42.0%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: (costs-legal-severance)/costs_py-1; inputs: costs-q2-26, legal-q2-26, severance-q2-26, costs-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oneoff-share-cost-growth",
+      "metric": "legal_severance_share_of_cost_increase",
+      "value": 23.94,
+      "display_value": "23.9%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: (legal+severance)/(costs-costs_py); inputs: legal-q2-26, severance-q2-26, costs-q2-26, costs-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "rd-yoy",
+      "metric": "rd_yoy",
+      "value": 67.33,
+      "display_value": "+67.3%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: rd/rd_py-1; inputs: rd-q2-26, rd-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "rd-ratio",
+      "metric": "rd_pct_revenue",
+      "value": 35.62,
+      "display_value": "35.6%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: rd/rev; inputs: rd-q2-26, rev-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "rd-ratio-py",
+      "metric": "rd_pct_revenue",
+      "value": 27.24,
+      "display_value": "27.2%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: rd/rev; inputs: rd-q2-25, rev-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "cor-yoy",
+      "metric": "cost_of_revenue_yoy",
+      "value": 33.44,
+      "display_value": "+33.4%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: cor/cor_py-1; inputs: cor-q2-26, cor-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "ga-ex-legal-yoy",
+      "metric": "ga_ex_legal_yoy",
+      "value": 20.5,
+      "display_value": "+20.5%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: (ga-legal)/ga_py-1; inputs: ga-q2-26, legal-q2-26, ga-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "op-margin",
+      "metric": "operating_margin",
+      "value": 30.88,
+      "display_value": "30.9%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: oi/rev; inputs: oi-q2-26, rev-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "op-margin-py",
+      "metric": "operating_margin",
+      "value": 43.02,
+      "display_value": "43.0%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: oi/rev; inputs: oi-q2-25, rev-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "op-margin-q1",
+      "metric": "operating_margin",
+      "value": 40.62,
+      "display_value": "40.6%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Formula: oi/rev; inputs: oi-q1-26, rev-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oi-ex-oneoff",
+      "metric": "operating_income_ex_legal_severance",
+      "value": 22355,
+      "display_value": "223.55亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: oi+legal+severance; inputs: oi-q2-26, legal-q2-26, severance-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oi-ex-oneoff-yoy",
+      "metric": "operating_income_ex_legal_severance_yoy",
+      "value": 9.36,
+      "display_value": "+9.4%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: (oi+legal+severance)/oi_py-1; inputs: oi-q2-26, legal-q2-26, severance-q2-26, oi-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oi-ex-oneoff-margin",
+      "metric": "operating_margin_ex_legal_severance",
+      "value": 36.77,
+      "display_value": "36.8%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: (oi+legal+severance)/rev; inputs: oi-q2-26, legal-q2-26, severance-q2-26, rev-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oi-yoy",
+      "metric": "operating_income_yoy",
+      "value": -8.15,
+      "display_value": "-8.2%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: oi/oi_py-1; inputs: oi-q2-26, oi-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oi-qoq",
+      "metric": "operating_income_qoq",
+      "value": -17.91,
+      "display_value": "-17.9%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: oi/oi_q1-1; inputs: oi-q2-26, oi-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "ni-yoy",
+      "metric": "net_income_yoy",
+      "value": -13.57,
+      "display_value": "-13.6%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: ni/ni_py-1; inputs: ni-q2-26, ni-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "etr",
+      "metric": "effective_tax_rate",
+      "value": 15.5,
+      "display_value": "15.5%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: tax/pretax; inputs: tax-q2-26, pretax-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "foa-margin",
+      "metric": "foa_operating_margin",
+      "value": 38.75,
+      "display_value": "38.8%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: foa_oi/foa_rev; inputs: foa-oi-q2-26, foa-rev-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "foa-margin-py",
+      "metric": "foa_operating_margin",
+      "value": 52.97,
+      "display_value": "53.0%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: foa_oi/foa_rev; inputs: foa-oi-q2-25, foa-rev-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "foa-margin-q1",
+      "metric": "foa_operating_margin",
+      "value": 48.11,
+      "display_value": "48.1%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Formula: foa_oi/foa_rev; inputs: foa-oi-q1-26, foa-rev-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "foa-oi-yoy",
+      "metric": "foa_operating_income_yoy",
+      "value": -6.32,
+      "display_value": "-6.3%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: foa_oi/foa_oi_py-1; inputs: foa-oi-q2-26, foa-oi-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "foa-empcomp-yoy",
+      "metric": "foa_employee_comp_yoy",
+      "value": 56.07,
+      "display_value": "+56.1%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Formula: emp/emp_py-1; inputs: foa-empcomp-q2-26, foa-empcomp-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "foa-othercost-yoy",
+      "metric": "foa_other_costs_yoy",
+      "value": 74.51,
+      "display_value": "+74.5%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Formula: other/other_py-1; inputs: foa-othercost-q2-26, foa-othercost-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "dep-yoy",
+      "metric": "depreciation_ppe_yoy",
+      "value": 40.19,
+      "display_value": "+40.2%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Formula: dep/dep_py-1; inputs: dep-q2-26, dep-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "dep-servers-yoy",
+      "metric": "server_depreciation_yoy",
+      "value": 48.08,
+      "display_value": "+48.1%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Formula: srv/srv_py-1; inputs: dep-servers-q2-26, dep-servers-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "sbc-yoy",
+      "metric": "sbc_yoy",
+      "value": 58.42,
+      "display_value": "+58.4%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: sbc/sbc_py-1; inputs: sbc-q2-26, sbc-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "fcf-recalc",
+      "metric": "free_cash_flow_recalculated",
+      "value": 784,
+      "display_value": "7.84亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: ocf-ppe-finance_lease_principal; inputs: ocf-q2-26, ppe-q2-26, fl-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "fcf-yoy",
+      "metric": "free_cash_flow_yoy",
+      "value": -90.83,
+      "display_value": "-90.8%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: fcf/fcf_py-1; inputs: fcf-q2-26, fcf-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "fcf-qoq",
+      "metric": "free_cash_flow_qoq",
+      "value": -93.67,
+      "display_value": "-93.7%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: fcf/fcf_q1-1; inputs: fcf-q2-26, fcf-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-ocf",
+      "metric": "capex_to_ocf",
+      "value": 97.54,
+      "display_value": "97.5%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: capex_incl_fl/ocf; inputs: capex-q2-26, ocf-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-ocf-q1",
+      "metric": "capex_to_ocf",
+      "value": 61.57,
+      "display_value": "61.6%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release"
+      ],
+      "evidence": "Formula: capex_incl_fl/ocf; inputs: capex-q1-26, ocf-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-qoq",
+      "metric": "capex_qoq",
+      "value": 56.64,
+      "display_value": "+56.6%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: capex/capex_q1-1; inputs: capex-q2-26, capex-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-q2-25",
+      "metric": "capex_incl_finance_leases",
+      "value": 17012,
+      "display_value": "170.12亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: ppe+finance_lease_principal; inputs: ppe-q2-25, fl-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-yoy",
+      "metric": "capex_yoy",
+      "value": 82.68,
+      "display_value": "+82.7%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: capex/capex_py-1; inputs: capex-q2-26, ppe-q2-25, fl-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-h1",
+      "metric": "capex_h1",
+      "value": 50918,
+      "display_value": "509.18亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: capex_q1+capex_q2; inputs: capex-q2-26, capex-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-h2-implied-low",
+      "metric": "implied_h2_capex_low",
+      "value": 79082,
+      "display_value": "790.82亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: capex_guide_low-capex_h1; inputs: guide-capex-low, capex-q2-26, capex-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "capex-h2-implied-high",
+      "metric": "implied_h2_capex_high",
+      "value": 94082,
+      "display_value": "940.82亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: capex_guide_high-capex_h1; inputs: guide-capex-high, capex-q2-26, capex-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "net-cash",
+      "metric": "net_cash_ex_restricted",
+      "value": 6596,
+      "display_value": "65.96亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: cash_and_securities-long_term_debt (excludes restricted cash equivalents); inputs: cashsec-q2-26, ltd-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "int-exp-yoy",
+      "metric": "interest_expense_yoy",
+      "value": 224.9,
+      "display_value": "+224.9%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Formula: int/int_py-1; inputs: int-exp-q2-26, int-exp-q2-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "headcount-qoq",
+      "metric": "headcount_qoq",
+      "value": -3.22,
+      "display_value": "-3.2%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: hc/hc_q1-1; inputs: headcount-q2-26, headcount-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "arpp-recalc",
+      "metric": "arpp_recalculated",
+      "value": 16.86,
+      "display_value": "16.86美元",
+      "currency": "USD",
+      "unit": "USD per person",
+      "period": "2026Q2",
+      "segment": "Family of Apps",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: foa_rev/avg(DAP_Mar26, DAP_Jun26); inputs: foa-rev-q2-26, dap-mar-26, dap-jun-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "rl-loss-fy25",
+      "metric": "rl_operating_loss_fy2025",
+      "value": -19193,
+      "display_value": "-191.93亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2025",
+      "segment": "Reality Labs",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: sum of RL quarterly operating loss; inputs: rl-oi-q1-25, rl-oi-q2-25, rl-oi-q3-25, rl-oi-q4-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oi-fy25",
+      "metric": "operating_income_fy2025",
+      "value": 83276,
+      "display_value": "832.76亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: sum of quarterly operating income; inputs: oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "oi-ttm",
+      "metric": "operating_income_ttm",
+      "value": 86927,
+      "display_value": "869.27亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "TTM to 2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: sum of last four quarters; inputs: oi-q3-25, oi-q4-25, oi-q1-26, oi-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "fcf-ttm",
+      "metric": "free_cash_flow_ttm",
+      "value": 37872,
+      "display_value": "378.72亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "TTM to 2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: sum of last four quarters; inputs: fcf-q3-25, fcf-q4-25, fcf-q1-26, fcf-q2-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "shares-total",
+      "metric": "total_shares_outstanding",
+      "value": 2547.506,
+      "display_value": "25.48亿股",
+      "currency": "n/a",
+      "unit": "million shares",
+      "period": "2026-07-24",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-10q"
+      ],
+      "evidence": "Formula: class A + class B; inputs: shares-a, shares-b",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "q3-guide-yoy-low",
+      "metric": "q3_guidance_implied_yoy_low",
+      "value": 19.04,
+      "display_value": "+19.0%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: guide_low/rev_q3_25-1; inputs: guide-q3-rev-low, rev-q3-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "q3-guide-yoy-high",
+      "metric": "q3_guidance_implied_yoy_high",
+      "value": 24.9,
+      "display_value": "+24.9%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: guide_high/rev_q3_25-1; inputs: guide-q3-rev-high, rev-q3-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-rev-best",
+      "metric": "required_q4_revenue_for_oi_commitment_best_case",
+      "value": 77164,
+      "display_value": "771.64亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: (exp_guide_low+10,000 accrual)+FY25_OI-H1_rev-Q3_guide_high; inputs: guide-fy-exp-low, guide-fy-exp-high, settle-q3-accrual, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-rev-worst",
+      "metric": "required_q4_revenue_for_oi_commitment_worst_case",
+      "value": 84164,
+      "display_value": "841.64亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: (exp_guide_high+10,000 accrual)+FY25_OI-H1_rev-Q3_guide_low; inputs: guide-fy-exp-low, guide-fy-exp-high, settle-q3-accrual, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-yoy-best",
+      "metric": "required_q4_revenue_yoy_best_case",
+      "value": 28.84,
+      "display_value": "+28.8%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: req_q4_best/rev_q4_25-1; inputs: guide-fy-exp-low, guide-fy-exp-high, settle-q3-accrual, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high, rev-q4-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-yoy-worst",
+      "metric": "required_q4_revenue_yoy_worst_case",
+      "value": 40.52,
+      "display_value": "+40.5%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: req_q4_worst/rev_q4_25-1; inputs: guide-fy-exp-low, guide-fy-exp-high, settle-q3-accrual, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high, rev-q4-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-rev-best-pre",
+      "metric": "required_q4_revenue_pre_settlement_best_case",
+      "value": 67164,
+      "display_value": "671.64亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: exp_guide_low+FY25_OI-H1_rev-Q3_guide_high; inputs: guide-fy-exp-low, guide-fy-exp-high, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-rev-worst-pre",
+      "metric": "required_q4_revenue_pre_settlement_worst_case",
+      "value": 74164,
+      "display_value": "741.64亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: exp_guide_high+FY25_OI-H1_rev-Q3_guide_low; inputs: guide-fy-exp-low, guide-fy-exp-high, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-yoy-best-pre",
+      "metric": "required_q4_revenue_yoy_pre_settlement_best",
+      "value": 12.14,
+      "display_value": "+12.1%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: req/rev_q4_25-1; inputs: guide-fy-exp-low, guide-fy-exp-high, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high, rev-q4-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "req-q4-yoy-worst-pre",
+      "metric": "required_q4_revenue_yoy_pre_settlement_worst",
+      "value": 23.83,
+      "display_value": "+23.8%",
+      "currency": "n/a",
+      "unit": "percent",
+      "period": "2026Q4",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-q1-release",
+        "meta-q2-release",
+        "meta-q2-slides"
+      ],
+      "evidence": "Formula: req/rev_q4_25-1; inputs: guide-fy-exp-low, guide-fy-exp-high, oi-q1-25, oi-q2-25, oi-q3-25, oi-q4-25, rev-q1-26, rev-q2-26, guide-q3-rev-low, guide-q3-rev-high, rev-q4-25",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "fy-exp-incl-accrual-low",
+      "metric": "fy_expenses_incl_settlement_accrual_low",
+      "value": 175000,
+      "display_value": "1750亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2026",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: exp_guide_low+accrual; inputs: guide-fy-exp-low, settle-q3-accrual",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "fy-exp-incl-accrual-high",
+      "metric": "fy_expenses_incl_settlement_accrual_high",
+      "value": 179000,
+      "display_value": "1790亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "FY2026",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: exp_guide_high+accrual; inputs: guide-fy-exp-high, settle-q3-accrual",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "h2-exp-implied-low",
+      "metric": "implied_h2_expenses_incl_accrual_low",
+      "value": 99535,
+      "display_value": "995.35亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q1-release",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: exp_guide_low+accrual-H1_costs; inputs: guide-fy-exp-low, settle-q3-accrual, costs-q2-26, costs-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    },
+    {
+      "id": "h2-exp-implied-high",
+      "metric": "implied_h2_expenses_incl_accrual_high",
+      "value": 103535,
+      "display_value": "1035.35亿美元",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "meta-news-ag",
+        "meta-q1-release",
+        "meta-q2-release"
+      ],
+      "evidence": "Formula: exp_guide_high+accrual-H1_costs; inputs: guide-fy-exp-high, settle-q3-accrual, costs-q2-26, costs-q1-26",
+      "location": "Derived (research/build_facts.py)"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务拆解",
+      "claims": [
+        {
+          "text": "【财报事实】Q2 收入 608.01 亿美元，同比 +28%（恒定汇率 +27%），环比 +8.0%；收入落在公司 4 月给出的 580–610 亿美元指引上沿附近。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【派生指标】广告收入 593.63 亿美元，同比 +27.5%，可分解为展示量 +14% 与单价 +12%（1.14×1.12−1≈27.7%，与报表口径吻合）；展示量增速较 Q1 的 +19% 回落 5 个百分点，单价增速持平于 +12%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【财报事实】10-Q 将单价上升归因于广告效果改善带来的需求增加和汇率顺风，部分被 Reels 与亚太等低变现库存的展示量增长抵消；在线零售（online commerce）是广告收入增量的最大贡献行业。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【财报事实】日活跃人数（DAP）36.0 亿，同比 +3%；ARPP 16.86 美元，同比 +24%。增长主要来自单用户变现而非用户规模。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【财报事实】FoA 其他收入首次超过 10 亿美元（10.07 亿美元，同比 +72.7%），驱动为 WhatsApp 付费消息与订阅；Reality Labs 收入 4.31 亿美元（+16.5%），AI 眼镜增长、Quest 下滑。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-q2-call"
+          ]
+        },
+        {
+          "text": "【推断】新收入线（FoA 其他收入）仅占 FoA 收入约 1.7%，年化约 40 亿美元，与 1,300–1,450 亿美元的年度资本开支指引不在同一数量级；短期内承担 AI 投入回报的仍几乎全部是广告单价与转化。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release"
+          ],
+          "falsifier": "若未来 2–3 个季度 FoA 其他收入或公司新披露的商业代理/API/Muse 订阅收入出现数量级跃升（例如单季超过 30 亿美元），该判断需下调。"
+        },
+        {
+          "text": "【财报事实】按用户所在地口径，美加收入 +32%、欧洲 +24%、亚太 +19%、其他地区 +36%；按客户账单地址口径（Note 2）分别为 +29.3%、+25.9%、+25.0%、+35.1%。两种口径均为官方披露，定义不同，本报告并列展示、不作取舍。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【财报事实（管理层口径）】管理层称 Advantage+ 端到端方案年化收入运行率超过 750 亿美元，Facebook 上 GEM 等模型带来广告点击 +8.3%、转化 +15.7%；这些指标未与 GAAP 收入对账。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-call"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本效率",
+      "claims": [
+        {
+          "text": "【财报事实】总成本费用 420.26 亿美元，同比 +55%；其中含 24.0 亿美元法律相关费用（计入 G&A）与 11.8 亿美元遣散费（5 月约 8,000 人裁员）。经营利润 187.75 亿美元，同比 −8%，经营利润率 31%（去年同期 43%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【派生指标】剔除法律与遣散费后，成本仍同比 +42.0%，高于收入 +28.0%；经营利润 223.55 亿美元（+9.4%，与 CFO 口径一致），但经营利润率 36.8%，仍比去年同期低 6.2 个百分点、比 Q1 的 40.6% 低 3.8 个百分点。一次性项目只解释了成本增量的 23.9%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【派生指标】研发费用 216.56 亿美元，同比 +67.3%，占收入 35.6%（去年同期 27.2%）；10-Q 归因于员工薪酬（股权激励与遣散）、数据中心/云基础设施和第三方 AI token 成本。股权激励（现金流量表口径）同比 +58.4%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【派生指标】物业设备折旧 60.0 亿美元（+40.2%），其中服务器与网络资产折旧 46.2 亿美元（+48.1%）；在建工程从年初 505.21 亿美元增至 803.45 亿美元，折旧压力仍在管道中。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【派生指标】FoA 经营利润率 38.8%，去年同期 53.0%、Q1 为 48.1%；FoA 员工薪酬 +56.1%、其他成本（基础设施、法律等）+74.5%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】利润率下移的主体是结构性的 AI 成本（折旧、云与 token、AI 人才薪酬），而不是一次性项目；在 2026–2027 年产能最大化计划下，这部分成本会随资产投入使用继续上升。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-q2-call"
+          ],
+          "falsifier": "若 Q3 剔除和解计提后的经营利润率回到 40% 以上，且折旧增速低于收入增速，则“结构性下移”判断需修正为“阶段性”。"
+        },
+        {
+          "text": "【财报事实】利息费用 7.83 亿美元，同比 +225%（长期债务余额上升）；Q2 有效税率 16%，公司将下半年税率指引上调至 15–17%（CAMT 限制部分税收优惠）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-q2-release"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "现金与资产",
+      "claims": [
+        {
+          "text": "【财报事实】经营现金流 318.62 亿美元（同比 +24.7%、环比 −1.1%）；购置物业设备 301.16 亿美元、融资租赁本金 9.62 亿美元，自由现金流 7.84 亿美元（去年同期 85.49 亿、Q1 为 123.86 亿美元）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【派生指标】含融资租赁的资本开支 310.78 亿美元，环比 +56.6%，吞掉经营现金流的 97.5%（Q1 为 61.6%）；自由现金流同比 −90.8%、环比 −93.7%。按全年 1,300–1,450 亿美元指引，下半年隐含资本开支 790.8–940.8 亿美元，即单季约 395–470 亿美元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q1-release",
+            "meta-q2-slides"
+          ]
+        },
+        {
+          "text": "【推断】若下半年经营现金流与上半年（640.88 亿美元）大致相当，下半年自由现金流约为 −150 亿至 −300 亿美元；Meta 正从“自由现金流覆盖回购与分红”转入“经营现金流 + 债务 + 合作伙伴资本共同为产能融资”的阶段。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q"
+          ],
+          "falsifier": "若 Q3+Q4 自由现金流合计为正，且资本开支仍落在指引区间内，该推断不成立。"
+        },
+        {
+          "text": "【财报事实】5 月发行 250 亿美元优先票据（净额 249.10 亿美元），长期债务从年初 587.44 亿美元增至 836.64 亿美元；上半年未回购股票（剩余授权 250.3 亿美元），季度分红照常。现金及有价证券 902.60 亿美元，扣除长期债务后净现金约 66 亿美元（不含受限现金）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-notes-8k"
+          ]
+        },
+        {
+          "text": "【财报事实】受限现金等价物 135.54 亿美元，其中 108.0 亿美元为多年期基础设施采购协议的托管资金，预计 2028–2030 年释放；不可撤销合同承诺 3,493.1 亿美元（2026 年到期 535.2 亿、2027 年 816.5 亿），尚未起租的租赁义务约 2,789.9 亿美元，7 月另签约约 680 亿美元数据中心租赁。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【财报事实】路易斯安那数据中心合资（Meta 持 20%）最大损失敞口 460.3 亿美元，含约 280 亿美元剩余价值担保门槛；El Paso 新合资（Meta 持 20%，与贝莱德）预计 Q3 交割，Meta 投入约 23 亿美元资产、获约 10 亿美元一次性分配，并提供最高约 130 亿美元剩余价值担保。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-news-elpaso"
+          ]
+        },
+        {
+          "text": "【推断】资本开支数字低估了 Meta 的真实产能承诺：越来越多的产能通过租赁、合资和剩余价值担保锁定，现金流出被推迟到起租之后，以租赁成本和折旧形式进入 2027–2029 年利润表。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-news-elpaso",
+            "meta-q2-followup"
+          ],
+          "falsifier": "若后续 10-Q 显示未起租租赁义务和担保敞口停止增长或下降，同时资本开支不降，该判断需下调。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "【财报事实】明确指引：Q3 收入 610–640 亿美元（汇率约 −1%）；全年总费用 1,650–1,690 亿美元（仅因 Q2 法律费用上调下限）；全年资本开支 1,300–1,450 亿美元（下限上调）；“继续预计 2026 年经营利润高于 2025 年”。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-call"
+          ]
+        },
+        {
+          "text": "【财报事实】8 月 26 日公司新闻稿：预计 Q3 计提约 100 亿美元与州检察长和解相关的法律费用，该费用不在 Q2 给出的费用区间内；“除此之外，7 月指引区间不变”。新闻稿未单独重申“经营利润高于 2025 年”这一非区间表述。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-news-ag"
+          ]
+        },
+        {
+          "text": "【财报事实】措辞变化：CEO 在 Q2 首次把“企业机会”与核心业务、个人代理并列为三大方向，并称“收到大量以显著溢价购买我们算力的报价”；CFO 称“近期产能比远期产能更有价值”，规划“以最大化 2026 和 2027 年产能为导向”，并在更正稿中把“需求受限”改为“供给受限”。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-call"
+          ]
+        },
+        {
+          "text": "【财报事实】回避或无数字的问题：哪条新业务最先产生可量化 ROIC（CEO 回答“各方向都乐观”，无数字）；2027 年资本开支（“目前不提供”）；股权融资（“没有可分享的计划”）；表外担保（“请看 10-Q 披露”）；诉讼最坏情形（“为时尚早”）；算力出售（“没有更明确的时间表”）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-call",
+            "meta-q2-followup"
+          ]
+        },
+        {
+          "text": "【财报事实】资源配置信号：Q2 资本开支环比 +57%、研发 +67%，同时 5 月裁员约 8,000 人、暂停回购、发债 250 亿美元并与贝莱德组建 El Paso 合资；CFO 称经营现金流仍是“为全部雄心融资的首要支柱”。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-q2-followup",
+            "meta-news-elpaso"
+          ]
+        },
+        {
+          "text": "【推断】资源实际流向确认了“算力优先”的战略次序：人员、回购和资产负债表弹性都在为产能让路。管理层的承诺可信度将取决于其能否在不提供 ROIC 时间表的情况下守住利润承诺，而不是取决于模型发布节奏。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-q2-call",
+            "meta-q2-followup"
+          ],
+          "falsifier": "若 Q3 管理层给出新业务收入或单位经济指标、并在含计提口径下重申利润承诺，则“缺乏回报锚点”的判断需修正。"
+        },
+        {
+          "text": "【财报事实】商业化动作：Meta Business Agent 每周有超过 100 万家企业使用，下半年开始通过 Meta One 订阅与按 token 计价（8 月 1 日起）收费；Muse Spark 1.1 已通过公开 API 提供；9 月 8 日发布个人 AI 代理 Muse（免费为主，另设订阅档）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-call",
+            "meta-q2-followup",
+            "meta-news-muse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "【外部事实（官方文件）】Alphabet Q2 Google 广告收入 816.29 亿美元，同比 +14.4%；Amazon Q2 广告服务收入 198.09 亿美元，同比 +26.2%。Meta 广告收入同比 +27.5%，美元增量 128.0 亿美元，高于 Google 的 102.9 亿和 Amazon 的 41.2 亿美元，与 CEO“美元口径增速领先”的表述在这两家可比对象上相容。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "googl-q2-release",
+            "amzn-q2-release",
+            "meta-q2-release"
+          ]
+        },
+        {
+          "text": "【外部事实（官方文件）】Alphabet 于 2026 年 6 月发行 A/C 类股与强制可转换优先股，净募资 496 亿美元用于 AI 基础设施，并设立 400 亿美元 ATM 计划；同季购置物业设备 449.24 亿美元。同业已开始用股权为 AI 资本开支融资，Meta 目前仍以债务和合资为主。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "googl-q2-release"
+          ]
+        },
+        {
+          "text": "【推断】竞争的传导路径已从“争夺用户时长”扩展到“争夺算力供给”：同业 AI 资本开支扩张→算力与元器件供给紧张→Meta 第三方云和 AI token 成本上升（计入营业成本与研发）→FoA 利润率下降。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-q2-call",
+            "googl-q2-release"
+          ],
+          "falsifier": "若 Q3 第三方云/token 成本增速放缓、或公司披露自建产能替代外部云，该传导需下调。"
+        },
+        {
+          "text": "【财报事实】10-Q 仍提示在年轻用户群体中面临竞争，Reels 变现率低于 Feed/Stories；管理层称 Instagram 日活达 20 亿、Threads 月活超 5 亿（管理层口径）。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-q2-call"
+          ]
+        },
+        {
+          "text": "【披露边界】本报告未采用未经双源验证的市场份额、竞品资本开支汇总或模型基准；Reuters 关于 Meta 洽谈向 Anthropic 出租算力的报道为单一来源，仅作线索。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-reuters-elpaso"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部变量",
+      "claims": [
+        {
+          "text": "【财报事实】法律与监管：Q2 计提 24.0 亿美元法律费用（10-Q 未拆分对应案件）；新墨西哥州陪审团裁定 3.75 亿美元民事罚款，州检察长另寻求 9.53 亿美元整治费用；新墨西哥州另案（9 月 8 日开庭）称拟寻求最高 628.5 亿美元罚款。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-q2-release"
+          ]
+        },
+        {
+          "text": "【财报事实（公司公告）】8 月 26 日与 52 个州/地区检察长达成协议：约 180 亿美元分 10 年支付，其中约 127 亿美元无条件、约 53 亿美元以 YouTube 与 TikTok 采取同等措施并支付对等金额为条件；Q3 计提约 100 亿美元。协议要求对未成年人默认每日 2 小时上限、午夜至 6 点夜间模式、可选非算法信息流等。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-news-ag"
+          ]
+        },
+        {
+          "text": "【外部事实】和解金额存在口径差异：CBS 援引各州称至少 121 亿美元、最高 171 亿美元（另与得州单独和解，合计约 180 亿美元）；国际金融报援引法院文件称最高 166.8 亿美元。本报告以公司公告口径为主，并保留冲突。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-cbs-settlement",
+            "media-ifn-settlement",
+            "meta-news-ag"
+          ]
+        },
+        {
+          "text": "【推断】青少年诉讼已从“或有风险”转为经营约束：一方面法律成本具有重复性（Q2 24 亿 + Q3 约 100 亿美元），另一方面使用时长上限与非算法信息流直接作用于未成年人的展示量；后者对广告收入的影响公司未量化。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-news-ag",
+            "meta-q2-10q",
+            "meta-q2-release"
+          ],
+          "falsifier": "若后续两个季度展示量增速未因该协议明显放缓、且无新的重大法律计提，该判断需下调。"
+        },
+        {
+          "text": "【财报事实】欧洲：更少个性化广告（LPA）已全面推出，CFO 称可能成为 Q3 额外逆风；欧盟委员会 6 月要求 WhatsApp 免费向通用 AI 提供商开放 Business API（临时措施，公司拟上诉）；DSA 关于未成年人的初步认定于 4 月与 7 月发布。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-followup",
+            "meta-q2-10q"
+          ]
+        },
+        {
+          "text": "【财报事实】宏观与汇率：10-Q 提示中东冲突和国际贸易波动带来不确定性；Q2 汇率贡献约 6.85 亿美元收入（恒定汇率 +27% vs 报告 +28%），Q3 指引假设汇率约 −1%。上游：Q1 曾因元器件涨价上调资本开支指引，Q2 收窄区间。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-10q",
+            "meta-q2-release",
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【披露边界】本报告未独立采集政府宏观消费数据或元器件价格序列，宏观与上游影响以公司表述为准。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-10q"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场定价",
+      "claims": [
+        {
+          "text": "【外部事实】财报次日（7/30）META 收盘 539.03 美元，较 7/29 收盘 585.61 美元下跌 7.95%，盘中最低 524.49 美元（−10.44%）；同日 QQQ +3.3%，相对跑输 11.25 个百分点。Yahoo 与 Nasdaq 两个价格源收盘价一致。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "price-yahoo-meta",
+            "price-nasdaq-meta",
+            "price-yahoo-qqq"
+          ]
+        },
+        {
+          "text": "【外部事实】一致预期因来源而异：FactSet（经 AP）EPS 7.19 美元、收入 602.2 亿美元，Q3 收入预期 631.4 亿美元；财联社称收入预期 602 亿、净利润预期 185 亿美元、Q3 预期 632 亿美元；Zacks 口径 EPS 低于预期 12.96%。收入小幅超预期、EPS 明显不及、Q3 指引中值（625 亿美元）低于预期。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-ap-fortune",
+            "media-cls",
+            "search-consensus"
+          ]
+        },
+        {
+          "text": "【外部事实】财报前 10 个交易日 META 连跌，累计 -14.05%（QQQ -7.8%）；8/18 州检察长案开庭日下跌 4.45%；8/26 和解公告日上涨 1.07%；9 月全月上涨 26.7%（QQQ +3.21%），其中 9/21 单日 +11.34%。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "price-yahoo-meta",
+            "price-yahoo-meta-sep",
+            "price-yahoo-qqq",
+            "price-yahoo-qqq-sep",
+            "media-zhitong-trial"
+          ]
+        },
+        {
+          "text": "【派生指标/外部事实】按 10-Q 封面股本（25.48 亿股）计，市值从 7/30 的约 1.37 万亿美元回升至 10/2 的约 1.85 万亿美元；市值/过去四季 GAAP 经营利润（869.27 亿美元）由 15.8 倍升至 21.3 倍，过去四季自由现金流收益率由 2.76% 降至 2.04%。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "price-yahoo-meta-sep",
+            "price-yahoo-meta",
+            "meta-q2-10q",
+            "meta-q2-slides"
+          ]
+        },
+        {
+          "text": "【推断】7 月底市场定价的是“利润与现金流冲击”，8 月下旬定价的是“法律不确定性出清”，9 月定价的是 Muse 带来的 AI 产品期权；10 月初的估值已不再是“现金流担忧”定价，而 Q3 的约 100 亿美元计提与全年利润承诺的张力可能尚未被充分讨论。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "price-yahoo-meta-sep",
+            "meta-news-ag",
+            "media-163-sep-rally"
+          ],
+          "falsifier": "若 Q3 财报公布后，即使出现大额计提与利润承诺调整，股价也未显著回撤，说明市场已充分定价，本推断不成立。"
+        },
+        {
+          "text": "【披露边界】本报告未使用持牌一致预期数据库，媒体口径之间存在差异；9 月涨幅归因（Muse 下载量、券商上调目标价）来自媒体报道，不作为财务事实。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-163-sep-rally",
+            "search-consensus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "情景与验证",
+      "claims": [
+        {
+          "text": "【情景】情景以 2026Q3（GAAP 口径，含约 100 亿美元和解计提）为对象：区段利润 = FoA 经营利润，集团利润 = 集团经营利润，单位百万美元。模型输入：Q3 收入指引 610–640 亿美元；全年费用指引 1,650–1,690 亿美元 + 约 100 亿美元计提，隐含下半年费用 995.4–1,035.4 亿美元；按 2025 年 Q3/Q4 费用比例分配；RL 全年亏损与 2025 年（191.9 亿美元）相近。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-news-ag",
+            "meta-q2-slides",
+            "meta-q2-10q"
+          ],
+          "falsifier": "若 Q3 实际收入或费用落在模型输入区间之外，情景区间需重算。"
+        },
+        {
+          "text": "【情景】基准情景（55%）：收入 615–640 亿美元，剔除计提后费用约 420–435 亿美元，集团经营利润 80–120 亿美元，FoA 经营利润 126–172 亿美元；管理层在含计提口径下对“经营利润高于 2025 年”给出模糊或附条件表述。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-news-ag"
+          ],
+          "falsifier": "若 Q3 集团经营利润高于 120 亿美元或低于 80 亿美元，基准情景失效。"
+        },
+        {
+          "text": "【派生指标】利润承诺压力测试：未计和解时，满足“2026 年经营利润高于 2025 年（832.76 亿美元）”只需 Q4 收入 671.6–741.6 亿美元（同比 +12.1% 至 +23.8%）；计入约 100 亿美元计提后，需 Q4 收入 771.6–841.6 亿美元（同比 +28.8% 至 +40.5%），而 Q3 指引隐含同比增速仅 +19.0% 至 +24.9%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-news-ag",
+            "meta-q2-slides",
+            "meta-q1-release"
+          ]
+        },
+        {
+          "text": "【推断】除非费用落在区间下沿且 Q4 收入重新加速，否则在含计提口径下兑现利润承诺的难度显著上升；Q3 财报对这一承诺的表述，是检验管理层财务纪律的最直接信号。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-news-ag"
+          ],
+          "falsifier": "若 Q3 财报在含计提口径下重申承诺，并给出 Q4 收入指引下限不低于约 771.6 亿美元（满足承诺所需的最低 Q4 收入），该推断被推翻。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究结论",
+      "claims": [
+        {
+          "text": "【推断】核心研究信号：Q2 是 Meta 从“广告利润自我融资”转入“广告利润 + 外部资本共同为 AI 产能融资”的分水岭——剔除一次性项目的利润率仍下降 6.2 个百分点，资本开支吞掉 97.5% 的经营现金流，法律成本开始重复出现。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-news-ag"
+          ],
+          "falsifier": "若 Q3 剔除计提后的经营利润率回到 40% 以上、自由现金流为正且利润承诺在含计提口径下被重申，则该信号失效。"
+        },
+        {
+          "text": "【推断】验证仪表盘应合并观察四组数：①展示量与单价增速（广告引擎是否仍在提供增量）；②剔除计提的 FoA 利润率与折旧增速（AI 成本是否被吸收）；③资本开支/经营现金流与表外承诺增量（融资结构是否继续外移）；④FoA 其他收入及新业务收入披露（新收入线是否进入可计价阶段）。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q2-10q",
+            "meta-q2-call"
+          ],
+          "falsifier": "若四组数在 Q3 同向改善，研究结论应从“中性”上调。"
+        },
+        {
+          "text": "【财报事实】与上一期（2026Q1）相比：经营利润率 40.6%→30.9%、FoA 利润率 48.1%→38.8%、资本开支/经营现金流 61.6%→97.5%、自由现金流 123.86 亿→7.84 亿美元、员工数 77,986→75,472；RL 亏损 40.28 亿→46.19 亿美元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "meta-q2-release",
+            "meta-q1-release"
+          ]
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1-consensus",
+        "question": "共识：一位称职分析师看完标题数字会得出什么结论？",
+        "answer": "收入 608 亿美元小幅超预期（FactSet 602.2 亿），EPS 6.18 美元明显不及（FactSet 7.19），差距主要被解释为 24 亿美元法律费用和 11.8 亿美元遣散费；CFO 也强调剔除二者后经营利润同比 +9%。市场同时对 7.84 亿美元自由现金流和 Q3 指引中值低于预期作出负面反应。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-call",
+          "media-ap-fortune"
+        ],
+        "counterevidence": "剔除一次性项目后，成本仍增长 42%，经营利润率仍比去年同期低 6.2 个百分点，“一次性”解释并不完整。",
+        "status": "answered"
+      },
+      {
+        "id": "q2-assumption",
+        "question": "隐藏假设：支撑“只是一次性项目”这一共识的前提是什么？",
+        "answer": "前提有二：其一，法律费用不会重复；其二，AI 投入带来的成本增长会在可预见的时间内被收入增长追上。8 月 26 日公司公告 Q3 将再计提约 100 亿美元，第一项前提已被证伪；第二项前提缺乏管理层的 ROIC 时间表。",
+        "source_ids": [
+          "meta-news-ag",
+          "meta-q2-call",
+          "meta-q2-followup"
+        ],
+        "counterevidence": "和解把规模更大的潜在判决（州方主张近 2,000 亿美元）转化为有上限的分期支付，从风险角度看是改善。",
+        "status": "answered"
+      },
+      {
+        "id": "q3-contradiction",
+        "question": "矛盾：本季哪一个事实最强烈地抵抗共识？",
+        "answer": "资本开支（含融资租赁）310.78 亿美元，占经营现金流 97.5%；且全年指引隐含下半年单季约 395–470 亿美元，意味着 Q2 的近零自由现金流不是季节性低点，而是新常态的起点。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-slides"
+        ],
+        "counterevidence": "经营现金流同比仍增长 24.7%，净现金仍为正（约 66 亿美元），短期偿付能力不构成问题。",
+        "status": "answered"
+      },
+      {
+        "id": "q4-mechanism",
+        "question": "机制：AI 投入通过什么具体路径进入收入、利润和现金流？",
+        "answer": "成本侧：资本开支→在建工程（803.45 亿美元）→服务器折旧（+48.1%）；第三方云与 AI token 进入营业成本与研发；AI 人才推高股权激励（+58.4%）。收入侧：LLM 排序与 GEM 等模型提升转化（Facebook 转化 +15.7%），体现为单价 +12%。现金侧：资本开支与托管资金先行，收入回报滞后。",
+        "source_ids": [
+          "meta-q2-10q",
+          "meta-q2-call",
+          "meta-q2-release"
+        ],
+        "counterevidence": "公司未披露 AI 驱动收入的独立口径，单价上升也包含宏观改善与汇率因素。",
+        "status": "answered"
+      },
+      {
+        "id": "q5-timing",
+        "question": "时点：为什么变化出现在本季，而不是更早或更晚？",
+        "answer": "三件事同时落地：资本开支按“最大化 2026–2027 年产能”计划环比跳升 57%；5 月裁员产生遣散费；青少年诉讼按 2026 年排期密集开庭，触发法律计提。",
+        "source_ids": [
+          "meta-q2-call",
+          "meta-q2-10q",
+          "meta-q2-release"
+        ],
+        "counterevidence": "Q2 去年同期利润率（43%）本身偏高，存在一定基数效应。",
+        "status": "answered"
+      },
+      {
+        "id": "q6-alternative",
+        "question": "替代解释：季节性、汇率、会计列报或基数效应能否解释同样的观察？",
+        "answer": "汇率贡献约 1.4 个百分点收入增速；Q2'25 FoA 利润率 53% 为高基数；但折旧、股权激励和云成本的增长是持续性项目，且 Q1→Q2 环比剔除一次性项后利润率仍从 40.6% 降至 36.8%，不能被季节性或基数完全解释。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-10q",
+          "meta-q1-release"
+        ],
+        "counterevidence": "Q2 有部分 AI token 与云支出可能属于短期过渡性安排（CFO 称云合同用于更快上线 2026–2027 年产能）。",
+        "status": "answered"
+      },
+      {
+        "id": "q7-counterfactual",
+        "question": "反事实：若没有一次性项目和外购算力，结果会怎样？",
+        "answer": "若剔除法律与遣散费，经营利润 223.55 亿美元、利润率 36.8%。第三方云与 token 成本的金额未单独披露，无法构建完整反事实。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-10q"
+        ],
+        "counterevidence": "缺少外购算力成本的金额，反事实只完成了一半。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q8-second-order",
+        "question": "二阶效应：如果一阶解释成立，哪些不那么明显的后果会出现？",
+        "answer": "①约 100 亿美元计提使“全年经营利润高于 2025 年”的承诺需要 Q4 收入同比增长约 29%–41%；②未成年人使用时长上限会压低部分展示量；③大量租赁与担保将在 2027–2029 年以租赁成本和折旧形式进入利润表；④若下半年自由现金流转负，股权或混合融资的讨论会提前。",
+        "source_ids": [
+          "meta-news-ag",
+          "meta-q2-release",
+          "meta-q2-10q",
+          "meta-q2-slides"
+        ],
+        "counterevidence": "公司可能把计提视为非经常性项目、对承诺作口径解释；未成年人在总展示量中的占比未披露。",
+        "status": "answered"
+      },
+      {
+        "id": "q9-bull-bear",
+        "question": "多空：最强的多头与空头解释分别是什么？",
+        "answer": "多头：广告增速在大型平台中领先，AI 已带来可测的转化提升；商业代理下半年开始收费、API 与 Muse 打开新收入；算力有溢价转售选项，资产有底。空头：利润率与自由现金流同时恶化，法律成本重复出现，2027 年资本开支未知，新收入与投入规模相差一个数量级以上，同业已开始用股权融资。",
+        "source_ids": [
+          "meta-q2-call",
+          "meta-q2-followup",
+          "meta-q2-release",
+          "meta-news-ag",
+          "googl-q2-release"
+        ],
+        "counterevidence": "多头的算力转售与新收入均无金额和时间表；空头的负自由现金流是推断而非已发生事实。",
+        "status": "answered"
+      },
+      {
+        "id": "q10-priced-in",
+        "question": "定价：哪些已经反映在价格或一致预期中？",
+        "answer": "7/30 下跌 7.95%（相对 QQQ 跑输 11.25 个百分点）反映了现金流与指引冲击；和解公告日 +1.07% 反映法律不确定性出清；9 月 +26.7% 反映 Muse 带来的 AI 产品期权。市值/过去四季经营利润由 15.8 倍升至 21.3 倍。",
+        "source_ids": [
+          "price-yahoo-meta",
+          "price-yahoo-meta-sep",
+          "price-yahoo-qqq",
+          "media-163-sep-rally"
+        ],
+        "counterevidence": "未使用持牌一致预期数据，无法确认分析师是否已在模型中计入约 100 亿美元计提与承诺调整。",
+        "status": "answered"
+      },
+      {
+        "id": "q11-falsifier",
+        "question": "证伪：下季度什么可观察结果会推翻本报告观点？",
+        "answer": "Q3（约 10 月下旬公布）若同时出现：收入 ≥630 亿美元、剔除计提的经营利润率 ≥40%、季度自由现金流为正、管理层在含计提口径下重申利润承诺并给出 Q4 收入指引下限不低于约 771.6 亿美元，则“赤字融资期”论点被推翻。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-news-ag"
+        ],
+        "counterevidence": "单季数据可能受资本开支节奏扰动，需要两个季度确认。",
+        "status": "answered"
+      },
+      {
+        "id": "q12-bottleneck",
+        "question": "经营瓶颈：哪项约束管理层最难仅靠加大投入解决？",
+        "answer": "法律与监管对产品形态的约束：未成年人时长上限、欧洲 LPA、WhatsApp API 开放要求，这些不能用资本开支解决；而算力瓶颈（“供给受限”）可以用钱和时间部分缓解。",
+        "source_ids": [
+          "meta-news-ag",
+          "meta-q2-followup",
+          "meta-q2-10q",
+          "meta-q2-call"
+        ],
+        "counterevidence": "管理层称 AI 提升推荐质量可以抵消部分时长约束的影响，但未提供数据。",
+        "status": "answered"
+      },
+      {
+        "id": "q13-strategy",
+        "question": "战略回应：所述战略是对困难的可信回应，还是叙事转移？",
+        "answer": "广告 AI 化是有证据的回应（单价、转化、Advantage+ 运行率）；企业与个人代理目前更接近叙事——商业代理刚开始收费、API 与算力出售无时间表、Muse 以免费为主。Q2 新增的“企业机会”叙事，与利润率下降和 ROIC 问询同时出现。",
+        "source_ids": [
+          "meta-q2-call",
+          "meta-q2-followup",
+          "meta-news-muse"
+        ],
+        "counterevidence": "Muse 上线后迅速进入应用榜前列（媒体口径），显示消费端需求存在。",
+        "status": "answered"
+      },
+      {
+        "id": "q14-resource",
+        "question": "资源真相：支出、人员、资本配置是否确认了所述方向？",
+        "answer": "确认“算力优先”：资本开支 +57% 环比、研发 +67%、AI 人才招聘、约 8,000 人裁员、暂停回购、发债 250 亿美元、El Paso 合资。资源并没有向 Reality Labs 倾斜（RL 亏损大致持平）。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-10q",
+          "meta-q2-call",
+          "meta-news-elpaso"
+        ],
+        "counterevidence": "裁员人员的业务分布未披露，无法确认是否主要来自非 AI 部门。",
+        "status": "answered"
+      },
+      {
+        "id": "q15-sequence",
+        "question": "先后：哪一步必须先成功，失败后什么将不可能？",
+        "answer": "广告 AI 的回报必须先守住——它为全部投入提供现金。若广告增速跌破成本增速而新收入未成规模，企业/个人代理与 2027–2028 年产能都只能依赖外部资本，资产负债表弹性将成为约束。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-followup",
+          "meta-q2-call"
+        ],
+        "counterevidence": "Meta 仍有约 902.6 亿美元现金及有价证券和投资级融资渠道，短期不构成约束。",
+        "status": "answered"
+      },
+      {
+        "id": "q16-legal-composition",
+        "question": "Q2 的 24 亿美元法律费用对应哪些案件，是否意味着更多计提？",
+        "answer": "10-Q 与新闻稿均未拆分该费用；无法判断其与新墨西哥案、学区和解或欧洲事项的对应关系。",
+        "source_ids": [
+          "meta-q2-10q",
+          "meta-q2-release",
+          "media-variety"
+        ],
+        "counterevidence": "公司称部分案件“基于未经检验的法律理论”，将积极抗辩。",
+        "status": "unresolved"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-oi-commitment-test",
+        "title": "“经营利润高于 2025 年”已变成一道 Q4 收入硬题",
+        "consensus_view": "和解消除了最大法律悬念，约 100 亿美元是一次性费用，不改变全年经营节奏。",
+        "new_view": "在费用指引不变而计提另加的情况下，兑现 7 月承诺需要 Q4 收入同比 +28.8% 至 +40.5%，远高于 Q3 指引隐含的 +19.0% 至 +24.9%；承诺大概率需要口径解释或下调，这是检验管理层财务纪律的关键事件。",
+        "mechanism": "全年费用区间（1,650–1,690 亿美元）+ 区间外计提（约 100 亿美元）→ 全年费用 1,750–1,790 亿美元；2025 年经营利润 832.76 亿美元为固定门槛；上半年收入与 Q3 指引已知 → 倒推所需 Q4 收入。",
+        "implication": "下调全年 GAAP 经营利润情景；提高 Q3 财报中“承诺表述”这一监测项的优先级；若承诺被取消，市场对管理层费用纪律的信任需重估。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-news-ag",
+          "meta-q2-slides",
+          "meta-q1-release"
+        ],
+        "counterevidence": "公司可能将计提视为非经常性并作口径排除；Q4 为季节性旺季，且 Q2 收入曾接近指引上沿；费用也可能落在区间下沿。",
+        "falsifier": "Q3 财报在含计提口径下重申承诺，且 Q4 收入指引下限不低于约 771.6 亿美元（满足承诺所需的最低 Q4 收入）。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-structural-margin",
+        "title": "利润率下降的主体不是一次性项目，而是 AI 成本结构",
+        "consensus_view": "Q2 利润下滑主要来自法律费用与遣散费，剔除后经营利润仍增长 9%。",
+        "new_view": "一次性项目只解释了成本增量的 23.9%；剔除后成本仍 +42%、利润率 36.8%，同比低 6.2 个百分点、环比低 3.8 个百分点。折旧、云/token 与 AI 人才薪酬构成持续性成本。",
+        "mechanism": "在建工程 803.45 亿美元陆续转固→服务器折旧 +48.1%；外购云与 token 进入营业成本/研发；AI 人才推高股权激励 +58.4%；收入端单价 +12% 不足以覆盖。",
+        "implication": "Q3/Q4 剔除计提的 FoA 利润率情景应低于 Q1 水平（48.1%）；全年经营利润弹性更依赖收入加速而非费用节省。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-10q",
+          "meta-q1-release"
+        ],
+        "counterevidence": "部分外购云属于过渡性安排；裁员节省将在 Q3 后体现；Q2'25 利润率基数偏高。",
+        "falsifier": "Q3 剔除计提后的经营利润率回到 40% 以上，且折旧增速低于收入增速。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-funding-regime",
+        "title": "近零自由现金流是新融资结构的起点，产能承诺正在移出资产负债表",
+        "consensus_view": "Q2 自由现金流骤降是资本开支高峰的阶段性现象，Meta 现金充裕、无需担忧。",
+        "new_view": "全年指引隐含下半年单季资本开支 395–470 亿美元，高于 Q2；同时 Meta 用租赁（未起租约 2,790 亿 + 7 月新增约 680 亿美元）、合资与剩余价值担保（路易斯安那 460 亿敞口、El Paso 约 130 亿担保）锁定产能，现金流出被推迟、成本被平滑到 2027–2029 年。",
+        "mechanism": "资本开支 > 经营现金流 → 发债（250 亿美元）+ 暂停回购 + 合资伙伴出资（贝莱德 80%）+ 托管资金（108 亿美元）→ 报表资本开支低估真实产能承诺 → 起租后租赁成本与折旧进入利润表。",
+        "implication": "下半年自由现金流情景转负；估值应更多参考经营现金流扣除全部产能承诺后的口径；股权或混合融资的概率上升。",
+        "source_ids": [
+          "meta-q2-release",
+          "meta-q2-10q",
+          "meta-news-elpaso",
+          "meta-q2-followup",
+          "meta-q2-slides"
+        ],
+        "counterevidence": "经营现金流同比 +24.7%，净现金仍为正；4 年期租约与可调整的服务器决策提供弹性；CEO 称算力有溢价转售报价。",
+        "falsifier": "Q3+Q4 自由现金流合计为正且资本开支在指引区间内，或下一份 10-Q 显示未起租租赁与担保敞口下降。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 20,
+      "triggers": [
+        "Q3 收入 ≥635 亿美元，展示量增速 ≥14%、单价增速 ≥12%",
+        "剔除计提后的 Q3 费用 ≤420 亿美元（裁员节省兑现）",
+        "和解计提不超过约 100 亿美元且无新增重大法律计提",
+        "FoA 其他收入 ≥11 亿美元，商业代理收费开始贡献"
+      ],
+      "segment_profit_range": [
+        15900,
+        18800
+      ],
+      "group_profit_range": [
+        11500,
+        14000
+      ],
+      "unit": "USD million"
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "Q3 收入 615–640 亿美元，处于指引区间",
+        "剔除计提后的 Q3 费用 420–435 亿美元，与全年指引一致",
+        "计提约 100 亿美元，RL 亏损 46–52 亿美元"
+      ],
+      "segment_profit_range": [
+        12600,
+        17200
+      ],
+      "group_profit_range": [
+        8000,
+        12000
+      ],
+      "unit": "USD million"
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "Q3 收入 ≤620 亿美元（欧洲 LPA、诚信治理、未成年人限制拖累展示量）",
+        "新增法律计提 ≥10 亿美元（如新墨西哥州另案或其他青少年案件）",
+        "折旧、云与 token 成本推高剔除计提后的费用至 ≥435 亿美元",
+        "RL 亏损 >52 亿美元"
+      ],
+      "segment_profit_range": [
+        8700,
+        13100
+      ],
+      "group_profit_range": [
+        3500,
+        7500
+      ],
+      "unit": "USD million"
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "报告状态为 draft / REVIEW_REQUIRED：冲突来源取舍、管理层语言解读、因果归因、情景概率与利润区间、评级结论及 Kearney 风格措辞均需人工审核后方可发布。",
+      "一致预期仅来自媒体转述（FactSet 经 AP、财联社、Zacks/Motley Fool 摘要），未使用持牌数据库；Nasdaq 文章页面返回 HTTP 403，相关摘录以检索 API 快照存档。",
+      "约 100 亿美元 Q3 计提来自公司新闻稿，尚未见于 SEC 文件；和解金额存在 166.8 亿 / 171 亿 / 约 180 亿美元多种口径。",
+      "Q2 的 24.0 亿美元法律费用未披露对应案件；第三方云与 AI token 成本金额未单独披露。",
+      "路易斯安那合资项目成本：10-Q 为约 270 亿美元，Dow Jones 报道已扩至超过 500 亿美元，尚未见于 SEC 文件。",
+      "9 月股价涨幅归因（Muse 下载量、券商上调目标价）来自媒体报道；9 月涨幅口径：月末收盘 +26.7%，媒体所称 +36% 截至 9/24。",
+      "未独立采集政府宏观消费数据和元器件价格序列；宏观与上游影响以公司表述为准。",
+      "股权激励：现金流量表 7,658 百万美元与 Note 10 RSU 费用表 7,601 百万美元相差 57 百万美元，文件未解释。"
+    ]
+  }
+}

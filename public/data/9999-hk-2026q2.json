@@ -1,0 +1,2260 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "9999-hk-2026q2",
+  "generated_at": "2026-10-03T16:24:03.499995+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "网易",
+    "ticker": "9999.HK",
+    "secondary_ticker": "NTES",
+    "period": "2026Q2",
+    "period_definition": "三个月截至 2026-06-30（与公司财年季度一致）；业绩发布 2026-08-20",
+    "status": "published",
+    "review_state": "APPROVED",
+    "title": "网易 2026Q2：利润率见顶之后，增长要重新回到收入",
+    "thesis": "关键不在于网易 Q2 归母净利同比 -18.8%（主要来自拼多多、阿里持仓按市价计值与减值的约 29.5 亿元投资损失），也不在于营业利润 +33.4%，而在于两条慢变量：H1 确认收入 +7.0%，“收入+合同负债变动”口径仅 +1.8%，Q2 合同负债环比 -11.5%——收入跑在账单前面；同时《遗忘之海》首发变现低于预期、《无限大》定档 2027-01-15，下半年新品断档。游戏毛利率 76.1% 已接近高位，下一阶段利润增长必须重新由收入驱动。",
+    "conclusion_summary": {
+      "rating": "中性（由上季“中性偏谨慎”上调一档）",
+      "confidence": "medium",
+      "primary_difficulty": "2026 下半年新品接力断档：游戏收入基数已抬高、合同负债环比回落 11.5%，而《遗忘之海》首发变现低于预期、《无限大》要到 2027-01-15 才上线，下半年增长只能依赖长青游戏运营和递延余额释放。",
+      "current_difficulties": [
+        {
+          "title": "新品断档，前瞻收入垫层变薄",
+          "evidence": "合同负债 192.97 亿元（环比 -11.5%），Q2 合同负债变动 -25.11 亿元（去年同期 -7.19 亿元）；H1 账单口径 +1.8% vs 确认收入 +7.0%；游戏收入环比 -2.7%；《遗忘之海》首日 iOS 畅销总榜第 100 位。",
+          "implication": "Q3–Q4 收入增速可能向低个位数收敛，增长对存量长青游戏的依赖度进一步上升。"
+        },
+        {
+          "title": "利润传导被投资组合、汇率与税率扭曲，并传导至股息",
+          "evidence": "投资净损失 29.54 亿元、汇兑损失 4.36 亿元、有效税率 25.5%；剔除投资损益的测算税率 19.5%（去年同期 15.1%）；股息约为 GAAP 归母净利的 30%，Q2 每 ADS 0.48 美元（同比 -15.8%）。",
+          "implication": "GAAP EPS 与股息的波动率高于经营利润，估值锚需要区分经营利润与账面利润。"
+        },
+        {
+          "title": "毛利率红利边际递减",
+          "evidence": "营业成本同比 -9.7%，游戏毛利率 76.1%（+5.9pp）；营业利润率 40.2%，环比 -1.2pp；销售费用环比 +6.9%。",
+          "implication": "后续利润增长必须由收入增量驱动，新品推广期营销费用会反向压低利润率。"
+        }
+      ],
+      "strategic_judgment": "管理层的应对是“守长青、押精品、走全球”：用内容更新、跨端与怀旧服守住长青游戏，把资源集中到少数高投入新品（《无限大》全平台、无角色抽卡），并把 AI 作为研发“放大器”。这是对新品断档的推迟式解决而非即时解决——代价是 2026 下半年缺少增量，并把 2027 年的收入弹性押注在单一产品与一种未经验证的外观付费模式上。",
+      "strategic_directions": [
+        {
+          "direction": "长青游戏长线运营与跨端/怀旧服",
+          "rationale": "Q2 同比增长主要来自《梦幻西游》系列与《燕云十六声》等存量自研游戏，是当前唯一确定的收入来源。",
+          "management_signal": "公告称“strengthen both our live game operations”；《梦幻西游：再续前缘》2026-07-22 获版号；电话会称《逆水寒》手游“新世界”版本首日活跃玩家超 1,000 万。",
+          "validation": "2026Q3 游戏收入同比 ≥ +3%（基数 233.28 亿元），且合同负债环比回升。"
+        },
+        {
+          "direction": "全球化与 PC/主机平台",
+          "rationale": "海外与 PC/主机渠道分成低，既带来增量也支撑毛利率；《燕云十六声》《漫威争锋》已验证全球发行能力。",
+          "management_signal": "CEO 表述“deeper global reach”；《燕云十六声》6 月登陆 Xbox；《无限大》定档 2027-01-15 全球上线（PC/PS5/移动端）。",
+          "validation": "游戏毛利率维持 ≥ 75%；《无限大》上线首月进入中国 iOS 畅销榜前 10，或公司披露海外收入占比。"
+        },
+        {
+          "direction": "精品研发与 AI 放大器",
+          "rationale": "新品命中率是最难靠预算解决的约束，管理层选择少而精并用 AI 提效。",
+          "management_signal": "研发费用 46.44 亿元（同比 +6.6%，费用率 15.4%）；丁磊称“不会犹豫继续投入高品质产品”，AI 是“amplifier”；在测新品不给档期。",
+          "validation": "未来两个季度研发费用率维持约 15% 的同时，至少公布一款在测新品（如《Beneath the Mist》《Tamas》）的明确上线档期。"
+        }
+      ],
+      "core_conflict": "利润率已在高位（游戏毛利率 76.1%、营业利润率 40.2%），而前瞻收入指标在走弱（合同负债环比 -11.5%、H1 账单口径 +1.8%）；下一阶段利润增长必须从“成本驱动”切回“收入驱动”，但能带来收入增量的大新品要到 2027 年 1 月。",
+      "falsifier": "若 2026Q3 合同负债环比回升、“收入+合同负债变动”口径同比增速不低于确认收入增速，且游戏收入同比 ≥ +5%，则“收入跑在账单前面”的判断被证伪，评级可上调；若 Q3 游戏收入同比转负或合同负债继续下降，则回调至中性偏谨慎。",
+      "valuation_context": "截至 2026-09-30，9999.HK 收 192.6 港元，与业绩前基本持平；dataPro 口径 PE(TTM) 约 16.1 倍、股息率(TTM) 约 2.5%（TTM 利润含投资损失）；美银称 2026/2027 年预测市盈率 13/12 倍。市场已把投资损失视为非经营噪音，尚未定价的是合同负债回落与下半年新品空窗。",
+      "catalyst": "2027-01-15《无限大》全球上线（PC/PS5/移动端，无角色抽卡）；港股双重主要上市（2026-06-30 生效）后的南向配置（美银称南向持股不足 2%）；拼多多/阿里股价回升带来投资收益回拨。",
+      "risk": "《遗忘之海》长尾流水不及预期且下半年无新品补位；《无限大》外观付费模式变现低于抽卡模式；投资组合继续按市价计值亏损或减值；有效税率中枢上移；人民币升值带来汇兑损失。"
+    },
+    "as_of": "2026-10-03",
+    "disclaimer": "仅供研究学习，不构成投资建议。",
+    "approved_at": "2026-10-03T16:24:03.417833+00:00",
+    "approved_by": "user (2026-10-04 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于网易 Q2 归母净利同比 -18.8%（主要来自拼多多、阿里持仓按市价计值与减值的约 29.5 亿元投资损失），也不在于营业利润 +33.4%，而在于两条慢变量：H1 确认收入 +7.0%，“收入+合同负债变动”口径仅 +1.8%，Q2 合同负债环比 -11.5%——收入跑在账单前面；同时《遗忘之海》首发变现低于预期、《无限大》定档 2027-01-15，下半年新品断档。游戏毛利率 76.1% 已接近高位，下一阶段利润增长必须重新由收入驱动。",
+    "rating": "中性（由上季“中性偏谨慎”上调一档）",
+    "confidence": "medium",
+    "primary_difficulty": "2026 下半年新品接力断档：游戏收入基数已抬高、合同负债环比回落 11.5%，而《遗忘之海》首发变现低于预期、《无限大》要到 2027-01-15 才上线，下半年增长只能依赖长青游戏运营和递延余额释放。",
+    "current_difficulties": [
+      {
+        "title": "新品断档，前瞻收入垫层变薄",
+        "evidence": "合同负债 192.97 亿元（环比 -11.5%），Q2 合同负债变动 -25.11 亿元（去年同期 -7.19 亿元）；H1 账单口径 +1.8% vs 确认收入 +7.0%；游戏收入环比 -2.7%；《遗忘之海》首日 iOS 畅销总榜第 100 位。",
+        "implication": "Q3–Q4 收入增速可能向低个位数收敛，增长对存量长青游戏的依赖度进一步上升。"
+      },
+      {
+        "title": "利润传导被投资组合、汇率与税率扭曲，并传导至股息",
+        "evidence": "投资净损失 29.54 亿元、汇兑损失 4.36 亿元、有效税率 25.5%；剔除投资损益的测算税率 19.5%（去年同期 15.1%）；股息约为 GAAP 归母净利的 30%，Q2 每 ADS 0.48 美元（同比 -15.8%）。",
+        "implication": "GAAP EPS 与股息的波动率高于经营利润，估值锚需要区分经营利润与账面利润。"
+      },
+      {
+        "title": "毛利率红利边际递减",
+        "evidence": "营业成本同比 -9.7%，游戏毛利率 76.1%（+5.9pp）；营业利润率 40.2%，环比 -1.2pp；销售费用环比 +6.9%。",
+        "implication": "后续利润增长必须由收入增量驱动，新品推广期营销费用会反向压低利润率。"
+      }
+    ],
+    "strategic_judgment": "管理层的应对是“守长青、押精品、走全球”：用内容更新、跨端与怀旧服守住长青游戏，把资源集中到少数高投入新品（《无限大》全平台、无角色抽卡），并把 AI 作为研发“放大器”。这是对新品断档的推迟式解决而非即时解决——代价是 2026 下半年缺少增量，并把 2027 年的收入弹性押注在单一产品与一种未经验证的外观付费模式上。",
+    "strategic_directions": [
+      {
+        "direction": "长青游戏长线运营与跨端/怀旧服",
+        "rationale": "Q2 同比增长主要来自《梦幻西游》系列与《燕云十六声》等存量自研游戏，是当前唯一确定的收入来源。",
+        "management_signal": "公告称“strengthen both our live game operations”；《梦幻西游：再续前缘》2026-07-22 获版号；电话会称《逆水寒》手游“新世界”版本首日活跃玩家超 1,000 万。",
+        "validation": "2026Q3 游戏收入同比 ≥ +3%（基数 233.28 亿元），且合同负债环比回升。"
+      },
+      {
+        "direction": "全球化与 PC/主机平台",
+        "rationale": "海外与 PC/主机渠道分成低，既带来增量也支撑毛利率；《燕云十六声》《漫威争锋》已验证全球发行能力。",
+        "management_signal": "CEO 表述“deeper global reach”；《燕云十六声》6 月登陆 Xbox；《无限大》定档 2027-01-15 全球上线（PC/PS5/移动端）。",
+        "validation": "游戏毛利率维持 ≥ 75%；《无限大》上线首月进入中国 iOS 畅销榜前 10，或公司披露海外收入占比。"
+      },
+      {
+        "direction": "精品研发与 AI 放大器",
+        "rationale": "新品命中率是最难靠预算解决的约束，管理层选择少而精并用 AI 提效。",
+        "management_signal": "研发费用 46.44 亿元（同比 +6.6%，费用率 15.4%）；丁磊称“不会犹豫继续投入高品质产品”，AI 是“amplifier”；在测新品不给档期。",
+        "validation": "未来两个季度研发费用率维持约 15% 的同时，至少公布一款在测新品（如《Beneath the Mist》《Tamas》）的明确上线档期。"
+      }
+    ],
+    "core_conflict": "利润率已在高位（游戏毛利率 76.1%、营业利润率 40.2%），而前瞻收入指标在走弱（合同负债环比 -11.5%、H1 账单口径 +1.8%）；下一阶段利润增长必须从“成本驱动”切回“收入驱动”，但能带来收入增量的大新品要到 2027 年 1 月。",
+    "falsifier": "若 2026Q3 合同负债环比回升、“收入+合同负债变动”口径同比增速不低于确认收入增速，且游戏收入同比 ≥ +5%，则“收入跑在账单前面”的判断被证伪，评级可上调；若 Q3 游戏收入同比转负或合同负债继续下降，则回调至中性偏谨慎。",
+    "valuation_context": "截至 2026-09-30，9999.HK 收 192.6 港元，与业绩前基本持平；dataPro 口径 PE(TTM) 约 16.1 倍、股息率(TTM) 约 2.5%（TTM 利润含投资损失）；美银称 2026/2027 年预测市盈率 13/12 倍。市场已把投资损失视为非经营噪音，尚未定价的是合同负债回落与下半年新品空窗。",
+    "catalyst": "2027-01-15《无限大》全球上线（PC/PS5/移动端，无角色抽卡）；港股双重主要上市（2026-06-30 生效）后的南向配置（美银称南向持股不足 2%）；拼多多/阿里股价回升带来投资收益回拨。",
+    "risk": "《遗忘之海》长尾流水不及预期且下半年无新品补位；《无限大》外观付费模式变现低于抽卡模式；投资组合继续按市价计值亏损或减值；有效税率中枢上移；人民币升值带来汇兑损失。"
+  },
+  "sources": [
+    {
+      "id": "hkex-results-en",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000465.pdf",
+      "title": "NetEase: Announcement of the Second Quarter 2026 Results and Interim Results for the Six Months Ended June 30, 2026 (HKEXnews, English)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:00+08:00"
+    },
+    {
+      "id": "hkex-results-zh",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000466_c.pdf",
+      "title": "網易：2026年第二季度業績及截至2026年6月30日止六個月中期業績公告（港交所披露易，中文）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:00+08:00"
+    },
+    {
+      "id": "sec-6k-q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926098940/tm2623482d1_ex99-1.htm",
+      "title": "NetEase Form 6-K filed 2026-08-20, Exhibit 99.1 (same Q2 2026 results announcement, SEC EDGAR)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:00+08:00"
+    },
+    {
+      "id": "hkex-dividend",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000505.pdf",
+      "title": "NetEase: Dividend Announcement for the Second Quarter Ended 30 June 2026 (HKEXnews)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:00+08:00"
+    },
+    {
+      "id": "hkex-interim-report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401601.pdf",
+      "title": "NetEase 2026 Interim Report (HKEXnews, English)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:00+08:00"
+    },
+    {
+      "id": "hkex-interim-report-zh",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092401602_c.pdf",
+      "title": "網易 2026 中期報告（港交所披露易，中文）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:00+08:00"
+    },
+    {
+      "id": "sec-6k-q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926064764/tm2615053d1_ex99-1.htm",
+      "title": "NetEase Form 6-K filed 2026-05-21, Exhibit 99.1 (Q1 2026 results; used for Q1-end balances)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:22:00+08:00"
+    },
+    {
+      "id": "sec-6k-q3-2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465925114338/tm2531333d1_ex99-1.htm",
+      "title": "NetEase Announces Third Quarter 2025 Unaudited Financial Results (Form 6-K, 2025-11-20; scenario base)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:23:00+08:00"
+    },
+    {
+      "id": "sec-13f-q1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926060548/infotable.xml",
+      "title": "NetEase Form 13F-HR information table for quarter ended 2026-03-31 (filed 2026-05-14)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:19:00+08:00"
+    },
+    {
+      "id": "sec-13f-q2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926095270/infotable.xml",
+      "title": "NetEase Form 13F-HR information table for quarter ended 2026-06-30 (filed 2026-08-13)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:19:00+08:00"
+    },
+    {
+      "id": "hkex-migration",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062600033.pdf",
+      "title": "NetEase: Announcement pursuant to Rule 19C.13 in relation to Migration Exchange Notice (dual-primary listing effective 2026-06-30)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:00+08:00"
+    },
+    {
+      "id": "call-transcript",
+      "url": "https://www.tradingkey.com/news/transcripts/262122141-tradingkey",
+      "title": "NetEase (NTES) Q2 2026 Earnings Call transcript (TradingKey; AI-assisted transcription, contains ASR errors)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:20:00+08:00"
+    },
+    {
+      "id": "call-highlights-gurufocus",
+      "url": "https://www.gurufocus.com/news/9046091/netease-inc-ntes-q2-2026-earnings-call-highlights-strong-game-revenue-growth-and-margin-expansion-amid-investment-losses",
+      "title": "NetEase Inc (NTES) Q2 2026 Earnings Call Highlights (GuruFocus)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "yicai-q2",
+      "url": "https://finance.sina.com.cn/wm/2026-08-21/doc-ininywti8568684.shtml",
+      "title": "网易Q2投资亏损近30亿（第一财经，经新浪财经转载；含市场预估与海豚投研观点）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "21jingji-q2",
+      "url": "https://m.21jingji.com/article/20260824/herald/250290b4db3dde41a61a6997156f596e.html",
+      "title": "日赚近1亿的网易，这个季度栽在了拼多多身上（21财经/商业数据派）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "caiwen-citi-bofa",
+      "url": "https://stock.10jqka.com.cn/hks/20260821/c679175032.shtml",
+      "title": "次季游戏收入表现强劲 绩后获花旗、美银上调目标价（财闻/同花顺；含经调整每股收益市场预期）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "caiwen-daiwa",
+      "url": "https://stock.10jqka.com.cn/hks/20260821/c679166676.shtml",
+      "title": "大和：上调网易目标价至260港元，维持买入（财闻/同花顺）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "zhitong-goldman",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-08-21/doc-inipaenv1651859.shtml",
+      "title": "港股异动：网易-S尾盘涨近4%，游戏毛利率创新高（智通财经；含中金、高盛观点）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "cls-hk-close",
+      "url": "https://www.cls.cn/detail/2460716",
+      "title": "港股收盘：网易涨4.45%（财联社 2026-08-21）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "market-data",
+      "url": "dataPro_search://stock_finance (NTES.O, 9999.HK, PDD.O, 9988.HK)",
+      "title": "市场行情与估值快照（dataPro 股票金融库，2026-10-03 检索）",
+      "authority_level": "tier2",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "sor-ranking-gjjrb",
+      "url": "http://m.toutiao.com/group/7677433000715371035/",
+      "title": "网易二季度营收超预期的B面：新游《遗忘之海》开局不利（国际金融报；引用点点数据；检索快照）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "sor-gamelook",
+      "url": "http://www.gamelook.com.cn/2026/07/598157/",
+      "title": "《遗忘之海》手游免费榜夺冠、伯恩斯坦研报引发游戏股下跌（GameLook）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "sor-17173",
+      "url": "http://news.17173.com/content/08282026/070048839.shtml",
+      "title": "《遗忘之海》上线一个多月现状（17173；含未具名的流水预期传闻）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "sdic-intl-note",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202609111829281291_1.pdf",
+      "title": "国投证券国际：网易——长青游戏+新品+出海（2026-09-11，经东方财富研报中心）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:26:00+08:00"
+    },
+    {
+      "id": "ananta-launch",
+      "url": "https://news.18183.com/yxxw/202609/9033384.html",
+      "title": "网易《无限大》不设角色卡池：纯外观付费，2027年1月15日免费登陆PC、PS5和移动端（18183）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "tencent-q2",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/%E8%85%BE%E8%AE%AF%E5%85%AC%E5%B8%83%E4%BA%8C%E9%9B%B6%E4%BA%8C%E5%85%AD%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E4%B8%9A%E7%BB%A9.pdf",
+      "title": "腾讯公布二零二六年第二季业绩（腾讯官方新闻稿）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "nte-3dm",
+      "url": "https://m.3dmgame.com/news/202607/3948611.html",
+      "title": "《异环》两个月流水破14亿元（3DM，转述完美世界2026年半年度业绩预告）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "nte-bjd",
+      "url": "https://www.bjd.com.cn/bjrb/mobile/2026/20260911/20260911_007/content_20260911_007_1.htm",
+      "title": "《异环》出海：一款中国游戏的全球答卷（北京日报）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:26:00+08:00"
+    },
+    {
+      "id": "gama-h1-xinhua",
+      "url": "http://www.xinhuanet.com/tech/20260731/c5593cc57b18411ab328cd3ed98b554c/c.html",
+      "title": "《2026年1—6月中国游戏产业报告》发布（新华网）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "gama-h1-chinanews",
+      "url": "http://www.chinanews.com.cn/cj/2026/07-30/10669158.shtml",
+      "title": "音数协：上半年游戏产业规模增幅明显（中国新闻网）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:26:00+08:00"
+    },
+    {
+      "id": "nppa-202607",
+      "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202607/t20260723_1000636.html",
+      "title": "2026年7月份国产网络游戏审批信息（国家新闻出版署）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "prior-q1-report",
+      "url": "https://www.shresearch.cn/data/9999-hk-2026q1.json",
+      "title": "本站既有报告：网易 2026Q1 财报深度分析（approved，只读参考，用于环比对照）",
+      "authority_level": "internal",
+      "retrieved_at": "2026-10-03T21:27:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "rev",
+      "metric": "total_revenue",
+      "value": 30106.55,
+      "display_value": "301.07 亿元（同比 +7.9%，环比 -1.6%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Net revenues RMB30,106,546 thousand (Q2 2025: 27,891,664; Q1 2026: 30,591,281)",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 27891.66,
+      "qoq_base_value": 30591.28,
+      "original_display": "RMB30,106,546 (in thousands)"
+    },
+    {
+      "id": "games-rev",
+      "metric": "segment_revenue",
+      "value": 25022.79,
+      "display_value": "250.23 亿元（同比 +9.7%，环比 -2.7%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": "游戏及相关增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Games and related value-added services net revenues RMB25,022,788 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计分部信息（印刷页 p.14）",
+      "previous_value": 22806.46,
+      "qoq_base_value": 25712.97
+    },
+    {
+      "id": "online-share",
+      "metric": "online_games_share_of_segment",
+      "value": 97.7,
+      "display_value": "在线游戏约占游戏分部净收入 97.7%（上季 97.5%，去年同期 97.1%）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "游戏及相关增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Net revenues from the operation of online games accounted for approximately 97.7% of the segment's net revenues",
+      "location": "Q2 2026 业绩公告 · 财务回顾·净收入（印刷页 p.4）",
+      "previous_value": 97.1,
+      "qoq_base_value": 97.5
+    },
+    {
+      "id": "online-rev",
+      "metric": "online_games_revenue_derived",
+      "value": 24447.26,
+      "display_value": "约 244.5 亿元（同比约 +10.4%，环比约 -2.5%；电话会口径 RMB24.5bn、环比 -2%、同比 +10%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": "游戏及相关增值服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2",
+        "call-transcript"
+      ],
+      "evidence": "分部收入 × 在线游戏占比（占比为“约”数，结果为近似值）",
+      "location": "测算：p.4 占比 × p.14 分部收入",
+      "previous_value": 22145.07,
+      "qoq_base_value": 25070.15,
+      "formula": "games_segment_revenue × online_share"
+    },
+    {
+      "id": "youdao-rev",
+      "metric": "segment_revenue",
+      "value": 1466.86,
+      "display_value": "14.67 亿元（同比 +3.5%，环比 +8.8%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": "有道",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "有道 net revenues RMB1,466,861 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计分部信息（印刷页 p.14）",
+      "previous_value": 1417.54,
+      "qoq_base_value": 1348.02
+    },
+    {
+      "id": "cloud_music-rev",
+      "metric": "segment_revenue",
+      "value": 1977.47,
+      "display_value": "19.77 亿元（同比 +0.4%，环比 -0.2%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": "网易云音乐",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "网易云音乐 net revenues RMB1,977,472 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计分部信息（印刷页 p.14）",
+      "previous_value": 1968.73,
+      "qoq_base_value": 1981.23
+    },
+    {
+      "id": "innovative-rev",
+      "metric": "segment_revenue",
+      "value": 1639.42,
+      "display_value": "16.39 亿元（同比 -3.5%，环比 +5.8%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": "创新及其他业务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "创新及其他业务 net revenues RMB1,639,425 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计分部信息（印刷页 p.14）",
+      "previous_value": 1698.93,
+      "qoq_base_value": 1549.05
+    },
+    {
+      "id": "cogs",
+      "metric": "cost_of_revenues",
+      "value": 8889.22,
+      "display_value": "88.89 亿元（同比 -9.7%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Cost of revenues RMB(8,889,221) thousand; YoY decrease mainly due to lower revenue-sharing and product costs",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 9839.18,
+      "qoq_base_value": 9374.21
+    },
+    {
+      "id": "gp",
+      "metric": "gross_profit",
+      "value": 21217.33,
+      "display_value": "212.17 亿元（同比 +17.5%，环比持平）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Gross profit RMB21,217,325 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 18052.48,
+      "qoq_base_value": 21217.07
+    },
+    {
+      "id": "gpm",
+      "metric": "gross_margin",
+      "value": 70.47,
+      "display_value": "毛利率 70.5%（同比 +5.8pp，环比 +1.1pp）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "gross_profit / revenue",
+      "location": "测算：p.12",
+      "previous_value": 64.72,
+      "qoq_base_value": 69.36,
+      "formula": "gross_profit / total_revenue"
+    },
+    {
+      "id": "games-gm",
+      "metric": "segment_gross_margin",
+      "value": 76.13,
+      "display_value": "游戏分部毛利率 76.1%（同比 +5.9pp，环比 +1.3pp）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "游戏及相关增值服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "games gross profit 19,048,823 / games revenue 25,022,788",
+      "location": "测算：p.14",
+      "previous_value": 70.22,
+      "qoq_base_value": 74.79,
+      "formula": "segment_gross_profit / segment_revenue"
+    },
+    {
+      "id": "games-gp",
+      "metric": "segment_gross_profit",
+      "value": 19048.82,
+      "display_value": "190.49 亿元（同比 +18.9%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": "游戏及相关增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Gross profit: Games and related value-added services RMB19,048,823 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计分部信息（印刷页 p.14）",
+      "previous_value": 16014.22,
+      "qoq_base_value": 19230.54
+    },
+    {
+      "id": "seg-gm-other",
+      "metric": "segment_gross_margin_other",
+      "value": 48.87,
+      "display_value": "有道毛利率 48.9%（去年同期 43.0%）；云音乐 37.4%（36.1%）；创新及其他 43.4%（42.3%）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "有道/云音乐/创新",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "segment gross profit / segment revenue",
+      "location": "测算：p.14",
+      "previous_value": 42.99,
+      "formula": "segment_gross_profit / segment_revenue"
+    },
+    {
+      "id": "sm",
+      "metric": "selling_and_marketing_expenses",
+      "value": 3678.81,
+      "display_value": "36.79 亿元（同比 +2.8%，环比 +6.9%；费用率 12.2% vs 12.8%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Selling and marketing expenses RMB(3,678,809) thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 3578.17,
+      "qoq_base_value": 3441.49
+    },
+    {
+      "id": "rd",
+      "metric": "research_and_development_expenses",
+      "value": 4643.91,
+      "display_value": "46.44 亿元（同比 +6.6%；费用率 15.4% vs 15.6%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Research and development expenses RMB(4,643,910) thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 4356.65,
+      "qoq_base_value": 4482.16
+    },
+    {
+      "id": "ga",
+      "metric": "general_and_administrative_expenses",
+      "value": 805.27,
+      "display_value": "8.05 亿元（同比 -23.8%；费用率 2.7% vs 3.8%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "General and administrative expenses RMB(805,268) thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 1056.58,
+      "qoq_base_value": 636.6
+    },
+    {
+      "id": "opinc",
+      "metric": "operating_income",
+      "value": 12089.34,
+      "display_value": "120.89 亿元（同比 +33.4%，环比 -4.5%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Operating profit RMB12,089,338 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 9061.08,
+      "qoq_base_value": 12656.83
+    },
+    {
+      "id": "opm",
+      "metric": "operating_margin",
+      "value": 40.16,
+      "display_value": "营业利润率 40.2%（同比 +7.7pp，环比 -1.2pp）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "operating_profit / revenue",
+      "location": "测算：p.12",
+      "previous_value": 32.49,
+      "qoq_base_value": 41.37,
+      "formula": "operating_profit / total_revenue"
+    },
+    {
+      "id": "inv-loss",
+      "metric": "investment_income_loss",
+      "value": -2953.67,
+      "display_value": "投资净损失 29.54 亿元（去年同期收益 3.28 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Investment income/(loss), net RMB(2,953,671) thousand; fluctuation mainly due to a decline in the fair value of equity security investments and impairment provisions",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）；财务回顾·其他收入（p.5）",
+      "previous_value": 328.44,
+      "qoq_base_value": 5.47
+    },
+    {
+      "id": "fx-loss",
+      "metric": "exchange_gain_loss",
+      "value": -436.49,
+      "display_value": "净汇兑损失 4.36 亿元（去年同期收益 1.14 亿元；上季损失 6.22 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Exchange gains/(losses), net RMB(436,492) thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 114.04,
+      "qoq_base_value": -622.11
+    },
+    {
+      "id": "interest",
+      "metric": "interest_income",
+      "value": 863.2,
+      "display_value": "利息收入净额 8.63 亿元（去年同期 9.53 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Interest income, net RMB863,201 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 953.49,
+      "qoq_base_value": 890.27
+    },
+    {
+      "id": "tax-rate",
+      "metric": "effective_tax_rate",
+      "value": 25.5,
+      "display_value": "有效税率 25.5%（上季 18.9%，去年同期 14.7%）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "The effective tax rate for the second quarter of 2026 was 25.5%, compared with 18.9% and 14.7%",
+      "location": "Q2 2026 业绩公告 · 所得税（p.5）",
+      "previous_value": 14.7,
+      "qoq_base_value": 18.9
+    },
+    {
+      "id": "etr-ex-inv",
+      "metric": "effective_tax_rate_ex_investment_income",
+      "value": 19.55,
+      "display_value": "剔除投资损益后的测算税率约 19.5%（上季 18.9%，去年同期 15.1%）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "income_tax / (income_before_tax - investment_income)；仅为口径测算，假设投资损益不产生税务影响，不代表实际可抵扣性",
+      "location": "测算：p.12",
+      "previous_value": 15.12,
+      "qoq_base_value": 18.89,
+      "formula": "income_tax / (income_before_tax - investment_income)"
+    },
+    {
+      "id": "deferred-tax-h1",
+      "metric": "deferred_tax_expense_h1",
+      "value": 1226.0,
+      "display_value": "上半年递延所得税费用 12.26 亿元（去年同期为抵减 5.28 亿元）；递延所得税负债较年初 +10.90 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report",
+        "hkex-results-en"
+      ],
+      "evidence": "Deferred taxation 1,225,999 (2025H1: (528,378)); Deferred tax liabilities 3,727,316 vs 2,637,258",
+      "location": "2026 中期报告 · 附注4 所得税（印刷页 p.36）；资产负债表",
+      "previous_value": -528.38
+    },
+    {
+      "id": "ni-attrib",
+      "metric": "netease_net_income_attributable",
+      "value": 6980.66,
+      "display_value": "69.81 亿元（同比 -18.8%，环比 -34.6%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Net income attributable to the Company's shareholders RMB6,980,656 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并经营及综合收益表（印刷页 p.12）",
+      "previous_value": 8601.01,
+      "qoq_base_value": 10674.11
+    },
+    {
+      "id": "ni-nongaap",
+      "metric": "netease_non_gaap_net_income",
+      "value": 7746.71,
+      "display_value": "77.47 亿元（同比 -18.7%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Non-GAAP net income attributable to the Company's shareholders RMB7,746,714 thousand (excludes share-based compensation only)",
+      "location": "Q2 2026 业绩公告 · GAAP 与 Non-GAAP 调节表（p.10）",
+      "previous_value": 9531.93,
+      "qoq_base_value": 11274.82
+    },
+    {
+      "id": "eps-ads",
+      "metric": "non_gaap_basic_eps_per_ads",
+      "value": 1.78,
+      "display_value": "Non-GAAP 基本每 ADS 收益 1.78 美元（RMB12.09）；GAAP 基本每 ADS 1.61 美元",
+      "currency": "USD",
+      "unit": "USD per ADS",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Non-GAAP basic net income per ADS US$1.78 / RMB12.09",
+      "location": "Q2 2026 业绩公告 · 调节表（p.10）"
+    },
+    {
+      "id": "ni-margin",
+      "metric": "net_income_attributable_margin",
+      "value": 23.19,
+      "display_value": "归母净利率 23.2%（去年同期 30.8%，上季 34.9%）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "ni_attrib / revenue",
+      "location": "测算：p.12",
+      "previous_value": 30.84,
+      "qoq_base_value": 34.89,
+      "formula": "ni_attrib / total_revenue"
+    },
+    {
+      "id": "core-pbt",
+      "metric": "pretax_income_ex_investment_and_fx",
+      "value": 13015.4,
+      "display_value": "剔除投资损益与汇兑后的税前利润约 130.2 亿元（同比 +27.5%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "income_before_tax - investment_income - fx_gain_loss",
+      "location": "测算：p.12",
+      "previous_value": 10206.74,
+      "formula": "income_before_tax - investment_income - exchange_gain_loss"
+    },
+    {
+      "id": "ocf",
+      "metric": "operating_cash_flow",
+      "value": 9972.93,
+      "display_value": "99.73 亿元（去年同期 108.62 亿元，上季 137.33 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Net cash provided by operating activities RMB9,972,929 thousand",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并现金流量表（印刷页 p.13）",
+      "previous_value": 10861.86,
+      "qoq_base_value": 13733.07
+    },
+    {
+      "id": "fcf",
+      "metric": "free_cash_flow_derived",
+      "value": 9892.59,
+      "display_value": "约 98.93 亿元（同比 -4.5%；公司未披露 FCF，本口径为测算）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "OCF 9,972,929 - PP&E 18,785 - intangibles/content 61,554",
+      "location": "测算：p.13",
+      "previous_value": 10358.67,
+      "qoq_base_value": 13130.9,
+      "formula": "ocf - purchase_of_ppe - purchase_of_intangibles_content"
+    },
+    {
+      "id": "capex",
+      "metric": "capital_expenditure",
+      "value": 80.34,
+      "display_value": "资本性支出合计 0.80 亿元（物业设备软件 0.19 亿元 + 无形资产/内容 0.62 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Purchase of property, equipment and software (18,785); Purchase of intangible assets, content and licensed copyrights (61,554)",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并现金流量表（印刷页 p.13）"
+    },
+    {
+      "id": "contract-liab",
+      "metric": "contract_liabilities",
+      "value": 19297.19,
+      "display_value": "合同负债 192.97 亿元（较 3 月末 -11.5%，较年初 -5.9%）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2",
+        "sec-6k-q1"
+      ],
+      "evidence": "Contract liabilities 19,297,191 (Jun-30-2026) vs 21,811,530 (Mar-31-2026) vs 20,514,540 (Dec-31-2025)",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并资产负债表（印刷页 p.11）；Q1 资产负债表",
+      "previous_value": 20514.54,
+      "qoq_base_value": 21811.53
+    },
+    {
+      "id": "dcl",
+      "metric": "change_in_contract_liabilities_cf",
+      "value": -2511.14,
+      "display_value": "现金流量表合同负债变动 -25.11 亿元（去年同期 -7.19 亿元；上季 +13.84 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Changes in operating assets and liabilities: Contract liabilities (2,511,144)",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并现金流量表（印刷页 p.13）",
+      "previous_value": -718.72,
+      "qoq_base_value": 1384.44
+    },
+    {
+      "id": "billings",
+      "metric": "billings_proxy_revenue_plus_delta_contract_liabilities",
+      "value": 27595.4,
+      "display_value": "收入+合同负债变动口径：Q2 276.0 亿元（同比 +1.6%）；H1 同比 +1.8%，同期确认收入 +7.0%",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "revenue + Δcontract liabilities (cash-flow statement line)；合同负债覆盖全集团，含汇率与非游戏业务影响",
+      "location": "测算：p.12、p.13；H1 列",
+      "previous_value": 27172.94,
+      "qoq_base_value": 31975.73,
+      "formula": "total_revenue + change_in_contract_liabilities"
+    },
+    {
+      "id": "cash",
+      "metric": "cash_and_cash_equivalents",
+      "value": 22814.54,
+      "display_value": "现金及现金等价物 228.15 亿元（3 月末 508.15 亿元，资金转入定期存款与短期投资）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Cash and cash equivalents 22,814,542",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并资产负债表（印刷页 p.11）",
+      "previous_value": 47167.9,
+      "qoq_base_value": 50815.21
+    },
+    {
+      "id": "st-inv",
+      "metric": "short_term_investments",
+      "value": 50599.64,
+      "display_value": "短期投资 506.00 亿元；流动定期存款 1,019.79 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Short-term investments 50,599,638; Time deposits (current) 101,978,645",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并资产负债表（印刷页 p.11）"
+    },
+    {
+      "id": "st-loans",
+      "metric": "short_term_loans",
+      "value": 12604.17,
+      "display_value": "短期借款 126.04 亿元（年初 63.84 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "Short-term loans 12,604,170 vs 6,384,417",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并资产负债表（印刷页 p.11）",
+      "previous_value": 6384.42,
+      "qoq_base_value": 10955.46
+    },
+    {
+      "id": "net-cash",
+      "metric": "net_cash",
+      "value": 167500,
+      "display_value": "净现金 1,675 亿元（与 3 月末持平；年初 1,635 亿元）；按资产负债表重算 1,675.0 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "net cash ... totaled RMB167.5 billion (US$24.7 billion), compared with RMB163.5 billion as of December 31, 2025",
+      "location": "Q2 2026 业绩公告 · 其他财务信息（p.7）",
+      "previous_value": 163500
+    },
+    {
+      "id": "lt-inv",
+      "metric": "long_term_investments_breakdown",
+      "value": 21336.34,
+      "display_value": "长期投资 213.36 亿元：权益法 68.50 亿元（年初 45.17 亿元）、上市权益 68.76 亿元（含拼多多约 50 亿元、阿里约 12 亿元）、非上市权益 68.23 亿元（年初 81.13 亿元）",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Investments in equity method investees 6,850,454; Equity investments with readily determinable fair values 6,875,808 (mainly RMB5.0 billion PDD and RMB1.2 billion Alibaba); without readily determinable fair values 6,822,591",
+      "location": "2026 中期报告 · 附注8 长期投资（印刷页 p.38–39）",
+      "previous_value": 18462.88
+    },
+    {
+      "id": "fv-loss-h1",
+      "metric": "listed_equity_fair_value_loss_h1",
+      "value": -2500,
+      "display_value": "上半年上市权益公允价值损失约 25 亿元（去年同期收益 5.17 亿元）；非上市权益减值约 13 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "The Group recorded fair value ... loss of RMB2.5 billion ... impairment provision of ... RMB1.3 billion",
+      "location": "2026 中期报告 · 附注8(b)(c)（印刷页 p.39）",
+      "previous_value": 517.3
+    },
+    {
+      "id": "eq-method-inv",
+      "metric": "investment_in_equity_method_investees_cf",
+      "value": 3040.75,
+      "display_value": "Q2 新增权益法投资现金流出 30.41 亿元（去年同期 1.01 亿元）；中期报告称期内无“重大投资”，标的未披露",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2",
+        "hkex-interim-report"
+      ],
+      "evidence": "Investment in equity method investees (3,040,753); 'We did not make or hold any significant investments during the Reporting Period'",
+      "location": "Q2 2026 业绩公告 · 未经审计简明合并现金流量表（印刷页 p.13）；中期报告 MD&A（p.8）",
+      "previous_value": 100.99
+    },
+    {
+      "id": "pdd-13f",
+      "metric": "pdd_ads_held_13f",
+      "value": 9566480,
+      "display_value": "13F：6 月末持有拼多多 ADS 9,566,480 股、市值 7.30 亿美元（3 月末 8,866,480 股、9.06 亿美元）",
+      "currency": "N/A",
+      "unit": "ADS",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-13f-q1",
+        "sec-13f-q2"
+      ],
+      "evidence": "PDD HOLDINGS INC SPONSORED ADS 9,566,480 sh, value $729,731,094 (Q1: 8,866,480 sh, $905,976,926)",
+      "location": "SEC 13F-HR 信息表（2026Q1、2026Q2）",
+      "previous_value": 8866480
+    },
+    {
+      "id": "pdd-mtm",
+      "metric": "pdd_estimated_q2_mtm_loss",
+      "value": 1558.14,
+      "display_value": "估算：3 月末持仓按 13F 隐含股价 102.18 → 76.28 美元（-25.4%），对应损失约 230 百万美元 ≈ 15.6 亿元，约占 Q2 公允价值变动加回 20.23 亿元的 77%",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-13f-q1",
+        "sec-13f-q2",
+        "sec-6k-q2"
+      ],
+      "evidence": "Q1 shares × (Q1 implied price - Q2 implied price) × 6.7851；忽略季内新增股份成本与汇率折算差异",
+      "location": "测算：13F 信息表 + p.13 现金流量表",
+      "formula": "q1_shares × Δimplied_price × fx_q2"
+    },
+    {
+      "id": "employees",
+      "metric": "employees",
+      "value": 24868,
+      "display_value": "截至 2026-06-30 员工 24,868 人",
+      "currency": "N/A",
+      "unit": "persons",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "As at June 30, 2026, we had 24,868 employees.",
+      "location": "2026 中期报告 · 雇员及薪酬政策（印刷页 p.9）"
+    },
+    {
+      "id": "div",
+      "metric": "quarterly_dividend",
+      "value": 0.48,
+      "display_value": "Q2 股息每 ADS 0.48 美元（每股 0.096 美元；Q1 0.72 美元，去年同期 0.57 美元，同比 -15.8%）",
+      "currency": "USD",
+      "unit": "USD per ADS",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2",
+        "hkex-dividend"
+      ],
+      "evidence": "The Board approved a dividend of US$0.096 per share (US$0.480 per ADS) for the second quarter of 2026",
+      "location": "Q2 2026 业绩公告 · 股息（p.19）；附注6（p.17）",
+      "previous_value": 0.57,
+      "qoq_base_value": 0.72
+    },
+    {
+      "id": "payout",
+      "metric": "dividend_payout_vs_gaap_ni_derived",
+      "value": 29.9,
+      "display_value": "股息总额 / GAAP 归母净利：Q2 约 29.9%，Q1 约 29.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "DPS × 加权平均基本股数 × 期末汇率 / 归母净利（以加权股数近似登记日股数）",
+      "location": "测算：p.12、p.17、p.7 汇率",
+      "formula": "dps_usd × weighted_basic_shares × fx / ni_attrib"
+    },
+    {
+      "id": "buyback",
+      "metric": "share_buyback",
+      "value": 324.1,
+      "display_value": "上半年回购约 2.8M ADS、3.241 亿美元；截至 6 月末累计回购约 24.9M ADS、23 亿美元（50 亿美元计划，延至 2029-01-09）",
+      "currency": "USD",
+      "unit": "USD million",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "approximately 2.8 million ADSs ... total cost of US$324.1 million. As of June 30, 2026, approximately 24.9 million ADSs ... US$2.3 billion",
+      "location": "Q2 2026 业绩公告 · 购买、出售或赎回上市证券（p.18）"
+    },
+    {
+      "id": "sh-return",
+      "metric": "shareholder_cash_return_h1_derived",
+      "value": 11404.79,
+      "display_value": "上半年股息支付+回购现金 114.0 亿元，约为测算 FCF 230.2 亿元的 50%",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2"
+      ],
+      "evidence": "dividends paid 8,295,193 + repurchase 3,109,599（含购买子公司股份）",
+      "location": "测算：p.13 H1 列",
+      "formula": "dividends_paid + repurchase_paid"
+    },
+    {
+      "id": "fx-rate",
+      "metric": "usd_cny_convenience_rate",
+      "value": 6.7851,
+      "display_value": "折算汇率 1 美元 = 6.7851 元（3 月末 6.8980；人民币季度升值约 1.7%）",
+      "currency": "N/A",
+      "unit": "CNY per USD",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2",
+        "sec-6k-q1"
+      ],
+      "evidence": "noon buying rate of US$1.00 = RMB6.7851 ... June 30, 2026",
+      "location": "Q2 2026 业绩公告 · 汇率信息（p.8）",
+      "qoq_base_value": 6.898
+    },
+    {
+      "id": "dual-primary",
+      "metric": "hk_dual_primary_effective",
+      "value": 20260630,
+      "display_value": "港股双重主要上市自 2026-06-30 起生效",
+      "currency": "N/A",
+      "unit": "date",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-results-en",
+        "sec-6k-q2",
+        "hkex-migration"
+      ],
+      "evidence": "HK Primary Effective Date: June 30, 2026",
+      "location": "Q2 2026 业绩公告 · 释义（p.20）；19C.13 公告"
+    },
+    {
+      "id": "q3-2025-base",
+      "metric": "q3_2025_baseline",
+      "value": 16176.38,
+      "display_value": "情景基数：2025Q3 游戏分部毛利 161.76 亿元（游戏收入 233.28 亿元，毛利率 69.3%）；归母净利 86.16 亿元；营业利润 80.13 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-q3-2025"
+      ],
+      "evidence": "Q3 2025 segment gross profit games 16,176,378; NI attributable 8,615,677; operating profit 8,013,466",
+      "location": "2025Q3 业绩公告 · 分部信息与利润表"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "pass": "financial",
+      "claims": [
+        {
+          "text": "【财报事实】2026Q2 净收入 301.07 亿元，同比 +7.9%、环比 -1.6%；游戏及相关增值服务 250.23 亿元（同比 +9.7%、环比 -2.7%），在线游戏约占分部 97.7%。公司解释：同比增长来自《梦幻西游》系列与《燕云十六声》等自研游戏；环比下降因若干自研及代理游戏收入略有下滑。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【测算】在线游戏净收入约 244.5 亿元（同比约 +10.4%、环比约 -2.5%），与电话会口径（RMB24.5bn，同比 +10%、环比 -2%）一致。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "call-transcript"
+          ]
+        },
+        {
+          "text": "【财报事实】有道 14.67 亿元（同比 +3.5%、环比 +8.8%，主要来自学习服务）；网易云音乐 19.77 亿元（同比、环比基本持平）；创新及其他 16.39 亿元（同比 -3.5%，电商收入下降；环比 +5.8%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【测算】分部毛利率：游戏 76.1%（去年同期 70.2%、上季 74.8%）；有道 48.9%（43.0%）；云音乐 37.4%（36.1%）；创新及其他 43.4%（42.3%）。网易不披露分部经营利润，分部利润以毛利列示。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【推断】收入桥：Q2 的同比增量几乎全部来自游戏（游戏 +22.16 亿元，集团 +22.15 亿元），且主要是存量自研游戏的长线运营（梦幻西游系列、燕云十六声、逆水寒手游“新世界”版本），而非新品；7 月上线的《遗忘之海》不在 Q2 收入内。增长引擎仍是“存量长青 + 渠道结构”，量价拆分（DAU、ARPPU）公司未披露。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "call-transcript",
+            "call-highlights-gurufocus"
+          ],
+          "falsifier": "若 2026Q3 游戏收入同比增长主要由《遗忘之海》等新品贡献（公司在 Q3 公告中点名新品为增长主因），则“增长靠存量”的判断失效。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "pass": "financial",
+      "claims": [
+        {
+          "text": "【财报事实】营业成本 88.89 亿元，同比 -9.7%（公司解释：收入分成及产品成本下降）；毛利 212.17 亿元（同比 +17.5%），毛利率 70.5%（同比 +5.8pp）。电话会称游戏毛利率提升主要来自平台相关的收入分成成本下降。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "call-transcript"
+          ]
+        },
+        {
+          "text": "【财报事实/测算】营业费用 91.28 亿元（同比 +1.5%）：销售及市场 36.79 亿元（同比 +2.8%、环比 +6.9%，费用率 12.2% vs 12.8%）；研发 46.44 亿元（同比 +6.6%，费用率 15.4%）；一般及管理 8.05 亿元（同比 -23.8%）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【测算】营业利润 120.89 亿元（同比 +33.4%、环比 -4.5%），营业利润率 40.2%（同比 +7.7pp，环比 -1.2pp）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【测算】利润桥（营业利润以下）：投资净损失 29.54 亿元 + 净汇兑损失 4.36 亿元，合计约 33.9 亿元拖累；有效税率 25.5%（去年同期 14.7%）。剔除投资损益与汇兑后的税前利润约 130.2 亿元，同比 +27.5%；归母净利 69.81 亿元（同比 -18.8%），归母净利率 23.2%（去年同期 30.8%）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【测算】剔除投资损益后的测算税率 Q2 约 19.5%、Q1 约 18.9%，均高于 2025Q2 的 15.1%；上半年递延所得税费用 12.26 亿元（去年同期为抵减 5.28 亿元），递延所得税负债较年初 +10.9 亿元。该口径假设投资损益无税务影响，仅作中枢比较。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "hkex-interim-report"
+          ]
+        },
+        {
+          "text": "【推断】毛利率红利正在接近天花板：营业成本已同比下降近 10%，游戏毛利率 76.1% 为近年高位，而 Q2 营业利润率环比已回落 1.2pp（销售费用环比 +6.9%）。下一阶段利润增长需要收入增量，而新品上市期的营销投入会反向压低利润率。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "caiwen-daiwa",
+            "zhitong-goldman"
+          ],
+          "falsifier": "若 2026Q3–Q4 游戏毛利率继续上行至 77% 以上且营业利润率回到 41% 以上，则“红利见顶”判断不成立（高盛所称结构性扩张成立）。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "pass": "financial",
+      "claims": [
+        {
+          "text": "【财报事实/测算】经营现金流 99.73 亿元（去年同期 108.62 亿元、上季 137.33 亿元）；资本性支出合计 0.80 亿元；测算自由现金流约 98.9 亿元（同比 -4.5%）。经营现金流/净利润 1.39 倍——在投资损失压低净利的季度，现金利润质量仍高。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【财报事实】合同负债 192.97 亿元，较 3 月末 218.12 亿元下降 11.5%、较年初下降 5.9%；现金流量表合同负债变动 -25.11 亿元（去年同期 -7.19 亿元）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "sec-6k-q1"
+          ]
+        },
+        {
+          "text": "【测算】“收入 + 合同负债变动”口径（账单近似）：Q2 约 276.0 亿元，同比 +1.6%；Q1 同比 +2.0%；H1 同比 +1.8%，而同期确认收入 +7.0%。合同负债为集团口径（含云音乐会员、有道等），亦受汇率折算影响。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【财报事实】净现金 1,675 亿元（与 3 月末持平，年初 1,635 亿元；按资产负债表重算一致）。现金及现金等价物从 508.15 亿元降至 228.15 亿元，资金转入定期存款（1,019.79 亿元）与短期投资（506.00 亿元）；短期借款 126.04 亿元（年初 63.84 亿元）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【财报事实/测算】资本配置：Q2 支付股息 31.39 亿元、回购 17.96 亿元；新增权益法投资 30.41 亿元（标的未披露，中期报告称无重大投资）。上半年股息+回购现金 114.0 亿元，约占测算 FCF 的 50%。长期投资 213.36 亿元，其中上市权益 68.76 亿元（拼多多约 50 亿、阿里约 12 亿），上半年上市权益公允价值损失约 25 亿元、非上市权益减值约 13 亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "hkex-interim-report"
+          ]
+        },
+        {
+          "text": "【推断】现金流本身没有恶化，但前瞻垫层在变薄：Q2 经营现金流同比减少 8.9 亿元，主要对应合同负债释放与税费支付，而不是利润下滑；如果下半年缺少新品带来的预收款，确认收入将逐步向账单增速收敛。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ],
+          "falsifier": "若 2026Q3 合同负债环比回升且经营现金流同比增长，则“垫层变薄”判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "pass": "signals",
+      "claims": [
+        {
+          "text": "【财报事实·明确表态】丁磊（CEO，业绩公告）：“As we continue to strengthen both our live game operations and new title pipeline, we are sharpening our focus on original gameplay, cutting-edge technology and deeper global reach.”——战略排序为长线运营与新品储备并重、原创玩法、前沿技术、全球化。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【财报事实·进度】公告：《遗忘之海》2026 年 7 月在中国上线；《无限大》《归唐》研发有序推进。电话会：丁磊承认《遗忘之海》“did not sufficiently lower the learning curve for players in the early stages”，将精简前期内容、持续优化，并表示对长线潜力有信心，但未给任何流水或用户量化数据。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "call-transcript",
+            "call-highlights-gurufocus"
+          ]
+        },
+        {
+          "text": "【电话会·条件表态】对“新品更少、存量基数更高如何增长”的提问，丁磊称会继续投入精品，并把 AI 视为加速开发、改善体验的“amplifier”，相信借助 AI 工具“can build more high-quality products than most of our peers”；对《Beneath the Mist》《Tamas》只说“仍在密集打磨，达到用户满意阶段才会发布”，不给档期。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript",
+            "call-highlights-gurufocus"
+          ]
+        },
+        {
+          "text": "【电话会·财务口径】CFO 莫斌（Aileen Bin Mo）称游戏毛利率 76.1%（去年同期 70.2%）主要由平台相关收入分成成本下降驱动；有效税率按权责发生制列示，各主体适用的税收抵免随时间与政策变化——未给出 25.5% 税率的量化拆解。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript",
+            "call-highlights-gurufocus"
+          ]
+        },
+        {
+          "text": "【推断·措辞变化】与 Q1 相比，管理层叙事从“新品如期 Q3 上线”转为“承认首发体验问题 + 长线运营信心 + AI 放大器”；回避的问题包括：《遗忘之海》量化表现、税率上行的结构性原因、Q2 30.41 亿元权益法投资的投向。这说明管理层在用长线运营叙事推迟新品成败的检验。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript",
+            "call-highlights-gurufocus",
+            "prior-q1-report",
+            "hkex-interim-report"
+          ],
+          "falsifier": "若 Q3 业绩会主动披露《遗忘之海》量化指标或解释税率与权益法投资，则“回避”判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "pass": "external",
+      "claims": [
+        {
+          "text": "【外部事实】腾讯 2Q2026 本土市场游戏收入 473 亿元（+17%），国际市场 186 亿元（-0.8%，固定汇率 +4%）；《洛克王国：世界》为今年中国市场新手游 DAU 与流水第一。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "tencent-q2"
+          ]
+        },
+        {
+          "text": "【外部事实】2026H1 国内游戏市场实际销售收入 1,884.5 亿元（+12.17%），客户端 +27.92%，自研游戏海外收入 123.72 亿美元（+30.22%）。网易同期游戏及相关增值服务收入 +8.3%（净收入口径，不可与流水口径直接比较）。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "gama-h1-xinhua",
+            "gama-h1-chinanews",
+            "hkex-results-en"
+          ]
+        },
+        {
+          "text": "【外部事实】完美世界《异环》（都市开放世界）2026-04 全球公测，媒体转述其截至 6-30 全球累计流水破 14 亿元（单一来源，仅定性使用）；网易同赛道的《无限大》定档 2027-01-15，晚约 9 个月上线，且采用无角色抽卡、外观付费模式。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "nte-3dm",
+            "nte-bjd",
+            "ananta-launch"
+          ]
+        },
+        {
+          "text": "【推断】传导路径：竞品（腾讯射击/新品、异环抢先占位都市开放世界）→ 用户时长与新品获客成本 → 网易新品首发流水与营销费用率 → 游戏分部毛利与营业利润。Q2 网易游戏增速（+9.7%）低于腾讯本土游戏（+17%），显示在新品周期上网易处于相对空窗。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "tencent-q2",
+            "hkex-results-en",
+            "nte-3dm",
+            "ananta-launch"
+          ],
+          "falsifier": "若 2026Q3 网易游戏收入同比增速追平或超过腾讯本土游戏增速，则“相对空窗”判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "pass": "external",
+      "claims": [
+        {
+          "text": "【财报事实·资本市场】13F 显示网易 6 月末持有拼多多 ADS 9,566,480 股、市值 7.30 亿美元（3 月末 8,866,480 股、9.06 亿美元），隐含股价 102.18→76.28 美元（-25.4%），季内仍增持 70 万股。按 3 月末持股估算的市价损失约 2.30 亿美元（≈15.6 亿元），约占 Q2 公允价值变动加回 20.23 亿元的 77%（估算，忽略季内新增成本与汇率差异）。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-13f-q1",
+            "sec-13f-q2",
+            "sec-6k-q2"
+          ]
+        },
+        {
+          "text": "【财报事实·汇率】折算汇率由 3 月末 6.8980 变为 6 月末 6.7851（人民币升值约 1.7%）；Q2 净汇兑损失 4.36 亿元、外币报表折算差额 -7.70 亿元（其他综合收益）。中期报告称多数现金以美元与人民币持有。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "sec-6k-q1",
+            "hkex-interim-report"
+          ]
+        },
+        {
+          "text": "【外部事实·监管】国家新闻出版署 2026-07-22 批准网易《梦幻西游：再续前缘》版号；版号发放维持常态，监管对网易新品排期不构成当前约束。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "nppa-202607"
+          ]
+        },
+        {
+          "text": "【财报事实·上市地位】网易港股双重主要上市自 2026-06-30 生效（提前于 2027-02-27 宽限期届满）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "hkex-migration"
+          ]
+        },
+        {
+          "text": "【推断·冲击矩阵】①投资组合：强度高、Q2 已体现约 29.5 亿元损失，Q3 拼多多股价 +2.2%（09-30）意味着按市价部分可能小幅回拨，但非上市投资减值仍是下行项；②汇率：中等，若人民币继续升值，汇兑损失延续；③税率：中等偏高，中枢较 2025 年上移约 4pp；④监管：低；⑤竞争：中等，集中在 2027 年《无限大》上线窗口。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "market-data",
+            "sec-13f-q2",
+            "hkex-results-en",
+            "nppa-202607",
+            "nte-3dm"
+          ],
+          "falsifier": "若 2026Q3 投资损益、汇兑与税率三项对归母净利的合计拖累低于 5 亿元，则冲击强度被高估。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "pass": "external",
+      "claims": [
+        {
+          "text": "【外部事实】NTES 在 2026-08-20（业绩发布日）收跌 5.85% 至 119.81 美元，次日收涨 6.98% 至 128.17 美元；9999.HK 08-21 收涨 4.45% 至 202 港元，09-30 收 192.6 港元，与业绩前（08-20 收 193.4 港元）基本持平。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "market-data",
+            "cls-hk-close",
+            "yicai-q2"
+          ]
+        },
+        {
+          "text": "【外部事实】媒体口径市场预估：收入 294.5 亿元、毛利 197.5 亿元、游戏收入 242.8 亿元、经调整每 ADS 收益 15.59 元；实际分别为 301.07 亿、212.17 亿、250.23 亿元与 12.09 元（Non-GAAP 基本）。预估来源未具名，超预期/不及预期仅作参考。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "21jingji-q2",
+            "yicai-q2",
+            "caiwen-citi-bofa"
+          ]
+        },
+        {
+          "text": "【外部事实】业绩后花旗（美股目标价 174→178 美元）、美银（港股 268→272 港元）、大和（257→260 港元）上调目标价；美银称 2026/2027 年预测市盈率 13/12 倍、南向持股不足 2%；dataPro 口径 PE(TTM) 约 16.1 倍、股息率(TTM) 约 2.5%。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "caiwen-citi-bofa",
+            "caiwen-daiwa",
+            "market-data"
+          ]
+        },
+        {
+          "text": "【推断】反应归因：首日下跌对应经调整 EPS 大幅低于预估（投资损失 + 税率），次日反弹对应市场把损失识别为非经营噪音、并奖励游戏毛利率与经营利润超预期；30 天后股价回到原位，说明“主业强、账面弱”已被定价，而合同负债回落与 H2 新品空窗尚未成为定价主线。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "market-data",
+            "caiwen-citi-bofa",
+            "zhitong-goldman",
+            "yicai-q2"
+          ],
+          "falsifier": "若 Q3 业绩前后股价对合同负债/新品表现变化无反应，或卖方普遍下调 H2 收入预测而股价不跌，则“尚未定价”判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "pass": "synthesis",
+      "claims": [
+        {
+          "text": "【情景】预测对象为 2026Q3（7–9 月，预计 11 月发布）。三档概率 20/55/25；分部利润口径为游戏分部毛利（2025Q3 为 161.76 亿元，2026Q2 为 190.49 亿元），集团利润口径为 GAAP 归母净利（2025Q3 为 86.16 亿元，2026Q2 为 69.81 亿元）。区间为研究假设，不是盈利预测。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "sec-6k-q3-2025"
+          ],
+          "falsifier": "若 Q3 实际游戏分部毛利落在 168–202 亿元之外或归母净利落在 65–112 亿元之外，说明情景框架遗漏了关键变量，需要重建。"
+        },
+        {
+          "text": "【情景·基准 55%】存量长青游戏维持、游戏收入同比 +3%–8%，游戏分部毛利 180–193 亿元；投资损益接近零（拼多多 Q3 股价 +2.2%）、税率 19%–22%，归母净利 85–100 亿元。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "market-data",
+            "sec-6k-q3-2025"
+          ],
+          "falsifier": "若 Q3 游戏收入同比 < +3% 或 > +8%，基准情景失效。"
+        },
+        {
+          "text": "【情景·复盘上季】上季（Q1 报告）设定的 Q2 集团利润悲观下限为 78 亿元，Q2 实际归母净利 69.81 亿元落在区间之外，原因是情景未纳入投资组合按市价计值；本季把投资损益与减值作为独立触发项。上季可证伪指标中，“在线游戏增速降至中个位数以下”“游戏毛利率跌破 74%”未触发，“有效税率维持 18% 以上”已触发。",
+          "claim_type": "scenario",
+          "confidence": "high",
+          "source_ids": [
+            "prior-q1-report",
+            "hkex-results-en"
+          ],
+          "falsifier": "若重新核对发现上季区间口径与本季不同（例如非 GAAP 口径），需修正本条复盘结论。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "pass": "synthesis",
+      "claims": [
+        {
+          "text": "【推断·核心论点】关键不在于 Q2 归母净利 -18.8%（主要是投资损失），也不在于营业利润 +33.4%，而在于“收入跑在账单前面”与“下半年新品断档”同时出现：利润率已接近高位，下一阶段利润增长必须重新由收入驱动，而最大的收入变量要到 2027-01-15 才揭晓。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "sec-6k-q1",
+            "ananta-launch",
+            "sor-ranking-gjjrb"
+          ],
+          "falsifier": "2026Q3 合同负债环比回升、账单口径增速 ≥ 收入增速且游戏收入同比 ≥ +5%。"
+        },
+        {
+          "text": "【推断·最难的问题】网易目前最难的问题是新品命中率与接力节奏：每季约 46 亿元研发投入无法直接买到爆款，《遗忘之海》研发约七年仍在首发遇到上手门槛；在《无限大》之前，增长只能来自长青游戏。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "hkex-interim-report",
+            "call-transcript",
+            "call-highlights-gurufocus",
+            "sdic-intl-note"
+          ],
+          "falsifier": "若 2026Q4 前公司宣布至少一款新品上线并在首月进入中国 iOS 畅销榜前 20，则该难点的紧迫性下降。"
+        },
+        {
+          "text": "【推断·资源投向】管理层准备把资源投向三处：长青游戏的内容与跨端运营、全球化与 PC/主机平台（以《无限大》为核心）、精品研发与 AI 工具；资本配置上维持约 30% 净利派息与持续回购，同时出现未披露投向的 30.41 亿元权益法投资。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "hkex-interim-report",
+            "call-transcript",
+            "call-highlights-gurufocus",
+            "ananta-launch"
+          ],
+          "falsifier": "若 Q3 研发费用率明显下降或公司披露大额非游戏方向投资，则资源投向判断需修正。"
+        },
+        {
+          "text": "【推断·评级】评级由上季“中性偏谨慎”上调至“中性”，置信度 medium：上季担心的在线游戏增速与毛利率均未恶化（+10%、76.1%），但合同负债与新品空窗阻止进一步上调。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2",
+            "prior-q1-report"
+          ],
+          "falsifier": "若 Q3 游戏收入同比转负或合同负债继续下降，回调至“中性偏谨慎”；若证伪条件成立，上调至“中性偏积极”。"
+        },
+        {
+          "text": "【推断·监测清单】下季度三项可证伪指标：①合同负债环比变化与账单口径增速；②游戏收入同比（基数 233.28 亿元）与游戏毛利率是否 ≥ 75%；③剔除投资损益的有效税率是否回落至 17% 以下、股息/归母净利是否维持约 30%。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-results-en",
+            "hkex-results-zh",
+            "sec-6k-q2"
+          ],
+          "falsifier": "若三项指标均朝有利方向变化，本报告的谨慎部分不成立。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1-consensus",
+        "question": "市场共识是什么？",
+        "answer": "主业强劲（营业利润 +33.4%、游戏毛利率 76.1%），归母净利 -18.8% 是拼多多/阿里按市价计值与减值造成的账面噪音。就 Q2 利润而言基本成立：剔除投资损益与汇兑后的税前利润同比 +27.5%。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "caiwen-citi-bofa",
+          "yicai-q2"
+        ],
+        "counterevidence": "共识只解释了利润表，没有解释资产负债表：合同负债环比 -11.5%，H1 账单口径仅 +1.8%。",
+        "status": "answered"
+      },
+      {
+        "id": "q2-assumption",
+        "question": "共识依赖哪条隐藏假设？",
+        "answer": "假设 Q2 的收入增速与毛利率红利能延续到下半年。但游戏毛利率已处高位（大和亦称改善空间有限），而收入增速部分来自递延余额释放，下半年缺少大新品补充预收。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "caiwen-daiwa",
+          "ananta-launch"
+        ],
+        "counterevidence": "高盛认为毛利率扩张是结构性的（PC/自有渠道），若成立则利润率仍可小幅上行。",
+        "status": "answered"
+      },
+      {
+        "id": "q3-contradiction",
+        "question": "本季最有力地反驳共识的事实是什么？",
+        "answer": "H1 确认收入 +7.0%，但“收入+合同负债变动”仅 +1.8%；Q2 合同负债变动 -25.11 亿元，是去年同期（-7.19 亿元）的约 3.5 倍。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "sec-6k-q1"
+        ],
+        "counterevidence": "Q2 本身存在季节性回落（2025Q2 同样为负）；合同负债为集团口径，含云音乐会员与有道预收，且受人民币升值折算影响。",
+        "status": "answered"
+      },
+      {
+        "id": "q4-mechanism",
+        "question": "“收入领先账单”的机制是什么？",
+        "answer": "中期报告列示的关键会计估计包括按付费玩家平均游戏周期确认虚拟道具收入：玩家充值先进入合同负债，再在估计周期内确认。当新充值放缓时，前期递延余额仍持续转入收入，确认收入会滞后于充值变化，表现为合同负债下降、收入仍增长。",
+        "source_ids": [
+          "hkex-interim-report",
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2"
+        ],
+        "counterevidence": "若公司调整了平均游戏周期估计，也会造成同样的形态而与需求无关；公司未披露该估计在本期是否变化。",
+        "status": "answered"
+      },
+      {
+        "id": "q5-timing",
+        "question": "为什么是现在？",
+        "answer": "Q1 春节档与新内容带来合同负债 +13.84 亿元，Q2 回落 -25.11 亿元；同时 Q2 没有大新品上线（《遗忘之海》7 月才上线），游戏收入环比 -2.7%。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2"
+        ],
+        "counterevidence": "缺少按游戏拆分的合同负债，无法区分是梦幻西游等存量游戏消耗还是 2025 年新品（燕云、漫威）递延释放。",
+        "status": "answered"
+      },
+      {
+        "id": "q6-alternative",
+        "question": "季节性、汇率或口径能否解释同样现象？",
+        "answer": "季节性只能解释一部分（2025Q2 合同负债仅变动 -7.19 亿元）；人民币季度升值约 1.7%，对以外币计价的合同负债折算影响有限；非游戏业务收入规模较小（Q2 合计约 50.84 亿元）。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "sec-6k-q1"
+        ],
+        "counterevidence": "云音乐会员预收若集中在上年末/一季度，同样会在二季度释放；无法用公告数据精确剔除。",
+        "status": "answered"
+      },
+      {
+        "id": "q7-counterfactual",
+        "question": "如果没有投资损失，Q2 利润会怎样？",
+        "answer": "剔除投资损益与汇兑后的税前利润约 130.2 亿元（同比 +27.5%）；按剔除投资损益后的测算税率约 19.5% 粗算，归母净利将约为 100–105 亿元，高于去年同期 86.01 亿元。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2"
+        ],
+        "counterevidence": "非上市投资减值并非纯市场噪音，部分反映投资判断失误；税务影响假设简化。",
+        "status": "answered"
+      },
+      {
+        "id": "q8-second-order",
+        "question": "如果“投资损失是噪音”成立，二阶后果是什么？",
+        "answer": "股息并非噪音：按测算，Q1、Q2 股息总额均约为 GAAP 归母净利的 30%（29.8%、29.9%），因此 Q2 每 ADS 股息 0.48 美元、同比 -15.8%，而测算 FCF 仅同比 -4.5%。账面波动直接传导为股东现金回报波动。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "hkex-dividend"
+        ],
+        "counterevidence": "股息政策由董事会酌情决定；上半年回购 3.24 亿美元部分抵消；若拼多多回升，股息也会随之回升。",
+        "status": "answered"
+      },
+      {
+        "id": "q9-bull-bear",
+        "question": "最强多头与空头各怎么说？",
+        "answer": "多头：游戏毛利率结构性抬升、经营杠杆、1,675 亿元净现金、持续回购、双重主要上市后南向增量、《无限大》2027 年上线。空头：H2 新品空窗、《遗忘之海》畅销榜首日仅第 100 位、《无限大》无抽卡模式变现未经验证、《异环》抢先占位、税率中枢上移。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "caiwen-citi-bofa",
+          "zhitong-goldman",
+          "sor-ranking-gjjrb",
+          "ananta-launch",
+          "nte-bjd"
+        ],
+        "counterevidence": "多空双方都缺少《遗忘之海》真实流水数据。",
+        "status": "answered"
+      },
+      {
+        "id": "q10-priced-in",
+        "question": "哪些已被定价？",
+        "answer": "9999.HK 09-30 收 192.6 港元，与业绩前 193.4 港元基本持平；卖方集体上调目标价，市场已接受“主业强、账面弱”。合同负债回落未见于主流卖方摘要（仅海豚投研提及）。",
+        "source_ids": [
+          "market-data",
+          "yicai-q2",
+          "caiwen-citi-bofa",
+          "caiwen-daiwa"
+        ],
+        "counterevidence": "无授权一致预期序列，无法验证 H2 收入预测是否已被下调。",
+        "status": "answered"
+      },
+      {
+        "id": "q11-bottleneck",
+        "question": "哪项约束最难靠加钱解决？",
+        "answer": "爆款供给的命中率。研发投入每季约 46 亿元、员工 24,868 人，《遗忘之海》研发约七年仍在首发阶段遇到上手门槛问题；新品成败取决于产品判断而非预算。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "hkex-interim-report",
+          "call-transcript",
+          "call-highlights-gurufocus",
+          "sdic-intl-note"
+        ],
+        "counterevidence": "《燕云十六声》《漫威争锋》证明网易仍能做出全球化爆款；单一产品不足以推断命中率下降。",
+        "status": "answered"
+      },
+      {
+        "id": "q12-resource-truth",
+        "question": "资源配置是否印证了“精品 + 全球化”？",
+        "answer": "部分印证：研发费用同比 +6.6%、费用率 15.4%；销售费用同比仅 +2.8%，说明 Q2 没有大规模新品推广；资本开支极低（0.80 亿元）。但 Q2 新增权益法投资 30.41 亿元投向未披露，资本配置真相不完整。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "hkex-interim-report"
+        ],
+        "counterevidence": "权益法投资可能是游戏/AI 生态布局，也可能是财务性投资，现有证据无法判断。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q13-sequence",
+        "question": "哪一步必须先成功？失败会怎样？",
+        "answer": "《无限大》（2027-01-15）必须先验证“都市开放世界 + 外观付费”能产生可观流水；若失败，2027 年增长将继续只依赖长青游戏，且毛利率红利已基本兑现，利润增长空间收窄。",
+        "source_ids": [
+          "ananta-launch",
+          "call-transcript",
+          "hkex-results-en"
+        ],
+        "counterevidence": "长青游戏（梦幻西游怀旧/再续前缘、蛋仔、逆水寒）本身仍有增长，不必然依赖单一新品。",
+        "status": "answered"
+      },
+      {
+        "id": "q14-falsifier",
+        "question": "下季度什么观测能推翻核心判断？",
+        "answer": "2026Q3 合同负债环比回升、账单口径同比增速不低于确认收入增速，且游戏收入同比 ≥ +5%。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2"
+        ],
+        "counterevidence": "Q3 为暑期旺季，季节性回升可能掩盖趋势，需与 2025Q3 同口径比较。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-billings-lag",
+        "title": "收入跑在账单前面：递延余额正在被消耗",
+        "consensus_view": "Q2 收入 +7.9%、游戏 +9.7% 超预期，增长动能稳健。",
+        "new_view": "H1 确认收入 +7.0%，但“收入+合同负债变动”仅 +1.8%；Q2 合同负债环比 -11.5%。增长有相当部分来自前期预收的确认，而非新增充值。",
+        "mechanism": "虚拟道具收入按付费玩家平均游戏周期递延确认 → 新充值放缓时，存量递延余额继续转入收入 → 合同负债下降、确认收入滞后回落 → 若 H2 无新品补充预收，Q3–Q4 收入增速向账单增速收敛。",
+        "implication": "下调 2026Q3–Q4 游戏收入增速假设（基准情景同比 +3%–8%），提高悲观情景概率；把合同负债列为首要监测指标。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "sec-6k-q1",
+          "hkex-interim-report"
+        ],
+        "counterevidence": "Q2 合同负债存在季节性回落；集团口径含云音乐、有道；公司未披露平均游戏周期估计是否变化；人民币升值影响折算。",
+        "falsifier": "2026Q3 合同负债环比回升，且“收入+合同负债变动”同比增速 ≥ 确认收入同比增速。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-dividend-transmission",
+        "title": "账面损失会变成真金白银：股息按 GAAP 净利约 30% 派发",
+        "consensus_view": "投资损失只是账面噪音，不影响现金和股东回报。",
+        "new_view": "Q1、Q2 股息总额约为 GAAP 归母净利的 29.8% 与 29.9%；拼多多按市价计值损失通过净利直接压低股息（Q2 每 ADS 0.48 美元，同比 -15.8%），而 FCF 仅 -4.5%。网易在 Q2 仍增持 70 万股拼多多 ADS，等于主动扩大了这条传导链。",
+        "mechanism": "上市权益公允价值变动计入投资损益 → GAAP 归母净利 → 按约 30% 派息 → 季度股息；投资组合（上市 68.8 亿、权益法 68.5 亿、非上市 68.2 亿元）成为股东现金回报的波动源。",
+        "implication": "股息收益率不能按经营利润外推；情景中把拼多多/阿里股价与减值作为归母净利与股息的独立触发项。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "hkex-dividend",
+          "sec-13f-q1",
+          "sec-13f-q2",
+          "hkex-interim-report"
+        ],
+        "counterevidence": "股息政策为董事会酌情；回购（上半年 3.24 亿美元）部分平滑股东回报；Q3 拼多多股价回升 2.2% 可能带来回拨。",
+        "falsifier": "2026Q3 股息总额与 GAAP 归母净利之比明显偏离 30%（如 <25% 或 >35%），或公司改为按经营利润/FCF 派息。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 1,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-tax-shift",
+        "title": "税率中枢上移约 4 个百分点，并非只由投资损失造成",
+        "consensus_view": "25.5% 的有效税率是投资损失不可抵扣带来的一次性扭曲。",
+        "new_view": "剔除投资损益后的测算税率 Q1 约 18.9%、Q2 约 19.5%，均高于 2025Q2 的 15.1%；上半年递延所得税费用 12.26 亿元（去年同期为抵减），递延所得税负债 +10.9 亿元。",
+        "mechanism": "（推断）递延所得税负债上升与境内利润汇出相关的预提所得税计提、或税收优惠/抵免时点变化一致 → 中枢税率上移 → 在营业利润不变时归母净利率下移约 3pp。",
+        "implication": "情景中有效税率假设取 19%–25%，而非回到 2025 年的约 15%。",
+        "source_ids": [
+          "hkex-results-en",
+          "hkex-results-zh",
+          "sec-6k-q2",
+          "hkex-interim-report",
+          "call-transcript"
+        ],
+        "counterevidence": "管理层称税收抵免随主体与时间变化，中期税率为全年估计；投资损失的税务影响假设简化；原因未经公司确认。",
+        "falsifier": "2026Q3 有效税率（剔除投资损益口径）回落至 17% 以下，且递延所得税负债不再增加。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 20,
+      "triggers": [
+        "《遗忘之海》经优化后长尾流水回升并宣布海外上线，Q3 游戏收入同比 +8%–12%",
+        "合同负债在 Q3 环比回升，账单口径同比增速追上确认收入",
+        "拼多多/阿里股价企稳或回升，Q3 投资损益转为小幅收益，且无新增大额减值",
+        "有效税率回落至 18% 左右，人民币汇率趋稳"
+      ],
+      "segment_profit_range": [
+        192,
+        202
+      ],
+      "group_profit_range": [
+        100,
+        112
+      ],
+      "unit_note": "segment = 2026Q3 游戏及相关增值服务分部毛利（亿元）；group = 2026Q3 GAAP 归母净利润（亿元）"
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "存量长青游戏维持，Q3 游戏收入同比 +3%–8%（2025Q3 基数 233.28 亿元）",
+        "游戏毛利率 75%–76.5%，营业利润率 37%–40%（暑期营销与新品运营费用上升）",
+        "投资损益在 -5 亿至 +3 亿元之间，汇兑小幅损失",
+        "有效税率 19%–22%"
+      ],
+      "segment_profit_range": [
+        180,
+        193
+      ],
+      "group_profit_range": [
+        85,
+        100
+      ],
+      "unit_note": "同上"
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "《遗忘之海》流水继续走弱且无其他新品补位，Q3 游戏收入同比 -2% 至 +3%",
+        "合同负债继续下降，收入向账单增速收敛",
+        "非上市投资继续减值或上市持仓再跌，投资损失 ≥ 10 亿元",
+        "有效税率维持 23%–25%，或《无限大》预热营销提前抬升销售费用"
+      ],
+      "segment_profit_range": [
+        168,
+        181
+      ],
+      "group_profit_range": [
+        65,
+        85
+      ],
+      "unit_note": "同上"
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "报告状态为 draft / REVIEW_REQUIRED：冲突来源处理、管理层措辞解读、因果归因、情景概率与区间、评级、Kearney 风格措辞均需人工审核后方可发布。",
+      "ir.netease.com 被 Akamai 拒绝访问（403），官方原文改用港交所披露易与 SEC EDGAR 同一公告文本；三份文本关键数字逐项核对一致。",
+      "网易不披露分部经营利润，分部利润以分部毛利列示；自由现金流、账单口径、剔除投资损益税率、拼多多市价损失、股息/净利比均为测算口径。",
+      "电话会转录为 TradingKey AI 辅助转录（Tier3），与公告存在 3 处差异（2025 年末净现金 153.5 vs 163.5 亿元、累计回购 24.8M vs 24.9M ADS、有道去年同期毛利率 43.6% vs 43.0%），均以公告为准。",
+      "一致预期来自未具名媒体口径（Tier3），非授权数据商；超预期/不及预期结论置信度低。",
+      "《遗忘之海》表现依据第三方畅销榜监测（点点、七麦），不等于流水；17173 所称流水预期下调为未具名传闻，未采用。",
+      "《异环》14 亿元流水为单一媒体转述，仅作定性竞争证据。",
+      "Q2 30.41 亿元权益法投资标的未披露；有效税率上行原因未经公司确认。"
+    ],
+    "unresolved_conflicts": [
+      {
+        "topic": "2025 年末净现金",
+        "values": [
+          "业绩公告：RMB163.5bn",
+          "电话会转录：RMB153.5bn"
+        ],
+        "resolution": "以业绩公告为准；转录为 AI 辅助，疑似识别错误。",
+        "source_ids": [
+          "hkex-results-en",
+          "call-transcript"
+        ]
+      },
+      {
+        "topic": "累计回购 ADS",
+        "values": [
+          "业绩公告：约 24.9M",
+          "电话会：约 24.8M"
+        ],
+        "resolution": "差异为四舍五入级别，以公告为准。",
+        "source_ids": [
+          "hkex-results-en",
+          "call-transcript"
+        ]
+      },
+      {
+        "topic": "有道去年同期毛利率",
+        "values": [
+          "公告分部数据测算：43.0%",
+          "电话会转录：43.6%"
+        ],
+        "resolution": "以公告分部数据测算为准。",
+        "source_ids": [
+          "hkex-results-en",
+          "call-transcript"
+        ]
+      },
+      {
+        "topic": "大和报告提及的 7 月新品",
+        "values": [
+          "财闻转述：《永劫无间》手游 7 月推出",
+          "公告：7 月上线的新品为《遗忘之海》"
+        ],
+        "resolution": "疑为转述错误，以公告为准。",
+        "source_ids": [
+          "caiwen-daiwa",
+          "hkex-results-en"
+        ]
+      }
+    ],
+    "deterministic_checks": {
+      "total": 45,
+      "pass": 42,
+      "conflict": 3
+    }
+  }
+}

@@ -1,0 +1,2309 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "03690-hk-2026q2",
+  "generated_at": "2026-10-03T16:24:03.638728+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "美团",
+    "ticker": "03690.HK",
+    "period": "2026Q2",
+    "period_end": "2026-06-30",
+    "results_date": "2026-08-28",
+    "status": "published",
+    "review_state": "APPROVED",
+    "thesis": "美团2026Q2扭亏为盈是真实的，但修复只走完了第一层：收入抵扣型激励回收与旺季成本下降贡献了核心本地商业环比改善的104%，而计入费用的激励与营销仍处价格战水平（分部费用率32.3%，2025Q1为23.4%）；下一段利润率修复取决于对手与监管，不完全在美团手中。",
+    "conclusion_summary": {
+      "rating": "中性",
+      "confidence": "medium",
+      "primary_difficulty": "在阿里保住约四成份额的格局下，把核心本地商业利润率从7.9%继续抬升：可由美团自己收回的收入抵扣型激励已基本兑现，剩下的费用层（分部费用率32.3%）需要对手与监管同步配合。",
+      "current_difficulties": [
+        {
+          "title": "费用层未正常化",
+          "evidence": "核心本地商业经营费用231.01亿元，环比+2.95亿元，较2025Q1高54.2%；费用率32.3%，接近2025Q2战时的33.8%。",
+          "implication": "Q2利润率7.9%不能线性外推，距2024Q2的25.1%仍远。"
+        },
+        {
+          "title": "商户端变现率未修复",
+          "evidence": "商家服务（佣金+广告）收入同比仅+4.0%，低于配送服务+13.1%与分部+10.1%。",
+          "implication": "收入修复来自激励回收而非提价或广告，利润弹性受限。"
+        },
+        {
+          "title": "利润质量与现金转化偏弱",
+          "evidence": "剔除34.94亿元其他收益后经营结果为-8.58亿元；H1自由现金流代理值-38.65亿元，借款与票据较年初+84.18亿元，财务费用同比+87.4%。",
+          "implication": "利润尚未转化为可持续现金，股东回报让位于生态与AI投入。"
+        }
+      ],
+      "strategic_judgment": "管理层用'供给与履约质量'替代'补贴'来守份额，同时把增量资源投向公司层面AI与骑手/商户生态；代价是短期费用率难降、研发与保障成本上行，回报依赖AI与供给侧效率能否在费用层兑现。",
+      "strategic_directions": [
+        {
+          "direction": "以供给与履约质量替代补贴守份额",
+          "rationale": "监管限制长期大额补贴、对手同步降补贴后，竞争转向供给与服务",
+          "management_signal": "公告列举拼好饭、品牌卫星店、闪电仓、歪马送酒、松鼠便利；自营商品收入+78.9%；电话会称Q3外卖UE同比明显改善",
+          "validation": "Q3/Q4核心本地商业经营费用率是否降至28%以下，配送服务收入同比是否保持正增长"
+        },
+        {
+          "direction": "AI作为内部生产力与商户工具，而非外部Token业务",
+          "rationale": "以AI降低运营与商户服务成本，提升转化",
+          "management_signal": "研发同比+22.5%至76.70亿元（公司层面AI）；LongCat 2.0、小团、CatPaw；王兴称'不会成为Token工厂'（媒体转述）",
+          "validation": "研发费用率上行期间，商家服务收入增速是否回升至≥8%、分部费用率是否下降"
+        },
+        {
+          "direction": "海外与食杂零售纪律性扩张",
+          "rationale": "Keeta香港稳定盈利、沙特7月盈利，新业务亏损率改善至-5.3%",
+          "management_signal": "下半年聚焦现有市场效率、巴西聚焦圣保罗；2026年新业务亏损不超过2025年（财联社转述）",
+          "validation": "H2新业务亏损是否≤62.28亿元，Q3单季亏损是否≤20亿元"
+        }
+      ],
+      "core_conflict": "毛利层已大幅改善（核心本地商业毛利率由Q1的32.4%回到40.2%），费用层仍停在价格战水平（费用率32.3%）：守份额需要的激励没有随外卖战结束而退出。",
+      "falsifier": "2026Q3或Q4核心本地商业经营费用率降至28%以下且分部收入同比≥8%，则'费用层未修复'的核心判断失效。",
+      "valuation_context": "8/31仅+1.81%，9/4较8/28累计+5.48%；摩根大通以2027年16倍PE给出100港元目标价，花旗2027年经调整净利预测200亿元——市场已把正常化放在2027年，Q2超预期多为确认而非重估。",
+      "catalyst": "阿里9月季度即时零售亏损继续收窄、SAMR补贴规范终稿落地、Q3核心本地商业费用率下降。",
+      "risk": "暑期旺季补贴再度升级迫使美团跟进；骑手保障成本结构性上行；新业务亏损在宽松上限内扩大。"
+    },
+    "prior_report_comparison": "网站FY2025报告（谨慎/medium）核心判断为'守住份额所需补贴会否固化'。本季部分回答：收入抵扣型补贴已退坡，但费用层补贴尚未退出；评级由谨慎调整为中性。",
+    "disclaimer": "仅供研究学习，不构成投资建议。",
+    "approved_at": "2026-10-03T16:24:03.555540+00:00",
+    "approved_by": "user (2026-10-04 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "美团2026Q2扭亏为盈是真实的，但修复只走完了第一层：收入抵扣型激励回收与旺季成本下降贡献了核心本地商业环比改善的104%，而计入费用的激励与营销仍处价格战水平（分部费用率32.3%，2025Q1为23.4%）；下一段利润率修复取决于对手与监管，不完全在美团手中。",
+    "rating": "中性",
+    "confidence": "medium",
+    "primary_difficulty": "在阿里保住约四成份额的格局下，把核心本地商业利润率从7.9%继续抬升：可由美团自己收回的收入抵扣型激励已基本兑现，剩下的费用层（分部费用率32.3%）需要对手与监管同步配合。",
+    "current_difficulties": [
+      {
+        "title": "费用层未正常化",
+        "evidence": "核心本地商业经营费用231.01亿元，环比+2.95亿元，较2025Q1高54.2%；费用率32.3%，接近2025Q2战时的33.8%。",
+        "implication": "Q2利润率7.9%不能线性外推，距2024Q2的25.1%仍远。"
+      },
+      {
+        "title": "商户端变现率未修复",
+        "evidence": "商家服务（佣金+广告）收入同比仅+4.0%，低于配送服务+13.1%与分部+10.1%。",
+        "implication": "收入修复来自激励回收而非提价或广告，利润弹性受限。"
+      },
+      {
+        "title": "利润质量与现金转化偏弱",
+        "evidence": "剔除34.94亿元其他收益后经营结果为-8.58亿元；H1自由现金流代理值-38.65亿元，借款与票据较年初+84.18亿元，财务费用同比+87.4%。",
+        "implication": "利润尚未转化为可持续现金，股东回报让位于生态与AI投入。"
+      }
+    ],
+    "strategic_judgment": "管理层用'供给与履约质量'替代'补贴'来守份额，同时把增量资源投向公司层面AI与骑手/商户生态；代价是短期费用率难降、研发与保障成本上行，回报依赖AI与供给侧效率能否在费用层兑现。",
+    "strategic_directions": [
+      {
+        "direction": "以供给与履约质量替代补贴守份额",
+        "rationale": "监管限制长期大额补贴、对手同步降补贴后，竞争转向供给与服务",
+        "management_signal": "公告列举拼好饭、品牌卫星店、闪电仓、歪马送酒、松鼠便利；自营商品收入+78.9%；电话会称Q3外卖UE同比明显改善",
+        "validation": "Q3/Q4核心本地商业经营费用率是否降至28%以下，配送服务收入同比是否保持正增长"
+      },
+      {
+        "direction": "AI作为内部生产力与商户工具，而非外部Token业务",
+        "rationale": "以AI降低运营与商户服务成本，提升转化",
+        "management_signal": "研发同比+22.5%至76.70亿元（公司层面AI）；LongCat 2.0、小团、CatPaw；王兴称'不会成为Token工厂'（媒体转述）",
+        "validation": "研发费用率上行期间，商家服务收入增速是否回升至≥8%、分部费用率是否下降"
+      },
+      {
+        "direction": "海外与食杂零售纪律性扩张",
+        "rationale": "Keeta香港稳定盈利、沙特7月盈利，新业务亏损率改善至-5.3%",
+        "management_signal": "下半年聚焦现有市场效率、巴西聚焦圣保罗；2026年新业务亏损不超过2025年（财联社转述）",
+        "validation": "H2新业务亏损是否≤62.28亿元，Q3单季亏损是否≤20亿元"
+      }
+    ],
+    "core_conflict": "毛利层已大幅改善（核心本地商业毛利率由Q1的32.4%回到40.2%），费用层仍停在价格战水平（费用率32.3%）：守份额需要的激励没有随外卖战结束而退出。",
+    "falsifier": "2026Q3或Q4核心本地商业经营费用率降至28%以下且分部收入同比≥8%，则'费用层未修复'的核心判断失效。",
+    "valuation_context": "8/31仅+1.81%，9/4较8/28累计+5.48%；摩根大通以2027年16倍PE给出100港元目标价，花旗2027年经调整净利预测200亿元——市场已把正常化放在2027年，Q2超预期多为确认而非重估。",
+    "catalyst": "阿里9月季度即时零售亏损继续收窄、SAMR补贴规范终稿落地、Q3核心本地商业费用率下降。",
+    "risk": "暑期旺季补贴再度升级迫使美团跟进；骑手保障成本结构性上行；新业务亏损在宽松上限内扩大。"
+  },
+  "sources": [
+    {
+      "id": "hkex-q2-2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800435.pdf",
+      "title": "Meituan: Announcement of the Results for the Three and Six Months Ended June 30, 2026",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:34+08:00"
+    },
+    {
+      "id": "hkex-q2-2026-zh",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf",
+      "title": "美团：截至2026年6月30日止三个月及六个月业绩公告（中文版）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:10+08:00"
+    },
+    {
+      "id": "hkex-interim-2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0929/2026092900007.pdf",
+      "title": "Meituan 2026 Interim Report",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:34+08:00"
+    },
+    {
+      "id": "hkex-q1-2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0601/2026060101346.pdf",
+      "title": "Meituan: Announcement of the Results for the Three Months Ended March 31, 2026",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:34+08:00"
+    },
+    {
+      "id": "hkex-q2-2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0827/2025082700397.pdf",
+      "title": "Meituan: Announcement of the Results for the Three and Six Months Ended June 30, 2025 (as originally reported)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:38+08:00"
+    },
+    {
+      "id": "hkex-fy2025",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0326/2026032600964.pdf",
+      "title": "Meituan: Announcement of the Results for the Year Ended December 31, 2025",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:20:53+08:00"
+    },
+    {
+      "id": "hkex-board-notice",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0818/2026081800498.pdf",
+      "title": "Meituan: Date of Board Meeting",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:34+08:00"
+    },
+    {
+      "id": "meituan-ir-press",
+      "url": "https://www.meituan.com/news/NN260828216013035",
+      "title": "美团2026年二季报：营收增至1046亿元，推动AI融入真实业务场景",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "media-stcn-call",
+      "url": "https://stcn.com/article/detail/4161312.html",
+      "title": "证券时报：美团二季度收入同比增长14.4%（含电话会要点）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "media-cls-call",
+      "url": "https://finance.sina.com.cn/roll/2026-08-28/doc-inipwxpi8995246.shtml",
+      "title": "财联社/科创板日报：美团终于盈利了！王兴：不会去竞争成为“Token工厂”",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "media-caixin",
+      "url": "http://companies.caixin.com/m/2026-08-28/102479479.html",
+      "title": "财新：外卖止战 美团二季度业绩超预期、重回盈利轨道",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "media-netease-consensus",
+      "url": "https://cj.sina.com.cn/articles/view/5953466437/162dab0450670baizi",
+      "title": "网易科技：美团Q2营收同比增长14.4%，调整后净利润大幅超预期（彭博综合预期）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "media-jrj-reaction",
+      "url": "https://24h.jrj.com.cn/2026/08/31094258295043.shtml",
+      "title": "金融界：港股异动｜美团涨近3% 二季度业绩超预期",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "broker-citi",
+      "url": "https://www.gelonghui.com/live/2650931",
+      "title": "格隆汇：花旗称美团第二季业绩胜预期，目标价升至120港元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "broker-jpm",
+      "url": "https://stock.10jqka.com.cn/hks/20260831/c679441416.shtml",
+      "title": "财闻：摩根大通上调美团评级至增持，目标价100港元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "price-stockstar",
+      "url": "https://stock.stockstar.com/RB2026083100026110.shtml",
+      "title": "证券之星：美团-W 8月31日股价上涨1.61%",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "price-datapro",
+      "url": "mcp://dataPro-search/stock_finance?code=3690.HK&from=2026-08-25&to=2026-09-04",
+      "title": "dataPro 股票金融库：3690.HK 日线行情 2026-08-25至2026-09-04",
+      "authority_level": "tier2",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "media-nfnews",
+      "url": "https://www.nfnews.com/content/Y3MpX7mey1.html",
+      "title": "南方都市报：美团今年二季度经营利润转正，AI投入激增超10亿元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "gov-samr-subsidy",
+      "url": "https://www.samr.gov.cn/xw/mtjj/art/2026/art_7f44f30772c449aebe9883636e38104e.html",
+      "title": "市场监管总局：征求意见稿出台 我国将规范外卖平台补贴行为",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "gov-people-daily",
+      "url": "http://paper.people.com.cn/rmrb/pc/content/202606/18/content_30163766.html",
+      "title": "人民日报：对外卖平台“卷补贴”说不（经济时评）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "gov-nbs-h1",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964127.html",
+      "title": "国家统计局：2026年上半年社会消费品零售总额增长1.3%",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "gov-nbs-aug",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260915_1965311.html",
+      "title": "国家统计局：2026年1—8月份社会消费品零售总额增长1.1%",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "comp-alibaba-zh",
+      "url": "https://www.alibabagroup.com/zh-HK/document-2026456290057781248",
+      "title": "阿里巴巴集团公布2026年6月份季度业绩",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "comp-alibaba-en",
+      "url": "https://www.nasdaq.com/press-release/alibaba-group-announces-june-quarter-2026-results-2026-08-20",
+      "title": "Alibaba Group Announces June Quarter 2026 Results",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "comp-jd-results",
+      "url": "https://www.nfnews.com/content/W3YbEz4O6A.html",
+      "title": "南方+：京东Q2经营利润扭亏为盈，外卖减亏成关键",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "comp-jd-call",
+      "url": "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkweh3451590.shtml",
+      "title": "证券时报e公司：京东高管称外卖二季度同比减亏超50%（含艾瑞份额）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "share-jiemian",
+      "url": "https://cj.sina.com.cn/articles/view/5953189932/162d6782c06704wc8u",
+      "title": "界面新闻：二季度淘宝闪购市场份额维持在40%-45%（高盛/易观/国信口径）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "share-gmw",
+      "url": "http://economy.gmw.cn/2026-08/28/content_38969971.htm",
+      "title": "光明网：Q2外卖数据盘点：市场格局趋于稳定",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "share-iresearch",
+      "url": "http://finance.sina.cn/2026-08-16/detail-ininnuvr7843739.d.html",
+      "title": "北京商报：艾瑞咨询称2026年二季度外卖综合份额美团43%、淘宝闪购42%、京东15%",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:30+08:00"
+    },
+    {
+      "id": "prior-site-fy2025",
+      "url": "https://www.shresearch.cn/data/03690-hk-fy2025.json",
+      "title": "研究网站既有报告：美团 FY2025（只读参考）",
+      "authority_level": "internal",
+      "retrieved_at": "2026-10-03T21:16:40+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "revenue",
+      "metric": "total_revenue",
+      "value": 104643044000,
+      "display_value": "1,046.43亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "Q2'26 vs Q2'25 income statement: Revenues 104,643,044 91,490,217",
+      "location": "PDF p.9",
+      "previous_value": 91490217000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 91038906000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "cost_of_revenues",
+      "metric": "cost_of_revenues",
+      "value": 69548247000,
+      "display_value": "695.48亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: Cost of revenues (69,548,247) (61,426,477)",
+      "location": "PDF p.9",
+      "previous_value": 61426477000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 65068834000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "gross_profit",
+      "metric": "gross_profit",
+      "value": 35094797000,
+      "display_value": "350.95亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: Gross profit 35,094,797 30,063,740",
+      "location": "PDF p.9",
+      "previous_value": 30063740000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 25970072000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "selling_marketing",
+      "metric": "sales_and_marketing_expenses",
+      "value": 24723345000,
+      "display_value": "247.23亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: Selling and marketing expenses (24,723,345) (22,168,650)",
+      "location": "PDF p.9",
+      "previous_value": 22168650000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 22968519000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "research_development",
+      "metric": "research_and_development_expenses",
+      "value": 7670045000,
+      "display_value": "76.70亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: Research and development expenses (7,670,045) (6,260,087)",
+      "location": "PDF p.9",
+      "previous_value": 6260087000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 7043098000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "general_admin",
+      "metric": "general_and_administrative_expenses",
+      "value": 3238070000,
+      "display_value": "32.38亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: General and administrative expenses (3,238,070) (2,678,950)",
+      "location": "PDF p.9",
+      "previous_value": 2678950000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 2938393000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "impairment",
+      "metric": "net_provisions_impairment",
+      "value": 320931000,
+      "display_value": "3.21亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement (expense, shown positive): (320,931) (19,219)",
+      "location": "PDF p.9",
+      "previous_value": 19219000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 481011000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "other_gains",
+      "metric": "other_gains_net",
+      "value": 3493946000,
+      "display_value": "34.94亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: Other gains, net 3,493,946 807,979",
+      "location": "PDF p.9",
+      "previous_value": 807979000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 598697000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "fv_changes_fvpl",
+      "metric": "fair_value_changes_fvpl",
+      "value": 54814000,
+      "display_value": "0.55亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: 54,814 481,537",
+      "location": "PDF p.9",
+      "previous_value": 481537000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 392441000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "operating_profit",
+      "metric": "operating_income",
+      "value": 2691166000,
+      "display_value": "26.91亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: Operating profit 2,691,166 226,350",
+      "location": "PDF p.9",
+      "previous_value": 226350000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": -6469811000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "finance_costs",
+      "metric": "finance_costs",
+      "value": 806365000,
+      "display_value": "8.06亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement (expense, shown positive): Finance costs (806,365) (430,214)",
+      "location": "PDF p.9",
+      "previous_value": 430214000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 786977000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "profit_for_period",
+      "metric": "net_income",
+      "value": 2155222000,
+      "display_value": "21.55亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "income statement: Profit for the period 2,155,222 365,296",
+      "location": "PDF p.9",
+      "previous_value": 365296000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": -6827258000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "adjusted_ebitda",
+      "metric": "adjusted_ebitda",
+      "value": 4098050000,
+      "display_value": "40.98亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "non-IFRS: Adjusted EBITDA 4,098,050 2,781,961",
+      "location": "PDF p.9",
+      "previous_value": 2781961000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": -3049429000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "adjusted_net_profit",
+      "metric": "adjusted_net_income",
+      "value": 2523716000,
+      "display_value": "25.24亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "non-IFRS: Adjusted net profit 2,523,716 1,493,035",
+      "location": "PDF p.9",
+      "previous_value": 1493035000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": -4967986000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "sbc",
+      "metric": "share_based_compensation",
+      "value": 1918583000,
+      "display_value": "19.19亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "non-IFRS reconciliation: Share-based compensation expenses 1,918,583 1,387,416 1,383,006",
+      "location": "PDF p.21",
+      "previous_value": 1387416000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 1383006000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "net_gains_investments",
+      "metric": "net_gains_from_investments_adjusted",
+      "value": 1604473000,
+      "display_value": "16.04亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "non-IFRS reconciliation (deducted): Net gains from investments (Note (i)) (1,604,473) (355,455) (389,746)",
+      "location": "PDF p.21",
+      "previous_value": 355455000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 389746000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "clc_revenue",
+      "metric": "segment_revenue",
+      "value": 71530555000,
+      "display_value": "715.31亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Total revenues 71,530,555 33,112,489 – 104,643,044",
+      "location": "PDF p.3",
+      "previous_value": 64997020000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 64063286000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "clc_delivery",
+      "metric": "segment_revenue_delivery_services",
+      "value": 26781224000,
+      "display_value": "267.81亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Delivery services 26,781,224 1,049,197 – 27,830,421",
+      "location": "PDF p.3",
+      "previous_value": 23682754000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 24081149000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "clc_merchant",
+      "metric": "segment_revenue_merchant_services",
+      "value": 39630201000,
+      "display_value": "396.30亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Merchant services 39,630,201 2,753,081 – 42,383,282",
+      "location": "PDF p.3",
+      "previous_value": 38120795000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 35608836000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "clc_product",
+      "metric": "segment_revenue_product_sales",
+      "value": 3592964000,
+      "display_value": "35.93亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Product sales 3,592,964 23,074,361 – 26,667,325",
+      "location": "PDF p.3",
+      "previous_value": 2008882000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 2983409000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "clc_gross_profit",
+      "metric": "segment_gross_profit",
+      "value": 28769310000,
+      "display_value": "287.69亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Gross profit 28,769,310 6,509,046 (183,559) 35,094,797",
+      "location": "PDF p.3",
+      "previous_value": 25673312000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 20775917000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "clc_opex",
+      "metric": "segment_operating_expenses",
+      "value": 23101035000,
+      "display_value": "231.01亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Operating expenses (23,101,035) (8,247,961) (1,054,635) (32,403,631)",
+      "location": "PDF p.3",
+      "previous_value": 21952182000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 22805859000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "clc_op_profit",
+      "metric": "segment_operating_income",
+      "value": 5668275000,
+      "display_value": "56.68亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Operating profit/(loss) 5,668,275 (1,738,915) (1,238,194) 2,691,166",
+      "location": "PDF p.3",
+      "previous_value": 3721130000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": -2029942000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "ni_revenue",
+      "metric": "segment_revenue",
+      "value": 33112489000,
+      "display_value": "331.12亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "新业务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Total revenues 71,530,555 33,112,489 – 104,643,044",
+      "location": "PDF p.3",
+      "previous_value": 26493197000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 26975620000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "ni_product",
+      "metric": "segment_revenue_product_sales",
+      "value": 23074361000,
+      "display_value": "230.74亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "新业务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Product sales 3,592,964 23,074,361 – 26,667,325",
+      "location": "PDF p.3",
+      "previous_value": 15906893000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": 17988693000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "ni_op_loss",
+      "metric": "segment_operating_income",
+      "value": -1738915000,
+      "display_value": "-17.39亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "新业务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Operating profit/(loss) 5,668,275 (1,738,915) (1,238,194) 2,691,166",
+      "location": "PDF p.3",
+      "previous_value": -1881318000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": -2115815000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "unallocated",
+      "metric": "unallocated_items",
+      "value": -1238194000,
+      "display_value": "-12.38亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "未分配项目",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "segment table: Operating profit/(loss) 5,668,275 (1,738,915) (1,238,194) 2,691,166",
+      "location": "PDF p.3",
+      "previous_value": -1613462000,
+      "previous_period": "2025Q2 (reclassified comparative)",
+      "qoq_value": -2324054000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "ocf_q2",
+      "metric": "operating_cash_flow",
+      "value": 9733444000,
+      "display_value": "97.33亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "cash flow summary: Net cash flows generated from operating activities 9,733,444 2,719,085",
+      "location": "PDF p.23",
+      "qoq_value": -7014359000,
+      "qoq_period": "2026Q1"
+    },
+    {
+      "id": "ocf_h1",
+      "metric": "operating_cash_flow",
+      "value": 2719085000,
+      "display_value": "27.19亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-2026"
+      ],
+      "evidence": "interim cash flow statement: Net cash flows generated from operating activities 2,719,085 14,904,570",
+      "location": "PDF p.65",
+      "previous_value": 14904570000
+    },
+    {
+      "id": "capex_h1",
+      "metric": "capital_expenditure",
+      "value": 6584447000,
+      "display_value": "65.84亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-2026"
+      ],
+      "evidence": "interim cash flow statement: purchases or prepayments of PP&E and intangible assets: intangible assets (6,584,447) (5,554,202)",
+      "location": "PDF p.65",
+      "previous_value": 5554202000
+    },
+    {
+      "id": "cash",
+      "metric": "cash_and_equivalents",
+      "value": 104716797000,
+      "display_value": "1,047.17亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet (vs 2025-12-31): Cash and cash equivalents 104,716,797 106,771,366",
+      "location": "PDF p.27",
+      "previous_value": 106771366000,
+      "note": "previous_value is 2025-12-31"
+    },
+    {
+      "id": "st_treasury",
+      "metric": "short_term_treasury_investments",
+      "value": 63597373000,
+      "display_value": "635.97亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet (vs 2025-12-31): Short-term treasury investments 63,597,373 60,062,338",
+      "location": "PDF p.27",
+      "previous_value": 60062338000,
+      "note": "previous_value is 2025-12-31"
+    },
+    {
+      "id": "restricted_cash",
+      "metric": "restricted_cash",
+      "value": 21947198000,
+      "display_value": "219.47亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet: Restricted cash 21,947,198 21,631,575",
+      "location": "PDF p.27",
+      "previous_value": 21631575000,
+      "note": "previous_value is 2025-12-31"
+    },
+    {
+      "id": "borrowings_nc",
+      "metric": "borrowings_non_current",
+      "value": 35304527000,
+      "display_value": "353.05亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet: Borrowings 35,304,527 18,789,267",
+      "location": "PDF p.28",
+      "previous_value": 18789267000,
+      "note": "previous_value is 2025-12-31"
+    },
+    {
+      "id": "borrowings_c",
+      "metric": "borrowings_current",
+      "value": 6833774000,
+      "display_value": "68.34亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet: Borrowings 6,833,774 3,467,861",
+      "location": "PDF p.28",
+      "previous_value": 3467861000,
+      "note": "previous_value is 2025-12-31"
+    },
+    {
+      "id": "notes_nc",
+      "metric": "notes_payable_non_current",
+      "value": 46060011000,
+      "display_value": "460.60亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet: Notes payable 46,060,011 47,114,754",
+      "location": "PDF p.28",
+      "previous_value": 47114754000,
+      "note": "previous_value is 2025-12-31"
+    },
+    {
+      "id": "notes_c",
+      "metric": "notes_payable_current",
+      "value": 502943000,
+      "display_value": "5.03亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet: Notes payable 502,943 10,911,217",
+      "location": "PDF p.28",
+      "previous_value": 10911217000,
+      "note": "previous_value is 2025-12-31"
+    },
+    {
+      "id": "fvoci_investments",
+      "metric": "other_financial_investments_fvoci",
+      "value": 36387099000,
+      "display_value": "363.87亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "balance sheet: comprehensive income 36,387,099 3,185,802",
+      "location": "PDF p.27",
+      "previous_value": 3185802000,
+      "note": "previous_value is 2025-12-31; includes Z.AI and Unitree"
+    },
+    {
+      "id": "oci_fvoci_h1",
+      "metric": "oci_fair_value_changes_fvoci",
+      "value": 22473882000,
+      "display_value": "224.74亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "statement of comprehensive income: comprehensive income 22,473,882 (299,642)",
+      "location": "PDF p.26",
+      "previous_value": -299642000
+    },
+    {
+      "id": "borrow_proceeds_h1",
+      "metric": "proceeds_from_borrowings",
+      "value": 29874071000,
+      "display_value": "298.74亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-2026"
+      ],
+      "evidence": "interim cash flow statement: Proceeds from borrowings 29,874,071 481,978",
+      "location": "PDF p.66",
+      "previous_value": 481978000
+    },
+    {
+      "id": "incentives_h1",
+      "metric": "promotion_advertising_user_incentives",
+      "value": 32053531000,
+      "display_value": "320.54亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "expenses by nature (note 4): Promotion, advertising and user incentives 32,053,531 24,090,936",
+      "location": "PDF p.32",
+      "previous_value": 24090936000
+    },
+    {
+      "id": "ni_op_loss_h1",
+      "metric": "segment_operating_income",
+      "value": -3854730000,
+      "display_value": "-38.55亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": "新业务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "six-month segment table: Operating (loss)/profit 3,638,333 (3,854,730) (3,562,248) (3,778,645)",
+      "location": "PDF p.4",
+      "previous_value": -4154585000
+    },
+    {
+      "id": "ni_op_loss_fy2025",
+      "metric": "segment_operating_income",
+      "value": -10082340000,
+      "display_value": "-100.82亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "FY2025",
+      "segment": "新业务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-fy2025"
+      ],
+      "evidence": "FY2025 segment table: Operating loss (6,904,083) (10,082,340) (8,054,714) (25,041,137)",
+      "location": "PDF p.4"
+    },
+    {
+      "id": "clc_op_q4_2025",
+      "metric": "segment_operating_income",
+      "value": -10045683000,
+      "display_value": "-100.46亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q4",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-fy2025"
+      ],
+      "evidence": "Q4'25 segment table: Operating loss (10,045,683) (4,649,846) (1,378,718) (16,074,247)",
+      "location": "PDF p.3"
+    },
+    {
+      "id": "clc_op_q1_2025",
+      "metric": "segment_operating_income",
+      "value": 13491480000,
+      "display_value": "134.91亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q1",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-2026"
+      ],
+      "evidence": "Q1'25 reclassified comparative: Operating profit/(loss) 13,491,480 (2,273,267) (652,103) 10,566,110",
+      "location": "PDF p.3"
+    },
+    {
+      "id": "clc_opex_q1_2025",
+      "metric": "segment_operating_expenses",
+      "value": 14985001000,
+      "display_value": "149.85亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q1",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-2026"
+      ],
+      "evidence": "Q1'25 reclassified comparative: Operating expenses (14,985,001) (5,975,173) (536,424) (21,496,598)",
+      "location": "PDF p.3"
+    },
+    {
+      "id": "clc_rev_q1_2025",
+      "metric": "segment_revenue",
+      "value": 63973733000,
+      "display_value": "639.74亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q1",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-2026"
+      ],
+      "evidence": "Q1'25 reclassified comparative: Total revenues 63,973,733 22,232,412 – 86,206,145",
+      "location": "PDF p.3"
+    },
+    {
+      "id": "clc_op_q2_2024",
+      "metric": "segment_operating_income",
+      "value": 15233585000,
+      "display_value": "152.34亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2024Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2025"
+      ],
+      "evidence": "Q2'24 comparative in Q2'25 announcement: Operating profit/(loss) 15,233,585 (1,314,359) (2,662,337) 11,256,889",
+      "location": "PDF p.3"
+    },
+    {
+      "id": "clc_rev_q2_2024",
+      "metric": "segment_revenue_as_originally_reported",
+      "value": 60681858000,
+      "display_value": "606.82亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2024Q2",
+      "segment": "核心本地商业",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2025"
+      ],
+      "evidence": "Q2'24 comparative (pre-2026 presentation): Total revenues 60,681,858 21,569,219 – 82,251,077",
+      "location": "PDF p.3"
+    },
+    {
+      "id": "revenue_q2_2025_orig",
+      "metric": "total_revenue_as_originally_reported",
+      "value": 91840480000,
+      "display_value": "918.40亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2025"
+      ],
+      "evidence": "Q2'25 as originally reported: Revenues 91,840,480 100.0% 82,251,077",
+      "location": "PDF p.1"
+    },
+    {
+      "id": "revenue_h1",
+      "metric": "total_revenue",
+      "value": 195681950000,
+      "display_value": "1,956.82亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "six-month highlights: Revenues 195,681,950 nm 177,696,362",
+      "location": "PDF p.2",
+      "previous_value": 177696362000
+    },
+    {
+      "id": "op_profit_h1",
+      "metric": "operating_income",
+      "value": -3778645000,
+      "display_value": "-37.79亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "six-month highlights: Operating (loss)/profit (3,778,645) (1.9%) 10,792,460",
+      "location": "PDF p.2",
+      "previous_value": 10792460000
+    },
+    {
+      "id": "d-op_before_other_gains",
+      "metric": "op_before_other_gains",
+      "value": -857594000,
+      "display_value": "-8.58亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: gross_profit - S&M - R&D - G&A - impairment (excludes FVPL changes and other gains); inputs: gross_profit, selling_marketing, research_development, general_admin, impairment",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "gross_profit - S&M - R&D - G&A - impairment (excludes FVPL changes and other gains)"
+    },
+    {
+      "id": "d-op_before_other_gains_2025Q2",
+      "metric": "op_before_other_gains_2025Q2",
+      "value": -1063166000,
+      "display_value": "-10.63亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: same formula, 2025Q2 comparative; inputs: gross_profit, selling_marketing, research_development, general_admin, impairment",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "same formula, 2025Q2 comparative"
+    },
+    {
+      "id": "d-op_before_other_gains_2026Q1",
+      "metric": "op_before_other_gains_2026Q1",
+      "value": -7460949000,
+      "display_value": "-74.61亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: same formula, 2026Q1; inputs: gross_profit, selling_marketing, research_development, general_admin, impairment",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "same formula, 2026Q1"
+    },
+    {
+      "id": "d-segment_op_total",
+      "metric": "segment_op_total",
+      "value": 3929360000,
+      "display_value": "39.29亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: CLC op profit + NI op loss; inputs: clc_op_profit, ni_op_loss",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC op profit + NI op loss"
+    },
+    {
+      "id": "d-clc_op_qoq_delta",
+      "metric": "clc_op_qoq_delta",
+      "value": 7698217000,
+      "display_value": "+76.98亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2 vs 2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: CLC op profit Q2 - Q1; inputs: clc_op_profit",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC op profit Q2 - Q1"
+    },
+    {
+      "id": "d-clc_gp_qoq_delta",
+      "metric": "clc_gp_qoq_delta",
+      "value": 7993393000,
+      "display_value": "+79.93亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2 vs 2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: CLC gross profit Q2 - Q1; inputs: clc_gross_profit",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC gross profit Q2 - Q1"
+    },
+    {
+      "id": "d-clc_opex_qoq_delta",
+      "metric": "clc_opex_qoq_delta",
+      "value": 295176000,
+      "display_value": "+2.95亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2 vs 2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: CLC opex Q2 - Q1; inputs: clc_opex",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC opex Q2 - Q1"
+    },
+    {
+      "id": "d-clc_opex_vs_q1_2025",
+      "metric": "clc_opex_vs_q1_2025",
+      "value": 54.161051,
+      "display_value": "+54.2%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2026Q2 vs 2025Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q1-2026",
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: CLC opex 2026Q2 / CLC opex 2025Q1 - 1; inputs: clc_opex, clc_opex_q1_2025",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC opex 2026Q2 / CLC opex 2025Q1 - 1"
+    },
+    {
+      "id": "d-clc_opex_ratio_2026Q2",
+      "metric": "clc_opex_ratio_2026Q2",
+      "value": 32.295339,
+      "display_value": "32.3%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: CLC opex / CLC revenue; inputs: clc_opex, clc_revenue",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC opex / CLC revenue"
+    },
+    {
+      "id": "d-clc_opex_ratio_2025Q1",
+      "metric": "clc_opex_ratio_2025Q1",
+      "value": 23.423678,
+      "display_value": "23.4%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2025Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q1-2026"
+      ],
+      "evidence": "formula: CLC opex / CLC revenue (2025Q1); inputs: clc_opex_q1_2025, clc_rev_q1_2025",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC opex / CLC revenue (2025Q1)"
+    },
+    {
+      "id": "d-clc_op_margin_2024Q2",
+      "metric": "clc_op_margin_2024Q2",
+      "value": 25.104019,
+      "display_value": "25.1%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2024Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2025"
+      ],
+      "evidence": "formula: CLC op profit / revenue (2024Q2, pre-2026 presentation); inputs: clc_op_q2_2024, clc_rev_q2_2024",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "CLC op profit / revenue (2024Q2, pre-2026 presentation)"
+    },
+    {
+      "id": "d-clc_op_2025Q3_implied",
+      "metric": "clc_op_2025Q3_implied",
+      "value": -14071010000,
+      "display_value": "-140.71亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025",
+        "hkex-q1-2026",
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: FY2025 CLC op - Q1'25 - Q2'25 - Q4'25; inputs: clc_op_fy2025, clc_op_q1_2025, clc_op_profit, clc_op_q4_2025",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "FY2025 CLC op - Q1'25 - Q2'25 - Q4'25"
+    },
+    {
+      "id": "d-fcf_proxy_h1",
+      "metric": "fcf_proxy_h1",
+      "value": -3865362000,
+      "display_value": "-38.65亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-2026"
+      ],
+      "evidence": "formula: H1 OCF - H1 purchases/prepayments of PP&E and intangibles (company does not disclose FCF); inputs: ocf_h1, capex_h1",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "H1 OCF - H1 purchases/prepayments of PP&E and intangibles (company does not disclose FCF)"
+    },
+    {
+      "id": "d-gross_debt_2026-06-30",
+      "metric": "gross_debt_2026-06-30",
+      "value": 88701255000,
+      "display_value": "887.01亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: borrowings (nc+c) + notes payable (nc+c); inputs: borrowings_nc, borrowings_c, notes_nc, notes_c",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "borrowings (nc+c) + notes payable (nc+c)"
+    },
+    {
+      "id": "d-net_cash_2026-06-30",
+      "metric": "net_cash_2026-06-30",
+      "value": 79612915000,
+      "display_value": "796.13亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: cash + ST treasury - gross debt; inputs: cash, st_treasury, borrowings_nc, borrowings_c, notes_nc, notes_c",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "cash + ST treasury - gross debt"
+    },
+    {
+      "id": "d-net_cash_2025-12-31",
+      "metric": "net_cash_2025-12-31",
+      "value": 86550605000,
+      "display_value": "865.51亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: same, 2025-12-31; inputs: cash, st_treasury, borrowings_nc, borrowings_c, notes_nc, notes_c",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "same, 2025-12-31"
+    },
+    {
+      "id": "d-finance_costs_yoy",
+      "metric": "finance_costs_yoy",
+      "value": 87.433463,
+      "display_value": "+87.4%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: finance costs YoY; inputs: finance_costs",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "finance costs YoY"
+    },
+    {
+      "id": "d-ni_h2_headroom_vs_fy2025",
+      "metric": "ni_h2_headroom_vs_fy2025",
+      "value": -6227610000,
+      "display_value": "-62.28亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025",
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: FY2025 NI op loss - H1'26 NI op loss (loss cap implied if FY26 NI loss <= FY25, management call per media); inputs: ni_op_loss_fy2025, ni_op_loss_h1",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "FY2025 NI op loss - H1'26 NI op loss (loss cap implied if FY26 NI loss <= FY25, management call per media)"
+    },
+    {
+      "id": "d-revenue_yoy_vs_original",
+      "metric": "revenue_yoy_vs_original",
+      "value": 13.940001,
+      "display_value": "13.94%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2025",
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: Q2'26 revenue / Q2'25 revenue as originally reported - 1; inputs: revenue, revenue_q2_2025_orig",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "Q2'26 revenue / Q2'25 revenue as originally reported - 1"
+    },
+    {
+      "id": "d-clc_gross_margin_2026Q2",
+      "metric": "clc_gross_margin_2026Q2",
+      "value": 40.21961,
+      "display_value": "40.2%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: clc_gross_profit/clc_revenue; inputs: clc_gross_profit, clc_revenue",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "clc_gross_profit/clc_revenue"
+    },
+    {
+      "id": "d-clc_gross_margin_2025Q2",
+      "metric": "clc_gross_margin_2025Q2",
+      "value": 39.499214,
+      "display_value": "39.5%",
+      "currency": "n/a",
+      "unit": "%",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-2026"
+      ],
+      "evidence": "formula: clc_gross_profit/clc_revenue (2025Q2); inputs: clc_gross_profit, clc_revenue",
+      "location": "derived (scripts/compute_checks.py)",
+      "formula": "clc_gross_profit/clc_revenue (2025Q2)"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "收入1,046.43亿元，同比+14.4%、环比+14.9%；核心本地商业715.31亿元（+10.1%），新业务331.12亿元（+25.0%）。同比基数为公司重分类后的2025Q2（914.90亿元）；对原始披露的918.40亿元，同比为+13.94%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-q2-2025"
+          ]
+        },
+        {
+          "text": "核心本地商业内部增速分化：配送服务267.81亿元（+13.1%，恢复正增长，公司归因于激励投入审慎），自营商品35.93亿元（+78.9%），而商家服务（佣金+在线营销）396.30亿元仅+4.0%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        },
+        {
+          "text": "配送服务增速高于商家服务，说明本季收入修复主要来自'收入抵扣型激励'的回收，而不是商户端变现率（佣金与广告）的回升；变现层尚未修复。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-q1-2026"
+          ],
+          "falsifier": "若2026Q3/Q4核心本地商业商家服务收入同比增速回到≥10%且高于配送服务增速，则变现层已开始修复，此判断失效。"
+        },
+        {
+          "text": "新业务收入增长由商品销售驱动（230.74亿元，+45.1%），对应小象超市扩城与海外扩张；新业务'其他'收入同比-30.4%，与美团优选停止运营一致。新业务配送服务行在2025Q2比较期为'–'，口径变化未在公告中解释，本报告不解读该行同比。",
+          "claim_type": "official_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-q1-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "营业成本率66.5%（同比-0.6pp，环比-5.0pp），销售营销费用率23.6%（同比-0.6pp，环比-1.6pp），研发费用率7.3%（同比+0.5pp），管理费用率3.1%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        },
+        {
+          "text": "核心本地商业环比改善76.98亿元，其中毛利贡献79.93亿元（104%），分部经营费用反而增加2.95亿元至231.01亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        },
+        {
+          "text": "核心本地商业经营费用占分部收入32.3%，2025Q1为23.4%；绝对额较2025Q1的149.85亿元高54.2%。2025Q2该比率为33.8%，即同比几乎没有改善。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-q1-2026"
+          ]
+        },
+        {
+          "text": "利润修复走完了第一层（收入抵扣型激励与季节性单均配送成本），第二层（计入经营费用的营销与商户/用户激励）仍停留在价格战水平；下一段利润率修复必须来自费用层，而费用层取决于对手与监管，不完全由美团自己决定。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-q1-2026",
+            "comp-alibaba-en",
+            "gov-samr-subsidy"
+          ],
+          "falsifier": "若2026Q3或Q4核心本地商业经营费用率降至28%以下且分部收入同比增速不低于8%，则费用层已开始正常化，此判断失效。"
+        },
+        {
+          "text": "集团经营利润26.91亿元中，其他收益净额34.94亿元（主要为若干投资净收益）与FVPL变动0.55亿元合计相当于经营利润的132%；剔除二者后的经营结果为-8.58亿元（2025Q2 -10.63亿元，2026Q1 -74.61亿元）。该口径仍含19.19亿元股份支付。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        },
+        {
+          "text": "研发同比+14.10亿元至76.70亿元，公司归因于'公司层面AI投入'；股份支付同比+5.31亿元。AI投入是本季唯一同比增速高于收入的主要费用项。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "Q2经营现金流97.33亿元，但H1仅27.19亿元（Q1为-70.14亿元）；H1资本开支（购买或预付物业设备及无形资产）65.84亿元。公司未披露自由现金流，H1代理值为-38.65亿元；Q2单季资本开支未披露。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-interim-2026"
+          ]
+        },
+        {
+          "text": "现金及等价物1,047.17亿元、短期理财635.97亿元，合计1,683.14亿元；借款与应付票据合计887.01亿元（年初802.83亿元）。H1新增借款298.74亿元、偿还100.24亿元、赎回票据102.63亿元。净现金796.13亿元，较年初865.51亿元减少69.38亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-interim-2026"
+          ]
+        },
+        {
+          "text": "财务费用8.06亿元，同比+87.4%；同期回购仅约2.0亿港元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        },
+        {
+          "text": "以公允价值计量且变动计入其他综合收益的投资由31.86亿元升至363.87亿元；H1相关公允价值收益224.74亿元计入其他综合收益（公司称Q2智谱等约222亿元），不进入损益，也不是现金。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        },
+        {
+          "text": "资产负债表依然充裕，但本季利润尚未转化为可持续的自由现金流；战略投入（AI研发、小象扩城、拟收购叮咚）与回购之间的资源排序，取决于投资组合能否变现，而非经营现金流。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-interim-2026"
+          ],
+          "falsifier": "若2026H2经营现金流减资本开支转正且超过100亿元，同时总借款不再上升，则'利润未转化为现金'的判断失效。"
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "公告措辞由Q1的'更审慎的补贴'与'行业竞争加剧'，转为Q2的'外卖行业逐步转向注重运营效率'与'在多个季度激烈竞争后扭亏为盈'。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-q1-2026"
+          ]
+        },
+        {
+          "text": "明确承诺：职业伤害保障计划已全国覆盖，未来与养老保险补贴等构成长期骑手福利体系；下半年县域提振行动覆盖近400个县域、支持超50万中小商家。两项均为持续性成本承诺。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026"
+          ]
+        },
+        {
+          "text": "电话会（多家媒体转述，未找到官方文字稿）：Q3外卖单位经济同比明显改善、环比因季节性下降但预期为正；Q3骑手补贴增加、单均配送成本高于Q2；新职伤保险由平台全额缴费会增加成本。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-stcn-call",
+            "media-nfnews",
+            "media-cls-call"
+          ]
+        },
+        {
+          "text": "电话会（媒体转述）：王兴称美团'不会成为Token工厂'，AI围绕Building LLM、AI at Work、AI in Products三条线；Keeta沙特2026年7月实现盈利（22个月，香港为29个月），下半年聚焦现有市场效率。财联社单一来源称管理层预计2026年新业务亏损不超过2025年；财新单一来源称管理层表示行业补贴水平仍明显高于2024年。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-stcn-call",
+            "media-cls-call",
+            "media-caixin"
+          ]
+        },
+        {
+          "text": "管理层回避了三个数字：外卖/闪购/到店的分项利润、GTV与订单量、补贴恢复正常的时间表。在补贴'仍明显高于2024年'且Q3单均成本上行的表述下，Q2利润率不宜线性外推。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "media-caixin",
+            "media-stcn-call"
+          ],
+          "falsifier": "若2026Q3核心本地商业经营利润不低于Q2的56.68亿元，则'不宜外推'的判断过于保守。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "阿里巴巴6月季度：中国即时零售收入同比+45%，淘宝闪购在维持市场份额的同时单位经济环比持续改善。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "comp-alibaba-en",
+            "comp-alibaba-zh"
+          ]
+        },
+        {
+          "text": "京东2026Q2新业务经营亏损98.54亿元（上年同期147.77亿元），管理层称外卖同比减亏超50%。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "comp-jd-results",
+            "comp-jd-call"
+          ]
+        },
+        {
+          "text": "2026Q2外卖份额口径分歧明显：艾瑞综合份额43/42/15，高盛日均单量49/41/10，国信专家会52/41/7，易观即时交易45.3/45.7/7.7（美团/淘宝闪购/京东）。本报告不采信任何单一数字。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "share-iresearch",
+            "share-jiemian",
+            "share-gmw"
+          ]
+        },
+        {
+          "text": "传导链：三家在同一季度同步降低补贴强度 → 收入抵扣型激励下降 → 美团配送服务收入同比转正（+13.1%）与核心本地商业毛利率回到40.2%。竞争由'价格'转向'供给与履约'后，阿里的份额（约四成）被保留下来，美团份额回不到战前，费用层只能部分回收。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "comp-alibaba-en",
+            "comp-jd-call",
+            "share-jiemian"
+          ],
+          "falsifier": "若阿里9月季度即时零售亏损环比扩大或美团Q3配送服务收入同比转负，说明补贴再度升级，传导链逆转。"
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "监管：市场监管总局2026-06-17发布《外卖平台补贴行为规范十条（征求意见稿）》，限制长期大额补贴、禁止强制商家承担补贴成本与低于成本销售，并要求补贴信息公开；终稿状态本报告未核实。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "gov-samr-subsidy",
+            "gov-people-daily"
+          ]
+        },
+        {
+          "text": "宏观：2026年上半年餐饮收入同比+2.8%，1—8月+2.4%，8月+1.1%；美团核心本地商业+10.1%的增长主要不是来自餐饮大盘。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "gov-nbs-h1",
+            "gov-nbs-aug"
+          ]
+        },
+        {
+          "text": "劳动成本：骑手职伤保险自7月起全国覆盖、平台全额缴费；属于结构性单均成本上升，Q3起体现。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026",
+            "media-stcn-call"
+          ]
+        },
+        {
+          "text": "冲击矩阵（下一季度假设）：竞争烈度——中，方向对利润为正但边际减弱；监管——中性偏正，压制补贴回潮；宏观——偏弱，餐饮低个位数增长；劳动成本——负，Q3单均成本上行；海外——Keeta沙特盈利、巴西聚焦圣保罗，新业务亏损受'不超过2025年'约束。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "gov-samr-subsidy",
+            "gov-nbs-aug",
+            "hkex-q2-2026",
+            "media-cls-call"
+          ],
+          "falsifier": "若SAMR终稿撤回或明显放松、或餐饮收入月度增速转负，矩阵需重估。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "业绩于8/28收盘后发布。首个交易日8/31收78.90港元，+1.81%（恒指-0.07%、恒生科技+0.32%）；9/1 -2.85%；9/4收81.75港元，较8/28累计+5.48%。证券之星所载8/31收盘78.75港元/+1.61%与行情库不符，已作冲突记录。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "price-datapro",
+            "media-jrj-reaction",
+            "price-stockstar"
+          ]
+        },
+        {
+          "text": "相对媒体转述的彭博一致预期：收入高3.5%（1,046.43亿元 vs 约1,010.79亿元），经营利润26.91亿元 vs 预期亏损约8.5亿元，经调整净利润25.24亿元 vs 约3.4亿元；花旗转述市场预期核心本地商业经营利润34.2亿元，实际56.68亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "media-caixin",
+            "media-netease-consensus",
+            "broker-citi"
+          ]
+        },
+        {
+          "text": "预期修正：摩根大通上调至增持、目标价100港元（2027年16倍PE）；花旗目标价113→120港元，2026–28年经调整净利预测24亿/200亿/316亿元。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "broker-jpm",
+            "broker-citi"
+          ]
+        },
+        {
+          "text": "超预期幅度大而股价反应温和，较可能的解释是：修复叙事已在业绩前部分计价，且市场对利润质量打折——剔除其他收益后的经营结果（-8.58亿元）与经营亏损预期（约-8.5亿元）几乎一致，Q3又有季节性回落指引。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "hkex-q2-2026",
+            "price-datapro",
+            "media-netease-consensus",
+            "media-stcn-call"
+          ],
+          "falsifier": "若后续两周内卖方一致预期显著上修且股价持续跑赢恒生科技，则'市场打折利润质量'的解释不成立。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "情景以2026Q3为对象，单位为人民币十亿元：关键分部=核心本地商业经营利润，集团=经调整净利润。基准55%：核心本地商业2.0–5.0，集团-1.5–2.0；乐观20%：5.0–8.0，集团2.0–5.0；悲观25%：-4.0–2.0，集团-7.0至-1.5。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "media-stcn-call",
+            "media-cls-call"
+          ],
+          "falsifier": "若Q3核心本地商业经营利润落在-4.0至8.0之外，则情景框架本身失效。"
+        },
+        {
+          "text": "基准情景的核心假设：Q3季节性回落（单均配送成本与骑手补贴上升）抵消部分激励回收；新业务单季亏损15–30亿元；公司层面AI投入继续推高研发。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "media-stcn-call"
+          ],
+          "falsifier": "若Q3研发费用率回落至6.8%以下或新业务亏损低于15亿元，基准假设需上调。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "核心论点：美团2026Q2的扭亏是真实的，但修复只走完了第一层——收入抵扣型激励回收与旺季单均成本下降；计入费用的激励与营销仍处价格战水平（核心本地商业费用率32.3% vs 2025Q1 23.4%），利润率7.9%距2024Q2的25.1%仍远。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-q1-2026",
+            "hkex-q2-2025"
+          ],
+          "falsifier": "若Q3/Q4核心本地商业经营费用率降至28%以下且利润率维持在7%以上，说明第二层修复已启动。"
+        },
+        {
+          "text": "可证伪指标：(1)核心本地商业经营费用率；(2)商家服务收入同比增速；(3)H2新业务亏损是否≤62.28亿元（FY2025新业务亏损100.82亿元减H1 38.55亿元）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-2026",
+            "hkex-fy2025"
+          ]
+        },
+        {
+          "text": "评级：中性；置信度：中。改变结论所需证据——上调：费用层正常化与商家服务提速同时出现；下调：Q3配送服务收入同比转负或阿里即时零售亏损环比扩大。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-2026",
+            "comp-alibaba-en"
+          ],
+          "falsifier": "若2026Q3同时出现核心本地商业经营利润≥50亿元与费用率<30%，评级应上调。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场共识是什么？",
+        "answer": "外卖战结束、美团重回盈利，核心本地商业利润率修复路径清晰（招商/东吴/花旗/摩根大通均表述'修复逻辑验证'）。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "broker-citi",
+          "broker-jpm"
+        ],
+        "counterevidence": "修复的104%来自毛利层，费用层未降；剔除其他收益的集团经营结果仍为-8.58亿元。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "共识依赖哪个隐藏假设？",
+        "answer": "假设Q2的利润率可以作为后续季度的起点线性改善，即补贴退坡是单向且由美团可控的。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "media-stcn-call",
+          "media-caixin"
+        ],
+        "counterevidence": "管理层指引Q3外卖UE环比下降、骑手补贴增加；财新称管理层表示补贴水平仍明显高于2024年。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "本季最有力抵抗共识的事实是什么？",
+        "answer": "核心本地商业经营费用231.01亿元，较Q1反增2.95亿元，较2025Q1高54.2%；费用率32.3%与2025Q2的33.8%接近。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "hkex-q1-2026"
+        ],
+        "counterevidence": "Q1为季节性淡季，2025Q1费用可能偏低；费用中含生态投入与AI分摊，不全是补贴。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "改善通过什么机制进入利润？",
+        "answer": "收入抵扣型用户激励减少使配送服务收入回升（+13.1%），旺季降低单均配送成本，两者都体现在毛利层（核心本地商业毛利率由32.4%升至40.2%）。",
+        "source_ids": [
+          "hkex-q2-2026"
+        ],
+        "counterevidence": "公司未拆分激励在收入抵扣与销售费用间的比例，机制为基于公告措辞的推断。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "为什么改善出现在本季？季节性、口径或基数能否解释？",
+        "answer": "三项叠加：Q2旺季（公司明确列为原因）、对手同步降补贴（阿里UE环比改善、京东减亏超50%）、SAMR 6月补贴规范征求意见稿；同比基数2025Q2已处战时（利润率5.7%）。口径方面2025Q2收入被重分类调低3.50亿元，经营利润不变。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "comp-alibaba-en",
+          "comp-jd-call",
+          "gov-samr-subsidy",
+          "hkex-q2-2025"
+        ],
+        "counterevidence": "无法从公开数据分离季节性与竞争缓和各自的贡献。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "如果没有监管与对手同步降补贴，结果会怎样？",
+        "answer": "无法用数据回答：没有反事实对照，也缺少分项UE。只能判断旺季因素单独不足以解释配送服务收入由Q1同比-6.5%转为Q2同比+13.1%。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "hkex-q1-2026"
+        ],
+        "counterevidence": "季节性对单均成本的影响可能大于预期。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q7",
+        "question": "二阶效应是什么？",
+        "answer": "若费用层长期停留在高位，美团需要用AI与供给侧效率而非提价来恢复利润；商家服务+4.0%意味着商户端变现率也难以提升，利润修复将更依赖履约效率与自营商品毛利。",
+        "source_ids": [
+          "hkex-q2-2026"
+        ],
+        "counterevidence": "商家服务增速低也可能来自合并口径与广告预算季节性。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "最强多头与空头各怎么说？",
+        "answer": "多头：美团是三家中唯一规模化盈利者，Keeta沙特22个月盈利，FVOCI投资363.87亿元提供弹药，卖方2027年利润预测大幅高于2026年。空头：阿里保住约四成份额并明确UE改善路径，美团份额与利润率回不到战前；利润依赖34.94亿元其他收益；H1自由现金流为负、借款上升。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "media-cls-call",
+          "broker-citi",
+          "comp-alibaba-en",
+          "hkex-interim-2026"
+        ],
+        "counterevidence": "双方都缺少统一口径的份额与UE数据。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "什么已经被计价？",
+        "answer": "8/31仅+1.81%，9/4较8/28累计+5.48%；花旗2027年经调整净利预测200亿元、摩根大通以2027年16倍PE定价，说明市场已把正常化放在2027年。",
+        "source_ids": [
+          "price-datapro",
+          "broker-citi",
+          "broker-jpm"
+        ],
+        "counterevidence": "没有授权一致预期数据，卖方观点来自媒体摘要。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "管理层最难单靠花钱解决的约束是什么？",
+        "answer": "对手行为与份额格局：在阿里保住约四成份额的情况下，费用层能降多少取决于对手是否同步，美团单方面减少投入会冒份额风险。",
+        "source_ids": [
+          "comp-alibaba-en",
+          "share-jiemian",
+          "hkex-q2-2026"
+        ],
+        "counterevidence": "SAMR规范若落地，可能把对手行为制度化约束，降低该约束的强度。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "资源投向是否证实战略叙事？",
+        "answer": "部分证实：研发+22.5%（公司层面AI）、骑手保障与县域商家扶持为持续性投入；但回购仅约2亿港元，H1新增借款298.74亿元，叮咚收购待审批——资源仍在向生态与AI倾斜，而非股东回报。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "hkex-interim-2026"
+        ],
+        "counterevidence": "借款可能主要用于票据再融资（H1赎回票据102.63亿元），不等于扩张性投入。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "下季度什么观察会推翻论点？",
+        "answer": "Q3核心本地商业费用率降至28%以下且经营利润不低于50亿元；或商家服务收入同比≥10%。",
+        "source_ids": [
+          "hkex-q2-2026"
+        ],
+        "counterevidence": "Q3为季节性营销高峰，单季数据可能噪声较大，应结合Q4验证。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "修复只走完第一层：收入抵扣回收了，费用层没有",
+        "consensus_view": "外卖战结束，利润率将沿Q2起点逐季修复。",
+        "new_view": "Q2核心本地商业环比改善的104%来自毛利层（收入抵扣型激励回收+旺季单均成本），分部经营费用反而增加；费用率32.3%仍接近2025Q2战时的33.8%，较2025Q1高8.9pp。下一段修复必须来自费用层，而费用层取决于对手与监管。",
+        "mechanism": "收入抵扣型激励下降 → 配送服务收入回升 → 毛利率由32.4%升至40.2%；计入销售费用的营销与激励未降 → 分部费用率停留高位 → 利润率7.9%远低于2024Q2的25.1%。",
+        "implication": "Q2利润率不能线性外推；情景中Q3核心本地商业经营利润基准区间下调至2.0–5.0十亿元，监测优先级从'份额'转向'分部费用率'。",
+        "source_ids": [
+          "hkex-q2-2026",
+          "hkex-q1-2026",
+          "hkex-q2-2025"
+        ],
+        "counterevidence": "Q1为淡季，2025Q1费用可能偏低；分部费用中含AI分摊与生态投入，不全是补贴；公司未拆分激励的会计归属。",
+        "falsifier": "2026Q3或Q4核心本地商业经营费用率降至28%以下，同时分部收入同比≥8%。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "同步降补贴是监管约束下的行业动作，而不是美团单方面胜利",
+        "consensus_view": "美团凭效率优势赢下外卖战，对手主动撤退。",
+        "new_view": "阿里'维持份额且UE改善'、京东'减亏超50%'、美团'激励审慎'发生在同一季度，并紧接SAMR 6月补贴规范征求意见稿；更像监管约束下的同步降级，阿里约四成份额被保留，因此美团份额与费用层都回不到战前。",
+        "mechanism": "SAMR限制长期大额补贴 → 三家同时降低激励 → 价格战烈度下降、份额格局冻结 → 美团毛利层修复但费用层受份额防守约束。",
+        "implication": "监管终稿是情景概率的关键变量：终稿落地降低悲观情景概率；若撤回或放松，补贴回潮风险上升。",
+        "source_ids": [
+          "gov-samr-subsidy",
+          "comp-alibaba-en",
+          "comp-jd-call",
+          "hkex-q2-2026"
+        ],
+        "counterevidence": "时间上的接近不等于因果；三家降补贴也可能出于各自亏损压力；份额数据口径分歧大。",
+        "falsifier": "2026Q3（暑期旺季）任一平台补贴再度升级：阿里9月季度即时零售亏损环比扩大，或美团配送服务收入同比转负。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 9
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 20,
+      "triggers": [
+        "Q3外卖UE环比仅小幅回落，核心本地商业经营费用率降至30%以下",
+        "阿里与京东9月季度继续收缩补贴，SAMR补贴规范终稿落地",
+        "商家服务收入同比增速回升至≥8%，新业务单季亏损≤15亿元"
+      ],
+      "segment_profit_range": [
+        5.0,
+        8.0
+      ],
+      "group_profit_range": [
+        2.0,
+        5.0
+      ],
+      "unit": "RMB bn, 2026Q3; segment=核心本地商业经营利润, group=经调整净利润"
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "Q3季节性回落按指引发生：骑手补贴与单均配送成本高于Q2、职伤保险增加成本",
+        "竞争烈度维持Q2水平，无补贴升级也无进一步大幅退坡",
+        "新业务单季亏损15–30亿元，公司层面AI投入继续推高研发"
+      ],
+      "segment_profit_range": [
+        2.0,
+        5.0
+      ],
+      "group_profit_range": [
+        -1.5,
+        2.0
+      ],
+      "unit": "RMB bn, 2026Q3"
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "暑期旺季任一对手补贴再度升级，美团被迫跟进",
+        "SAMR终稿延迟或放松，配送服务收入同比转负",
+        "新业务在巴西/小象扩城加码，单季亏损>30亿元"
+      ],
+      "segment_profit_range": [
+        -4.0,
+        2.0
+      ],
+      "group_profit_range": [
+        -7.0,
+        -1.5
+      ],
+      "unit": "RMB bn, 2026Q3"
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "未找到官方电话会文字稿；管理层电话会表述均来自tier3媒体转述，标注为external_fact。",
+      "一致预期来自媒体转述的彭博数据与券商摘要，非授权数据源。",
+      "2025Q2比较期经公司重分类（收入914.90亿元 vs 原始918.40亿元），同比口径以公司重分类为准，原始口径同比为+13.94%。",
+      "新业务配送服务行2025Q2比较期为'–'，口径变化未解释，未解读该行同比。",
+      "Q2单季资本开支与自由现金流未披露，仅给出H1代理值。",
+      "外卖份额四家机构口径冲突，未采信单一数字。",
+      "8/31收盘价存在媒体冲突（78.90 vs 78.75），采用行情库数据。",
+      "8/25单日-6.65%原因未核实；SAMR补贴规范终稿状态未核实。",
+      "情景区间为研究假设，非公司指引；单位为人民币十亿元。",
+      "因公司重分类，2024Q2核心本地商业利润率（25.1%）使用旧收入列示口径，与2026口径不完全可比。"
+    ],
+    "human_review_required": [
+      "冲突口径的处理（重分类、份额、收盘价）",
+      "管理层电话会表述的解读（无官方文字稿）",
+      "'费用层未修复'的因果归因",
+      "情景概率与利润区间",
+      "评级与结论",
+      "Kearney风格措辞及其证据边界"
+    ]
+  }
+}

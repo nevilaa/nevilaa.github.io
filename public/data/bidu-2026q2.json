@@ -1,0 +1,2785 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "bidu-2026q2",
+  "generated_at": "2026-10-03T16:24:03.211316+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "百度集团",
+    "ticker": "BIDU",
+    "listing": "NASDAQ: BIDU / HKEX: 9888（港币柜台）、89888（人民币柜台）",
+    "period": "2026Q2",
+    "period_end": "2026-06-30",
+    "earnings_date": "2026-08-18",
+    "status": "published",
+    "review_gate": "REVIEW_REQUIRED",
+    "title": "百度集团 2026Q2：投入先于回报——算力开支翻倍、借款扩表，而 AI 云在本季环比回落",
+    "thesis": "百度 2026Q2 的关键变化不在 AI 收入占比（50%），而在投资形态：单季资本开支 113.9 亿元、为经营现金流的 3.3 倍，相当部分以融资租赁首付锁定设施，并由季度新增约 171 亿元有息负债覆盖；而资本开支要驱动的 AI 云基础设施收入环比 -17%、广告 -19%。转型已从“以卖养投”进入“借债扩表投”，下半年必须用 AI 云的环比回升证明这笔投入不是领先于需求的产能押注。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎（维持）",
+      "confidence": "medium",
+      "primary_difficulty": "资金来源与资金用途在反向加速：广告现金牛同比 -19%（同期腾讯营销服务 +22%），算力投入却从单季 59 亿元跳升至 114 亿元，自由现金流 -79.5 亿元需由新增借款填补。难点不是缺钱（总现金及投资 2,831 亿元），而是在 AI 云收入尚未证明环比稳定之前，已经把未来数年的成本结构锁定。",
+      "current_difficulties": [
+        {
+          "title": "投入加速而回报未显",
+          "evidence": "资本开支 113.90 亿元（同比 +200%，环比 +93%），资本开支/AI 云收入比由约 67% 升至约 156%；AI 云基础设施收入 73 亿元环比 -17%；H1 融资租赁使用权资产 +93 亿元；资本承诺 215 亿元。",
+          "implication": "折旧与租赁摊销将在 2026H2–2027 逐季上升，若 AI 云收入不回升，毛利率与经营利润率承压。"
+        },
+        {
+          "title": "广告现金牛萎缩、入口份额流失",
+          "evidence": "在线营销 131 亿元同比 -19%，传统业务 104 亿元 -23%，AI 原生营销同比持平（Q1 +36%）；百度 App MAU 6.44 亿，环比减少约 1,100 万；同期腾讯营销服务 +22%、社零 +1.3%。",
+          "implication": "高毛利的资金来源持续收缩，且管理层把 AI 搜索变现置于“先做好产品体验”之后，短期没有替代的利润引擎。"
+        },
+        {
+          "title": "利润质量与资本配置承压",
+          "evidence": "Non-GAAP 归母净利 25.73 亿元（同比 -46.3%），低于 Bloomberg 一致预期约 20%；汇兑损失 11.60 亿元、有效税率 31.2%；有息负债季度 +170.63 亿元，资本负债比率 27%；Q2 回购约 0.37 亿美元（Q1 1.72 亿美元）。",
+          "implication": "盈利波动放大、股东回报让位于投入，估值难以获得“现金流公司”的支撑。"
+        }
+      ],
+      "strategic_judgment": "管理层的选择清晰：以资产负债表换算力，以广告利润换 AI 云规模，并借双重主要上市、港股通与昆仑芯分拆打开资本市场通道。代价是短期股东回报与利润稳定性；成败取决于 GPU 云的高增速能否在下半年转化为 AI 云整体的环比回升与毛利改善。",
+      "strategic_directions": [
+        {
+          "direction": "AI 云/GPU 云算力扩张（自购 + 融资租赁锁定产能）",
+          "rationale": "GPU 云同比 +283% 且加速，管理层称算力供给受限、需求覆盖互联网、具身智能、自动驾驶、手机、金融等行业。",
+          "management_signal": "资本开支 113.90 亿元、融资租赁使用权资产 +93 亿元、资本承诺 215 亿元；管理层预计 H2 AI 云收入保持强劲并有进一步加速潜力；CFO 称大部分投资能迅速投入使用。",
+          "validation": "2026Q3 AI 云基础设施收入 ≥88 亿元，且资本开支/AI 云收入比回落至 100% 以下。"
+        },
+        {
+          "direction": "文心“重回第一梯队”+ 应用驱动（AI 搜索、数字人、秒哒、DuMate、伐谋）",
+          "rationale": "AI 应用同比 +3%、AI 原生营销同比持平，模型竞争力是应用变现与搜索改造的前提。",
+          "management_signal": "CEO 承认文心有过失误，已优化模型组织并引入顶尖 AI 人才；研发费用 46.07 亿元环比 +5%；DuMate 企业版 6 月上线。",
+          "validation": "2026Q3 AI 原生营销同比增速回到 15% 以上，AI 应用收入 ≥27 亿元。"
+        },
+        {
+          "direction": "打开资本市场通道：双重主要上市、港股通、昆仑芯分拆",
+          "rationale": "为全栈 AI 资产引入独立定价与外部资本，缓解投入期的估值与融资约束。",
+          "management_signal": "9/1 双重主要上市生效、9/7 纳入沪深港通；昆仑芯 2026-01-01 保密递表，电话会称 IPO 仍在进行中。",
+          "validation": "昆仑芯公开招股或通过聆讯的时间表；南向资金持股变化。"
+        }
+      ],
+      "core_conflict": "GPU 云加速（+283%）与 AI 云整体环比回落（-17%）同时出现：要么 Q1 的 88 亿元含一次性收入，要么新增算力尚未变现。无论哪种，资本开支已先行跳升到收入的 36%，回报验证被推迟到下半年。",
+      "falsifier": "若 2026Q3 AI 云基础设施收入回升至 ≥88 亿元、广告降幅收窄至 -15% 以内、自由现金流亏空收窄至 30 亿元以内，则谨慎判断被推翻；若 AI 云收入仍 ≤73 亿元而资本开支 ≥100 亿元，则判断加深。",
+      "valuation_context": "BIDU 10/2 收 84.32 美元（9888.HK 83.2 港元），接近 52 周低点 83.95 美元，较财报前累计 -19.0%。卖方分歧扩大：大摩降至减持、目标价 80 美元，摩根大通 175、美银 141 美元维持买入，UOBKH 目标价下调至 145 港元。利润下修与自由现金流转负已大体反映，尚未反映的是 AI 云环比回升或资本开支回落。",
+      "catalyst": "2026Q3 业绩中 AI 云收入环比回升至 Q1 高点以上；9/7 起纳入港股通后的南向资金流入；昆仑芯分拆上市取得实质进展（路透转述的约 500 亿美元估值尚未获独立核实）。",
+      "risk": "资本开支与 215 亿元资本承诺持续推高折旧摊销而 AI 云收入不回升；广告加速下滑或 AI 搜索变现迟滞；萝卜快跑运营连续性与监管风险（Q2 单量约 90–100 万次）；人民币兑美元波动带来的汇兑损失。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。本报告基于公开财报、交易所公告与公开市场数据，可能存在信息滞后或误差；电话会内容来自二手整理，未经官方逐字稿核对。",
+    "approved_at": "2026-10-03T16:24:03.124907+00:00",
+    "approved_by": "user (2026-10-04 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "百度 2026Q2 的关键变化不在 AI 收入占比（50%），而在投资形态：单季资本开支 113.9 亿元、为经营现金流的 3.3 倍，相当部分以融资租赁首付锁定设施，并由季度新增约 171 亿元有息负债覆盖；而资本开支要驱动的 AI 云基础设施收入环比 -17%、广告 -19%。转型已从“以卖养投”进入“借债扩表投”，下半年必须用 AI 云的环比回升证明这笔投入不是领先于需求的产能押注。",
+    "rating": "中性偏谨慎（维持）",
+    "confidence": "medium",
+    "primary_difficulty": "资金来源与资金用途在反向加速：广告现金牛同比 -19%（同期腾讯营销服务 +22%），算力投入却从单季 59 亿元跳升至 114 亿元，自由现金流 -79.5 亿元需由新增借款填补。难点不是缺钱（总现金及投资 2,831 亿元），而是在 AI 云收入尚未证明环比稳定之前，已经把未来数年的成本结构锁定。",
+    "current_difficulties": [
+      {
+        "title": "投入加速而回报未显",
+        "evidence": "资本开支 113.90 亿元（同比 +200%，环比 +93%），资本开支/AI 云收入比由约 67% 升至约 156%；AI 云基础设施收入 73 亿元环比 -17%；H1 融资租赁使用权资产 +93 亿元；资本承诺 215 亿元。",
+        "implication": "折旧与租赁摊销将在 2026H2–2027 逐季上升，若 AI 云收入不回升，毛利率与经营利润率承压。"
+      },
+      {
+        "title": "广告现金牛萎缩、入口份额流失",
+        "evidence": "在线营销 131 亿元同比 -19%，传统业务 104 亿元 -23%，AI 原生营销同比持平（Q1 +36%）；百度 App MAU 6.44 亿，环比减少约 1,100 万；同期腾讯营销服务 +22%、社零 +1.3%。",
+        "implication": "高毛利的资金来源持续收缩，且管理层把 AI 搜索变现置于“先做好产品体验”之后，短期没有替代的利润引擎。"
+      },
+      {
+        "title": "利润质量与资本配置承压",
+        "evidence": "Non-GAAP 归母净利 25.73 亿元（同比 -46.3%），低于 Bloomberg 一致预期约 20%；汇兑损失 11.60 亿元、有效税率 31.2%；有息负债季度 +170.63 亿元，资本负债比率 27%；Q2 回购约 0.37 亿美元（Q1 1.72 亿美元）。",
+        "implication": "盈利波动放大、股东回报让位于投入，估值难以获得“现金流公司”的支撑。"
+      }
+    ],
+    "strategic_judgment": "管理层的选择清晰：以资产负债表换算力，以广告利润换 AI 云规模，并借双重主要上市、港股通与昆仑芯分拆打开资本市场通道。代价是短期股东回报与利润稳定性；成败取决于 GPU 云的高增速能否在下半年转化为 AI 云整体的环比回升与毛利改善。",
+    "strategic_directions": [
+      {
+        "direction": "AI 云/GPU 云算力扩张（自购 + 融资租赁锁定产能）",
+        "rationale": "GPU 云同比 +283% 且加速，管理层称算力供给受限、需求覆盖互联网、具身智能、自动驾驶、手机、金融等行业。",
+        "management_signal": "资本开支 113.90 亿元、融资租赁使用权资产 +93 亿元、资本承诺 215 亿元；管理层预计 H2 AI 云收入保持强劲并有进一步加速潜力；CFO 称大部分投资能迅速投入使用。",
+        "validation": "2026Q3 AI 云基础设施收入 ≥88 亿元，且资本开支/AI 云收入比回落至 100% 以下。"
+      },
+      {
+        "direction": "文心“重回第一梯队”+ 应用驱动（AI 搜索、数字人、秒哒、DuMate、伐谋）",
+        "rationale": "AI 应用同比 +3%、AI 原生营销同比持平，模型竞争力是应用变现与搜索改造的前提。",
+        "management_signal": "CEO 承认文心有过失误，已优化模型组织并引入顶尖 AI 人才；研发费用 46.07 亿元环比 +5%；DuMate 企业版 6 月上线。",
+        "validation": "2026Q3 AI 原生营销同比增速回到 15% 以上，AI 应用收入 ≥27 亿元。"
+      },
+      {
+        "direction": "打开资本市场通道：双重主要上市、港股通、昆仑芯分拆",
+        "rationale": "为全栈 AI 资产引入独立定价与外部资本，缓解投入期的估值与融资约束。",
+        "management_signal": "9/1 双重主要上市生效、9/7 纳入沪深港通；昆仑芯 2026-01-01 保密递表，电话会称 IPO 仍在进行中。",
+        "validation": "昆仑芯公开招股或通过聆讯的时间表；南向资金持股变化。"
+      }
+    ],
+    "core_conflict": "GPU 云加速（+283%）与 AI 云整体环比回落（-17%）同时出现：要么 Q1 的 88 亿元含一次性收入，要么新增算力尚未变现。无论哪种，资本开支已先行跳升到收入的 36%，回报验证被推迟到下半年。",
+    "falsifier": "若 2026Q3 AI 云基础设施收入回升至 ≥88 亿元、广告降幅收窄至 -15% 以内、自由现金流亏空收窄至 30 亿元以内，则谨慎判断被推翻；若 AI 云收入仍 ≤73 亿元而资本开支 ≥100 亿元，则判断加深。",
+    "valuation_context": "BIDU 10/2 收 84.32 美元（9888.HK 83.2 港元），接近 52 周低点 83.95 美元，较财报前累计 -19.0%。卖方分歧扩大：大摩降至减持、目标价 80 美元，摩根大通 175、美银 141 美元维持买入，UOBKH 目标价下调至 145 港元。利润下修与自由现金流转负已大体反映，尚未反映的是 AI 云环比回升或资本开支回落。",
+    "catalyst": "2026Q3 业绩中 AI 云收入环比回升至 Q1 高点以上；9/7 起纳入港股通后的南向资金流入；昆仑芯分拆上市取得实质进展（路透转述的约 500 亿美元估值尚未获独立核实）。",
+    "risk": "资本开支与 215 亿元资本承诺持续推高折旧摊销而 AI 云收入不回升；广告加速下滑或 AI 搜索变现迟滞；萝卜快跑运营连续性与监管风险（Q2 单量约 90–100 万次）；人民币兑美元波动带来的汇兑损失。"
+  },
+  "sources": [
+    {
+      "id": "official-q2-sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526355431/d112854dex991.htm",
+      "title": "Baidu Announces Second Quarter 2026 Results (Form 6-K Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:19+08:00"
+    },
+    {
+      "id": "official-q2-sec-cover",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526355431/d112854d6k.htm",
+      "title": "Baidu, Inc. Form 6-K cover (August 18, 2026)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:20+08:00"
+    },
+    {
+      "id": "official-q2-hkex-en",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0818/2026081801092.pdf",
+      "title": "Announcement of the 2026 Second Quarter Results (HKEXnews, English)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:56+08:00"
+    },
+    {
+      "id": "official-q2-hkex-zh",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0818/2026081801093_c.pdf",
+      "title": "2026年第二季度業績公告（HKEXnews，中文）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:11+08:00"
+    },
+    {
+      "id": "official-interim-2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0917/2026091701609.pdf",
+      "title": "Baidu, Inc. 2026 Interim Report (HKEXnews)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:57+08:00"
+    },
+    {
+      "id": "official-q1-sec",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526228123/d156481dex991.htm",
+      "title": "Baidu Announces First Quarter 2026 Results (Form 6-K Exhibit 99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:24+08:00"
+    },
+    {
+      "id": "official-egm-20260826",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526365827/d174665dex991.htm",
+      "title": "Baidu Announces Results of Extraordinary General Meeting (6-K Ex-99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:21+08:00"
+    },
+    {
+      "id": "official-egm-hk-20260826",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526365827/d174665dex992.htm",
+      "title": "Results of the Extraordinary General Meeting of Shareholders (HK announcement, 6-K Ex-99.2)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:21+08:00"
+    },
+    {
+      "id": "official-dual-primary-20260826",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526369462/d117226dex991.htm",
+      "title": "Baidu Provides Update on Voluntary Conversion to Dual-Primary Listing (6-K Ex-99.1)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:22+08:00"
+    },
+    {
+      "id": "official-dual-primary-hk-20260827",
+      "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526369462/d117226dex992.htm",
+      "title": "Voluntary Conversion to Dual Primary Listing on the Hong Kong Stock Exchange (6-K Ex-99.2)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:16:23+08:00"
+    },
+    {
+      "id": "official-hkex-dual-primary-20260901",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0901/2026090100093.pdf",
+      "title": "Voluntary Announcement: Baidu Announces Dual Primary Listing on the Main Board of HKEX",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:01+08:00"
+    },
+    {
+      "id": "official-hkex-sh-connect-20260904",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090402195.pdf",
+      "title": "Voluntary Announcement: Upcoming Inclusion in the Shanghai-Hong Kong Stock Connect",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:18:00+08:00"
+    },
+    {
+      "id": "official-hkex-sz-connect-20260907",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0907/2026090700195.pdf",
+      "title": "Voluntary Announcement: Inclusion in the Shenzhen-Hong Kong Stock Connect",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:58+08:00"
+    },
+    {
+      "id": "ext-tencent-2q26",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/08/%E8%85%BE%E8%AE%AF%E5%85%AC%E5%B8%83%E4%BA%8C%E9%9B%B6%E4%BA%8C%E5%85%AD%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E4%B8%9A%E7%BB%A9.pdf",
+      "title": "腾讯公布二零二六年第二季业绩（腾讯官方新闻稿，竞对一手披露）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:04+08:00"
+    },
+    {
+      "id": "ext-nbs-retail-202606",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964127.html",
+      "title": "2026年上半年社会消费品零售总额增长1.3%（国家统计局）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:21:05+08:00"
+    },
+    {
+      "id": "ext-uobkh-2q26-results",
+      "url": "https://uobkh.com.hk/strapi-uploads/1_Baidu_Inc_9888_HK_9c731cd0fd.pdf",
+      "title": "UOB Kay Hian: Baidu (9888 HK) 2Q26 Earnings Miss（含 Bloomberg 一致预期对比）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:19:09+08:00"
+    },
+    {
+      "id": "ext-uobkh-2q26-preview",
+      "url": "https://uobkh.com.hk/strapi-uploads/2_Baidu_Inc_9888_HK_97a189a2b6.pdf",
+      "title": "UOB Kay Hian: Baidu (9888 HK) 2Q26 Results Preview",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:19:11+08:00"
+    },
+    {
+      "id": "ext-alphasense-call",
+      "url": "https://www.alpha-sense.com/earnings/bidu/",
+      "title": "AlphaSense: Baidu Q2 2026 earnings call summary（电话会要点二手整理，非官方逐字稿）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:19:15+08:00"
+    },
+    {
+      "id": "ext-yahoo-bidu",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/BIDU?period1=1782864000&period2=1791100800&interval=1d",
+      "title": "Yahoo Finance BIDU daily chart API (2026-07-01 to 2026-10-02)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:20:08+08:00"
+    },
+    {
+      "id": "ext-yahoo-9888hk",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/9888.HK?period1=1782864000&period2=1791100800&interval=1d",
+      "title": "Yahoo Finance 9888.HK daily chart API (2026-07-01 to 2026-10-02)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:20:08+08:00"
+    },
+    {
+      "id": "ext-cls-call",
+      "url": "https://m.cls.cn/detail/2457535",
+      "title": "科创板日报：百度Q2 GPU云同比增长283%，李彦宏：昆仑芯已完成三代AI芯片的研发和商业化（含电话会引述）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-sina-huxiu-call",
+      "url": "http://finance.sina.cn/stock/jdts/2026-08-19/detail-ininwpna8222532.d.html",
+      "title": "虎嗅/AI资本观：一文读透百度AI（含电话会问答与股价描述）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:20:59+08:00"
+    },
+    {
+      "id": "ext-21jingji",
+      "url": "https://m.21jingji.com/article/20260819/herald/3dbbcdc297f422aaa93c66fefe629983.html",
+      "title": "21世纪经济报道：百度AI扛起大旗了吗？（含一致预期、目标价调整）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:01+08:00"
+    },
+    {
+      "id": "ext-eastmoney-ms",
+      "url": "https://finance.eastmoney.com/a/202608193846002982.html",
+      "title": "财联社/东方财富：摩根士丹利将百度美股评级下调至减持，目标价130→80美元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-stockanalysis-ratings",
+      "url": "https://stockanalysis.com/stocks/bidu/ratings/",
+      "title": "StockAnalysis (TipRanks data): Baidu analyst ratings history",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:21:02+08:00"
+    },
+    {
+      "id": "ext-stcn-capex",
+      "url": "https://www.stcn.com/article/detail/4099678.html",
+      "title": "证券时报e公司观察：腾讯阿里二季度资本开支超1200亿元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:20:58+08:00"
+    },
+    {
+      "id": "ext-stcn-zqrb",
+      "url": "https://www.stcn.com/article/detail/4085616.html",
+      "title": "证券日报：百度二季度AI业务营收占比达50%（含中标金额、IDC份额口径）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:44+08:00"
+    },
+    {
+      "id": "ext-people-q2",
+      "url": "http://finance.people.com.cn/n1/2026/0819/c1004-40782148.html",
+      "title": "人民网：AI业务收入占比连续过半 百度第二季度总营收313亿元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:06+08:00"
+    },
+    {
+      "id": "ext-peopleapp-wuhan",
+      "url": "https://www.peopleapp.com/column/30051781800-500007421664",
+      "title": "人民日报客户端：武汉多辆“萝卜快跑”出故障停在路中间，警方通报",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:03+08:00"
+    },
+    {
+      "id": "ext-thepaper-wuhan",
+      "url": "https://www.thepaper.cn/newsDetail_forward_32869508",
+      "title": "澎湃新闻：武汉“萝卜快跑”车辆停滞已恢复",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:03+08:00"
+    },
+    {
+      "id": "ext-stockstar-cloud",
+      "url": "https://wap.stockstar.com/detail/IG2026092800022387",
+      "title": "证券之星/港股研究社：百度的AI资产，究竟该先看云，还是先看昆仑芯？（含阿里云收入、昆仑芯估值传闻核实说明）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:05+08:00"
+    },
+    {
+      "id": "ext-sina-hk-ipo",
+      "url": "https://finance.sina.com.cn/trust/2026-09-26/doc-initefia4088245.shtml",
+      "title": "战投观察/新浪财经：2026年已秘密递表港股IPO名单（昆仑芯状态）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:21:06+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "is-revenue-2026q2",
+      "metric": "revenue",
+      "value": 31325,
+      "display_value": "313.25亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "总收入 RMB31,325 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "is-revenue-2026q1",
+      "metric": "revenue",
+      "value": 32075,
+      "display_value": "320.75亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en",
+        "official-q1-sec"
+      ],
+      "evidence": "总收入 RMB32,075 million（2026Q1）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "is-revenue-2025q2",
+      "metric": "revenue",
+      "value": 32713,
+      "display_value": "327.13亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "总收入 RMB32,713 million（2025Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "d-rev-yoy",
+      "metric": "revenue_yoy",
+      "value": -4.243,
+      "display_value": "-4.2%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：revenue_2026Q2/revenue_2025Q2-1；输入：is-revenue-2026q2, is-revenue-2025q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-rev-qoq",
+      "metric": "revenue_qoq",
+      "value": -2.3383,
+      "display_value": "-2.3%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q1-sec",
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：revenue_2026Q2/revenue_2026Q1-1；输入：is-revenue-2026q2, is-revenue-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "seg-revenue-baidu-2026q2",
+      "metric": "revenue",
+      "value": 25183,
+      "display_value": "251.83亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": "Baidu General Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu General Business revenue RMB25,183 million（2026Q2）",
+      "location": "Selected Information（SEC Ex-99.1 p.10；HKEX 公告 p.13）"
+    },
+    {
+      "id": "seg-revenue-iqiyi-2026q2",
+      "metric": "revenue",
+      "value": 6287,
+      "display_value": "62.87亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": "iQIYI",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "iQIYI revenue RMB6,287 million（2026Q2）",
+      "location": "Selected Information（SEC Ex-99.1 p.10；HKEX 公告 p.13）"
+    },
+    {
+      "id": "ai-core_ai_powered_revenue-2026q2",
+      "metric": "core_ai_powered_revenue",
+      "value": 12.5,
+      "display_value": "125亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q2",
+      "segment": "Baidu Core AI-powered Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu Core AI-powered Business RMB12.5 billion（2026Q2，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "ai-core_ai_powered_revenue-2026q1",
+      "metric": "core_ai_powered_revenue",
+      "value": 13.6,
+      "display_value": "136亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q1",
+      "segment": "Baidu Core AI-powered Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu Core AI-powered Business RMB13.6 billion（2026Q1，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "ai-ai_cloud_infra_revenue-2026q2",
+      "metric": "ai_cloud_infra_revenue",
+      "value": 7.3,
+      "display_value": "73亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q2",
+      "segment": "AI Cloud Infra",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "AI Cloud Infra RMB7.3 billion（2026Q2，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "ai-ai_cloud_infra_revenue-2026q1",
+      "metric": "ai_cloud_infra_revenue",
+      "value": 8.8,
+      "display_value": "88亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q1",
+      "segment": "AI Cloud Infra",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "AI Cloud Infra RMB8.8 billion（2026Q1，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "ai-ai_cloud_infra_revenue-2025q2",
+      "metric": "ai_cloud_infra_revenue",
+      "value": 4.9,
+      "display_value": "49亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2025Q2",
+      "segment": "AI Cloud Infra",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "AI Cloud Infra RMB4.9 billion（2025Q2，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "d-aicloud-qoq",
+      "metric": "ai_cloud_infra_qoq",
+      "value": -17.0455,
+      "display_value": "-17%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "AI Cloud Infra",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：7.3/8.8-1（公司披露 -17%）；输入：ai-ai_cloud_infra_revenue-2026q2, ai-ai_cloud_infra_revenue-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "op-gpu-cloud-yoy-2026q2",
+      "metric": "gpu_cloud_revenue_yoy",
+      "value": 283,
+      "display_value": "+283% YoY",
+      "currency": "CNY",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "GPU Cloud",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "revenue from GPU Cloud increased by 283% year over year ... further accelerating from 184% growth in the previous quarter",
+      "location": "AI Cloud Infra bullets（SEC Ex-99.1 p.2；HKEX 公告 p.3）"
+    },
+    {
+      "id": "ai-ai_applications_revenue-2026q2",
+      "metric": "ai_applications_revenue",
+      "value": 2.5,
+      "display_value": "25亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q2",
+      "segment": "AI Applications",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "AI Applications RMB2.5 billion（2026Q2，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "ai-ai_native_marketing_revenue-2026q2",
+      "metric": "ai_native_marketing_revenue",
+      "value": 2.6,
+      "display_value": "26亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q2",
+      "segment": "AI-native Marketing Services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "AI-native Marketing Services RMB2.6 billion（2026Q2，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "ai-legacy_business_revenue-2026q2",
+      "metric": "legacy_business_revenue",
+      "value": 10.4,
+      "display_value": "104亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q2",
+      "segment": "Legacy Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Legacy Business RMB10.4 billion（2026Q2，公司以十亿元四舍五入披露）",
+      "location": "Baidu Core AI-powered Business revenue table（SEC Ex-99.1 p.2-3；HKEX 公告 pp.3-4）"
+    },
+    {
+      "id": "ai-online_marketing_revenue-2026q2",
+      "metric": "online_marketing_revenue",
+      "value": 13.1,
+      "display_value": "131亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026Q2",
+      "segment": "Online Marketing Services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Online Marketing Services RMB13.1 billion（2026Q2，公司以十亿元四舍五入披露）",
+      "location": "Revenue highlights for Baidu General Business table（SEC Ex-99.1 p.3；HKEX 公告 p.4）"
+    },
+    {
+      "id": "ai-online_marketing_revenue-2025q2",
+      "metric": "online_marketing_revenue",
+      "value": 16.2,
+      "display_value": "162亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2025Q2",
+      "segment": "Online Marketing Services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Online Marketing Services RMB16.2 billion（2025Q2，公司以十亿元四舍五入披露）",
+      "location": "Revenue highlights for Baidu General Business table（SEC Ex-99.1 p.3；HKEX 公告 p.4）"
+    },
+    {
+      "id": "d-replacement-ratio-2026q2",
+      "metric": "ai_increment_over_legacy_decline",
+      "value": 78.125,
+      "display_value": "78%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：(AI_2026Q2-AI_2025Q2)/(Legacy_2025Q2-Legacy_2026Q2)；输入：ai-core_ai_powered_revenue-2026q2, ai-core_ai_powered_revenue-2025q2, ai-legacy_business_revenue-2025q2, ai-legacy_business_revenue-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-replacement-ratio-2026q1",
+      "metric": "ai_increment_over_legacy_decline",
+      "value": 109.7561,
+      "display_value": "110%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q1-sec",
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：(AI_2026Q1-AI_2025Q1)/(Legacy_2025Q1-Legacy_2026Q1)；输入：ai-core_ai_powered_revenue-2026q1, ai-core_ai_powered_revenue-2025q1, ai-legacy_business_revenue-2025q1, ai-legacy_business_revenue-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "op-baidu-app-mau-2026q2",
+      "metric": "baidu_app_mau",
+      "value": 644,
+      "display_value": "6.44亿",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2026-06",
+      "segment": "Baidu App",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu App's MAUs reached 644 million in June 2026",
+      "location": "AI-native Marketing Services bullets（SEC Ex-99.1 p.2；HKEX 公告 p.4）"
+    },
+    {
+      "id": "op-baidu-app-mau-2026q1",
+      "metric": "baidu_app_mau",
+      "value": 655,
+      "display_value": "6.55亿",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2026-03",
+      "segment": "Baidu App",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-sec"
+      ],
+      "evidence": "Baidu App's MAUs reached 655 million in March 2026",
+      "location": "AI-native Marketing Services bullets（Q1 Ex-99.1 p.2）"
+    },
+    {
+      "id": "d-mau-qoq",
+      "metric": "baidu_app_mau_qoq_change",
+      "value": -11,
+      "display_value": "-1,100万",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q1-sec",
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：MAU Jun-2026 - MAU Mar-2026；输入：op-baidu-app-mau-2026q2, op-baidu-app-mau-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "op-apollo-rides-2026q1",
+      "metric": "apollo_go_fully_driverless_rides",
+      "value": 3.2,
+      "display_value": "320万次",
+      "currency": "N/A",
+      "unit": "million_rides",
+      "period": "2026Q1",
+      "segment": "Apollo Go",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-sec"
+      ],
+      "evidence": "Apollo Go ... delivered 3.2 million fully driverless operational rides",
+      "location": "Robotaxi bullets（Q1 Ex-99.1 p.2）"
+    },
+    {
+      "id": "op-apollo-rides-2026h1",
+      "metric": "apollo_go_fully_driverless_rides",
+      "value": 4.1,
+      "display_value": "超410万次",
+      "currency": "N/A",
+      "unit": "million_rides",
+      "period": "2026H1",
+      "segment": "Apollo Go",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "Apollo Go provided over 4.1 million fully driverless operational rides during the Reporting Period, bringing cumulative rides ... to more than 23 million as of June 30, 2026",
+      "location": "Business Review — Apollo Go（2026 中期报告 p.5）"
+    },
+    {
+      "id": "d-apollo-rides-q2",
+      "metric": "apollo_go_rides_q2_implied",
+      "value": 0.9,
+      "display_value": "约90万次（下限近似）",
+      "currency": "N/A",
+      "unit": "million_rides",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-interim-2026",
+        "official-q1-sec"
+      ],
+      "evidence": "公式：H1(>4.1m) - Q1(3.2m)；两者均为“超过/约”口径，仅为近似；输入：op-apollo-rides-2026h1, op-apollo-rides-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "is-cost_of_revenue-2026q2",
+      "metric": "cost_of_revenue",
+      "value": 19098,
+      "display_value": "190.98亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "营业成本 RMB19,098 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "d-gross-margin-2026q2",
+      "metric": "gross_margin",
+      "value": 39.0327,
+      "display_value": "39.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：(revenue - cost_of_revenue)/revenue；输入：is-revenue-2026q2, is-cost_of_revenue-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-gross-margin-2025q2",
+      "metric": "gross_margin",
+      "value": 43.8847,
+      "display_value": "43.9%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：(revenue - cost_of_revenue)/revenue；输入：is-revenue-2025q2, is-cost_of_revenue-2025q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-general-gross-margin-2026q2",
+      "metric": "general_business_gross_margin",
+      "value": 44.4784,
+      "display_value": "44.5%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Baidu General Business",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：(GB revenue - GB COGS)/GB revenue；输入：seg-revenue-baidu-2026q2, seg-cost_of_revenue-baidu-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-general-gross-margin-2025q2",
+      "metric": "general_business_gross_margin",
+      "value": 49.6629,
+      "display_value": "49.7%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": "Baidu General Business",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：(GB revenue - GB COGS)/GB revenue；输入：seg-revenue-baidu-2025q2, seg-cost_of_revenue-baidu-2025q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "is-sga-2026q2",
+      "metric": "sga",
+      "value": 4596,
+      "display_value": "45.96亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "销售、一般及管理费用 RMB4,596 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "is-rnd-2026q2",
+      "metric": "rnd",
+      "value": 4607,
+      "display_value": "46.07亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "研发费用 RMB4,607 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "is-operating_income-2026q2",
+      "metric": "operating_income",
+      "value": 3024,
+      "display_value": "30.24亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "经营利润（GAAP） RMB3,024 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "d-op-margin-2026q2",
+      "metric": "operating_margin",
+      "value": 9.6536,
+      "display_value": "9.7%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：operating_income/revenue；输入：is-operating_income-2026q2, is-revenue-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "seg-non_gaap_operating_income-group-2026q2",
+      "metric": "non_gaap_operating_income",
+      "value": 3785,
+      "display_value": "37.85亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": "Baidu, Inc.",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu, Inc. non_gaap_operating_income RMB3,785 million（2026Q2）",
+      "location": "Reconciliations of Non-GAAP（SEC Ex-99.1 p.12；HKEX 公告 p.15）"
+    },
+    {
+      "id": "seg-non_gaap_operating_income-baidu-2026q2",
+      "metric": "non_gaap_operating_income",
+      "value": 3818,
+      "display_value": "38.18亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": "Baidu General Business",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu General Business non_gaap_operating_income RMB3,818 million（2026Q2）",
+      "location": "Reconciliations of Non-GAAP（SEC Ex-99.1 p.12；HKEX 公告 p.15）"
+    },
+    {
+      "id": "d-general-ng-op-margin-2026q2",
+      "metric": "general_business_non_gaap_op_margin",
+      "value": 15.161,
+      "display_value": "15.2%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Baidu General Business",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：GB non-GAAP OI / GB revenue；输入：seg-non_gaap_operating_income-baidu-2026q2, seg-revenue-baidu-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-gb-ngoi-yoy",
+      "metric": "general_non_gaap_oi_yoy",
+      "value": -12.9304,
+      "display_value": "-12.9%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": "Baidu General Business",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：GB nonGAAP OI 2026Q2/2025Q2-1；输入：seg-non_gaap_operating_income-baidu-2026q2, seg-non_gaap_operating_income-baidu-2025q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "is-fx_loss-2026q2",
+      "metric": "fx_loss",
+      "value": -1160,
+      "display_value": "-11.60亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "汇兑损失净额 RMB-1,160 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "is-other_income_total-2026q2",
+      "metric": "other_income_total",
+      "value": 184,
+      "display_value": "1.84亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "其他收入合计 RMB184 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "is-income_tax-2026q2",
+      "metric": "income_tax",
+      "value": 1000,
+      "display_value": "10.00亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "所得税费用 RMB1,000 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "d-tax-rate-2026q2",
+      "metric": "effective_tax_rate",
+      "value": 31.1721,
+      "display_value": "31.2%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：income_tax/pretax_income；输入：is-income_tax-2026q2, is-pretax_income-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "is-net_income_attrib-2026q2",
+      "metric": "net_income_attrib",
+      "value": 2319,
+      "display_value": "23.19亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "归属百度净利润 RMB2,319 million（2026Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "is-net_income_attrib-2025q2",
+      "metric": "net_income_attrib",
+      "value": 7322,
+      "display_value": "73.22亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "归属百度净利润 RMB7,322 million（2025Q2）",
+      "location": "Condensed Consolidated Statements of Income（SEC Ex-99.1 p.8；HKEX 公告 p.9）"
+    },
+    {
+      "id": "d-ni-yoy",
+      "metric": "net_income_attrib_yoy",
+      "value": -68.3283,
+      "display_value": "-68.3%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：NI_2026Q2/NI_2025Q2-1；输入：is-net_income_attrib-2026q2, is-net_income_attrib-2025q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "seg-non_gaap_net_income_attrib-group-2026q2",
+      "metric": "non_gaap_net_income_attrib",
+      "value": 2573,
+      "display_value": "25.73亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": "Baidu, Inc.",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu, Inc. non_gaap_net_income_attrib RMB2,573 million（2026Q2）",
+      "location": "Reconciliations of Non-GAAP（SEC Ex-99.1 p.12；HKEX 公告 p.15）"
+    },
+    {
+      "id": "seg-non_gaap_net_income_attrib-group-2025q2",
+      "metric": "non_gaap_net_income_attrib",
+      "value": 4795,
+      "display_value": "47.95亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q2",
+      "segment": "Baidu, Inc.",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu, Inc. non_gaap_net_income_attrib RMB4,795 million（2025Q2）",
+      "location": "Reconciliations of Non-GAAP（SEC Ex-99.1 p.12；HKEX 公告 p.15）"
+    },
+    {
+      "id": "d-ngni-yoy",
+      "metric": "non_gaap_ni_yoy",
+      "value": -46.3399,
+      "display_value": "-46.3%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：nonGAAP NI 2026Q2/2025Q2-1；输入：seg-non_gaap_net_income_attrib-group-2026q2, seg-non_gaap_net_income_attrib-group-2025q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-ngni-qoq",
+      "metric": "non_gaap_ni_qoq",
+      "value": -40.6048,
+      "display_value": "-40.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：nonGAAP NI 2026Q2/2026Q1-1；输入：seg-non_gaap_net_income_attrib-group-2026q2, seg-non_gaap_net_income_attrib-group-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "seg-adjusted_ebitda-group-2026q2",
+      "metric": "adjusted_ebitda",
+      "value": 6150,
+      "display_value": "61.50亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": "Baidu, Inc.",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu, Inc. adjusted_ebitda RMB6,150 million（2026Q2）",
+      "location": "Reconciliations of Non-GAAP（SEC Ex-99.1 p.12；HKEX 公告 p.15）"
+    },
+    {
+      "id": "seg-depreciation_amortization-group-2026q2",
+      "metric": "depreciation_amortization",
+      "value": 2365,
+      "display_value": "23.65亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": "Baidu, Inc.",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu, Inc. depreciation_amortization RMB2,365 million（2026Q2）",
+      "location": "Reconciliations of Non-GAAP（SEC Ex-99.1 p.12；HKEX 公告 p.15）"
+    },
+    {
+      "id": "seg-depreciation_amortization-group-2025q2",
+      "metric": "depreciation_amortization",
+      "value": 2047,
+      "display_value": "20.47亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q2",
+      "segment": "Baidu, Inc.",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu, Inc. depreciation_amortization RMB2,047 million（2025Q2）",
+      "location": "Reconciliations of Non-GAAP（SEC Ex-99.1 p.12；HKEX 公告 p.15）"
+    },
+    {
+      "id": "cf-operating_cash_flow-2026q2",
+      "metric": "operating_cash_flow",
+      "value": 3436,
+      "display_value": "34.36亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "operating_cash_flow RMB3,436 million（Baidu, Inc.）",
+      "location": "Condensed Consolidated Statements of Cash Flows（SEC Ex-99.1 p.11；HKEX 公告 p.14）"
+    },
+    {
+      "id": "cf-capex-2026q2",
+      "metric": "capex",
+      "value": -11390,
+      "display_value": "-113.90亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "capex RMB-11,390 million（Baidu, Inc.）",
+      "location": "Condensed Consolidated Statements of Cash Flows（SEC Ex-99.1 p.11；HKEX 公告 p.14）"
+    },
+    {
+      "id": "cf-capex-2026q1",
+      "metric": "capex",
+      "value": -5916,
+      "display_value": "-59.16亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en",
+        "official-q1-sec"
+      ],
+      "evidence": "capex RMB-5,916 million（Baidu, Inc.）",
+      "location": "Condensed Consolidated Statements of Cash Flows（SEC Ex-99.1 p.11；HKEX 公告 p.14）"
+    },
+    {
+      "id": "cf-capex-2025q2",
+      "metric": "capex",
+      "value": -3800,
+      "display_value": "-38.00亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "capex RMB-3,800 million（Baidu, Inc.）",
+      "location": "Condensed Consolidated Statements of Cash Flows（SEC Ex-99.1 p.11；HKEX 公告 p.14）"
+    },
+    {
+      "id": "cf-free_cash_flow-2026q2",
+      "metric": "free_cash_flow",
+      "value": -7954,
+      "display_value": "-79.54亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "free_cash_flow RMB-7,954 million（Baidu, Inc.）",
+      "location": "Condensed Consolidated Statements of Cash Flows（SEC Ex-99.1 p.11；HKEX 公告 p.14）"
+    },
+    {
+      "id": "cf-free_cash_flow-2026q1",
+      "metric": "free_cash_flow",
+      "value": -3246,
+      "display_value": "-32.46亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en",
+        "official-q1-sec"
+      ],
+      "evidence": "free_cash_flow RMB-3,246 million（Baidu, Inc.）",
+      "location": "Condensed Consolidated Statements of Cash Flows（SEC Ex-99.1 p.11；HKEX 公告 p.14）"
+    },
+    {
+      "id": "cf-financing_cash_flow-2026q2",
+      "metric": "financing_cash_flow",
+      "value": 17405,
+      "display_value": "174.05亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "financing_cash_flow RMB17,405 million（Baidu, Inc.）",
+      "location": "Condensed Consolidated Statements of Cash Flows（SEC Ex-99.1 p.11；HKEX 公告 p.14）"
+    },
+    {
+      "id": "cfh1-capex_h1-2026h1",
+      "metric": "capex_h1",
+      "value": -17306,
+      "display_value": "-173.06亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "capex_h1 RMB-17,306 million",
+      "location": "Interim Condensed Consolidated Statements of Cash Flows（2026 中期报告 p.35）"
+    },
+    {
+      "id": "d-capex-to-rev-2026q2",
+      "metric": "capex_to_revenue",
+      "value": 36.3607,
+      "display_value": "36.4%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：capex/revenue；输入：cf-capex-2026q2, is-revenue-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-capex-to-aicloud-2026q2",
+      "metric": "capex_to_ai_cloud_infra_revenue",
+      "value": 156.0274,
+      "display_value": "156%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：capex / AI Cloud Infra revenue（后者为十亿元四舍五入）；输入：cf-capex-2026q2, ai-ai_cloud_infra_revenue-2026q2",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-capex-to-aicloud-2026q1",
+      "metric": "capex_to_ai_cloud_infra_revenue",
+      "value": 67.2273,
+      "display_value": "67%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q1-sec",
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：capex / AI Cloud Infra revenue（后者为十亿元四舍五入）；输入：cf-capex-2026q1, ai-ai_cloud_infra_revenue-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "ir-capital-commitments-2026-06-30",
+      "metric": "capital_commitments",
+      "value": 21.5,
+      "display_value": "215亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "total capital commitments contracted but not yet reflected in the financial statements amounted to RMB21.5 billion; mainly purchase of fixed assets and upfront payments on finance lease",
+      "location": "MD&A — Capital Expenditures and Capital Commitments（2026 中期报告 pp.12-13）"
+    },
+    {
+      "id": "lease-finance_lease_rou-2025-12-31",
+      "metric": "finance_lease_rou",
+      "value": 677,
+      "display_value": "6.77亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "finance_lease_rou RMB677 million",
+      "location": "Note 8 Leases（2026 中期报告 p.49）"
+    },
+    {
+      "id": "lease-finance_lease_rou-2026-06-30",
+      "metric": "finance_lease_rou",
+      "value": 9991,
+      "display_value": "99.91亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "finance_lease_rou RMB9,991 million",
+      "location": "Note 8 Leases（2026 中期报告 p.49）"
+    },
+    {
+      "id": "d-finance-lease-rou-change-h1",
+      "metric": "finance_lease_rou_change",
+      "value": 9314,
+      "display_value": "+93.14亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "公式：finance ROU Jun30 - Dec31；输入：lease-finance_lease_rou-2026-06-30, lease-finance_lease_rou-2025-12-31",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-finance-lease-liab-change-h1",
+      "metric": "finance_lease_liability_change",
+      "value": 1000,
+      "display_value": "+10.00亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "公式：finance lease liabilities Jun30 - Dec31；输入：lease-finance_lease_liab_current-2026-06-30, lease-finance_lease_liab_noncurrent-2026-06-30, lease-finance_lease_liab_current-2025-12-31, lease-finance_lease_liab_noncurrent-2025-12-31",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-finance-lease-gap-h1",
+      "metric": "finance_lease_rou_minus_liability_change",
+      "value": 8314,
+      "display_value": "约83亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "公式：ΔfinanceROU - Δfinance lease liabilities（未计 H1 摊销 1.97 亿元；差额可近似视为预付/首付部分的上限量级）；输入：lease-finance_lease_rou-2026-06-30, lease-finance_lease_rou-2025-12-31, lease-finance_lease_liab_current-2026-06-30, lease-finance_lease_liab_noncurrent-2026-06-30",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-fixed-assets-change-h1",
+      "metric": "fixed_assets_net_change",
+      "value": 2203,
+      "display_value": "+22.03亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：fixed_assets_net Jun30 - Dec31；输入：bs-fixed_assets_net-2026-06-30, bs-fixed_assets_net-2025-12-31",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "ir-total-cash-investments-2026q2",
+      "metric": "total_cash_and_investments",
+      "value": 283.1,
+      "display_value": "2,831亿元",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "As of June 30, 2026, total cash and investments were RMB283.1 billion",
+      "location": "Financial results text（SEC Ex-99.1 p.4；HKEX 公告 p.5）"
+    },
+    {
+      "id": "bs-short_term_loans-2026-03-31",
+      "metric": "short_term_loans",
+      "value": 3979,
+      "display_value": "39.79亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026-03-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-sec"
+      ],
+      "evidence": "short_term_loans RMB3,979 million",
+      "location": "Condensed Consolidated Balance Sheets（Q1 Ex-99.1 p.9）"
+    },
+    {
+      "id": "bs-short_term_loans-2026-06-30",
+      "metric": "short_term_loans",
+      "value": 26311,
+      "display_value": "263.11亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "short_term_loans RMB26,311 million",
+      "location": "Condensed Consolidated Balance Sheets（SEC Ex-99.1 p.9；HKEX 公告 p.11）"
+    },
+    {
+      "id": "bs-lt_loans-2026-06-30",
+      "metric": "lt_loans",
+      "value": 20779,
+      "display_value": "207.79亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "lt_loans RMB20,779 million",
+      "location": "Condensed Consolidated Balance Sheets（SEC Ex-99.1 p.9；HKEX 公告 p.11）"
+    },
+    {
+      "id": "d-total-debt-2026-03-31",
+      "metric": "interest_bearing_debt",
+      "value": 86797,
+      "display_value": "867.97亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026-03-31",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q1-sec"
+      ],
+      "evidence": "公式：short_term_loans + lt_loans(current+non-current) + notes_payable(current+non-current) + convertible_notes(current+non-current)；输入：bs-short_term_loans-2026-03-31, bs-lt_loans_current-2026-03-31, bs-convertible_notes_current-2026-03-31, bs-notes_payable_current-2026-03-31, bs-lt_loans-2026-03-31, bs-notes_payable-2026-03-31, bs-convertible_notes-2026-03-31",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-total-debt-2026-06-30",
+      "metric": "interest_bearing_debt",
+      "value": 103860,
+      "display_value": "1,038.60亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：short_term_loans + lt_loans(current+non-current) + notes_payable(current+non-current) + convertible_notes(current+non-current)；输入：bs-short_term_loans-2026-06-30, bs-lt_loans_current-2026-06-30, bs-convertible_notes_current-2026-06-30, bs-notes_payable_current-2026-06-30, bs-lt_loans-2026-06-30, bs-notes_payable-2026-06-30, bs-convertible_notes-2026-06-30",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-debt-qoq",
+      "metric": "interest_bearing_debt_qoq_change",
+      "value": 17063,
+      "display_value": "+170.63亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q1-sec",
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：debt_Jun30 - debt_Mar31；输入：bs-short_term_loans-2026-06-30, bs-lt_loans-2026-06-30, bs-short_term_loans-2026-03-31, bs-lt_loans-2026-03-31",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "d-net-borrowing-h1",
+      "metric": "net_bank_borrowing_h1",
+      "value": 23588,
+      "display_value": "+235.88亿元",
+      "currency": "CNY",
+      "unit": "million_yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "公式：ST proceeds - ST repayments + LT proceeds - LT repayments；输入：cfh1-st_loan_proceeds_h1-2026h1, cfh1-st_loan_repayments_h1-2026h1, cfh1-lt_loan_proceeds_h1-2026h1, cfh1-lt_loan_repayments_h1-2026h1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "ir-gearing-2026-06-30",
+      "metric": "gearing_ratio",
+      "value": 27,
+      "display_value": "27%",
+      "currency": "CNY",
+      "unit": "percent",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "gearing ratio was 27%, compared to 24% as of December 31, 2025",
+      "location": "MD&A — Gearing Ratio（2026 中期报告 p.11）"
+    },
+    {
+      "id": "d-net-cash-proxy-2026q2",
+      "metric": "total_cash_investments_less_debt",
+      "value": 179.24,
+      "display_value": "约179.2十亿元（约1,792亿元）",
+      "currency": "CNY",
+      "unit": "billion_yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-q2-hkex-en",
+        "official-q2-sec"
+      ],
+      "evidence": "公式：total_cash_and_investments(含调整后长期投资) - interest_bearing_debt；为近似口径；输入：ir-total-cash-investments-2026q2, bs-short_term_loans-2026-06-30, bs-notes_payable-2026-06-30",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "op-buyback-2026q1",
+      "metric": "share_repurchase",
+      "value": 172,
+      "display_value": "1.72亿美元",
+      "currency": "USD",
+      "unit": "million_usd",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q1-sec"
+      ],
+      "evidence": "Baidu returned US$172 million to shareholders in Q1 2026 through the repurchases",
+      "location": "Corporate bullets（Q1 Ex-99.1 p.1）"
+    },
+    {
+      "id": "op-buyback-2026h1",
+      "metric": "share_repurchase",
+      "value": 209,
+      "display_value": "2.09亿美元",
+      "currency": "USD",
+      "unit": "million_usd",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "repurchased ... for an aggregate consideration of US$209 million (before expense)",
+      "location": "Other Information — Purchase of Listed Securities（中期报告）"
+    },
+    {
+      "id": "op-buyback-since-q1-2026",
+      "metric": "share_repurchase_cumulative",
+      "value": 259,
+      "display_value": "2.59亿美元",
+      "currency": "USD",
+      "unit": "million_usd",
+      "period": "2026-01-01..2026-08-18",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-q2-sec",
+        "official-q2-hkex-en"
+      ],
+      "evidence": "Baidu has returned US$259 million to shareholders since the beginning of Q1 2026 through repurchases",
+      "location": "Corporate bullets（SEC Ex-99.1 p.1）"
+    },
+    {
+      "id": "d-buyback-q2",
+      "metric": "share_repurchase_q2_implied",
+      "value": 37,
+      "display_value": "约0.37亿美元",
+      "currency": "N/A",
+      "unit": "million_usd",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-interim-2026",
+        "official-q1-sec"
+      ],
+      "evidence": "公式：H1 repurchase 209 - Q1 172（前者为 before expense 口径）；输入：op-buyback-2026h1, op-buyback-2026q1",
+      "location": "derived（见 quality/validation.json）"
+    },
+    {
+      "id": "ir-employees-2026-06-30",
+      "metric": "full_time_employees",
+      "value": 30900,
+      "display_value": "约30,900人",
+      "currency": "N/A",
+      "unit": "persons",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-interim-2026"
+      ],
+      "evidence": "approximately 30,900 full-time employees (R&D 17,400 / 56.3%)",
+      "location": "MD&A — Employees（2026 中期报告 p.13）"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "集团收入 313.25 亿元，同比 -4.2%、环比 -2.3%；百度一般性业务 251.83 亿元（同比 -4.1%），爱奇艺 62.87 亿元（同比 -5.1%）。这是 Q1 一般性业务短暂恢复正增长（+2%）之后的再度转负。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "核心 AI 新业务收入 125 亿元，同比 +25%、环比 -8%，占一般性业务 50%（Q1 为 52%）。其中智能云基础设施 73 亿元（同比 +50%、环比 -17%），GPU 云同比 +283%（Q1 为 +184%）；AI 应用 25 亿元（+3%）；AI 原生营销 26 亿元（同比持平，Q1 为 +36%）；传统业务 104 亿元（-23%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "AI 新业务同比增量（+25 亿元）只弥补了传统业务同比流失（-32 亿元）的约 78%；Q1 同一口径为约 110%（+45 亿元 / -41 亿元）。传统业务降幅在收窄（-29%→-23%），比值下滑来自 AI 增量本身的环比回落。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-q1-sec"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "在线营销收入 131 亿元，同比 -19%（Q1 -22%），环比 +4%；百度 App 6 月 MAU 6.44 亿，较 3 月 6.55 亿减少约 1,100 万。量（MAU）仍在下行，价与份额压力未见反转。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-q1-sec"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "GPU 云加速（+283%）与 AI 云整体环比下降（-17%）同时出现，较可能的解释是 AI 云内部结构从项目制/一次性交付向 GPU 租赁切换：官方称营业成本环比下降主要因智能云相关成本减少，管理层称 AI 云利润与利润率同比提升。该解释未获官方拆分数据证实，属推断。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "ext-alphasense-call",
+            "ext-uobkh-2q26-preview"
+          ],
+          "falsifier": "若 2026Q3 AI 云基础设施收入回升至 ≥88 亿元且公司说明 Q1 无一次性项目，则“结构切换”解释被推翻，Q2 回落应归因于供给或需求波动。"
+        },
+        {
+          "text": "萝卜快跑 2026H1 全无人订单超 410 万次，Q1 为 320 万次，推算 Q2 约 90–100 万次（Q1 的约 3 成）；Q2 新闻稿未披露季度单量，仅强调安全与运营能力。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "official-interim-2026",
+            "official-q1-sec",
+            "ext-alphasense-call"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "毛利率 39.0%，同比 -4.9pp、环比 +0.1pp；一般性业务毛利率 44.5%，同比 -5.2pp。营业成本 190.98 亿元同比 +4%（智能云相关成本增加），环比 -3%（智能云成本下降，部分被流量获取成本上升抵消）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "销售及管理费用 45.96 亿元（同比 -23%，占收入 14.7%，-3.5pp），研发 46.07 亿元（同比 -10%，环比 +5%，占收入 14.7%）；GAAP 经营利润 30.24 亿元，经营利润率 9.7%；Non-GAAP 经营利润 37.85 亿元（利润率 12.1%）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "一般性业务 Non-GAAP 经营利润 38.18 亿元，同比 -12.9%，利润率 15.2%（与 Q1 持平）；折旧摊销 23.65 亿元，同比 +15.5%（Q2 2025 为 20.47 亿元）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "经营线以下是本季利润缺口的主要来源：其他收入净额 1.84 亿元（上年同期 48.63 亿元，主要因长期投资公允价值收益减少），汇兑损失 11.60 亿元，所得税 10.00 亿元，有效税率 31.2%（上年同期 10.8%）。归母净利润 23.19 亿元（-68.3%），Non-GAAP 归母净利润 25.73 亿元（-46.3%，环比 -40.6%）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "经营利润率能稳在 10% 左右，靠的是费用端压缩（信用减值、渠道费用、人员费用下降）而非毛利改善；而折旧摊销已在上升、融资租赁资产将在租期内摊销（H1 摊销 1.97 亿元仅为起点）。若下半年 AI 云收入不回升，费用压缩空间有限，经营利润率承压的概率较高。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026"
+          ],
+          "falsifier": "若 2026Q3 一般性业务 Non-GAAP 经营利润率 ≥15% 且折旧摊销增速低于收入增速，则“费用压缩不可持续、利润率承压”的判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "经营现金流 34.36 亿元（连续第四个季度为正），资本开支 113.90 亿元（同比 +200%，环比 +93%），自由现金流 -79.54 亿元（Q1 -32.46 亿元）；剔除爱奇艺口径自由现金流 -82.74 亿元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "资本开支占收入 36.4%；资本开支与智能云基础设施收入之比由 Q1 的约 67% 升至约 156%。H1 资本开支 173.06 亿元（上年同期 67.00 亿元），已签约未入账资本承诺 215 亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "中期报告披露资本开支包括服务器等硬件购置及“融资租赁首付款”。H1 融资租赁使用权资产由 6.77 亿元增至 99.91 亿元（+93.14 亿元），对应融资租赁负债仅增 10.00 亿元，差额约 83 亿元；同期固定资产净值仅增 22.03 亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-interim-2026"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "上述差额与 MD&A 措辞共同指向：上半年资本开支中相当部分是以预付方式锁定的“设施与基础设施”融资租赁，而非自购服务器入账固定资产。这意味着现金先行流出、成本在租期内摊销进入营业成本，未来数个季度的毛利率将背负这笔已锁定的成本。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-interim-2026"
+          ],
+          "falsifier": "若 2026Q3 中期/季度披露显示融资租赁首付在资本开支中占比很小（例如低于 20%），或融资租赁使用权资产不再增长且资本开支回落至 60 亿元以下，则该推断不成立。"
+        },
+        {
+          "text": "有息负债（借款+票据+可转债）由 3 月末 867.97 亿元增至 6 月末 1,038.60 亿元（+170.63 亿元）；短期借款 263.11 亿元（3 月末 39.79 亿元），其中金融机构借款 191 亿元；H1 银行借款净增 235.88 亿元；资本负债比率 27%（年初 24%）。总现金及投资 2,831 亿元（Q1 2,793 亿元），扣除有息负债后约 1,792 亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026",
+            "official-q1-sec"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "Q1 是“以投资到期回收供血资本开支”，Q2 变为“新增借款覆盖资本开支缺口”：季度融资活动现金流 +174.05 亿元，同时投资活动现金流 -264.63 亿元（含把资金重新配置到短期投资）。借人民币、持有美元资产也可能是司库安排而非资金紧张，但资本开支的边际资金来源已从经营与存量转向负债。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-q1-sec",
+            "official-interim-2026"
+          ],
+          "falsifier": "若 2026Q3 有息负债回落、经营现金流覆盖资本开支（自由现金流 ≥0），则“借债扩表投”只是一次性时点安排。"
+        },
+        {
+          "text": "股东回报让位：Q1 回购 1.72 亿美元，H1 合计 2.09 亿美元（推算 Q2 约 0.37 亿美元），截至 8/18 年内累计 2.59 亿美元；中期不派息。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-q1-sec",
+            "official-interim-2026"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "CEO 李彦宏（新闻稿）：“While our online marketing business remains under pressure, the growing momentum in our core AI-powered Business reaffirms Baidu’s transition ... to an AI-first company.” CFO 何海建（新闻稿）：“we remain firmly committed to investing in AI as the core driver of Baidu’s long-term growth.”",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "措辞变化：Q1 新闻稿称“We see AI driving even greater value for Baidu in the quarters ahead”，CFO 强调一般性业务恢复正增长；Q2 改为“strengthening the foundations for our next phase of AI-driven growth”，首次在 CEO 引语中直接承认广告承压；萝卜快跑从 Q1 的“三位数增长”转为“加强安全性及运营能力”，且不再披露季度单量。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-q1-sec"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "电话会（媒体转述）：CFO 称投资由客户与内部业务明确需求驱动，“大部分投资能够迅速投入使用，并在较短时间内转化为持续性收入”，同时“精打细算、紧密聚焦 ROI”；管理层预计 AI 云基础设施收入下半年保持强劲并有进一步加速潜力。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-cls-call",
+            "ext-alphasense-call"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "电话会（两家媒体转述）：CEO 承认文心“有过尝试也有失误”，已优化模型组织、引入顶尖 AI 人才，“有信心让文心重新回到基础大模型第一梯队”。这是罕见的落后承认。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-21jingji",
+            "ext-sina-huxiu-call"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "管理层未回答或未量化：AI 云环比 -17% 的原因、全年资本开支指引、萝卜快跑季度单量与暂停原因（仅称单量将随运营恢复而回升）、AI 搜索变现时间表（“优先把产品和体验做好”）。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "ext-alphasense-call"
+          ],
+          "falsifier": "若官方电话会逐字稿显示管理层已给出资本开支指引或 AI 云环比原因，则此项“回避”判断需修正。"
+        },
+        {
+          "text": "综合判断：管理层把叙事从“AI 收割期”调整为“下一阶段打地基”，用 GPU 云增速与 H2 加速预期对冲当季回落；资源配置（资本开支翻倍、回购收缩、借款扩张）与“坚定投入 AI”的表述一致，但与“精打细算”的表述存在张力。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-q1-sec",
+            "official-interim-2026",
+            "ext-cls-call"
+          ],
+          "falsifier": "若 2026Q3 资本开支显著回落（<60 亿元）且回购恢复至季度 1 亿美元以上，说明管理层实际在收缩投入、“打地基”叙事被淡化。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "同一宏观环境下，腾讯 2026Q2 营销服务收入 435.65 亿元、同比 +22%；百度在线营销收入同比 -19%，两者相差约 41 个百分点。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "ext-tencent-2q26",
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "广告差距更可能来自份额与形态迁移而非宏观：用户获取信息的方式转向 AI 对话与内容平台（管理层亦称 AI chatbot 等新形态持续吸引用户时间），广告主预算随之流向闭环与推荐体系；传导路径为 用户意图被截流 → 搜索请求与 MAU 下行 → 广告曝光与定价承压 → 一般性业务高毛利收入萎缩。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-tencent-2q26",
+            "ext-nbs-retail-202606",
+            "ext-alphasense-call",
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": "若下季度百度在线营销降幅收窄至 -10% 以内而腾讯增速同步放缓，则差距主要来自周期/行业结构而非份额迁移。"
+        },
+        {
+          "text": "算力投入规模：腾讯 Q2 资本开支 527.84 亿元（+176%），阿里 6 月季度 676.8 亿元（+75%），百度 113.90 亿元；百度绝对规模约为二者的 1/5–1/6，但资本开支占收入比（36%）高于二者（单一媒体来源）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-stcn-capex",
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "AI 云差异化：2026H1 大模型公开中标金额 13.85 亿元居首（第三方统计、单一来源）；阿里云同期收入 484.37 亿元、同比 +45%（单一来源）。百度的优势在政企/行业项目与全栈（昆仑芯+千帆），但规模远小于阿里云。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "ext-stcn-zqrb",
+            "ext-stockstar-cloud"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "昆仑芯已适配 Kimi K3、GLM-5.2、MiniMax M3、混元 Hy3 等模型新版本，M300 计划 2027 年初推出；国产 AI 芯片赛道拥挤，外部客户占比仍是分拆估值的核心变量（未披露）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-cls-call",
+            "ext-alphasense-call"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "宏观消费：2026H1 社会消费品零售总额 +1.3%，6 月 +1.0%（网上商品和服务零售额 +5.2%）。弱消费压制广告预算，但无法解释与腾讯之间 41pp 的增速差。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "ext-nbs-retail-202606",
+            "ext-tencent-2q26"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "汇率：人民币兑美元波动导致 Q2 汇兑损失 11.60 亿元（Q1 9.89 亿元、上年同期 6.21 亿元），是 Non-GAAP 净利润低于预期的主要线下因素之一。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "监管与运营连续性：2026-03-31 武汉多辆萝卜快跑车辆因系统故障停在路中（警方通报），Q2 单量降至约 90–100 万次；管理层称单量将随运营恢复回升，且中国首个 L3/L4 自动驾驶系统安全强制性国家标准近期发布。武汉事件与 Q2 单量下滑在时间上吻合，但官方未确认因果。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-peopleapp-wuhan",
+            "ext-thepaper-wuhan",
+            "ext-alphasense-call",
+            "official-interim-2026",
+            "official-q1-sec"
+          ],
+          "falsifier": "若 2026Q3 萝卜快跑单量恢复至 ≥250 万次，说明 Q2 下滑为短期暂停，监管/运营连续性风险被高估。"
+        },
+        {
+          "text": "算力供给：同业管理层称算力利用率高、需提前锁定硬件产能；百度管理层亦称算力供给受限。供给约束解释了以融资租赁首付锁定设施的动机，也意味着锁定成本可能处于价格高位。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "ext-stcn-capex",
+            "ext-alphasense-call",
+            "official-interim-2026"
+          ],
+          "falsifier": "若 2026H2 算力租赁价格明显下行而百度仍按原合同摊销，则锁定成本劣势显现；若价格继续上行，则提前锁定为优势。"
+        },
+        {
+          "text": "资本市场制度变化：9/1 双重主要上市生效，9/7 起纳入沪港通、深港通，内地投资者可直接交易港股。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-hkex-dual-primary-20260901",
+            "official-hkex-sh-connect-20260904",
+            "official-hkex-sz-connect-20260907"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "BIDU 8/17 收 104.12 美元，8/18（财报当日美股）收 90.87 美元，单日 -12.7%；9888.HK 8/18 收 101.1 港元，8/19 收 89.95 港元（-11.0%）。10/2 BIDU 收 84.32 美元，较财报前累计 -19.0%，接近 52 周低点 83.95 美元；9888.HK 收 83.2 港元。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "ext-yahoo-bidu",
+            "ext-yahoo-9888hk",
+            "ext-21jingji"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "相对 Bloomberg 一致预期（UOBKH 转引）：收入 313.25 亿元 vs 315.87 亿元（-0.8%）；毛利 122.27 亿元 vs 128.99 亿元（-5.2%）；Non-GAAP 归母净利 25.73 亿元 vs 31.98 亿元（-19.5%）；Non-GAAP 每 ADS 收益 7.22 元 vs 9.7 元（约 -26%）。另一口径（21 世纪经济报道）收入预期 319.5 亿元，对应 -2.0%。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-uobkh-2q26-results",
+            "ext-21jingji",
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "卖方动作：摩根士丹利降至减持、目标价 130→80 美元（两源）；摩根大通 205→175、美银 165→141 维持买入；巴克莱 124→96、Susquehanna 140→105 持有；UOBKH 目标价 186→145 港元维持买入。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-eastmoney-ms",
+            "ext-stockanalysis-ratings",
+            "ext-uobkh-2q26-results"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "下跌归因按权重：① 利润端明显低于预期（线下汇兑与税率放大）；② AI 云环比 -17% 打断“加速”叙事，与 GPU 云 +283% 形成无法自洽的读数；③ 自由现金流 -79.5 亿元且由借款弥补，投资回报期被重新定价。9/7 纳入港股通后股价继续走低，说明资金面利好不足以抵消基本面下修。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-yahoo-bidu",
+            "ext-uobkh-2q26-results",
+            "official-hkex-sz-connect-20260907",
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": "若 Q3 财报后股价因 AI 云环比回升而显著修复（单日 >+8%）且一致预期上修，则说明市场主要在交易 AI 云读数而非现金流。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "情景口径：分部利润 = 百度一般性业务 Non-GAAP 经营利润（亿元，2026Q3 单季）；集团利润 = 归属百度 Non-GAAP 净利润（亿元，2026Q3 单季）。参照值：2026Q2 分别为 38.18 亿元与 25.73 亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "中性（55%）：AI 云基础设施收入 75–88 亿元（环比回升但未回到 Q1 高点），在线营销同比 -15% 至 -20%，资本开支 80–120 亿元、折旧摊销继续上升；分部利润 30–40 亿元，集团利润 22–32 亿元。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026",
+            "ext-alphasense-call"
+          ],
+          "falsifier": "若 Q3 AI 云收入 >88 亿元或 <73 亿元，则中性情景失效。"
+        },
+        {
+          "text": "乐观（20%）：AI 云收入 ≥88 亿元且 GPU 云维持三位数增长，广告降幅收窄至 -12% 以内，萝卜快跑单量恢复至 ≥250 万次，汇兑转为收益；分部利润 40–48 亿元，集团利润 32–42 亿元。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026",
+            "ext-alphasense-call"
+          ],
+          "falsifier": "若 Q3 广告降幅仍超过 -15% 或 AI 云收入低于 80 亿元，则乐观情景失效。"
+        },
+        {
+          "text": "悲观（25%）：AI 云收入 ≤73 亿元（环比不升），广告降幅扩大至 -20% 以上，资本开支 ≥100 亿元且融资租赁摊销与折旧加速，叠加汇兑损失；分部利润 20–30 亿元，集团利润 12–22 亿元。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026"
+          ],
+          "falsifier": "若 Q3 AI 云收入环比增长 >10% 且资本开支回落至 80 亿元以下，则悲观情景失效。"
+        },
+        {
+          "text": "Q1 报告设定的下季度检验结果（回顾）：AI 云增速守 60%+ → 实际 +50%，未达成；广告降幅收窄至 -20% 内 → 实际 -19%，勉强达成；自由现金流亏空收窄至 -10 亿元内 → 实际 -79.5 亿元，未达成；资本开支/AI 云收入比降至 55% 以下 → 实际约 156%，未达成；MAU 环比转正 → 实际减少约 1,100 万，未达成。若以 Non-GAAP 归母净利对照（Q1 报告未明确“集团利润”口径），Q2 的 25.73 亿元低于 Q1 中性区间（35–50 亿元），落入 Q1 悲观区间（22–35 亿元）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-q1-sec"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "核心结论：百度已进入“投入先于回报”的重资本阶段——资本开支跳升至收入的 36%，部分以融资租赁首付锁定设施、部分由新增借款覆盖，而资本开支要驱动的 AI 云收入在本季环比回落。维持“中性偏谨慎”，置信度中等。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026"
+          ],
+          "falsifier": "若 2026Q3 AI 云收入 ≥88 亿元、广告降幅 ≤-15%、自由现金流亏空 ≤30 亿元三项同时满足，则上调判断。"
+        },
+        {
+          "text": "企业目前最难的问题：资金来源（广告现金牛）在萎缩，资金用途（算力）在加速，而二者之间的桥梁——AI 云收入的环比稳定——在本季缺席。它不是资金量问题，而是回报验证顺序问题。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "ext-tencent-2q26"
+          ],
+          "falsifier": "若下季度经营现金流 ≥资本开支，则“资金错配”约束解除。"
+        },
+        {
+          "text": "最强支持证据：资本开支 113.90 亿元 vs 经营现金流 34.36 亿元；有息负债季度 +170.63 亿元；AI 云环比 -17%；Non-GAAP 归母净利低于一致预期约 20%。最强反方证据：GPU 云 +283% 且加速、AI 云利润率同比提升（管理层口径）、总现金及投资 2,831 亿元远超负债、管理层指引 H2 AI 云加速。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026",
+            "ext-uobkh-2q26-results",
+            "ext-alphasense-call"
+          ],
+          "falsifier": "若 GPU 云的增量足以在两个季度内带动 AI 云整体收入环比增长 >15%，反方证据将压倒支持证据。"
+        },
+        {
+          "text": "下季度三个可证伪指标：① AI 云基础设施收入是否 ≥88 亿元；② 资本开支/AI 云收入比是否回落至 100% 以下；③ 萝卜快跑季度单量是否恢复至 ≥250 万次。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-q2-sec",
+            "official-q2-hkex-en",
+            "official-interim-2026"
+          ],
+          "falsifier": "三项均达成则谨慎判断被推翻；三项均未达成则判断加深。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "共识：一个合格分析师看标题数字会得出什么结论？",
+        "answer": "“AI 收入连续两季过半、GPU 云 +283% 加速，转型方向正确；利润下滑主要是线下汇兑与税率扰动。”媒体与多数卖方报告均以此为主线。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "ext-people-q2",
+          "ext-uobkh-2q26-results"
+        ],
+        "counterevidence": "AI 新业务收入环比 -8%、AI 云环比 -17%，AI 增量对传统业务流失的覆盖率由约 110% 降至约 78%；“方向正确”掩盖了“速度回撤”。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "隐藏假设：该共识成立需要什么前提？",
+        "answer": "前提是资本开支能按 CFO 所说“迅速投入使用并在较短时间内转化为持续性收入”。即新增算力的收入转化周期以季度计，而非以年计。",
+        "source_ids": [
+          "ext-cls-call",
+          "official-q2-sec",
+          "official-q2-hkex-en"
+        ],
+        "counterevidence": "Q2 资本开支环比 +93% 的同时 AI 云收入环比 -17%；资本开支/AI 云收入比由约 67% 升至约 156%，转化在本季没有发生。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "反证：本季哪项事实最强烈地抵抗共识？",
+        "answer": "自由现金流 -79.54 亿元，并由季度新增约 170.63 亿元有息负债覆盖；同时回购收缩至约 0.37 亿美元。这说明投入强度已超出经营现金流承受范围。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-interim-2026",
+          "official-q1-sec"
+        ],
+        "counterevidence": "总现金及投资 2,831 亿元，扣除有息负债后仍约 1,792 亿元，资产负债表远未紧张；借款可能是低成本人民币融资的司库选择。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "机制：资本开支通过什么会计与经营路径影响利润？",
+        "answer": "H1 融资租赁使用权资产 +93.14 亿元而融资租赁负债仅 +10.00 亿元，差额约 83 亿元为预付性质；MD&A 确认资本开支含融资租赁首付款。现金先流出，成本按租期摊销进入营业成本，形成未来数季的刚性成本；215 亿元资本承诺进一步延长这一曲线。",
+        "source_ids": [
+          "official-interim-2026"
+        ],
+        "counterevidence": "融资租赁标的为“设施与基础设施”，若为长租期数据中心，单季摊销额有限（H1 仅 1.97 亿元），对毛利率的冲击可能被高估。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "时点：为什么是这个季度？",
+        "answer": "同业在 Q2 同步大幅提高资本开支并称需提前锁定硬件产能（腾讯 +176%、阿里 +75%），百度管理层亦称算力供给受限；锁定窗口与供给约束共同推动了 Q2 的集中预付。",
+        "source_ids": [
+          "ext-stcn-capex",
+          "ext-alphasense-call",
+          "official-interim-2026"
+        ],
+        "counterevidence": "同业资本开支提速的来源为单一媒体报道；百度未给出全年资本开支指引，无法排除 Q2 只是付款时点集中。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "替代解释：季节性、一次性、口径或基数效应能否解释 AI 云环比 -17%？",
+        "answer": "可能。Q1 AI 云收入 88 亿元环比 +52%，本身是异常高点；若 Q1 含项目制或一次性交付，Q2 回落属于基数效应。但官方未拆分 GPU 云与项目收入，无法确认。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-q1-sec",
+          "ext-uobkh-2q26-preview"
+        ],
+        "counterevidence": "管理层称 AI 云利润与利润率同比提升、GPU 云加速，与“需求转弱”不一致；但这同样无法证明 Q1 为一次性。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q7",
+        "question": "反事实：如果没有本季的借款扩张，结果会怎样？",
+        "answer": "以 Q2 经营现金流 34.36 亿元与资本开支 113.90 亿元计，缺口约 79.5 亿元需由存量现金或投资到期弥补；在不借款的情况下，现金及短期投资的再配置空间将收缩，回购大概率进一步压缩。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-interim-2026"
+        ],
+        "counterevidence": "Q2 投资活动现金流 -264.63 亿元中包含主动把资金配置到短期投资（短期投资由 869 亿元增至 1,417 亿元），说明借款并非全部用于资本开支，也可能用于期限与币种管理。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "二阶效应：如果一阶判断正确，哪个更不显眼的后果会出现？",
+        "answer": "融资租赁摊销与折旧在 2026H2–2027 逐季上升，压低一般性业务毛利率；在广告高毛利收入萎缩的同时，集团毛利率可能难以回到 40% 以上；回购等股东回报被持续挤出。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-interim-2026"
+        ],
+        "counterevidence": "GPU 云毛利较高（管理层口径），若其占比快速提升，可抵消摊销上升。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "多空：最强的多头与空头解释分别是什么？",
+        "answer": "多头：GPU 云 +283% 且加速、AI 云利润率提升、管理层指引 H2 加速，港股通纳入与昆仑芯分拆提供估值重估路径；股价已在 52 周低点附近。空头：资本开支跳升 + 借款 + AI 云环比回落 + 广告 -19% + 文心落后承认 + 萝卜快跑单量骤降，回报验证全面推迟。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-interim-2026",
+          "ext-alphasense-call",
+          "ext-yahoo-bidu",
+          "ext-21jingji"
+        ],
+        "counterevidence": "多头所依赖的 GPU 云绝对规模未披露；空头所依赖的“锁定成本处于高位”缺乏价格数据。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "已定价：市场已反映了什么？",
+        "answer": "财报日 -12.7%、至 10/2 累计 -19.0%，卖方普遍下调目标价、大摩降至减持，利润下修与自由现金流转负已大体反映。尚未定价的是：AI 云在下半年能否回到 Q1 高点，以及资本开支是否持续高于 100 亿元/季。",
+        "source_ids": [
+          "ext-yahoo-bidu",
+          "ext-stockanalysis-ratings",
+          "ext-eastmoney-ms"
+        ],
+        "counterevidence": "缺少财报后一致预期修订的完整数据，无法量化定价程度。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q11",
+        "question": "经营瓶颈：哪个约束最难靠多花钱解决？",
+        "answer": "搜索入口的用户时间迁移：MAU 环比减少约 1,100 万、在线营销 -19%，而腾讯营销服务 +22%。算力可以买，入口与用户习惯买不来；管理层也把 AI 搜索变现推后（先做好产品体验）。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-q1-sec",
+          "ext-tencent-2q26",
+          "ext-alphasense-call"
+        ],
+        "counterevidence": "AI 原生营销环比 +11%、在线营销环比 +4%，下滑速度在放缓。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "资源真相与先后顺序：支出、借款和管理层注意力是否支持所称战略？哪一步必须先成功？",
+        "answer": "支持“算力优先”：资本开支翻倍、融资租赁锁定、回购收缩、模型团队重组。顺序上必须先让 AI 云收入环比回升（证明产能可变现），才能为文心追赶与 AI 搜索变现争取时间；若 AI 云不回升，资本开支要么被迫收缩，要么继续推高负债。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-interim-2026",
+          "ext-21jingji",
+          "ext-cls-call"
+        ],
+        "counterevidence": "昆仑芯分拆若成功，可为算力投入提供外部资本与估值锚，从而改变先后顺序。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "资本开支的形态变了：相当部分是融资租赁首付，成本被提前锁定",
+        "consensus_view": "市场关注资本开支“规模”翻倍（113.9 亿元、占收入 36%），视之为与腾讯阿里同步的算力军备竞赛。",
+        "new_view": "更重要的是“形态”：H1 融资租赁使用权资产 +93 亿元而负债仅 +10 亿元，固定资产仅 +22 亿元，说明上半年资本开支中相当部分是对“设施与基础设施”的预付租赁。百度是在用预付现金锁定未来数年的算力/设施成本，而非灵活的按需采购。",
+        "mechanism": "预付租赁 → 现金一次性流出（资本开支、自由现金流转负）→ 使用权资产在租期内摊销进入营业成本 → 若 AI 云收入不按计划爬坡，毛利率承受刚性成本；215 亿元资本承诺延续此曲线。",
+        "implication": "上调 2026H2–2027 营业成本中折旧摊销的增速假设；悲观情景概率由 20%（Q1 报告）上调至 25%；把“资本开支/AI 云收入比”列为首要监测指标。",
+        "source_ids": [
+          "official-interim-2026",
+          "official-q2-sec",
+          "official-q2-hkex-en"
+        ],
+        "counterevidence": "差额 83 亿元为推算值，未计摊销与付款时间差；若租期很长，单季摊销冲击小；管理层称投资由明确需求驱动、可快速转化收入。",
+        "falsifier": "若 2026Q3 融资租赁使用权资产不再增长、资本开支回落至 60 亿元以下，或公司披露首付占资本开支比例很小，则该观点不成立。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "从“以卖养投”到“借债扩表投”，回购是第一个被挤出的科目",
+        "consensus_view": "百度坐拥约 2,800 亿元现金及投资，资本开支增加不会影响财务弹性。",
+        "new_view": "Q2 的边际资金来源已从经营与投资到期转向借款：有息负债季度 +170.63 亿元，短期借款由 39.79 亿元升至 263.11 亿元；同季回购降至约 0.37 亿美元（Q1 1.72 亿美元）。现金总量充裕，但资本配置的优先级已经改变。",
+        "mechanism": "经营现金流 34 亿元 < 资本开支 114 亿元 → 缺口靠新增借款覆盖、存量资金转配短期投资 → 股东回报被压缩；资本负债比率 24%→27%。",
+        "implication": "下调对股东回报（回购）的预期；若 H2 资本开支维持高位，负债率继续上升将成为估值折价因素。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-q1-sec",
+          "official-interim-2026"
+        ],
+        "counterevidence": "借人民币、持有美元资产可能是币种与利率安排；扣除负债后净现金仍约 1,792 亿元；短期投资同期增加约 548 亿元，显示资金并不紧张。",
+        "falsifier": "若 2026Q3 有息负债回落、回购恢复至季度 1 亿美元以上且自由现金流 ≥0，则该观点不成立。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "AI 云“GPU 加速、整体回落”说明收入在变瘦但变厚，Q1 的 88 亿元可能不是新基线",
+        "consensus_view": "GPU 云 +283% 证明 AI 云在加速。",
+        "new_view": "AI 云整体环比 -17%、营业成本中智能云相关成本环比下降、管理层称 AI 云利润率同比提升，三者合在一起更像是低毛利项目收入退潮、GPU 租赁占比上升的结构切换。若如此，Q1 的 88 亿元不应作为增长基线，“加速”需要以 Q2 的 73 亿元为起点验证。",
+        "mechanism": "项目制/一次性交付（高收入、低毛利）减少 → AI 云收入与成本同步下降 → GPU 租赁（较高毛利）占比上升 → 利润率改善但收入波动加大。",
+        "implication": "下调对 AI 云收入线性外推的置信度；情景中性区间以 75–88 亿元为锚，而非以 88 亿元为底。",
+        "source_ids": [
+          "official-q2-sec",
+          "official-q2-hkex-en",
+          "official-q1-sec",
+          "ext-alphasense-call",
+          "ext-uobkh-2q26-preview"
+        ],
+        "counterevidence": "官方未披露 GPU 云绝对值与项目收入拆分；回落也可能来自算力供给不足或客户交付节奏。",
+        "falsifier": "若 2026Q3 AI 云收入 ≥88 亿元且公司说明 Q1 无一次性因素，则该观点被推翻。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 9
+      },
+      {
+        "id": "insight-4",
+        "title": "萝卜快跑的风险已从“何时盈利”切换为“能否连续运营”",
+        "consensus_view": "萝卜快跑是全球化扩张中的期权资产，叙事聚焦城市数量与单位经济。",
+        "new_view": "Q2 单量约 90–100 万次（Q1 320 万次），新闻稿删去季度单量，管理层称单量将“随运营恢复”回升。在武汉最大运营基地发生大规模停摆后，单城集中度使监管与运营连续性成为估值的首要折价项，海外扩张是对冲而非增量。",
+        "mechanism": "单城集中（武汉为最大基地）→ 系统性故障 → 运营收缩/暂停 → 单量骤降 → 单位经济与规模叙事同时中断。",
+        "implication": "在分部估值中对萝卜快跑施加运营连续性折价；把季度单量恢复列为三大监测指标之一。",
+        "source_ids": [
+          "official-interim-2026",
+          "official-q1-sec",
+          "ext-alphasense-call",
+          "ext-peopleapp-wuhan",
+          "ext-thepaper-wuhan"
+        ],
+        "counterevidence": "萝卜快跑收入占集团比重小；海外（迪拜全无人商业化、伦敦、香港）进展实质；官方未确认武汉事件与单量下滑的因果。",
+        "falsifier": "若 2026Q3 季度单量恢复至 ≥250 万次并重新披露，则该观点不成立。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 1,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 20,
+      "triggers": [
+        "AI 云基础设施收入 ≥88 亿元，GPU 云维持三位数增长",
+        "在线营销同比降幅收窄至 -12% 以内",
+        "萝卜快跑季度单量恢复至 ≥250 万次",
+        "汇兑由损失转为收益，有效税率回落至 20% 以下"
+      ],
+      "segment_profit_range": [
+        40,
+        48
+      ],
+      "group_profit_range": [
+        32,
+        42
+      ],
+      "unit": "亿元人民币，2026Q3 单季；分部=百度一般性业务 Non-GAAP 经营利润，集团=归属百度 Non-GAAP 净利润"
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "AI 云基础设施收入 75–88 亿元（环比回升但未回到 Q1 高点）",
+        "在线营销同比 -15% 至 -20%",
+        "资本开支 80–120 亿元，折旧摊销继续上升",
+        "汇兑与税率维持近两季区间"
+      ],
+      "segment_profit_range": [
+        30,
+        40
+      ],
+      "group_profit_range": [
+        22,
+        32
+      ],
+      "unit": "同上"
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "AI 云基础设施收入 ≤73 亿元（环比不升）",
+        "在线营销降幅扩大至 -20% 以上",
+        "资本开支 ≥100 亿元且融资租赁摊销与折旧加速",
+        "汇兑损失 ≥10 亿元或萝卜快跑单量未恢复"
+      ],
+      "segment_profit_range": [
+        20,
+        30
+      ],
+      "group_profit_range": [
+        12,
+        22
+      ],
+      "unit": "同上"
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "官方电话会逐字稿/音频未获取（ir.baidu.com 访问失败）；管理层电话会信号来自财联社、21 世纪经济报道、虎嗅与 AlphaSense 的二手整理。",
+      "AI 云环比 -17% 的原因未获官方解释，相关推断标注为 low/medium 置信度（状态 unresolved）。",
+      "融资租赁首付规模（约 83 亿元）为附注差额推算，未计摊销与付款时间差，公司未直接披露资本开支拆分。",
+      "萝卜快跑 Q2 单量（约 90–100 万次）为“超过 410 万”减“320 万”的近似推算，与 AlphaSense 整理的“约 100 万”一致，官方新闻稿未披露。",
+      "收入一致预期存在两个口径（Bloomberg 315.87 亿元 / 21 世纪经济报道 319.5 亿元），已并列展示；Non-GAAP 净利一致预期仅有 Bloomberg 单一数据商。",
+      "阿里资本开支、阿里云收入、智能云中标金额均为单一媒体来源，仅作背景，不参与结论推导。",
+      "昆仑芯估值（约 500 亿美元）为路透转述 The Information 的传闻，路透未能核实，不纳入情景数值。",
+      "需人工审核：冲突来源处理、管理层语言解读、因果归因（武汉事件与单量下滑、融资租赁与成本锁定）、情景概率与利润区间、评级结论、Kearney 风格措辞的证据边界。"
+    ],
+    "deterministic_checks": "quality/validation.json（53 项，全部通过）",
+    "conflicts": [
+      {
+        "item": "2026Q2 收入一致预期",
+        "values": [
+          "315.87亿元（UOBKH 引 Bloomberg）",
+          "319.5亿元（21世纪经济报道“市场预期”）"
+        ],
+        "resolution": "两者并列展示；主口径采用有明确数据商的 Bloomberg 值；无论取哪一个，收入均低于预期（-0.8% / -2.0%）",
+        "status": "shown_unresolved"
+      },
+      {
+        "item": "财报后股价跌幅与日期",
+        "values": [
+          "美股 8/18 收 90.87 美元，-12.73%（Yahoo、21世纪经济报道、虎嗅一致）",
+          "36氪称“第二天跌近14%”（按北京时间，原页面为 JS 壳未能存档，已剔除）"
+        ],
+        "resolution": "以 Yahoo 日线为准：BIDU 8/17 收 104.12 → 8/18 收 90.87（-12.7%）；9888.HK 8/18 收 101.1 → 8/19 收 89.95（-11.0%）",
+        "status": "resolved"
+      },
+      {
+        "item": "摩根士丹利目标价",
+        "values": [
+          "130→80 美元并降至减持（财联社/东方财富、StockAnalysis 两源）",
+          "140→130 美元（21世纪经济报道，疑为财报前旧调整）"
+        ],
+        "resolution": "采用两源一致的 130→80 美元/减持；21世纪口径保留为冲突记录",
+        "status": "resolved_with_note"
+      },
+      {
+        "item": "Lease right-of-use assets 口径变化",
+        "values": [
+          "Q1 报表：Operating lease ROU 8,610（2025-12-31）",
+          "Q2 报表：Lease ROU 9,287（2025-12-31，含融资租赁 677，自 Other non-current assets 重分类）"
+        ],
+        "resolution": "按中期报告附注8拆分经营/融资租赁；跨期比较使用重述口径",
+        "status": "resolved"
+      },
+      {
+        "item": "AI Cloud Infra 环比 -17% 的原因",
+        "values": [
+          "官方仅称成本环比下降主要因智能云相关成本减少",
+          "管理层电话会称 GPU 云加速、AI 云利润与利润率同比提升（二手整理）"
+        ],
+        "resolution": "未获官方逐字稿，原因（项目制收入波动 / 供给约束 / 一次性交付）无法确认",
+        "status": "unresolved"
+      },
+      {
+        "item": "Apollo Go 二季度单量",
+        "values": [
+          "推算约 0.9 百万次（H1 超 410 万 - Q1 320 万，官方）",
+          "约 1 百万次（AlphaSense 电话会整理）"
+        ],
+        "resolution": "以“约 90–100 万次”区间呈现；季度单量官方新闻稿未披露",
+        "status": "shown_range"
+      }
+    ],
+    "missing": [
+      "AI Cloud Infra / GPU Cloud 毛利率或利润（未单独披露）",
+      "GPU Cloud 绝对收入（仅披露同比增速）",
+      "Apollo Go 季度收入、亏损、车队规模（未披露）",
+      "资本开支中服务器购置与融资租赁首付的拆分（未披露；仅能由附注近似推算）",
+      "全年资本开支指引（新闻稿未给出；电话会逐字稿未获取）",
+      "官方电话会逐字稿/音频（IR 网站访问失败，仅有二手整理）",
+      "百度 App 2025Q2 MAU 对比值（本期新闻稿未披露）"
+    ]
+  }
+}

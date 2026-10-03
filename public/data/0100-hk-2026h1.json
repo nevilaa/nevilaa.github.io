@@ -1,0 +1,2589 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "0100-hk-2026h1",
+  "generated_at": "2026-10-03T16:24:03.360701+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "稀宇科技 (MiniMax Group Inc.)",
+    "ticker": "0100.HK",
+    "period": "2026H1",
+    "period_definition": "截至 2026-06-30 止六个月（中期，未经审计、经安永按 HKSRE 2410 审阅）；公司仅披露半年度业绩，无单独季度报表，本报告不拆算任何季度数字。",
+    "fiscal_year_end": "12-31",
+    "reporting_currency": "USD",
+    "results_published_at": "2026-08-26T17:41:00+08:00",
+    "status": "published",
+    "review_state": "APPROVED",
+    "title": "稀宇科技（MiniMax）2026 年中期：收入已越过 2025 全年，单位经济在放量中被稀释",
+    "thesis": "关键不在于 MiniMax 能否增长——2026H1 收入 US$116.6m、同比 +283.1%，已超过 2025 全年；而在于放量的单位经济是否在变差：毛利率同比升至 17.9%，却较 2025H2（推算 33.7%）回落约 15.9 个百分点，叠加 US$187.6m 资本开支，H1 经营现金流减资本开支约 US$(505.7)m。增长正从“效率驱动”转向“以资本换算力、以低价换 Token 份额”，2027 年 7 月到期、转股价 HK$335 的 HK$6,500m 可转债为这一押注设定了验证时限。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "最难的问题是把收入规模的跃升转化为单位毛利的改善：2026H1 收入环比 2025H2 增长 139.8%，毛利率却由推算的 33.7% 降至 17.9%；增量来自低价、高 Token 密度的开放平台/Token Plan，而算力租价在上涨——这不是靠追加投入就能解决的问题，投入越多、亏损越大。",
+      "current_difficulties": [
+        {
+          "title": "放量稀释单位毛利",
+          "evidence": "开放平台占比 34.5%→63.4%；毛利率 33.7%（2025H2 推算）→17.9%；销售成本 +258.1% 与收入 +283.1% 几乎同步；M3 与 M2 同价（业绩会，媒体转述）。",
+          "implication": "收入越大不等于亏损越小，经调整净亏损已扩大至 US$293.0m（+111.2%），盈利路径取决于单位推理成本能否快于价格与 Token 密度下降。"
+        },
+        {
+          "title": "资本强度跃升与融资时限",
+          "evidence": "资本开支 US$187.6m（FY2025 全年 US$0.9m），经营现金流减资本开支约 US$(505.7)m；银行借款 US$133.6m；HK$6,500m 可转债约 2027-07-14 到期、转股价 HK$335，9/30 股价 HK$250.2。",
+          "implication": "备考流动性约 US$3,348.7m 提供跑道，但其中约 US$852.2m 可能在 2027 年需现金兑付；若盈利路径未在 2027 年中前清晰，再融资与稀释将成为经营约束。"
+        },
+        {
+          "title": "定价权未确立",
+          "evidence": "智谱 API 平均售价提升约 101%、API 毛利率 24.6%，而 MiniMax 维持原价；中金称 M3 编码能力未居国内首位并下调目标价 29.1%；管理层承认 M3 研发有不足。",
+          "implication": "缺乏模型代际领先时，Token 份额只能用价格换，开放平台毛利改善空间受限。"
+        }
+      ],
+      "strategic_judgment": "管理层选择“先量后利、以资本换算力”：用不变价格和 Token Plan 把开放平台做成主引擎，同时把 80% 新募资金投向基础设施，并从纯租用转向自建与国产算力。取舍是短期毛利率与现金流，前提是推理成本下降速度快于价格与单位 Token 收入下降——这一前提在本期尚未被财务数据证明。",
+      "strategic_directions": [
+        {
+          "direction": "从租算力转向自建与国产算力",
+          "rationale": "GPU 租价上行、推理需求激增，锁定供给并把可变成本转为固定资产是降低单位推理成本的前提。",
+          "management_signal": "资本开支 US$187.6m、PP&E US$74.9m、非流动预付款 US$100.8m；配售公告称将预先锁定推理硬件与云容量；业绩会称自建集群 ETTR 97%、国产集群将很快上线（媒体转述）。",
+          "validation": "2026H2 销售成本占收入比较 2026H1 的 82.1% 下降至 75% 以下；2026 年报披露 PP&E 与资本承担明细。"
+        },
+        {
+          "direction": "以开放平台/Token Plan 为主引擎的 B 端 Token 经济",
+          "rationale": "企业与开发者调用需求增长最快，ARR 中 B 端约占 80%（媒体转述），是收入规模化最快的路径。",
+          "management_signal": "开放平台收入 +703.1%、占 63.4%；企业客户与开发者 2026-06-30 逾 100 万；阿里 API 上限由 US$0.65m 上调至 US$7.5m。",
+          "validation": "2026H2 开放平台收入半年环比增速 ≥80%，且集团毛利率不再低于 2026H1 的 17.9%。"
+        },
+        {
+          "direction": "Harness 产品与多模态差异化",
+          "rationale": "以 MiniMax Code 等 Agent 产品和开源 H3 视频模型建立与纯 API 价格竞争不同的价值点，管理层判断计费模式将向按任务结果演进。",
+          "management_signal": "配售净募资 10% 用于全球商业化与 harness 产品；H3 以开放权重发布；闫俊杰称多模态与语音毛利率相对更高（媒体转述）。",
+          "validation": "2026H2 AI 原生产品收入半年环比增速是否高于本期的 33.9%；2026 年报是否披露 harness 产品收入或付费用户。"
+        }
+      ],
+      "core_conflict": "Token 量增长越快、定价越低，单位毛利越被稀释；而扩张所需的算力在涨价、要先付现。规模扩张与单位经济在本期是反向的，2027 年 7 月到期的可转债为这一矛盾设定了验证时限。",
+      "falsifier": "2026 年报（2026H2 = 全年减 H1）若显示全年毛利率 ≥25%（隐含 2026H2 毛利率约 27%-30% 以上）、2026H2 经营现金流减资本开支流出 ≤US$400m，且开放平台收入半年环比增速仍 ≥80%，则“放量稀释单位经济”的主线被推翻。",
+      "valuation_context": "8/27 收盘 HK$314.60、9/30 收盘 HK$250.2（低于 7 月配售价 HK$268）。券商口径：招银国际 580 港元（50 倍 FY26E PS）、中金 786 港元（9/17 下调 29.1%）；收入增长已被交易，毛利率环比回落尚未成为主要定价理由。以上为外部市场数据，不构成官方事实。",
+      "catalyst": "M3.1 商用并兑现推理成本约降至三分之一；国产/自建算力承接生产流量带动销售成本率下降；2026 年报首次披露分业务毛利。",
+      "risk": "2027 年可转债现金兑付或再融资稀释；GPU 租价继续上涨；对手模型代际领先导致价格战；海螺版权诉讼进入实体审理（庭审排期待核实）。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。",
+    "approved_at": "2026-10-03T16:24:03.271599+00:00",
+    "approved_by": "user (2026-10-04 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于 MiniMax 能否增长——2026H1 收入 US$116.6m、同比 +283.1%，已超过 2025 全年；而在于放量的单位经济是否在变差：毛利率同比升至 17.9%，却较 2025H2（推算 33.7%）回落约 15.9 个百分点，叠加 US$187.6m 资本开支，H1 经营现金流减资本开支约 US$(505.7)m。增长正从“效率驱动”转向“以资本换算力、以低价换 Token 份额”，2027 年 7 月到期、转股价 HK$335 的 HK$6,500m 可转债为这一押注设定了验证时限。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "最难的问题是把收入规模的跃升转化为单位毛利的改善：2026H1 收入环比 2025H2 增长 139.8%，毛利率却由推算的 33.7% 降至 17.9%；增量来自低价、高 Token 密度的开放平台/Token Plan，而算力租价在上涨——这不是靠追加投入就能解决的问题，投入越多、亏损越大。",
+    "current_difficulties": [
+      {
+        "title": "放量稀释单位毛利",
+        "evidence": "开放平台占比 34.5%→63.4%；毛利率 33.7%（2025H2 推算）→17.9%；销售成本 +258.1% 与收入 +283.1% 几乎同步；M3 与 M2 同价（业绩会，媒体转述）。",
+        "implication": "收入越大不等于亏损越小，经调整净亏损已扩大至 US$293.0m（+111.2%），盈利路径取决于单位推理成本能否快于价格与 Token 密度下降。"
+      },
+      {
+        "title": "资本强度跃升与融资时限",
+        "evidence": "资本开支 US$187.6m（FY2025 全年 US$0.9m），经营现金流减资本开支约 US$(505.7)m；银行借款 US$133.6m；HK$6,500m 可转债约 2027-07-14 到期、转股价 HK$335，9/30 股价 HK$250.2。",
+        "implication": "备考流动性约 US$3,348.7m 提供跑道，但其中约 US$852.2m 可能在 2027 年需现金兑付；若盈利路径未在 2027 年中前清晰，再融资与稀释将成为经营约束。"
+      },
+      {
+        "title": "定价权未确立",
+        "evidence": "智谱 API 平均售价提升约 101%、API 毛利率 24.6%，而 MiniMax 维持原价；中金称 M3 编码能力未居国内首位并下调目标价 29.1%；管理层承认 M3 研发有不足。",
+        "implication": "缺乏模型代际领先时，Token 份额只能用价格换，开放平台毛利改善空间受限。"
+      }
+    ],
+    "strategic_judgment": "管理层选择“先量后利、以资本换算力”：用不变价格和 Token Plan 把开放平台做成主引擎，同时把 80% 新募资金投向基础设施，并从纯租用转向自建与国产算力。取舍是短期毛利率与现金流，前提是推理成本下降速度快于价格与单位 Token 收入下降——这一前提在本期尚未被财务数据证明。",
+    "strategic_directions": [
+      {
+        "direction": "从租算力转向自建与国产算力",
+        "rationale": "GPU 租价上行、推理需求激增，锁定供给并把可变成本转为固定资产是降低单位推理成本的前提。",
+        "management_signal": "资本开支 US$187.6m、PP&E US$74.9m、非流动预付款 US$100.8m；配售公告称将预先锁定推理硬件与云容量；业绩会称自建集群 ETTR 97%、国产集群将很快上线（媒体转述）。",
+        "validation": "2026H2 销售成本占收入比较 2026H1 的 82.1% 下降至 75% 以下；2026 年报披露 PP&E 与资本承担明细。"
+      },
+      {
+        "direction": "以开放平台/Token Plan 为主引擎的 B 端 Token 经济",
+        "rationale": "企业与开发者调用需求增长最快，ARR 中 B 端约占 80%（媒体转述），是收入规模化最快的路径。",
+        "management_signal": "开放平台收入 +703.1%、占 63.4%；企业客户与开发者 2026-06-30 逾 100 万；阿里 API 上限由 US$0.65m 上调至 US$7.5m。",
+        "validation": "2026H2 开放平台收入半年环比增速 ≥80%，且集团毛利率不再低于 2026H1 的 17.9%。"
+      },
+      {
+        "direction": "Harness 产品与多模态差异化",
+        "rationale": "以 MiniMax Code 等 Agent 产品和开源 H3 视频模型建立与纯 API 价格竞争不同的价值点，管理层判断计费模式将向按任务结果演进。",
+        "management_signal": "配售净募资 10% 用于全球商业化与 harness 产品；H3 以开放权重发布；闫俊杰称多模态与语音毛利率相对更高（媒体转述）。",
+        "validation": "2026H2 AI 原生产品收入半年环比增速是否高于本期的 33.9%；2026 年报是否披露 harness 产品收入或付费用户。"
+      }
+    ],
+    "core_conflict": "Token 量增长越快、定价越低，单位毛利越被稀释；而扩张所需的算力在涨价、要先付现。规模扩张与单位经济在本期是反向的，2027 年 7 月到期的可转债为这一矛盾设定了验证时限。",
+    "falsifier": "2026 年报（2026H2 = 全年减 H1）若显示全年毛利率 ≥25%（隐含 2026H2 毛利率约 27%-30% 以上）、2026H2 经营现金流减资本开支流出 ≤US$400m，且开放平台收入半年环比增速仍 ≥80%，则“放量稀释单位经济”的主线被推翻。",
+    "valuation_context": "8/27 收盘 HK$314.60、9/30 收盘 HK$250.2（低于 7 月配售价 HK$268）。券商口径：招银国际 580 港元（50 倍 FY26E PS）、中金 786 港元（9/17 下调 29.1%）；收入增长已被交易，毛利率环比回落尚未成为主要定价理由。以上为外部市场数据，不构成官方事实。",
+    "catalyst": "M3.1 商用并兑现推理成本约降至三分之一；国产/自建算力承接生产流量带动销售成本率下降；2026 年报首次披露分业务毛利。",
+    "risk": "2027 年可转债现金兑付或再融资稀释；GPU 租价继续上涨；对手模型代际领先导致价格战；海螺版权诉讼进入实体审理（庭审排期待核实）。"
+  },
+  "sources": [
+    {
+      "id": "hkex-interim-results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf",
+      "title": "MiniMax 截至2026年6月30日止六个月中期业绩公告（英文，HKEXnews）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:21+08:00"
+    },
+    {
+      "id": "hkex-interim-report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf",
+      "title": "MiniMax 2026 中期报告（含现金流量表、关联交易、募资用途，HKEXnews）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:21+08:00"
+    },
+    {
+      "id": "hkex-cct-alibaba",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601949.pdf",
+      "title": "MiniMax 修订主API服务协议及阿里云计算服务协议年度上限公告（HKEXnews，2026-08-26）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:21+08:00"
+    },
+    {
+      "id": "hkex-placing-cb",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0710/2026071000027.pdf",
+      "title": "MiniMax 配售3,560万股新A类股及发行65亿港元2027年到期零息可转债公告（HKEXnews，2026-07-10）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:21+08:00"
+    },
+    {
+      "id": "hkex-fy2025-results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0302/2026030202837.pdf",
+      "title": "MiniMax 2025 年度业绩公告（HKEXnews，2026-03-02；用于 2025H2 推算）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:21+08:00"
+    },
+    {
+      "id": "hkex-fy2025-annual-report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+      "title": "MiniMax 2025 年报（HKEXnews，2026-04-22；现金流量表与法律程序披露）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:21+08:00"
+    },
+    {
+      "id": "ir-1h2026-press-release",
+      "url": "https://www.minimax.io/news/minimax-announces-first-half-2026-financial-results-1787744160",
+      "title": "MiniMax 官网 IR：MiniMax Announces First Half 2026 Financial Results（含 CEO 引语）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:21+08:00"
+    },
+    {
+      "id": "ext-stcn-20260826-call",
+      "url": "https://www.stcn.com/article/detail/4132333.html",
+      "title": "证券时报：MiniMax上半年收入超去年全年（业绩电话会报道，2026-08-26）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-10jqka-20260827-arr",
+      "url": "https://stock.10jqka.com.cn/hks/20260827/c679336991.shtml",
+      "title": "同花顺/财闻：MINIMAX-W高开近5%，8月ARR突破8亿美元（2026-08-27）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-stockstar-20260827-cmbi",
+      "url": "https://hk.stockstar.com/IG2026082700029457.shtml",
+      "title": "证券之星/金吾财讯：招银国际评 MiniMax 1H26（引 Visible Alpha 一致预期，2026-08-27）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-yicai-20260827-close",
+      "url": "https://www.yicaiglobal.com/news/minimaxs-shares-rise-after-chinese-ai-firm-narrows-loss-grows-revenue-in-first-half",
+      "title": "Yicai Global：MiniMax shares rise after first-half results（2026-08-27 收盘）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-sina-20260828-guancha",
+      "url": "https://finance.sina.com.cn/stock/t/2026-08-28/doc-inipwhrr4501714.shtml",
+      "title": "新浪/观察者网：ARR破8亿美元后，MiniMax造血逻辑生变（2026-08-28）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-chinacom-20260902-duopoly",
+      "url": "http://finance.china.com.cn/industry/20260902/6322924.shtml",
+      "title": "中国网/澎湃：港股大模型双雄上半年成绩单（含闫俊杰毛利率表态，2026-09-02）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-10jqka-20260901-duopoly",
+      "url": "https://stock.10jqka.com.cn/20260901/c679486759.shtml",
+      "title": "同花顺：大模型双雄中报分野——一个向上要价，一个向下要量（2026-09-01）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-stcn-20260901-zhipu",
+      "url": "https://stcn.com/article/detail/4166451.html",
+      "title": "证券时报：智谱上半年收入同比增长近400%，API收入占比86.5%（2026-09-01）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-eastmoney-20261002-compute",
+      "url": "https://finance.eastmoney.com/a/202610023888317440.html",
+      "title": "东方财富/开源证券：算力供需缺口持续扩大，算力租赁景气上行（2026-10-02）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-sina-20260918-gpu-price",
+      "url": "https://cj.sina.com.cn/articles/view/1801487174/6b6083460200387l8",
+      "title": "新浪/东方财富：Nebius 10月1日起上调GPU租价约20%（2026-09-18）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-lexsummary-20260522-mtd",
+      "url": "https://lexsummary.com/disney-v-minimax-ai-copyright-hailuo-mtd-denied/",
+      "title": "LexSummary：Disney v. MiniMax 驳回动议被拒（2026-05）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-ailawwiki-disney-v-minimax",
+      "url": "https://ailawwiki.com/Disney_v_MiniMax",
+      "title": "AI Law Wiki：Disney Enterprises v. MiniMax 案件页（列 2027-07-12 庭审日期）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-sina-20260928-cicc",
+      "url": "https://finance.sina.com.cn/stock/zqgd/2026-09-28/doc-initiwip3926316.shtml",
+      "title": "新浪/财中社：MINIMAX-W早盘跌超10%（含中金 9/17 下调目标价，2026-09-28）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-stockstar-20260930-close",
+      "url": "https://4g.stockstar.com/detail/RB2026093000029062",
+      "title": "证券之星：MINIMAX-W 9月30日收盘 250.2 港元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    },
+    {
+      "id": "ext-cnstock-20260831",
+      "url": "http://www.cnstock.com/commonDetail/783411?commTag=true",
+      "title": "上海证券报：MINIMAX-W盘中一度涨超15%（2026-08-31）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:21:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "rev_2026h1",
+      "metric": "total_revenue",
+      "value": 116573,
+      "display_value": "US$116,573千（1.166亿美元）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Revenue 116,573 (USD'000, unaudited)",
+      "location": "中期业绩公告 p.1 财务摘要 / p.12 损益表"
+    },
+    {
+      "id": "rev_2025h1",
+      "metric": "total_revenue",
+      "value": 30429,
+      "display_value": "US$30,429千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Revenue 30,429 (USD'000) six months ended June 30, 2025",
+      "location": "中期业绩公告 p.12 损益表"
+    },
+    {
+      "id": "rev_ai_native_2026h1",
+      "metric": "revenue_ai_native_products",
+      "value": 42644,
+      "display_value": "US$42,644千（占36.6%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": "AI-native products",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "AI-native products 42,644 / 36.6%",
+      "location": "中期业绩公告 p.5 收入构成 / 附注3 p.17"
+    },
+    {
+      "id": "rev_ai_native_2025h1",
+      "metric": "revenue_ai_native_products",
+      "value": 21223,
+      "display_value": "US$21,223千（占69.7%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": "AI-native products",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "AI-native products 21,223 / 69.7%",
+      "location": "中期业绩公告 p.5"
+    },
+    {
+      "id": "rev_open_platform_2026h1",
+      "metric": "revenue_open_platform_enterprise",
+      "value": 73929,
+      "display_value": "US$73,929千（占63.4%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": "Open Platform & other AI-based enterprise services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Open Platform and other AI-based enterprise services 73,929 / 63.4%",
+      "location": "中期业绩公告 p.5 / 附注3 p.17"
+    },
+    {
+      "id": "rev_open_platform_2025h1",
+      "metric": "revenue_open_platform_enterprise",
+      "value": 9206,
+      "display_value": "US$9,206千（占30.3%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": "Open Platform & other AI-based enterprise services",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Open Platform ... 9,206 / 30.3%",
+      "location": "中期业绩公告 p.5"
+    },
+    {
+      "id": "rev_china_2026h1",
+      "metric": "revenue_chinese_mainland",
+      "value": 45745,
+      "display_value": "US$45,745千（占39.2%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": "Chinese mainland",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Chinese mainland 45,745 / 39.2%",
+      "location": "中期业绩公告 p.5 地区收入"
+    },
+    {
+      "id": "rev_row_2026h1",
+      "metric": "revenue_rest_of_world",
+      "value": 70828,
+      "display_value": "US$70,828千（占60.8%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": "Rest of the World",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Rest of the World 70,828 / 60.8%",
+      "location": "中期业绩公告 p.5"
+    },
+    {
+      "id": "rev_point_in_time_2026h1",
+      "metric": "revenue_point_in_time",
+      "value": 82461,
+      "display_value": "US$82,461千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Services transferred at a point in time 82,461",
+      "location": "中期业绩公告 附注3 p.17"
+    },
+    {
+      "id": "rev_over_time_2026h1",
+      "metric": "revenue_over_time",
+      "value": 34112,
+      "display_value": "US$34,112千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Services transferred over time 34,112",
+      "location": "中期业绩公告 附注3 p.17"
+    },
+    {
+      "id": "cogs_2026h1",
+      "metric": "cost_of_sales",
+      "value": 95760,
+      "display_value": "US$95,760千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Cost of sales (95,760)",
+      "location": "中期业绩公告 p.4 / p.12"
+    },
+    {
+      "id": "gp_2026h1",
+      "metric": "gross_profit",
+      "value": 20813,
+      "display_value": "US$20,813千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Gross profit 20,813",
+      "location": "中期业绩公告 p.1 / p.12"
+    },
+    {
+      "id": "gp_2025h1",
+      "metric": "gross_profit",
+      "value": 3685,
+      "display_value": "US$3,685千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Gross profit 3,685",
+      "location": "中期业绩公告 p.12"
+    },
+    {
+      "id": "sd_2026h1",
+      "metric": "selling_and_distribution_expenses",
+      "value": 26973,
+      "display_value": "US$26,973千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Selling and distribution expenses (26,973), -17.9% on lower promotion",
+      "location": "中期业绩公告 p.4 / p.6"
+    },
+    {
+      "id": "admin_2026h1",
+      "metric": "administrative_expenses",
+      "value": 30230,
+      "display_value": "US$30,230千（占收入25.9%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Administrative expenses (30,230); 25.9% of revenue (2025H1: 48.8%)",
+      "location": "中期业绩公告 p.4 / p.6"
+    },
+    {
+      "id": "rd_2026h1",
+      "metric": "research_and_development_expenses",
+      "value": 296870,
+      "display_value": "US$296,870千（2.969亿美元）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "R&D (296,870), mainly cloud services for training",
+      "location": "中期业绩公告 p.4 / p.6"
+    },
+    {
+      "id": "rd_2025h1",
+      "metric": "research_and_development_expenses",
+      "value": 124333,
+      "display_value": "US$124,333千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "R&D (124,333)",
+      "location": "中期业绩公告 p.4"
+    },
+    {
+      "id": "other_income_2026h1",
+      "metric": "other_income_and_gains_net",
+      "value": 8039,
+      "display_value": "US$8,039千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Other income and gains, net 8,039 (2025H1: 20,339), lower WMP gains",
+      "location": "中期业绩公告 p.4 / p.6"
+    },
+    {
+      "id": "fv_loss_2026h1",
+      "metric": "fair_value_loss_on_financial_liabilities",
+      "value": 31025,
+      "display_value": "US$31,025千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Fair value loss on financial liabilities (31,025); preferred shares converted at Listing",
+      "location": "中期业绩公告 p.4 / p.7"
+    },
+    {
+      "id": "net_loss_2026h1",
+      "metric": "net_loss_ifrs",
+      "value": -357997,
+      "display_value": "US$(357,997)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Loss for the period (357,997); income tax nil",
+      "location": "中期业绩公告 p.1 / p.12"
+    },
+    {
+      "id": "net_loss_2025h1",
+      "metric": "net_loss_ifrs",
+      "value": -402188,
+      "display_value": "US$(402,188)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Loss for the period (402,188)",
+      "location": "中期业绩公告 p.12"
+    },
+    {
+      "id": "sbp_2026h1",
+      "metric": "share_based_payment_expenses",
+      "value": 28208,
+      "display_value": "US$28,208千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Share-based payment expenses 28,208",
+      "location": "中期业绩公告 p.4 非IFRS调节"
+    },
+    {
+      "id": "adj_net_loss_2026h1",
+      "metric": "adjusted_net_loss_non_ifrs",
+      "value": -293031,
+      "display_value": "US$(293,031)千（2.930亿美元）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Adjusted net loss (non-IFRS) (293,031)",
+      "location": "中期业绩公告 p.1 / p.4"
+    },
+    {
+      "id": "adj_net_loss_2025h1",
+      "metric": "adjusted_net_loss_non_ifrs",
+      "value": -138735,
+      "display_value": "US$(138,735)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Adjusted net loss (non-IFRS) (138,735)",
+      "location": "中期业绩公告 p.1 / p.4"
+    },
+    {
+      "id": "eps_2026h1",
+      "metric": "basic_and_diluted_loss_per_share",
+      "value": -1.18,
+      "display_value": "US$(1.18)/股",
+      "currency": "USD",
+      "unit": "USD_per_share",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Basic and diluted loss per share (1.18); weighted shares 304,454,203",
+      "location": "中期业绩公告 p.12 / 附注7 p.19"
+    },
+    {
+      "id": "cash_balance_20260630",
+      "metric": "cash_balance_company_defined",
+      "value": 1322800,
+      "display_value": "US$1,322.8百万（公司口径现金余额）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Cash balance US$1,322.8 million incl. cash 930.9, amortised cost 29.6, FVTPL 347.5, restricted 0.8, time deposit 14.0",
+      "location": "中期业绩公告 p.8 流动性"
+    },
+    {
+      "id": "cash_balance_20251231",
+      "metric": "cash_balance_company_defined",
+      "value": 1050300,
+      "display_value": "US$1,050.3百万",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Cash balance US$1,050.3 million as of December 31, 2025",
+      "location": "中期业绩公告 p.8"
+    },
+    {
+      "id": "cash_eq_20260630",
+      "metric": "cash_and_cash_equivalents",
+      "value": 930905,
+      "display_value": "US$930,905千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Cash and cash equivalents 930,905",
+      "location": "中期业绩公告 p.14 财务状况表"
+    },
+    {
+      "id": "ppe_20260630",
+      "metric": "property_plant_equipment",
+      "value": 74913,
+      "display_value": "US$74,913千（2025年末：1,571千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Property, plant and equipment 74,913 (Dec 31, 2025: 1,571)",
+      "location": "中期业绩公告 p.14"
+    },
+    {
+      "id": "prepay_nc_20260630",
+      "metric": "prepayments_other_assets_non_current",
+      "value": 100817,
+      "display_value": "US$100,817千（2025年末：887千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Prepayments, other receivables and other assets (non-current) 100,817 (2025: 887)",
+      "location": "中期业绩公告 p.14"
+    },
+    {
+      "id": "prepay_c_20260630",
+      "metric": "prepayments_other_assets_current",
+      "value": 165431,
+      "display_value": "US$165,431千（2025年末：16,319千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Prepayments, other receivables and other assets (current) 165,431 (2025: 16,319)",
+      "location": "中期业绩公告 p.14"
+    },
+    {
+      "id": "trade_receivables_20260630",
+      "metric": "trade_receivables",
+      "value": 39144,
+      "display_value": "US$39,144千（2025年末：10,730千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Trade receivables 39,144 (2025: 10,730), all within one year",
+      "location": "中期业绩公告 p.14 / 附注8 p.19"
+    },
+    {
+      "id": "trade_payables_20260630",
+      "metric": "trade_and_bills_payables",
+      "value": 170121,
+      "display_value": "US$170,121千（2025年末：57,677千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Trade and bills payables 170,121 (2025: 57,677); terms 30-90 days",
+      "location": "中期业绩公告 p.14 / 附注9 p.20"
+    },
+    {
+      "id": "contract_liab_20260630",
+      "metric": "contract_liabilities",
+      "value": 18287,
+      "display_value": "US$18,287千（2025年末：7,541千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Contract liabilities 18,287 (2025: 7,541)",
+      "location": "中期业绩公告 p.14"
+    },
+    {
+      "id": "bank_borrowings_20260630",
+      "metric": "interest_bearing_bank_borrowings",
+      "value": 133555,
+      "display_value": "US$133,555千（2025年末：35,452千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Interest-bearing bank borrowings 133,555; mainly RMB, unsecured, working capital",
+      "location": "中期业绩公告 p.8 / p.14"
+    },
+    {
+      "id": "total_equity_20260630",
+      "metric": "total_equity",
+      "value": 1346683,
+      "display_value": "US$1,346,683千（2025年末：(2,648,190)千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Total equity 1,346,683 (Dec 31, 2025: (2,648,190)) after preferred-share conversion",
+      "location": "中期业绩公告 p.15"
+    },
+    {
+      "id": "gearing_20260630",
+      "metric": "gearing_ratio",
+      "value": 21.5,
+      "display_value": "21.5%（2025年末：343.3%）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Gearing ratio 21.5% (December 31, 2025: 343.3%)",
+      "location": "中期业绩公告 p.8"
+    },
+    {
+      "id": "employees_20260630",
+      "metric": "full_time_employees",
+      "value": 568,
+      "display_value": "568人（2025年末：428人）",
+      "currency": "N/A",
+      "unit": "count",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "568 full-time employees; remuneration incl. SBP US$68.9m (2025H1: 35.9m)",
+      "location": "中期业绩公告 p.9"
+    },
+    {
+      "id": "ocf_2026h1",
+      "metric": "net_cash_used_in_operating_activities",
+      "value": -318106,
+      "display_value": "US$(318,106)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Net cash flows used in operating activities (318,106)",
+      "location": "中期报告 p.38 现金流量表"
+    },
+    {
+      "id": "ocf_2025h1",
+      "metric": "net_cash_used_in_operating_activities",
+      "value": -168538,
+      "display_value": "US$(168,538)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Net cash flows used in operating activities (168,538)",
+      "location": "中期报告 p.38"
+    },
+    {
+      "id": "capex_2026h1",
+      "metric": "purchases_of_ppe",
+      "value": -187626,
+      "display_value": "US$(187,626)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Purchases of items of property, plant and equipment (187,626) (2025H1: (383))",
+      "location": "中期报告 p.39"
+    },
+    {
+      "id": "fcf_fin_2026h1",
+      "metric": "net_cash_from_financing_activities",
+      "value": 791604,
+      "display_value": "US$791,604千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Net cash flows from financing activities 791,604 incl. share issue 710,725 and new borrowings 110,501",
+      "location": "中期报告 p.39"
+    },
+    {
+      "id": "wc_prepay_change_2026h1",
+      "metric": "increase_in_prepayments_cash_flow",
+      "value": -135241,
+      "display_value": "US$(135,241)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Increase in prepayments, other receivables and other assets (135,241)",
+      "location": "中期报告 p.38"
+    },
+    {
+      "id": "wc_payables_change_2026h1",
+      "metric": "increase_in_trade_payables_cash_flow",
+      "value": 112444,
+      "display_value": "US$112,444千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Increase in trade and bills payables 112,444",
+      "location": "中期报告 p.38"
+    },
+    {
+      "id": "alibaba_purchases_2026h1",
+      "metric": "related_party_purchases_alibaba",
+      "value": 75571,
+      "display_value": "US$75,571千（2025H1：35,350千）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": "Alibaba Group",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Purchase of services – Alibaba Group 75,571 (2025H1: 35,350)",
+      "location": "中期报告 附注13 p.45"
+    },
+    {
+      "id": "alibaba_sales_2026h1",
+      "metric": "related_party_sales_alibaba",
+      "value": 472,
+      "display_value": "US$472千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": "Alibaba Group",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Sales of services – Alibaba Group 472",
+      "location": "中期报告 附注13 p.45"
+    },
+    {
+      "id": "alicloud_cap_2026_revised",
+      "metric": "alibaba_cloud_annual_cap_2026",
+      "value": 300000,
+      "display_value": "US$300.0百万（原 115 百万）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "FY2026",
+      "segment": "Alibaba Cloud Services Agreement",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-cct-alibaba"
+      ],
+      "evidence": "Annual cap for 2026 revised from USD115 million to USD300.0 million; 2027 USD400.0m; 2028 USD500.0m",
+      "location": "阿里关连交易公告 p.6-7"
+    },
+    {
+      "id": "alicloud_actual_2026h1",
+      "metric": "alibaba_cloud_actual_2026h1",
+      "value": 75600,
+      "display_value": "约US$75.6百万（上限使用率约65.7%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": "Alibaba Cloud Services Agreement",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-cct-alibaba"
+      ],
+      "evidence": "historical transaction amount ... six months ended June 30, 2026 approximately USD75.6 million; utilization approx 65.7%",
+      "location": "阿里关连交易公告 p.6-7"
+    },
+    {
+      "id": "rd_spend_implied_monthly",
+      "metric": "implied_additional_monthly_rd_related_spend",
+      "value": 92600,
+      "display_value": "约US$92.6百万/月（公司口径）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-07..2027-12",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-cct-alibaba"
+      ],
+      "evidence": "80% of aggregate net proceeds HK$12,701.6m (approx USD1,620.7m at 7.8370) to be used by Dec 31, 2027 ... implies additional average monthly R&D-related expenditure of approximately USD92.6 million",
+      "location": "阿里关连交易公告 p.7"
+    },
+    {
+      "id": "placing_net_hkd",
+      "metric": "placing_net_proceeds_hkd",
+      "value": 9443710,
+      "display_value": "约HK$9,443.71百万",
+      "currency": "HKD",
+      "unit": "HKD_thousand",
+      "period": "2026-07-14",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "35,600,000 Class A shares at HK$268.00; net proceeds approx HK$9,443.71 million",
+      "location": "中期业绩公告 p.11 期后事项"
+    },
+    {
+      "id": "cb_principal_hkd",
+      "metric": "convertible_bond_principal_hkd",
+      "value": 6500000,
+      "display_value": "HK$6,500.00百万（零息，2027年到期，转股价HK$335.00）",
+      "currency": "HKD",
+      "unit": "HKD_thousand",
+      "period": "2026-07-16",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "zero coupon guaranteed convertible bonds HK$6,500.00 million due 2027; initial conversion price HK$335.00; net proceeds approx HK$6,433.3 million",
+      "location": "中期业绩公告 p.11 期后事项"
+    },
+    {
+      "id": "cb_redemption_pct",
+      "metric": "convertible_bond_redemption_at_maturity_pct",
+      "value": 102.75,
+      "display_value": "到期按本金102.75%赎回（约2027-07-14）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2027-07-14",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-placing-cb"
+      ],
+      "evidence": "Maturity Date: on or around July 14, 2027 ... redeem each Bond at 102.75 per cent. of the principal amount on the Maturity Date",
+      "location": "配售及可转债公告 p.12/p.15"
+    },
+    {
+      "id": "fx_company_rate",
+      "metric": "company_disclosed_usd_hkd_rate",
+      "value": 7.837,
+      "display_value": "USD1.00 = HK$7.8370（公司公告所用汇率）",
+      "currency": "HKD",
+      "unit": "HKD_per_USD",
+      "period": "2026-08-26",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-cct-alibaba"
+      ],
+      "evidence": "equivalent to approximately USD1,620.7 million, based on the exchange rate of USD1.00 to HK$7.8370",
+      "location": "阿里关连交易公告 p.7"
+    },
+    {
+      "id": "enterprise_devs_20260630",
+      "metric": "enterprise_clients_and_developers",
+      "value": 1000000,
+      "display_value": ">100万家企业客户及开发者（2025年末约20万）",
+      "currency": "N/A",
+      "unit": "count",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-placing-cb"
+      ],
+      "evidence": "growing from approximately 200,000 enterprise clients and developers as at the end of 2025 to over 1.0 million as of June 30, 2026",
+      "location": "配售及可转债公告 p.23"
+    },
+    {
+      "id": "consumer_users_202607",
+      "metric": "consumer_product_users",
+      "value": 300000000,
+      "display_value": "约3亿全球用户（消费端产品）",
+      "currency": "N/A",
+      "unit": "count",
+      "period": "2026-07-10",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-placing-cb"
+      ],
+      "evidence": "our consumer-facing products have reached approximately 300 million global users",
+      "location": "配售及可转债公告 p.21"
+    },
+    {
+      "id": "ipo_infra_deployed_pct",
+      "metric": "ipo_infra_proceeds_deployed_pct",
+      "value": 77,
+      "display_value": "约77%（IPO 中 AI 基础设施与模型研发分配额已投放）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026-07-10",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-placing-cb"
+      ],
+      "evidence": "having deployed approximately 77% of the net proceeds allocated for AI infrastructure and model R&D",
+      "location": "配售及可转债公告 p.21"
+    },
+    {
+      "id": "token_growth_jul_vs_jan",
+      "metric": "token_consumption_jul_vs_jan_multiple",
+      "value": 20,
+      "display_value": "2026年7月Token消耗量为1月的20倍（CEO引语）",
+      "currency": "N/A",
+      "unit": "multiple",
+      "period": "2026-07",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "ir-1h2026-press-release"
+      ],
+      "evidence": "By July 2026, Token consumption on MiniMax had grown to 20 times its January level",
+      "location": "官网 IR 新闻稿 CEO 引语"
+    },
+    {
+      "id": "contingent_ip_no_provision",
+      "metric": "ip_litigation_provision",
+      "value": 0,
+      "display_value": "未计提拨备（多宗知识产权侵权纠纷）",
+      "currency": "USD",
+      "unit": "USD",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "certain subsidiaries ... respondents in several legal dispute cases ... alleged infringement of intellectual property rights ... no provision has been made",
+      "location": "中期业绩公告 附注10 p.20"
+    },
+    {
+      "id": "rev_fy2025",
+      "metric": "total_revenue",
+      "value": 79038,
+      "display_value": "US$79,038千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-fy2025-results"
+      ],
+      "evidence": "Revenue 79,038 (USD'000)",
+      "location": "2025年度业绩公告 p.13 损益表"
+    },
+    {
+      "id": "gp_fy2025",
+      "metric": "gross_profit",
+      "value": 20079,
+      "display_value": "US$20,079千（毛利率25.4%）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-fy2025-results"
+      ],
+      "evidence": "Gross profit 20,079; GPM 25.4%",
+      "location": "2025年度业绩公告 p.13 / p.6"
+    },
+    {
+      "id": "rd_fy2025",
+      "metric": "research_and_development_expenses",
+      "value": 252771,
+      "display_value": "US$252,771千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-fy2025-results"
+      ],
+      "evidence": "R&D (252,771)",
+      "location": "2025年度业绩公告 p.13"
+    },
+    {
+      "id": "ocf_fy2025",
+      "metric": "net_cash_used_in_operating_activities",
+      "value": -279641,
+      "display_value": "US$(279,641)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-fy2025-annual-report"
+      ],
+      "evidence": "Net cash flows used in operating activities (279,641)",
+      "location": "2025年报 p.106 现金流量表"
+    },
+    {
+      "id": "capex_fy2025",
+      "metric": "purchases_of_ppe",
+      "value": -920,
+      "display_value": "US$(920)千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-fy2025-annual-report"
+      ],
+      "evidence": "Purchases of items of property, plant and equipment (920)",
+      "location": "2025年报 p.107"
+    },
+    {
+      "id": "api_cap_2026_revised",
+      "metric": "alibaba_api_annual_cap_2026",
+      "value": 7500,
+      "display_value": "US$7.5百万（原 0.65 百万）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "FY2026",
+      "segment": "Master API Service Agreement",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-cct-alibaba"
+      ],
+      "evidence": "API annual cap 2026 revised from USD0.65m to USD7.5m; H1 2026 actual USD501,704; utilization 77.2%",
+      "location": "阿里关连交易公告 p.3-4"
+    },
+    {
+      "id": "alibaba_payables_20260630",
+      "metric": "related_party_payables_alibaba",
+      "value": 43077,
+      "display_value": "US$43,077千",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30",
+      "segment": "Alibaba Group",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Trade and bills payables due to Alibaba Group 43,077",
+      "location": "中期报告 附注13 p.46"
+    },
+    {
+      "id": "rev_2025h2",
+      "metric": "total_revenue",
+      "value": 48609,
+      "display_value": "US$48,609千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: rev_fy2025 - rev_2025h1; inputs: rev_fy2025, rev_2025h1",
+      "location": "2025年度业绩公告 p.13 损益表; 中期业绩公告 p.12 损益表"
+    },
+    {
+      "id": "gp_2025h2",
+      "metric": "gross_profit",
+      "value": 16394,
+      "display_value": "US$16,394千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: gp_fy2025 - gp_2025h1; inputs: gp_fy2025, gp_2025h1",
+      "location": "2025年度业绩公告 p.13 / p.6; 中期业绩公告 p.12"
+    },
+    {
+      "id": "gpm_2025h2",
+      "metric": "gross_margin",
+      "value": 33.7263,
+      "display_value": "33.7%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: gp_2025h2 / rev_2025h2; inputs: gp_fy2025, gp_2025h1, rev_fy2025, rev_2025h1",
+      "location": "2025年度业绩公告 p.13 / p.6; 2025年度业绩公告 p.13 损益表; 中期业绩公告 p.12; 中期业绩公告 p.12 损益表"
+    },
+    {
+      "id": "gpm_2026h1_vs_2025h2_pp",
+      "metric": "gross_margin_change_hoh",
+      "value": -15.8722,
+      "display_value": "-15.9个百分点（推算）",
+      "currency": "N/A",
+      "unit": "percentage_point",
+      "period": "2026H1 vs 2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: gpm_2026h1 - gpm_2025h2; inputs: gp_2026h1, rev_2026h1, gp_fy2025, gp_2025h1, rev_fy2025, rev_2025h1",
+      "location": "2025年度业绩公告 p.13 / p.6; 2025年度业绩公告 p.13 损益表; 中期业绩公告 p.1 / p.12; 中期业绩公告 p.1 财务摘要 / p.12 损益表; 中期业绩公告 p.12; 中期业绩公告 p.12 损益表"
+    },
+    {
+      "id": "gpm_2026h1_vs_2025h1_pp",
+      "metric": "gross_margin_change_yoy",
+      "value": 5.7439,
+      "display_value": "+5.7个百分点（推算）",
+      "currency": "N/A",
+      "unit": "percentage_point",
+      "period": "2026H1 vs 2025H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: gpm_2026h1 - gpm_2025h1; inputs: gp_2026h1, rev_2026h1, gp_2025h1, rev_2025h1",
+      "location": "中期业绩公告 p.1 / p.12; 中期业绩公告 p.1 财务摘要 / p.12 损益表; 中期业绩公告 p.12; 中期业绩公告 p.12 损益表"
+    },
+    {
+      "id": "rev_hoh_pct",
+      "metric": "revenue_change_hoh",
+      "value": 139.8177,
+      "display_value": "139.8%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1 vs 2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: rev_2026h1 / rev_2025h2 - 1; inputs: rev_2026h1, rev_fy2025, rev_2025h1",
+      "location": "2025年度业绩公告 p.13 损益表; 中期业绩公告 p.1 财务摘要 / p.12 损益表; 中期业绩公告 p.12 损益表"
+    },
+    {
+      "id": "rev_open_platform_2025h2",
+      "metric": "revenue_open_platform_enterprise",
+      "value": 16757,
+      "display_value": "US$16,757千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: fy2025 - 2025h1; inputs: rev_open_platform_fy2025, rev_open_platform_2025h1",
+      "location": "2025年度业绩公告 p.5; 中期业绩公告 p.5"
+    },
+    {
+      "id": "rev_open_platform_hoh_pct",
+      "metric": "open_platform_change_hoh",
+      "value": 341.1828,
+      "display_value": "341.2%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1 vs 2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: op_2026h1 / op_2025h2 - 1; inputs: rev_open_platform_2026h1, rev_open_platform_fy2025, rev_open_platform_2025h1",
+      "location": "2025年度业绩公告 p.5; 中期业绩公告 p.5; 中期业绩公告 p.5 / 附注3 p.17"
+    },
+    {
+      "id": "open_platform_share_2025h2",
+      "metric": "open_platform_revenue_share",
+      "value": 34.473,
+      "display_value": "34.5%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: op_2025h2 / rev_2025h2; inputs: rev_open_platform_fy2025, rev_open_platform_2025h1, rev_fy2025, rev_2025h1",
+      "location": "2025年度业绩公告 p.13 损益表; 2025年度业绩公告 p.5; 中期业绩公告 p.12 损益表; 中期业绩公告 p.5"
+    },
+    {
+      "id": "rev_ai_native_2025h2",
+      "metric": "revenue_ai_native_products",
+      "value": 31852,
+      "display_value": "US$31,852千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: fy2025 - 2025h1; inputs: rev_ai_native_fy2025, rev_ai_native_2025h1",
+      "location": "2025年度业绩公告 p.5; 中期业绩公告 p.5"
+    },
+    {
+      "id": "rev_ai_native_hoh_pct",
+      "metric": "ai_native_change_hoh",
+      "value": 33.8817,
+      "display_value": "33.9%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1 vs 2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: ain_2026h1 / ain_2025h2 - 1; inputs: rev_ai_native_2026h1, rev_ai_native_fy2025, rev_ai_native_2025h1",
+      "location": "2025年度业绩公告 p.5; 中期业绩公告 p.5; 中期业绩公告 p.5 收入构成 / 附注3 p.17"
+    },
+    {
+      "id": "rev_china_yoy_pct",
+      "metric": "chinese_mainland_revenue_yoy",
+      "value": 433.7184,
+      "display_value": "433.7%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1 vs 2025H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: china_2026h1 / china_2025h1 - 1; inputs: rev_china_2026h1, rev_china_2025h1",
+      "location": "中期业绩公告 p.5; 中期业绩公告 p.5 地区收入"
+    },
+    {
+      "id": "rev_row_yoy_pct",
+      "metric": "rest_of_world_revenue_yoy",
+      "value": 224.037,
+      "display_value": "224.0%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1 vs 2025H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: row_2026h1 / row_2025h1 - 1; inputs: rev_row_2026h1, rev_row_2025h1",
+      "location": "中期业绩公告 p.5"
+    },
+    {
+      "id": "rd_2025h2",
+      "metric": "research_and_development_expenses",
+      "value": 128438,
+      "display_value": "US$128,438千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: fy2025 - 2025h1; inputs: rd_fy2025, rd_2025h1",
+      "location": "2025年度业绩公告 p.13; 中期业绩公告 p.4"
+    },
+    {
+      "id": "rd_hoh_pct",
+      "metric": "rd_change_hoh",
+      "value": 131.1388,
+      "display_value": "131.1%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1 vs 2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: rd_2026h1 / rd_2025h2 - 1; inputs: rd_2026h1, rd_fy2025, rd_2025h1",
+      "location": "2025年度业绩公告 p.13; 中期业绩公告 p.4; 中期业绩公告 p.4 / p.6"
+    },
+    {
+      "id": "rd_to_revenue_2026h1",
+      "metric": "rd_to_revenue",
+      "value": 254.6645,
+      "display_value": "254.7%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: rd / revenue; inputs: rd_2026h1, rev_2026h1",
+      "location": "中期业绩公告 p.1 财务摘要 / p.12 损益表; 中期业绩公告 p.4 / p.6"
+    },
+    {
+      "id": "rd_to_revenue_2025h1",
+      "metric": "rd_to_revenue",
+      "value": 408.6003,
+      "display_value": "408.6%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: rd / revenue; inputs: rd_2025h1, rev_2025h1",
+      "location": "中期业绩公告 p.12 损益表; 中期业绩公告 p.4"
+    },
+    {
+      "id": "sd_to_revenue_2026h1",
+      "metric": "sd_to_revenue",
+      "value": 23.1383,
+      "display_value": "23.1%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: s&d / revenue; inputs: sd_2026h1, rev_2026h1",
+      "location": "中期业绩公告 p.1 财务摘要 / p.12 损益表; 中期业绩公告 p.4 / p.6"
+    },
+    {
+      "id": "adj_loss_margin_2026h1",
+      "metric": "adjusted_net_loss_margin",
+      "value": -251.3712,
+      "display_value": "-251.4%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: adjusted net loss / revenue; inputs: adj_net_loss_2026h1, rev_2026h1",
+      "location": "中期业绩公告 p.1 / p.4; 中期业绩公告 p.1 财务摘要 / p.12 损益表"
+    },
+    {
+      "id": "adj_net_loss_2025h2",
+      "metric": "adjusted_net_loss_non_ifrs",
+      "value": -112121,
+      "display_value": "US$(112,121)千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-fy2025-results",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: fy2025 - 2025h1; inputs: adj_net_loss_fy2025, adj_net_loss_2025h1",
+      "location": "2025年度业绩公告 p.1; 中期业绩公告 p.1 / p.4"
+    },
+    {
+      "id": "fcf_simple_2026h1",
+      "metric": "ocf_minus_capex",
+      "value": -505732,
+      "display_value": "US$(505,732)千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Formula: ocf + purchases_of_ppe (company does not disclose FCF); inputs: ocf_2026h1, capex_2026h1",
+      "location": "中期报告 p.38 现金流量表; 中期报告 p.39"
+    },
+    {
+      "id": "fcf_simple_2025h1",
+      "metric": "ocf_minus_capex",
+      "value": -168921,
+      "display_value": "US$(168,921)千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report"
+      ],
+      "evidence": "Formula: ocf + purchases_of_ppe; inputs: ocf_2025h1, capex_2025h1",
+      "location": "中期报告 p.38; 中期报告 p.39"
+    },
+    {
+      "id": "capex_to_revenue_2026h1",
+      "metric": "capex_to_revenue",
+      "value": 160.9515,
+      "display_value": "161.0%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: capex / revenue; inputs: capex_2026h1, rev_2026h1",
+      "location": "中期业绩公告 p.1 财务摘要 / p.12 损益表; 中期报告 p.39"
+    },
+    {
+      "id": "ppe_cash_vs_book_gap",
+      "metric": "capex_cash_minus_ppe_net_increase",
+      "value": 114284,
+      "display_value": "US$114,284千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: cash capex - (PP&E end - PP&E begin); depreciation 2,334 not added back; inputs: capex_2026h1, ppe_20260630, ppe_20251231",
+      "location": "中期业绩公告 p.14; 中期报告 p.39"
+    },
+    {
+      "id": "post_period_net_raise_usd",
+      "metric": "post_period_net_proceeds_usd",
+      "value": 2025904.0449,
+      "display_value": "US$2,025,904千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-07",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-cct-alibaba",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: (placing net + CB net, HK$'000) / 7.837; inputs: placing_net_hkd, cb_net_hkd, fx_company_rate",
+      "location": "中期业绩公告 p.11; 中期业绩公告 p.11 期后事项; 阿里关连交易公告 p.7"
+    },
+    {
+      "id": "pro_forma_liquidity_usd",
+      "metric": "pro_forma_cash_balance_incl_july_raise",
+      "value": 3348704.0449,
+      "display_value": "US$3,348,704千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026-06-30 pro forma",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-cct-alibaba",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: cash balance 2026-06-30 + July net raise (ignores H2 burn; CB is debt); inputs: cash_balance_20260630, placing_net_hkd, cb_net_hkd, fx_company_rate",
+      "location": "中期业绩公告 p.11; 中期业绩公告 p.11 期后事项; 中期业绩公告 p.8 流动性; 阿里关连交易公告 p.7"
+    },
+    {
+      "id": "cb_redemption_usd",
+      "metric": "cb_redemption_amount_usd",
+      "value": 852207.4774,
+      "display_value": "US$852,207千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2027-07-14",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-cct-alibaba",
+        "hkex-interim-results",
+        "hkex-placing-cb"
+      ],
+      "evidence": "Formula: HK$6,500m x 102.75% / 7.837 (if not converted); inputs: cb_principal_hkd, cb_redemption_pct, fx_company_rate",
+      "location": "中期业绩公告 p.11 期后事项; 配售及可转债公告 p.12/p.15; 阿里关连交易公告 p.7"
+    },
+    {
+      "id": "alicloud_h2_headroom_usd",
+      "metric": "alibaba_cloud_cap_headroom_2026h2",
+      "value": 224400,
+      "display_value": "US$224,400千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-cct-alibaba"
+      ],
+      "evidence": "Formula: revised 2026 cap - H1 actual (upper bound, not forecast); inputs: alicloud_cap_2026_revised, alicloud_actual_2026h1",
+      "location": "阿里关连交易公告 p.6-7"
+    },
+    {
+      "id": "alibaba_share_of_cost_base_2026h1",
+      "metric": "alibaba_purchases_to_cogs_plus_rd",
+      "value": 19.2474,
+      "display_value": "19.2%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report",
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: alibaba purchases / (COGS + R&D); inputs: alibaba_purchases_2026h1, cogs_2026h1, rd_2026h1",
+      "location": "中期业绩公告 p.4 / p.12; 中期业绩公告 p.4 / p.6; 中期报告 附注13 p.45"
+    },
+    {
+      "id": "cogs_to_revenue_2026h1",
+      "metric": "cost_of_sales_to_revenue",
+      "value": 82.146,
+      "display_value": "82.1%（推算）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: cost of sales / revenue; inputs: cogs_2026h1, rev_2026h1",
+      "location": "中期业绩公告 p.1 财务摘要 / p.12 损益表; 中期业绩公告 p.4 / p.12"
+    },
+    {
+      "id": "fv_loss_decline_yoy",
+      "metric": "fair_value_loss_decline",
+      "value": 222851,
+      "display_value": "US$222,851千（推算）",
+      "currency": "USD",
+      "unit": "USD_thousand",
+      "period": "2026H1 vs 2025H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-results"
+      ],
+      "evidence": "Formula: fv_loss_2025h1 - fv_loss_2026h1; inputs: fv_loss_2025h1, fv_loss_2026h1",
+      "location": "中期业绩公告 p.4; 中期业绩公告 p.4 / p.7"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "2026H1 收入 US$116.6m，同比 +283.1%，已超过 2025 全年 US$79.0m；开放平台及其他 AI 企业服务 US$73.9m（+703.1%，占 63.4%），AI 原生产品 US$42.6m（+100.9%，占 36.6%）。分部、地区、确认时点三种拆分均与集团收入逐项勾稽一致。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results"
+          ]
+        },
+        {
+          "text": "与 2025H2（FY2025 减 2025H1 推算）相比，收入环比半年 +139.8%，但增量几乎全部来自开放平台：开放平台由 US$16.8m 升至 US$73.9m（+341.2%），AI 原生产品仅由 US$31.9m 升至 US$42.6m（+33.9%）；开放平台收入占比由 34.5% 升至 63.4%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-fy2025-results"
+          ]
+        },
+        {
+          "text": "公司将开放平台增长归因于付费个人及企业用户增长、API 调用量上升与 Token Plan 快速采用；配售公告披露企业客户与开发者由 2025 年末约 20 万增至 2026-06-30 的逾 100 万，消费端产品约 3 亿全球用户；CEO 称 2026 年 7 月 Token 消耗量为 1 月的 20 倍。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-placing-cb",
+            "ir-1h2026-press-release"
+          ]
+        },
+        {
+          "text": "中国大陆收入 US$45.7m，同比 +433.7%，占比升至 39.2%（2025H1：28.2%；FY2025：27.0%）；海外收入 US$70.8m，同比 +224.0%，占 60.8%。增长的地理重心正在向国内偏移，与 Token Plan/API 放量同步。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-fy2025-results"
+          ]
+        },
+        {
+          "text": "收入结构由 C 端订阅驱动转向 B 端 Token 调用驱动：按“量×价”拆，量（Token 20 倍、客户 5 倍以上）显著快于收入（半年环比 +139.8%），隐含单位 Token 收入在下降；业绩会称 M3 相对 M2 系列价格不变，说明降价不是主因，更可能是 Token Plan 等套餐化定价与高 Token 密度的 Agent 负载拉低了单位 Token 变现。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "ir-1h2026-press-release",
+            "hkex-placing-cb",
+            "ext-stcn-20260826-call"
+          ],
+          "falsifier": "若 2026 全年报告披露的开放平台收入增速与 Token 消耗增速差距显著收窄（例如公司披露单位 Token 收入企稳或上升），则“单位变现下降”的推断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "销售成本 US$95.8m（+258.1%），毛利 US$20.8m（+464.8%），毛利率 17.9%（2025H1：12.1%），公司归因于基础设施效率提升。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results"
+          ]
+        },
+        {
+          "text": "以 2025H2 为基准，毛利率由推算的 33.7% 降至 17.9%，下降约 15.9 个百分点；FY2025 全年毛利率为 25.4%。公司选择的同比口径（+5.7 个百分点）掩盖了半年环比的显著回落。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-fy2025-results"
+          ]
+        },
+        {
+          "text": "毛利率回落的机制更可能是“结构+成本”双因素：低毛利的文本/Token Plan 业务占比由 34.5% 升至 63.4%（闫俊杰在业绩会称多模态与语音毛利率相对更高），同时 2026 年 GPU 租赁价格上行（H100 一年期租约 2025-10 至 2026-03 涨近 40%；Nebius 10 月再涨约 20%）。公司未披露分业务毛利，故两因素的权重无法分离。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-fy2025-results",
+            "ext-chinacom-20260902-duopoly",
+            "ext-eastmoney-20261002-compute",
+            "ext-sina-20260918-gpu-price"
+          ],
+          "falsifier": "若 2026 全年毛利率回升至 25% 以上（即 2026H2 显著高于 17.9%）且开放平台占比继续上升，说明结构因素并非主因，本推断需撤回。"
+        },
+        {
+          "text": "研发开支 US$296.9m（+138.8%，主要是训练相关云服务），为收入的 254.7%（2025H1：408.6%）；较 2025H2 推算的 US$128.4m 环比半年 +131.1%。销售及分销 US$27.0m（-17.9%，占收入 23.1%），行政 US$30.2m（+103.7%，占收入 25.9%）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-fy2025-results"
+          ]
+        },
+        {
+          "text": "IFRS 期内亏损收窄 11.0% 至 US$358.0m，主要因优先股转股后公允价值损失由 US$253.9m 降至 US$31.0m；剔除后的经调整净亏损扩大 111.2% 至 US$293.0m，较 2025H2 推算的 US$112.1m 扩大逾一倍半。亏损“收窄”是会计口径效应，经营性亏损在扩大。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-fy2025-results"
+          ]
+        },
+        {
+          "text": "关联交易附注显示 2026H1 向阿里巴巴集团采购服务 US$75.6m（2025H1：US$35.4m），约占销售成本与研发之和的 19.2%；而向阿里销售仅 US$0.47m，算力依赖是单向的。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-report"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "2026H1 经营活动现金净流出 US$318.1m（2025H1：US$168.5m）；购置物业厂房设备现金支出 US$187.6m（2025H1：US$0.4m；FY2025 全年：US$0.9m）；融资活动净流入 US$791.6m（含发行股份 US$710.7m、新增借款 US$110.5m）。现金流量表三项合计与现金增加额、期初期末余额勾稽一致。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-report",
+            "hkex-fy2025-annual-report"
+          ]
+        },
+        {
+          "text": "公司未披露自由现金流；以经营现金流减资本开支粗算，2026H1 约 US$(505.7)m（2025H1：约 US$(168.9)m），资本开支相当于收入的 161.0%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-report"
+          ]
+        },
+        {
+          "text": "资产负债表出现“重资产化”迹象：物业厂房设备由 US$1.6m 升至 US$74.9m，非流动预付款由 US$0.9m 升至 US$100.8m，流动预付款由 US$16.3m 升至 US$165.4m；现金资本开支比 PP&E 账面净增加多约 US$114.3m，差额大概率沉淀在设备/算力预付款中（附注未拆分，属推断）。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-interim-report"
+          ],
+          "falsifier": "若 2026 年报附注显示非流动预付款主要为非算力项目（例如股权投资或租赁押金），则“预付锁定算力/设备”的解读不成立。"
+        },
+        {
+          "text": "营运资本在为扩张融资：应付账款增加 US$112.4m（期末 US$170.1m，其中应付阿里 US$43.1m），合同负债由 US$7.5m 升至 US$18.3m；同时应收账款由 US$10.7m 升至 US$39.1m，银行借款由 US$35.5m 升至 US$133.6m（主要为人民币、无抵押、用于营运资金）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-interim-report"
+          ]
+        },
+        {
+          "text": "2026-06-30 公司口径现金余额 US$1,322.8m；7 月配售与可转债合计净募约 US$2,025.9m（按公司公告所用 7.837 港元/美元折算），备考流动性约 US$3,348.7m。但其中 HK$6,500m 为 2027-07-14 前后到期、到期按 102.75% 赎回的零息可转债（如未转股，约 US$852.2m）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-placing-cb",
+            "hkex-cct-alibaba"
+          ]
+        },
+        {
+          "text": "优先股转股后总权益由 US$(2,648.2)m 转为 US$1,346.7m，资产负债率由 343.3% 降至 21.5%；中期附注称多宗知识产权纠纷“无法预测胜诉可能及赔偿金额”，未计提拨备。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "明确表述（公告）：管理层把“延展性能-成本前沿”列为核心目标——先让模型性能达到可靠完成复杂任务的门槛，再以全栈效率决定智能能以多低成本被普及；并承诺继续加强开放平台、扩展 AI 原生产品与 harness（如 MiniMax Code）、提升 Token 吞吐能力。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-interim-results"
+          ]
+        },
+        {
+          "text": "资源信号（公告）：配售与可转债净募资约 80% 用于 AI 基础设施与模型研发（2027 年底前用完），10% 用于全球商业化与 harness 产品；公司称上市后 6 个月发布 7 个基础模型、IPO 基础设施分配额已投放约 77%，并将 IPO 资金使用时间表由 2030 年底提前至 2027-2028 年。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-placing-cb",
+            "hkex-interim-report"
+          ]
+        },
+        {
+          "text": "条件性表述（关连交易公告）：阿里云服务 2026 年上限由 US$115m 上调至 US$300m（2027/2028：US$400m/US$500m），公司以“2027 年底前每月平均额外约 US$92.6m 研发相关支出”作为测算基础，同时声明上限“不应被视为反映实际财务表现”。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-cct-alibaba"
+          ]
+        },
+        {
+          "text": "业绩会口径（媒体转述，未见官方文字稿）：8 月 ARR 超 8 亿美元、B 端占 ARR 约 80%；企业客户与开发者突破 200 万；M3 价格与 M2 系列持平；管理层坦言 M3 研发过程有不足，M3.1 目标是把推理成本降至 M3 上线初期约三分之一；闫俊杰预计文本业务将成为毛利率改善驱动力、下半年毛利率继续改善；国产算力集群将很快上线。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-stcn-20260826-call",
+            "ext-10jqka-20260827-arr",
+            "ext-sina-20260828-guancha",
+            "ext-chinacom-20260902-duopoly"
+          ]
+        },
+        {
+          "text": "措辞变化：FY2025 公告把毛利率提升归因于“模型与系统效率、基础设施分配优化”，本期改为“基础设施效率提升”，并只做同比比较、未提全年口径 25.4%；研发增速“显著低于收入增速”被表述为研发效率提升，但未回应半年环比毛利率下滑。管理层在“如何把 Token 量转化为单位毛利”这一问题上给出方向而非数字。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-fy2025-results",
+            "ext-chinacom-20260902-duopoly"
+          ],
+          "falsifier": "若 2026 年报或业绩会给出分业务毛利率或单位 Token 成本的量化披露，且证明文本业务毛利率已高于 2025H2 集团水平，则“回避单位经济”的判断需修正。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "直接对手智谱（2513.HK）2026H1 收入人民币 9.54 亿元（同比约 +400%），开放平台及 API 收入占 86.5%，该业务毛利率 24.6%，API 平均售价提升约 101%；8 月 ARR 按月度口径 16 亿美元。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-stcn-20260901-zhipu",
+            "ext-10jqka-20260901-duopoly"
+          ]
+        },
+        {
+          "text": "传导路径：对手“提价+放量”与 MiniMax“价格不变+放量”形成对照。若同类 API 价格在行业层面上行而 MiniMax 维持低价，其 Token 量份额可能提升，但单位毛利承压——这与本期开放平台占比提升、毛利率环比回落的方向一致。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-stcn-20260901-zhipu",
+            "ext-stcn-20260826-call",
+            "hkex-interim-results",
+            "hkex-fy2025-results"
+          ],
+          "falsifier": "若 2026 全年 MiniMax 毛利率回升至与智谱 API 业务相近（约 25%）而开放平台增速不降，则“低价换量压毛利”的传导不成立。"
+        },
+        {
+          "text": "中金 9/17 研报将目标价下调 29.1% 至 786 港元，称估值折价反映市场对 M3 编码能力未居国内首位的担忧；同时维持“跑赢行业”。模型代际领先尚未确立，直接影响开放平台定价权。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-sina-20260928-cicc"
+          ]
+        },
+        {
+          "text": "ARR 不可直接横比：智谱管理层称其 16 亿美元按“月收入×12”，并称 MiniMax 口径为“周收入×52”；另有媒体称 MiniMax 口径为“周收入×365”。口径冲突未解决，本报告不把 ARR 作为事实。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "ext-10jqka-20260901-duopoly",
+            "ext-10jqka-20260827-arr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "算力成本冲击（强度：高）：H100 一年期租约价格 2025-10 至 2026-03 涨近 40%，Nebius 宣布 10 月起 GPU 按需租价再涨约 20%。本期痕迹：销售成本增速（+258.1%）接近收入增速、毛利率环比回落，配售公告亦称 2026 年高性能计算硬件价格在行业供给约束下持续上涨。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-eastmoney-20261002-compute",
+            "ext-sina-20260918-gpu-price",
+            "hkex-placing-cb",
+            "hkex-interim-results"
+          ]
+        },
+        {
+          "text": "下期假设：若 2026H2 租价仍上行，而公司自建/国产集群在下半年才逐步承接生产流量，2026H2 毛利率改善幅度可能有限；影响分部为开放平台（推理负载最重）。方向偏负面，幅度取决于自建算力占比（未披露）。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "ext-eastmoney-20261002-compute",
+            "ext-sina-20260918-gpu-price",
+            "ext-stcn-20260826-call",
+            "hkex-interim-report"
+          ],
+          "falsifier": "若 2026 年报显示销售成本占收入比较 2026H1 的 82.1% 明显下降（例如低于 75%），说明算力成本冲击已被自建算力或效率提升对冲。"
+        },
+        {
+          "text": "法律冲击（强度：中，时间点后移）：迪士尼/环球/华纳诉海螺 AI 案，法院于 2026-05 驳回 MiniMax 的驳回动议，案件进入实体阶段；案件页显示庭审排期 2027-07-12（tier4，未经核实）。本期痕迹：附注仍未计提拨备；海外收入占比由 71.8% 降至 60.8%，相对暴露下降但绝对额仍在增长。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-lexsummary-20260522-mtd",
+            "ext-ailawwiki-disney-v-minimax",
+            "hkex-interim-results"
+          ]
+        },
+        {
+          "text": "资本市场与汇率：现金主要以美元、人民币、港币持有，银行借款主要为人民币；可转债以港币计价。股价 9/30 收于 HK$250.2，低于 7 月配售价 HK$268 与转股价 HK$335，可转债转股的可能性下降、2027 年现金兑付压力上升。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-placing-cb",
+            "ext-stockstar-20260930-close"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "业绩次日（8/27）股价收涨 3.8% 至 HK$314.60，盘中最高涨 7.3%；8/31 盘中一度涨超 15%；9/30 收于 HK$250.2，较 8/27 收盘回落约 20%。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-yicai-20260827-close",
+            "ext-cnstock-20260831",
+            "ext-stockstar-20260930-close"
+          ]
+        },
+        {
+          "text": "招银国际引 Visible Alpha 一致预期：收入高于一致预期约 17%，经调整净亏损 US$293m 高于一致预期（约 US$200m）；该行上调 FY26-28 收入预测至 5.17/13.89/26.82 亿美元，目标价 580 港元（50 倍 FY26E PS）。此为单一券商转述的共识，不是持牌数据直接调取。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "ext-stockstar-20260827-cmbi"
+          ]
+        },
+        {
+          "text": "归因：短期上涨由“收入超预期 + ARR/Token 增速”驱动（收入惊喜、叙事锚点上移）；随后回落与 9 月港股大模型板块回调、中金下调目标价及对 M3 编码竞争力的担忧同步。亏损超预期与毛利率环比回落在业绩当周未成为定价焦点——这是本报告认为市场尚未充分讨论的变量。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "ext-yicai-20260827-close",
+            "ext-stockstar-20260827-cmbi",
+            "ext-sina-20260928-cicc",
+            "ext-stockstar-20260930-close"
+          ],
+          "falsifier": "若后续券商研报或市场讨论已普遍以 2025H2 毛利率为基准下调盈利路径，则“市场忽视毛利率环比”的判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "情景口径：下一报告期为 2026H2（以 2026 年报减 2026H1 得出，公司不披露季度）。公司仅有一个经营分部，故以“集团毛利（US$m）”作为核心经营利润代理、以“经调整净亏损（US$m）”作为集团利润口径；区间为假设驱动，不是点预测。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-interim-report"
+          ],
+          "falsifier": "若公司在 2026 年报改为披露多个经营分部，则核心利润代理需改为分部利润重算。"
+        },
+        {
+          "text": "基准（50%）：2026H2 收入约 US$280-400m（对 ARR 口径冲突打折），毛利率 18-25%，集团毛利 US$50-100m；研发随算力投放继续上行，经调整净亏损 US$(520)-(380)m；不发生新的股权融资。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-cct-alibaba",
+            "ext-10jqka-20260827-arr",
+            "ext-stockstar-20260827-cmbi"
+          ],
+          "falsifier": "2026 全年收入低于 US$400m 或高于 US$630m，或 2026H2 毛利率落在 18-25% 区间之外。"
+        },
+        {
+          "text": "乐观（25%）：M3.1/M3Pro 成本下降兑现、国产集群承接生产流量，2026H2 收入 US$380-480m、毛利率 25-32%，集团毛利 US$100-155m，经调整净亏损 US$(400)-(260)m。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "ext-stcn-20260826-call",
+            "ext-sina-20260828-guancha",
+            "hkex-cct-alibaba"
+          ],
+          "falsifier": "2026H2 毛利率低于 25%，或 M3.1 未在 2026 年内正式商用。"
+        },
+        {
+          "text": "悲观（25%）：租价继续上涨、对手提价后份额竞争转为价格战、Token Plan 重度用户拉低单位毛利，2026H2 收入 US$200-280m、毛利率 12-18%，集团毛利 US$24-50m，经调整净亏损 US$(680)-(520)m，并触发新一轮融资或可转债再融资讨论。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "ext-eastmoney-20261002-compute",
+            "ext-sina-20260918-gpu-price",
+            "ext-stcn-20260901-zhipu",
+            "hkex-placing-cb"
+          ],
+          "falsifier": "2026H2 毛利率高于 18% 且收入高于 US$280m。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "核心判断：增长已被证明，单位经济没有。2026H1 的关键变化不是收入超过 2025 全年，而是毛利率较 2025H2 回落约 15.9 个百分点、资本开支由近乎零跃升至 US$187.6m——公司正从“租算力的效率型模型公司”转向“以资本换算力、以低价换 Token 份额”的阶段。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-interim-report",
+            "hkex-fy2025-results"
+          ],
+          "falsifier": "2026 全年毛利率 ≥25%（隐含 2026H2 毛利率约 27%-30% 以上，取决于 H2 收入规模），且 2026H2 经营现金流减资本开支的流出不超过 2026H1。"
+        },
+        {
+          "text": "下一期三个可证伪指标：(1) 2026H2 毛利率（2026 全年减 H1 推算）是否 ≥25%；(2) 2026H2 经营现金流减资本开支是否收窄至 US$(400)m 以内；(3) 开放平台收入半年环比增速是否仍 ≥80%（低于则说明量价两端同时放缓）。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-results",
+            "hkex-interim-report"
+          ],
+          "falsifier": "三项中至少两项达到，则“单位经济恶化”主线应下调为次要风险。"
+        },
+        {
+          "text": "催化剂：M3.1 推理成本降至 M3 上线初期约三分之一并商用；国产算力集群承接生产流量后销售成本率下降；2026 年报首次披露分业务毛利。风险：可转债 2027 年兑付与再融资稀释、GPU 租价继续上涨、模型代际落后削弱定价权、海螺版权诉讼进入实体审理。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-sina-20260828-guancha",
+            "ext-stcn-20260826-call",
+            "hkex-placing-cb",
+            "ext-sina-20260918-gpu-price",
+            "ext-lexsummary-20260522-mtd"
+          ],
+          "falsifier": "若 2027 年 7 月前股价持续高于 HK$335 使可转债大概率转股，则再融资风险显著下降。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场共识从标题数字会得出什么结论？",
+        "answer": "收入 +283.1% 并超过 2025 全年、B 端占比 63.4%、IFRS 亏损收窄 11.0%、毛利率同比提升 5.7 个百分点——“商业化加速、亏损收窄”。券商转述的收入超预期约 17% 强化了这一叙事。",
+        "source_ids": [
+          "hkex-interim-results",
+          "ext-stockstar-20260827-cmbi"
+        ],
+        "counterevidence": "经调整净亏损同比扩大 111.2% 且高于一致预期；IFRS 亏损收窄来自优先股公允价值损失消失。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "这一共识依赖哪个隐藏假设？",
+        "answer": "假设“收入放量会自然带来单位毛利改善”，即效率曲线快于算力价格曲线；以及 ARR 能按一定比例转化为确认收入。",
+        "source_ids": [
+          "hkex-interim-results",
+          "hkex-fy2025-results",
+          "ext-10jqka-20260827-arr"
+        ],
+        "counterevidence": "毛利率同比确实上升；公司称近两个多月文本模型单位算力吞吐提升 3 倍（媒体转述）。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "本期哪项事实最强烈地抵触共识？",
+        "answer": "以 FY2025 与 2025H1 推算的 2025H2 毛利率为 33.7%，2026H1 降至 17.9%，在收入环比半年 +139.8% 的同时毛利率下滑约 15.9 个百分点；上一期报告设定的“毛利率跌破 25% 即证伪效率主线”的条件已被触发。",
+        "source_ids": [
+          "hkex-interim-results",
+          "hkex-fy2025-results"
+        ],
+        "counterevidence": "2025H2 可能含一次性高毛利项目或多模态占比偏高，半年环比存在季节性与结构差异，公司未披露分业务毛利。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "毛利率回落通过什么机制发生？",
+        "answer": "结构：开放平台（文本/Token Plan）占比由 34.5% 升至 63.4%，管理层称多模态与语音毛利更高；价格：M3 与 M2 同价，Token 量增速（7 月为 1 月 20 倍）远快于收入增速，单位 Token 收入下降；成本：2026 年 GPU 租价上行。",
+        "source_ids": [
+          "hkex-interim-results",
+          "hkex-fy2025-results",
+          "ir-1h2026-press-release",
+          "ext-chinacom-20260902-duopoly",
+          "ext-stcn-20260826-call",
+          "ext-eastmoney-20261002-compute"
+        ],
+        "counterevidence": "缺少分业务成本披露，无法量化各因素权重；单位 Token 成本可能下降更快。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "为什么是现在？",
+        "answer": "M3 在上半年发布并维持原价、Token Plan 在上半年快速普及、行业 Agent 负载上升使每次请求 Token 消耗倍增，三者同时发生在 2026H1；同期 GPU 租价在 2026-03 前已涨近 40%。",
+        "source_ids": [
+          "hkex-interim-results",
+          "hkex-placing-cb",
+          "ext-stcn-20260826-call",
+          "ext-eastmoney-20261002-compute"
+        ],
+        "counterevidence": "时间上重合不等于因果；公司也可能主动以低毛利换取开发者生态，属于战略选择而非被动恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "季节性、结构、会计口径或一次性项目能否解释同样的现象？",
+        "answer": "会计口径可解释 IFRS 亏损收窄（公允价值损失下降 US$222.9m），但不能解释毛利率环比下降；结构变化可以解释大部分方向，季节性无法用两期半年数据验证；目前未见一次性成本披露。",
+        "source_ids": [
+          "hkex-interim-results",
+          "hkex-fy2025-results"
+        ],
+        "counterevidence": "2025H2 毛利率本身可能被一次性因素抬高。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "如果没有低价放量这一原因，结果会是什么样？",
+        "answer": "若开放平台维持 2025H2 的 34.5% 占比，集团毛利率更可能接近 FY2025 的 25% 区间而非 17.9%，但收入规模会显著更小；即公司在本期用毛利率换了规模。该反事实缺少分业务毛利数据，只能定性判断。",
+        "source_ids": [
+          "hkex-interim-results",
+          "hkex-fy2025-results"
+        ],
+        "counterevidence": "不排除 AI 原生产品毛利率本期也下降（未披露）。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q8",
+        "question": "如果一阶效应持续，二阶后果是什么？",
+        "answer": "毛利率不改善意味着收入越大亏损越大，现金消耗被推高；叠加 US$187.6m 资本开支和 2027 年到期、约 US$852.2m 的可转债兑付（如未转股），融资窗口与股价将成为经营变量——股价低于 HK$335 时，可转债更像一笔 2027 年到期的债务。",
+        "source_ids": [
+          "hkex-interim-report",
+          "hkex-placing-cb",
+          "ext-stockstar-20260930-close"
+        ],
+        "counterevidence": "备考流动性约 US$3,348.7m，短期并无偿付压力；可转债亦可能在到期前再融资或展期。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "最强的多头与空头解释分别是什么？",
+        "answer": "多头：B 端客户 5 倍增长、Token 20 倍增长、ARR 超 8 亿美元说明产品市场匹配已形成，自建/国产算力与 M3.1 降本将在 2026H2-2027 抬升毛利率，当前是“先量后利”。空头：以不变价格换量、租价上行、模型代际未领先，单位经济在恶化，资本开支与研发将持续吞噬融资，2027 年可转债兑付形成时间压力。",
+        "source_ids": [
+          "hkex-placing-cb",
+          "ir-1h2026-press-release",
+          "ext-10jqka-20260827-arr",
+          "ext-stcn-20260826-call",
+          "ext-sina-20260928-cicc",
+          "ext-sina-20260918-gpu-price"
+        ],
+        "counterevidence": "两种解释都依赖尚未披露的分业务毛利率与自建算力占比。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "哪些已经被价格或一致预期反映？",
+        "answer": "收入超预期与 ARR 叙事在 8/27-9/1 已被交易（股价最高至 HK$381.4 附近）；9 月回落至 HK$250.2，反映了板块回调与对 M3 编码竞争力的担忧。毛利率环比回落未见被作为主要定价理由。",
+        "source_ids": [
+          "ext-yicai-20260827-close",
+          "ext-10jqka-20260901-duopoly",
+          "ext-stockstar-20260930-close",
+          "ext-sina-20260928-cicc",
+          "ext-stockstar-20260827-cmbi"
+        ],
+        "counterevidence": "缺少持牌一致预期的修正数据，无法证明市场未计入毛利率因素。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "管理层最难单靠增加支出解决的约束是什么？",
+        "answer": "定价权。算力可以买（配售 80% 用于基础设施），但在对手 API 提价约 101% 的环境中维持原价，本身说明 MiniMax 尚未取得足以提价的模型领先；中金亦指出 M3 编码能力未居国内首位。",
+        "source_ids": [
+          "hkex-placing-cb",
+          "ext-stcn-20260901-zhipu",
+          "ext-sina-20260928-cicc",
+          "ext-stcn-20260826-call"
+        ],
+        "counterevidence": "低价可能是主动的份额策略，而非能力不足所迫。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "资源投向是否印证了所述战略？哪一步必须先成功？",
+        "answer": "印证：资本开支 US$187.6m、PP&E 与预付款激增、阿里云上限上调至 US$300m、80% 募资投向基础设施，均与“扩展性能-成本前沿”一致。顺序上，单位推理成本下降必须先于（或快于）价格竞争与 Token 增长兑现，否则规模扩张只会放大亏损；若 2026H2 毛利率不回升，2027 年的再融资与可转债安排将先于盈利路径到来。",
+        "source_ids": [
+          "hkex-interim-report",
+          "hkex-cct-alibaba",
+          "hkex-placing-cb",
+          "hkex-interim-results"
+        ],
+        "counterevidence": "中期报告同时称“无重大资本承担”，资本开支的持续性存在披露口径疑问。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "“同比改善”掩盖“半年环比回落”：毛利率在放量中被稀释",
+        "consensus_view": "毛利率由 12.1% 升至 17.9%，效率持续改善（公司与多数媒体口径）。",
+        "new_view": "以 2025H2 推算毛利率 33.7% 为基准，2026H1 回落约 15.9 个百分点；收入增量主要来自低价、高 Token 密度的开放平台/Token Plan，规模扩张正在稀释单位毛利。",
+        "mechanism": "开放平台占比 34.5%→63.4%（结构）× M3 与 M2 同价、Token 增速远快于收入增速（单位变现下降）× 2026 年 GPU 租价上行（单位成本）→ 销售成本增速接近收入增速 → 集团毛利率环比回落。",
+        "implication": "下调 2026H2 毛利率假设至 18-25% 的基准区间；上一期“毛利率<25% 证伪效率主线”的条件已触发，研究重点从收入增速转向单位经济。",
+        "source_ids": [
+          "hkex-interim-results",
+          "hkex-fy2025-results",
+          "ir-1h2026-press-release",
+          "ext-chinacom-20260902-duopoly",
+          "ext-eastmoney-20261002-compute",
+          "ext-stcn-20260826-call"
+        ],
+        "counterevidence": "管理层称下半年毛利率继续改善、文本推理成本快速下降；2025H2 可能含一次性高毛利因素；分业务毛利未披露。",
+        "falsifier": "2026 全年毛利率 ≥25%（隐含 2026H2 毛利率约 27%-30% 以上，取决于 H2 收入规模）且开放平台占比不下降。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-2",
+        "title": "从轻资产模型公司到重资产算力运营者：2027 年可转债设定了验证时限",
+        "consensus_view": "7 月募资后现金超 30 亿美元，资金充裕，融资不是问题（媒体口径）。",
+        "new_view": "资本开支由 FY2025 的 US$0.9m 跃升至 2026H1 的 US$187.6m，叠加 US$100.8m 非流动预付款与 US$133.6m 银行借款，公司已转向重资产；而备考流动性中约 US$852.2m 对应 2027-07 到期、转股价 HK$335 的可转债，股价 9/30 为 HK$250.2——若盈利路径在 2027 年中前不清晰，可转债会从“股权融资”变成“债务兑付”。",
+        "mechanism": "自建/预付算力把可变的租赁成本转为固定资产与折旧（未来可能改善毛利），但先要付现；股价低于转股价 → 转股概率下降 → 2027 年需现金兑付或再融资 → 融资条件与股价反向作用于经营投入。",
+        "implication": "提高“再融资/稀释”风险在情景中的权重；把 2026H2 经营现金流减资本开支、以及股价相对 HK$335 的位置列为监控优先级。",
+        "source_ids": [
+          "hkex-interim-report",
+          "hkex-interim-results",
+          "hkex-placing-cb",
+          "ext-stockstar-20260930-close",
+          "hkex-fy2025-annual-report"
+        ],
+        "counterevidence": "备考流动性约 US$3,348.7m，足以覆盖可转债兑付与一年以上消耗；可转债可能提前回购或再融资；自建算力若压低成本可改善盈利路径。",
+        "falsifier": "2026 年报显示期末现金余额（不含新融资）仍 ≥US$2,500m、2026H2 经营现金流减资本开支流出 ≤US$400m，且 2027 年 5 月前股价持续高于 HK$335。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-3",
+        "title": "关联交易上限是一条被提前披露的成本曲线",
+        "consensus_view": "关联交易上限修订是例行合规事项。",
+        "new_view": "阿里云 2026 年上限由 US$115m 升至 US$300m，公司自述以研发开支为测算基础并给出“每月额外约 US$92.6m 研发相关支出”；H1 实际仅 US$75.6m，意味着 2026H2 阿里云采购最多可达约 US$224.4m，经调整亏损在 2026H2 大概率继续扩大。同时向阿里出售 API 仅 US$0.47m——依赖关系是单向的。",
+        "mechanism": "募资 80%→基础设施与研发（2027 年底前）→ 云采购上限按研发开支推算 → 研发费用（主要为训练云服务）上行 → 经调整净亏损扩大，除非自建算力替代云采购。",
+        "implication": "支持基准情景中经调整净亏损 US$(520)-(380)m 的区间假设；若云采购远低于上限，则说明自建算力替代加速。",
+        "source_ids": [
+          "hkex-cct-alibaba",
+          "hkex-interim-report",
+          "hkex-interim-results"
+        ],
+        "counterevidence": "上限只是上限，公司明确声明不代表实际财务表现；部分支出可能资本化为 PP&E 而非计入研发。",
+        "falsifier": "2026 年报显示全年向阿里巴巴采购服务 <US$200m 且 2026H2 研发开支不高于 2026H1 的 1.3 倍。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 25,
+      "triggers": [
+        "M3.1 正式商用且推理成本降至 M3 上线初期约三分之一，开放平台单位毛利回升",
+        "国产/自建算力集群在 2026H2 承接生产流量，销售成本占收入比明显低于 2026H1 的 82.1%",
+        "2026H2 收入达到 US$380-480m，开放平台半年环比增速 ≥80% 且未以降价换量",
+        "股价回到 HK$335 以上，可转债转股预期上升、2027 年兑付压力缓解"
+      ],
+      "segment_profit_range": [
+        100,
+        155
+      ],
+      "group_profit_range": [
+        -400,
+        -260
+      ]
+    },
+    {
+      "name": "base",
+      "probability": 50,
+      "triggers": [
+        "2026H2 收入 US$280-400m，Token 与客户继续增长但 ARR 向确认收入的转化打折",
+        "毛利率 18-25%：结构稀释与成本下降大致相抵",
+        "研发与云采购随募资投放上行（阿里云 2026 年上限 US$300m 内），经调整净亏损扩大",
+        "2026 年内无新增股权融资，诉讼维持在程序阶段、无禁令"
+      ],
+      "segment_profit_range": [
+        50,
+        100
+      ],
+      "group_profit_range": [
+        -520,
+        -380
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "GPU 租价继续上涨且自建算力延迟上线，销售成本增速快于收入",
+        "对手新模型（如 GLM 系列）在编码/Agent 场景拉开差距，MiniMax 被迫降价或加大 Token Plan 补贴",
+        "2026H2 收入仅 US$200-280m，毛利率 12-18%",
+        "股价持续低于配售价 HK$268，触发新一轮股权或可转债再融资讨论"
+      ],
+      "segment_profit_range": [
+        24,
+        50
+      ],
+      "group_profit_range": [
+        -680,
+        -520
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "报告状态为 draft / REVIEW_REQUIRED：冲突处理、管理层措辞解读、因果归因、情景概率与利润区间、评级结论及 Kearney 风格措辞均需人工复核后方可发布。",
+      "期间口径：公司仅披露半年度业绩，period 记为 2026H1（截至 2026-06-30 止六个月）；validator 对 period 格式无限制，导出 slug 为 0100-hk-2026h1。注意：exporter 的 catalog 按 period 字符串倒序排序，'FY2025' 会排在 '2026H1' 之前，合并入网站 catalog 时默认排序需人工确认（本次仅写入 run 目录内 catalog）。",
+      "2025H2 数据为 FY2025（经审计）减 2025H1（未经审计比较数）推算的半年度派生指标，不是季度拆分；未使用任何季度数字。",
+      "媒体转述的“二季度收入环比 +81.8%”与 ARR>8 亿美元未见于公告或中期报告，仅作外部证据，不纳入 facts；ARR 口径存在冲突（周收入×52 / 周收入×365 / 月收入×12），未解决。",
+      "业绩电话会无官方文字稿或音频存档，管理层表态均来自媒体转述（tier3），置信度下调。",
+      "一致预期来自招银国际转述的 Visible Alpha 数据，未直接调取持牌数据，未满足“持牌提供商或具名券商组合”的标准，相关判断置信度为 low。",
+      "公司为单一经营分部：情景中的 segment_profit_range 以集团毛利（US$m）作为核心经营利润代理，group_profit_range 为经调整净亏损（US$m），二者口径不同。",
+      "资本开支现金支出比 PP&E 账面净增加多约 US$114.3m，附注未拆分预付款构成；中期报告同时称“无重大资本承担”，属披露口径张力，待人工复核。",
+      "迪士尼等诉海螺案的庭审排期（2027-07-12）来自 tier4 案件维基，未经法院文件核实。"
+    ]
+  }
+}

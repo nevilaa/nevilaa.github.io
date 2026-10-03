@@ -1,0 +1,4694 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "01024-hk-2026q2",
+  "generated_at": "2026-10-03T16:24:02.778783+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "快手科技",
+    "ticker": "01024.HK",
+    "period": "2026Q2",
+    "period_end": "2026-06-30",
+    "published_at": "2026-08-19",
+    "analyzed_at": "2026-10-03",
+    "status": "published",
+    "title": "快手 2026Q2：问题不在 AI 跑得不够快，而在主业新增收入越来越“薄”",
+    "thesis": "快手 2026Q2 收入同比仅增 1.4%，但收入分成成本同比多出 17.81 亿元、是收入增量（4.89 亿元）的约 3.6 倍，分成率一年升 4.6 个百分点至 34.7%；毛利率环比回升 0.4 个百分点主要来自折旧由销售成本向费用端的口径迁移，而非经营改善。可灵融资分担了集团的 AI 增量投入，却没有改变下半年“主业收缩 + 折旧高峰”带来的利润下行，因此研究结论为中性偏谨慎。",
+    "conclusion_summary": {
+      "rating": "中性偏谨慎",
+      "confidence": "medium",
+      "primary_difficulty": "主业利润池在变薄、而且是从收入端开始变薄：直播与电商收缩，广告增量越来越依赖高分成的内容与流量，同时上半年已提前落地约 179 亿元资本开支，带来未来数个季度的折旧高峰——快手要用一块正在收窄的利润池，支付一轮已经花出去的 AI 算力账单。",
+      "current_difficulties": [
+        {
+          "title": "新增收入的边际利润率极低：收入分成率一年升 4.6 个百分点",
+          "evidence": "收入分成成本及相关税项 123.23 亿元，同比 +16.89%，占收入 34.68%（2025Q2 30.08%、2026Q1 31.98%）；环比新增分成成本相当于新增收入的 84.66%。直播收入同比 -13.48%，并不是分成率上升的来源。",
+          "implication": "核心商业收入 +7.4% 没有转化为毛利增长（毛利同比 -6.03%）；若分成率不回落，任何收入恢复都只能带来很薄的利润弹性。"
+        },
+        {
+          "title": "AI 算力的折旧高峰尚未结束，且正从“成本”搬到“研发”",
+          "evidence": "物业及设备 341.26 亿元，较年初 +49.22%；上半年添置 143.93 亿元；Q2 物业及设备折旧 17.45 亿元，同比 +97.18%。COGS 中折旧占总折旧比例由 Q1 的 81.46% 降至 49.27%，COGS 以外折旧环比增加 9.18 亿元，研发开支环比增加 9.60 亿元，而僱员福利总额环比仅 -0.05 亿元。",
+          "implication": "Q3 将是 H1 新增设备的首个完整折旧季度；研发费用率（12.89%）短期难以回落，经营利润率面临下行。"
+        },
+        {
+          "title": "电商与直播双重收缩，且透明度下降",
+          "evidence": "直播收入 86.90 亿元，同比 -13.48%；2026 年起业绩公告不再披露电商 GMV 总额；券商（大和，媒体转述）估计 Q2 GMV 同比持平、H2 同比 -10%；《直播电商监督管理办法》自 2026-02-01 施行。",
+          "implication": "电商营销服务和佣金收入将拖累广告与其他服务；缺少 GMV 披露使外部难以验证“全域经营”战略是否奏效。"
+        }
+      ],
+      "strategic_judgment": "管理层的回应是“守住现金流、把 AI 投入外部化、把增长押在内容供给与 AI 效率上”：资本开支前置于上半年、可灵引入约 204.47 亿元外部资本并计划以租赁方式获取算力、目标下半年集团自由现金流为正，同时承诺 2026 年股东回报高于 2025 年。这是在推迟而非解决主业利润率问题——它保护了资产负债表，但以 2031 年前可灵 IPO 的硬约束、上升的有息负债和供应链票据为代价。",
+      "strategic_directions": [
+        {
+          "direction": "可灵 AI 独立融资、独立定价，并以租赁替代部分自购算力",
+          "rationale": "可灵 2025 年净亏损 19 亿元（未经审计），约为同年收入下限 10.4 亿元的 1.83 倍；由外部资本分担算力与人才投入，可减轻集团现金流压力。",
+          "management_signal": "2026-07-02 公告：交易前估值 150 亿美元、认购上限 204.47 亿元已于 8-31 悉数动用，快手持股约 68.33%；CFO 在 Q2 业绩会表示可灵将更多通过租赁满足算力需求（媒体摘要）。",
+          "validation": "Q3 可灵收入是否在 8.5 亿元以上继续环比增长；Q3 资产负债表中投资者出资是作为非控股权益还是金融负债列示；使用权资产与租赁负债是否继续上升。"
+        },
+        {
+          "direction": "用 AI 降低内容生产成本，扩大短剧/漫剧等内容供给以承接营销预算",
+          "rationale": "非电商营销（内容消费、生活服务、AI 应用）是线上营销服务仍能增长的主要来源，短剧线上营销消耗同比超 100%，短剧供给量较 1 月增长超 5 倍。",
+          "management_signal": "业绩公告 p.7 披露短剧与 AIGC 营销素材数据；CEO 在业绩会称 IAA 模式占比提高（媒体摘要）。",
+          "validation": "Q3 收入分成率是否停止上升（≤34.7%）；线上营销服务同比增速是否不低于 Q2 的 4.4%。"
+        },
+        {
+          "direction": "资本开支前置、守住集团层面正自由现金流与股东回报",
+          "rationale": "上半年资本开支付款 179.41 亿元，已达约 260 亿元全年指引的 69%；下半年隐含约 80.59 亿元，配合经营现金流可维持正自由现金流。",
+          "management_signal": "CFO：大部分资本开支已在上半年落地，Q2 自由现金流为正，目标下半年维持为正；2026 年股东回报总额预计超过 2025 年（媒体摘要）。",
+          "validation": "H2 经营现金流减资本开支付款为正，且应付票据余额（252.48 亿元）不再大幅上升。"
+        }
+      ],
+      "core_conflict": "可灵在外部被定价为约 180 亿美元，快手持股按交易价约值 123 亿美元，相当于 2026-10-02 市值的约 74%–75%；但主业利润率正在下行、直播与电商在收缩，且可灵的交易价附带 8% 单利回购权——市场在“可灵价值”与“主业利润下行”之间给出了极低的整体估值。",
+      "falsifier": "若 2026Q3 收入分成率回落至 33% 以下、国内分部经营利润率不低于 Q2 的 10.87%，且研发费用环比不再上升，则“主业新增收入变薄 + 折旧高峰”的判断需要撤回或下调。",
+      "valuation_context": "2026-08-20 股价单日 -11.01%（33.64 港元），至 10-02 收于 29.58 港元，较业绩前 -21.75%；按 8 月底股本计算市值约 1,279.9 亿港元。摩根士丹利与大和均下调至中性/持有、目标价 40 港元，国投证券国际维持买入、目标价 49 港元（以 SOTP 计）。市场已大幅计入 2026 年利润下修，但尚未对“分成率持续上升”给出明确定价。",
+      "catalyst": "可灵新模型上线后收入恢复高增长、可灵 IPO 进程推进，以及 Q3 分成率与研发费用率同时回落。",
+      "risk": "下半年电商 GMV 下滑与直播监管叠加，导致收入同比转负、Q3 经营利润接近盈亏平衡（国投证券国际预测 Q3 经营亏损 0.82 亿元）；同时视频生成赛道价格战压低可灵定价。"
+    },
+    "disclaimer": "本报告仅供研究学习，不构成投资建议。财务事实以公司公告及港交所文件为准；情景区间为研究假设，不是预测。",
+    "approved_at": "2026-10-03T16:24:02.692771+00:00",
+    "approved_by": "user (2026-10-04 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "快手 2026Q2 收入同比仅增 1.4%，但收入分成成本同比多出 17.81 亿元、是收入增量（4.89 亿元）的约 3.6 倍，分成率一年升 4.6 个百分点至 34.7%；毛利率环比回升 0.4 个百分点主要来自折旧由销售成本向费用端的口径迁移，而非经营改善。可灵融资分担了集团的 AI 增量投入，却没有改变下半年“主业收缩 + 折旧高峰”带来的利润下行，因此研究结论为中性偏谨慎。",
+    "rating": "中性偏谨慎",
+    "confidence": "medium",
+    "primary_difficulty": "主业利润池在变薄、而且是从收入端开始变薄：直播与电商收缩，广告增量越来越依赖高分成的内容与流量，同时上半年已提前落地约 179 亿元资本开支，带来未来数个季度的折旧高峰——快手要用一块正在收窄的利润池，支付一轮已经花出去的 AI 算力账单。",
+    "current_difficulties": [
+      {
+        "title": "新增收入的边际利润率极低：收入分成率一年升 4.6 个百分点",
+        "evidence": "收入分成成本及相关税项 123.23 亿元，同比 +16.89%，占收入 34.68%（2025Q2 30.08%、2026Q1 31.98%）；环比新增分成成本相当于新增收入的 84.66%。直播收入同比 -13.48%，并不是分成率上升的来源。",
+        "implication": "核心商业收入 +7.4% 没有转化为毛利增长（毛利同比 -6.03%）；若分成率不回落，任何收入恢复都只能带来很薄的利润弹性。"
+      },
+      {
+        "title": "AI 算力的折旧高峰尚未结束，且正从“成本”搬到“研发”",
+        "evidence": "物业及设备 341.26 亿元，较年初 +49.22%；上半年添置 143.93 亿元；Q2 物业及设备折旧 17.45 亿元，同比 +97.18%。COGS 中折旧占总折旧比例由 Q1 的 81.46% 降至 49.27%，COGS 以外折旧环比增加 9.18 亿元，研发开支环比增加 9.60 亿元，而僱员福利总额环比仅 -0.05 亿元。",
+        "implication": "Q3 将是 H1 新增设备的首个完整折旧季度；研发费用率（12.89%）短期难以回落，经营利润率面临下行。"
+      },
+      {
+        "title": "电商与直播双重收缩，且透明度下降",
+        "evidence": "直播收入 86.90 亿元，同比 -13.48%；2026 年起业绩公告不再披露电商 GMV 总额；券商（大和，媒体转述）估计 Q2 GMV 同比持平、H2 同比 -10%；《直播电商监督管理办法》自 2026-02-01 施行。",
+        "implication": "电商营销服务和佣金收入将拖累广告与其他服务；缺少 GMV 披露使外部难以验证“全域经营”战略是否奏效。"
+      }
+    ],
+    "strategic_judgment": "管理层的回应是“守住现金流、把 AI 投入外部化、把增长押在内容供给与 AI 效率上”：资本开支前置于上半年、可灵引入约 204.47 亿元外部资本并计划以租赁方式获取算力、目标下半年集团自由现金流为正，同时承诺 2026 年股东回报高于 2025 年。这是在推迟而非解决主业利润率问题——它保护了资产负债表，但以 2031 年前可灵 IPO 的硬约束、上升的有息负债和供应链票据为代价。",
+    "strategic_directions": [
+      {
+        "direction": "可灵 AI 独立融资、独立定价，并以租赁替代部分自购算力",
+        "rationale": "可灵 2025 年净亏损 19 亿元（未经审计），约为同年收入下限 10.4 亿元的 1.83 倍；由外部资本分担算力与人才投入，可减轻集团现金流压力。",
+        "management_signal": "2026-07-02 公告：交易前估值 150 亿美元、认购上限 204.47 亿元已于 8-31 悉数动用，快手持股约 68.33%；CFO 在 Q2 业绩会表示可灵将更多通过租赁满足算力需求（媒体摘要）。",
+        "validation": "Q3 可灵收入是否在 8.5 亿元以上继续环比增长；Q3 资产负债表中投资者出资是作为非控股权益还是金融负债列示；使用权资产与租赁负债是否继续上升。"
+      },
+      {
+        "direction": "用 AI 降低内容生产成本，扩大短剧/漫剧等内容供给以承接营销预算",
+        "rationale": "非电商营销（内容消费、生活服务、AI 应用）是线上营销服务仍能增长的主要来源，短剧线上营销消耗同比超 100%，短剧供给量较 1 月增长超 5 倍。",
+        "management_signal": "业绩公告 p.7 披露短剧与 AIGC 营销素材数据；CEO 在业绩会称 IAA 模式占比提高（媒体摘要）。",
+        "validation": "Q3 收入分成率是否停止上升（≤34.7%）；线上营销服务同比增速是否不低于 Q2 的 4.4%。"
+      },
+      {
+        "direction": "资本开支前置、守住集团层面正自由现金流与股东回报",
+        "rationale": "上半年资本开支付款 179.41 亿元，已达约 260 亿元全年指引的 69%；下半年隐含约 80.59 亿元，配合经营现金流可维持正自由现金流。",
+        "management_signal": "CFO：大部分资本开支已在上半年落地，Q2 自由现金流为正，目标下半年维持为正；2026 年股东回报总额预计超过 2025 年（媒体摘要）。",
+        "validation": "H2 经营现金流减资本开支付款为正，且应付票据余额（252.48 亿元）不再大幅上升。"
+      }
+    ],
+    "core_conflict": "可灵在外部被定价为约 180 亿美元，快手持股按交易价约值 123 亿美元，相当于 2026-10-02 市值的约 74%–75%；但主业利润率正在下行、直播与电商在收缩，且可灵的交易价附带 8% 单利回购权——市场在“可灵价值”与“主业利润下行”之间给出了极低的整体估值。",
+    "falsifier": "若 2026Q3 收入分成率回落至 33% 以下、国内分部经营利润率不低于 Q2 的 10.87%，且研发费用环比不再上升，则“主业新增收入变薄 + 折旧高峰”的判断需要撤回或下调。",
+    "valuation_context": "2026-08-20 股价单日 -11.01%（33.64 港元），至 10-02 收于 29.58 港元，较业绩前 -21.75%；按 8 月底股本计算市值约 1,279.9 亿港元。摩根士丹利与大和均下调至中性/持有、目标价 40 港元，国投证券国际维持买入、目标价 49 港元（以 SOTP 计）。市场已大幅计入 2026 年利润下修，但尚未对“分成率持续上升”给出明确定价。",
+    "catalyst": "可灵新模型上线后收入恢复高增长、可灵 IPO 进程推进，以及 Q3 分成率与研发费用率同时回落。",
+    "risk": "下半年电商 GMV 下滑与直播监管叠加，导致收入同比转负、Q3 经营利润接近盈亏平衡（国投证券国际预测 Q3 经营亏损 0.82 亿元）；同时视频生成赛道价格战压低可灵定价。"
+  },
+  "sources": [
+    {
+      "id": "hkex-q2-results-zh",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900315_c.pdf",
+      "title": "快手科技：截至2026年6月30日止三個月及六個月的業績公告（港交所，中文）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:14+08:00"
+    },
+    {
+      "id": "hkex-q2-results-en",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900314.pdf",
+      "title": "Kuaishou Technology: Results Announcement for the Three and Six Months Ended June 30, 2026 (HKEX, English)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:14+08:00"
+    },
+    {
+      "id": "hkex-interim-report-2026",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0903/2026090300643_c.pdf",
+      "title": "快手科技：2026年中期報告（港交所）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:14+08:00"
+    },
+    {
+      "id": "ir-q2-presentation",
+      "url": "https://ir.kuaishou.com/system/files-encrypted/nasdaq_kms/assets/2026/09/09/19-38-02/2026%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E5%BF%AB%E6%89%8B%E7%A7%91%E6%8A%80%E6%BC%94%E7%A4%BA%E6%9D%90%E6%96%99_0909%28Final%29.pdf",
+      "title": "快手科技：2026年第二季度演示材料（公司IR）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:25:00+08:00"
+    },
+    {
+      "id": "ir-q2-press-release",
+      "url": "https://ir.kuaishou.com/zh-hans/news-releases/news-release-details/kuaishoukejifabu2026niandierjidujizhongqiweijingshenhecaiwuyeji",
+      "title": "快手科技发布2026年第二季度及中期未经审核财务业绩（公司IR新闻稿）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:24:00+08:00"
+    },
+    {
+      "id": "hkex-q1-results-zh",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0527/2026052700437_c.pdf",
+      "title": "快手科技：截至2026年3月31日止三個月的業績公告（港交所）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:14+08:00"
+    },
+    {
+      "id": "hkex-kling-subscription-20260702",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "title": "快手科技：有關認購、授予回購權及採納附屬公司股份參與計劃的須予披露交易及關連交易等（北京可靈，港交所）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:14+08:00"
+    },
+    {
+      "id": "hkex-kling-update-20260831",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083102336_c.pdf",
+      "title": "快手科技：有關認購及授予回購權的須予披露交易及關連交易之更新（港交所）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:17:14+08:00"
+    },
+    {
+      "id": "hkex-tencent-sale-20260706",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0706/2026070602206_c.pdf",
+      "title": "快手科技：自願性公告—股東出售股份（騰訊，港交所）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "hkex-monthly-return-202608",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090400683_c.pdf",
+      "title": "快手科技：截至2026年8月31日止之股份發行人的證券變動月報表（港交所）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ir-homepage-price-20261003",
+      "url": "https://ir.kuaishou.com/zh-hans",
+      "title": "快手IR主页股票信息（LSEG，2026-10-02收盘，渲染文本快照）",
+      "authority_level": "tier2",
+      "retrieved_at": "2026-10-03T21:31:00+08:00"
+    },
+    {
+      "id": "market-yahoo-1024hk",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/1024.HK?period1=1786060800&period2=1791158400&interval=1d",
+      "title": "Yahoo Finance 1024.HK 日线行情（2026-08-07至2026-10-02，API原始响应）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:29:00+08:00"
+    },
+    {
+      "id": "ext-wallstreetcn-consensus",
+      "url": "https://wallstreetcn.com/articles/3779792",
+      "title": "华尔街见闻：快手Q2营收355.4亿元符合预期（含彭博一致预期对比，渲染文本快照）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-cls-q2",
+      "url": "https://www.cls.cn/detail/2458759",
+      "title": "财联社：快手Q2营收355.4亿元：月活逼近8亿 可灵AI营收8.5亿元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-zhitong-call-q2",
+      "url": "https://hk.stockstar.com/IG2026081900039026.shtml",
+      "title": "智通财经（证券之星转载）：程一笑详解快手二季度AI进展（业绩电话会摘要，含CFO现金流与资本开支表述）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-stcn-fy25-capex",
+      "url": "https://www.stcn.com/article/detail/3698852.html",
+      "title": "证券时报：快手2025年净利润206亿元 继续加码AI投入（CFO：2026年资本开支约260亿元）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-bjnews-fy25-capex",
+      "url": "https://m.bjnews.com.cn/detail/1774442085129605.html",
+      "title": "新京报：快手2026年资本支出预计达260亿元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-sina-q1-call",
+      "url": "https://finance.sina.com.cn/jjxw/2026-05-28/doc-inhzkfvh0610140.shtml",
+      "title": "财联社/新浪财经：直击快手一季度业绩会（资本开支大部分集中在上半年、股东回报率约4%）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-ms-downgrade",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-08-20/doc-ininyfvh7967678.shtml",
+      "title": "观点地产网/新浪财经：摩根士丹利下调快手评级至与大市同步 目标价降至40港元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-daiwa-downgrade",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-08-20/doc-ininxzpp6721891.shtml",
+      "title": "观点地产网/新浪财经：大和将快手评级连降两级至持有 目标价40港元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-sdic-report",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202608201828213589_1.pdf",
+      "title": "国投证券国际：快手(1024.HK)下调全年收入及利润指引，关注可灵模型更新（2026-08-20）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-nbs-retail-202608",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965311.html",
+      "title": "国家统计局：2026年1—8月份社会消费品零售总额增长1.1%",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-samr-livecommerce",
+      "url": "https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20261/c7ac0df71be943fc9fd99d68aa7fa6d5.pdf",
+      "title": "市场监管总局、国家网信办：直播电商监督管理办法（令第117号，自2026年2月1日起施行）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-xinhua-videoai",
+      "url": "https://www.news.cn/tech/20260807/1605ef446e5045b7ba0ee55245ce731c/c.html",
+      "title": "新华网：融资密集落地 AI视频大模型竞速商业化（含Seedance 2.5、Wan2.7等竞品动作）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-36kr-split",
+      "url": "https://m.36kr.com/p/3946636427361668",
+      "title": "36氪：机构拆出两个快手（含电商GMV自2026年起停止披露的表述，渲染文本快照）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-36kr-videoai-pricing",
+      "url": "https://m.36kr.com/p/3909478921999494",
+      "title": "36氪：涨价与降价并存：AI视频生成“冰火两重天”（可灵会员8折、Seedance 2.0 Mini降价）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    },
+    {
+      "id": "ext-stockstar-close-conflict",
+      "url": "https://stock.stockstar.com/RB2026082000031240.shtml",
+      "title": "证券之星：快手-W 8月20日股价下跌10.11%（报收33.98港元，与其他来源冲突）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:45:00+08:00"
+    },
+    {
+      "id": "ext-stcn-buyback",
+      "url": "https://stcn.com/article/detail/4153480.html",
+      "title": "证券时报·数据宝：快手-W 8月28日回购，自8月20日起连续7日回购合计5.94亿港元",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:28:30+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "revenue-2026Q2",
+      "metric": "total_revenue",
+      "value": 35535000000,
+      "display_value": "355.35亿元",
+      "original_display": "35,535（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "收入 2026年第二季度 人民幣35,535百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "revenue-2025Q2",
+      "metric": "total_revenue",
+      "value": 35046000000,
+      "display_value": "350.46亿元",
+      "original_display": "35,046（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "收入 2025年第二季度 人民幣35,046百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "revenue-2026Q1",
+      "metric": "total_revenue",
+      "value": 33716000000,
+      "display_value": "337.16亿元",
+      "original_display": "33,716（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "收入 2026年第一季度 人民幣33,716百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "gross_profit-2026Q2",
+      "metric": "gross_profit",
+      "value": 18328000000,
+      "display_value": "183.28亿元",
+      "original_display": "18,328（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "毛利 2026年第二季度 人民幣18,328百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "gross_profit-2025Q2",
+      "metric": "gross_profit",
+      "value": 19504000000,
+      "display_value": "195.04亿元",
+      "original_display": "19,504（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "毛利 2025年第二季度 人民幣19,504百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "gross_profit-2026Q1",
+      "metric": "gross_profit",
+      "value": 17249000000,
+      "display_value": "172.49亿元",
+      "original_display": "17,249（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "毛利 2026年第一季度 人民幣17,249百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "operating_profit-2026Q2",
+      "metric": "operating_profit",
+      "value": 3757000000,
+      "display_value": "37.57亿元",
+      "original_display": "3,757（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經營利潤 2026年第二季度 人民幣3,757百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "operating_profit-2025Q2",
+      "metric": "operating_profit",
+      "value": 5289000000,
+      "display_value": "52.89亿元",
+      "original_display": "5,289（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經營利潤 2025年第二季度 人民幣5,289百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "operating_profit-2026Q1",
+      "metric": "operating_profit",
+      "value": 3595000000,
+      "display_value": "35.95亿元",
+      "original_display": "3,595（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經營利潤 2026年第一季度 人民幣3,595百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "net_profit-2026Q2",
+      "metric": "profit_for_the_period",
+      "value": 3152000000,
+      "display_value": "31.52亿元",
+      "original_display": "3,152（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "期內利潤 2026年第二季度 人民幣3,152百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "net_profit-2025Q2",
+      "metric": "profit_for_the_period",
+      "value": 4922000000,
+      "display_value": "49.22亿元",
+      "original_display": "4,922（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "期內利潤 2025年第二季度 人民幣4,922百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "net_profit-2026Q1",
+      "metric": "profit_for_the_period",
+      "value": 2905000000,
+      "display_value": "29.05亿元",
+      "original_display": "2,905（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "期內利潤 2026年第一季度 人民幣2,905百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "adj_net_profit-2026Q2",
+      "metric": "adjusted_net_profit_non_ifrs",
+      "value": 3913000000,
+      "display_value": "39.13亿元",
+      "original_display": "3,913（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經調整利潤淨額 2026年第二季度 人民幣3,913百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "adj_net_profit-2025Q2",
+      "metric": "adjusted_net_profit_non_ifrs",
+      "value": 5618000000,
+      "display_value": "56.18亿元",
+      "original_display": "5,618（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經調整利潤淨額 2025年第二季度 人民幣5,618百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "adj_net_profit-2026Q1",
+      "metric": "adjusted_net_profit_non_ifrs",
+      "value": 3374000000,
+      "display_value": "33.74亿元",
+      "original_display": "3,374（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經調整利潤淨額 2026年第一季度 人民幣3,374百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "adj_ebitda-2026Q2",
+      "metric": "adjusted_ebitda_non_ifrs",
+      "value": 7122000000,
+      "display_value": "71.22亿元",
+      "original_display": "7,122（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經調整EBITDA 2026年第二季度 人民幣7,122百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "adj_ebitda-2025Q2",
+      "metric": "adjusted_ebitda_non_ifrs",
+      "value": 7715000000,
+      "display_value": "77.15亿元",
+      "original_display": "7,715（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經調整EBITDA 2025年第二季度 人民幣7,715百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "adj_ebitda-2026Q1",
+      "metric": "adjusted_ebitda_non_ifrs",
+      "value": 6230000000,
+      "display_value": "62.30亿元",
+      "original_display": "6,230（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經調整EBITDA 2026年第一季度 人民幣6,230百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "cost_of_revenue-2026Q2",
+      "metric": "cost_of_revenue",
+      "value": -17207000000,
+      "display_value": "-172.07亿元",
+      "original_display": "-17,207（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "銷售成本 2026年第二季度 人民幣17,207百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "cost_of_revenue-2025Q2",
+      "metric": "cost_of_revenue",
+      "value": -15542000000,
+      "display_value": "-155.42亿元",
+      "original_display": "-15,542（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "銷售成本 2025年第二季度 人民幣15,542百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "cost_of_revenue-2026Q1",
+      "metric": "cost_of_revenue",
+      "value": -16467000000,
+      "display_value": "-164.67亿元",
+      "original_display": "-16,467（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "銷售成本 2026年第一季度 人民幣16,467百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "selling_marketing-2026Q2",
+      "metric": "selling_and_marketing_expenses",
+      "value": -9922000000,
+      "display_value": "-99.22亿元",
+      "original_display": "-9,922（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "銷售及營銷開支 2026年第二季度 人民幣9,922百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "selling_marketing-2025Q2",
+      "metric": "selling_and_marketing_expenses",
+      "value": -10503000000,
+      "display_value": "-105.03亿元",
+      "original_display": "-10,503（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "銷售及營銷開支 2025年第二季度 人民幣10,503百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "selling_marketing-2026Q1",
+      "metric": "selling_and_marketing_expenses",
+      "value": -10333000000,
+      "display_value": "-103.33亿元",
+      "original_display": "-10,333（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "銷售及營銷開支 2026年第一季度 人民幣10,333百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "admin-2026Q2",
+      "metric": "administrative_expenses",
+      "value": -895000000,
+      "display_value": "-8.95亿元",
+      "original_display": "-895（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "行政開支 2026年第二季度 人民幣895百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "admin-2025Q2",
+      "metric": "administrative_expenses",
+      "value": -897000000,
+      "display_value": "-8.97亿元",
+      "original_display": "-897（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "行政開支 2025年第二季度 人民幣897百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "admin-2026Q1",
+      "metric": "administrative_expenses",
+      "value": -766000000,
+      "display_value": "-7.66亿元",
+      "original_display": "-766（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "行政開支 2026年第一季度 人民幣766百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "rnd-2026Q2",
+      "metric": "research_and_development_expenses",
+      "value": -4581000000,
+      "display_value": "-45.81亿元",
+      "original_display": "-4,581（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "研發開支 2026年第二季度 人民幣4,581百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）；p.24 簡明合併損益表"
+    },
+    {
+      "id": "rnd-2025Q2",
+      "metric": "research_and_development_expenses",
+      "value": -3400000000,
+      "display_value": "-34.00亿元",
+      "original_display": "-3,400（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "研發開支 2025年第二季度 人民幣3,400百萬元",
+      "location": "p.11（MD&A 2026Q2 vs 2025Q2 表）"
+    },
+    {
+      "id": "rnd-2026Q1",
+      "metric": "research_and_development_expenses",
+      "value": -3621000000,
+      "display_value": "-36.21亿元",
+      "original_display": "-3,621（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "研發開支 2026年第一季度 人民幣3,621百萬元",
+      "location": "p.16（MD&A 2026Q2 vs 2026Q1 表）"
+    },
+    {
+      "id": "rev_online_marketing-2026Q2",
+      "metric": "online_marketing_services_revenue",
+      "value": 20639000000,
+      "display_value": "206.39亿元",
+      "original_display": "20,639（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "線上營銷服務",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "線上營銷服務 2026Q2 20,639",
+      "location": "p.12 收入按類型；p.31 附註3"
+    },
+    {
+      "id": "rev_online_marketing-2025Q2",
+      "metric": "online_marketing_services_revenue",
+      "value": 19765000000,
+      "display_value": "197.65亿元",
+      "original_display": "19,765（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "線上營銷服務",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "線上營銷服務 2025Q2 19,765",
+      "location": "p.12 收入按類型；p.31 附註3"
+    },
+    {
+      "id": "rev_online_marketing-2026Q1",
+      "metric": "online_marketing_services_revenue",
+      "value": 19643000000,
+      "display_value": "196.43亿元",
+      "original_display": "19,643（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "線上營銷服務",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "線上營銷服務 2026Q1 19,643",
+      "location": "p.17 收入按類型（環比）"
+    },
+    {
+      "id": "rev_live_streaming-2026Q2",
+      "metric": "live_streaming_revenue",
+      "value": 8690000000,
+      "display_value": "86.90亿元",
+      "original_display": "8,690（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "直播",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "直播 2026Q2 8,690",
+      "location": "p.12 收入按類型；p.31 附註3"
+    },
+    {
+      "id": "rev_live_streaming-2025Q2",
+      "metric": "live_streaming_revenue",
+      "value": 10044000000,
+      "display_value": "100.44亿元",
+      "original_display": "10,044（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "直播",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "直播 2025Q2 10,044",
+      "location": "p.12 收入按類型；p.31 附註3"
+    },
+    {
+      "id": "rev_live_streaming-2026Q1",
+      "metric": "live_streaming_revenue",
+      "value": 8492000000,
+      "display_value": "84.92亿元",
+      "original_display": "8,492（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "直播",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "直播 2026Q1 8,492",
+      "location": "p.17 收入按類型（環比）"
+    },
+    {
+      "id": "rev_other_services-2026Q2",
+      "metric": "other_services_revenue",
+      "value": 6206000000,
+      "display_value": "62.06亿元",
+      "original_display": "6,206（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "其他服務",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "其他服務 2026Q2 6,206",
+      "location": "p.12 收入按類型；p.31 附註3"
+    },
+    {
+      "id": "rev_other_services-2025Q2",
+      "metric": "other_services_revenue",
+      "value": 5237000000,
+      "display_value": "52.37亿元",
+      "original_display": "5,237（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "其他服務",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "其他服務 2025Q2 5,237",
+      "location": "p.12 收入按類型；p.31 附註3"
+    },
+    {
+      "id": "rev_other_services-2026Q1",
+      "metric": "other_services_revenue",
+      "value": 5581000000,
+      "display_value": "55.81亿元",
+      "original_display": "5,581（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "其他服務",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "其他服務 2026Q1 5,581",
+      "location": "p.17 收入按類型（環比）"
+    },
+    {
+      "id": "seg_domestic_rev-2026Q2",
+      "metric": "segment_revenue",
+      "value": 34356000000,
+      "display_value": "343.56亿元",
+      "original_display": "34,356（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "國內",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "國內 收入 34,356",
+      "location": "p.2 按分部財務資料；p.30 附註2"
+    },
+    {
+      "id": "seg_domestic_rev-2025Q2",
+      "metric": "segment_revenue",
+      "value": 33746000000,
+      "display_value": "337.46亿元",
+      "original_display": "33,746（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "國內",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "國內 收入 33,746",
+      "location": "p.2；p.30 附註2"
+    },
+    {
+      "id": "seg_domestic_rev-2026Q1",
+      "metric": "segment_revenue",
+      "value": 32554000000,
+      "display_value": "325.54亿元",
+      "original_display": "32,554（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "國內",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "國內 收入 32,554",
+      "location": "2026Q1業績公告 p.2 按分部財務資料"
+    },
+    {
+      "id": "seg_overseas_rev-2026Q2",
+      "metric": "segment_revenue",
+      "value": 1179000000,
+      "display_value": "11.79亿元",
+      "original_display": "1,179（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "海外",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "海外 收入 1,179",
+      "location": "p.2；p.30 附註2"
+    },
+    {
+      "id": "seg_overseas_rev-2025Q2",
+      "metric": "segment_revenue",
+      "value": 1300000000,
+      "display_value": "13.00亿元",
+      "original_display": "1,300（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "海外",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "海外 收入 1,300",
+      "location": "p.2；p.30 附註2"
+    },
+    {
+      "id": "seg_overseas_rev-2026Q1",
+      "metric": "segment_revenue",
+      "value": 1162000000,
+      "display_value": "11.62亿元",
+      "original_display": "1,162（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "海外",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "海外 收入 1,162",
+      "location": "2026Q1業績公告 p.2"
+    },
+    {
+      "id": "seg_domestic_op-2026Q2",
+      "metric": "segment_operating_profit",
+      "value": 3733000000,
+      "display_value": "37.33亿元",
+      "original_display": "3,733（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "國內",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "國內 經營利潤 3,733",
+      "location": "p.15；p.19；p.30"
+    },
+    {
+      "id": "seg_domestic_op-2025Q2",
+      "metric": "segment_operating_profit",
+      "value": 5401000000,
+      "display_value": "54.01亿元",
+      "original_display": "5,401（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "國內",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "國內 經營利潤 5,401",
+      "location": "p.15；p.30"
+    },
+    {
+      "id": "seg_domestic_op-2026Q1",
+      "metric": "segment_operating_profit",
+      "value": 3093000000,
+      "display_value": "30.93亿元",
+      "original_display": "3,093（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "國內",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "國內 經營利潤 3,093",
+      "location": "p.19 環比分部表"
+    },
+    {
+      "id": "seg_overseas_op-2026Q2",
+      "metric": "segment_operating_profit",
+      "value": -25000000,
+      "display_value": "-0.25亿元",
+      "original_display": "-25（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "海外",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "海外 經營虧損 (25)",
+      "location": "p.15；p.19；p.30"
+    },
+    {
+      "id": "seg_overseas_op-2025Q2",
+      "metric": "segment_operating_profit",
+      "value": 19000000,
+      "display_value": "0.19亿元",
+      "original_display": "19（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "海外",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "海外 經營利潤 19",
+      "location": "p.15；p.30"
+    },
+    {
+      "id": "seg_overseas_op-2026Q1",
+      "metric": "segment_operating_profit",
+      "value": -31000000,
+      "display_value": "-0.31亿元",
+      "original_display": "-31（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "海外",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "海外 經營虧損 (31)",
+      "location": "p.19 環比分部表"
+    },
+    {
+      "id": "seg_unallocated-2026Q2",
+      "metric": "unallocated_items",
+      "value": 49000000,
+      "display_value": "0.49亿元",
+      "original_display": "49（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": "未分攤",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "未分攤項目 49",
+      "location": "p.15；p.19"
+    },
+    {
+      "id": "seg_unallocated-2025Q2",
+      "metric": "unallocated_items",
+      "value": -131000000,
+      "display_value": "-1.31亿元",
+      "original_display": "-131（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": "未分攤",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "未分攤項目 (131)",
+      "location": "p.15"
+    },
+    {
+      "id": "seg_unallocated-2026Q1",
+      "metric": "unallocated_items",
+      "value": 533000000,
+      "display_value": "5.33亿元",
+      "original_display": "533（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": "未分攤",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "未分攤項目 533",
+      "location": "p.19"
+    },
+    {
+      "id": "cogs_revenue_share-2026Q2",
+      "metric": "revenue_sharing_costs_and_related_taxes",
+      "value": 12323000000,
+      "display_value": "123.23亿元",
+      "original_display": "12,323（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "收入分成成本及相關稅項 2026Q2 12,323",
+      "location": "p.13 銷售成本明細"
+    },
+    {
+      "id": "cogs_revenue_share-2025Q2",
+      "metric": "revenue_sharing_costs_and_related_taxes",
+      "value": 10542000000,
+      "display_value": "105.42亿元",
+      "original_display": "10,542（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "收入分成成本及相關稅項 2025Q2 10,542",
+      "location": "p.13 銷售成本明細"
+    },
+    {
+      "id": "cogs_revenue_share-2026Q1",
+      "metric": "revenue_sharing_costs_and_related_taxes",
+      "value": 10783000000,
+      "display_value": "107.83亿元",
+      "original_display": "10,783（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "收入分成成本及相關稅項 2026Q1 10,783",
+      "location": "p.18 銷售成本明細（環比）"
+    },
+    {
+      "id": "cogs_da-2026Q2",
+      "metric": "depreciation_amortization_in_cogs",
+      "value": 1284000000,
+      "display_value": "12.84亿元",
+      "original_display": "1,284（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "物業及設備及使用權資產折舊以及無形資產攤銷 2026Q2 1,284",
+      "location": "p.13 銷售成本明細"
+    },
+    {
+      "id": "cogs_da-2025Q2",
+      "metric": "depreciation_amortization_in_cogs",
+      "value": 1406000000,
+      "display_value": "14.06亿元",
+      "original_display": "1,406（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "物業及設備及使用權資產折舊以及無形資產攤銷 2025Q2 1,406",
+      "location": "p.13 銷售成本明細"
+    },
+    {
+      "id": "cogs_da-2026Q1",
+      "metric": "depreciation_amortization_in_cogs",
+      "value": 1775000000,
+      "display_value": "17.75亿元",
+      "original_display": "1,775（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "物業及設備及使用權資產折舊以及無形資產攤銷 2026Q1 1,775",
+      "location": "p.18 銷售成本明細（環比）"
+    },
+    {
+      "id": "cogs_bandwidth-2026Q2",
+      "metric": "bandwidth_and_server_custody_in_cogs",
+      "value": 1595000000,
+      "display_value": "15.95亿元",
+      "original_display": "1,595（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "帶寬費用及服務器託管成本 2026Q2 1,595",
+      "location": "p.13 銷售成本明細"
+    },
+    {
+      "id": "cogs_bandwidth-2025Q2",
+      "metric": "bandwidth_and_server_custody_in_cogs",
+      "value": 1335000000,
+      "display_value": "13.35亿元",
+      "original_display": "1,335（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "帶寬費用及服務器託管成本 2025Q2 1,335",
+      "location": "p.13 銷售成本明細"
+    },
+    {
+      "id": "cogs_bandwidth-2026Q1",
+      "metric": "bandwidth_and_server_custody_in_cogs",
+      "value": 1749000000,
+      "display_value": "17.49亿元",
+      "original_display": "1,749（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "帶寬費用及服務器託管成本 2026Q1 1,749",
+      "location": "p.18 銷售成本明細（環比）"
+    },
+    {
+      "id": "nat_ppe_dep-2026Q2",
+      "metric": "depreciation_ppe_total",
+      "value": 1745000000,
+      "display_value": "17.45亿元",
+      "original_display": "1,745（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "物業及設備折舊 2026Q2 1,745",
+      "location": "p.32 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_ppe_dep-2025Q2",
+      "metric": "depreciation_ppe_total",
+      "value": 885000000,
+      "display_value": "8.85亿元",
+      "original_display": "885（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "物業及設備折舊 2025Q2 885",
+      "location": "p.32 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_ppe_dep-2026Q1",
+      "metric": "depreciation_ppe_total",
+      "value": 1364000000,
+      "display_value": "13.64亿元",
+      "original_display": "1,364（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "物業及設備折舊 2026Q1 1,364",
+      "location": "2026Q1業績公告 p.29 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_rou_dep-2026Q2",
+      "metric": "depreciation_rou_total",
+      "value": 845000000,
+      "display_value": "8.45亿元",
+      "original_display": "845（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "使用權資產折舊 2026Q2 845",
+      "location": "p.32 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_rou_dep-2025Q2",
+      "metric": "depreciation_rou_total",
+      "value": 831000000,
+      "display_value": "8.31亿元",
+      "original_display": "831（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "使用權資產折舊 2025Q2 831",
+      "location": "p.32 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_rou_dep-2026Q1",
+      "metric": "depreciation_rou_total",
+      "value": 799000000,
+      "display_value": "7.99亿元",
+      "original_display": "799（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "使用權資產折舊 2026Q1 799",
+      "location": "2026Q1業績公告 p.29 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_employee-2026Q2",
+      "metric": "employee_benefits_total",
+      "value": 4398000000,
+      "display_value": "43.98亿元",
+      "original_display": "4,398（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "僱員福利開支 2026Q2 4,398",
+      "location": "p.32 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_employee-2025Q2",
+      "metric": "employee_benefits_total",
+      "value": 4461000000,
+      "display_value": "44.61亿元",
+      "original_display": "4,461（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "僱員福利開支 2025Q2 4,461",
+      "location": "p.32 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "nat_employee-2026Q1",
+      "metric": "employee_benefits_total",
+      "value": 4403000000,
+      "display_value": "44.03亿元",
+      "original_display": "4,403（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "僱員福利開支 2026Q1 4,403",
+      "location": "2026Q1業績公告 p.29 附註4 按性質劃分的開支"
+    },
+    {
+      "id": "dau-2026Q2",
+      "metric": "average_dau",
+      "value": 412.3,
+      "display_value": "4.123亿",
+      "original_display": "412.3（百萬）",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "平均日活躍用戶（百萬）412.3",
+      "location": "p.4 營運參數"
+    },
+    {
+      "id": "dau-2025Q2",
+      "metric": "average_dau",
+      "value": 408.9,
+      "display_value": "4.089亿",
+      "original_display": "408.9（百萬）",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "平均日活躍用戶（百萬）408.9",
+      "location": "p.4 營運參數"
+    },
+    {
+      "id": "dau-2026Q1",
+      "metric": "average_dau",
+      "value": 412.7,
+      "display_value": "4.127亿",
+      "original_display": "412.7（百萬）",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "平均日活躍用戶 412.7",
+      "location": "2026Q1業績公告 p.2 營運參數"
+    },
+    {
+      "id": "mau-2026Q2",
+      "metric": "average_mau",
+      "value": 797.3,
+      "display_value": "7.973亿",
+      "original_display": "797.3（百萬）",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "平均月活躍用戶（百萬）797.3",
+      "location": "p.4 營運參數"
+    },
+    {
+      "id": "mau-2025Q2",
+      "metric": "average_mau",
+      "value": 714.8,
+      "display_value": "7.148亿",
+      "original_display": "714.8（百萬）",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "平均月活躍用戶（百萬）714.8",
+      "location": "p.4 營運參數"
+    },
+    {
+      "id": "mau-2026Q1",
+      "metric": "average_mau",
+      "value": 771.7,
+      "display_value": "7.717亿",
+      "original_display": "771.7（百萬）",
+      "currency": "N/A",
+      "unit": "million_users",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "平均月活躍用戶 771.7",
+      "location": "2026Q1業績公告 p.2 營運參數"
+    },
+    {
+      "id": "om_per_dau-2026Q2",
+      "metric": "online_marketing_revenue_per_dau",
+      "value": 50.1,
+      "display_value": "50.1元",
+      "original_display": "50.1（人民幣元）",
+      "currency": "CNY",
+      "unit": "yuan_per_dau",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "每位日活躍用戶平均線上營銷服務收入（人民幣元）50.1",
+      "location": "p.4 營運參數"
+    },
+    {
+      "id": "om_per_dau-2025Q2",
+      "metric": "online_marketing_revenue_per_dau",
+      "value": 48.3,
+      "display_value": "48.3元",
+      "original_display": "48.3（人民幣元）",
+      "currency": "CNY",
+      "unit": "yuan_per_dau",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "每位日活躍用戶平均線上營銷服務收入（人民幣元）48.3",
+      "location": "p.4 營運參數"
+    },
+    {
+      "id": "core_commercial_growth-2026Q2",
+      "metric": "core_commercial_revenue_yoy_reported",
+      "value": 7.4,
+      "display_value": "+7.4%",
+      "original_display": "7.4%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "核心商業收入（線上營銷服務及以電商及可靈AI為主的其他服務）同比增長達7.4%",
+      "location": "p.4 業務回顧"
+    },
+    {
+      "id": "kling_revenue-2026Q2",
+      "metric": "kling_ai_revenue_lower_bound",
+      "value": 850000000,
+      "display_value": "超过8.5亿元",
+      "original_display": "超過人民幣8.5億元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "可靈AI營業收入超過人民幣8.5億元，同比增長超過200.0%",
+      "location": "p.5 AI業務",
+      "note": "公司仅披露下限（“超过”），不得视为精确值"
+    },
+    {
+      "id": "kling_revenue-2026Q1",
+      "metric": "kling_ai_revenue_lower_bound",
+      "value": 650000000,
+      "display_value": "超过6.5亿元",
+      "original_display": "超過人民幣650百萬元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "可靈AI產生的收入超過人民幣650百萬元，同比增長超過300%",
+      "location": "2026Q1業績公告 p.3",
+      "note": "下限值"
+    },
+    {
+      "id": "kling_revenue-2025Q2",
+      "metric": "kling_ai_revenue_lower_bound",
+      "value": 250000000,
+      "display_value": "超过2.5亿元",
+      "original_display": "250+（百萬人民幣）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "ir-q2-presentation"
+      ],
+      "evidence": "2025 Q2 250+（單位：百萬人民幣）",
+      "location": "演示材料 p.8 可靈AI的季度收入柱狀圖",
+      "note": "图表标注下限值"
+    },
+    {
+      "id": "kling_yoy-2026Q2",
+      "metric": "kling_ai_revenue_yoy_reported_floor",
+      "value": 200.0,
+      "display_value": ">200%",
+      "original_display": "超過200.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "同比增長超過200.0%",
+      "location": "p.5 AI業務"
+    },
+    {
+      "id": "kling_net_loss-FY2025",
+      "metric": "beijing_kling_net_loss_unaudited",
+      "value": -1900000000,
+      "display_value": "-19亿元",
+      "original_display": "人民幣19億元（淨虧損）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-kling-subscription-20260702"
+      ],
+      "evidence": "北京可靈截至2024年及2025年12月31日止年度的未經審計淨虧損（除稅前後）分別為人民幣5億元及人民幣19億元",
+      "location": "2026-07-02公告 p.23 有關訂約方的資料",
+      "note": "假设重组已完成的未经审计口径"
+    },
+    {
+      "id": "kling_premoney-20260702",
+      "metric": "beijing_kling_pre_money_valuation",
+      "value": 15000000000,
+      "display_value": "150亿美元",
+      "original_display": "150.0億美元",
+      "currency": "USD",
+      "unit": "usd",
+      "period": "2026-07-02",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-kling-subscription-20260702"
+      ],
+      "evidence": "管理層認為北京可靈交易前估值150.0億美元在商業角度上屬合理",
+      "location": "2026-07-02公告 p.7"
+    },
+    {
+      "id": "kling_raise-20260831",
+      "metric": "beijing_kling_subscription_total",
+      "value": 20447100000.0,
+      "display_value": "204.47亿元（约30亿美元）",
+      "original_display": "人民幣20,447.10百萬元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-08-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-kling-subscription-20260702",
+        "hkex-kling-update-20260831"
+      ],
+      "evidence": "認購限額已獲悉數動用……總計 出資額 20,447.10（人民幣百萬元），相當於3,000.00百萬美元",
+      "location": "2026-07-02公告 p.19；2026-08-31更新公告 p.3、p.5"
+    },
+    {
+      "id": "kling_ks_stake-20260831",
+      "metric": "kuaishou_effective_stake_in_beijing_kling",
+      "value": 68.33,
+      "display_value": "约68.33%",
+      "original_display": "約68.33%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026-08-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-kling-subscription-20260702",
+        "hkex-kling-update-20260831"
+      ],
+      "evidence": "本公司將繼續間接持有北京可靈約68.33%的股權，且北京可靈的財務業績將繼續併入本公司的財務報表",
+      "location": "2026-07-02公告 p.19；2026-08-31更新公告 p.3（Lucky Labs 66.33% + 北京快靈瑞 2.00%）"
+    },
+    {
+      "id": "kling_redemption-terms",
+      "metric": "beijing_kling_investor_redemption_return",
+      "value": 8.0,
+      "display_value": "单利8%/年",
+      "original_display": "單利年利率8%",
+      "currency": "N/A",
+      "unit": "percent_simple_annual",
+      "period": "2026-07-02",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-kling-subscription-20260702"
+      ],
+      "evidence": "若北京可靈未能於2031年10月30日前完成首次公開發售等觸發事件，投資者可要求回購，回購金額為原始投資價格加按單利年利率8%計算的回報",
+      "location": "2026-07-02公告 p.9–p.10 授予回購權"
+    },
+    {
+      "id": "cash-2026-06-30",
+      "metric": "cash_and_cash_equivalents",
+      "value": 11696000000,
+      "display_value": "116.96亿元",
+      "original_display": "11,696（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "現金及現金等價物 截至2026年6月30日 11,696",
+      "location": "p.26 簡明合併資產負債表"
+    },
+    {
+      "id": "available_funds-2026-06-30",
+      "metric": "total_available_funds",
+      "value": 121300000000,
+      "display_value": "1,213.00亿元",
+      "original_display": "人民幣1,213億元（公告取整）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "截至2026年6月30日，我們可利用資金總額為人民幣1,213億元",
+      "location": "p.22 流動資金及財務資源"
+    },
+    {
+      "id": "available_funds-2026-03-31",
+      "metric": "total_available_funds",
+      "value": 117700000000,
+      "display_value": "1,177.00亿元",
+      "original_display": "人民幣1,177億元（公告取整）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-03-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "2026年3月31日則為人民幣1,177億元",
+      "location": "p.22 流動資金及財務資源"
+    },
+    {
+      "id": "ppe-2026-06-30",
+      "metric": "property_and_equipment",
+      "value": 34126000000,
+      "display_value": "341.26亿元",
+      "original_display": "34,126（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "物業及設備 截至2026年6月30日 34,126",
+      "location": "p.26 簡明合併資產負債表"
+    },
+    {
+      "id": "ppe-2025-12-31",
+      "metric": "property_and_equipment",
+      "value": 22869000000,
+      "display_value": "228.69亿元",
+      "original_display": "22,869（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "物業及設備 截至2025年12月31日 22,869",
+      "location": "p.26 簡明合併資產負債表"
+    },
+    {
+      "id": "rou-2026-06-30",
+      "metric": "right_of_use_assets",
+      "value": 10302000000,
+      "display_value": "103.02亿元",
+      "original_display": "10,302（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "使用權資產 截至2026年6月30日 10,302",
+      "location": "p.26 簡明合併資產負債表"
+    },
+    {
+      "id": "borrowings_current-2026-06-30",
+      "metric": "borrowings_current",
+      "value": 12570000000,
+      "display_value": "125.70亿元",
+      "original_display": "12,570（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "借款（流動） 截至2026年6月30日 12,570",
+      "location": "p.27；p.36 附註9 簡明合併資產負債表"
+    },
+    {
+      "id": "borrowings_noncurrent-2026-06-30",
+      "metric": "borrowings_noncurrent",
+      "value": 14792000000,
+      "display_value": "147.92亿元",
+      "original_display": "14,792（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "借款（非流動） 截至2026年6月30日 14,792",
+      "location": "p.27；p.36 附註9 簡明合併資產負債表"
+    },
+    {
+      "id": "notes_payable-2026-06-30",
+      "metric": "notes_payable_supplier_finance",
+      "value": 25248000000,
+      "display_value": "252.48亿元",
+      "original_display": "25,248（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "其他應付款項及應計費用明細：應付票據 25,248（2025年12月31日：11,948）",
+      "location": "中期報告 p.100 附註22"
+    },
+    {
+      "id": "notes_payable-2025-12-31",
+      "metric": "notes_payable_supplier_finance",
+      "value": 11948000000,
+      "display_value": "119.48亿元",
+      "original_display": "11,948（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "應付票據 11,948",
+      "location": "中期報告 p.100 附註22"
+    },
+    {
+      "id": "capex_commitments-2026-06-30",
+      "metric": "contracted_capex_commitments_ppe",
+      "value": 4762000000,
+      "display_value": "47.62亿元",
+      "original_display": "4,762（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "報告期末已訂約但尚未產生的重大資本開支：物業及設備 4,762（2025年12月31日：5,477）",
+      "location": "中期報告 p.103 附註24"
+    },
+    {
+      "id": "ppe_additions-2026H1",
+      "metric": "ppe_additions",
+      "value": 14393000000,
+      "display_value": "143.93亿元",
+      "original_display": "14,393（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "物業及設備 添置 14,393（2025年上半年：4,513）",
+      "location": "中期報告 p.84 附註12"
+    },
+    {
+      "id": "capex_commitments-2025-12-31",
+      "metric": "contracted_capex_commitments_ppe",
+      "value": 5477000000,
+      "display_value": "54.77亿元",
+      "original_display": "5,477（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025-12-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "報告期末已訂約但尚未產生的重大資本開支：物業及設備 截至2025年12月31日 5,477",
+      "location": "中期報告 p.103 附註24"
+    },
+    {
+      "id": "ocf-2026Q2",
+      "metric": "net_cash_from_operating_activities",
+      "value": 5919000000,
+      "display_value": "59.19亿元",
+      "original_display": "5,919（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經營活動所得現金淨額 截至2026年6月30日止三個月 5,919",
+      "location": "p.23 現金流量摘要"
+    },
+    {
+      "id": "icf-2026Q2",
+      "metric": "net_cash_used_in_investing_activities",
+      "value": -8730000000,
+      "display_value": "-87.30亿元",
+      "original_display": "-8,730（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "投資活動所用現金淨額 (8,730)",
+      "location": "p.23 現金流量摘要"
+    },
+    {
+      "id": "fcf_fin-2026Q2",
+      "metric": "net_cash_from_financing_activities",
+      "value": 3188000000,
+      "display_value": "31.88亿元",
+      "original_display": "3,188（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "融資活動所得現金淨額 3,188",
+      "location": "p.23 現金流量摘要"
+    },
+    {
+      "id": "capex_paid-2026Q2",
+      "metric": "payments_for_ppe_and_intangibles_rounded",
+      "value": 5900000000,
+      "display_value": "59.00亿元",
+      "original_display": "人民幣59億元（公告取整）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "主要是由於購買物業、設備及無形資產人民幣59億元",
+      "location": "p.23 投資活動所用現金淨額說明",
+      "note": "公告以亿元取整披露；结合H1精确值与Q1取整值可推得区间5,850–5,891百万元"
+    },
+    {
+      "id": "capex_paid-2026Q1",
+      "metric": "payments_for_ppe_and_intangibles_rounded",
+      "value": 12100000000,
+      "display_value": "121.00亿元",
+      "original_display": "人民幣121億元（公告取整）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "購買物業、設備及無形資產人民幣121億元",
+      "location": "2026Q1業績公告 p.21"
+    },
+    {
+      "id": "ocf-2026H1",
+      "metric": "net_cash_from_operating_activities",
+      "value": 9044000000,
+      "display_value": "90.44亿元",
+      "original_display": "9,044（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經營活動所得現金淨額 9,044",
+      "location": "p.28 簡明合併現金流量表"
+    },
+    {
+      "id": "ocf-2025H1",
+      "metric": "net_cash_from_operating_activities",
+      "value": 11781000000,
+      "display_value": "117.81亿元",
+      "original_display": "11,781（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "經營活動所得現金淨額 11,781",
+      "location": "p.28 簡明合併現金流量表"
+    },
+    {
+      "id": "capex_paid-2026H1",
+      "metric": "payments_for_ppe_and_intangibles",
+      "value": 17941000000,
+      "display_value": "179.41亿元",
+      "original_display": "17,941（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "物業、設備及無形資產的付款╱預付款項 (17,941)",
+      "location": "中期報告 p.64 簡明合併現金流量表"
+    },
+    {
+      "id": "capex_paid-2025H1",
+      "metric": "payments_for_ppe_and_intangibles",
+      "value": 7075000000,
+      "display_value": "70.75亿元",
+      "original_display": "7,075（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "物業、設備及無形資產的付款╱預付款項 (7,075)",
+      "location": "中期報告 p.64"
+    },
+    {
+      "id": "notes_proceeds-2026H1",
+      "metric": "proceeds_from_notes_payable_arrangements",
+      "value": 25162000000,
+      "display_value": "251.62亿元",
+      "original_display": "25,162（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "已收應付票據安排所得款項 25,162",
+      "location": "中期報告 p.64"
+    },
+    {
+      "id": "notes_repaid-2026H1",
+      "metric": "repayment_of_matured_notes",
+      "value": -31455000000,
+      "display_value": "-314.55亿元",
+      "original_display": "-31,455（人民币百万元）",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "支付到期票據本金及相關利息 (31,455)",
+      "location": "中期報告 p.64"
+    },
+    {
+      "id": "buyback_ytd-20260811",
+      "metric": "shares_repurchased_hkd",
+      "value": 1968644000.0,
+      "display_value": "19.69亿港元（4,330.22万股）",
+      "original_display": "1,968,644,026.31港元",
+      "currency": "HKD",
+      "unit": "hkd",
+      "period": "2026-01-01..2026-08-11",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "於聯交所以總代價1,968,644,026.31港元合共購回43,302,200股B類股份",
+      "location": "p.38 購回、出售或贖回"
+    },
+    {
+      "id": "final_dividend-FY2025",
+      "metric": "final_dividend_total_hkd",
+      "value": 3000000000,
+      "display_value": "30亿港元",
+      "original_display": "30億港元",
+      "currency": "HKD",
+      "unit": "hkd",
+      "period": "FY2025",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "末期股息每股普通股0.69港元，總額為30億港元，已於2026年7月派付",
+      "location": "p.36 附註10"
+    },
+    {
+      "id": "interim_dividend-2026H1",
+      "metric": "interim_dividend_declared",
+      "value": 0,
+      "display_value": "不派发",
+      "original_display": "不宣派",
+      "currency": "HKD",
+      "unit": "hkd",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "董事會決議不宣派截至2026年6月30日止六個月的中期股息",
+      "location": "p.39 中期股息"
+    },
+    {
+      "id": "shares_outstanding-2026-08-31",
+      "metric": "shares_outstanding_total",
+      "value": 4326.9589,
+      "display_value": "43.27亿股",
+      "original_display": "4,326,958,924 股（A+B）",
+      "currency": "N/A",
+      "unit": "million_shares",
+      "period": "2026-08-31",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-monthly-return-202608"
+      ],
+      "evidence": "本月底結存 B類 3,664,099,945 股；A類 662,858,979 股",
+      "location": "月報表 p.2 已發行股份（B類 3,664,099,945；A類 662,858,979）"
+    },
+    {
+      "id": "tencent_sale-20260706",
+      "metric": "tencent_shares_sold",
+      "value": 272.9477,
+      "display_value": "2.73亿股（持股15.68%→9.37%）",
+      "original_display": "272,947,700股",
+      "currency": "N/A",
+      "unit": "million_shares",
+      "period": "2026-07-06",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-tencent-sale-20260706"
+      ],
+      "evidence": "騰訊出售合共272,947,700股B類股份，持股比例由約15.68%下降至9.37%，並不再為本公司主要股東",
+      "location": "2026-07-06自願性公告 p.1"
+    },
+    {
+      "id": "diluted_eps-2026Q2",
+      "metric": "diluted_eps",
+      "value": 0.72,
+      "display_value": "0.72元/股",
+      "original_display": "0.72（人民幣元）",
+      "currency": "CNY",
+      "unit": "yuan_per_share",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "每股攤薄盈利 0.72（人民幣元）",
+      "location": "p.24 / p.33 附註6"
+    },
+    {
+      "id": "diluted_eps-2025Q2",
+      "metric": "diluted_eps",
+      "value": 1.13,
+      "display_value": "1.13元/股",
+      "original_display": "1.13（人民幣元）",
+      "currency": "CNY",
+      "unit": "yuan_per_share",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "每股攤薄盈利 1.13（人民幣元）",
+      "location": "p.24 / p.33 附註6"
+    },
+    {
+      "id": "kling_arr-2026-03",
+      "metric": "kling_ai_arr_march_2026",
+      "value": 500000000,
+      "display_value": "近5亿美元",
+      "original_display": "近5億美元",
+      "currency": "USD",
+      "unit": "usd",
+      "period": "2026-03",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "2026年3月，可靈AI的年化收入運行率(ARR)近5億美元",
+      "location": "2026Q1業績公告 p.3",
+      "note": "2026Q2业绩公告未再披露ARR"
+    },
+    {
+      "id": "om_yoy_reported-2026Q1",
+      "metric": "online_marketing_revenue_yoy_reported",
+      "value": 9.3,
+      "display_value": "+9.3%",
+      "original_display": "9.3%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "2026年第一季度，線上營銷服務收入達到人民幣196億元，同比增長9.3%；其中，國內線上營銷服務收入同比增長超過10%",
+      "location": "2026Q1業績公告 p.4 線上營銷服務"
+    },
+    {
+      "id": "om_yoy_reported-2026Q2",
+      "metric": "online_marketing_revenue_yoy_reported",
+      "value": 4.4,
+      "display_value": "+4.4%",
+      "original_display": "4.4%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "2026年第二季度，線上營銷服務收入達到人民幣206億元，同比增長4.4%",
+      "location": "p.7 線上營銷服務"
+    },
+    {
+      "id": "outlook-2026H2",
+      "metric": "management_outlook_statement",
+      "value": "qualitative",
+      "display_value": "对短期业务前景持审慎态度",
+      "original_display": "對短期業務前景持審慎態度",
+      "currency": "N/A",
+      "unit": "text",
+      "period": "2026H2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "鑒於經營環境日益複雜且充滿挑戰，我們對短期業務前景持審慎態度。我們仍將採取審慎及嚴謹方針，繼續深化AI於該等生態系統中的整合",
+      "location": "p.10 業務展望"
+    },
+    {
+      "id": "revenue_yoy-2026Q2",
+      "metric": "revenue YOY",
+      "value": 1.3953,
+      "display_value": "1.40%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：revenue[2026Q2]/revenue[2025Q2]-1；输入：revenue-2026Q2, revenue-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "revenue_qoq-2026Q2",
+      "metric": "revenue QOQ",
+      "value": 5.3951,
+      "display_value": "5.40%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：revenue[2026Q2]/revenue[2026Q1]-1；输入：revenue-2026Q2, revenue-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "rev_online_marketing_yoy-2026Q2",
+      "metric": "rev_online_marketing YOY",
+      "value": 4.422,
+      "display_value": "4.42%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：rev_online_marketing[2026Q2]/rev_online_marketing[2025Q2]-1；输入：rev_online_marketing-2026Q2, rev_online_marketing-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "rev_live_streaming_yoy-2026Q2",
+      "metric": "rev_live_streaming YOY",
+      "value": -13.4807,
+      "display_value": "-13.48%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：rev_live_streaming[2026Q2]/rev_live_streaming[2025Q2]-1；输入：rev_live_streaming-2026Q2, rev_live_streaming-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "rev_other_services_yoy-2026Q2",
+      "metric": "rev_other_services YOY",
+      "value": 18.503,
+      "display_value": "18.50%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：rev_other_services[2026Q2]/rev_other_services[2025Q2]-1；输入：rev_other_services-2026Q2, rev_other_services-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "core_commercial_yoy-2026Q2",
+      "metric": "core commercial revenue YoY",
+      "value": 7.3714,
+      "display_value": "7.37%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：(OM+other)[Q2'26]/(OM+other)[Q2'25]-1；输入：rev_online_marketing-2026Q2, rev_other_services-2026Q2, rev_online_marketing-2025Q2, rev_other_services-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "adj_net_profit_yoy-2026Q2",
+      "metric": "adj_net_profit YOY",
+      "value": -30.3489,
+      "display_value": "-30.35%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：adj_net_profit[2026Q2]/adj_net_profit[2025Q2]-1；输入：adj_net_profit-2026Q2, adj_net_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "seg_domestic_op_yoy-2026Q2",
+      "metric": "seg_domestic_op YOY",
+      "value": -30.8832,
+      "display_value": "-30.88%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：seg_domestic_op[2026Q2]/seg_domestic_op[2025Q2]-1；输入：seg_domestic_op-2026Q2, seg_domestic_op-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "rnd_yoy-2026Q2",
+      "metric": "rnd YOY",
+      "value": 34.7353,
+      "display_value": "34.74%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：rnd[2026Q2]/rnd[2025Q2]-1；输入：rnd-2026Q2, rnd-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_margin-2026Q2",
+      "metric": "gross_margin",
+      "value": 51.5773,
+      "display_value": "51.58%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：gross_profit/revenue；输入：gross_profit-2026Q2, revenue-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_margin-2025Q2",
+      "metric": "gross_margin",
+      "value": 55.6526,
+      "display_value": "55.65%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：gross_profit/revenue；输入：gross_profit-2025Q2, revenue-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_margin-2026Q1",
+      "metric": "gross_margin",
+      "value": 51.1597,
+      "display_value": "51.16%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：gross_profit/revenue；输入：gross_profit-2026Q1, revenue-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_margin_pp_yoy-2026Q2",
+      "metric": "gross_margin pp change YoY",
+      "value": -4.0753,
+      "display_value": "-4.08个百分点",
+      "currency": "N/A",
+      "unit": "percentage_point",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：gross_margin[2026Q2]-gross_margin[2025Q2]；输入：gross_margin-2026Q2, gross_margin-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "operating_margin-2026Q2",
+      "metric": "operating_margin",
+      "value": 10.5727,
+      "display_value": "10.57%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：operating_profit/revenue；输入：operating_profit-2026Q2, revenue-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "adj_net_margin-2026Q2",
+      "metric": "adj_net_margin",
+      "value": 11.0117,
+      "display_value": "11.01%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：adj_net_profit/revenue；输入：adj_net_profit-2026Q2, revenue-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "domestic_op_margin-2026Q2",
+      "metric": "domestic_segment_op_margin",
+      "value": 10.8656,
+      "display_value": "10.87%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：seg_domestic_op/seg_domestic_rev；输入：seg_domestic_op-2026Q2, seg_domestic_rev-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "domestic_op_margin-2025Q2",
+      "metric": "domestic_segment_op_margin",
+      "value": 16.0049,
+      "display_value": "16.00%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：seg_domestic_op/seg_domestic_rev；输入：seg_domestic_op-2025Q2, seg_domestic_rev-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "revenue_share_ratio-2026Q2",
+      "metric": "revenue_share_ratio",
+      "value": 34.6785,
+      "display_value": "34.68%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|cogs_revenue_share|/revenue；输入：cogs_revenue_share-2026Q2, revenue-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "revenue_share_ratio-2025Q2",
+      "metric": "revenue_share_ratio",
+      "value": 30.0805,
+      "display_value": "30.08%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|cogs_revenue_share|/revenue；输入：cogs_revenue_share-2025Q2, revenue-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "revenue_share_ratio-2026Q1",
+      "metric": "revenue_share_ratio",
+      "value": 31.9818,
+      "display_value": "31.98%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|cogs_revenue_share|/revenue；输入：cogs_revenue_share-2026Q1, revenue-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "revenue_share_yoy-2026Q2",
+      "metric": "revenue-sharing cost YoY",
+      "value": 16.8943,
+      "display_value": "16.89%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：RS[Q2'26]/RS[Q2'25]-1；输入：cogs_revenue_share-2026Q2, cogs_revenue_share-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "revenue_share_incremental_qoq-2026Q2",
+      "metric": "QoQ incremental revenue-share cost / incremental revenue",
+      "value": 84.6619,
+      "display_value": "84.66%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：ΔRevenueShare/ΔRevenue (QoQ)；输入：cogs_revenue_share-2026Q2, cogs_revenue_share-2026Q1, revenue-2026Q2, revenue-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "rnd_ratio-2026Q2",
+      "metric": "rnd_ratio",
+      "value": 12.8915,
+      "display_value": "12.89%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|rnd|/revenue；输入：rnd-2026Q2, revenue-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "rnd_ratio-2025Q2",
+      "metric": "rnd_ratio",
+      "value": 9.7015,
+      "display_value": "9.70%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|rnd|/revenue；输入：rnd-2025Q2, revenue-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "sm_ratio-2026Q2",
+      "metric": "sm_ratio",
+      "value": 27.9218,
+      "display_value": "27.92%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|selling_marketing|/revenue；输入：selling_marketing-2026Q2, revenue-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "sm_ratio-2025Q2",
+      "metric": "sm_ratio",
+      "value": 29.9692,
+      "display_value": "29.97%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|selling_marketing|/revenue；输入：selling_marketing-2025Q2, revenue-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "total_da-2026Q2",
+      "metric": "total D&A (by nature)",
+      "value": 2606000000.0,
+      "display_value": "26.06亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：PP&E dep + ROU dep + intangible amort；输入：nat_ppe_dep-2026Q2, nat_rou_dep-2026Q2, nat_intangible_amort-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "da_outside_cogs-2026Q2",
+      "metric": "D&A recorded outside cost of revenue",
+      "value": 1322000000.0,
+      "display_value": "13.22亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：total D&A by nature - D&A in COGS；输入：nat_ppe_dep-2026Q2, nat_rou_dep-2026Q2, nat_intangible_amort-2026Q2, cogs_da-2026Q2；说明：公司未按职能拆分COGS以外的折旧去向（研发/销售/行政）",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "da_outside_cogs-2026Q1",
+      "metric": "D&A recorded outside cost of revenue",
+      "value": 404000000.0,
+      "display_value": "4.04亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q1-results-zh",
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：total D&A by nature - D&A in COGS；输入：nat_ppe_dep-2026Q1, nat_rou_dep-2026Q1, nat_intangible_amort-2026Q1, cogs_da-2026Q1；说明：公司未按职能拆分COGS以外的折旧去向（研发/销售/行政）",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "cogs_da_share-2026Q2",
+      "metric": "share of total D&A booked in COGS",
+      "value": 49.2709,
+      "display_value": "49.27%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：D&A in COGS / total D&A；输入：cogs_da-2026Q2, nat_ppe_dep-2026Q2, nat_rou_dep-2026Q2, nat_intangible_amort-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "cogs_da_share-2026Q1",
+      "metric": "share of total D&A booked in COGS",
+      "value": 81.4594,
+      "display_value": "81.46%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "公式：D&A in COGS / total D&A；输入：cogs_da-2026Q1, nat_ppe_dep-2026Q1, nat_rou_dep-2026Q1, nat_intangible_amort-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "da_outside_cogs_qoq_change-2026Q2",
+      "metric": "QoQ change in D&A outside COGS",
+      "value": 918000000.0,
+      "display_value": "9.18亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "公式：da_outside_cogs[Q2]-da_outside_cogs[Q1]；输入：da_outside_cogs-2026Q2, da_outside_cogs-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "rnd_qoq_change-2026Q2",
+      "metric": "QoQ change in R&D expense",
+      "value": 960000000.0,
+      "display_value": "9.60亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：|R&D[Q2]|-|R&D[Q1]|；输入：rnd-2026Q2, rnd-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "employee_total_qoq_change-2026Q2",
+      "metric": "QoQ change in total employee benefits",
+      "value": -5000000.0,
+      "display_value": "-0.05亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "公式：employee[Q2]-employee[Q1]；输入：nat_employee-2026Q2, nat_employee-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_margin_cf_q1_da_mix-2026Q2",
+      "metric": "counterfactual gross margin if Q2 kept Q1 COGS share of D&A",
+      "value": 49.2167,
+      "display_value": "49.22%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "公式：(GP - (Q1 COGS D&A share × Q2 total D&A - Q2 COGS D&A)) / revenue；输入：cogs_da_share-2026Q1, total_da-2026Q2, cogs_da-2026Q2, gross_profit-2026Q2, revenue-2026Q2；说明：反事实测算，仅用于说明口径敏感性，不是公司披露",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "ppe_dep_yoy-2026Q2",
+      "metric": "PP&E depreciation YoY",
+      "value": 97.1751,
+      "display_value": "97.18%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：PPEdep[Q2'26]/PPEdep[Q2'25]-1；输入：nat_ppe_dep-2026Q2, nat_ppe_dep-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "ppe_growth-2026H1",
+      "metric": "PP&E growth since 2025-12-31",
+      "value": 49.2238,
+      "display_value": "49.22%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：PPE[6/30]/PPE[12/31]-1；输入：ppe-2026-06-30, ppe-2025-12-31",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "fcf_simple-2026H1",
+      "metric": "H1 simple FCF (OCF - payments for PP&E and intangibles)",
+      "value": -8897000000.0,
+      "display_value": "-88.97亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "公式：OCF[H1] - capex_paid[H1]；输入：ocf-2026H1, capex_paid-2026H1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "fcf_simple-2025H1",
+      "metric": "H1 2025 simple FCF",
+      "value": 4706000000.0,
+      "display_value": "47.06亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2025H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "公式：OCF[H1'25]-capex_paid[H1'25]；输入：ocf-2025H1, capex_paid-2025H1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "fcf_simple_low-2026Q2",
+      "metric": "Q2 simple FCF lower bound",
+      "value": 28000000.0,
+      "display_value": "0.28亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh",
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "公式：OCF[Q2] - capex_high；输入：ocf-2026Q2, capex_paid_range_high-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "fcf_simple_high-2026Q2",
+      "metric": "Q2 simple FCF upper bound",
+      "value": 69000000.0,
+      "display_value": "0.69亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh",
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "公式：OCF[Q2] - capex_low；输入：ocf-2026Q2, capex_paid_range_low-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "capex_guidance_share_h1",
+      "metric": "H1 capex payments as % of ~RMB26bn FY guidance",
+      "value": 69.0038,
+      "display_value": "69.00%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report-2026",
+        "ext-stcn-fy25-capex",
+        "ext-bjnews-fy25-capex"
+      ],
+      "evidence": "公式：capex_paid[H1] / 26,000；输入：capex_paid-2026H1；说明：260亿元指引来自业绩会媒体报道（ext-stcn-fy25-capex, ext-bjnews-fy25-capex），非公告",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "implied_h2_capex",
+      "metric": "implied H2 capex if FY = ~RMB26bn",
+      "value": 8059000000.0,
+      "display_value": "80.59亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report-2026",
+        "ext-stcn-fy25-capex",
+        "ext-bjnews-fy25-capex"
+      ],
+      "evidence": "公式：26,000 - capex_paid[H1]；输入：capex_paid-2026H1；说明：指引口径（资本开支）与现金流量表付款口径可能不同",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_borrowings-2026-06-30",
+      "metric": "gross borrowings",
+      "value": 27362000000.0,
+      "display_value": "273.62亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：current + non-current borrowings；输入：borrowings_current-2026-06-30, borrowings_noncurrent-2026-06-30",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "borrowings_plus_notes-2026-06-30",
+      "metric": "borrowings + notes payable",
+      "value": 52610000000.0,
+      "display_value": "526.10亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "公式：gross borrowings + notes payable；输入：borrowings_current-2026-06-30, borrowings_noncurrent-2026-06-30, notes_payable-2026-06-30",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "notes_payable_change-2026H1",
+      "metric": "H1 increase in notes payable",
+      "value": 13300000000.0,
+      "display_value": "133.00亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "公式：notes[6/30]-notes[12/31]；输入：notes_payable-2026-06-30, notes_payable-2025-12-31",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "lease_liabilities-2026-06-30",
+      "metric": "total lease liabilities",
+      "value": 11672000000.0,
+      "display_value": "116.72亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026-06-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：current + non-current；输入：lease_liab_current-2026-06-30, lease_liab_noncurrent-2026-06-30",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_post_money_usd",
+      "metric": "Kling post-money valuation (pre-money + raise)",
+      "value": 18000000000.0,
+      "display_value": "180.0亿美元",
+      "currency": "USD",
+      "unit": "usd",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-kling-subscription-20260702",
+        "hkex-kling-update-20260831"
+      ],
+      "evidence": "公式：15,000 + 3,000；输入：kling_premoney-20260702, kling_raise-20260831",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_ks_stake_value_usd",
+      "metric": "Kuaishou look-through value of Kling stake at transaction price",
+      "value": 12299400000.0,
+      "display_value": "123.0亿美元",
+      "currency": "USD",
+      "unit": "usd",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-kling-subscription-20260702",
+        "hkex-kling-update-20260831"
+      ],
+      "evidence": "公式：68.33% × 18,000；输入：kling_ks_stake-20260831, kling_premoney-20260702, kling_raise-20260831；说明：交易价格附带8%单利回购权，非普通股市价",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_revenue_2025_floor",
+      "metric": "Kling 2025 revenue (sum of quarterly lower bounds, presentation p.8)",
+      "value": 1040000000.0,
+      "display_value": "10.40亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "ir-q2-presentation"
+      ],
+      "evidence": "公式：150+250+300+340 (all '+')；输入：kling_revenue-2025Q2；说明：演示材料各季度均为“X+”下限；Q4 2025为340+",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_loss_to_revenue_2025",
+      "metric": "Kling 2025 net loss / revenue floor",
+      "value": 1.8269,
+      "display_value": "1.83倍",
+      "currency": "N/A",
+      "unit": "ratio",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-kling-subscription-20260702",
+        "ir-q2-presentation"
+      ],
+      "evidence": "公式：1,900 / 1,040；输入：kling_net_loss-FY2025, kling_revenue_2025_floor；说明：收入为下限，倍数为上限",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_qoq_floor-2026Q2",
+      "metric": "Kling QoQ growth on disclosed floors",
+      "value": 30.7692,
+      "display_value": "30.77%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "公式：850/650-1；输入：kling_revenue-2026Q2, kling_revenue-2026Q1；说明：两端均为下限值，仅作近似",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_share_of_other-2026Q2",
+      "metric": "Kling floor revenue / other services revenue",
+      "value": 13.6964,
+      "display_value": "13.70%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：850 / other services；输入：kling_revenue-2026Q2, rev_other_services-2026Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "market_cap_hkd_20261002",
+      "metric": "market cap at HK$29.58 (2026-10-02 close) × shares at 8/31",
+      "value": 127991444300.0,
+      "display_value": "1,279.9亿港元",
+      "currency": "HKD",
+      "unit": "hkd",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-monthly-return-202608",
+        "ir-homepage-price-20261003",
+        "market-yahoo-1024hk"
+      ],
+      "evidence": "公式：4,326.96m shares × 29.58；输入：shares_outstanding-2026-08-31；说明：股价来自IR主页LSEG快照与Yahoo；股本为8/31月报表",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_stake_to_mcap_7.75",
+      "metric": "Kling stake value / market cap (HKD/USD 7.75)",
+      "value": 74.474,
+      "display_value": "74.47%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-kling-subscription-20260702",
+        "hkex-kling-update-20260831",
+        "hkex-monthly-return-202608",
+        "ir-homepage-price-20261003",
+        "market-yahoo-1024hk"
+      ],
+      "evidence": "公式：68.33%×18,000×7.75 / mcap；输入：kling_ks_stake_value_usd, market_cap_hkd_20261002；说明：联系汇率区间7.75–7.85；外部汇率假设",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "kling_stake_to_mcap_7.85",
+      "metric": "Kling stake value / market cap (HKD/USD 7.85)",
+      "value": 75.435,
+      "display_value": "75.44%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-kling-subscription-20260702",
+        "hkex-kling-update-20260831",
+        "hkex-monthly-return-202608",
+        "ir-homepage-price-20261003",
+        "market-yahoo-1024hk"
+      ],
+      "evidence": "公式：68.33%×18,000×7.85 / mcap；输入：kling_ks_stake_value_usd, market_cap_hkd_20261002；说明：联系汇率区间7.75–7.85；外部汇率假设",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "price_reaction_20260820",
+      "metric": "1-day price reaction 2026-08-20 (close 33.64 vs 37.80)",
+      "value": -11.0053,
+      "display_value": "-11.01%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-monthly-return-202608",
+        "market-yahoo-1024hk"
+      ],
+      "evidence": "公式：33.64/37.80-1；输入：shares_outstanding-2026-08-31；说明：价格来源 market-yahoo-1024hk；证券之星报道收盘33.98存在冲突，已以Yahoo与多家媒体33.64为准",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "price_change_0819_1002",
+      "metric": "price change 2026-08-19 to 2026-10-02",
+      "value": -21.746,
+      "display_value": "-21.75%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-monthly-return-202608",
+        "market-yahoo-1024hk",
+        "ir-homepage-price-20261003"
+      ],
+      "evidence": "公式：29.58/37.80-1；输入：shares_outstanding-2026-08-31",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "cogs_revenue_share_qoq-2026Q2",
+      "metric": "cogs_revenue_share QoQ",
+      "value": 14.2817,
+      "display_value": "14.28%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：cogs_revenue_share[Q2]/cogs_revenue_share[Q1]-1；输入：cogs_revenue_share-2026Q2, cogs_revenue_share-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "adj_ebitda_qoq-2026Q2",
+      "metric": "adj_ebitda QoQ",
+      "value": 14.3178,
+      "display_value": "14.32%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：adj_ebitda[Q2]/adj_ebitda[Q1]-1；输入：adj_ebitda-2026Q2, adj_ebitda-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "adj_net_profit_qoq-2026Q2",
+      "metric": "adj_net_profit QoQ",
+      "value": 15.9751,
+      "display_value": "15.98%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：adj_net_profit[Q2]/adj_net_profit[Q1]-1；输入：adj_net_profit-2026Q2, adj_net_profit-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "net_profit_qoq-2026Q2",
+      "metric": "net_profit QoQ",
+      "value": 8.5026,
+      "display_value": "8.50%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：net_profit[Q2]/net_profit[Q1]-1；输入：net_profit-2026Q2, net_profit-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "mau_qoq-2026Q2",
+      "metric": "mau QoQ",
+      "value": 3.3174,
+      "display_value": "3.32%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "公式：mau[Q2]/mau[Q1]-1；输入：mau-2026Q2, mau-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "dau_qoq-2026Q2",
+      "metric": "dau QoQ",
+      "value": -0.0969,
+      "display_value": "-0.10%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "hkex-q1-results-zh"
+      ],
+      "evidence": "公式：dau[Q2]/dau[Q1]-1；输入：dau-2026Q2, dau-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "capex_paid_yoy-2026H1",
+      "metric": "H1 capex payments YoY",
+      "value": 153.583,
+      "display_value": "153.58%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-interim-report-2026"
+      ],
+      "evidence": "公式：capex[H1'26]/capex[H1'25]-1；输入：capex_paid-2026H1, capex_paid-2025H1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_profit_change_yoy-2026Q2",
+      "metric": "gross profit YoY change",
+      "value": -1176000000.0,
+      "display_value": "-11.76亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：GP[Q2'26]-GP[Q2'25]；输入：gross_profit-2026Q2, gross_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_ex_rnd_increment-2026Q2",
+      "metric": "operating profit excluding YoY R&D increment",
+      "value": 4938000000.0,
+      "display_value": "49.38亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：OP[Q2'26] + (R&D[Q2'26]-R&D[Q2'25])；输入：operating_profit-2026Q2, rnd-2026Q2, rnd-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_revenue-2026Q2",
+      "metric": "YoY operating profit bridge: revenue",
+      "value": 489000000.0,
+      "display_value": "4.89亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of revenue on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_revenue_share-2026Q2",
+      "metric": "YoY operating profit bridge: revenue_share",
+      "value": -1781000000.0,
+      "display_value": "-17.81亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of revenue_share on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_bandwidth-2026Q2",
+      "metric": "YoY operating profit bridge: bandwidth",
+      "value": -260000000.0,
+      "display_value": "-2.60亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of bandwidth on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_cogs_da-2026Q2",
+      "metric": "YoY operating profit bridge: cogs_da",
+      "value": 122000000.0,
+      "display_value": "1.22亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of cogs_da on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_cogs_employee-2026Q2",
+      "metric": "YoY operating profit bridge: cogs_employee",
+      "value": -11000000.0,
+      "display_value": "-0.11亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of cogs_employee on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_payment-2026Q2",
+      "metric": "YoY operating profit bridge: payment",
+      "value": 211000000.0,
+      "display_value": "2.11亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of payment on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_cogs_other-2026Q2",
+      "metric": "YoY operating profit bridge: cogs_other",
+      "value": 54000000.0,
+      "display_value": "0.54亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of cogs_other on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_other_cogs_total-2026Q2",
+      "metric": "YoY operating profit bridge: other_cogs_total",
+      "value": 116000000.0,
+      "display_value": "1.16亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of other_cogs_total on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_selling_marketing-2026Q2",
+      "metric": "YoY operating profit bridge: selling_marketing",
+      "value": 581000000.0,
+      "display_value": "5.81亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of selling_marketing on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_rnd-2026Q2",
+      "metric": "YoY operating profit bridge: rnd",
+      "value": -1181000000.0,
+      "display_value": "-11.81亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of rnd on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "op_bridge_admin_other-2026Q2",
+      "metric": "YoY operating profit bridge: admin_other",
+      "value": 244000000.0,
+      "display_value": "2.44亿元",
+      "currency": "CNY",
+      "unit": "yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：impact of admin_other on operating profit (Q2'26 vs Q2'25)；输入：revenue-2026Q2, revenue-2025Q2, cost_of_revenue-2026Q2, cost_of_revenue-2025Q2, operating_profit-2026Q2, operating_profit-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "vs_consensus_revenue-2026Q2",
+      "metric": "revenue vs Bloomberg consensus",
+      "value": 0.0704,
+      "display_value": "0.07%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "ext-wallstreetcn-consensus",
+        "ext-cls-q2"
+      ],
+      "evidence": "公式：|actual|/|consensus|-1 (consensus 35510)；输入：revenue-2026Q2；说明：一致预期为外部事实（华尔街见闻、财联社转述彭博），非授权数据库",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "vs_consensus_rev_online_marketing-2026Q2",
+      "metric": "rev_online_marketing vs Bloomberg consensus",
+      "value": -1.7658,
+      "display_value": "-1.77%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "ext-wallstreetcn-consensus",
+        "ext-cls-q2"
+      ],
+      "evidence": "公式：|actual|/|consensus|-1 (consensus 21010)；输入：rev_online_marketing-2026Q2；说明：一致预期为外部事实（华尔街见闻、财联社转述彭博），非授权数据库",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "vs_consensus_rev_other_services-2026Q2",
+      "metric": "rev_other_services vs Bloomberg consensus",
+      "value": 6.4494,
+      "display_value": "6.45%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "ext-wallstreetcn-consensus",
+        "ext-cls-q2"
+      ],
+      "evidence": "公式：|actual|/|consensus|-1 (consensus 5830)；输入：rev_other_services-2026Q2；说明：一致预期为外部事实（华尔街见闻、财联社转述彭博），非授权数据库",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "vs_consensus_rnd-2026Q2",
+      "metric": "rnd vs Bloomberg consensus",
+      "value": 12.5553,
+      "display_value": "12.56%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "ext-wallstreetcn-consensus",
+        "ext-cls-q2"
+      ],
+      "evidence": "公式：|actual|/|consensus|-1 (consensus 4070)；输入：rnd-2026Q2；说明：一致预期为外部事实（华尔街见闻、财联社转述彭博），非授权数据库",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "vs_consensus_adj_ebitda-2026Q2",
+      "metric": "adj_ebitda vs Bloomberg consensus",
+      "value": 4.8895,
+      "display_value": "4.89%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "ext-wallstreetcn-consensus",
+        "ext-cls-q2"
+      ],
+      "evidence": "公式：|actual|/|consensus|-1 (consensus 6790)；输入：adj_ebitda-2026Q2；说明：一致预期为外部事实（华尔街见闻、财联社转述彭博），非授权数据库",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "vs_consensus_mau-2026Q2",
+      "metric": "mau vs Bloomberg consensus",
+      "value": 7.7432,
+      "display_value": "7.74%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "ext-wallstreetcn-consensus",
+        "ext-cls-q2"
+      ],
+      "evidence": "公式：|actual|/|consensus|-1 (consensus 740.0)；输入：mau-2026Q2；说明：一致预期为外部事实（华尔街见闻、财联社转述彭博），非授权数据库",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "other_ex_kling_yoy_upper-2026Q2",
+      "metric": "other services ex-Kling YoY (approximate)",
+      "value": 7.3992,
+      "display_value": "7.40%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh",
+        "ir-q2-presentation"
+      ],
+      "evidence": "公式：(other-850)/(other_ly-250)-1；输入：rev_other_services-2026Q2, kling_revenue-2026Q2, rev_other_services-2025Q2, kling_revenue-2025Q2；说明：可灵两期均为下限，结果为近似；方向不确定性见报告",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "gross_margin_pp_qoq-2026Q2",
+      "metric": "gross_margin pp change QoQ",
+      "value": 0.4176,
+      "display_value": "+0.42个百分点",
+      "currency": "N/A",
+      "unit": "percentage_point",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：gross_margin[2026Q2]-gross_margin[2026Q1]；输入：gross_margin-2026Q2, gross_margin-2026Q1",
+      "location": "quality/validation.json（确定性重算）"
+    },
+    {
+      "id": "revenue_share_ratio_pp_yoy-2026Q2",
+      "metric": "revenue_share_ratio pp change YoY",
+      "value": 4.598,
+      "display_value": "+4.60个百分点",
+      "currency": "N/A",
+      "unit": "percentage_point",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "hkex-q2-results-zh"
+      ],
+      "evidence": "公式：revenue_share_ratio[2026Q2]-revenue_share_ratio[2025Q2]；输入：revenue_share_ratio-2026Q2, revenue_share_ratio-2025Q2",
+      "location": "quality/validation.json（确定性重算）"
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "pass": "financial",
+      "claims": [
+        {
+          "text": "2026Q2 总收入 355.35 亿元，同比 +1.40%、环比 +5.40%；线上营销服务 206.39 亿元（同比 +4.42%），直播 86.90 亿元（同比 -13.48%），其他服务 62.06 亿元（同比 +18.50%）。核心商业收入（线上营销 + 其他服务）268.45 亿元，同比 +7.37%，与公司披露的 7.4% 一致。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ]
+        },
+        {
+          "text": "线上营销服务同比增速从 2026Q1 的 9.3% 降至 Q2 的 4.4%，而每 DAU 线上营销收入由 48.3 元升至 50.1 元、DAU 仅 +0.8%（4.123 亿）：广告增长靠变现率而非流量，且增速在一个季度内减半。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh"
+          ]
+        },
+        {
+          "text": "MAU 同比 +11.5% 至 7.973 亿，而 DAU 同比仅 +0.8%、环比由 4.127 亿降至 4.123 亿：新增用户以低频用户为主，尚未转化为可变现的日活。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh"
+          ],
+          "falsifier": "若 2026Q3 DAU 同比增速回升至 2% 以上并带动 DAU 环比增长，则“低频用户扩张”的判断不成立。"
+        },
+        {
+          "text": "可灵 AI 收入超过 8.5 亿元（同比超过 200%），占其他服务收入约 13.7%；按披露下限计算环比约 +30.8%。剔除可灵后，其他服务（以电商佣金为主）同比约 +7.4%，远低于其他服务整体的 +18.5%，说明其他服务的高增长主要由可灵贡献；该测算两端均使用可灵下限，仅为近似。",
+          "claim_type": "derived_metric",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh",
+            "ir-q2-presentation"
+          ]
+        },
+        {
+          "text": "公司 2026Q2 业绩公告未再披露可灵 ARR（Q1 公告披露 2026 年 3 月 ARR 近 5 亿美元），2026 年 Q1、Q2 业绩公告均不披露电商 GMV 总额（媒体亦报道 2026 年起停止披露）；关键经营指标的可见度在下降。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh",
+            "ext-36kr-split"
+          ]
+        },
+        {
+          "text": "海外分部收入 11.79 亿元（同比 -9.31%），经营亏损 0.25 亿元（去年同期盈利 0.19 亿元，Q1 亏损 0.31 亿元）；海外仍是选择权，不是利润来源。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "pass": "financial",
+      "claims": [
+        {
+          "text": "毛利率 51.58%，同比 -4.08 个百分点；其中收入分成成本占收入比例同比 +4.60 个百分点（30.08% → 34.68%），足以解释全部毛利率下滑。收入分成成本同比多出 17.81 亿元，而总收入只多出 4.89 亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ]
+        },
+        {
+          "text": "分成率上升不是直播驱动的（直播收入同比 -13.48%），更可能来自高分成的增量收入：短剧等内容消费营销（公司披露短剧线上营销消耗同比超 100%）、分销与流量合作。公司未按业务线拆分分成成本，此归因为推断。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "ext-zhitong-call-q2"
+          ],
+          "falsifier": "若公司披露或后续季度显示分成成本增量主要来自直播或电商补贴等其他项目，或短剧营销消耗增长放缓但分成率继续上升，则该归因不成立。"
+        },
+        {
+          "text": "总折旧摊销（物业及设备 + 使用权资产 + 无形资产）26.06 亿元，其中计入销售成本 12.84 亿元，占比 49.27%（Q1 为 81.46%）；COGS 以外折旧 13.22 亿元，环比 +9.18 亿元。同期研发开支环比 +9.60 亿元、僱员福利总额环比 -0.05 亿元——研发增量几乎全部可由折旧迁移解释。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh"
+          ]
+        },
+        {
+          "text": "若 Q2 维持 Q1 的折旧计入销售成本比例，Q2 毛利率约为 49.22%，低于 Q1 的 51.16%。因此 Q2 毛利率环比 +0.42 个百分点主要是算力用途（推理/服务 → 训练）与费用分类变化的结果，而非经营改善。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh"
+          ],
+          "falsifier": "若 2026Q3 中期附注显示销售成本内折旧占比回升至 70% 以上而毛利率仍高于 51.6%，或公司说明 COGS 以外折旧并非计入研发，则此判断需修正。"
+        },
+        {
+          "text": "销售及营销开支 99.22 亿元，同比 -5.53%，费用率 27.92%（同比 -2.05 个百分点）；公司解释为推广活动开支减少。费用端唯一的大幅节省来自营销，研发费用率同比 +3.19 个百分点至 12.89%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ]
+        },
+        {
+          "text": "经营利润 37.57 亿元（同比 -28.97%，利润率 10.57%）；国内分部经营利润 37.33 亿元（同比 -30.88%，利润率 10.87%，去年同期 16.00%）。经调整净利润 39.13 亿元（同比 -30.35%，利润率 11.01%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "pass": "financial",
+      "claims": [
+        {
+          "text": "上半年经营活动现金净额 90.44 亿元（去年同期 117.81 亿元），物业、设备及无形资产付款 179.41 亿元（去年同期 70.75 亿元）；按“经营现金流 − 资本开支付款”口径，上半年自由现金流为 −88.97 亿元（去年同期 +47.06 亿元）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-interim-report-2026"
+          ]
+        },
+        {
+          "text": "Q2 经营现金流 59.19 亿元，资本开支付款公告取整为 59 亿元；结合 Q1（121 亿元，取整）与上半年精确值推算，Q2 资本开支付款区间为 58.50–58.91 亿元，Q2 自由现金流约为 +0.28 至 +0.69 亿元——“为正”但接近零。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh",
+            "hkex-interim-report-2026"
+          ]
+        },
+        {
+          "text": "应付票据（供应链票据安排）由年初 119.48 亿元增至 252.48 亿元（+133.00 亿元）；借款由 130.66 亿元增至 273.62 亿元（含 1 月发行的美元及人民币优先票据）。借款与应付票据合计 526.10 亿元，对照可利用资金 1,213 亿元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-interim-report-2026"
+          ]
+        },
+        {
+          "text": "供应链票据把对供应商的付款期从 0–90 天延长至 114–365 天（中期报告附注 22），在资本开支高峰期改善了当期经营与投资现金流的时点；“自由现金流为正”的目标部分依赖这一融资安排和资本开支前置，其质量弱于同等数值的内生现金流。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-interim-report-2026",
+            "ext-zhitong-call-q2"
+          ],
+          "falsifier": "若 H2 应付票据余额回落而自由现金流仍为正，则说明现金流改善是内生的，本判断不成立。"
+        },
+        {
+          "text": "可灵融资所得（约 204.47 亿元）将进入合并报表现金，但投资者持有 2031-10-30 前未完成 IPO 等情形下的回购权（原始投资额加单利 8%/年）；在合并层面，这部分资金可能需按金融负债而非权益列示，不能简单视为集团可自由支配的净现金。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-kling-subscription-20260702",
+            "hkex-kling-update-20260831"
+          ],
+          "falsifier": "若 2026Q3 或年报资产负债表将该笔出资全部列为非控股权益且无相应金融负债，则本判断不成立。"
+        },
+        {
+          "text": "股东回报：截至 8 月 11 日年内回购 4,330.22 万股、代价 19.69 亿港元；2025 年末期股息 30 亿港元已于 7 月派付；不派发 2026 年中期股息。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "pass": "signals",
+      "claims": [
+        {
+          "text": "明确表述（公告）：“鑒於經營環境日益複雜且充滿挑戰，我們對短期業務前景持審慎態度”，同时“堅持其深化AI投資”的战略方向（业绩公告 p.10 业务展望；英文版 p.10：“we are cautious about the short-term business outlook”）。CEO 在新闻稿中强调“经营韧性进一步凸显”，与公告展望段的审慎措辞形成对照。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q2-results-en",
+            "ir-q2-press-release"
+          ]
+        },
+        {
+          "text": "措辞变化：Q1 公告给出 AI 带动国内线上营销收入约 3%–4%、可灵 3 月 ARR 近 5 亿美元等量化指标；Q2 公告不再给出可灵 ARR 和 AI 对广告收入的量化贡献，转而披露 AIGC 素材消耗 +70%、员工 AI agent 使用率超过 92% 等过程指标。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh"
+          ]
+        },
+        {
+          "text": "条件性承诺（业绩会，Tier3 媒体摘要，非官方文字记录）：CFO 表示大部分资本开支已在上半年落地、Q2 自由现金流为正、目标下半年维持集团层面正自由现金流；可灵融资后将通过租赁等方式满足更多算力需求；2026 年股东回报总额预计超过 2025 年。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-zhitong-call-q2",
+            "ext-sina-q1-call"
+          ]
+        },
+        {
+          "text": "约 260 亿元的 2026 年资本开支指引在 2025Q4 业绩会给出、Q1 业绩会重申“暂不调整、大部分在上半年”（两家媒体独立报道）；国投证券国际称 Q2 业绩会维持 260 亿元不变。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-stcn-fy25-capex",
+            "ext-bjnews-fy25-capex",
+            "ext-sina-q1-call",
+            "ext-sdic-report"
+          ]
+        },
+        {
+          "text": "回避与未量化：公告未给出下半年收入或利润的数字指引；券商（摩根士丹利、国投证券国际）将会上信息解读为“全年盈利指引大幅下调/减半”，但无官方文字记录可核实具体数值。管理层把直播下滑归因于“建立健康生态”，未量化监管影响。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "ext-ms-downgrade",
+            "ext-sdic-report"
+          ],
+          "falsifier": "若公司在后续公告或业绩会中给出量化的下半年指引且与“减半”解读明显不符，则需修正。"
+        },
+        {
+          "text": "资源真相：费用端唯一明显增加的是研发（+34.74%），营销费用下降 5.53%，人员总成本基本持平；资本被优先配置给算力与可灵，而非用户增长或电商补贴——管理层的注意力与资源一致指向 AI。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ],
+          "falsifier": "若 Q3 营销费用重新大幅上升以支撑电商/直播，而研发与资本开支明显收缩，则资源重心发生转向。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "pass": "external",
+      "claims": [
+        {
+          "text": "视频生成赛道：字节跳动发布 Seedance 2.5，阿里发布 Wan2.7-Video，腾讯混元发布 HunyuanVideo1.5；近三个月可灵、生数科技、爱诗科技、演语科技四家披露的新增融资合计接近 300 亿元（新华网，2026-08-07）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-xinhua-videoai"
+          ]
+        },
+        {
+          "text": "传导路径：竞品模型迭代 + 资本充裕 → 专业创作者 API 与订阅定价承压（可灵 4–6 月曾推出会员 8 折优惠，36氪）→ 可灵收入增速与毛利。国投证券国际预计 Q3 可灵收入环比持平于 8.5 亿元，并提示竞争加剧。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-36kr-videoai-pricing",
+            "ext-sdic-report",
+            "ext-xinhua-videoai"
+          ],
+          "falsifier": "若可灵 Q3 收入环比增长超过 15% 且未披露新的降价/折扣，则价格竞争传导较弱。"
+        },
+        {
+          "text": "电商：快手停止披露 GMV，并把资源集中在品牌商（T2000 品牌商家营销投放增速超过电商营销大盘）与新商引入；在消费疲弱背景下，这更像是对份额压力的防守，而非扩张。竞争对手的具体补贴规模缺乏两家独立来源，本报告不引用份额数字。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "ext-daiwa-downgrade"
+          ],
+          "falsifier": "若后续披露显示快手电商 GMV 恢复同比正增长且份额稳定，则“防守”判断不成立。"
+        },
+        {
+          "text": "股东与产业资本：腾讯于 2026-07-06 出售 2.73 亿股快手 B 类股，持股由约 15.68% 降至 9.37%；同时腾讯、阿里云、百度作为投资者参与可灵增资。产业资本对“可灵”与“快手母公司”的态度出现分化。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-tencent-sale-20260706",
+            "hkex-kling-subscription-20260702",
+            "hkex-kling-update-20260831"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "pass": "external",
+      "claims": [
+        {
+          "text": "宏观消费：2026 年 1–8 月社会消费品零售总额同比 +1.1%，8 月单月 +0.4%；网上商品零售额 1–8 月 +4.3%（国家统计局）。传导：消费疲弱 → 商家营销预算与电商 GMV → 电商营销服务与佣金收入。当前强度：高；已在 Q2 线上营销增速减半中体现。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "ext-nbs-retail-202608"
+          ]
+        },
+        {
+          "text": "监管：《直播电商监督管理办法》自 2026-02-01 起施行，明确平台在资质核验、流量限制、暂停直播等方面的处置责任（市场监管总局令第 117 号）。传导：合规成本与主播结构调整 → 直播打赏与直播电商。Q1、Q2 直播收入均同比约 -13.5%，与施行时间吻合，但公司未将下滑归因于该办法，因果关系仅为推断。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-samr-livecommerce",
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh"
+          ],
+          "falsifier": "若 2026Q3 直播收入同比降幅明显收窄至 -5% 以内，而监管口径未变，则监管并非主要驱动。"
+        },
+        {
+          "text": "算力成本：Q1 业绩会 CFO 称已提前采购储备算力以应对价格上涨（媒体摘要）；Q2 物业及设备折旧同比 +97.18%。下季度假设：H1 新增设备全季度折旧，研发与销售成本中的折旧继续上升。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-sina-q1-call",
+            "hkex-q2-results-zh"
+          ],
+          "falsifier": "若 Q3 物业及设备折旧环比下降，则折旧高峰判断不成立。"
+        },
+        {
+          "text": "外汇与海外：可灵约 70% 收入来自海外（国投证券国际估计）；Q2 其他综合收益中匯兌差額合计 −2.79 亿元（−11.27 + 8.48）。人民币升值会压低可灵以人民币计的收入。影响方向为负、幅度目前较小。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "ext-sdic-report",
+            "hkex-q2-results-zh"
+          ],
+          "falsifier": "若公司披露可灵海外收入占比明显低于 50%，则汇率敏感性被高估。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "pass": "synthesis",
+      "claims": [
+        {
+          "text": "业绩发布次日（2026-08-20）股价收于 33.64 港元，较前收 37.80 港元下跌 11.01%；至 2026-10-02 收于 29.58 港元，较业绩前累计 -21.75%。（证券之星报道 8-20 收盘 33.98 港元，与 Yahoo 日线及多家媒体不符，已作为冲突记录。）",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "market-yahoo-1024hk",
+            "ir-homepage-price-20261003",
+            "ext-stockstar-close-conflict"
+          ]
+        },
+        {
+          "text": "预期差：收入 355.35 亿元与彭博一致预期 355.1 亿元基本持平；线上营销服务 206.4 亿元低于预期 210.1 亿元，其他服务 62.1 亿元高于预期 58.3 亿元；研发 45.8 亿元高于预期 40.7 亿元；MAU 7.97 亿远高于预期 7.4 亿（华尔街见闻、财联社转述彭博数据）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-wallstreetcn-consensus",
+            "ext-cls-q2"
+          ]
+        },
+        {
+          "text": "下跌的主因不是 Q2 本身（基本符合预期），而是前瞻：券商普遍下调 2026 年利润预测——摩根士丹利降至“与大市同步”、目标价 40 港元、2026 年核心盈利预测 140 亿元；大和连降两级至“持有”、目标价 40 港元、预计全年经调整净利润约 95 亿元；国投证券国际下调经调整利润预测 50%，预计 Q3 经营亏损 0.82 亿元。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-ms-downgrade",
+            "ext-daiwa-downgrade",
+            "ext-sdic-report"
+          ]
+        },
+        {
+          "text": "估值锚的变化：市场从“可灵 + 主业利润增长”的叙事，切换到“主业利润下修 + 可灵交易价”的拆分估值。按交易价，快手持有的可灵权益约 123 亿美元，相当于 10-02 市值约 74%–75%；但该交易价附带 8% 单利回购权，属于优先级更高的证券价格，直接用于母公司普通股估值会高估“隐含主业负估值”的程度。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-kling-subscription-20260702",
+            "hkex-kling-update-20260831",
+            "ir-homepage-price-20261003",
+            "hkex-monthly-return-202608"
+          ],
+          "falsifier": "若可灵在 2027 年内以不低于 180 亿美元的估值完成无回购条款的新一轮融资或递交上市申请，则“交易价被优先条款抬高”的折扣理由减弱。"
+        },
+        {
+          "text": "回购托底有限：公司自 8-20 起连续 7 个交易日回购合计 5.94 亿港元，期间股价仍下跌 11.48%（证券时报·数据宝）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-stcn-buyback"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景（2026Q3）",
+      "pass": "synthesis",
+      "claims": [
+        {
+          "text": "基准情景（55%）：Q3 收入同比 -3% 至 -8%，直播同比 -15% 至 -20%，分成率维持 34%–36%，H1 新增设备全季折旧推高研发；国内分部经营利润 15–28 亿元，经调整净利润 18–30 亿元。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-interim-report-2026",
+            "ext-sdic-report",
+            "ext-daiwa-downgrade"
+          ],
+          "falsifier": "Q3 经调整净利润高于 30 亿元或低于 18 亿元即落在基准区间之外。"
+        },
+        {
+          "text": "乐观情景（20%）：可灵新模型带动收入环比 +15% 以上，线上营销同比恢复至 +3% 以上，分成率回落至 34% 以下；国内分部经营利润 30–38 亿元，经调整净利润 32–40 亿元。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "ext-sdic-report"
+          ],
+          "falsifier": "可灵 Q3 收入环比增长低于 10% 或分成率高于 34.7%。"
+        },
+        {
+          "text": "悲观情景（25%）：电商 GMV 同比下滑约 10% 拖累电商营销与佣金，可灵收入环比持平或下降，分成率高于 36%；国内分部经营利润 -5 至 14 亿元，经调整净利润 5–17 亿元（国投证券国际 Q3 经调整净利润预测 7.11 亿元落在此区间）。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "ext-daiwa-downgrade",
+            "ext-sdic-report",
+            "hkex-q2-results-zh"
+          ],
+          "falsifier": "Q3 收入同比降幅小于 3% 且国内分部经营利润高于 20 亿元。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "pass": "synthesis",
+      "claims": [
+        {
+          "text": "核心判断：快手的瓶颈已经从“AI 能不能赚钱”转移到“主业新增收入的单位利润”。分成率一年上升 4.6 个百分点、新增分成成本是新增收入的约 3.6 倍；在此情况下，可灵与 AI 效率提升只能部分抵消，利润率修复需要分成率先见顶。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-results-zh"
+          ],
+          "falsifier": "2026Q3 收入分成率回落至 33% 以下且毛利额同比转正。"
+        },
+        {
+          "text": "被挑战的共识：市场多把 Q2 的利润下滑归因于 AI 研发投入（“用利润换 AI”）。隐藏假设是“AI 投入可控、一旦放缓利润即回升”。本报告认为毛利端的分成率上升才是更持久的压力，且研发增量主要是折旧口径迁移，不会因放缓招聘而消失。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-q1-results-zh",
+            "ext-wallstreetcn-consensus"
+          ],
+          "falsifier": "若 Q3 研发费用环比下降而毛利率显著回升至 53% 以上，则“AI 投入是主要压力”的共识更接近事实。"
+        },
+        {
+          "text": "下一季度三项可证伪指标：① 收入分成率是否 ≤34.7%；② 销售成本内折旧占总折旧比例与研发费用率（12.89%）的走向；③ 可灵收入是否在 8.5 亿元以上继续环比增长，以及可灵投资者出资的会计列示。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "hkex-q2-results-zh",
+            "hkex-kling-subscription-20260702"
+          ],
+          "falsifier": "三项指标同时向好（分成率下降、研发费用率下降、可灵环比增长超过 15%）则本报告的谨慎判断需上调。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "共识：一个称职的分析师会从标题数字得出什么结论？",
+        "answer": "“收入持平、利润下滑三成、可灵高增长”，利润下滑主要是 AI 研发投入（研发 +34.74%），属于主动投入期的阵痛；Q2 本身基本符合彭博一致预期。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "ext-wallstreetcn-consensus"
+        ],
+        "counterevidence": "毛利率同比下降 4.08 个百分点，其幅度与研发费用率上升（+3.19 个百分点）相当，利润下滑并非只来自研发。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "隐藏假设：哪个假设让“用利润换 AI”的共识成立？",
+        "answer": "假设成本压力集中在研发且可自主调节，而毛利端稳定。实际上分成率从 30.08% 升至 34.68%，这部分成本随收入结构自动上升，不受 AI 投入节奏控制。",
+        "source_ids": [
+          "hkex-q2-results-zh"
+        ],
+        "counterevidence": "分成率上升可能部分来自季节性或一次性内容合作（如世界杯相关内容运营），Q3 可能回落。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "反证：本季哪个事实最强烈地抵抗共识？",
+        "answer": "环比数据：收入 +18.19 亿元，分成成本 +15.40 亿元，新增分成占新增收入 84.66%；同时研发 +9.60 亿元几乎等于 COGS 以外折旧 +9.18 亿元，人员成本持平。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "hkex-q1-results-zh"
+        ],
+        "counterevidence": "折旧的职能分配公司未披露，COGS 以外的折旧可能部分进入行政或销售费用。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "机制：分成率上升通过什么经营机制影响利润？",
+        "answer": "当增量收入来自需要与内容方/流量方分成的场景（短剧 IAA、分销、外部流量），平台只保留小部分毛利；收入可以增长，毛利额却下降。公司披露短剧营销消耗同比超 100%、供给较 1 月增长超 5 倍，与该机制一致，但分成成本未按业务拆分。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "ext-zhitong-call-q2"
+        ],
+        "counterevidence": "直播打赏历来是分成最高的业务，直播收入下降本应拉低分成率；若分成率仍上升，也可能有直播主播分成比例上调等未披露因素。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "时点：为什么是现在出现？",
+        "answer": "三件事在 2026 年上半年叠加：资本开支前置（H1 付款 179.41 亿元、PP&E +49.22%）带来折旧跳升；《直播电商监督管理办法》2-1 施行后直播与直播电商收缩；短剧/漫剧供给在 AI 降本后爆发、成为广告增量来源。",
+        "source_ids": [
+          "hkex-interim-report-2026",
+          "ext-samr-livecommerce",
+          "hkex-q2-results-zh"
+        ],
+        "counterevidence": "监管与直播下滑的因果未获公司确认；2025Q4 直播收入已同比下滑，可能早于新规。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "替代解释：季节性、业务组合、会计列报或基数效应能否解释同样的观察？",
+        "answer": "毛利率环比回升可以被会计分类解释：COGS 中折旧占比由 81.46% 降到 49.27%；维持 Q1 口径时 Q2 毛利率约 49.22%。分成率上升难以用季节性解释，因为同比和环比都在上升。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "hkex-q1-results-zh"
+        ],
+        "counterevidence": "折旧迁移也可能反映真实的用途变化（算力从推荐/推理转向训练），这本身是经营决策，而非单纯会计调整。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "反事实：如果没有 AI 投入，结果会怎样？",
+        "answer": "即使剔除研发同比增量 11.81 亿元，经营利润也只能回到约 49 亿元，仍低于去年同期 52.89 亿元；差额主要来自毛利额同比减少 11.76 亿元。",
+        "source_ids": [
+          "hkex-q2-results-zh"
+        ],
+        "counterevidence": "部分分成成本可能与可灵或 AI 应用相关（如 AI 应用广告主的流量采买），剔除 AI 后分成也会下降。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "二阶效应：若分成率与折旧压力持续，会传导到哪里？",
+        "answer": "利润率下行会压缩集团可用于可灵的内部资金，促使可灵更依赖外部资本与租赁；而可灵投资者 8% 单利回购权与 2031 年 IPO 期限，会把母公司的估值与可灵上市进度绑定，增加资本结构刚性。",
+        "source_ids": [
+          "hkex-kling-subscription-20260702",
+          "ext-zhitong-call-q2"
+        ],
+        "counterevidence": "可灵若在 2027–2028 年顺利上市，回购权失效，这一刚性即被解除。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "多空：最强的多头与空头分别会怎么说？",
+        "answer": "多头：可灵按交易价约值 123 亿美元、相当于市值约 74%–75%，加上可利用资金 1,213 亿元，主业几乎被免费定价；空头：主业收入已转负（券商预计 Q3 同比 -7.5%）、分成率持续上升、电商停止披露 GMV，利润底尚未出现。",
+        "source_ids": [
+          "hkex-kling-subscription-20260702",
+          "ir-homepage-price-20261003",
+          "ext-sdic-report",
+          "hkex-q2-results-zh"
+        ],
+        "counterevidence": "多头计算忽略了借款与应付票据合计 526.10 亿元及可灵交易价的优先条款；空头预测依赖券商对未公开指引的解读。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "已计入价格：哪些已被市场反映？",
+        "answer": "利润下修已较充分计入：业绩后 -11.01%、至 10-02 累计 -21.75%，主要券商目标价下调至 40–49 港元。尚未明确计入的是分成率的持续性与可灵回购权对资本结构的影响。",
+        "source_ids": [
+          "market-yahoo-1024hk",
+          "ext-ms-downgrade",
+          "ext-daiwa-downgrade",
+          "ext-sdic-report"
+        ],
+        "counterevidence": "缺乏授权的一致预期数据库，无法确认分成率是否已进入一致预期模型。",
+        "status": "unresolved"
+      },
+      {
+        "id": "q11",
+        "question": "经营瓶颈：哪个约束最难靠多花钱解决？",
+        "answer": "电商与直播的需求侧收缩（消费疲弱 + 监管）与内容方分成的议价权。多花营销费用可以拉 MAU（MAU +11.5%），但 DAU 只 +0.8%；多花算力可以提升可灵，但不能降低主站的分成率。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "ext-nbs-retail-202608"
+        ],
+        "counterevidence": "AI 降低内容生产成本后，平台可能在未来逐步降低对外部内容方的分成比例。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "资源真相与顺序：支出、资本配置与管理层注意力是否印证所述战略？哪一步必须先成功？",
+        "answer": "印证：研发 +34.74%、资本开支付款同比 +153.6%（179.41 vs 70.75 亿元）、可灵独立融资，而营销费用下降。顺序上，可灵必须先证明独立的增长与融资能力（2031-10-30 前 IPO），否则回购权会把成本退回给母公司；主站则必须先让分成率见顶，AI 效率收益才能体现在利润上。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "hkex-interim-report-2026",
+          "hkex-kling-subscription-20260702"
+        ],
+        "counterevidence": "管理层可通过放缓 AI 投入快速修复利润，顺序并非不可逆。",
+        "status": "answered"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "毛利率“环比修复”是折旧口径迁移，不是经营改善",
+        "consensus_view": "Q2 毛利率由 51.2% 回升至 51.6%，说明成本压力见顶、AI 带来效率改善。",
+        "new_view": "销售成本中的折旧环比减少 4.91 亿元，而 COGS 以外折旧增加 9.18 亿元、研发增加 9.60 亿元；维持 Q1 口径时 Q2 毛利率约 49.22%，低于 Q1。算力从服务端转向训练端，使压力从毛利率转移到研发费用率。",
+        "mechanism": "H1 新购 GPU/服务器（PP&E +49.22%）→ 按用途分配折旧：用于训练的折旧计入研发而非销售成本 → 毛利率被美化、研发费用率上升 → 经营利润率并未改善（10.66% → 10.57%）。",
+        "implication": "Q3 估算应把研发费用视为“折旧驱动、难以压缩”，而非可调节的人员投入；毛利率不宜作为 AI 效率的证据。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "hkex-q1-results-zh",
+          "hkex-interim-report-2026"
+        ],
+        "counterevidence": "公司未披露 COGS 以外折旧的职能去向；部分折旧也可能计入行政或销售费用；用途转换本身是真实经营选择。",
+        "falsifier": "Q3 销售成本内折旧占总折旧比例回升至 70% 以上而毛利率仍不低于 51.6%，或研发费用环比下降超过 5 亿元。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "新增收入越来越“薄”：分成成本增量是收入增量的约 3.6 倍",
+        "consensus_view": "核心商业收入 +7.4%、可灵高增长，收入结构在向高价值业务迁移。",
+        "new_view": "收入分成成本同比 +17.81 亿元而收入仅 +4.89 亿元，分成率升至 34.68%；环比新增分成占新增收入 84.66%。增量收入主要来自需要高比例分成的内容与流量场景，利润池在收入增长时仍在收缩。",
+        "mechanism": "AI 降低短剧/漫剧生产成本 → 内容供给与 IAA 广告库存扩张（短剧营销消耗同比超 100%）→ 广告收入需与内容方分成 → 收入增长但单位毛利下降；直播（自有高毛利现金牛）同时下滑。",
+        "implication": "下调利润率弹性假设：收入恢复不会自动带来利润恢复；分成率成为比研发更关键的监测变量。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "ext-zhitong-call-q2"
+        ],
+        "counterevidence": "分成成本未按业务拆分；直播主播分成比例变化、世界杯等内容运营可能是阶段性因素；“相关税项”也包含在该科目中。",
+        "falsifier": "Q3 收入分成率回落至 33% 以下，或公司披露分成增量主要来自一次性项目。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 10
+      },
+      {
+        "id": "insight-3",
+        "title": "可灵 180 亿美元不是普通股价格：回购权让“主业负估值”的说法打折",
+        "consensus_view": "可灵按交易价远超快手市值占比，市场对快手主业给出零甚至负估值，存在明显 SOTP 折价。",
+        "new_view": "投资者获得 2031-10-30 前未 IPO 等情形下的回购权（原价加单利 8%/年），交易价相当于附带下行保护的优先级证券价格；合并层面相关出资可能形成金融负债。按普通股口径，可灵权益价值应低于 123 亿美元的交易价折算值。",
+        "mechanism": "回购权 → 投资者愿意为下行保护支付更高的名义估值 → 名义估值高于普通股公允价值 → SOTP 中可灵权益被高估、母公司“隐含主业负估值”被夸大；同时回购义务在 IPO 失败时回到集团。",
+        "implication": "估值情景中可灵应以折价计入；监测可灵 IPO 进度与会计列示，而非把 180 亿美元当作确定的价值锚。",
+        "source_ids": [
+          "hkex-kling-subscription-20260702",
+          "hkex-kling-update-20260831",
+          "ir-homepage-price-20261003",
+          "hkex-monthly-return-202608"
+        ],
+        "counterevidence": "多家产业资本（腾讯、阿里云、百度）参与定价，且回购权在递交 IPO 申请后暂停，触发概率可能较低。",
+        "falsifier": "Q3 资产负债表将可灵出资全部列为非控股权益且无回购负债，或可灵在 12 个月内以不低于 180 亿美元估值完成无回购条款的融资。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 1,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-4",
+        "title": "“自由现金流为正”依赖供应链票据与资本开支前置",
+        "consensus_view": "管理层称 Q2 自由现金流为正、下半年将维持为正，AI 投入在财务上可控。",
+        "new_view": "Q2 自由现金流仅约 +0.28 至 +0.69 亿元，上半年为 −88.97 亿元；应付票据半年增加 133.00 亿元，付款期延长至 114–365 天；下半年隐含资本开支约 80.59 亿元，加上可灵转向租赁，使“为正”更多来自时点与列报。",
+        "mechanism": "资本开支前置 + 供应商票据延期付款 + 租赁替代自购（租赁本金列入融资活动）→ 当期经营与投资现金流改善 → 自由现金流指标为正，但有息负债与准负债上升。",
+        "implication": "评估现金流质量时应使用“经营现金流 − 资本开支 − 租赁本金”并跟踪票据余额。",
+        "source_ids": [
+          "hkex-q2-results-zh",
+          "hkex-interim-report-2026",
+          "ext-zhitong-call-q2",
+          "ext-stcn-fy25-capex",
+          "ext-bjnews-fy25-capex"
+        ],
+        "counterevidence": "可利用资金 1,213 亿元远高于借款与票据合计 526.10 亿元，财务风险并不紧迫；票据安排自 2022 年起即存在。",
+        "falsifier": "H2 应付票据余额下降且自由现金流仍为正、租赁负债未明显增加。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 1,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 9
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "label": "乐观",
+      "probability": 20,
+      "period": "2026Q3",
+      "unit": "RMB 亿元",
+      "triggers": [
+        "可灵新模型上线后 Q3 收入环比增长 15% 以上",
+        "线上营销服务同比增速恢复至 +3% 以上",
+        "收入分成率回落至 34% 以下",
+        "直播收入同比降幅收窄至 -10% 以内"
+      ],
+      "segment_profit_label": "国内分部经营利润",
+      "segment_profit_range": [
+        30,
+        38
+      ],
+      "group_profit_label": "经调整净利润",
+      "group_profit_range": [
+        32,
+        40
+      ]
+    },
+    {
+      "name": "base",
+      "label": "基准",
+      "probability": 55,
+      "period": "2026Q3",
+      "unit": "RMB 亿元",
+      "triggers": [
+        "总收入同比 -3% 至 -8%，直播同比 -15% 至 -20%",
+        "收入分成率维持在 34%–36%",
+        "H1 新增设备全季折旧使研发开支维持或高于 Q2 的 45.81 亿元",
+        "可灵收入环比持平至小幅增长（8.5 亿元附近）"
+      ],
+      "segment_profit_label": "国内分部经营利润",
+      "segment_profit_range": [
+        15,
+        28
+      ],
+      "group_profit_label": "经调整净利润",
+      "group_profit_range": [
+        18,
+        30
+      ]
+    },
+    {
+      "name": "pessimistic",
+      "label": "悲观",
+      "probability": 25,
+      "period": "2026Q3",
+      "unit": "RMB 亿元",
+      "triggers": [
+        "电商 GMV 同比下滑约 10%，拖累电商营销服务与佣金",
+        "可灵收入环比持平或下降（竞品降价）",
+        "收入分成率升至 36% 以上",
+        "投资公允价值或资产减值带来额外损失"
+      ],
+      "segment_profit_label": "国内分部经营利润",
+      "segment_profit_range": [
+        -5,
+        14
+      ],
+      "group_profit_label": "经调整净利润",
+      "group_profit_range": [
+        5,
+        17
+      ]
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "报告状态为 draft，发布前需人工审批（冲突裁决、管理层措辞解读、因果归因、情景概率与区间、投资结论、Kearney 风格措辞）。",
+      "无官方业绩电话会文字记录：管理层关于自由现金流、可灵租赁、股东回报的表述来自 Tier3 媒体摘要；“全年盈利指引减半”来自券商转述，未作为公司事实。",
+      "收入分成成本未按业务线拆分，分成率上升的原因（短剧 IAA、分销、流量合作）为低置信度推断。",
+      "COGS 以外折旧的职能去向未披露，“折旧迁移至研发”为基于按性质与按职能数据对比的推断。",
+      "可灵收入仅披露下限（“超过”），相关增速与占比均为近似值。",
+      "2026Q2 单季资本开支付款仅以亿元取整披露，自由现金流以区间表示。",
+      "一致预期来自媒体转述的彭博数据，非授权数据库；经调整净利润一致预期具体数值缺失。",
+      "2026-08-20 收盘价存在来源冲突（33.64 vs 33.98），已采用 Yahoo 日线 33.64 并保留冲突记录。",
+      "汇率假设：港元/美元按联系汇率区间 7.75–7.85 计算可灵权益/市值比例；可灵融资隐含人民币/美元 6.8157 来自公告。"
+    ]
+  }
+}

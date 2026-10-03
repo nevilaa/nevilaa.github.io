@@ -1,0 +1,2829 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "9618-hk-2026q2",
+  "generated_at": "2026-10-03T16:24:02.636221+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "京东集团",
+    "company_name_en": "JD.com",
+    "ticker": "9618.HK",
+    "ticker_us": "JD",
+    "period": "2026Q2",
+    "period_end": "2026-06-30",
+    "release_date": "2026-08-13",
+    "status": "published",
+    "review_status": "APPROVED",
+    "thesis": "京东 2026Q2 的拐点是成本拐点，不是增长拐点：集团经营利润同比改善 54.06 亿元，约 91% 来自新业务减亏（营销费用少花 67.11 亿元），零售经营利润反而同比 -3.3%；同一轮外卖补贴退坡还带走了去年支撑日百（14.9%→5.6%）与平台广告（18.8%→8.3%）高增的流量。下一阶段的决定变量不再是“外卖还能省多少”，而是“省下的钱撤出后，零售收入能否自己回正”。",
+    "conclusion_summary": {
+      "rating": "中性",
+      "confidence": "medium",
+      "primary_difficulty": "收入增长缺少自己的发动机：带电受国补高基数与上游涨价压制（-11.8%），原本承担替补的日百与平台广告在外卖补贴退坡后同步降速至个位数，而利润改善主要来自不可重复的“少补贴”。",
+      "current_difficulties": [
+        {
+          "title": "增长引擎同时失速",
+          "evidence": "总收入 -2.9%；带电 -11.8%；日百 +5.6%（Q1 +14.9%）；平台及广告 +8.3%（Q1 +18.8%）；物流及其他服务 +5.9%（Q1 +21.7%）。",
+          "implication": "带电之外没有能独立拉动收入的业务，Q3 起日百与广告还要面对 Q3'25 的高基数（+18.8%、+23.7%）。"
+        },
+        {
+          "title": "利润改善依赖“少花钱”，且杠杆在递减",
+          "evidence": "经营利润同比 +54.06 亿元中新业务减亏 49.23 亿元，零售 -4.61 亿元；新业务亏损环比仅收窄 4.8%（上季 30.1%）；Q3'25 新业务亏损 157.36 亿元是最后一个“易比”基数。",
+          "implication": "Q3'26 之后同比减亏空间迅速收窄，集团利润增长需要零售收入接棒，否则将出现利润增速断档。"
+        },
+        {
+          "title": "资源正被重新投向海外与 AI，费用端重新上行",
+          "evidence": "研发 +37.7%，零售分部费用率 +1.20pp；Joybuy 与京喜投入环比上升；拟以约 22 亿欧元收购 Ceconomy，欧盟依外国补贴条例审查，10 月 23 日前裁决。",
+          "implication": "外卖减亏释放的利润可能被新投入吸收，新业务亏损不能再按外卖减亏线性外推。"
+        }
+      ],
+      "strategic_judgment": "管理层把外卖从“抢份额”切换为“UE 优化 + 生态协同”，并把省下的营销预算转向 AI 研发、欧洲 Joybuy（及拟收购的 Ceconomy）与低线京喜。这是用国内当期增长换效率、用国内利润为海外扩张融资的取舍；成败取决于两项能力：1P 供应链能否在欧洲复制，AI 投入能否转化为广告转化率与履约成本下降。",
+      "strategic_directions": [
+        {
+          "direction": "零售收入回正：带电低基数修复 + 日百/3P/广告",
+          "rationale": "Q3'25 带电基数仅 1,285.87 亿元（Q2'25 为 1,789.82 亿元）；3P GMV 增速连续三个季度快于 1P；零售毛利率连续 17 个季度提升。",
+          "management_signal": "CEO：预计京东零售在 Q3 迎来拐点、收入重新转为正增长；CFO：下半年广告收入增速将随销售恢复而加速。",
+          "validation": "Q3'26 京东零售收入同比 > 0；带电收入同比 ≥ 0；平台及广告收入增速 ≥ 8.3%。"
+        },
+        {
+          "direction": "外卖由补贴驱动转向 UE 优化与生态协同",
+          "rationale": "外卖同比减亏超过 50%，单均补贴下降，佣金与广告收入贡献上升；三家平台同时转向效率竞争。",
+          "management_signal": "CFO：下半年外卖亏损同比“大幅收窄”；CEO：加快外卖与核心业务的深度协同。营销费用同比 -24.8%。",
+          "validation": "Q3'26 新业务亏损不高于 98.54 亿元且环比重新收窄；管理层是否首次披露外卖亏损或交叉购买数据。"
+        },
+        {
+          "direction": "海外（Joybuy + 拟收购 Ceconomy）与 AI 研发",
+          "rationale": "Joybuy 两个季度收入翻倍；Ceconomy 带来超过 1,000 家欧洲门店；研发投入同比 +37.7%。",
+          "management_signal": "管理层称 Joybuy 投入将相应增加但“可控”，研发“近期仍将保持增长”，并“动态平衡不同新业务之间的资源投入”。",
+          "validation": "欧盟 10 月 23 日前裁决结果与附加条件；Q3'26 研发费用率与新业务亏损的同步变化。"
+        }
+      ],
+      "core_conflict": "利润端已证明“能省”，收入端尚未证明“能长”：外卖补贴退坡带来利润，也带走了去年支撑日百与广告高增的流量；Q3'26 之后新业务同比减亏空间收窄、海外投入上升，集团利润增长必须由零售收入接棒。",
+      "falsifier": "若 Q3'26 京东零售收入同比转正，且日百与平台及广告收入增速同时回到 10% 以上、营销费用仍低于 Q3'25（210.50 亿元），则“只是成本拐点”的判断被证伪，评级应上调。",
+      "valuation_context": "财报后 ADR 当日 -7.3%、港股次日 -10.4%；至 10 月 2 日港股 102.9 港元、ADR 25.78 美元，较财报前分别 -16.3%、-18.4%。以 6-K 便利汇率粗算市值约 2,351 亿元，约等于账面现金及短期投资 2,350.58 亿元（未扣除 698.92 亿元有息负债）。市场已为“收入首降 + 海外投入”定价，尚未为 Q3 收入转正或 Ceconomy 审批结果定价。",
+      "catalyst": "Q3'26 业绩（预计 11 月中旬）零售收入转正且新业务亏损环比重新收窄；欧盟对 Ceconomy 作出裁决、明确投入边界；剩余 10 亿美元回购额度继续执行。",
+      "risk": "带电需求在涨价与需求透支下持续疲弱，存货 1,145.77 亿元面临去化压力；美团核心本地商业恢复至 7.9% 利润率后可能重启补贴竞争；Ceconomy 并购整合与欧盟附加条件推高海外亏损；AI 研发持续推高费用率。"
+    },
+    "previous_report_reference": {
+      "id": "9618-hk-2026q1",
+      "rating": "中性偏乐观",
+      "note": "本期评级下调为“中性”；上期“广告滚雪球”洞察的证伪条件已被触发。"
+    },
+    "disclaimer": "本报告仅供研究学习，不构成投资建议。所有财务数据来自公司官方披露（SEC 6-K、HKEXnews），外部信息来自公开来源，分析结论带有推断性质，请以公司官方披露为准。",
+    "approved_at": "2026-10-03T16:24:02.546703+00:00",
+    "approved_by": "user (2026-10-04 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "京东 2026Q2 的拐点是成本拐点，不是增长拐点：集团经营利润同比改善 54.06 亿元，约 91% 来自新业务减亏（营销费用少花 67.11 亿元），零售经营利润反而同比 -3.3%；同一轮外卖补贴退坡还带走了去年支撑日百（14.9%→5.6%）与平台广告（18.8%→8.3%）高增的流量。下一阶段的决定变量不再是“外卖还能省多少”，而是“省下的钱撤出后，零售收入能否自己回正”。",
+    "rating": "中性",
+    "confidence": "medium",
+    "primary_difficulty": "收入增长缺少自己的发动机：带电受国补高基数与上游涨价压制（-11.8%），原本承担替补的日百与平台广告在外卖补贴退坡后同步降速至个位数，而利润改善主要来自不可重复的“少补贴”。",
+    "current_difficulties": [
+      {
+        "title": "增长引擎同时失速",
+        "evidence": "总收入 -2.9%；带电 -11.8%；日百 +5.6%（Q1 +14.9%）；平台及广告 +8.3%（Q1 +18.8%）；物流及其他服务 +5.9%（Q1 +21.7%）。",
+        "implication": "带电之外没有能独立拉动收入的业务，Q3 起日百与广告还要面对 Q3'25 的高基数（+18.8%、+23.7%）。"
+      },
+      {
+        "title": "利润改善依赖“少花钱”，且杠杆在递减",
+        "evidence": "经营利润同比 +54.06 亿元中新业务减亏 49.23 亿元，零售 -4.61 亿元；新业务亏损环比仅收窄 4.8%（上季 30.1%）；Q3'25 新业务亏损 157.36 亿元是最后一个“易比”基数。",
+        "implication": "Q3'26 之后同比减亏空间迅速收窄，集团利润增长需要零售收入接棒，否则将出现利润增速断档。"
+      },
+      {
+        "title": "资源正被重新投向海外与 AI，费用端重新上行",
+        "evidence": "研发 +37.7%，零售分部费用率 +1.20pp；Joybuy 与京喜投入环比上升；拟以约 22 亿欧元收购 Ceconomy，欧盟依外国补贴条例审查，10 月 23 日前裁决。",
+        "implication": "外卖减亏释放的利润可能被新投入吸收，新业务亏损不能再按外卖减亏线性外推。"
+      }
+    ],
+    "strategic_judgment": "管理层把外卖从“抢份额”切换为“UE 优化 + 生态协同”，并把省下的营销预算转向 AI 研发、欧洲 Joybuy（及拟收购的 Ceconomy）与低线京喜。这是用国内当期增长换效率、用国内利润为海外扩张融资的取舍；成败取决于两项能力：1P 供应链能否在欧洲复制，AI 投入能否转化为广告转化率与履约成本下降。",
+    "strategic_directions": [
+      {
+        "direction": "零售收入回正：带电低基数修复 + 日百/3P/广告",
+        "rationale": "Q3'25 带电基数仅 1,285.87 亿元（Q2'25 为 1,789.82 亿元）；3P GMV 增速连续三个季度快于 1P；零售毛利率连续 17 个季度提升。",
+        "management_signal": "CEO：预计京东零售在 Q3 迎来拐点、收入重新转为正增长；CFO：下半年广告收入增速将随销售恢复而加速。",
+        "validation": "Q3'26 京东零售收入同比 > 0；带电收入同比 ≥ 0；平台及广告收入增速 ≥ 8.3%。"
+      },
+      {
+        "direction": "外卖由补贴驱动转向 UE 优化与生态协同",
+        "rationale": "外卖同比减亏超过 50%，单均补贴下降，佣金与广告收入贡献上升；三家平台同时转向效率竞争。",
+        "management_signal": "CFO：下半年外卖亏损同比“大幅收窄”；CEO：加快外卖与核心业务的深度协同。营销费用同比 -24.8%。",
+        "validation": "Q3'26 新业务亏损不高于 98.54 亿元且环比重新收窄；管理层是否首次披露外卖亏损或交叉购买数据。"
+      },
+      {
+        "direction": "海外（Joybuy + 拟收购 Ceconomy）与 AI 研发",
+        "rationale": "Joybuy 两个季度收入翻倍；Ceconomy 带来超过 1,000 家欧洲门店；研发投入同比 +37.7%。",
+        "management_signal": "管理层称 Joybuy 投入将相应增加但“可控”，研发“近期仍将保持增长”，并“动态平衡不同新业务之间的资源投入”。",
+        "validation": "欧盟 10 月 23 日前裁决结果与附加条件；Q3'26 研发费用率与新业务亏损的同步变化。"
+      }
+    ],
+    "core_conflict": "利润端已证明“能省”，收入端尚未证明“能长”：外卖补贴退坡带来利润，也带走了去年支撑日百与广告高增的流量；Q3'26 之后新业务同比减亏空间收窄、海外投入上升，集团利润增长必须由零售收入接棒。",
+    "falsifier": "若 Q3'26 京东零售收入同比转正，且日百与平台及广告收入增速同时回到 10% 以上、营销费用仍低于 Q3'25（210.50 亿元），则“只是成本拐点”的判断被证伪，评级应上调。",
+    "valuation_context": "财报后 ADR 当日 -7.3%、港股次日 -10.4%；至 10 月 2 日港股 102.9 港元、ADR 25.78 美元，较财报前分别 -16.3%、-18.4%。以 6-K 便利汇率粗算市值约 2,351 亿元，约等于账面现金及短期投资 2,350.58 亿元（未扣除 698.92 亿元有息负债）。市场已为“收入首降 + 海外投入”定价，尚未为 Q3 收入转正或 Ceconomy 审批结果定价。",
+    "catalyst": "Q3'26 业绩（预计 11 月中旬）零售收入转正且新业务亏损环比重新收窄；欧盟对 Ceconomy 作出裁决、明确投入边界；剩余 10 亿美元回购额度继续执行。",
+    "risk": "带电需求在涨价与需求透支下持续疲弱，存货 1,145.77 亿元面临去化压力；美团核心本地商业恢复至 7.9% 利润率后可能重启补贴竞争；Ceconomy 并购整合与欧盟附加条件推高海外亏损；AI 研发持续推高费用率。"
+  },
+  "sources": [
+    {
+      "id": "sec-6k-ex991-20260813",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526347753/d143720dex991.htm",
+      "title": "Exhibit 99.1 — JD.com Announces Second Quarter and Interim 2026 Results（SEC 6-K, 2026-08-13）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "sec-6k-20260813",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526347753/d143720d6k.htm",
+      "title": "Form 6-K cover（2026-08-13）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "hkex-results-20260813-zh",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0813/2026081300918_c.pdf",
+      "title": "京東集團 2026年第二季度及中期業績公告（HKEXnews 中文版）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "hkex-results-20260813-en",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0813/2026081300917.pdf",
+      "title": "JD.com Announcement of the Second Quarter and Interim 2026 Results（HKEXnews English）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "sec-6k-ex991-20260731",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526326847/d169158dex991.htm",
+      "title": "Date of Board Meeting（SEC 6-K Ex-99.1, 2026-07-31）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "sec-6k-ex991-20260512",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526218013/d128173dex991.htm",
+      "title": "Exhibit 99.1 — JD.com Announces First Quarter 2026 Results（QoQ 基数）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "sec-6k-ex991-20260305",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526092445/d150586dex991.htm",
+      "title": "Exhibit 99.1 — JD.com Announces Fourth Quarter and Full Year 2025 Results（趋势基数）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "sec-6k-ex991-20251113",
+      "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312525278665/d715997dex991.htm",
+      "title": "Exhibit 99.1 — JD.com Announces Third Quarter 2025 Results（Q3 基数）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "call-transcript-20260813",
+      "url": "https://www.marketbeat.com/earnings/reports/2026-8-13-jdcom-inc-stock/",
+      "title": "JD.com Q2 2026 Earnings Call Transcript（Quartr 提供，MarketBeat 转载；英文同传译文）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "stcn-fd-20260815",
+      "url": "https://finance.sina.com.cn/roll/2026-08-15/doc-ininkweh3451590.shtml",
+      "title": "京东高管：外卖二季度同比减亏超50%（证券时报e公司，含艾瑞咨询 Q2 外卖份额测算）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "sina-shansu-20260813",
+      "url": "https://finance.sina.com.cn/stock/t/2026-08-13/doc-inineuqe4592772.shtml",
+      "title": "京东单甦：公司将动态平衡不同新业务之间的资源投入（蓝鲸新闻/网易科技）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "stcn-jd-20260813",
+      "url": "https://stcn.com/article/detail/4074442.html",
+      "title": "京东集团二季度净利润同比增长14.5% 服务收入占比持续提升（证券时报网）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "wallstreetcn-20260814",
+      "url": "https://wallstreetcn.com/articles/3779434",
+      "title": "京东的盈利拐点，市场为何不买账（华尔街见闻，含券商目标价汇总）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "caijing-20260816",
+      "url": "http://m.caijing.com.cn/article/202608/438919",
+      "title": "京东二季度收入跌了，利润涨了（《财经》杂志；含 2026 国补标准与奥维云网家电数据）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "zacks-20260814",
+      "url": "https://www.nasdaq.com/articles/jd-q2-earnings-beat-estimates-margin-gains-revenue-miss",
+      "title": "JD Q2 Earnings Beat Estimates on Margin Gains, Revenue Miss（Zacks via Nasdaq）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "meituan-hkex-20260828",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf",
+      "title": "美团 截至2026年6月30日止三個月及六個月業績公告（HKEXnews）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "stcn-meituan-20260829",
+      "url": "https://stcn.com/article/detail/4161312.html",
+      "title": "美团二季度收入同比增长14.4%（证券时报网，含 Q3 外卖 UE 指引）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "alibaba-20260820",
+      "url": "https://www.alibabagroup.com/document-2026456290057781248",
+      "title": "阿里巴巴集团公布2026年6月份季度业绩（公司官网）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "36kr-alibaba-20260827",
+      "url": "https://36kr.com/p/3957541603120768",
+      "title": "马云、蔡崇信、吴泳铭增持，阿里股价又跌了（36氪；淘宝闪购单均亏损为分析师估计）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "pdd-ir-20260824",
+      "url": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-second-quarter-2026-unaudited-financial",
+      "title": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results（IR，检索快照）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "nbs-20260715",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260715_1964127.html",
+      "title": "国家统计局：2026年上半年社会消费品零售总额增长1.3%",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "ndrc-tradein-20260626",
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/tddgmsbgxhxfpyjhx/gzdt/202606/t20260626_1406119_ext.html",
+      "title": "国家发展改革委：今年第三批625亿元超长期特别国债支持消费品以旧换新资金已下达",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "sina-ceconomy-20260911",
+      "url": "https://finance.sina.com.cn/roll/2026-09-11/doc-inirnhry5734139.shtml",
+      "title": "京东准备调整补救措施以争取欧盟批准其收购Ceconomy（商业周刊/新浪财经）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "yahoo-9618hk-20261003",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/9618.HK?period1=1786492800&period2=1791072000&interval=1d",
+      "title": "Yahoo Finance 9618.HK 日线（HKD）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    },
+    {
+      "id": "yahoo-jd-20261003",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/JD?period1=1786492800&period2=1791072000&interval=1d",
+      "title": "Yahoo Finance JD（NASDAQ）日线（USD）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-10-03T21:30:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total-revenue",
+      "metric": "total_revenues",
+      "value": 346401,
+      "display_value": "3,464.01 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Total net revenues 356,660 | 346,401 (three months ended June 30, 2025 | 2026)",
+      "location": "Statements of Operations; revenue table",
+      "prior_year_value": 356660,
+      "prior_quarter_value": 315694,
+      "yoy_pct": -2.88,
+      "qoq_pct": 9.73,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "product-revenue",
+      "metric": "net_product_revenues",
+      "value": 267115,
+      "display_value": "2,671.15 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net product revenues 282,414 | 267,115 | (5.4)%",
+      "location": "Revenue table p.10",
+      "prior_year_value": 282414,
+      "prior_quarter_value": 244819,
+      "yoy_pct": -5.42,
+      "qoq_pct": 9.11,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "service-revenue",
+      "metric": "net_service_revenues",
+      "value": 79286,
+      "display_value": "792.86 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net service revenues 74,246 | 79,286 | 6.8%",
+      "location": "Revenue table p.10",
+      "prior_year_value": 74246,
+      "prior_quarter_value": 70875,
+      "yoy_pct": 6.79,
+      "qoq_pct": 11.87,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "eha-revenue",
+      "metric": "electronics_and_home_appliances_revenues",
+      "value": 157886,
+      "display_value": "1,578.86 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Retail",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Electronics and home appliances revenues 178,982 | 157,886 | (11.8)%",
+      "location": "Revenue table p.10",
+      "prior_year_value": 178982,
+      "prior_quarter_value": 132171,
+      "yoy_pct": -11.79,
+      "qoq_pct": 19.46,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "gm-revenue",
+      "metric": "general_merchandise_revenues",
+      "value": 109229,
+      "display_value": "1,092.29 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Retail",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "General merchandise revenues 103,432 | 109,229 | 5.6%",
+      "location": "Revenue table p.10",
+      "prior_year_value": 103432,
+      "prior_quarter_value": 112648,
+      "yoy_pct": 5.6,
+      "qoq_pct": -3.04,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "mm-revenue",
+      "metric": "marketplace_and_marketing_revenues",
+      "value": 30860,
+      "display_value": "308.60 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Marketplace and marketing revenues 28,507 | 30,860 | 8.3%",
+      "location": "Revenue table p.10",
+      "prior_year_value": 28507,
+      "prior_quarter_value": 26517,
+      "yoy_pct": 8.25,
+      "qoq_pct": 16.38,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "logistics-other-revenue",
+      "metric": "logistics_and_other_service_revenues",
+      "value": 48426,
+      "display_value": "484.26 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Logistics and other service revenues 45,739 | 48,426 | 5.9%",
+      "location": "Revenue table p.10",
+      "prior_year_value": 45739,
+      "prior_quarter_value": 44358,
+      "yoy_pct": 5.87,
+      "qoq_pct": 9.17,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "cost-of-revenues",
+      "metric": "cost_of_revenues",
+      "value": 287094,
+      "display_value": "2,870.94 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Cost of revenues (300,020) | (287,094)",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 300020,
+      "prior_quarter_value": 262667,
+      "yoy_pct": -4.31,
+      "qoq_pct": 9.3,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "fulfillment",
+      "metric": "fulfillment_expenses",
+      "value": 24451,
+      "display_value": "244.51 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Fulfillment (22,145) | (24,451); 7.1% of revenues vs 6.2%",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 22145,
+      "prior_quarter_value": 23393,
+      "yoy_pct": 10.41,
+      "qoq_pct": 4.52,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "marketing",
+      "metric": "marketing_expenses",
+      "value": 20302,
+      "display_value": "203.02 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Marketing (27,013) | (20,302); decreased by 24.8%",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 27013,
+      "prior_quarter_value": 15372,
+      "yoy_pct": -24.84,
+      "qoq_pct": 32.07,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "rnd",
+      "metric": "research_and_development_expenses",
+      "value": 7299,
+      "display_value": "72.99 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Research and development (5,299) | (7,299); increased by 37.7%",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 5299,
+      "prior_quarter_value": 6866,
+      "yoy_pct": 37.74,
+      "qoq_pct": 6.31,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "ga",
+      "metric": "general_and_administrative_expenses",
+      "value": 3112,
+      "display_value": "31.12 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "General and administrative (3,266) | (3,112)",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 3266,
+      "prior_quarter_value": 3589,
+      "yoy_pct": -4.72,
+      "qoq_pct": -13.29,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "gain-dev-properties",
+      "metric": "gain_on_sale_of_development_properties",
+      "value": 404,
+      "display_value": "4.04 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Gain on sale of development properties 224 | 404",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 224,
+      "prior_quarter_value": null,
+      "yoy_pct": 80.36,
+      "qoq_pct": null
+    },
+    {
+      "id": "income-from-operations",
+      "metric": "income_from_operations",
+      "value": 4547,
+      "display_value": "45.47 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "(Loss)/Income from operations (859) | 4,547",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": -859,
+      "prior_quarter_value": 3807,
+      "yoy_pct": 629.34,
+      "qoq_pct": 19.44,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "nongaap-op-income",
+      "metric": "nongaap_income_from_operations",
+      "value": 5483,
+      "display_value": "54.83 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Non-GAAP income from operations 896 | 5,483",
+      "location": "Reconciliation of GAAP and Non-GAAP p.21",
+      "prior_year_value": 896,
+      "prior_quarter_value": 5608,
+      "yoy_pct": 511.94,
+      "qoq_pct": -2.23,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "nongaap-ebitda",
+      "metric": "nongaap_ebitda",
+      "value": 7933,
+      "display_value": "79.33 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Non-GAAP EBITDA 2,999 | 7,933",
+      "location": "Reconciliation p.21",
+      "prior_year_value": 2999,
+      "prior_quarter_value": 8028,
+      "yoy_pct": 164.52,
+      "qoq_pct": -1.18,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "equity-investees",
+      "metric": "share_of_results_of_equity_investees",
+      "value": 2551,
+      "display_value": "25.51 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Share of results of equity investees 2,072 | 2,551",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 2072,
+      "prior_quarter_value": 1636,
+      "yoy_pct": 23.12,
+      "qoq_pct": 55.93,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "others-net",
+      "metric": "others_net",
+      "value": 4269,
+      "display_value": "42.69 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Others, net 6,129 | 4,269",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 6129,
+      "prior_quarter_value": 2333,
+      "yoy_pct": -30.35,
+      "qoq_pct": 82.98,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "income-tax",
+      "metric": "income_tax_benefit_expense",
+      "value": -1972,
+      "display_value": "-19.72 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Income tax benefits/(expenses) 10 | (1,972)",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 10,
+      "prior_quarter_value": -1260,
+      "yoy_pct": -19820.0,
+      "qoq_pct": -56.51,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "net-income-attr",
+      "metric": "net_income_attributable_to_ordinary_shareholders",
+      "value": 7129,
+      "display_value": "71.29 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net income attributable to the Company's ordinary shareholders 6,178 | 7,129",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 6178,
+      "prior_quarter_value": 5102,
+      "yoy_pct": 15.39,
+      "qoq_pct": 39.73,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "nongaap-net-income",
+      "metric": "nongaap_net_income_attributable_to_ordinary_shareholders",
+      "value": 8930,
+      "display_value": "89.30 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Non-GAAP net income attributable to the Company's ordinary shareholders 7,394 | 8,930",
+      "location": "Reconciliation p.22",
+      "prior_year_value": 7394,
+      "prior_quarter_value": 7379,
+      "yoy_pct": 20.77,
+      "qoq_pct": 21.02,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "sbc",
+      "metric": "share_based_compensation_in_opex",
+      "value": 1066,
+      "display_value": "10.66 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Share-based compensation Total (1,657) | (1,066)",
+      "location": "Statements of Operations note (2) p.17",
+      "prior_year_value": 1657,
+      "prior_quarter_value": null,
+      "yoy_pct": -35.67,
+      "qoq_pct": null
+    },
+    {
+      "id": "diluted-eps-ads",
+      "metric": "diluted_net_income_per_ads_rmb",
+      "value": 5.01,
+      "display_value": "5.01 元/ADS",
+      "currency": "CNY",
+      "unit": "yuan per ADS",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Diluted net income per ADS 4.15 | 5.01",
+      "location": "Statements of Operations p.16",
+      "prior_year_value": 4.15,
+      "prior_quarter_value": null,
+      "yoy_pct": 20.72,
+      "qoq_pct": null
+    },
+    {
+      "id": "nongaap-diluted-eps-ads",
+      "metric": "nongaap_diluted_net_income_per_ads_rmb",
+      "value": 6.29,
+      "display_value": "6.29 元/ADS",
+      "currency": "CNY",
+      "unit": "yuan per ADS",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Non-GAAP net income per ADS Diluted 4.97 | 6.29",
+      "location": "Non-GAAP Net Income Per ADS p.18",
+      "prior_year_value": 4.97,
+      "prior_quarter_value": null,
+      "yoy_pct": 26.56,
+      "qoq_pct": null
+    },
+    {
+      "id": "seg-rev-retail",
+      "metric": "segment_revenue",
+      "value": 295383,
+      "display_value": "2,953.83 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Retail",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net revenues: JD Retail 310,075 | 295,383; YoY (4.7)%",
+      "location": "Supplemental Information segment table p.8",
+      "prior_year_value": 310075,
+      "prior_quarter_value": 268588,
+      "yoy_pct": -4.74,
+      "qoq_pct": 9.98,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-cor-retail",
+      "metric": "segment_cost_of_revenues",
+      "value": 240650,
+      "display_value": "2,406.50 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Retail",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Less: cost of revenues: JD Retail (256,527) | (240,650)",
+      "location": "Segment table p.8",
+      "prior_year_value": 256527,
+      "prior_quarter_value": 218629,
+      "yoy_pct": -6.19,
+      "qoq_pct": 10.07,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-opex-retail",
+      "metric": "segment_operating_expenses",
+      "value": 41255,
+      "display_value": "412.55 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Retail",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Less: operating expenses: JD Retail (39,609) | (41,255)",
+      "location": "Segment table p.8",
+      "prior_year_value": 39609,
+      "prior_quarter_value": 34999,
+      "yoy_pct": 4.16,
+      "qoq_pct": 17.87,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-oi-retail",
+      "metric": "segment_income_from_operations",
+      "value": 13478,
+      "display_value": "134.78 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Retail",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Income from operations: JD Retail 13,939 | 13,478; operating margin 4.5% | 4.6%",
+      "location": "Segment table p.8",
+      "prior_year_value": 13939,
+      "prior_quarter_value": 14960,
+      "yoy_pct": -3.31,
+      "qoq_pct": -9.91,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-rev-logistics",
+      "metric": "segment_revenue",
+      "value": 64102,
+      "display_value": "641.02 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Logistics",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "JD Logistics 51,564 | 64,102; YoY 24.3%",
+      "location": "Segment table p.8",
+      "prior_year_value": 51564,
+      "prior_quarter_value": 60581,
+      "yoy_pct": 24.32,
+      "qoq_pct": 5.81,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-oi-logistics",
+      "metric": "segment_income_from_operations",
+      "value": 2263,
+      "display_value": "22.63 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "JD Logistics",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "JD Logistics 1,958 | 2,263; margin 3.8% | 3.5%",
+      "location": "Segment table p.8",
+      "prior_year_value": 1958,
+      "prior_quarter_value": 1020,
+      "yoy_pct": 15.58,
+      "qoq_pct": 121.86,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-rev-newbiz",
+      "metric": "segment_revenue",
+      "value": 7260,
+      "display_value": "72.60 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "New Businesses",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "New Businesses 13,852 | 7,260; YoY (47.6)%",
+      "location": "Segment table p.8",
+      "prior_year_value": 13852,
+      "prior_quarter_value": 6279,
+      "yoy_pct": -47.59,
+      "qoq_pct": 15.62,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-opex-newbiz",
+      "metric": "segment_operating_expenses",
+      "value": 12607,
+      "display_value": "126.07 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "New Businesses",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Less: operating expenses: New Businesses (14,448) | (12,607)",
+      "location": "Segment table p.8",
+      "prior_year_value": 14448,
+      "prior_quarter_value": 12197,
+      "yoy_pct": -12.74,
+      "qoq_pct": 3.36,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-oi-newbiz",
+      "metric": "segment_income_from_operations",
+      "value": -9854,
+      "display_value": "-98.54 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": "New Businesses",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "New Businesses (14,777) | (9,854); margin (106.7)% | (135.7)%",
+      "location": "Segment table p.8",
+      "prior_year_value": -14777,
+      "prior_quarter_value": -10352,
+      "yoy_pct": 33.32,
+      "qoq_pct": 4.81,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-elim-revenue",
+      "metric": "inter_segment_eliminations_revenue",
+      "value": -20344,
+      "display_value": "-203.44 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Inter-segment eliminations (18,831) | (20,344)",
+      "location": "Segment table p.8",
+      "prior_year_value": -18831,
+      "prior_quarter_value": -19754,
+      "yoy_pct": -8.03,
+      "qoq_pct": -2.99,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "seg-oi-total",
+      "metric": "total_segment_income_from_operations",
+      "value": 5887,
+      "display_value": "58.87 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Total segment income from operations 1,120 | 5,887",
+      "location": "Segment table p.8",
+      "prior_year_value": 1120,
+      "prior_quarter_value": 5628,
+      "yoy_pct": 425.62,
+      "qoq_pct": 4.6,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "unallocated",
+      "metric": "unallocated_items",
+      "value": -1340,
+      "display_value": "-13.40 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Unallocated items (1,979) | (1,340)",
+      "location": "Segment table p.8",
+      "prior_year_value": -1979,
+      "prior_quarter_value": -1821,
+      "yoy_pct": 32.29,
+      "qoq_pct": 26.41,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "cash-and-investments",
+      "metric": "cash_restricted_cash_and_short_term_investments",
+      "value": 235058,
+      "display_value": "2,350.58 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "Cash and cash equivalents 89,068; Restricted cash 13,396; Short-term investments 132,594 (June 30, 2026); text: RMB235.1 billion",
+      "location": "Balance Sheets p.14; Cash Flow and Working Capital p.7",
+      "prior_year_value": null,
+      "prior_quarter_value": 215673,
+      "yoy_pct": null,
+      "qoq_pct": 8.99,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "inventories",
+      "metric": "inventories_net",
+      "value": 114577,
+      "display_value": "1,145.77 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Inventories, net 95,428 (Dec 31, 2025) | 114,577 (Jun 30, 2026)",
+      "location": "Balance Sheets p.14",
+      "prior_year_value": null,
+      "prior_quarter_value": 96166,
+      "yoy_pct": null,
+      "qoq_pct": 19.15,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "accounts-payable",
+      "metric": "accounts_payable",
+      "value": 228961,
+      "display_value": "2,289.61 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Accounts payable 188,379 (Dec 31, 2025) | 228,961 (Jun 30, 2026)",
+      "location": "Balance Sheets p.15",
+      "prior_year_value": null,
+      "prior_quarter_value": null,
+      "yoy_pct": null,
+      "qoq_pct": null
+    },
+    {
+      "id": "total-debt",
+      "metric": "short_term_debts_plus_notes_plus_long_term_debts",
+      "value": 69892,
+      "display_value": "698.92 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "Short-term debts 3,534; Unsecured senior notes (current) 13,555; Unsecured senior notes (non-current) 16,607; Long-term debts 36,196",
+      "location": "Balance Sheets p.15",
+      "prior_year_value": null,
+      "prior_quarter_value": null,
+      "yoy_pct": null,
+      "qoq_pct": null
+    },
+    {
+      "id": "total-assets",
+      "metric": "total_assets",
+      "value": 725406,
+      "display_value": "7,254.06 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Total assets 695,201 (Dec 31, 2025) | 725,406",
+      "location": "Balance Sheets p.14",
+      "prior_year_value": null,
+      "prior_quarter_value": 685722,
+      "yoy_pct": null,
+      "qoq_pct": 5.79,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "total-equity",
+      "metric": "total_shareholders_equity",
+      "value": 282375,
+      "display_value": "2,823.75 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Total shareholders' equity 293,783 | 282,375",
+      "location": "Balance Sheets p.15",
+      "prior_year_value": null,
+      "prior_quarter_value": 280730,
+      "yoy_pct": null,
+      "qoq_pct": 0.59,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "ocf",
+      "metric": "net_cash_provided_by_operating_activities",
+      "value": 37718,
+      "display_value": "377.18 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net cash provided by operating activities 24,409 | 37,718",
+      "location": "Cash Flow and Working Capital p.7",
+      "prior_year_value": 24409,
+      "prior_quarter_value": 555,
+      "yoy_pct": 54.52,
+      "qoq_pct": 6696.04,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "capex-net",
+      "metric": "capital_expenditures_net",
+      "value": -5520,
+      "display_value": "-55.20 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Less: Capital expenditures, net of related sales proceeds (3,032) | (5,520)",
+      "location": "Cash Flow and Working Capital p.7",
+      "prior_year_value": -3032,
+      "prior_quarter_value": null,
+      "yoy_pct": -82.06,
+      "qoq_pct": null
+    },
+    {
+      "id": "capex-dev-properties",
+      "metric": "capex_development_properties",
+      "value": -2517,
+      "display_value": "-25.17 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Capital expenditures for development properties (1,076) | (2,517)",
+      "location": "Cash Flow and Working Capital p.7",
+      "prior_year_value": -1076,
+      "prior_quarter_value": -3498,
+      "yoy_pct": -133.92,
+      "qoq_pct": 28.04,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "consumer-fin-adj",
+      "metric": "consumer_financing_receivables_adjustment",
+      "value": -363,
+      "display_value": "-3.63 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Add/(Less): Impact from consumer financing receivables 641 | (363)",
+      "location": "Cash Flow and Working Capital p.7",
+      "prior_year_value": 641,
+      "prior_quarter_value": null,
+      "yoy_pct": -156.63,
+      "qoq_pct": null
+    },
+    {
+      "id": "fcf",
+      "metric": "free_cash_flow",
+      "value": 31835,
+      "display_value": "318.35 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Free cash flow 22,018 | 31,835",
+      "location": "Cash Flow and Working Capital p.7",
+      "prior_year_value": 22018,
+      "prior_quarter_value": -6481,
+      "yoy_pct": 44.59,
+      "qoq_pct": 591.21,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "fcf-ttm",
+      "metric": "free_cash_flow_ttm",
+      "value": 31415,
+      "display_value": "314.15 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Free cash flow (twelve months ended June 30) 10,076 | 31,415",
+      "location": "Cash Flow and Working Capital p.7",
+      "prior_year_value": 10076,
+      "prior_quarter_value": 21598,
+      "yoy_pct": 211.78,
+      "qoq_pct": 45.45,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "ocf-ttm",
+      "metric": "operating_cash_flow_ttm",
+      "value": 51117,
+      "display_value": "511.17 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net cash provided by operating activities (TTM) 24,819 | 51,117",
+      "location": "Cash Flow p.7; Supplemental metrics p.20",
+      "prior_year_value": 24819,
+      "prior_quarter_value": 37800,
+      "yoy_pct": 105.96,
+      "qoq_pct": 35.23,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "investing-cf",
+      "metric": "net_cash_used_in_investing_activities",
+      "value": -29530,
+      "display_value": "-295.30 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net cash provided by/(used in) investing activities 8,218 | (29,530)",
+      "location": "Statements of Cash Flows p.19",
+      "prior_year_value": 8218,
+      "prior_quarter_value": null,
+      "yoy_pct": -459.33,
+      "qoq_pct": null
+    },
+    {
+      "id": "financing-cf",
+      "metric": "net_cash_used_in_financing_activities",
+      "value": -19885,
+      "display_value": "-198.85 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Net cash used in financing activities (12,439) | (19,885)",
+      "location": "Statements of Cash Flows p.19",
+      "prior_year_value": -12439,
+      "prior_quarter_value": null,
+      "yoy_pct": -59.86,
+      "qoq_pct": null
+    },
+    {
+      "id": "inventory-days-ttm",
+      "metric": "inventory_turnover_days_ttm",
+      "value": 40.5,
+      "display_value": "40.5 天",
+      "currency": "N/A",
+      "unit": "days",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Inventory turnover days – TTM 34.1 (Q2'25) ... 38.3 (Q1'26) | 40.5 (Q2'26)",
+      "location": "Supplemental Financial Information p.20",
+      "prior_year_value": 34.1,
+      "prior_quarter_value": 38.3,
+      "yoy_pct": 18.77,
+      "qoq_pct": 5.74,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "ap-days-ttm",
+      "metric": "accounts_payable_turnover_days_ttm",
+      "value": 64.2,
+      "display_value": "64.2 天",
+      "currency": "N/A",
+      "unit": "days",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Accounts payable turnover days – TTM 59.0 ... 59.7 | 64.2",
+      "location": "Supplemental Financial Information p.20",
+      "prior_year_value": 59.0,
+      "prior_quarter_value": 59.7,
+      "yoy_pct": 8.81,
+      "qoq_pct": 7.54,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "ar-days-ttm",
+      "metric": "accounts_receivable_turnover_days_ttm",
+      "value": 8.6,
+      "display_value": "8.6 天",
+      "currency": "N/A",
+      "unit": "days",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Accounts receivable turnover days – TTM 7.4 ... 8.7 | 8.6",
+      "location": "Supplemental Financial Information p.20",
+      "prior_year_value": 7.4,
+      "prior_quarter_value": 8.7,
+      "yoy_pct": 16.22,
+      "qoq_pct": -1.15,
+      "prior_quarter_source": "sec-6k-ex991-20260512"
+    },
+    {
+      "id": "h1-revenue",
+      "metric": "total_revenues_h1",
+      "value": 662095,
+      "display_value": "6,620.95 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Total net revenues (six months) 657,742 | 662,095 | 0.7%",
+      "location": "Revenue table p.10",
+      "prior_year_value": 657742,
+      "prior_quarter_value": null,
+      "yoy_pct": 0.66,
+      "qoq_pct": null
+    },
+    {
+      "id": "h1-nongaap-net-income",
+      "metric": "nongaap_net_income_h1",
+      "value": 16309,
+      "display_value": "163.09 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026H1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "Non-GAAP net income (six months) 20,152 | 16,309",
+      "location": "Reconciliation p.22",
+      "prior_year_value": 20152,
+      "prior_quarter_value": null,
+      "yoy_pct": -19.07,
+      "qoq_pct": null
+    },
+    {
+      "id": "buyback-h1",
+      "metric": "share_repurchase_h1_usd",
+      "value": 1000,
+      "display_value": "US$1.0 billion（约 69.9 百万股 A 类普通股，约占 2025 年末流通股 2.5%）",
+      "currency": "USD",
+      "unit": "million USD",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "repurchased a total of approximately 69.9 million Class A ordinary shares ... for a total of US$1.0 billion ... approximately 2.5%",
+      "location": "Updates of Share Repurchase Program p.1"
+    },
+    {
+      "id": "buyback-remaining",
+      "metric": "share_repurchase_remaining_usd",
+      "value": 1000,
+      "display_value": "US$1.0 billion（截至 2026-06-30 回购计划剩余额度）",
+      "currency": "USD",
+      "unit": "million USD",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "The remaining amount under the share repurchase program was US$1.0 billion as of June 30, 2026",
+      "location": "Updates of Share Repurchase Program p.1"
+    },
+    {
+      "id": "shares-outstanding",
+      "metric": "ordinary_shares_outstanding",
+      "value": 2688,
+      "display_value": "2,688 百万股（2026-06-30）",
+      "currency": "N/A",
+      "unit": "million shares",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "2,756 million shares issued and 2,688 million shares outstanding as of June 30, 2026",
+      "location": "Balance Sheets p.15"
+    },
+    {
+      "id": "jd-mall-stores",
+      "metric": "jd_mall_stores",
+      "value": 30,
+      "display_value": "30 家京东 MALL",
+      "currency": "N/A",
+      "unit": "stores",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "By the end of the second quarter, JD MALL had a total of 30 stores in operation",
+      "location": "Business Highlights p.1"
+    },
+    {
+      "id": "samr-fine-h1",
+      "metric": "samr_fine_h1",
+      "value": 635,
+      "display_value": "约 6.35 亿元（计入 2026Q1，Q2 无新增）",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "The total penalty is approximately RMB635 million; Add: The Fine imposed by the SAMR — | — (Q2) | 635 (six months)",
+      "location": "Note 6 p.9; Reconciliation p.21"
+    },
+    {
+      "id": "fx-rate",
+      "metric": "convenience_fx_rate",
+      "value": 6.7851,
+      "display_value": "RMB6.7851 = US$1.00",
+      "currency": "CNY",
+      "unit": "RMB per USD",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "sec-6k-ex991-20260813",
+        "hkex-results-20260813-zh"
+      ],
+      "evidence": "based on ... H.10 statistical release ... as of June 30, 2026, which was RMB6.7851 to US$1.00",
+      "location": "Footnote 1 p.1"
+    },
+    {
+      "id": "retail-gross-margin",
+      "metric": "jd_retail_gross_margin_call",
+      "value": 18.5,
+      "display_value": "18.5%（同比 +1.3pp，连续 17 个季度同比提升）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "call-transcript-20260813"
+      ],
+      "evidence": "Gross margin expanded by 1.3 percentage points year-on-year to 18.5%. This marks JD Retail's 17th consecutive quarter of year-on-year gross margin expansion",
+      "location": "CFO prepared remarks 00:20:42"
+    },
+    {
+      "id": "fd-loss-reduction",
+      "metric": "jd_food_delivery_loss_reduction_yoy_call",
+      "value": 50,
+      "display_value": ">50%（京东外卖亏损同比收窄幅度，管理层口径，未披露绝对值）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "call-transcript-20260813"
+      ],
+      "evidence": "JD Food Delivery maintained healthy order volume momentum while narrowing total losses by over 50% year-on-year",
+      "location": "CEO prepared remarks 00:09:12"
+    },
+    {
+      "id": "group-gross-margin-call",
+      "metric": "group_gross_margin_call",
+      "value": 17.1,
+      "display_value": "17.1%（同比 +1.2pp）",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "call-transcript-20260813"
+      ],
+      "evidence": "Group level gross margin expanded meaningfully by 1.2 percentage points year-on-year to 17.1%",
+      "location": "CFO prepared remarks 00:25:00"
+    },
+    {
+      "id": "jingxi-qac",
+      "metric": "jingxi_quarterly_active_customers_yoy_call",
+      "value": 40,
+      "display_value": "京喜季度活跃用户同比 >40%，贡献 Q2 新增活跃用户的 40%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "call-transcript-20260813"
+      ],
+      "evidence": "Jingxi ... QAC increasing over 40% year-on-year and contributing 40% of new active customers in Q2",
+      "location": "CEO prepared remarks 00:11:23"
+    },
+    {
+      "id": "gross-profit",
+      "metric": "gross_profit",
+      "value": 59307,
+      "display_value": "593.07 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: total_revenues - cost_of_revenues; inputs: total-revenue, cost-of-revenues",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 56640
+    },
+    {
+      "id": "gross-margin",
+      "metric": "gross_margin_pct",
+      "value": 17.12,
+      "display_value": "17.12%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: gross_profit / total_revenues; inputs: total-revenue, cost-of-revenues",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 15.88,
+      "change_pp": 1.24
+    },
+    {
+      "id": "opex-total",
+      "metric": "operating_expenses_total",
+      "value": 55164,
+      "display_value": "551.64 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: fulfillment + marketing + R&D + G&A; inputs: fulfillment, marketing, rnd, ga",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 57723
+    },
+    {
+      "id": "opex-ratio",
+      "metric": "operating_expense_ratio_pct",
+      "value": 15.92,
+      "display_value": "15.92%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: opex_total / total_revenues; inputs: fulfillment, marketing, rnd, ga, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 16.18,
+      "change_pp": -0.26
+    },
+    {
+      "id": "fulfillment-ratio",
+      "metric": "fulfillment_ratio_pct",
+      "value": 7.06,
+      "display_value": "7.06%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: fulfillment / revenue; inputs: fulfillment, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 6.21,
+      "change_pp": 0.85
+    },
+    {
+      "id": "marketing-ratio",
+      "metric": "marketing_ratio_pct",
+      "value": 5.86,
+      "display_value": "5.86%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: marketing / revenue; inputs: marketing, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 7.57,
+      "change_pp": -1.71
+    },
+    {
+      "id": "rnd-ratio",
+      "metric": "rnd_ratio_pct",
+      "value": 2.11,
+      "display_value": "2.11%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: R&D / revenue; inputs: rnd, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 1.49,
+      "change_pp": 0.62
+    },
+    {
+      "id": "op-margin",
+      "metric": "operating_margin_pct",
+      "value": 1.31,
+      "display_value": "1.31%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: income_from_operations / revenue; inputs: income-from-operations, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": -0.24,
+      "change_pp": 1.55
+    },
+    {
+      "id": "nongaap-net-margin",
+      "metric": "nongaap_net_margin_pct",
+      "value": 2.58,
+      "display_value": "2.58%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: non-GAAP NI / revenue; inputs: nongaap-net-income, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 2.07,
+      "change_pp": 0.51
+    },
+    {
+      "id": "retail-op-margin",
+      "metric": "jd_retail_operating_margin_pct",
+      "value": 4.56,
+      "display_value": "4.56%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: segment OI / segment revenue; inputs: seg-oi-retail, seg-rev-retail",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 4.5,
+      "change_pp": 0.06
+    },
+    {
+      "id": "retail-gross-margin-calc",
+      "metric": "jd_retail_segment_gross_margin_pct",
+      "value": 18.53,
+      "display_value": "18.53%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: (segment revenue - segment cost of revenues) / segment revenue; inputs: seg-rev-retail, seg-cor-retail",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 17.27,
+      "change_pp": 1.26
+    },
+    {
+      "id": "retail-opex-ratio",
+      "metric": "jd_retail_segment_opex_ratio_pct",
+      "value": 13.97,
+      "display_value": "13.97%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: segment opex / segment revenue; inputs: seg-opex-retail, seg-rev-retail",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 12.77,
+      "change_pp": 1.2
+    },
+    {
+      "id": "service-share",
+      "metric": "service_revenue_share_pct",
+      "value": 22.89,
+      "display_value": "22.89%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: service revenue / total revenue; inputs: service-revenue, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 20.82,
+      "change_pp": 2.07
+    },
+    {
+      "id": "eha-share",
+      "metric": "eha_revenue_share_pct",
+      "value": 45.58,
+      "display_value": "45.58%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: E&HA revenue / total revenue; inputs: eha-revenue, total-revenue",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": 50.18,
+      "change_pp": -4.6
+    },
+    {
+      "id": "newbiz-loss-reduction-yoy",
+      "metric": "new_businesses_loss_reduction_yoy",
+      "value": 4923,
+      "display_value": "49.23 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: NB OI(Q2'26) - NB OI(Q2'25); inputs: seg-oi-newbiz",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": null
+    },
+    {
+      "id": "newbiz-loss-reduction-qoq",
+      "metric": "new_businesses_loss_reduction_qoq",
+      "value": 498,
+      "display_value": "4.98 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: NB OI(Q2'26) - NB OI(Q1'26); inputs: seg-oi-newbiz",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": null
+    },
+    {
+      "id": "marketing-delta-yoy",
+      "metric": "marketing_expense_change_yoy",
+      "value": -6711,
+      "display_value": "-67.11 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: marketing(Q2'26) - marketing(Q2'25); inputs: marketing",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": null
+    },
+    {
+      "id": "ap-change-h1",
+      "metric": "accounts_payable_change_h1",
+      "value": 40582,
+      "display_value": "405.82 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: AP(Jun-30-2026) - AP(Dec-31-2025); inputs: accounts-payable",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": null
+    },
+    {
+      "id": "inventory-change-h1",
+      "metric": "inventory_change_h1",
+      "value": 19149,
+      "display_value": "191.49 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: Inventory(Jun-30-2026) - Inventory(Dec-31-2025); inputs: inventories",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": null
+    },
+    {
+      "id": "net-cash",
+      "metric": "cash_and_investments_minus_debt",
+      "value": 165166,
+      "display_value": "1,651.66 亿元",
+      "currency": "CNY",
+      "unit": "million yuan",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "sec-6k-ex991-20260813"
+      ],
+      "evidence": "formula: cash+restricted+ST investments - (ST debt + senior notes + LT debt); inputs: cash-and-investments, total-debt",
+      "location": "derived from Ex-99.1 tables",
+      "prior_year_value": null
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "总收入 3,464.01 亿元，同比 -2.9%、环比 +9.7%；商品收入 2,671.15 亿元（-5.4%），服务收入 792.86 亿元（+6.8%），服务收入占比由 20.82% 升至 22.89%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "hkex-results-20260813-zh"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "带电（电子产品及家电）收入 1,578.86 亿元，同比 -11.8%，占总收入 45.58%（去年同期 50.18%）。降幅较 Q1（-8.4%）扩大，与 Q4'25（-12.0%）相当；对比基数 Q2'25 为 1,789.82 亿元，是近五个季度最高。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20260512",
+            "sec-6k-ex991-20260305"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "本季最值得注意的不是带电，而是“替补引擎”同步降速：日百收入增速由 Q1 的 +14.9% 降至 +5.6%（环比 -3.0%），平台及广告收入由 +18.8% 降至 +8.3%，物流及其他服务收入由 +21.7% 降至 +5.9%。三条曲线在同一季度一起回落。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20260512"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "三条曲线同时降速的共同解释是 2025Q2 的外卖上线流量基数：管理层在问答中承认去年同期以旧换新与外卖“共同为平台带来显著流量并带动了一定程度的交叉销售”，今年外卖补贴收缩后这部分流量红利转为基数压力。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "call-transcript-20260813"
+          ],
+          "falsifier": "若 Q3'26 在营销费用仍低于 Q3'25（210.50 亿元）的情况下，日百增速重回 10% 以上、平台及广告收入重回双位数，则“补贴撤出带走流量增量”的解释不成立。"
+        },
+        {
+          "text": "京东零售分部收入 2,953.83 亿元（-4.7%）；京东物流分部收入 641.02 亿元（+24.3%），主要来自即时配送业务并表；新业务分部收入 72.60 亿元（-47.6%），主因即时配送收入自 2026Q1 起改由京东物流确认，口径不可直接同比。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "hkex-results-20260813-zh"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "毛利 593.07 亿元，毛利率 17.12%（+1.24pp）；京东零售分部毛利率 18.53%（+1.26pp），与管理层口径 18.5%（+1.3pp、连续 17 个季度同比提升）一致。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "call-transcript-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "四项经营费用合计 551.64 亿元，同比 -4.4%，费用率 15.92%（-0.26pp）：营销 203.02 亿元（-24.8%，费用率 5.86%，-1.71pp）抵消了履约 244.51 亿元（+10.4%，7.06%，+0.85pp）与研发 72.99 亿元（+37.7%，2.11%，+0.62pp）的上升。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "hkex-results-20260813-zh"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "集团经营利润同比改善 54.06 亿元（由 -8.59 亿元至 45.47 亿元），按分部拆解：新业务减亏 49.23 亿元（约占 91%），未分摊项目改善 6.39 亿元（股权激励减少），京东物流 +3.05 亿元，京东零售反而 -4.61 亿元。利润拐点几乎全部来自“少花”而非“多赚”。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "零售分部“大促季利润率新高”需要放在费用侧看：零售分部经营费用 412.55 亿元同比 +4.2%，而分部收入 -4.7%，分部费用率由 12.77% 升至 13.97%（+1.20pp），几乎吃掉了 +1.26pp 的毛利率改善；零售经营利润 134.78 亿元同比 -3.3%、环比 -9.9%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20260512"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "零售费用率上升的主因更可能是 AI 研发与履约能力投入而非营销：CFO 表示零售营销费用率连续第四个季度同比下降，同时零售研发费用“显著增加”，且研发将在近期继续增长。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-20260813",
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": "若 Q3'26 零售分部费用率同比回落而研发费用仍同比增长 20% 以上，则说明费用率上升主要是 Q2 大促季节性或分部间结算口径，而非结构性 AI 投入。"
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "Q2 经营现金流 377.18 亿元（去年同期 244.09 亿元），资本开支净额 55.20 亿元（其中开发物业 25.17 亿元），自由现金流 318.35 亿元；TTM 自由现金流 314.15 亿元，较去年同期 100.76 亿元显著回升。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "hkex-results-20260813-zh"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "现金、受限现金及短期投资合计 2,350.58 亿元（文中口径 2,351 亿元），较 Q1 末 2,156.73 亿元增加；有息负债（短期借款、优先票据、长期借款）合计 698.92 亿元，账面净现金约 1,651.66 亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20260512"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "营运资本在扩张：存货 1,145.77 亿元，较年初 +191.49 亿元、较 Q1 末 +19.1%；应付账款 2,289.61 亿元，较年初 +405.82 亿元；TTM 存货周转天数 40.5 天（Q2'25 为 34.1 天，为披露的五个季度最高），应付周转天数 64.2 天（Q2'25 为 59.0 天）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "自由现金流改善有相当部分来自供应商账期而非利润：应付账款半年增加 405.82 亿元、超过存货增量 191.49 亿元；管理层把 TTM FCF 改善归因于应收回款加速与以旧换新现金流出正常化，但 TTM 应收周转天数 8.6 天仍高于去年同期 7.4 天。存货上升与管理层“主动规划库存以缓冲消费电子涨价”的表述一致，属于对带电需求回升的隐性押注。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "call-transcript-20260813"
+          ],
+          "falsifier": "若 Q3'26 存货回落至 1,000 亿元以下且应付账款下降时经营现金流仍为正，或 TTM 存货周转天数回落至 38 天以下，则“囤货 + 供应商融资”解释不成立，现金流改善应视为经营性改善。"
+        },
+        {
+          "text": "资本回报：上半年回购约 69.9 百万股 A 类普通股、合计 10 亿美元（约占 2025 年末流通股 2.5%），回购计划剩余 10 亿美元（有效期至 2027 年 8 月）；Q2 融资活动净流出 198.85 亿元，含派息、回购与少数股权收购。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "hkex-results-20260813-zh"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "明确承诺（有时间点）：CEO 称预计京东零售在 Q3 迎来拐点、收入“重新加速转为正增长”；CFO 称下半年集团利润增长将加速、外卖亏损同比“大幅收窄”，并重申零售长期“高个位数”利润率目标。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "call-transcript-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "口径切换信号：Q1 电话会强调新业务投入“环比收窄超过 30%”，本季改为强调外卖“同比减亏超过 50%”。按分部表，新业务亏损环比仅收窄 4.98 亿元（-4.8%），而 Q4'25→Q1'26 环比收窄 30.1%。比较基准从环比换成同比，恰好发生在环比改善失速的季度。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-20260813",
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20260512",
+            "sec-6k-ex991-20260305"
+          ],
+          "falsifier": "若 Q3'26 新业务亏损环比重新收窄 15% 以上（≤ 83.8 亿元），则环比失速只是 Joybuy/京喜阶段性投放，口径切换不构成负面信号。"
+        },
+        {
+          "text": "资源去向被明确说出：营销费用同比少花 67.11 亿元，同期研发 +20.00 亿元；CEO 称“ROI 驱动的营销让我们把更多资源投向研发”，CFO 称研发“近期仍将保持增长”；Joybuy 与京喜投入环比“阶梯式上升”，Joybuy 投入“将相应增加”但“可控”。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "call-transcript-20260813",
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "回避或未量化：未披露外卖单量、亏损绝对额与 UE 数值；未披露 Joybuy 亏损与投入预算；对高盛关于“股东回报比例”与“对德国零售商收购的投资预算”的提问只给原则性回答；拟收购 Ceconomy 在开场陈述中未被提及。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-20260813"
+          ],
+          "falsifier": "若 Q3'26 业绩或电话会给出外卖/海外亏损绝对额或资本回报比例，则“关键数字被刻意回避”的判断需撤回。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "美团 2026Q2 核心本地商业经营利润 56.68 亿元、利润率 7.9%（去年同期 37 亿元、5.7%），已从补贴战中恢复盈利；但管理层预计 Q3 外卖 UE 环比下降、骑手补贴增加。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "meituan-hkex-20260828",
+            "stcn-meituan-20260829"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "阿里中国即时零售收入 532.95 亿元（+45%），官方称淘宝闪购“维持市场份额同时单位经济效益环比持续改善”；媒体援引分析师估计其季度亏损约 100 亿元（上季约 180 亿元），该数字非官方披露。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "alibaba-20260820",
+            "36kr-alibaba-20260827"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "竞争传导路径：三家同时转向 UE 优化 → 用户补贴强度下降 → 京东外卖单均补贴下降、新业务减亏；但同一机制也使外卖带来的增量流量减少 → 京东日百与广告的交叉销售红利消退。竞争降温对京东是“利润正面、收入负面”的双刃剑。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "meituan-hkex-20260828",
+            "alibaba-20260820",
+            "call-transcript-20260813",
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": "若 Q3'26 美团/阿里重新加大补贴而京东外卖仍同比减亏且日百增速回升，则竞争强度与京东收入/利润的联动假设不成立。"
+        },
+        {
+          "text": "货架电商广告整体降速：拼多多 Q2 在线营销服务收入 576 亿元，较去年同期 557 亿元仅增约 3.4%；阿里客户管理收入同比 -7%（同口径 +1%）。京东平台及广告收入 +8.3% 在同业中仍偏快，说明其降速一部分是行业性。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "pdd-ir-20260824",
+            "alibaba-20260820",
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "外卖份额：证券时报援引艾瑞咨询测算 Q2 综合份额约为美团 43%、淘宝闪购 42%、京东 15%。该数字仅有单一来源、方法论未公开，不满足两个独立来源要求，仅作量级参考。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "stcn-fd-20260815"
+          ],
+          "falsifier": null
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "宏观消费疲弱：2026 年上半年社零 +1.3%，5 月 -0.6%、6 月 +1.0%；家用电器和音像器材类上半年 -7.4%、6 月 -8.7%；通讯器材类上半年 +14.4%；网上实物商品零售额 +4.8%。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "nbs-20260715"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "政策退坡与价格冲击：2026 年国补延续但标准下调（媒体报道为 20%→15%、单件上限 2,000→1,500 元），第三批 625 亿元以旧换新资金于 6 月下达；统计局称上半年手机价格同比 +4.0%。奥维云网口径上半年家电零售额 -9.9%。京东带电 -11.8% 与行业 -7.4%/-9.9% 同向，但降幅更大，部分来自京东 2025Q2 自身的高基数。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "caijing-20260816",
+            "ndrc-tradein-20260626",
+            "nbs-20260715",
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "下季度基数显著转向：Q3'25 带电收入仅 1,285.87 亿元（同比 +4.9%），远低于 Q2'25 的 1,789.82 亿元；而 Q3'25 日百（+18.8%）与平台及广告（+23.7%）是高基数。Q3'26 将出现“带电易、日百与广告难”的组合。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20251113",
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "海外与地缘：京东拟以约 22 亿欧元收购 Ceconomy（MediaMarkt/Saturn 母公司），欧盟依《外国补贴条例》深入审查并已提出异议，媒体报道京东正调整补救措施，欧委会须在 10 月 23 日前裁决。结果直接影响新业务分部的规模、亏损与资本开支。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "sina-ceconomy-20260911",
+            "call-transcript-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "监管余波：SAMR 对“幽灵外卖”的处罚（约 6.35 亿元）已在 Q1 计提，Q2 无新增；平台合规与骑手保障成本（如美团 7 月起新职伤全覆盖）将成为外卖行业的结构性成本。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "stcn-meituan-20260829"
+          ],
+          "falsifier": "若 Q3'26 京东外卖或新业务出现新的监管罚没或一次性合规计提，则“监管影响已出清”的判断不成立。"
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "业绩于 8 月 13 日港股盘后发布：ADR 当日收 29.30 美元（-7.3%），港股 8 月 14 日收 110.2 港元（-10.4%）；至 10 月 2 日，港股 102.9 港元、ADR 25.78 美元，较财报前分别 -16.3%、-18.4%。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "yahoo-9618hk-20261003",
+            "yahoo-jd-20261003",
+            "caijing-20260816"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "预期差：Non-GAAP 每 ADS 0.93 美元，高于 Zacks/MarketBeat 一致预期 0.86 美元；收入一致预期口径冲突（MarketBeat 503.8 亿美元 vs Zacks 515.5 亿美元），无法得出单一 beat/miss 结论。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "zacks-20260814",
+            "call-transcript-20260813"
+          ],
+          "falsifier": null
+        },
+        {
+          "text": "利润超预期却大跌，说明市场定价的锚已从“减亏斜率”切回“收入能否增长”：本季收入同比转负、日百与广告同步降速、海外投入上升，抵消了利润超预期。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "wallstreetcn-20260814",
+            "sec-6k-ex991-20260813",
+            "yahoo-9618hk-20261003"
+          ],
+          "falsifier": "若 Q3'26 零售收入转正后股价仍未修复，则下跌主因更可能是海外并购（Ceconomy）或资金面，而非收入增长担忧。"
+        },
+        {
+          "text": "估值语境：以 6-K 便利汇率 6.7851 粗算，ADR 25.78 美元对应市值约 2,351 亿元，与账面现金及短期投资 2,350.58 亿元相当（未扣除 698.92 亿元有息负债，也未计入长期投资与少数股东权益）。券商目标价（摩根大通 148 港元、高盛 169 港元、汇丰 144 港元、富瑞 194 港元、野村 41 美元）均来自单一媒体汇总。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "yahoo-jd-20261003",
+            "sec-6k-ex991-20260813",
+            "wallstreetcn-20260814"
+          ],
+          "falsifier": "若市值相对净现金的折价在 Q3'26 业绩后仍扩大，则说明市场对零售主业或海外扩张的负面预期在加深，而非单纯情绪错杀。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "情景以 2026Q3 为对象：关键分部为京东零售经营利润，集团口径为 Non-GAAP 归母净利润，单位亿元/季。对照基数：Q3'25 零售经营利润 148.28 亿元、Non-GAAP 归母净利 57.96 亿元；Q2'26 分别为 134.78 亿元、89.30 亿元。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991-20251113",
+            "sec-6k-ex991-20260813"
+          ],
+          "falsifier": "若 Q3'26 实际值落在三档区间之外，说明情景对季节性或新业务投放的假设有误，需要重估。"
+        },
+        {
+          "text": "基准（55%）：零售收入同比 0~+3%，零售经营利润 140–155 亿元；新业务亏损 85–100 亿元；Non-GAAP 归母净利 80–100 亿元。集团利润同比大增主要来自 Q3'25 的低基数，而非经营加速。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20251113",
+            "call-transcript-20260813"
+          ],
+          "falsifier": "若零售收入同比为负或新业务亏损超过 100 亿元，则基准不成立。"
+        },
+        {
+          "text": "乐观（20%）与悲观（25%）的分界在两个变量：带电在低基数下能否转正，以及 Joybuy/京喜/Ceconomy 的投入是否把外卖减亏吃掉。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20251113",
+            "call-transcript-20260813",
+            "sina-ceconomy-20260911"
+          ],
+          "falsifier": "若两个变量方向相反（如带电转正但新业务亏损扩大），则结果更可能落在基准而非两端。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "中心论点：京东 2026Q2 的拐点是成本拐点，不是增长拐点。经营利润改善 54.06 亿元中约 91% 来自新业务减亏，零售经营利润同比 -3.3%；而原本承担增长的日百与广告在外卖补贴退坡后同步降速。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20260512",
+            "call-transcript-20260813"
+          ],
+          "falsifier": "若 Q3'26 零售收入同比转正且日百、平台及广告收入增速同时回到双位数，同时营销费用仍低于 Q3'25，则“只是成本拐点”的判断被证伪。"
+        },
+        {
+          "text": "经营约束排序：①收入缺乏自有增长引擎（带电受基数与涨价压制、日百与广告失去补贴流量）；②新业务减亏的同比空间在 Q3'25（-157.36 亿元）之后快速收窄，而海外投入上升；③零售费用率因 AI 研发与履约投入上升 1.20pp，毛利率改善被吃掉。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20251113",
+            "sec-6k-ex991-20260305",
+            "call-transcript-20260813"
+          ],
+          "falsifier": "若 Q3'26 零售分部费用率同比下降且新业务亏损环比收窄 15% 以上，则②③两项约束的排序需下调。"
+        },
+        {
+          "text": "下季度三项可证伪指标：京东零售收入同比是否 > 0；日百收入增速是否 ≥ 8%（Q3'25 高基数 +18.8%）；新业务亏损是否 ≤ 98.54 亿元（不高于 Q2'26）。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20251113"
+          ],
+          "falsifier": "三项指标全部达成，则本报告评级应由“中性”上调。"
+        },
+        {
+          "text": "上期判断回溯（2026Q1 报告）：其候选洞察“广告滚雪球”的证伪条件（Q2 平台及广告收入增速跌破双位数）已被触发（实际 +8.3%）；其基准情景中零售经营利润 145–158 亿元落空（实际 134.78 亿元，落入悲观区间），集团 Non-GAAP 净利 60–85 亿元被超出（实际 89.30 亿元）。上期低估了 Q2 大促季零售利润率的季节性与新业务环比减亏的失速。",
+          "claim_type": "inference",
+          "confidence": "high",
+          "source_ids": [
+            "sec-6k-ex991-20260813",
+            "sec-6k-ex991-20260512"
+          ],
+          "falsifier": "若后续发现上期报告的口径与本期不同（如集团利润口径非 Non-GAAP 归母净利），则回溯结论需修正。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "共识：一位称职分析师看到标题数字会得出什么结论？",
+        "answer": "“利润拐点已至”：Non-GAAP 归母净利 89.30 亿元同比 +20.8%，经营利润由亏转盈，零售利润率创大促季新高，外卖同比减亏超过 50%，管理层称“盈利轨迹迎来明确拐点”。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "call-transcript-20260813"
+        ],
+        "counterevidence": "收入同比 -2.9%，股价在利润超预期后下跌 7–10%，说明市场并不接受这一共识。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "隐藏假设：这一共识需要什么条件成立？",
+        "answer": "需要假设利润改善可持续，即：外卖减亏不以牺牲零售收入为代价，且省下的补贴不会被其他新业务重新花掉。两条假设本季都受到挑战：日百与广告降速；新业务亏损环比仅收窄 4.8%。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20260512",
+          "call-transcript-20260813"
+        ],
+        "counterevidence": "管理层称日百降速主要源于去年基数，并预期下半年加速；若属实，收入代价是一次性的。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "反证：本季哪一个事实最强烈地抵抗共识？",
+        "answer": "集团经营利润改善 54.06 亿元，其中新业务减亏 49.23 亿元，零售反而 -4.61 亿元；营销费用少花 67.11 亿元。改善几乎全部来自支出削减，核心零售没有贡献增量利润。",
+        "source_ids": [
+          "sec-6k-ex991-20260813"
+        ],
+        "counterevidence": "零售利润同比下降部分源于研发投入，属于主动投资；零售毛利率连续 17 个季度提升，说明盈利能力的底层并未恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "机制：外卖补贴退坡如何同时影响利润与收入？",
+        "answer": "补贴下降 → 营销费用下降（-24.8%）→ 新业务减亏；同时补贴下降 → 外卖拉新与跨品类交叉销售减少 → 日百与平台广告的流量增量消退 → 增速分别由 14.9%/18.8% 降至 5.6%/8.3%。管理层在问答中确认去年外卖带来显著流量与交叉销售。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20260512",
+          "call-transcript-20260813"
+        ],
+        "counterevidence": "拼多多在线营销 +3.4%、阿里 CMR 同口径 +1%，广告降速有行业共性，不能全部归因于外卖。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "时机：为什么是这个季度？",
+        "answer": "2025Q2 是外卖上线、以旧换新与 618 叠加的峰值季度（带电 1,789.82 亿元、营销 270.13 亿元），基数效应在本季同时作用于收入（高基数）与费用（高费用基数）。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "call-transcript-20260813"
+        ],
+        "counterevidence": "Q4'25 带电已 -12.0%，带电压力并非本季才出现；本季新增的是日百与广告的降速。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "替代解释：季节性、口径或一次性因素能否解释同样的观察？",
+        "answer": "部分可以：①即时配送收入自 2026Q1 起由新业务转入京东物流，新业务收入与亏损的同比不完全可比；②Q2 大促季零售利润率季节性偏低（Q2'25 4.5% vs Q1'25 4.9%）；③其他净收益同比减少 18.60 亿元、所得税由 +0.10 亿元变为 -19.72 亿元，压低了净利润改善幅度。但这些都不能解释日百与广告同步降速。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20260512"
+        ],
+        "counterevidence": "口径调整只影响分部间分配，不影响集团营销费用与日百收入，核心结论不受影响。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "反事实：如果没有外卖减亏，本季会是什么样？",
+        "answer": "若新业务亏损维持 Q2'25 的 147.77 亿元，集团经营利润约为 -3.8 亿元（45.47 − 49.23），即仍为亏损；零售与物流本身不足以带来利润拐点。",
+        "source_ids": [
+          "sec-6k-ex991-20260813"
+        ],
+        "counterevidence": "反事实忽略了没有外卖时零售可能失去的流量与收入，方向上会进一步恶化而非改善，不影响结论。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "二阶效应：如果一阶解读正确，接下来会发生什么？",
+        "answer": "Q3'25 是新业务亏损峰值（-157.36 亿元），Q4'25 为 -148.01 亿元，Q1'26 已降至 -103.52 亿元。Q3'26 之后同比减亏空间迅速收窄，集团利润增长必须由零售收入接棒；若零售收入无法回正，2027 年上半年将出现“利润增速断档”。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20251113",
+          "sec-6k-ex991-20260305",
+          "sec-6k-ex991-20260512"
+        ],
+        "counterevidence": "外卖 UE 若继续改善并实现单季盈亏平衡，新业务亏损仍可大幅下降；但管理层未给出盈亏平衡时间表。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "最强多空解释各是什么？",
+        "answer": "多头：零售毛利率 17 连升、Q3 带电基数骤降（1,285.87 亿元）、营销效率提升可持续、TTM FCF 314.15 亿元与净现金支撑回购，市值约等于现金。空头：收入首次同比转负且日百/广告降速，利润靠削减补贴，海外并购（Ceconomy）与 AI 研发将重新推高费用，存货 1,145.77 亿元押注带电回升。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20251113",
+          "yahoo-jd-20261003",
+          "sina-ceconomy-20260911"
+        ],
+        "counterevidence": "多空双方都缺少外卖与海外亏损的分拆数据，判断依赖管理层定性表述。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "已被定价的是什么？",
+        "answer": "财报后港股 -10.4%、至 10 月 2 日累计 -16.3%；以便利汇率粗算市值约等于现金及短期投资。市场已经计入“收入首降 + 海外投入”担忧，但尚未计入 Ceconomy 审批结果与 Q3 零售收入转正的可能性。",
+        "source_ids": [
+          "yahoo-9618hk-20261003",
+          "yahoo-jd-20261003",
+          "sec-6k-ex991-20260813",
+          "wallstreetcn-20260814"
+        ],
+        "counterevidence": "没有可授权的一致预期修正数据，无法确认分析师在财报后下调了多少收入预测；“已定价”判断置信度低。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "哪一项约束是管理层最难用更多花钱来解决的？",
+        "answer": "带电需求。它受国补退坡、上游涨价与 2025 年需求透支共同压制，京东可以用供应链与库存缓冲价格，但无法用补贴重新创造被提前释放的换新需求；再加补贴会直接回吐外卖减亏换来的利润。",
+        "source_ids": [
+          "nbs-20260715",
+          "caijing-20260816",
+          "call-transcript-20260813",
+          "sec-6k-ex991-20260813"
+        ],
+        "counterevidence": "管理层称 6 月动能已回升、家电各品类份额提升且线下增长更快；若份额提升持续，京东可以在行业负增长中实现正增长。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "资源真相：支出、资本配置与管理层注意力是否印证所述战略？",
+        "answer": "部分印证：营销 -67.11 亿元、研发 +20.00 亿元与“效率优先 + AI”一致；Joybuy/京喜投入环比上升、拟收购 Ceconomy 与“海外是长期方向”一致。但“外卖协同”缺少数据支撑——管理层只给出季度活跃用户双位数增长，未披露交叉购买率或外卖带来的零售 GMV。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "call-transcript-20260813",
+          "sina-ceconomy-20260911"
+        ],
+        "counterevidence": "协同效应通常滞后显现，单季缺乏量化不等于不存在。",
+        "status": "answered"
+      },
+      {
+        "id": "q13",
+        "question": "顺序：哪一步必须先成功？",
+        "answer": "零售收入回正必须先于海外扩张。只有零售自身恢复增长，外卖减亏释放的利润才能留存；否则集团将面临“国内收入不增、海外投入上升”的双重挤压。",
+        "source_ids": [
+          "call-transcript-20260813",
+          "sec-6k-ex991-20260813"
+        ],
+        "counterevidence": "海外业务规模尚小（新业务分部收入 72.60 亿元），短期内对集团利润的拖累有限。",
+        "status": "answered"
+      },
+      {
+        "id": "q14",
+        "question": "外卖本身的单位经济是否已改善到可以独立成立？",
+        "answer": "无法回答。公司只披露“同比减亏超过 50%”“单均补贴明显下降”，未披露单量、亏损绝对额或 UE 数值；新业务分部还包含 Joybuy、京喜与京东产发，且即时配送已转入物流分部。",
+        "source_ids": [
+          "call-transcript-20260813",
+          "sec-6k-ex991-20260813"
+        ],
+        "counterevidence": "第三方份额测算（艾瑞）仅单一来源，不足以推断 UE。",
+        "status": "unresolved"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "成本拐点而非增长拐点：外卖补贴退坡同时撤走了日百与广告的流量增量",
+        "consensus_view": "Q2 利润超预期、外卖减亏超过 50%，京东进入利润拐点；收入下滑只是带电高基数的暂时扰动。",
+        "new_view": "同一个动作（削减外卖补贴）同时制造了利润改善与收入降速：营销少花 67.11 亿元带来新业务减亏 49.23 亿元，也带走了去年支撑日百（14.9%→5.6%）与平台广告（18.8%→8.3%）高增的流量。带电之外的“替补引擎”本季同步熄火，集团没有自有增长引擎。",
+        "mechanism": "补贴下降 → 营销费用 -24.8% → 新业务减亏；补贴下降 → 外卖拉新与交叉销售减少 → 日百、广告、物流及其他服务收入增速同步回落。",
+        "implication": "下调 Q3 起日百与广告增速假设；Q3'26 之后集团利润增长需由零售收入接棒，提高“利润增速断档”情景权重；评级由上期“中性偏乐观”调整为“中性”。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20260512",
+          "call-transcript-20260813"
+        ],
+        "counterevidence": "货架电商广告整体降速（拼多多在线营销 +3.4%、阿里 CMR 同口径 +1%），京东广告降速部分是行业性；管理层称日百降速主要源于基数，并预期下半年加速。",
+        "falsifier": "Q3'26 营销费用仍低于 Q3'25（210.50 亿元），而日百收入增速 ≥ 10% 且平台及广告收入增速 ≥ 10%。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "新业务减亏斜率已由“资本再配置”而非“外卖竞争”决定",
+        "consensus_view": "新业务亏损随外卖竞争降温持续收窄，减亏斜率取决于美团、阿里的补贴强度。",
+        "new_view": "外卖同比减亏超过 50%，新业务整体只减亏 33.3%，环比仅 -4.8%（上季环比 -30.1%）。外卖省下的资金正被 Joybuy、京喜（以及待批的 Ceconomy）重新使用；减亏斜率的决定权已从竞争对手转到京东自己的资本配置。",
+        "mechanism": "外卖 UE 改善释放资金 → 管理层“动态平衡不同新业务之间的资源投入” → Joybuy/京喜投入环比阶梯式上升 → 新业务亏损环比停滞。若外卖占 Q2'25 新业务亏损的三分之二以上，按披露比例可推出非外卖新业务亏损同比扩大。",
+        "implication": "新业务亏损不应再按外卖减亏线性外推；Q3 起情景中加入海外投入上行与 Ceconomy 并表变量，悲观情景概率提高至 25%。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20260512",
+          "sec-6k-ex991-20260305",
+          "call-transcript-20260813",
+          "sina-shansu-20260813",
+          "sina-ceconomy-20260911"
+        ],
+        "counterevidence": "公司未披露外卖与 Joybuy 的分拆亏损；即时配送自 2026Q1 起转入物流分部，新业务的同比与环比口径均受影响；Q2 环比停滞也可能有 618 外卖季节性因素。",
+        "falsifier": "Q3'26 新业务亏损环比收窄 15% 以上（≤ 83.8 亿元），且管理层确认海外投入未扩大。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-3",
+        "title": "“大促季利润率新高”掩盖了零售费用率 +1.2pp",
+        "consensus_view": "零售毛利率 17 连升、利润率创大促季新高，零售主业盈利能力持续增强。",
+        "new_view": "零售分部毛利率 +1.26pp，但分部费用率 +1.20pp，几乎全部抵消；零售经营利润同比 -3.3%、环比 -9.9%。毛利率红利正在被 AI 研发与履约投入消耗，零售利润的增长弹性比“新高”叙事显示的小得多。",
+        "mechanism": "高毛利服务收入占比上升 + 供应链规模效应 → 毛利率上升；同时研发（集团 +37.7%）与履约（+10.4%）投入上升 → 零售分部费用率上升 → 利润率仅 +0.07pp。",
+        "implication": "下调 Q3 零售经营利润情景（基准 140–155 亿元，未假设利润率大幅扩张）；把零售费用率列为监测指标。",
+        "source_ids": [
+          "sec-6k-ex991-20260813",
+          "sec-6k-ex991-20260512",
+          "call-transcript-20260813"
+        ],
+        "counterevidence": "零售分部费用的构成（营销、研发、履约、分部间结算）未分拆披露；Q2 为大促季，费用率具有季节性；研发投入可能在后续转化为广告转化率与履约效率。",
+        "falsifier": "Q3'26 零售分部费用率同比下降且零售经营利润率 ≥ 6.0%（Q3'25 为 5.9%）。",
+        "scores": {
+          "non_obviousness": 1,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 9
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 20,
+      "triggers": [
+        "带电在 Q3'25 低基数（1,285.87 亿元）下同比转正，零售收入同比 +3% 以上",
+        "日百与平台及广告收入在高基数下仍保持 8% 以上增长，营销费用不高于 Q3'25",
+        "新业务亏损降至 80 亿元以下，欧盟对 Ceconomy 作出有条件批准但并表在 Q4 之后"
+      ],
+      "segment_profit_range": [
+        155,
+        170
+      ],
+      "group_profit_range": [
+        105,
+        125
+      ],
+      "description": "零售经营利润 155–170 亿元；集团 Non-GAAP 归母净利 105–125 亿元（亿元/季，2026Q3）。"
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "零售收入同比 0~+3%，带电降幅收窄至个位数或小幅转正",
+        "日百增速维持 5%~8%，平台及广告收入增速 6%~10%",
+        "新业务亏损 85–100 亿元，外卖同比继续减亏、Joybuy 投入温和上升"
+      ],
+      "segment_profit_range": [
+        140,
+        155
+      ],
+      "group_profit_range": [
+        80,
+        100
+      ],
+      "description": "零售经营利润 140–155 亿元；集团 Non-GAAP 归母净利 80–100 亿元。"
+    },
+    {
+      "name": "pessimistic",
+      "probability": 25,
+      "triggers": [
+        "零售收入同比仍为负，带电在涨价与需求透支下继续下滑",
+        "日百增速跌破 5%，平台及广告收入增速跌破 6%",
+        "新业务亏损回升至 100 亿元以上（海外投入加码或外卖竞争重启），或其他净收益大幅转负"
+      ],
+      "segment_profit_range": [
+        120,
+        140
+      ],
+      "group_profit_range": [
+        50,
+        75
+      ],
+      "description": "零售经营利润 120–140 亿元；集团 Non-GAAP 归母净利 50–75 亿元。"
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "报告状态为 draft / REVIEW_REQUIRED：冲突来源判定、管理层语言解读、因果归因、情景概率与区间、投资结论及 Kearney 风格措辞均需人工复核后方可发布。",
+      "电话会文字稿来自 MarketBeat 转载的 Quartr 英文同传稿（Tier 4），非公司官方逐字稿；管理层引述以英文译文为准，中文原话未核对。转录稿中“新业务亏损 0.9 billion”“京东物流收入 68.1 billion”与分部表不符，已以 6-K 为准。",
+      "SEC 6-K 与 HKEX 英文版要点中“US$151.1 billion”为排版错误（正文与中文版为 511 亿美元），本报告仅使用人民币口径。",
+      "外卖单独亏损、单量、UE 及 Joybuy 亏损均未披露；新业务分部因即时配送业务转入京东物流而存在口径不可比。",
+      "收入一致预期存在口径冲突（MarketBeat 503.8 亿美元 vs Zacks 515.5 亿美元）；一致预期未经授权终端（Wind/彭博/FactSet）核验。",
+      "Zacks、《财经》、拼多多 IR 与 36氪 页面直接抓取被拒或仅返回脚本外壳，raw 中保存的是检索索引快照（search-snapshot），并已在来源中标注。",
+      "外卖市场份额（美团 43%/淘宝闪购 42%/京东 15%）仅有单一来源（证券时报援引艾瑞），不满足两个独立来源要求；淘宝闪购季度亏损约 100 亿元为媒体援引的分析师估计。",
+      "国补标准（20%→15%、单件上限 2,000→1,500 元）与奥维云网家电数据来自《财经》报道，未取得政策原文。",
+      "市值粗算使用 6-K 中 6 月 30 日便利汇率 6.7851，未使用 10 月实时汇率；股价来自 Yahoo Finance（Tier 4）。",
+      "情景区间为基于官方基数与管理层定性指引的推断，非公司指引。"
+    ],
+    "unresolved_conflicts": [
+      "c1-usd-typo",
+      "c2-jdl-revenue",
+      "c3-nb-loss-call",
+      "c4-media-growth-rates",
+      "c5-consensus",
+      "c6-nb-definition"
+    ]
+  }
+}
