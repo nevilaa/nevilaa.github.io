@@ -33,6 +33,48 @@ function numberList(value: unknown): number[] {
   return Array.isArray(value) ? value.map((item) => numberValue(item)) : [];
 }
 
+// Base-currency multiplier for each monetary unit label used by research payloads.
+// Labels outside this table (percent, counts, per-share amounts...) are not money.
+const UNIT_FACTORS: Record<string, number> = {
+  yuan: 1, 元: 1, rmb: 1, cny: 1, usd: 1, eur: 1, hkd: 1, "base currency": 1,
+  thousand: 1e3, "usd thousand": 1e3, "hkd thousand": 1e3, "rmb thousand": 1e3,
+  "thousand yuan": 1e3, "thousand usd": 1e3, 千元: 1e3,
+  million: 1e6, "million yuan": 1e6, "rmb million": 1e6, "cny million": 1e6,
+  "million rmb": 1e6, "usd million": 1e6, "million usd": 1e6,
+  百万元: 1e6, 百万人民币: 1e6, 百万美元: 1e6,
+  亿: 1e8, 亿元: 1e8, 亿美元: 1e8,
+  billion: 1e9, "billion yuan": 1e9, "rmb billion": 1e9, "usd billion": 1e9,
+  "billion usd": 1e9, bn: 1e9, "rmb bn": 1e9, "usd bn": 1e9,
+};
+
+function unitFactor(unit: string) {
+  return UNIT_FACTORS[unit.trim().toLowerCase().replace(/[\s_-]+/g, " ")];
+}
+
+// Reads the first amount in a human-written display value (e.g. "1,062.29 亿元",
+// "US$79,038 thousand (79.0M)") and returns it in base currency.
+// Accounting negatives are written in parentheses, e.g. "US$(279,641) thousand".
+const AMOUNT = String.raw`\(?(-?[\d,]+(?:\.\d+)?)\)?\s*`;
+const DISPLAY_AMOUNT_PATTERNS: Array<[RegExp, number]> = [
+  [new RegExp(`${AMOUNT}亿`), 1e8],
+  [new RegExp(`${AMOUNT}万`), 1e4],
+  [new RegExp(`${AMOUNT}(?:百万|million\\b)`, "i"), 1e6],
+  [new RegExp(`${AMOUNT}(?:千|thousand\\b)`, "i"), 1e3],
+  [new RegExp(`${AMOUNT}(?:bn\\b|billion\\b)`, "i"), 1e9],
+  [new RegExp(`${AMOUNT}M\\b`), 1e6],
+];
+
+function parseDisplayAmount(display: string) {
+  let best: { index: number; amount: number } | undefined;
+  for (const [pattern, factor] of DISPLAY_AMOUNT_PATTERNS) {
+    const match = pattern.exec(display);
+    if (!match || (best && best.index <= match.index)) continue;
+    const amount = Number(match[1].replace(/,/g, "")) * factor;
+    if (Number.isFinite(amount)) best = { index: match.index, amount };
+  }
+  return best?.amount;
+}
+
 function claimText(claim: UnknownRecord) {
   return stringValue(claim.text, "暂无可用分析");
 }
@@ -41,13 +83,76 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   const rawReport = record(payload.report);
   const summary = record(payload.conclusion_summary ?? rawReport.conclusion_summary);
   const companyName = stringValue(rawReport.company, "百度集团");
-  const period = stringValue(rawReport.period, "2026Q1").replace("Q", " Q");
+  const rawPeriod = stringValue(rawReport.period, "2026Q1");
+  const period = rawPeriod.replace(/(\d)([QH]\d)/, "$1 $2");
   const generatedAt = stringValue(payload.generated_at, new Date().toISOString());
   const facts = list(payload.facts);
   const modules = list(payload.modules);
   const scenarios = list(payload.scenarios);
   const sources = list(payload.sources);
-  const fact = (metric: string) => facts.find((item) => item.metric === metric);
+  const periodKey = (value: unknown) => stringValue(value).replace(/[\s_-]/g, "").toUpperCase();
+  const periodEndKey = periodKey(rawReport.period_end);
+  // "FY2025-end" or the balance-sheet date (period_end) also belong to the report.
+  const samePeriod = (value: unknown) => {
+    const key = periodKey(value);
+    return (
+      Boolean(key) &&
+      (key.startsWith(periodKey(rawPeriod)) || (Boolean(periodEndKey) && key === periodEndKey))
+    );
+  };
+  const anyFact = (metric: string) => facts.find((item) => item.metric === metric);
+  // Payloads may carry prior-period facts under the same metric name. When the
+  // payload labels facts with the report's own period, only those (or unlabelled
+  // facts) describe this report; other payloads keep first-match behaviour.
+  const labelsOwnPeriod = facts.some((item) => samePeriod(item.period));
+  const isOwnPeriodFact = (item: UnknownRecord) =>
+    !labelsOwnPeriod || !stringValue(item.period) || samePeriod(item.period);
+  const ownFact = (metric: string) => {
+    const matches = facts.filter((item) => item.metric === metric);
+    return labelsOwnPeriod
+      ? (matches.find((item) => samePeriod(item.period)) ??
+          matches.find((item) => !stringValue(item.period)))
+      : matches[0];
+  };
+  const priorYearPeriod = rawPeriod.replace(/\d{4}/, (year) => String(Number(year) - 1));
+  const priorYearFact = (metric: string) =>
+    facts.find(
+      (item) =>
+        item.metric === metric &&
+        stringValue(item.period).replace(/[\s_-]/g, "").toUpperCase() ===
+          priorYearPeriod.replace(/[\s_-]/g, "").toUpperCase(),
+    );
+  // Research runs name the same headline metric differently; resolve the
+  // catalog key first, then its aliases.
+  const METRIC_ALIASES: Record<string, string[]> = {
+    total_revenue: ["total_revenues", "total_net_revenue", "revenue", "net_revenue"],
+    net_income_attributable: [
+      "net_income_attrib",
+      "net_income_attributable_gaap",
+      "net_income_attributable_to_shareholders",
+    ],
+    nongaap_net_income: [
+      "non_gaap_net_income",
+      "non_gaap_net_income_attributable",
+      "nongaap_net_income_attributable",
+      "adjusted_net_income",
+      "adjusted_net_profit_non_ifrs",
+    ],
+    operating_income: ["operating_profit", "income_from_operations"],
+    net_income: ["net_income_gaap", "profit_for_the_period"],
+    capital_expenditures: [
+      "capital_expenditure",
+      "capex",
+      "capital_expenditures_net",
+      "capex_incl_finance_leases",
+    ],
+    free_cash_flow: ["free_cash_flow_derived"],
+    online_marketing_revenue: ["online_marketing"],
+    transaction_services_revenue: ["transaction_services"],
+  };
+  const fact = (metric: string) =>
+    ownFact(metric) ??
+    (METRIC_ALIASES[metric] ?? []).map(ownFact).find((item) => item !== undefined);
   // Unit adaptation: legacy payloads store values in "分" (cent) and display as 亿元;
   // MiniMax (0100.HK) stores absolute USD amounts -> display as US$M.
   const isMiniMax = /0100\.HK/i.test(stringValue(rawReport.ticker)) || /MiniMax/i.test(companyName);
@@ -119,15 +224,50 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     "netease_free_cash_flow",
     "net_cash",
   ]);
-  const scaleValue = (metric: string, value: number | undefined) => {
-    if (!value) return 0;
-    return MONEY_METRICS.has(metric) ? value / moneyScale() : value;
+  const displayDivisor = isMiniMax ? 1_000_000 : 100_000_000;
+  // Converts a fact to the display unit (US$M for MiniMax, otherwise 亿). The
+  // fact's own unit decides; when that disagrees with its human-written display
+  // value by more than 10x, the unit label is wrong and the display value wins.
+  // Facts with no recognisable unit keep the legacy per-report scale.
+  const amountOf = (item: UnknownRecord | undefined, metric = "") => {
+    const raw = numberValue(item?.value);
+    if (!item || !raw) return 0;
+    const factor = unitFactor(stringValue(item.unit));
+    let base = factor === undefined ? undefined : raw * factor;
+    const displayed = parseDisplayAmount(stringValue(item.display_value));
+    if (
+      displayed !== undefined &&
+      displayed !== 0 &&
+      (base === undefined ||
+        Math.max(Math.abs(base / displayed), Math.abs(displayed / base)) > 10)
+    ) {
+      base = Math.sign(raw) * Math.abs(displayed);
+    }
+    if (base === undefined) {
+      return MONEY_METRICS.has(metric || stringValue(item.metric)) ? raw / moneyScale() : raw;
+    }
+    return base / displayDivisor;
   };
-  const factValue = (metric: string) =>
-    Math.round(scaleValue(metric, numberValue(fact(metric)?.value)) * 10) / 10;
+  // Scales another raw number recorded in the same unit as `item` (e.g. its prior value).
+  const amountLike = (item: UnknownRecord | undefined, value: number) => {
+    const raw = numberValue(item?.value);
+    return raw ? (amountOf(item) / raw) * value : 0;
+  };
+  const isRatioUnit = (unit: unknown) => stringValue(unit).trim().toLowerCase() === "ratio";
+  const isPercentUnit = (unit: unknown) =>
+    /^(percent|%|pct)$/i.test(stringValue(unit).trim()) || isRatioUnit(unit);
+  // Ratios (0.573) display as percentages (57.3).
+  const percentOf = (item: UnknownRecord | undefined) =>
+    numberValue(item?.value) * (isRatioUnit(item?.unit) ? 100 : 1);
+  const factValue = (metric: string) => {
+    const item = fact(metric);
+    const value = isPercentUnit(item?.unit) ? percentOf(item) : amountOf(item, metric);
+    return Math.round(value * 10) / 10;
+  };
   const factDisplay = (metric: string) => stringValue(fact(metric)?.display_value);
   const previousValue = (metric: string) => {
-    const own = numberValue(fact(metric)?.previous_value);
+    const own =
+      numberValue(fact(metric)?.previous_value) || numberValue(fact(metric)?.prior_year_value);
     if (own) return own;
     const PREV_ALIASES: Record<string, string> = {
       total_revenue: "total_revenue_prev",
@@ -136,20 +276,30 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       non_gaap_net_income: "non_gaap_net_income_prev",
       ai_powered_revenue: "ai_powered_revenue_prev",
     };
+    // Prior-value facts carry the prior period label, so look them up unfiltered.
     const alias = PREV_ALIASES[metric] ?? `${metric}_prev`;
-    const aliasValue = numberValue(fact(alias)?.value);
+    const aliasValue = numberValue(anyFact(alias)?.value);
     if (aliasValue) return aliasValue;
     // MiniMax payload uses `_prior` suffix for prior-year values.
-    return numberValue(fact(`${metric}_prior`)?.value);
+    const priorSuffix = numberValue(anyFact(`${metric}_prior`)?.value);
+    if (priorSuffix) return priorSuffix;
+    // Otherwise the same metric recorded for the prior-year period.
+    const resolved = stringValue(fact(metric)?.metric, metric);
+    return numberValue(priorYearFact(resolved)?.value);
   };
   const yoyOf = (metric: string) => {
-    // Prefer an explicit yoy fact when present (e.g. revenue_yoy for MiniMax).
-    const explicitYoy = numberValue(fact(`${metric}_yoy`)?.value);
-    if (explicitYoy) return Math.round(explicitYoy * 10) / 10;
     const current = numberValue(fact(metric)?.value);
     const previous = previousValue(metric);
-    if (!current || !previous) return undefined;
-    return Math.round((current / previous - 1) * 1000) / 10;
+    // Prefer an explicit yoy fact when present (e.g. revenue_yoy for MiniMax).
+    const yoyFact = fact(`${stringValue(fact(metric)?.metric, metric)}_yoy`) ?? fact(`${metric}_yoy`);
+    const explicitYoy = percentOf(yoyFact);
+    if (explicitYoy) return Math.round(explicitYoy * 10) / 10;
+    // A stored yoy on a negative (outflow) amount has an inverted sign; recompute below.
+    const storedYoy = numberValue(fact(metric)?.yoy_pct);
+    if (storedYoy && current > 0) return Math.round(storedYoy * 10) / 10;
+    if (!current || !previous || Math.sign(current) !== Math.sign(previous)) return undefined;
+    // Two negatives (outflows, losses): report the change in magnitude.
+    return Math.round((Math.abs(current) / Math.abs(previous) - 1) * 1000) / 10;
   };
   const yoyTextOf = (metric: string) => {
     const yoy = yoyOf(metric);
@@ -177,6 +327,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   );
   const segmentRevenueFacts = facts.filter(
     (item) =>
+      isOwnPeriodFact(item) &&
       (item.metric === "segment_revenue" ||
         (isMiniMax &&
           (item.metric === "revenue_ai_native_products" ||
@@ -188,6 +339,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     facts
       .filter(
         (item) =>
+          isOwnPeriodFact(item) &&
           item.metric === "segment_income_from_operations" &&
           stringValue(item.segment),
       )
@@ -360,7 +512,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     label,
     value,
     // 百分数类 metric（如毛利率）用 %；金额类 metric 用币种单位。
-    unit: fact(id)?.unit === "percent" ? "%" : moneyUnit(),
+    unit: isPercentUnit(fact(id)?.unit) ? "%" : moneyUnit(),
     yoyText,
     result,
     tone,
@@ -375,6 +527,19 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     base: "neutral",
     pessimistic: "negative",
   };
+  // Scenario ranges are written in the report's display unit unless the scenario
+  // names its own unit (e.g. "RMB bn, 2026Q3; ...").
+  const scenarioRange = (item: UnknownRecord, key: string) => {
+    const factor = unitFactor(stringValue(item.unit).split(/[,;，；]/)[0]);
+    const values = numberList(item[key]);
+    const scale = (value: number | undefined) =>
+      value === undefined
+        ? 0
+        : factor === undefined
+          ? value
+          : Math.round(((value * factor) / displayDivisor) * 10) / 10;
+    return [scale(values[0]), scale(values[1])] as [number, number];
+  };
   const normalizedScenarios: Scenario[] = scenarios.map((item, index) => ({
     id: stringValue(item.name, `scenario-${index + 1}`),
     name: scenarioName[stringValue(item.name)] ?? stringValue(item.name, "情景"),
@@ -383,14 +548,8 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     triggers: Array.isArray(item.triggers)
       ? item.triggers.filter((value): value is string => typeof value === "string")
       : [],
-    coreLocalProfitRange: [
-      numberList(item.segment_profit_range)[0] ?? 0,
-      numberList(item.segment_profit_range)[1] ?? 0,
-    ],
-    adjustedNetProfitRange: [
-      numberList(item.group_profit_range)[0] ?? 0,
-      numberList(item.group_profit_range)[1] ?? 0,
-    ],
+    coreLocalProfitRange: scenarioRange(item, "segment_profit_range"),
+    adjustedNetProfitRange: scenarioRange(item, "group_profit_range"),
     unit: moneyUnit(),
   }));
   const moduleClaims = (id: string) => list(moduleById(id)?.claims);
@@ -400,13 +559,18 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   const businessClaims = moduleClaims("business");
   const balanceClaims = moduleClaims("cash_flow");
   const researchClaims = moduleClaims("research_signal");
-  const totalRevenueValue = numberValue(fact("total_revenue")?.value);
-  const previousTotalRevenueValue = previousValue("total_revenue");
+  const totalRevenueFact = fact("total_revenue");
+  const totalRevenueValue = amountOf(totalRevenueFact, "total_revenue");
+  const previousTotalRevenueValue = amountLike(totalRevenueFact, previousValue("total_revenue"));
   const expenseCatalog: Array<{ metric: string; name: string }> = [
     { metric: "cost_of_revenue", name: "营业成本" },
     { metric: "fulfillment_expenses", name: "履约费用" },
     { metric: "marketing_expenses", name: "营销费用" },
     { metric: "sales_and_marketing_expenses", name: "营销费用" },
+    { metric: "selling_and_marketing_expenses", name: "营销费用" },
+    { metric: "sales_and_marketing", name: "营销费用" },
+    { metric: "marketing_and_sales", name: "营销费用" },
+    { metric: "sales_marketing", name: "营销费用" },
     { metric: "research_and_development_expenses", name: "研发费用" },
     { metric: "general_and_administrative_expenses", name: "管理费用" },
     { metric: "cost_of_revenues", name: "营业成本" },
@@ -418,9 +582,15 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
   ];
   const expenses: Expense[] = expenseCatalog
     .filter((item) => fact(item.metric))
+    .filter(
+      (item, index, all) =>
+        all.findIndex((other) => other.name === item.name && fact(other.metric)) === index,
+    )
     .map((item) => {
-      const value = numberValue(fact(item.metric)?.value);
-      const previous = previousValue(item.metric);
+      const expenseFact = fact(item.metric);
+      // Some payloads record costs as negative (accounting presentation).
+      const value = Math.abs(amountOf(expenseFact, item.metric));
+      const previous = Math.abs(amountLike(expenseFact, previousValue(item.metric)));
       const shareRaw = totalRevenueValue ? (value / totalRevenueValue) * 100 : 0;
       const previousShareRaw =
         previousTotalRevenueValue && previous
@@ -428,7 +598,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
           : 0;
       return {
         name: item.name,
-        value: Math.round((value / moneyScale()) * 10) / 10,
+        value: Math.round(value * 10) / 10,
         unit: moneyUnit(),
         yoy: yoyOf(item.metric) ?? 0,
         revenueShare: Math.round(shareRaw * 10) / 10,
@@ -562,11 +732,16 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
       brandColor: brandColorFor(stringValue(rawReport.ticker), companyName),
     },
     report: {
-      title: isMiniMax
+      title: isMiniMax && /FY2025/i.test(rawPeriod)
         ? "全球消费 AI 平台的增长与烧钱张力：MiniMax（0100.HK）FY2025 财报深读"
         : `${companyName} ${period} 财报深度分析`,
       period,
-      periodEnd: stringValue(rawReport.period_end, "未披露"),
+      periodEnd: stringValue(
+        rawReport.period_end,
+        /\d{4}-\d{2}-\d{2}/.exec(
+          stringValue(rawReport.period_definition) + stringValue(rawReport.period_label),
+        )?.[0] ?? "未披露",
+      ),
       publishedAt: generatedAt.slice(0, 10),
       analyzedAt: generatedAt.slice(0, 10),
       analysts: ["思航研究"],
@@ -591,13 +766,45 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
     },
     keyMetrics: Object.entries(KEY_METRIC_CATALOG)
       .filter(([metricKey]) => fact(metricKey))
+      // Several catalog keys share a label (and aliases may resolve to the same fact).
+      .filter(
+        ([metricKey, config], index, all) =>
+          all.findIndex(
+            ([otherKey, other]) =>
+              other.label === config.label || fact(otherKey) === fact(metricKey),
+          ) === index,
+      )
       .map(([metricKey, config]) => {
+        // A catalog verdict that contradicts the reported direction is replaced by
+        // a factual one (e.g. "同比下滑" on a metric that grew).
+        const yoy = yoyOf(metricKey);
+        const isLossMetric = /loss|used|outflow/.test(metricKey);
+        const contradicts =
+          typeof yoy === "number" &&
+          !isLossMetric &&
+          factValue(metricKey) > 0 &&
+          ((config.tone === "negative" && yoy > 0) || (config.tone === "positive" && yoy < 0));
+        if (contradicts) {
+          config = {
+            ...config,
+            result: yoy! >= 10 ? "同比高增长" : yoy! > 0 ? "同比增长" : "同比下滑",
+            tone: yoy! > 0 ? "positive" : "negative",
+          };
+        } else if (!isLossMetric && config.tone === "positive" && factValue(metricKey) < 0) {
+          config = { ...config, result: "亏损", tone: "negative" };
+        }
         // 动态判定收入类指标的结论/情绪：有 yoy 数据时按增减方向生成，
         // 避免 MiniMax 等高增长公司被误标为「规模稳定」。
         const dynamicResult = (() => {
           if (metricKey === "total_revenue" && typeof yoyOf("total_revenue") === "number") {
             const yoy = yoyOf("total_revenue")!;
-            return yoy > 0 ? "同比高增长" : yoy < 0 ? "同比下滑" : "规模稳定";
+            return yoy >= 10
+              ? "同比高增长"
+              : yoy > 0
+                ? "同比增长"
+                : yoy < 0
+                  ? "同比下滑"
+                  : "规模稳定";
           }
           if (
             isMiniMax &&
@@ -634,20 +841,27 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
         return metric(
           metricKey,
           config.label,
-          factValue(metricKey),
+          // Capital expenditure is shown as a spend, whatever sign the payload uses.
+          metricKey === "capital_expenditures"
+            ? Math.abs(factValue(metricKey))
+            : factValue(metricKey),
           dynamicResult,
           dynamicTone,
-          yoyTextOf(metricKey),
+          // A growth rate on a negative balance (e.g. negative free cash flow) reads
+          // as improvement; only loss/outflow metrics and capex keep it.
+          factValue(metricKey) < 0 && !isLossMetric && metricKey !== "capital_expenditures"
+            ? undefined
+            : yoyTextOf(metricKey),
         );
       }),
     segments: segmentRevenueFacts.map((item, index) => {
       const rawName = stringValue(item.segment) || stringValue(item.metric);
       const opFact = segmentOpBySegment.get(rawName);
       const name = segmentNameOf(item);
-      const revenue = numberValue(item.value) / moneyScale();
-      const operatingProfit = opFact ? numberValue(opFact.value) / moneyScale() : 0;
-      const previousRevenue = numberValue(item.previous_value);
-      const previousOp = opFact ? numberValue(opFact.previous_value) : 0;
+      const revenue = amountOf(item);
+      const operatingProfit = opFact ? amountOf(opFact) : 0;
+      const previousRevenue = amountLike(item, numberValue(item.previous_value));
+      const previousOp = opFact ? amountLike(opFact, numberValue(opFact.previous_value)) : 0;
       return {
         id: `segment-${index + 1}`,
         name,
@@ -656,7 +870,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
         revenueYoy: yoyOfFact(item) || Math.round(numberValue(item.yoy || 0) * 10) / 10,
         operatingProfit: Math.round(operatingProfit * 10) / 10,
         operatingProfitUnit: moneyUnit(),
-        priorYearOperatingProfit: Math.round((previousOp / moneyScale()) * 10) / 10,
+        priorYearOperatingProfit: Math.round(previousOp * 10) / 10,
         priorQuarterOperatingProfit: 0,
         margin: revenue ? Math.round((operatingProfit / revenue) * 1000) / 10 : 0,
         priorYearMargin: previousRevenue
@@ -720,7 +934,7 @@ function newSchemaReport(payload: UnknownRecord): ReportData {
         ...segmentRevenueFacts.map((item) => ({
           name: segmentNameOf(item),
           detail: item.metric === "segment_revenue" ? "分部收入" : "分部收入",
-          value: Math.round((numberValue(item.value) / moneyScale()) * 10) / 10,
+          value: Math.round(amountOf(item) * 10) / 10,
           unit: moneyUnit(),
           yoy: yoyOfFact(item) || Math.round(numberValue(item.yoy || 0) * 10) / 10,
         })),
