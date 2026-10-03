@@ -287,6 +287,9 @@ select:focus-visible {
   height: calc(100vh - 64px);
   display: flex;
   flex-direction: column;
+  /* The library outgrows short viewports; scroll it in place. */
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 20px 14px;
   border-right: 1px solid var(--border);
   background: var(--surface);
