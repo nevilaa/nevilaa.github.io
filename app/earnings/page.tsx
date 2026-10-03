@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -1328,20 +1328,31 @@ function ErrorReport({
   );
 }
 
+function subscribeToNothing() {
+  return () => {};
+}
+
+function readRequestedReportId() {
+  return new URLSearchParams(window.location.search).get("report");
+}
+
 export default function Home() {
   const defaultReport = getDefaultReport();
-  const [selectedReportId, setSelectedReportId] = useState(() => {
-    if (typeof window === "undefined") return defaultReport.id;
-    const requestedId = new URLSearchParams(window.location.search).get("report");
-    return PUBLISHED_REPORTS.some((report) => report.id === requestedId)
-      ? requestedId
-      : defaultReport.id;
-  });
+  // The ?report= deep link is read via useSyncExternalStore so hydration uses
+  // the server snapshot (the statically exported default) and the client
+  // re-renders with the requested report afterwards.
+  const requestedReportId = useSyncExternalStore(
+    subscribeToNothing,
+    readRequestedReportId,
+    () => null,
+  );
+  const [chosenReportId, setChosenReportId] = useState<string | null>(null);
   const [activeModule, setActiveModule] = useState<ModuleId>("business");
   const [data, setData] = useState<ReportData | null>(null);
   const [error, setError] = useState("");
   const [reloadKey, setReloadKey] = useState(0);
 
+  const selectedReportId = chosenReportId ?? requestedReportId;
   const selectedReport =
     PUBLISHED_REPORTS.find((report) => report.id === selectedReportId) ??
     defaultReport;
@@ -1384,7 +1395,7 @@ export default function Home() {
   );
 
   function chooseReport(id: string) {
-    setSelectedReportId(id);
+    setChosenReportId(id);
     setActiveModule("business");
     const url = new URL(window.location.href);
     url.searchParams.set("report", id);
