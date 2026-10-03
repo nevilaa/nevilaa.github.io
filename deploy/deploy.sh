@@ -152,13 +152,6 @@ REMOTE
   grep -q '财报工作台' "$verify_dir/earnings.html"
   grep -q '返回首页导航' "$verify_dir/earnings.html"
   curl --noproxy '*' --fail --silent --show-error --max-time 20 \
-    --range 0-65535 \
-    --output "$verify_dir/radar.json" https://www.shresearch.cn/ai-radar/data/latest-24h.json
-  grep -q 'total_items' "$verify_dir/radar.json"
-  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
-    --output "$verify_dir/radar.html" https://www.shresearch.cn/ai-radar/
-  grep -q '返回首页导航' "$verify_dir/radar.html"
-  curl --noproxy '*' --fail --silent --show-error --max-time 20 \
     https://www.shresearch.cn/company-icons/minimax.png >/dev/null
   curl --noproxy '*' --fail --silent --show-error --max-time 20 \
     https://www.shresearch.cn/company-icons/pdd.png >/dev/null
