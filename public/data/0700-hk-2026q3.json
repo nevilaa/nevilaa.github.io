@@ -1,0 +1,5286 @@
+{
+  "schema_version": "site-1.0.0",
+  "id": "0700-hk-2026q3",
+  "generated_at": "2026-11-20T08:42:06.074059+00:00",
+  "preview_only": false,
+  "report": {
+    "company": "腾讯控股",
+    "company_name_en": "Tencent Holdings Limited",
+    "ticker": "0700.HK",
+    "exchange": "HKEX",
+    "period": "2026Q3",
+    "period_end": "2026-09-30",
+    "fiscal_period_note": "日历年第三季度（截至2026年9月30日的三个月），未经审计、经核数师审阅",
+    "earnings_release_date": "2026-11-18",
+    "currency": "CNY",
+    "status": "published",
+    "title": "腾讯2026年第三季度：现金投入见顶，利润拖累未见顶",
+    "thesis": "关键不在于现金资本开支是否见顶，而在于利润表的AI拖累峰值尚未到来。2026年三季度腾讯收入2,073.36亿元（+7.5%），非IFRS经营利润680.73亿元（-6.2%），新AI产品拖累扩大到约152亿元；资本开支814.33亿元（+527%）、算力预付款约860亿元，自由现金流-691亿元，资产负债表转为净债务。回报端只有云服务+35%、WorkBuddy收入环比超过5倍等增长倍数，没有AI收入金额。",
+    "conclusion_summary": {
+      "rating": "中性（由上季“中性偏积极”下调）",
+      "confidence": "medium",
+      "primary_difficulty": "把每季约150亿元的新AI产品利润拖累、约650亿元现金资本开支和约860亿元算力预付款，转化为可披露、可计量的收入与毛利；目前公司只给出增长倍数，没有AI收入金额，而折旧高峰仍在前方。",
+      "current_difficulties": [
+        {
+          "title": "AI拖累与折旧仍在爬升，回报只有增长倍数",
+          "evidence": "新AI产品对非IFRS经营利润的影响由1Q26的-88亿元、2Q26的-105亿元扩大到3Q26的-152亿元；资本开支814.33亿元（+527%），折旧环比+25.6%，非流动预付款1,629亿元待转固；AI收入金额均未披露。",
+          "implication": "利润率在现金投入持平后仍可能下行，市场缺少可计量的回报指标来锚定估值。"
+        },
+        {
+          "title": "核心增长引擎减速并开始承担AI成本",
+          "evidence": "剔除新AI产品的经营利润增速由+18.9%降至+7.6%；营销服务毛利率同比-4.3个百分点（AI运营成本与短剧内容成本）；国际游戏-9%；金融科技低个位数增长，10月社零同比仅+0.4%。",
+          "implication": "为AI输血的现金牛本身增速放缓，“核心稳健、AI前置”的组合假设变得更脆弱。"
+        },
+        {
+          "title": "外部算力约束抬高成本并拖慢模型迭代",
+          "evidence": "美国远程访问新规11月19日生效，管理层承认下一代Hy模型推出需要更长时间、高端GPU无法获取；DRAM年初同比上涨约400%，TrendForce预计4Q26合约价再涨10%–15%。",
+          "implication": "单位算力成本上行、训练节奏放慢，模型领先窗口与AI成本曲线都受外部变量支配。"
+        }
+      ],
+      "strategic_judgment": "管理层用成熟业务的现金流和新增债务为“模型（Hy）—应用（WorkBuddy、小微）—基础设施（自用+腾讯云外售）”三层体系融资，并把C端资源从元宝撤向微信内的小微。取舍很清楚：牺牲2026–2027年的利润率、回购和净现金，换取生产力AI与微信AI入口；但回报的可计量证据目前只有收入增长倍数，毛利与折旧路径仍不透明。",
+      "strategic_directions": [
+        {
+          "direction": "以WorkBuddy为核心做生产力AI付费（订阅+token用量）",
+          "rationale": "WorkBuddy是唯一已有规模收入的新AI产品：日活超过1,000万、收入环比超过5倍，管理层称其年化毛收入超过5亿美元、中国百强企业60%为客户。",
+          "management_signal": "演示稿用两页阐述WorkBuddy的市场空间与单位经济改善路径（提高付费率、提高单用户token支出、降低token成本），并通过FDE伙伴推动企业部署。",
+          "validation": "4Q26新AI产品拖累≤150亿元且云服务增速≥30%；若公司披露WorkBuddy收入金额或毛利率，作为直接验证。"
+        },
+        {
+          "direction": "以微信内的小微承接C端AI，替代元宝独立获客",
+          "rationale": "元宝未达预期且支出已大幅削减；小微依托微信14.49亿月活与小程序、小店商户网络，管理层称其全量开放后的季度成本仍低于元宝今年早些时候的季度成本。",
+          "management_signal": "小微日活3,000万、在朋友圈、公众号、视频号新增入口；管理层把广告与交易作为最早的变现路径，并提出智能体间撮合服务费。",
+          "validation": "4Q26披露的小微日活超过5,000万，且营销服务毛利率不再因AI成本继续下降。"
+        },
+        {
+          "direction": "自建算力“工厂”并把部分算力通过腾讯云外售",
+          "rationale": "公司称处于增加算力的早期阶段，并已把更多算力分配给MaaS与GPU租赁，云服务增速升至35%；管理层称现金资本开支已见顶，2028年设备价格下降、效率提升后趋势改善。",
+          "management_signal": "现金资本开支约650亿元/季、隐含算力预付款约860亿元；首席战略官表示2026年余下时间与2027年现金资本开支在峰值附近波动。",
+          "validation": "4Q26现金资本开支在550–750亿元之间、包含预付款的自由现金流不低于-300亿元，且金融科技及企业服务毛利率不低于50%。"
+        }
+      ],
+      "core_conflict": "腾讯有能力为AI投入融资，管理层也给出了现金口径的峰值；但利润表承担的是滞后的折旧与渗入核心业务的AI成本，而回报端只有增长倍数而没有金额，投资者必须在看不到AI收入与毛利的情况下为2027年的利润低谷定价。",
+      "falsifier": "若4Q26新AI产品拖累收窄至150亿元以下、非IFRS经营利润率回升至34%以上、物业厂房设备及投资物业折旧环比增速低于10%三者同时出现，“利润拖累峰值后移”的判断即被推翻。",
+      "valuation_context": "业绩后首个交易日（11月19日）股价下跌6.55%至348.40港元，年内累计下跌约42%；8家券商下调目标价但维持评级，高盛认为2027年或为每股盈利低谷。市场已部分定价盈利低谷，尚未定价折旧峰值后移。本报告未使用授权一致预期数据库，预期差依赖媒体转引的LSEG与市场预估。",
+      "catalyst": "WorkBuddy或云业务收入金额首次披露、新AI产品拖累环比收窄、海外合同取消带来的预付款回流使四季度自由现金流转正。",
+      "risk": "折旧与DRAM涨价叠加使利润率继续下探；美国远程访问新规拖慢Hy迭代并引发合同损失；广告增速在宏观疲弱与短剧分成成本下继续放缓。"
+    },
+    "disclaimer": "仅供研究学习，不构成投资建议。财务事实以腾讯官方披露为准；电话会内容来自第三方转写与媒体转述；情景区间是研究假设，不是预测或公司指引。",
+    "approved_at": "2026-11-20T08:42:06.008997+00:00",
+    "approved_by": "user (2026-11-20 publish approval)"
+  },
+  "conclusion_summary": {
+    "thesis": "关键不在于现金资本开支是否见顶，而在于利润表的AI拖累峰值尚未到来。2026年三季度腾讯收入2,073.36亿元（+7.5%），非IFRS经营利润680.73亿元（-6.2%），新AI产品拖累扩大到约152亿元；资本开支814.33亿元（+527%）、算力预付款约860亿元，自由现金流-691亿元，资产负债表转为净债务。回报端只有云服务+35%、WorkBuddy收入环比超过5倍等增长倍数，没有AI收入金额。",
+    "rating": "中性（由上季“中性偏积极”下调）",
+    "confidence": "medium",
+    "primary_difficulty": "把每季约150亿元的新AI产品利润拖累、约650亿元现金资本开支和约860亿元算力预付款，转化为可披露、可计量的收入与毛利；目前公司只给出增长倍数，没有AI收入金额，而折旧高峰仍在前方。",
+    "current_difficulties": [
+      {
+        "title": "AI拖累与折旧仍在爬升，回报只有增长倍数",
+        "evidence": "新AI产品对非IFRS经营利润的影响由1Q26的-88亿元、2Q26的-105亿元扩大到3Q26的-152亿元；资本开支814.33亿元（+527%），折旧环比+25.6%，非流动预付款1,629亿元待转固；AI收入金额均未披露。",
+        "implication": "利润率在现金投入持平后仍可能下行，市场缺少可计量的回报指标来锚定估值。"
+      },
+      {
+        "title": "核心增长引擎减速并开始承担AI成本",
+        "evidence": "剔除新AI产品的经营利润增速由+18.9%降至+7.6%；营销服务毛利率同比-4.3个百分点（AI运营成本与短剧内容成本）；国际游戏-9%；金融科技低个位数增长，10月社零同比仅+0.4%。",
+        "implication": "为AI输血的现金牛本身增速放缓，“核心稳健、AI前置”的组合假设变得更脆弱。"
+      },
+      {
+        "title": "外部算力约束抬高成本并拖慢模型迭代",
+        "evidence": "美国远程访问新规11月19日生效，管理层承认下一代Hy模型推出需要更长时间、高端GPU无法获取；DRAM年初同比上涨约400%，TrendForce预计4Q26合约价再涨10%–15%。",
+        "implication": "单位算力成本上行、训练节奏放慢，模型领先窗口与AI成本曲线都受外部变量支配。"
+      }
+    ],
+    "strategic_judgment": "管理层用成熟业务的现金流和新增债务为“模型（Hy）—应用（WorkBuddy、小微）—基础设施（自用+腾讯云外售）”三层体系融资，并把C端资源从元宝撤向微信内的小微。取舍很清楚：牺牲2026–2027年的利润率、回购和净现金，换取生产力AI与微信AI入口；但回报的可计量证据目前只有收入增长倍数，毛利与折旧路径仍不透明。",
+    "strategic_directions": [
+      {
+        "direction": "以WorkBuddy为核心做生产力AI付费（订阅+token用量）",
+        "rationale": "WorkBuddy是唯一已有规模收入的新AI产品：日活超过1,000万、收入环比超过5倍，管理层称其年化毛收入超过5亿美元、中国百强企业60%为客户。",
+        "management_signal": "演示稿用两页阐述WorkBuddy的市场空间与单位经济改善路径（提高付费率、提高单用户token支出、降低token成本），并通过FDE伙伴推动企业部署。",
+        "validation": "4Q26新AI产品拖累≤150亿元且云服务增速≥30%；若公司披露WorkBuddy收入金额或毛利率，作为直接验证。"
+      },
+      {
+        "direction": "以微信内的小微承接C端AI，替代元宝独立获客",
+        "rationale": "元宝未达预期且支出已大幅削减；小微依托微信14.49亿月活与小程序、小店商户网络，管理层称其全量开放后的季度成本仍低于元宝今年早些时候的季度成本。",
+        "management_signal": "小微日活3,000万、在朋友圈、公众号、视频号新增入口；管理层把广告与交易作为最早的变现路径，并提出智能体间撮合服务费。",
+        "validation": "4Q26披露的小微日活超过5,000万，且营销服务毛利率不再因AI成本继续下降。"
+      },
+      {
+        "direction": "自建算力“工厂”并把部分算力通过腾讯云外售",
+        "rationale": "公司称处于增加算力的早期阶段，并已把更多算力分配给MaaS与GPU租赁，云服务增速升至35%；管理层称现金资本开支已见顶，2028年设备价格下降、效率提升后趋势改善。",
+        "management_signal": "现金资本开支约650亿元/季、隐含算力预付款约860亿元；首席战略官表示2026年余下时间与2027年现金资本开支在峰值附近波动。",
+        "validation": "4Q26现金资本开支在550–750亿元之间、包含预付款的自由现金流不低于-300亿元，且金融科技及企业服务毛利率不低于50%。"
+      }
+    ],
+    "core_conflict": "腾讯有能力为AI投入融资，管理层也给出了现金口径的峰值；但利润表承担的是滞后的折旧与渗入核心业务的AI成本，而回报端只有增长倍数而没有金额，投资者必须在看不到AI收入与毛利的情况下为2027年的利润低谷定价。",
+    "falsifier": "若4Q26新AI产品拖累收窄至150亿元以下、非IFRS经营利润率回升至34%以上、物业厂房设备及投资物业折旧环比增速低于10%三者同时出现，“利润拖累峰值后移”的判断即被推翻。",
+    "valuation_context": "业绩后首个交易日（11月19日）股价下跌6.55%至348.40港元，年内累计下跌约42%；8家券商下调目标价但维持评级，高盛认为2027年或为每股盈利低谷。市场已部分定价盈利低谷，尚未定价折旧峰值后移。本报告未使用授权一致预期数据库，预期差依赖媒体转引的LSEG与市场预估。",
+    "catalyst": "WorkBuddy或云业务收入金额首次披露、新AI产品拖累环比收窄、海外合同取消带来的预付款回流使四季度自由现金流转正。",
+    "risk": "折旧与DRAM涨价叠加使利润率继续下探；美国远程访问新规拖慢Hy迭代并引发合同损失；广告增速在宏观疲弱与短剧分成成本下继续放缓。"
+  },
+  "sources": [
+    {
+      "id": "official-results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111800448.pdf",
+      "title": "Tencent: Announcement of the Results for the Three and Nine Months Ended 30 September 2026 (HKEXnews)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:15:02+08:00"
+    },
+    {
+      "id": "official-press-release",
+      "url": "https://static.www.tencent.com/website-2026-upload/Tencent-Announces-2026-Third-Quarter-Results-1800-6d9a2a.pdf",
+      "title": "Tencent Announces 2026 Third Quarter Results (press release)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:16:29+08:00"
+    },
+    {
+      "id": "official-press-release-cn",
+      "url": "https://www.tencent.com/wp-content/uploads/2026/11/%E8%85%BE%E8%AE%AF%E5%85%AC%E5%B8%83%E4%BA%8C%E9%9B%B6%E4%BA%8C%E5%85%AD%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%AD%A3%E4%B8%9A%E7%BB%A9.pdf",
+      "title": "腾讯公布二零二六年第三季业绩（中文新闻稿）",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:17:30+08:00"
+    },
+    {
+      "id": "official-presentation",
+      "url": "https://static.www.tencent.com/website-2026-upload/Tencent-3Q26-earnings-presentation-1dfb9c.pdf",
+      "title": "Tencent 2026 Third Quarter Results Presentation",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:16:00+08:00"
+    },
+    {
+      "id": "official-2q26-results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200296.pdf",
+      "title": "Tencent: Announcement of the Results for the Three and Six Months Ended 30 June 2026 (HKEXnews)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:18:00+08:00"
+    },
+    {
+      "id": "official-2q26-presentation",
+      "url": "https://static.www.tencent.com/website-2026-upload/2Q26-earnings-PPT_20260812_1800-88b183.pdf",
+      "title": "Tencent 2026 Second Quarter Results Presentation",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:18:00+08:00"
+    },
+    {
+      "id": "official-3q25-results",
+      "url": "https://static.www.tencent.com/uploads/2025/11/13/e63656944030f90a5e4c8f1718d8bdd6.pdf",
+      "title": "Tencent: Announcement of the Results for the Three and Nine Months Ended 30 September 2025",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:18:00+08:00"
+    },
+    {
+      "id": "official-3q25-presentation",
+      "url": "https://static.www.tencent.com/uploads/2025/11/13/3ff004e913507e0309f3f62a553185b2.pdf",
+      "title": "Tencent 2025 Third Quarter Results Presentation",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:18:00+08:00"
+    },
+    {
+      "id": "official-3q25-press-release",
+      "url": "https://static.www.tencent.com/uploads/2025/11/13/a33b6f19738615834787623f17d20ba3.pdf",
+      "title": "Tencent Announces 2025 Third Quarter Results (press release)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:18:00+08:00"
+    },
+    {
+      "id": "peer-alibaba-results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900873.pdf",
+      "title": "Alibaba Group: Announcement of the September Quarter 2026 Results (HKEXnews)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:20:03+08:00"
+    },
+    {
+      "id": "peer-baidu-results",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111600626.pdf",
+      "title": "Baidu: Announcement of the 2026 Third Quarter Results (HKEXnews)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:20:03+08:00"
+    },
+    {
+      "id": "us-federal-register-bis-ifr",
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+      "title": "Addressing Remote Access to Advanced Semiconductors (Interim Final Rule, RIN 0694-AK50, FR Doc. 2026-23529)",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "nbs-retail-sales-oct-2026",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202611/t20261116_1965839.html",
+      "title": "2026年1—10月份社会消费品零售总额增长1.0%",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "call-transcript-earningscalls",
+      "url": "https://earningscalls.dev/transcripts/tencent-holdings-limited_700_earnings_call_transcript_2026-11-18",
+      "title": "Tencent Holdings Limited (700) November 18, 2026 Earnings Call Transcript (first half)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "call-transcript-investing",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tencent-q3-2026-profit-slips-as-ai-spending-surges-93CH-5036117",
+      "title": "Earnings call transcript: Tencent Q3 2026 profit slips as AI spending surges",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-eeo-call",
+      "url": "https://jg-static.eeo.com.cn/article/info?id=9771b9a8a5064514b9f3318d9cac8f06",
+      "title": "腾讯“建工厂”，资本开支再上台阶",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-21cbh-call",
+      "url": "https://www.163.com/dy/article/LC4VMUUL05199NPP.html",
+      "title": "腾讯前三季度资本开支超千亿元 高管：2028年财务趋势将改善（21世纪经济报道）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-timeweekly-call",
+      "url": "https://finance.jrj.com.cn/2026/11/19155759205903.shtml",
+      "title": "算力采购价格2028年大概率下降，腾讯刘炽平：AI投入很难给出固定回本时间表",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-stnn-call",
+      "url": "https://m.stnn.cc/detail/6afeb2958f9d2b19dda21fa1.html",
+      "title": "日均烧钱8.85亿，腾讯AI做出抉择，刘炽平称已大幅削减元宝投入",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-thepaper-call",
+      "url": "https://dahecube.com/article.html?artid=293296",
+      "title": "腾讯总裁刘炽平回应AI“烧钱”（澎湃新闻）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-stheadline-call",
+      "url": "https://www.stheadline.com/zh-hans/daily-finance/3638700/",
+      "title": "腾讯上季度自由现金流负691亿 经调整纯利跌6%",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-36kr-weixi",
+      "url": "https://eu.36kr.com/zh/p/4076046847710087",
+      "title": "小微日活3000万——腾讯Q3财报电话会的12条观察与思考（卫夕指北）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-yahoo-hk-close",
+      "url": "https://hk.finance.yahoo.com/news/港股收盤-科網股集體走低-恒指重挫1-95-失守二萬三-083447331.html",
+      "title": "〈港股收盤〉科網股集體走低 恒指重挫1.95% 失守二萬三 騰訊績後暴跌超6%",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-stcn-close",
+      "url": "https://www.stcn.com/article/detail/4343991.html",
+      "title": "港股收评：恒生科技指数跌2.33% 腾讯控股跌超6%",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-qqnews-estimates",
+      "url": "https://news.qq.com/rain/a/20261118A0DD0100",
+      "title": "腾讯：Q3营收低于预期，调整后净利同比下降6%（市场预估未注明提供方）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-lseg-consensus",
+      "url": "https://sg.finance.yahoo.com/news/tencent-q3-revenue-misses-estimates-094554252.html",
+      "title": "Tencent Q3 revenue misses estimates as AI spending weighs on adjusted profit (cites Reuters/LSEG)",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-sina-brokers",
+      "url": "https://www.163.com/dy/article/LC46JGHA05568W0A.html",
+      "title": "受国际游戏疲弱及人工智能开支高企拖累：腾讯第三季收入偏软 八家大行集体下调目标价",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "questmobile-ai-apps-nfnews",
+      "url": "https://www.nfnews.com/content/z6L5JrzPoe.html",
+      "title": "QuestMobile报告：AI原生APP月活5.46亿，“办公+生活”成为主线",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "questmobile-ai-apps-199it",
+      "url": "http://www.199it.com/archives/1858382.html",
+      "title": "QuestMobile：2026年9月豆包AI原生App月活4.19亿",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-thepaper-minidrama",
+      "url": "https://m.thepaper.cn/newsDetail_forward_34490148",
+      "title": "手握微信流量，绿泡泡凶猛战红果",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-minidrama-expert-notes",
+      "url": "https://www.sohu.com/a/1102755254_122135404",
+      "title": "微信“绿泡泡”短剧日活近2000万，定下明年夏天冲5000万日活目标（专家纪要转述）",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-minidrama-rules",
+      "url": "https://vv.lmtw.com/mzw/content/detail/id/260311",
+      "title": "绿泡泡起量迅速,但发它比发红果更值吗？",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-bytedance-capex-cls",
+      "url": "https://www.163.com/dy/article/KSII32FU05198CJN.html",
+      "title": "字节再加码！全球AI资本开支持续上修 算力步入全链通胀（科创板日报）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-bytedance-capex-bbg",
+      "url": "https://www.jiemian.com/article/14932460.html",
+      "title": "国内AI盛宴透视：从腾讯528亿资本开支说起（引彭博社5月27日报道）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "trendforce-dram-4q26",
+      "url": "https://www.trendforce.cn/presscenter/news/20260930-13257.html",
+      "title": "TrendForce集邦咨询: AI服务器增量需求支撑4Q26存储器合约价涨势",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-gta6-launch",
+      "url": "https://www.163.com/dy/article/LC4K546S0514BE2Q.html",
+      "title": "娱乐巨头的“超级印钞机”，来了（GTA6 发售）",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-gta6-anadolu",
+      "url": "https://www.aa.com.tr/en/features/factbox-gta-vi-economy-165b-in-preorders-surging-console-sales-and-workplace-absences/4131531",
+      "title": "FACTBOX - GTA VI economy: $1.65B in preorders",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-stcn-ai-budget",
+      "url": "https://www.stcn.com/article/detail/3684020.html",
+      "title": "腾讯总裁刘炽平：今年AI投资至少翻倍",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-cs-ai-budget",
+      "url": "https://m.cnfin.com/gs-lb//zixun/20260321/4389296_1.html",
+      "title": "AI智能体重构产业逻辑 头部企业投入升级",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-hy4-donews",
+      "url": "https://www.donews.com/news/detail/1/6766398.html",
+      "title": "Hy4发布，我们让它写了份腾讯研报",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-hy4-21jingji",
+      "url": "https://m.21jingji.com/timeline/d5c0d673c5c7da0f2e4d4c5bc7036a84.html",
+      "title": "腾讯混元Hy4位列Artificial Analysis榜单中国模型第二，Arena榜单全球开源模型第一",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "media-hy4-capacity",
+      "url": "https://www.sohu.com/a/1097936941_404443",
+      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "tencent-cloud-workbuddy-billing",
+      "url": "https://www.tencentcloud.com/document/product/1316/84378",
+      "title": "Tencent WorkBuddy Enterprise - Billing Overview",
+      "authority_level": "tier1",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "tencent-cloud-community-hy4-free",
+      "url": "https://cloud.tencent.com.cn/developer/article/2786496",
+      "title": "Hy3 下架、Hy4 恢复计费后，WorkBuddy 现在还有哪款模型免费",
+      "authority_level": "tier4",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "law-zhonglun-bis",
+      "url": "https://www.zhonglun.com/research/articles/56934.html",
+      "title": "美国商务部BIS发布先进半导体“远程访问”新规：五大要点解读及建议",
+      "authority_level": "tier3",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    },
+    {
+      "id": "prior-q2-report",
+      "url": "file:///Users/yaosihang/Documents/Codex/2026-10-03/site-2026q2/public/data/tencent-2026-q2.json",
+      "title": "腾讯控股 2026Q2 研究报告（网站已发布数据，只读参照）",
+      "authority_level": "internal-prior-research",
+      "retrieved_at": "2026-11-20T14:40:00+08:00"
+    }
+  ],
+  "facts": [
+    {
+      "id": "total_revenue",
+      "metric": "total_revenue",
+      "value": 207336,
+      "display_value": "2,073.36 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Revenues: 3Q2026 RMB207,336 million; 3Q2025 RMB192,869 million; 2Q2026 RMB204,785 million.",
+      "location": "公告 p.1, p.5, p.9；利润表 p.18",
+      "previous_value": 192869,
+      "prior_quarter_value": 204785
+    },
+    {
+      "id": "total_revenue-2025q3",
+      "metric": "total_revenue",
+      "value": 192869,
+      "display_value": "1,928.69 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Revenues: 3Q2026 RMB207,336 million; 3Q2025 RMB192,869 million; 2Q2026 RMB204,785 million.",
+      "location": "公告 p.1, p.5, p.9；利润表 p.18"
+    },
+    {
+      "id": "total_revenue-2026q2",
+      "metric": "total_revenue",
+      "value": 204785,
+      "display_value": "2,047.85 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Revenues: 3Q2026 RMB207,336 million; 3Q2025 RMB192,869 million; 2Q2026 RMB204,785 million.",
+      "location": "公告 p.1, p.5, p.9；利润表 p.18"
+    },
+    {
+      "id": "cost_of_revenues",
+      "metric": "cost_of_revenues",
+      "value": 91425,
+      "display_value": "914.25 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Cost of revenues: 3Q2026 RMB91,425 million; 3Q2025 RMB84,071 million; 2Q2026 RMB86,352 million.",
+      "location": "公告 p.5, p.9",
+      "previous_value": 84071,
+      "prior_quarter_value": 86352
+    },
+    {
+      "id": "cost_of_revenues-2025q3",
+      "metric": "cost_of_revenues",
+      "value": 84071,
+      "display_value": "840.71 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Cost of revenues: 3Q2026 RMB91,425 million; 3Q2025 RMB84,071 million; 2Q2026 RMB86,352 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "cost_of_revenues-2026q2",
+      "metric": "cost_of_revenues",
+      "value": 86352,
+      "display_value": "863.52 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Cost of revenues: 3Q2026 RMB91,425 million; 3Q2025 RMB84,071 million; 2Q2026 RMB86,352 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "gross_profit",
+      "metric": "gross_profit",
+      "value": 115911,
+      "display_value": "1,159.11 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Gross profit: 3Q2026 RMB115,911 million; 3Q2025 RMB108,798 million; 2Q2026 RMB118,433 million.",
+      "location": "公告 p.1, p.5, p.9",
+      "previous_value": 108798,
+      "prior_quarter_value": 118433
+    },
+    {
+      "id": "gross_profit-2025q3",
+      "metric": "gross_profit",
+      "value": 108798,
+      "display_value": "1,087.98 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Gross profit: 3Q2026 RMB115,911 million; 3Q2025 RMB108,798 million; 2Q2026 RMB118,433 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "gross_profit-2026q2",
+      "metric": "gross_profit",
+      "value": 118433,
+      "display_value": "1,184.33 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Gross profit: 3Q2026 RMB115,911 million; 3Q2025 RMB108,798 million; 2Q2026 RMB118,433 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "sales_and_marketing_expenses",
+      "metric": "sales_and_marketing_expenses",
+      "value": 12144,
+      "display_value": "121.44 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Selling and marketing expenses: 3Q2026 RMB12,144 million; 3Q2025 RMB11,468 million; 2Q2026 RMB11,869 million.",
+      "location": "公告 p.5, p.9",
+      "previous_value": 11468,
+      "prior_quarter_value": 11869
+    },
+    {
+      "id": "sales_and_marketing_expenses-2025q3",
+      "metric": "sales_and_marketing_expenses",
+      "value": 11468,
+      "display_value": "114.68 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Selling and marketing expenses: 3Q2026 RMB12,144 million; 3Q2025 RMB11,468 million; 2Q2026 RMB11,869 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "sales_and_marketing_expenses-2026q2",
+      "metric": "sales_and_marketing_expenses",
+      "value": 11869,
+      "display_value": "118.69 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Selling and marketing expenses: 3Q2026 RMB12,144 million; 3Q2025 RMB11,468 million; 2Q2026 RMB11,869 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "general_and_administrative_expenses",
+      "metric": "general_and_administrative_expenses",
+      "value": 44077,
+      "display_value": "440.77 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "General and administrative expenses: 3Q2026 RMB44,077 million; 3Q2025 RMB34,259 million; 2Q2026 RMB38,808 million.",
+      "location": "公告 p.5, p.9",
+      "previous_value": 34259,
+      "prior_quarter_value": 38808
+    },
+    {
+      "id": "general_and_administrative_expenses-2025q3",
+      "metric": "general_and_administrative_expenses",
+      "value": 34259,
+      "display_value": "342.59 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "General and administrative expenses: 3Q2026 RMB44,077 million; 3Q2025 RMB34,259 million; 2Q2026 RMB38,808 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "general_and_administrative_expenses-2026q2",
+      "metric": "general_and_administrative_expenses",
+      "value": 38808,
+      "display_value": "388.08 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "General and administrative expenses: 3Q2026 RMB44,077 million; 3Q2025 RMB34,259 million; 2Q2026 RMB38,808 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "operating_income",
+      "metric": "operating_income",
+      "value": 59147,
+      "display_value": "591.47 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Operating profit: 3Q2026 RMB59,147 million; 3Q2025 RMB63,554 million; 2Q2026 RMB67,276 million.",
+      "location": "公告 p.1, p.5, p.9",
+      "previous_value": 63554,
+      "prior_quarter_value": 67276
+    },
+    {
+      "id": "operating_income-2025q3",
+      "metric": "operating_income",
+      "value": 63554,
+      "display_value": "635.54 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Operating profit: 3Q2026 RMB59,147 million; 3Q2025 RMB63,554 million; 2Q2026 RMB67,276 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "operating_income-2026q2",
+      "metric": "operating_income",
+      "value": 67276,
+      "display_value": "672.76 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Operating profit: 3Q2026 RMB59,147 million; 3Q2025 RMB63,554 million; 2Q2026 RMB67,276 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "net_gains_from_investments",
+      "metric": "net_gains_from_investments",
+      "value": 10057,
+      "display_value": "100.57 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Net gains/(losses) from investments and others: 3Q2026 RMB10,057 million; 3Q2025 RMB2,820 million; 2Q2026 RMB11,184 million.",
+      "location": "公告 p.5, p.9",
+      "previous_value": 2820,
+      "prior_quarter_value": 11184
+    },
+    {
+      "id": "net_gains_from_investments-2025q3",
+      "metric": "net_gains_from_investments",
+      "value": 2820,
+      "display_value": "28.20 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Net gains/(losses) from investments and others: 3Q2026 RMB10,057 million; 3Q2025 RMB2,820 million; 2Q2026 RMB11,184 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "net_gains_from_investments-2026q2",
+      "metric": "net_gains_from_investments",
+      "value": 11184,
+      "display_value": "111.84 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Net gains/(losses) from investments and others: 3Q2026 RMB10,057 million; 3Q2025 RMB2,820 million; 2Q2026 RMB11,184 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "share_of_associates_profit",
+      "metric": "share_of_associates_profit",
+      "value": 4482,
+      "display_value": "44.82 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Share of profit/(loss) of associates and joint ventures, net: 3Q2026 RMB4,482 million; 3Q2025 RMB7,854 million; 2Q2026 RMB-9,993 million.",
+      "location": "公告 p.5, p.9",
+      "previous_value": 7854,
+      "prior_quarter_value": -9993
+    },
+    {
+      "id": "share_of_associates_profit-2025q3",
+      "metric": "share_of_associates_profit",
+      "value": 7854,
+      "display_value": "78.54 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Share of profit/(loss) of associates and joint ventures, net: 3Q2026 RMB4,482 million; 3Q2025 RMB7,854 million; 2Q2026 RMB-9,993 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "share_of_associates_profit-2026q2",
+      "metric": "share_of_associates_profit",
+      "value": -9993,
+      "display_value": "-99.93 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Share of profit/(loss) of associates and joint ventures, net: 3Q2026 RMB4,482 million; 3Q2025 RMB7,854 million; 2Q2026 RMB-9,993 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "income_tax_expense",
+      "metric": "income_tax_expense",
+      "value": 9052,
+      "display_value": "90.52 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Income tax expense: 3Q2026 RMB9,052 million; 3Q2025 RMB9,785 million; 2Q2026 RMB11,713 million.",
+      "location": "公告 p.5, p.9",
+      "previous_value": 9785,
+      "prior_quarter_value": 11713
+    },
+    {
+      "id": "income_tax_expense-2025q3",
+      "metric": "income_tax_expense",
+      "value": 9785,
+      "display_value": "97.85 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Income tax expense: 3Q2026 RMB9,052 million; 3Q2025 RMB9,785 million; 2Q2026 RMB11,713 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "income_tax_expense-2026q2",
+      "metric": "income_tax_expense",
+      "value": 11713,
+      "display_value": "117.13 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Income tax expense: 3Q2026 RMB9,052 million; 3Q2025 RMB9,785 million; 2Q2026 RMB11,713 million.",
+      "location": "公告 p.5, p.9"
+    },
+    {
+      "id": "net_income",
+      "metric": "net_income",
+      "value": 65139,
+      "display_value": "651.39 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Profit for the period: 3Q2026 RMB65,139 million; 3Q2025 RMB64,943 million; 2Q2026 RMB57,977 million.",
+      "location": "公告 p.1, p.5, p.9",
+      "previous_value": 64943,
+      "prior_quarter_value": 57977
+    },
+    {
+      "id": "net_income-2025q3",
+      "metric": "net_income",
+      "value": 64943,
+      "display_value": "649.43 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Profit for the period: 3Q2026 RMB65,139 million; 3Q2025 RMB64,943 million; 2Q2026 RMB57,977 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "net_income-2026q2",
+      "metric": "net_income",
+      "value": 57977,
+      "display_value": "579.77 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Profit for the period: 3Q2026 RMB65,139 million; 3Q2025 RMB64,943 million; 2Q2026 RMB57,977 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "net_income_attributable",
+      "metric": "net_income_attributable",
+      "value": 63612,
+      "display_value": "636.12 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Profit attributable to equity holders of the Company: 3Q2026 RMB63,612 million; 3Q2025 RMB63,133 million; 2Q2026 RMB56,022 million.",
+      "location": "公告 p.1, p.5, p.9",
+      "previous_value": 63133,
+      "prior_quarter_value": 56022
+    },
+    {
+      "id": "net_income_attributable-2025q3",
+      "metric": "net_income_attributable",
+      "value": 63133,
+      "display_value": "631.33 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Profit attributable to equity holders of the Company: 3Q2026 RMB63,612 million; 3Q2025 RMB63,133 million; 2Q2026 RMB56,022 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "net_income_attributable-2026q2",
+      "metric": "net_income_attributable",
+      "value": 56022,
+      "display_value": "560.22 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Profit attributable to equity holders of the Company: 3Q2026 RMB63,612 million; 3Q2025 RMB63,133 million; 2Q2026 RMB56,022 million.",
+      "location": "公告 p.1, p.5, p.9"
+    },
+    {
+      "id": "nongaap_operating_income",
+      "metric": "nongaap_operating_income",
+      "value": 68073,
+      "display_value": "680.73 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS operating profit: 3Q2026 RMB68,073 million; 3Q2025 RMB72,570 million; 2Q2026 RMB75,636 million.",
+      "location": "公告 p.1, p.5, p.9, p.14",
+      "previous_value": 72570,
+      "prior_quarter_value": 75636
+    },
+    {
+      "id": "nongaap_operating_income-2025q3",
+      "metric": "nongaap_operating_income",
+      "value": 72570,
+      "display_value": "725.70 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS operating profit: 3Q2026 RMB68,073 million; 3Q2025 RMB72,570 million; 2Q2026 RMB75,636 million.",
+      "location": "公告 p.1, p.5, p.9, p.14"
+    },
+    {
+      "id": "nongaap_operating_income-2026q2",
+      "metric": "nongaap_operating_income",
+      "value": 75636,
+      "display_value": "756.36 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS operating profit: 3Q2026 RMB68,073 million; 3Q2025 RMB72,570 million; 2Q2026 RMB75,636 million.",
+      "location": "公告 p.1, p.5, p.9, p.14"
+    },
+    {
+      "id": "nongaap_net_income",
+      "metric": "nongaap_net_income",
+      "value": 66519,
+      "display_value": "665.19 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS profit attributable to equity holders of the Company: 3Q2026 RMB66,519 million; 3Q2025 RMB70,551 million; 2Q2026 RMB68,415 million.",
+      "location": "公告 p.1, p.5, p.9, p.14",
+      "previous_value": 70551,
+      "prior_quarter_value": 68415
+    },
+    {
+      "id": "nongaap_net_income-2025q3",
+      "metric": "nongaap_net_income",
+      "value": 70551,
+      "display_value": "705.51 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS profit attributable to equity holders of the Company: 3Q2026 RMB66,519 million; 3Q2025 RMB70,551 million; 2Q2026 RMB68,415 million.",
+      "location": "公告 p.1, p.5, p.9, p.14"
+    },
+    {
+      "id": "nongaap_net_income-2026q2",
+      "metric": "nongaap_net_income",
+      "value": 68415,
+      "display_value": "684.15 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Non-IFRS profit attributable to equity holders of the Company: 3Q2026 RMB66,519 million; 3Q2025 RMB70,551 million; 2Q2026 RMB68,415 million.",
+      "location": "公告 p.1, p.5, p.9, p.14"
+    },
+    {
+      "id": "ebitda",
+      "metric": "ebitda",
+      "value": 79439,
+      "display_value": "794.39 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "EBITDA: 3Q2026 RMB79,439 million; 3Q2025 RMB80,357 million; 2Q2026 RMB85,776 million.",
+      "location": "公告 p.12-13",
+      "previous_value": 80357,
+      "prior_quarter_value": 85776
+    },
+    {
+      "id": "ebitda-2025q3",
+      "metric": "ebitda",
+      "value": 80357,
+      "display_value": "803.57 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "EBITDA: 3Q2026 RMB79,439 million; 3Q2025 RMB80,357 million; 2Q2026 RMB85,776 million.",
+      "location": "公告 p.12-13"
+    },
+    {
+      "id": "ebitda-2026q2",
+      "metric": "ebitda",
+      "value": 85776,
+      "display_value": "857.76 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "EBITDA: 3Q2026 RMB79,439 million; 3Q2025 RMB80,357 million; 2Q2026 RMB85,776 million.",
+      "location": "公告 p.12-13"
+    },
+    {
+      "id": "adjusted_ebitda",
+      "metric": "adjusted_ebitda",
+      "value": 84893,
+      "display_value": "848.93 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Adjusted EBITDA: 3Q2026 RMB84,893 million; 3Q2025 RMB86,698 million; 2Q2026 RMB91,372 million.",
+      "location": "公告 p.12-13",
+      "previous_value": 86698,
+      "prior_quarter_value": 91372
+    },
+    {
+      "id": "adjusted_ebitda-2025q3",
+      "metric": "adjusted_ebitda",
+      "value": 86698,
+      "display_value": "866.98 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Adjusted EBITDA: 3Q2026 RMB84,893 million; 3Q2025 RMB86,698 million; 2Q2026 RMB91,372 million.",
+      "location": "公告 p.12-13"
+    },
+    {
+      "id": "adjusted_ebitda-2026q2",
+      "metric": "adjusted_ebitda",
+      "value": 91372,
+      "display_value": "913.72 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Adjusted EBITDA: 3Q2026 RMB84,893 million; 3Q2025 RMB86,698 million; 2Q2026 RMB91,372 million.",
+      "location": "公告 p.12-13"
+    },
+    {
+      "id": "research_and_development_expenses",
+      "metric": "research_and_development_expenses",
+      "value": 32362,
+      "display_value": "323.62 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Expenses for the purpose of R&D approx. RMB32,362 million (3Q2025: RMB22,822 million); 2Q2026 RMB27,278 million (2Q26 note 3(b)).",
+      "location": "公告 p.28 附注3(b)；2Q26公告 p.28",
+      "previous_value": 22822,
+      "prior_quarter_value": 27278
+    },
+    {
+      "id": "research_and_development_expenses-2025q3",
+      "metric": "research_and_development_expenses",
+      "value": 22822,
+      "display_value": "228.22 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "3Q2025 R&D approx. RMB22,822 million (comparative in 3Q26 note 3(b)).",
+      "location": "公告 p.28"
+    },
+    {
+      "id": "research_and_development_expenses-2026q2",
+      "metric": "research_and_development_expenses",
+      "value": 27278,
+      "display_value": "272.78 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-results"
+      ],
+      "evidence": "2Q2026 R&D approx. RMB27,278 million.",
+      "location": "2Q26公告 p.28 附注3(b)"
+    },
+    {
+      "id": "rd_employee_benefits",
+      "metric": "rd_employee_benefits",
+      "value": 16963,
+      "display_value": "169.63 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "R&D mainly comprised employee benefits expenses approx. RMB16,963 million (3Q2025: RMB16,720 million); 2Q2026 RMB16,481 million.",
+      "location": "公告 p.28 附注3(b)；2Q26公告 p.28",
+      "previous_value": 16720,
+      "prior_quarter_value": 16481
+    },
+    {
+      "id": "technical_infrastructure_operations_costs",
+      "metric": "technical_infrastructure_operations_costs",
+      "value": 19991,
+      "display_value": "199.91 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Technical infrastructure operations costs (excluding depreciation): 3Q2026 RMB19,991 million; 3Q2025 RMB8,623 million; 2Q2026 RMB15,212 million.",
+      "location": "公告 p.28 附注3；2Q26公告 p.28 附注3",
+      "previous_value": 8623,
+      "prior_quarter_value": 15212
+    },
+    {
+      "id": "depreciation_ppe_rou",
+      "metric": "depreciation_ppe_rou",
+      "value": 13701,
+      "display_value": "137.01 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Depreciation of property, plant and equipment, investment properties and right-of-use assets: 3Q2026 RMB13,701 million; 3Q2025 RMB8,808 million; 2Q2026 RMB11,161 million.",
+      "location": "公告 p.28 附注3；2Q26公告 p.28 附注3",
+      "previous_value": 8808,
+      "prior_quarter_value": 11161
+    },
+    {
+      "id": "content_costs",
+      "metric": "content_costs",
+      "value": 20957,
+      "display_value": "209.57 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Content costs (excluding amortisation of intangible assets): 3Q2026 RMB20,957 million; 3Q2025 RMB17,964 million; 2Q2026 RMB19,045 million.",
+      "location": "公告 p.28 附注3；2Q26公告 p.28 附注3",
+      "previous_value": 17964,
+      "prior_quarter_value": 19045
+    },
+    {
+      "id": "employee_benefits_expenses",
+      "metric": "employee_benefits_expenses",
+      "value": 32585,
+      "display_value": "325.85 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Employee benefits expenses: 3Q2026 RMB32,585 million; 3Q2025 RMB32,386 million; 2Q2026 RMB32,105 million.",
+      "location": "公告 p.28 附注3；2Q26公告 p.28 附注3",
+      "previous_value": 32386,
+      "prior_quarter_value": 32105
+    },
+    {
+      "id": "promotion_and_advertising_expenses",
+      "metric": "promotion_and_advertising_expenses",
+      "value": 8699,
+      "display_value": "86.99 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Promotion and advertising expenses: 3Q2026 RMB8,699 million; 3Q2025 RMB8,642 million; 2Q2026 RMB9,191 million.",
+      "location": "公告 p.28 附注3；2Q26公告 p.28 附注3",
+      "previous_value": 8642,
+      "prior_quarter_value": 9191
+    },
+    {
+      "id": "transaction_costs",
+      "metric": "transaction_costs",
+      "value": 34848,
+      "display_value": "348.48 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Transaction costs: 3Q2026 RMB34,848 million; 3Q2025 RMB34,907 million; 2Q2026 RMB34,090 million.",
+      "location": "公告 p.28 附注3；2Q26公告 p.28 附注3",
+      "previous_value": 34907,
+      "prior_quarter_value": 34090
+    },
+    {
+      "id": "amortisation_of_intangibles",
+      "metric": "amortisation_of_intangibles",
+      "value": 6047,
+      "display_value": "60.47 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Amortisation of intangible assets: 3Q2026 RMB6,047 million; 3Q2025 RMB8,426 million; 2Q2026 RMB6,826 million.",
+      "location": "公告 p.28 附注3；2Q26公告 p.28 附注3",
+      "previous_value": 8426,
+      "prior_quarter_value": 6826
+    },
+    {
+      "id": "depreciation_ppe_ip",
+      "metric": "depreciation_ppe_ip",
+      "value": 11995,
+      "display_value": "119.95 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Depreciation of property, plant and equipment and investment properties: 3Q2026 RMB11,995m; 2Q2026 RMB9,553m; 3Q2025 RMB7,297m (EBITDA reconciliation).",
+      "location": "公告 p.13",
+      "previous_value": 7297,
+      "prior_quarter_value": 9553
+    },
+    {
+      "id": "share_based_compensation_operating",
+      "metric": "share_based_compensation",
+      "value": 7115,
+      "display_value": "71.15 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Share-based compensation adjustment to operating profit: 3Q2026 RMB7,115m; 3Q2025 RMB7,188m; 2Q2026 RMB6,579m.",
+      "location": "公告 p.14-15",
+      "previous_value": 7188,
+      "prior_quarter_value": 6579
+    },
+    {
+      "id": "interest_and_related_expenses",
+      "metric": "interest_and_related_expenses",
+      "value": 3672,
+      "display_value": "36.72 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Interest and related expenses: 3Q2026 RMB3,672m; 2Q2026 RMB3,212m; 3Q2025 RMB3,206m.",
+      "location": "公告 p.12",
+      "previous_value": 3206,
+      "prior_quarter_value": 3212
+    },
+    {
+      "id": "vas-revenue",
+      "metric": "segment_revenue",
+      "value": 98326,
+      "display_value": "983.26 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "Segment revenues 增值服务: 3Q2026 RMB98,326m; 3Q2025 RMB95,860m; 2Q2026 RMB98,414m.",
+      "location": "公告 p.6, p.18, p.26；新闻稿 p.5",
+      "previous_value": 95860,
+      "prior_quarter_value": 98414
+    },
+    {
+      "id": "vas-revenue-2025q3",
+      "metric": "segment_revenue",
+      "value": 95860,
+      "display_value": "958.60 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": "增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Segment revenues 增值服务 3Q2025 RMB95,860m.",
+      "location": "公告 p.6, p.27"
+    },
+    {
+      "id": "vas-gross-profit",
+      "metric": "segment_gross_profit",
+      "value": 63017,
+      "display_value": "630.17 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Segment gross profit 增值服务: 3Q2026 RMB63,017m; 3Q2025 RMB58,623m; 2Q2026 RMB62,926m.",
+      "location": "公告 p.7, p.26-27；2Q26公告 分部资料",
+      "previous_value": 58623,
+      "prior_quarter_value": 62926
+    },
+    {
+      "id": "vas-cor-depreciation",
+      "metric": "segment_cost_of_revenue_depreciation",
+      "value": 1868,
+      "display_value": "18.68 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "增值服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Depreciation in cost of revenues 增值服务: 3Q2026 RMB1,868m; 3Q2025 RMB1,512m; 2Q2026 RMB1,647m.",
+      "location": "公告 p.26-27；2Q26公告 分部资料",
+      "previous_value": 1512,
+      "prior_quarter_value": 1647
+    },
+    {
+      "id": "marketing-revenue",
+      "metric": "segment_revenue",
+      "value": 43049,
+      "display_value": "430.49 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "营销服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "Segment revenues 营销服务: 3Q2026 RMB43,049m; 3Q2025 RMB36,242m; 2Q2026 RMB43,565m.",
+      "location": "公告 p.6, p.18, p.26；新闻稿 p.5",
+      "previous_value": 36242,
+      "prior_quarter_value": 43565
+    },
+    {
+      "id": "marketing-revenue-2025q3",
+      "metric": "segment_revenue",
+      "value": 36242,
+      "display_value": "362.42 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": "营销服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Segment revenues 营销服务 3Q2025 RMB36,242m.",
+      "location": "公告 p.6, p.27"
+    },
+    {
+      "id": "marketing-gross-profit",
+      "metric": "segment_gross_profit",
+      "value": 22578,
+      "display_value": "225.78 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "营销服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Segment gross profit 营销服务: 3Q2026 RMB22,578m; 3Q2025 RMB20,551m; 2Q2026 RMB24,969m.",
+      "location": "公告 p.7, p.26-27；2Q26公告 分部资料",
+      "previous_value": 20551,
+      "prior_quarter_value": 24969
+    },
+    {
+      "id": "marketing-cor-depreciation",
+      "metric": "segment_cost_of_revenue_depreciation",
+      "value": 2920,
+      "display_value": "29.20 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "营销服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Depreciation in cost of revenues 营销服务: 3Q2026 RMB2,920m; 3Q2025 RMB2,185m; 2Q2026 RMB2,228m.",
+      "location": "公告 p.26-27；2Q26公告 分部资料",
+      "previous_value": 2185,
+      "prior_quarter_value": 2228
+    },
+    {
+      "id": "fbs-revenue",
+      "metric": "segment_revenue",
+      "value": 63655,
+      "display_value": "636.55 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "Segment revenues 金融科技及企业服务: 3Q2026 RMB63,655m; 3Q2025 RMB58,174m; 2Q2026 RMB60,286m.",
+      "location": "公告 p.6, p.18, p.26；新闻稿 p.5",
+      "previous_value": 58174,
+      "prior_quarter_value": 60286
+    },
+    {
+      "id": "fbs-revenue-2025q3",
+      "metric": "segment_revenue",
+      "value": 58174,
+      "display_value": "581.74 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Segment revenues 金融科技及企业服务 3Q2025 RMB58,174m.",
+      "location": "公告 p.6, p.27"
+    },
+    {
+      "id": "fbs-gross-profit",
+      "metric": "segment_gross_profit",
+      "value": 31551,
+      "display_value": "315.51 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Segment gross profit 金融科技及企业服务: 3Q2026 RMB31,551m; 3Q2025 RMB29,210m; 2Q2026 RMB31,422m.",
+      "location": "公告 p.7, p.26-27；2Q26公告 分部资料",
+      "previous_value": 29210,
+      "prior_quarter_value": 31422
+    },
+    {
+      "id": "fbs-cor-depreciation",
+      "metric": "segment_cost_of_revenue_depreciation",
+      "value": 3675,
+      "display_value": "36.75 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Depreciation in cost of revenues 金融科技及企业服务: 3Q2026 RMB3,675m; 3Q2025 RMB1,835m; 2Q2026 RMB2,455m.",
+      "location": "公告 p.26-27；2Q26公告 分部资料",
+      "previous_value": 1835,
+      "prior_quarter_value": 2455
+    },
+    {
+      "id": "others-revenue",
+      "metric": "segment_revenue",
+      "value": 2306,
+      "display_value": "23.06 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "其他",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "Segment revenues 其他: 3Q2026 RMB2,306m; 3Q2025 RMB2,593m; 2Q2026 RMB2,520m.",
+      "location": "公告 p.6, p.18, p.26；新闻稿 p.5",
+      "previous_value": 2593,
+      "prior_quarter_value": 2520
+    },
+    {
+      "id": "others-revenue-2025q3",
+      "metric": "segment_revenue",
+      "value": 2593,
+      "display_value": "25.93 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": "其他",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Segment revenues 其他 3Q2025 RMB2,593m.",
+      "location": "公告 p.6, p.27"
+    },
+    {
+      "id": "others-gross-profit",
+      "metric": "segment_gross_profit",
+      "value": -1235,
+      "display_value": "-12.35 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "其他",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Segment gross profit 其他: 3Q2026 RMB-1,235m; 3Q2025 RMB414m; 2Q2026 RMB-884m.",
+      "location": "公告 p.7, p.26-27；2Q26公告 分部资料",
+      "previous_value": 414,
+      "prior_quarter_value": -884
+    },
+    {
+      "id": "others-cor-depreciation",
+      "metric": "segment_cost_of_revenue_depreciation",
+      "value": 735,
+      "display_value": "7.35 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "其他",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Depreciation in cost of revenues 其他: 3Q2026 RMB735m; 3Q2025 RMB4m; 2Q2026 RMB949m.",
+      "location": "公告 p.26-27；2Q26公告 分部资料",
+      "previous_value": 4,
+      "prior_quarter_value": 949
+    },
+    {
+      "id": "domestic-games-revenue",
+      "metric": "sub_segment_revenue",
+      "value": 47600,
+      "display_value": "476.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "本土市场游戏",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation",
+        "official-results"
+      ],
+      "evidence": "本土市场游戏 revenue RMB47.6bn (3Q25 42.8bn; 2Q26 47.3bn); presented to RMB0.1bn.",
+      "location": "演示稿 p.4, p.14；公告 p.6",
+      "previous_value": 42800,
+      "prior_quarter_value": 47300
+    },
+    {
+      "id": "international-games-revenue",
+      "metric": "sub_segment_revenue",
+      "value": 18900,
+      "display_value": "189.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "国际市场游戏",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation",
+        "official-results"
+      ],
+      "evidence": "国际市场游戏 revenue RMB18.9bn (3Q25 20.8bn; 2Q26 18.6bn); presented to RMB0.1bn.",
+      "location": "演示稿 p.4, p.14；公告 p.6",
+      "previous_value": 20800,
+      "prior_quarter_value": 18600
+    },
+    {
+      "id": "social-networks-revenue",
+      "metric": "sub_segment_revenue",
+      "value": 31800,
+      "display_value": "318.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "社交网络",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation",
+        "official-results"
+      ],
+      "evidence": "社交网络 revenue RMB31.8bn (3Q25 32.3bn; 2Q26 32.5bn); presented to RMB0.1bn.",
+      "location": "演示稿 p.4, p.14；公告 p.6",
+      "previous_value": 32300,
+      "prior_quarter_value": 32500
+    },
+    {
+      "id": "international-games-cc-growth",
+      "metric": "international_games_constant_currency_growth",
+      "value": -4.0,
+      "display_value": "-4.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "International Games revenues down 9% YoY (or down 4% on a constant currency basis).",
+      "location": "公告 p.6"
+    },
+    {
+      "id": "nongaap_operating_income_excl_new_ai",
+      "metric": "nongaap_operating_income_excl_new_ai",
+      "value": 83300,
+      "display_value": "833.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Non-IFRS operating profit excl. New AI Products: 3Q2026 RMB83.3bn; 3Q2025 RMB77.4bn; 2Q2026 RMB86.1bn (+8% YoY, -3% QoQ).",
+      "location": "公告 p.8, p.11；演示稿 p.4, p.21",
+      "previous_value": 77400,
+      "prior_quarter_value": 86100
+    },
+    {
+      "id": "nongaap_operating_income_excl_new_ai-2026q1",
+      "metric": "nongaap_operating_income_excl_new_ai",
+      "value": 84400,
+      "display_value": "844.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "2Q26 presentation: Operating Profit excl. New AI Products 1Q2026 RMB84.4bn; Non-IFRS operating profit 1Q2026 RMB75.6bn.",
+      "location": "2Q26演示稿 p.4, p.22"
+    },
+    {
+      "id": "nongaap_operating_income-2026q1",
+      "metric": "nongaap_operating_income",
+      "value": 75600,
+      "display_value": "756.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "2Q26 presentation: Non-IFRS operating profit 1Q2026 RMB75.6bn.",
+      "location": "2Q26演示稿 p.22"
+    },
+    {
+      "id": "nongaap_operating_income_excl_new_ai-2025q2",
+      "metric": "nongaap_operating_income_excl_new_ai",
+      "value": 72400,
+      "display_value": "724.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "2Q26 presentation: Operating Profit excl. New AI Products 2Q2025 RMB72.4bn; Non-IFRS operating profit 2Q2025 RMB69.2bn.",
+      "location": "2Q26演示稿 p.4, p.22"
+    },
+    {
+      "id": "nongaap_operating_income-2025q2",
+      "metric": "nongaap_operating_income",
+      "value": 69200,
+      "display_value": "692.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "2Q26 presentation: Non-IFRS operating profit 2Q2025 RMB69.2bn.",
+      "location": "2Q26演示稿 p.22"
+    },
+    {
+      "id": "nongaap_operating_margin_excl_new_ai",
+      "metric": "nongaap_operating_margin_excl_new_ai",
+      "value": 40.2,
+      "display_value": "40.2%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation",
+        "official-press-release"
+      ],
+      "evidence": "Non-IFRS operating margin excl. New AI Products: 3Q26 40.2%; 2Q26 42.0%; 1Q26 43.0%; 3Q25 40.2% (chart).",
+      "location": "演示稿 p.24；新闻稿 p.1",
+      "previous_value": 40.2,
+      "prior_quarter_value": 42.0
+    },
+    {
+      "id": "nongaap_operating_margin",
+      "metric": "nongaap_operating_margin",
+      "value": 32.8,
+      "display_value": "32.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Non-IFRS operating margin 32.8% (3Q25 37.6%; 2Q26 36.9%).",
+      "location": "演示稿 p.4, p.24",
+      "previous_value": 37.6,
+      "prior_quarter_value": 36.9
+    },
+    {
+      "id": "operating_cash_flow",
+      "metric": "operating_cash_flow",
+      "value": 2652,
+      "display_value": "26.52 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-3q25-results"
+      ],
+      "evidence": "Net cash generated from operating activities RMB2.6bn for 3Q2026 (9M2026 RMB156,713m less 1H2026 RMB154,061m = RMB2,652m); 3Q2025 RMB85.3bn; 2Q2026 RMB52.7bn.",
+      "location": "公告 p.17, p.24；2Q26公告 p.17, p.24；3Q25公告 p.17",
+      "previous_value": 85312,
+      "prior_quarter_value": 52700
+    },
+    {
+      "id": "operating_cash_flow-2025q3",
+      "metric": "operating_cash_flow",
+      "value": 85312,
+      "display_value": "853.12 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-3q25-results",
+        "official-2q26-results"
+      ],
+      "evidence": "3Q2025 net cash generated from operating activities RMB85.3bn (9M2025 RMB236,577m less 1H2025 RMB151,265m).",
+      "location": "3Q25公告 p.17, p.24；2Q26公告 p.24"
+    },
+    {
+      "id": "operating_cash_flow-2026q2",
+      "metric": "operating_cash_flow",
+      "value": 52700,
+      "display_value": "527.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-results"
+      ],
+      "evidence": "2Q2026 net cash generated from operating activities RMB52.7bn.",
+      "location": "2Q26公告 p.17"
+    },
+    {
+      "id": "operating_cash_flow-9m2026",
+      "metric": "operating_cash_flow",
+      "value": 156713,
+      "display_value": "1,567.13 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-9M",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Net cash flows generated from operating activities 9M2026 RMB156,713m (9M2025 RMB236,577m).",
+      "location": "公告 p.24",
+      "previous_value": 236577
+    },
+    {
+      "id": "capital_expenditures",
+      "metric": "capital_expenditures",
+      "value": 81433,
+      "display_value": "814.33 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "Capital expenditures (accrual): 3Q2026 RMB81,433m; 3Q2025 RMB12,983m; 2Q2026 RMB52,784m.",
+      "location": "公告 p.12；新闻稿 p.6",
+      "previous_value": 12983,
+      "prior_quarter_value": 52784
+    },
+    {
+      "id": "capital_expenditures-2025q3",
+      "metric": "capital_expenditures",
+      "value": 12983,
+      "display_value": "129.83 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Capital expenditures 3Q2025 RMB12,983m.",
+      "location": "公告 p.12"
+    },
+    {
+      "id": "capital_expenditures-2026q2",
+      "metric": "capital_expenditures",
+      "value": 52784,
+      "display_value": "527.84 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Capital expenditures 2Q2026 RMB52,784m.",
+      "location": "公告 p.12"
+    },
+    {
+      "id": "capital_expenditures-2026q1",
+      "metric": "capital_expenditures",
+      "value": 31900,
+      "display_value": "319.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "2Q26 presentation: Total CAPEX 1Q2026 RMB31.9bn.",
+      "location": "2Q26演示稿 p.26"
+    },
+    {
+      "id": "capital_expenditures-9m2026",
+      "metric": "capital_expenditures",
+      "value": 166153,
+      "display_value": "1,661.53 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-9M",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Capital expenditures 9M2026 RMB166,153m (9M2025 RMB59,566m).",
+      "location": "公告 p.12",
+      "previous_value": 59566
+    },
+    {
+      "id": "cash_capex_paid",
+      "metric": "cash_capital_expenditures_paid",
+      "value": 65100,
+      "display_value": "651.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation",
+        "official-press-release",
+        "official-results"
+      ],
+      "evidence": "Cash CAPEX paid 3Q2026 RMB65.1bn (operating 63.6bn + non-operating 1.5bn); 3Q2025 RMB20.0bn; 2Q2026 RMB59.3bn; +225% YoY, +10% QoQ.",
+      "location": "演示稿 p.25；新闻稿 p.1；公告 p.17",
+      "previous_value": 20000,
+      "prior_quarter_value": 59300
+    },
+    {
+      "id": "operating_capex_paid",
+      "metric": "operating_capex_paid",
+      "value": 63600,
+      "display_value": "636.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Operating CAPEX paid 3Q2026 RMB63.6bn; 3Q2025 RMB17.8bn; 2Q2026 RMB56.8bn (+257% YoY).",
+      "location": "演示稿 p.25",
+      "previous_value": 17800,
+      "prior_quarter_value": 56800
+    },
+    {
+      "id": "media_content_payments",
+      "metric": "media_content_payments",
+      "value": 4600,
+      "display_value": "46.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-3q25-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Media content payments RMB4.6bn (3Q2025 RMB4.9bn; 2Q2026 RMB5.0bn).",
+      "location": "公告 p.17；3Q25公告 p.17；2Q26公告 p.17",
+      "previous_value": 4900,
+      "prior_quarter_value": 5000
+    },
+    {
+      "id": "lease_liability_payments",
+      "metric": "lease_liability_payments",
+      "value": 2000,
+      "display_value": "20.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-3q25-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Lease liability payments RMB2.0bn (3Q2025 RMB1.9bn; 2Q2026 RMB2.2bn).",
+      "location": "公告 p.17；3Q25公告 p.17；2Q26公告 p.17",
+      "previous_value": 1900,
+      "prior_quarter_value": 2200
+    },
+    {
+      "id": "free_cash_flow",
+      "metric": "free_cash_flow",
+      "value": -69100,
+      "display_value": "-691.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Negative free cash flow of RMB69.1bn for 3Q2026 (3Q2025 positive RMB58.5bn; 2Q2026 negative RMB13.8bn).",
+      "location": "公告 p.17；演示稿 p.25",
+      "previous_value": 58500,
+      "prior_quarter_value": -13800
+    },
+    {
+      "id": "free_cash_flow-2026q2",
+      "metric": "free_cash_flow",
+      "value": -13800,
+      "display_value": "-138.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-results"
+      ],
+      "evidence": "Negative free cash flow of RMB13.8bn for 2Q2026.",
+      "location": "2Q26公告 p.17"
+    },
+    {
+      "id": "free_cash_flow-2025q3",
+      "metric": "free_cash_flow",
+      "value": 58500,
+      "display_value": "585.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-3q25-results"
+      ],
+      "evidence": "Free cash flow for 3Q2025 was RMB58.5bn.",
+      "location": "3Q25公告 p.17"
+    },
+    {
+      "id": "free_cash_flow_excl_compute_prepayments",
+      "metric": "free_cash_flow_excl_compute_prepayments",
+      "value": 16900,
+      "display_value": "169.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Excluding the prepayments for compute procurement, free cash flow would have been positive RMB16.9bn (2Q2026: RMB37.6bn).",
+      "location": "公告 p.17；2Q26公告 p.17",
+      "prior_quarter_value": 37600
+    },
+    {
+      "id": "net_cash",
+      "metric": "net_cash",
+      "value": -13702,
+      "display_value": "-137.02 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Net cash/(debt) at 30 Sep 2026 RMB(13,702)m; 30 Jun 2026 RMB58,191m; 30 Sep 2025 RMB102,422m.",
+      "location": "公告 p.12, p.17",
+      "previous_value": 102422,
+      "prior_quarter_value": 58191
+    },
+    {
+      "id": "total_cash",
+      "metric": "total_cash",
+      "value": 525727,
+      "display_value": "5,257.27 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Cash and cash equivalents RMB231,717m + term deposits and others RMB294,010m (total cash RMB525.7bn; 3Q25 RMB493.3bn; 2Q26 RMB511.2bn).",
+      "location": "公告 p.17；演示稿 p.25",
+      "previous_value": 493300,
+      "prior_quarter_value": 511154
+    },
+    {
+      "id": "total_debt",
+      "metric": "total_debt",
+      "value": 539429,
+      "display_value": "5,394.29 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Borrowings RMB380,101m + notes payable RMB159,328m (3Q25 total debt RMB390.9bn; 2Q26 RMB453.0bn).",
+      "location": "公告 p.17；演示稿 p.25",
+      "previous_value": 390900,
+      "prior_quarter_value": 452963
+    },
+    {
+      "id": "property_plant_equipment",
+      "metric": "property_plant_equipment",
+      "value": 242500,
+      "display_value": "2,425.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Property, plant and equipment: 30 Sep 2026 RMB242,500m; 30 Jun 2026 RMB198,909m; 31 Dec 2025 RMB149,905m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 198909,
+      "prior_year_end_value": 149905
+    },
+    {
+      "id": "construction_in_progress",
+      "metric": "construction_in_progress",
+      "value": 23003,
+      "display_value": "230.03 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Construction in progress: 30 Sep 2026 RMB23,003m; 30 Jun 2026 RMB7,089m; 31 Dec 2025 RMB9,670m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 7089,
+      "prior_year_end_value": 9670
+    },
+    {
+      "id": "prepayments_noncurrent",
+      "metric": "prepayments_noncurrent",
+      "value": 162901,
+      "display_value": "1,629.01 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Prepayments, deposits and other assets (non-current): 30 Sep 2026 RMB162,901m; 30 Jun 2026 RMB91,203m; 31 Dec 2025 RMB24,540m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 91203,
+      "prior_year_end_value": 24540
+    },
+    {
+      "id": "prepayments_current",
+      "metric": "prepayments_current",
+      "value": 160469,
+      "display_value": "1,604.69 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Prepayments, deposits and other assets (current): 30 Sep 2026 RMB160,469m; 30 Jun 2026 RMB137,449m; 31 Dec 2025 RMB111,270m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 137449,
+      "prior_year_end_value": 111270
+    },
+    {
+      "id": "accounts_payable",
+      "metric": "accounts_payable",
+      "value": 199176,
+      "display_value": "1,991.76 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Accounts payable: 30 Sep 2026 RMB199,176m; 30 Jun 2026 RMB175,579m; 31 Dec 2025 RMB121,127m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 175579,
+      "prior_year_end_value": 121127
+    },
+    {
+      "id": "borrowings",
+      "metric": "borrowings",
+      "value": 380101,
+      "display_value": "3,801.01 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Borrowings (current + non-current): 30 Sep 2026 RMB380,101m; 30 Jun 2026 RMB298,942m; 31 Dec 2025 RMB250,987m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 298942,
+      "prior_year_end_value": 250987
+    },
+    {
+      "id": "notes_payable",
+      "metric": "notes_payable",
+      "value": 159328,
+      "display_value": "1,593.28 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Notes payable: 30 Sep 2026 RMB159,328m; 30 Jun 2026 RMB154,021m; 31 Dec 2025 RMB136,746m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 154021,
+      "prior_year_end_value": 136746
+    },
+    {
+      "id": "cash_and_cash_equivalents",
+      "metric": "cash_and_cash_equivalents",
+      "value": 231717,
+      "display_value": "2,317.17 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Cash and cash equivalents: 30 Sep 2026 RMB231,717m; 30 Jun 2026 RMB206,930m; 31 Dec 2025 RMB141,041m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 206930,
+      "prior_year_end_value": 141041
+    },
+    {
+      "id": "total_assets",
+      "metric": "total_assets",
+      "value": 2346717,
+      "display_value": "23,467.17 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Total assets: 30 Sep 2026 RMB2,346,717m; 30 Jun 2026 RMB2,159,394m; 31 Dec 2025 RMB2,038,986m.",
+      "location": "公告 p.20-21, p.40-41；2Q26公告 p.20-21",
+      "prior_quarter_value": 2159394,
+      "prior_year_end_value": 2038986
+    },
+    {
+      "id": "lease_liabilities",
+      "metric": "lease_liabilities",
+      "value": 20210,
+      "display_value": "202.10 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Lease liabilities: non-current RMB14,587m + current RMB5,623m at 30 Sep 2026 (31 Dec 2025: RMB13,280m + RMB5,386m = RMB18,666m).",
+      "location": "公告 p.21",
+      "prior_year_end_value": 18666
+    },
+    {
+      "id": "amortisation_media_content",
+      "metric": "amortisation_media_content",
+      "value": 5264,
+      "display_value": "52.64 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Amortisation of media content approx. RMB5,264m (3Q2025: RMB7,728m).",
+      "location": "公告 p.29 附注3(c)",
+      "previous_value": 7728
+    },
+    {
+      "id": "weixin-mau",
+      "metric": "weixin_wechat_mau",
+      "value": 1449,
+      "display_value": "14.49 亿",
+      "currency": "N/A",
+      "unit": "million accounts",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Combined MAU of Weixin and WeChat 1,449m (30 Sep 2025: 1,414m; 30 Jun 2026: 1,439m).",
+      "location": "公告 p.3",
+      "previous_value": 1414,
+      "prior_quarter_value": 1439
+    },
+    {
+      "id": "qq-mau",
+      "metric": "qq_mobile_mau",
+      "value": 533,
+      "display_value": "5.33 亿",
+      "currency": "N/A",
+      "unit": "million accounts",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Mobile device MAU of QQ 533m (517m; 520m).",
+      "location": "公告 p.3",
+      "previous_value": 517,
+      "prior_quarter_value": 520
+    },
+    {
+      "id": "fee-based-vas-subs",
+      "metric": "fee_based_vas_subscriptions",
+      "value": 253,
+      "display_value": "2.53 亿",
+      "currency": "N/A",
+      "unit": "million subscriptions",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Fee-based VAS subscriptions 253m (265m; 259m), average daily number during quarter.",
+      "location": "公告 p.3",
+      "previous_value": 265,
+      "prior_quarter_value": 259
+    },
+    {
+      "id": "cloud-services-growth",
+      "metric": "cloud_revenue_yoy",
+      "value": 35.0,
+      "display_value": "35.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Cloud services revenues increased 35% YoY (chart: 1Q25 12%, 2Q25 14%, 3Q25 12%, 4Q25 19%, 1Q26 19%, 2Q26 21%, 3Q26 35%). Absolute cloud revenue not disclosed.",
+      "location": "公告 p.7；演示稿 p.10",
+      "previous_value": 12.0,
+      "prior_quarter_value": 21.0
+    },
+    {
+      "id": "workbuddy-dau",
+      "metric": "workbuddy_dau",
+      "value": 10,
+      "display_value": ">1,000 万",
+      "currency": "N/A",
+      "unit": "million users",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "WorkBuddy ... with over 10 million DAU collectively consuming over 100 trillion tokens per day.",
+      "location": "公告 p.3；演示稿 p.8",
+      "qualifier": "over"
+    },
+    {
+      "id": "workbuddy-daily-tokens",
+      "metric": "workbuddy_daily_tokens",
+      "value": 100,
+      "display_value": ">100 万亿 token/日",
+      "currency": "N/A",
+      "unit": "trillion tokens per day",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "WorkBuddy ... consuming over 100 trillion tokens per day.",
+      "location": "公告 p.3；演示稿 p.8",
+      "qualifier": "over"
+    },
+    {
+      "id": "xiaowei-dau",
+      "metric": "xiaowei_dau",
+      "value": 30,
+      "display_value": "3,000 万",
+      "currency": "N/A",
+      "unit": "million users",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Xiaowei: Expanding user testing pool, achieving 30m DAU.",
+      "location": "演示稿 p.9"
+    },
+    {
+      "id": "workbuddy-revenue-qoq",
+      "metric": "workbuddy_revenue_qoq_multiple",
+      "value": 5,
+      "display_value": ">5 倍（环比）",
+      "currency": "N/A",
+      "unit": "multiple",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "WorkBuddy revenue >5X QoQ on increasing paying users and strong initial enterprise adoption.",
+      "location": "演示稿 p.10, p.19",
+      "qualifier": "over"
+    },
+    {
+      "id": "maas-revenue-qoq",
+      "metric": "maas_revenue_qoq_multiple",
+      "value": 3,
+      "display_value": ">3 倍（环比）",
+      "currency": "N/A",
+      "unit": "multiple",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Model-as-a-Service revenue >3X QoQ.",
+      "location": "演示稿 p.10, p.19",
+      "qualifier": "over"
+    },
+    {
+      "id": "workbuddy-interactions",
+      "metric": "workbuddy_interactions",
+      "value": 85.3,
+      "display_value": "8,530 万次",
+      "currency": "N/A",
+      "unit": "million interactions",
+      "period": "2026-09",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "WorkBuddy 85.3m interactions in Sep 2026, 300%+ vs June 2026 (Source: Analysys, as cited by Tencent).",
+      "location": "演示稿 p.8"
+    },
+    {
+      "id": "video-accounts-ad-impressions-growth",
+      "metric": "video_accounts_ad_impressions_yoy",
+      "value": 50.0,
+      "display_value": "50.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "Video Accounts' ad impressions grew over 50% YoY, driven by video views and ad load.",
+      "location": "演示稿 p.18",
+      "qualifier": "over"
+    },
+    {
+      "id": "mini-drama-ai-ad-share",
+      "metric": "ai_ad_solution_share_of_mini_drama_ad_monetisation",
+      "value": 80.0,
+      "display_value": "80.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-presentation"
+      ],
+      "evidence": "AI-powered ad solutions for content publishers ... powering ~80% of Mini Dramas providers' ad monetisation.",
+      "location": "演示稿 p.18",
+      "qualifier": "approximately"
+    },
+    {
+      "id": "employees",
+      "metric": "employees",
+      "value": 119398,
+      "display_value": "119,398 人",
+      "currency": "N/A",
+      "unit": "persons",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "The Group had 119,398 employees (30 Sep 2025: 115,076); 30 Jun 2026: 115,927.",
+      "location": "公告 p.44；2Q26公告 p.44",
+      "previous_value": 115076,
+      "prior_quarter_value": 115927
+    },
+    {
+      "id": "buyback-q3",
+      "metric": "share_repurchase_consideration",
+      "value": 7032,
+      "display_value": "70.32 亿港元",
+      "currency": "HKD",
+      "unit": "HKD million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation",
+        "official-2q26-presentation"
+      ],
+      "evidence": "Repurchased 15,867,600 shares for aggregate consideration approx. HKD7.0bn (HKD7,032,259,517); presentation: ~RMB6.1bn; 2Q26 ~RMB14.7bn.",
+      "location": "公告 p.44；演示稿 p.25；2Q26演示稿 p.26",
+      "prior_quarter_value_rmb_million": 14700
+    },
+    {
+      "id": "net_divestment_proceeds",
+      "metric": "net_divestment_proceeds",
+      "value": 8400,
+      "display_value": "84.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "Net cash inflows of RMB8.4bn arising from divestment activity exceeding new investment activity.",
+      "location": "公告 p.17；演示稿 p.25"
+    },
+    {
+      "id": "listed-investee-fv",
+      "metric": "listed_investee_fair_value",
+      "value": 505400,
+      "display_value": "5,054.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "Fair value of shareholdings in listed investee companies RMB505.4bn (30 Jun 2026: RMB487.2bn).",
+      "location": "公告 p.17",
+      "prior_quarter_value": 487200
+    },
+    {
+      "id": "free_cash_flow-2026q1",
+      "metric": "free_cash_flow",
+      "value": 56700,
+      "display_value": "567.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "2Q26 presentation: Free Cash Flow 1Q2026 RMB56.7bn.",
+      "location": "2Q26演示稿 p.26"
+    },
+    {
+      "id": "net_cash-2026q1",
+      "metric": "net_cash",
+      "value": 146900,
+      "display_value": "1,469.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "2Q26 presentation: Net Cash 1Q2026 RMB146.9bn.",
+      "location": "2Q26演示稿 p.26"
+    },
+    {
+      "id": "peer-alibaba-revenue",
+      "metric": "peer_total_revenue",
+      "value": 271519,
+      "display_value": "2,715.19 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "FY2027Q2",
+      "segment": "阿里巴巴",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-alibaba-results"
+      ],
+      "evidence": "Alibaba revenue RMB271,519m for quarter ended 30 Sep 2026, +10% YoY.",
+      "location": "阿里公告 p.2"
+    },
+    {
+      "id": "peer-alibaba-capex",
+      "metric": "peer_capital_expenditures",
+      "value": 50477,
+      "display_value": "504.77 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "FY2027Q2",
+      "segment": "阿里巴巴",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-alibaba-results"
+      ],
+      "evidence": "Alibaba capital expenditures RMB50,477m, +60% vs RMB31,501m; 6M capex RMB118,155m (implies Jun-quarter RMB67,678m).",
+      "location": "阿里公告 p.6, p.17",
+      "previous_value": 31501
+    },
+    {
+      "id": "peer-alibaba-ai-cloud-revenue",
+      "metric": "peer_ai_cloud_revenue",
+      "value": 60973,
+      "display_value": "609.73 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "FY2027Q2",
+      "segment": "阿里巴巴",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-alibaba-results"
+      ],
+      "evidence": "Revenue from AI Cloud and Compute Services RMB60,973m, +53% YoY; AI-related product revenue RMB17,918m (triple-digit YoY growth).",
+      "location": "阿里公告 p.5"
+    },
+    {
+      "id": "peer-alibaba-ai-product-revenue",
+      "metric": "peer_ai_product_revenue",
+      "value": 17918,
+      "display_value": "179.18 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "FY2027Q2",
+      "segment": "阿里巴巴",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-alibaba-results"
+      ],
+      "evidence": "AI-related product revenue RMB17,918m, thirteenth consecutive quarter of triple-digit YoY growth.",
+      "location": "阿里公告 p.5"
+    },
+    {
+      "id": "peer-alibaba-fcf",
+      "metric": "peer_free_cash_flow",
+      "value": -34472,
+      "display_value": "-344.72 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "FY2027Q2",
+      "segment": "阿里巴巴",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-alibaba-results"
+      ],
+      "evidence": "Alibaba free cash flow outflow RMB34,472m (Sep quarter 2025: outflow RMB21,840m); OCF RMB15,690m.",
+      "location": "阿里公告 p.16, p.39",
+      "previous_value": -21840
+    },
+    {
+      "id": "peer-baidu-revenue",
+      "metric": "peer_total_revenue",
+      "value": 30800,
+      "display_value": "308.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "百度",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-baidu-results"
+      ],
+      "evidence": "Baidu revenue RMB30.8bn, -1% YoY.",
+      "location": "百度公告 p.5"
+    },
+    {
+      "id": "peer-baidu-capex",
+      "metric": "peer_capital_expenditures",
+      "value": 7349,
+      "display_value": "73.49 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "百度",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-baidu-results"
+      ],
+      "evidence": "Baidu, Inc. capital expenditures RMB7,349m (Q3 2025 RMB3,401m; Q2 2026 RMB11,390m); OCF RMB2,778m; FCF RMB(4,571)m.",
+      "location": "百度公告 p.15",
+      "previous_value": 3401
+    },
+    {
+      "id": "peer-baidu-ai-cloud-infra",
+      "metric": "peer_ai_cloud_revenue",
+      "value": 8200,
+      "display_value": "82.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "百度",
+      "claim_type": "official_fact",
+      "source_ids": [
+        "peer-baidu-results"
+      ],
+      "evidence": "AI Cloud Infra revenue RMB8.2bn, +94% YoY; Baidu Core AI-powered Business RMB13.2bn, +37% YoY.",
+      "location": "百度公告 p.4-5",
+      "previous_value": 4200
+    },
+    {
+      "id": "revenue-yoy",
+      "metric": "total_revenue_yoy",
+      "value": 7.5,
+      "display_value": "7.5%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：207,336/192,869-1；输入：total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "207,336/192,869-1",
+      "input_fact_ids": [
+        "total_revenue"
+      ]
+    },
+    {
+      "id": "revenue-qoq",
+      "metric": "total_revenue_qoq",
+      "value": 1.2,
+      "display_value": "1.2%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：207,336/204,785-1；输入：total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "207,336/204,785-1",
+      "input_fact_ids": [
+        "total_revenue"
+      ]
+    },
+    {
+      "id": "gross-margin",
+      "metric": "gross_margin",
+      "value": 55.9,
+      "display_value": "55.9%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：115,911/207,336；输入：gross_profit, total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 56.4,
+      "formula": "115,911/207,336",
+      "input_fact_ids": [
+        "gross_profit",
+        "total_revenue"
+      ],
+      "prior_quarter_value": 57.8
+    },
+    {
+      "id": "operating-margin-ifrs",
+      "metric": "operating_margin",
+      "value": 28.5,
+      "display_value": "28.5%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：59,147/207,336；输入：operating_income, total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 33.0,
+      "formula": "59,147/207,336",
+      "input_fact_ids": [
+        "operating_income",
+        "total_revenue"
+      ],
+      "prior_quarter_value": 32.9
+    },
+    {
+      "id": "nongaap-op-margin-calc",
+      "metric": "nongaap_operating_margin_calc",
+      "value": 32.8,
+      "display_value": "32.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：68,073/207,336；输入：nongaap_operating_income, total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 37.6,
+      "formula": "68,073/207,336",
+      "input_fact_ids": [
+        "nongaap_operating_income",
+        "total_revenue"
+      ],
+      "prior_quarter_value": 36.9
+    },
+    {
+      "id": "nongaap-op-yoy",
+      "metric": "nongaap_operating_income_yoy",
+      "value": -6.2,
+      "display_value": "-6.2%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：68,073/72,570-1；输入：nongaap_operating_income",
+      "location": "推导（见 evidence 公式）",
+      "formula": "68,073/72,570-1",
+      "input_fact_ids": [
+        "nongaap_operating_income"
+      ]
+    },
+    {
+      "id": "nongaap-op-qoq",
+      "metric": "nongaap_operating_income_qoq",
+      "value": -10.0,
+      "display_value": "-10.0%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：68,073/75,636-1；输入：nongaap_operating_income",
+      "location": "推导（见 evidence 公式）",
+      "formula": "68,073/75,636-1",
+      "input_fact_ids": [
+        "nongaap_operating_income"
+      ]
+    },
+    {
+      "id": "nongaap-ni-yoy",
+      "metric": "nongaap_net_income_yoy",
+      "value": -5.7,
+      "display_value": "-5.7%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：66,519/70,551-1；输入：nongaap_net_income",
+      "location": "推导（见 evidence 公式）",
+      "formula": "66,519/70,551-1",
+      "input_fact_ids": [
+        "nongaap_net_income"
+      ]
+    },
+    {
+      "id": "ifrs-op-yoy",
+      "metric": "operating_income_yoy",
+      "value": -6.9,
+      "display_value": "-6.9%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：59,147/63,554-1；输入：operating_income",
+      "location": "推导（见 evidence 公式）",
+      "formula": "59,147/63,554-1",
+      "input_fact_ids": [
+        "operating_income"
+      ]
+    },
+    {
+      "id": "adj-ebitda-margin",
+      "metric": "adjusted_ebitda_margin",
+      "value": 40.9,
+      "display_value": "40.9%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：84,893/207,336；输入：adjusted_ebitda, total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 45.0,
+      "formula": "84,893/207,336",
+      "input_fact_ids": [
+        "adjusted_ebitda",
+        "total_revenue"
+      ],
+      "prior_quarter_value": 44.6
+    },
+    {
+      "id": "vas-gross-margin",
+      "metric": "segment_gross_margin",
+      "value": 64.1,
+      "display_value": "64.1%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "增值服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：63,017/98,326；输入：vas-gross-profit, vas-revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 61.2,
+      "formula": "63,017/98,326",
+      "input_fact_ids": [
+        "vas-gross-profit",
+        "vas-revenue"
+      ],
+      "prior_quarter_value": 63.9
+    },
+    {
+      "id": "marketing-gross-margin",
+      "metric": "segment_gross_margin",
+      "value": 52.4,
+      "display_value": "52.4%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "营销服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：22,578/43,049；输入：marketing-gross-profit, marketing-revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 56.7,
+      "formula": "22,578/43,049",
+      "input_fact_ids": [
+        "marketing-gross-profit",
+        "marketing-revenue"
+      ],
+      "prior_quarter_value": 57.3
+    },
+    {
+      "id": "fbs-gross-margin",
+      "metric": "segment_gross_margin",
+      "value": 49.6,
+      "display_value": "49.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：31,551/63,655；输入：fbs-gross-profit, fbs-revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 50.2,
+      "formula": "31,551/63,655",
+      "input_fact_ids": [
+        "fbs-gross-profit",
+        "fbs-revenue"
+      ],
+      "prior_quarter_value": 52.1
+    },
+    {
+      "id": "others-gross-margin",
+      "metric": "segment_gross_margin",
+      "value": -53.6,
+      "display_value": "-53.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "其他",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：-1,235/2,306；输入：others-gross-profit, others-revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 16.0,
+      "formula": "-1,235/2,306",
+      "input_fact_ids": [
+        "others-gross-profit",
+        "others-revenue"
+      ],
+      "prior_quarter_value": -35.1
+    },
+    {
+      "id": "marketing-incremental-gm-yoy",
+      "metric": "segment_incremental_gross_margin_yoy",
+      "value": 29.8,
+      "display_value": "29.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "营销服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：(22,578-20,551)/(43,049-36,242)；输入：marketing-gross-profit, marketing-revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "(22,578-20,551)/(43,049-36,242)",
+      "input_fact_ids": [
+        "marketing-gross-profit",
+        "marketing-revenue"
+      ]
+    },
+    {
+      "id": "fbs-incremental-gm-yoy",
+      "metric": "segment_incremental_gross_margin_yoy",
+      "value": 42.7,
+      "display_value": "42.7%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：(31,551-29,210)/(63,655-58,174)；输入：fbs-gross-profit, fbs-revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "(31,551-29,210)/(63,655-58,174)",
+      "input_fact_ids": [
+        "fbs-gross-profit",
+        "fbs-revenue"
+      ]
+    },
+    {
+      "id": "fbs-incremental-gm-qoq",
+      "metric": "segment_incremental_gross_margin_qoq",
+      "value": 3.8,
+      "display_value": "3.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：(31,551-31,422)/(63,655-60,286)；输入：fbs-gross-profit, fbs-revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "(31,551-31,422)/(63,655-60,286)",
+      "input_fact_ids": [
+        "fbs-gross-profit",
+        "fbs-revenue"
+      ]
+    },
+    {
+      "id": "fbs-revenue-qoq-increment",
+      "metric": "segment_revenue_qoq_increment",
+      "value": 3369,
+      "display_value": "33.69 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：63,655-60,286；输入：fbs-revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "63,655-60,286",
+      "input_fact_ids": [
+        "fbs-revenue"
+      ]
+    },
+    {
+      "id": "fbs-depr-qoq-increment",
+      "metric": "segment_depreciation_qoq_increment",
+      "value": 1220,
+      "display_value": "12.20 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：3,675-2,455；输入：fbs-cor-depreciation",
+      "location": "推导（见 evidence 公式）",
+      "formula": "3,675-2,455",
+      "input_fact_ids": [
+        "fbs-cor-depreciation"
+      ]
+    },
+    {
+      "id": "marketing-gp-qoq-change",
+      "metric": "segment_gross_profit_qoq_change",
+      "value": -2391,
+      "display_value": "-23.91 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "营销服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：22,578-24,969；输入：marketing-gross-profit",
+      "location": "推导（见 evidence 公式）",
+      "formula": "22,578-24,969",
+      "input_fact_ids": [
+        "marketing-gross-profit"
+      ]
+    },
+    {
+      "id": "new-ai-drag-q3",
+      "metric": "new_ai_products_nongaap_op_impact",
+      "value": -15227,
+      "display_value": "-152.27 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "公式：Non-IFRS OP 68,073 - Non-IFRS OP excl. new AI 83,300 (excl. figure rounded to RMB0.1bn)；输入：nongaap_operating_income, nongaap_operating_income_excl_new_ai",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": -4830,
+      "formula": "Non-IFRS OP 68,073 - Non-IFRS OP excl. new AI 83,300 (excl. figure rounded to RMB0.1bn)",
+      "input_fact_ids": [
+        "nongaap_operating_income",
+        "nongaap_operating_income_excl_new_ai"
+      ],
+      "prior_quarter_value": -10464
+    },
+    {
+      "id": "new-ai-drag-q2",
+      "metric": "new_ai_products_nongaap_op_impact",
+      "value": -10464,
+      "display_value": "-104.64 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "公式：75,636 - 86,100；输入：nongaap_operating_income, nongaap_operating_income_excl_new_ai",
+      "location": "推导（见 evidence 公式）",
+      "formula": "75,636 - 86,100",
+      "input_fact_ids": [
+        "nongaap_operating_income",
+        "nongaap_operating_income_excl_new_ai"
+      ]
+    },
+    {
+      "id": "new-ai-drag-q1",
+      "metric": "new_ai_products_nongaap_op_impact",
+      "value": -8800,
+      "display_value": "-88.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q1",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-2q26-presentation"
+      ],
+      "evidence": "公式：75,600 - 84,400；输入：nongaap_operating_income-2026q1, nongaap_operating_income_excl_new_ai-2026q1",
+      "location": "推导（见 evidence 公式）",
+      "formula": "75,600 - 84,400",
+      "input_fact_ids": [
+        "nongaap_operating_income-2026q1",
+        "nongaap_operating_income_excl_new_ai-2026q1"
+      ]
+    },
+    {
+      "id": "new-ai-drag-q3-2025",
+      "metric": "new_ai_products_nongaap_op_impact",
+      "value": -4830,
+      "display_value": "-48.30 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2025Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "公式：72,570 - 77,400；输入：nongaap_operating_income, nongaap_operating_income_excl_new_ai",
+      "location": "推导（见 evidence 公式）",
+      "formula": "72,570 - 77,400",
+      "input_fact_ids": [
+        "nongaap_operating_income",
+        "nongaap_operating_income_excl_new_ai"
+      ]
+    },
+    {
+      "id": "new-ai-drag-9m",
+      "metric": "new_ai_products_nongaap_op_impact",
+      "value": -34491,
+      "display_value": "-344.91 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-9M",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-2q26-presentation",
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "公式：sum of 1Q26/2Q26/3Q26 impacts；输入：new-ai-drag-q1, new-ai-drag-q2, new-ai-drag-q3",
+      "location": "推导（见 evidence 公式）",
+      "formula": "sum of 1Q26/2Q26/3Q26 impacts",
+      "input_fact_ids": [
+        "new-ai-drag-q1",
+        "new-ai-drag-q2",
+        "new-ai-drag-q3"
+      ]
+    },
+    {
+      "id": "excl-ai-op-yoy",
+      "metric": "nongaap_operating_income_excl_new_ai_yoy",
+      "value": 7.6,
+      "display_value": "7.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-presentation"
+      ],
+      "evidence": "公式：83.3/77.4-1；输入：nongaap_operating_income_excl_new_ai",
+      "location": "推导（见 evidence 公式）",
+      "formula": "83.3/77.4-1",
+      "input_fact_ids": [
+        "nongaap_operating_income_excl_new_ai"
+      ],
+      "prior_quarter_value": 18.9
+    },
+    {
+      "id": "margin-gap-ai",
+      "metric": "nongaap_margin_gap_new_ai_pp",
+      "value": 7.4,
+      "display_value": "7.4 个百分点",
+      "currency": "N/A",
+      "unit": "pp",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-presentation",
+        "official-press-release"
+      ],
+      "evidence": "公式：40.2%-32.8%；输入：nongaap_operating_margin_excl_new_ai, nongaap_operating_margin",
+      "location": "推导（见 evidence 公式）",
+      "formula": "40.2%-32.8%",
+      "input_fact_ids": [
+        "nongaap_operating_margin_excl_new_ai",
+        "nongaap_operating_margin"
+      ],
+      "prior_quarter_value": 5.1
+    },
+    {
+      "id": "capex-to-revenue",
+      "metric": "capex_to_revenue",
+      "value": 39.3,
+      "display_value": "39.3%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：81,433/207,336；输入：capital_expenditures, total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 6.7,
+      "formula": "81,433/207,336",
+      "input_fact_ids": [
+        "capital_expenditures",
+        "total_revenue"
+      ],
+      "prior_quarter_value": 25.8
+    },
+    {
+      "id": "cash-capex-to-revenue",
+      "metric": "cash_capex_to_revenue",
+      "value": 31.4,
+      "display_value": "31.4%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-presentation",
+        "official-press-release",
+        "official-results"
+      ],
+      "evidence": "公式：65,100/207,336；输入：cash_capex_paid, total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 10.4,
+      "formula": "65,100/207,336",
+      "input_fact_ids": [
+        "cash_capex_paid",
+        "total_revenue"
+      ],
+      "prior_quarter_value": 29.0
+    },
+    {
+      "id": "capex-to-ocf",
+      "metric": "capex_to_operating_cash_flow",
+      "value": 30.71,
+      "display_value": "30.7 倍",
+      "currency": "N/A",
+      "unit": "multiple",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-press-release",
+        "official-2q26-results",
+        "official-3q25-results"
+      ],
+      "evidence": "公式：81,433/2,652 (倍)；输入：capital_expenditures, operating_cash_flow",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 0.15,
+      "formula": "81,433/2,652 (倍)",
+      "input_fact_ids": [
+        "capital_expenditures",
+        "operating_cash_flow"
+      ],
+      "prior_quarter_value": 1.0
+    },
+    {
+      "id": "implied-compute-prepayments-q3",
+      "metric": "implied_compute_prepayments_in_ocf",
+      "value": 86000,
+      "display_value": "860.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-presentation"
+      ],
+      "evidence": "公式：FCF excl. prepayments 16,900 - FCF (-69,100)；输入：free_cash_flow_excl_compute_prepayments, free_cash_flow",
+      "location": "推导（见 evidence 公式）",
+      "formula": "FCF excl. prepayments 16,900 - FCF (-69,100)",
+      "input_fact_ids": [
+        "free_cash_flow_excl_compute_prepayments",
+        "free_cash_flow"
+      ],
+      "prior_quarter_value": 51400
+    },
+    {
+      "id": "implied-compute-prepayments-q2",
+      "metric": "implied_compute_prepayments_in_ocf",
+      "value": 51400,
+      "display_value": "514.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q2",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：37,600 - (-13,800)；输入：free_cash_flow_excl_compute_prepayments, free_cash_flow-2026q2",
+      "location": "推导（见 evidence 公式）",
+      "formula": "37,600 - (-13,800)",
+      "input_fact_ids": [
+        "free_cash_flow_excl_compute_prepayments",
+        "free_cash_flow-2026q2"
+      ]
+    },
+    {
+      "id": "ocf-excl-prepayments",
+      "metric": "operating_cash_flow_excl_compute_prepayments",
+      "value": 88652,
+      "display_value": "886.52 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results",
+        "official-3q25-results",
+        "official-presentation"
+      ],
+      "evidence": "公式：OCF 2,652 + implied prepayments 86,000；输入：operating_cash_flow, implied-compute-prepayments-q3",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 85312,
+      "formula": "OCF 2,652 + implied prepayments 86,000",
+      "input_fact_ids": [
+        "operating_cash_flow",
+        "implied-compute-prepayments-q3"
+      ],
+      "prior_quarter_value": 104100
+    },
+    {
+      "id": "cash-capex-to-ocf-excl-prepay",
+      "metric": "cash_capex_to_ocf_excl_prepayments",
+      "value": 73.4,
+      "display_value": "73.4%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-presentation",
+        "official-press-release",
+        "official-results",
+        "official-2q26-results",
+        "official-3q25-results"
+      ],
+      "evidence": "公式：65,100/88,652；输入：cash_capex_paid, ocf-excl-prepayments",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 23.4,
+      "formula": "65,100/88,652",
+      "input_fact_ids": [
+        "cash_capex_paid",
+        "ocf-excl-prepayments"
+      ],
+      "prior_quarter_value": 57.0
+    },
+    {
+      "id": "compute-cash-outlay",
+      "metric": "cash_capex_plus_compute_prepayments",
+      "value": 151100,
+      "display_value": "1,511.00 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-presentation",
+        "official-press-release",
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：cash capex 65,100 + implied prepayments 86,000；输入：cash_capex_paid, implied-compute-prepayments-q3",
+      "location": "推导（见 evidence 公式）",
+      "formula": "cash capex 65,100 + implied prepayments 86,000",
+      "input_fact_ids": [
+        "cash_capex_paid",
+        "implied-compute-prepayments-q3"
+      ],
+      "prior_quarter_value": 110700
+    },
+    {
+      "id": "capex-accrual-cash-gap",
+      "metric": "capex_accrual_minus_cash_paid",
+      "value": 16333,
+      "display_value": "163.33 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-press-release",
+        "official-presentation"
+      ],
+      "evidence": "公式：81,433-65,100；输入：capital_expenditures, cash_capex_paid",
+      "location": "推导（见 evidence 公式）",
+      "formula": "81,433-65,100",
+      "input_fact_ids": [
+        "capital_expenditures",
+        "cash_capex_paid"
+      ],
+      "prior_quarter_value": -6516
+    },
+    {
+      "id": "rd-to-revenue",
+      "metric": "rd_to_revenue",
+      "value": 15.6,
+      "display_value": "15.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：32,362/207,336；输入：research_and_development_expenses, total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 11.8,
+      "formula": "32,362/207,336",
+      "input_fact_ids": [
+        "research_and_development_expenses",
+        "total_revenue"
+      ],
+      "prior_quarter_value": 13.3
+    },
+    {
+      "id": "rd-yoy",
+      "metric": "rd_yoy",
+      "value": 41.8,
+      "display_value": "41.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：32,362/22,822-1；输入：research_and_development_expenses",
+      "location": "推导（见 evidence 公式）",
+      "formula": "32,362/22,822-1",
+      "input_fact_ids": [
+        "research_and_development_expenses"
+      ]
+    },
+    {
+      "id": "rd-qoq",
+      "metric": "rd_qoq",
+      "value": 18.6,
+      "display_value": "18.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：32,362/27,278-1；输入：research_and_development_expenses",
+      "location": "推导（见 evidence 公式）",
+      "formula": "32,362/27,278-1",
+      "input_fact_ids": [
+        "research_and_development_expenses"
+      ]
+    },
+    {
+      "id": "rd-non-employee",
+      "metric": "rd_non_employee",
+      "value": 15399,
+      "display_value": "153.99 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：32,362-16,963；输入：research_and_development_expenses, rd_employee_benefits",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 6102,
+      "formula": "32,362-16,963",
+      "input_fact_ids": [
+        "research_and_development_expenses",
+        "rd_employee_benefits"
+      ],
+      "prior_quarter_value": 10797
+    },
+    {
+      "id": "tech-infra-yoy",
+      "metric": "technical_infrastructure_costs_yoy",
+      "value": 131.8,
+      "display_value": "131.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：19,991/8,623-1；输入：technical_infrastructure_operations_costs",
+      "location": "推导（见 evidence 公式）",
+      "formula": "19,991/8,623-1",
+      "input_fact_ids": [
+        "technical_infrastructure_operations_costs"
+      ]
+    },
+    {
+      "id": "depr-yoy",
+      "metric": "depreciation_yoy",
+      "value": 55.6,
+      "display_value": "55.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：13,701/8,808-1；输入：depreciation_ppe_rou",
+      "location": "推导（见 evidence 公式）",
+      "formula": "13,701/8,808-1",
+      "input_fact_ids": [
+        "depreciation_ppe_rou"
+      ]
+    },
+    {
+      "id": "ga-excl-rd",
+      "metric": "ga_excl_rd",
+      "value": 11715,
+      "display_value": "117.15 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：44,077-32,362；输入：general_and_administrative_expenses, research_and_development_expenses",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 11437,
+      "formula": "44,077-32,362",
+      "input_fact_ids": [
+        "general_and_administrative_expenses",
+        "research_and_development_expenses"
+      ],
+      "prior_quarter_value": 11530
+    },
+    {
+      "id": "fbs-revenue-yoy-increment",
+      "metric": "segment_revenue_yoy_increment",
+      "value": 5481,
+      "display_value": "54.81 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": "金融科技及企业服务",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-press-release"
+      ],
+      "evidence": "公式：63,655-58,174；输入：fbs-revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "63,655-58,174",
+      "input_fact_ids": [
+        "fbs-revenue"
+      ]
+    },
+    {
+      "id": "ai-cost-increment-yoy",
+      "metric": "compute_related_cost_increment_yoy",
+      "value": 16261,
+      "display_value": "162.61 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：Δ技术基础设施运营成本 11,368 + Δ折旧 4,893（按性质口径，覆盖销售成本与研发等各职能，互不重叠；两项均含非AI部分，属上限口径）；输入：technical_infrastructure_operations_costs, depreciation_ppe_rou",
+      "location": "推导（见 evidence 公式）",
+      "formula": "Δ技术基础设施运营成本 11,368 + Δ折旧 4,893（按性质口径，覆盖销售成本与研发等各职能，互不重叠；两项均含非AI部分，属上限口径）",
+      "input_fact_ids": [
+        "technical_infrastructure_operations_costs",
+        "depreciation_ppe_rou"
+      ]
+    },
+    {
+      "id": "revenue-yoy-increment",
+      "metric": "total_revenue_yoy_increment",
+      "value": 14467,
+      "display_value": "144.67 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：207,336-192,869；输入：total_revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "207,336-192,869",
+      "input_fact_ids": [
+        "total_revenue"
+      ]
+    },
+    {
+      "id": "prepayments-noncurrent-qoq",
+      "metric": "prepayments_noncurrent_qoq_change",
+      "value": 71698,
+      "display_value": "716.98 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：162,901-91,203；输入：prepayments_noncurrent",
+      "location": "推导（见 evidence 公式）",
+      "formula": "162,901-91,203",
+      "input_fact_ids": [
+        "prepayments_noncurrent"
+      ]
+    },
+    {
+      "id": "ppe-qoq",
+      "metric": "ppe_qoq_change",
+      "value": 43591,
+      "display_value": "435.91 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：242,500-198,909；输入：property_plant_equipment",
+      "location": "推导（见 evidence 公式）",
+      "formula": "242,500-198,909",
+      "input_fact_ids": [
+        "property_plant_equipment"
+      ]
+    },
+    {
+      "id": "borrowings-qoq",
+      "metric": "borrowings_qoq_change",
+      "value": 81159,
+      "display_value": "811.59 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：380,101-298,942；输入：borrowings",
+      "location": "推导（见 evidence 公式）",
+      "formula": "380,101-298,942",
+      "input_fact_ids": [
+        "borrowings"
+      ]
+    },
+    {
+      "id": "ap-qoq",
+      "metric": "accounts_payable_qoq_change",
+      "value": 23597,
+      "display_value": "235.97 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：199,176-175,579；输入：accounts_payable",
+      "location": "推导（见 evidence 公式）",
+      "formula": "199,176-175,579",
+      "input_fact_ids": [
+        "accounts_payable"
+      ]
+    },
+    {
+      "id": "net-cash-qoq-change",
+      "metric": "net_cash_qoq_change",
+      "value": -71893,
+      "display_value": "-718.93 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-09-30",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：-13,702-58,191；输入：net_cash",
+      "location": "推导（见 evidence 公式）",
+      "formula": "-13,702-58,191",
+      "input_fact_ids": [
+        "net_cash"
+      ]
+    },
+    {
+      "id": "financing_cash_flow-9m2026",
+      "metric": "financing_cash_flow",
+      "value": 60910,
+      "display_value": "609.10 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-9M",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Net cash flows generated from/(used in) financing activities 9M2026 RMB60,910m (9M2025 RMB(60,748)m); 1H2026 RMB(9,469)m.",
+      "location": "公告 p.24；2Q26公告 p.24",
+      "previous_value": -60748,
+      "h1_value": -9469
+    },
+    {
+      "id": "investing_cash_flow-9m2026",
+      "metric": "investing_cash_flow",
+      "value": -122357,
+      "display_value": "-1,223.57 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026-9M",
+      "segment": null,
+      "claim_type": "official_fact",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "Net cash flows used in investing activities 9M2026 RMB(122,357)m (9M2025 RMB(147,914)m); 1H2026 RMB(74,724)m.",
+      "location": "公告 p.24；2Q26公告 p.24",
+      "previous_value": -147914,
+      "h1_value": -74724
+    },
+    {
+      "id": "q3-financing-cf",
+      "metric": "financing_cash_flow",
+      "value": 70379,
+      "display_value": "703.79 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：9M 60,910 - 1H (-9,469)；输入：financing_cash_flow-9m2026",
+      "location": "推导（见 evidence 公式）",
+      "formula": "9M 60,910 - 1H (-9,469)",
+      "input_fact_ids": [
+        "financing_cash_flow-9m2026"
+      ]
+    },
+    {
+      "id": "q3-investing-cf",
+      "metric": "investing_cash_flow",
+      "value": -47633,
+      "display_value": "-476.33 亿元",
+      "currency": "CNY",
+      "unit": "RMB million",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：9M (-122,357) - 1H (-74,724)；输入：investing_cash_flow-9m2026",
+      "location": "推导（见 evidence 公式）",
+      "formula": "9M (-122,357) - 1H (-74,724)",
+      "input_fact_ids": [
+        "investing_cash_flow-9m2026"
+      ]
+    },
+    {
+      "id": "effective-tax-rate",
+      "metric": "effective_tax_rate",
+      "value": 12.2,
+      "display_value": "12.2%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results"
+      ],
+      "evidence": "公式：9,052/74,191；输入：income_tax_expense",
+      "location": "推导（见 evidence 公式）",
+      "previous_value": 13.1,
+      "formula": "9,052/74,191",
+      "input_fact_ids": [
+        "income_tax_expense"
+      ]
+    },
+    {
+      "id": "employee-cost-per-head-change",
+      "metric": "employee_benefits_yoy",
+      "value": 0.6,
+      "display_value": "0.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：32,585/32,386-1；输入：employee_benefits_expenses",
+      "location": "推导（见 evidence 公式）",
+      "formula": "32,585/32,386-1",
+      "input_fact_ids": [
+        "employee_benefits_expenses"
+      ]
+    },
+    {
+      "id": "employees-yoy",
+      "metric": "employees_yoy",
+      "value": 3.8,
+      "display_value": "3.8%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": null,
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "official-results",
+        "official-2q26-results"
+      ],
+      "evidence": "公式：119,398/115,076-1；输入：employees",
+      "location": "推导（见 evidence 公式）",
+      "formula": "119,398/115,076-1",
+      "input_fact_ids": [
+        "employees"
+      ]
+    },
+    {
+      "id": "peer-alibaba-capex-to-revenue",
+      "metric": "peer_capex_to_revenue",
+      "value": 18.6,
+      "display_value": "18.6%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "FY2027Q2",
+      "segment": "阿里巴巴",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "peer-alibaba-results"
+      ],
+      "evidence": "公式：50,477/271,519；输入：peer-alibaba-capex, peer-alibaba-revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "50,477/271,519",
+      "input_fact_ids": [
+        "peer-alibaba-capex",
+        "peer-alibaba-revenue"
+      ]
+    },
+    {
+      "id": "peer-baidu-capex-to-revenue",
+      "metric": "peer_capex_to_revenue",
+      "value": 23.9,
+      "display_value": "23.9%",
+      "currency": "N/A",
+      "unit": "percent",
+      "period": "2026Q3",
+      "segment": "百度",
+      "claim_type": "derived_metric",
+      "source_ids": [
+        "peer-baidu-results"
+      ],
+      "evidence": "公式：7,349/30,800；输入：peer-baidu-capex, peer-baidu-revenue",
+      "location": "推导（见 evidence 公式）",
+      "formula": "7,349/30,800",
+      "input_fact_ids": [
+        "peer-baidu-capex",
+        "peer-baidu-revenue"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "business",
+      "title": "业务细节穿透",
+      "claims": [
+        {
+          "text": "收入2,073.36亿元，同比+7.5%、环比+1.2%；按演示稿收入增速序列（口径+8%），这是2024年四季度以来最低的同比增速（2024年三季度同为+8%，2Q26为+11%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "同比增量144.67亿元中，营销服务贡献68.07亿元（约47%），金融科技及企业服务54.81亿元（约38%），增值服务24.66亿元（约17%），其他业务-2.87亿元。增长重心已从游戏转向广告与企业服务。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results"
+          ]
+        },
+        {
+          "text": "增值服务983.26亿元（+2.6%）：本土游戏476亿元（+11%，《三角洲行动》均日活同比+50%以上，《无畏契约：源能行动》日活与流水创新高）；国际游戏189亿元（-9%，固定汇率-4%，受Supercell高基数与《消逝的光芒：困兽》去年同期买断收入影响）；社交网络318亿元（-1%，长视频订阅下降）；收费增值服务订阅2.53亿（-4.5%）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "营销服务430.49亿元（+18.8%，环比-1.2%）：曝光量与eCPM双升，消费品与本地生活行业加投；视频号广告曝光同比增长超过50%；绿泡泡短剧入口带动小程序营销收入快速增长；环比下降归因于电商促销季节性。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "【AI专题·收入口径】公司仍未披露任何AI收入金额。可得口径只有增长倍数：云服务收入同比+35%（2Q26为21%，3Q25为12%），WorkBuddy收入环比超过5倍，模型即服务（MaaS）收入环比超过3倍，GPU租赁收入“快速增长”；云收入金额、新AI产品收入、AI驱动的广告增量均为missing。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "official-press-release"
+          ]
+        },
+        {
+          "text": "【AI专题·电话会口径】第三方文字稿与多家媒体转述：WorkBuddy过去七天年化“毛收入”超过5亿美元，为上线七年的腾讯会议的2倍以上；企业版6月上线以来，中国百强企业中60%成为客户。该数字未出现在公告或演示稿中，口径为毛收入且含第三方模型token。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-earningscalls",
+            "media-eeo-call",
+            "media-36kr-weixi"
+          ]
+        },
+        {
+          "text": "【AI专题·推断】若5亿美元年化毛收入维持一个完整季度，按演示稿汇率1美元兑6.7351元折算约为每季8.4亿元人民币，不足集团季度收入的0.5%；同期新AI产品对非IFRS经营利润的影响约为-152亿元。AI对收入的直接贡献仍远小于其对利润的拖累。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-presentation",
+            "call-transcript-earningscalls",
+            "media-eeo-call"
+          ],
+          "falsifier": "腾讯在4Q26或年报中披露WorkBuddy或新AI产品单季收入超过50亿元，或新AI产品对经营利润的拖累收窄至100亿元以下。"
+        },
+        {
+          "text": "【AI专题·广告】AI对广告的可验证贡献体现为库存与效率：视频号广告曝光+50%以上、AI插播方案支撑约80%短剧方广告变现、广告按内容排序系统投放；但营销服务同比新增收入68.07亿元只带来20.27亿元毛利（增量毛利率29.8%，去年同期分部毛利率56.7%），新增广告收入伴随AI运营成本与短剧内容成本。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "4Q26营销服务毛利率回升至55%以上，同时收入同比增速不低于17%。"
+        },
+        {
+          "text": "用户规模：微信及WeChat合并月活14.49亿（+2.5%）；小微日活3,000万；WorkBuddy日活超过1,000万、日均消耗token超过100万亿（公司称按token消耗为中国最大AI应用）；视频号总用户时长同比增长超过20%。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "成本费用结构穿透",
+      "claims": [
+        {
+          "text": "毛利1,159.11亿元（+6.5%），毛利率55.9%（同比-0.5个百分点，环比-1.9个百分点）。分部毛利率：增值服务64.1%（+2.9个百分点，自研游戏占比提升）；营销服务52.4%（去年同期56.7%、上季57.3%，公司归因于AI相关运营成本及短剧内容成本）；金融科技及企业服务49.6%（上季52.1%）；其他分部毛损12.35亿元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "经营利润桥（IFRS，同比-44.07亿元）：毛利+71.13亿元，销售及市场推广-6.76亿元，一般及行政开支-98.18亿元（其中研发-95.40亿元），其他收益/亏损-10.26亿元。研发增量（95.40亿元）超过经营利润降幅，是利润下滑的主因。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results"
+          ]
+        },
+        {
+          "text": "【AI专题·投入】研发支出323.62亿元（同比+41.8%、环比+18.6%），占收入15.6%（3Q25为11.8%，2Q26为13.3%）；其中非员工部分（主要为算力等）153.99亿元，同比+152%，员工部分仅+1.5%。按性质口径，技术基础设施运营成本199.91亿元（+131.8%），物业厂房设备、投资物业及使用权资产折旧137.01亿元（+55.6%），两项同比合计增加162.61亿元，超过集团收入增量144.67亿元（两项含非AI部分，属上限口径）。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-2q26-results"
+          ]
+        },
+        {
+          "text": "【AI专题·投入】非IFRS经营利润680.73亿元（-6.2%），经营利润率32.8%（同比-4.8个百分点，环比-4.1个百分点）；剔除新AI产品（Hy、元宝、CodeBuddy、WorkBuddy、小微）后为833亿元（+7.6%）。二者差额即新AI产品对非IFRS经营利润的影响约-152.3亿元，1Q26约-88.0亿元、2Q26约-104.6亿元、3Q25约-48.3亿元，前三季度累计约-344.9亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "official-2q26-presentation"
+          ]
+        },
+        {
+          "text": "剔除新AI产品的经营利润同比增速由2Q26的+18.9%降至+7.6%，对应利润率由2Q26的42.0%降至40.2%（3Q25为40.2%，2025年三季度利润率环比为上升）。核心业务利润增速本季显著放缓。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-presentation",
+            "official-2q26-presentation"
+          ]
+        },
+        {
+          "text": "“剔除新AI产品”口径没有覆盖全部AI成本：营销服务毛利率下滑的官方原因包括AI相关运营成本；管理层在电话会称DRAM年初同比上涨约400%，核心产品也在消化元器件涨价。因此“核心利润+8%”高估了没有AI拖累的核心利润弹性。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "media-thepaper-call",
+            "media-36kr-weixi"
+          ],
+          "falsifier": "4Q26剔除新AI产品的非IFRS经营利润同比增速回到12%以上，且营销服务毛利率不低于55%。"
+        },
+        {
+          "text": "销售及市场推广121.44亿元（+5.9%，2Q26为+26%），主要用于推广WorkBuddy等AI原生产品；不含研发的一般及行政开支117.15亿元（+2.4%），员工福利开支325.85亿元（+0.6%），而员工数119,398人（+3.8%）。营销投放刹车、研发继续加速，非AI费用受控。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "马化腾在电话会开场称剔除新AI产品的毛利约为1,180亿元（+8%），对应新AI产品在毛利层面约-20亿元；新AI产品的大部分拖累发生在研发而非毛利（第三方文字稿；36氪转述，非公告口径）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-earningscalls",
+            "media-36kr-weixi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash_flow",
+      "title": "资产负债与现金流",
+      "claims": [
+        {
+          "text": "经营活动现金流26.5亿元（3Q25为853亿元，2Q26为527亿元），其中包含大额算力采购预付款；自由现金流-691亿元（3Q25为+585亿元，2Q26为-138亿元），剔除算力预付款后为+169亿元（2Q26为+376亿元）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-2q26-results",
+            "official-3q25-results"
+          ]
+        },
+        {
+          "text": "【AI专题·投入】由公司两组自由现金流倒推，3Q26隐含算力预付款约860亿元（2Q26约514亿元）；剔除预付款的经营现金流约886.5亿元，同比+3.9%，核心现金创造能力未见恶化。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-2q26-results"
+          ]
+        },
+        {
+          "text": "【AI专题·投入】资本开支（计提口径）814.33亿元（同比+527%，环比+54%），现金资本开支651亿元（同比+225%，环比+10%），前三季度资本开支1,661.53亿元（+179%）。计提口径比现金口径高163亿元（2Q26为现金口径高65亿元）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "official-press-release"
+          ]
+        },
+        {
+          "text": "【AI专题·投入强度】资本开支/收入39.3%（2Q26为25.8%，3Q25为6.7%）；现金资本开支/收入31.4%；资本开支/经营现金流30.7倍（因预付款计入经营现金流而失真）；现金资本开支/剔除预付款经营现金流73.4%（2Q26为57.0%，3Q25为23.4%）；现金资本开支与算力预付款合计约1,511亿元，相当于当季收入的72.9%。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "official-2q26-results",
+            "official-3q25-results"
+          ]
+        },
+        {
+          "text": "资产负债表由净现金转为净债务137.02亿元（6月末净现金581.91亿元，3月末1,469亿元，去年同期1,024.22亿元）。借款3,801.01亿元，季内增加811.59亿元；10月再发行18亿美元及260亿元人民币票据。总现金5,257亿元，上市投资公允价值5,054亿元，流动性缓冲充足。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-2q26-presentation"
+          ]
+        },
+        {
+          "text": "物业、厂房及设备2,425亿元（季内+436亿元，年内+926亿元），在建工程230亿元（季内+159亿元），非流动预付款、按金及其他资产1,629亿元（6月末912亿元、年初245亿元），应付账款1,992亿元（季内+236亿元）。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-2q26-results"
+          ]
+        },
+        {
+          "text": "【AI专题·新观点】现金资本开支见顶不等于折旧见顶：1,629亿元非流动预付款与持续转固的设备将在未来数季抬升折旧（本季物业厂房设备及投资物业折旧119.95亿元，环比+25.6%），利润表的AI拖累峰值可能晚于管理层所说的现金口径峰值。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-2q26-results",
+            "call-transcript-earningscalls"
+          ],
+          "falsifier": "4Q26物业厂房设备及投资物业折旧环比增速不超过10%（约132亿元以下），且非IFRS经营利润率不低于34%。"
+        },
+        {
+          "text": "资本配置让位算力：回购由2Q26约147亿元人民币降至3Q26约61亿元（1,587万股、70亿港元）；本季投资组合净回收84亿元，公司称将用于支持AI投资。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "official-2q26-presentation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "title": "管理层信号",
+      "claims": [
+        {
+          "text": "明确承诺（电话会，非公告）：首席战略官James Mitchell称按现金口径的资本开支（约650亿元）已处峰值，2026年余下时间及2027年各季将在峰值附近波动，此后下降；长期算力合同已签完，预付款流出将下降，部分季度可能因合同取消出现预付款回流。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-earningscalls",
+            "media-eeo-call",
+            "media-21cbh-call",
+            "media-timeweekly-call"
+          ]
+        },
+        {
+          "text": "条件性表述：刘炽平以“建工厂”比喻AI基础设施，称2026–2027年设备价格偏高、2028年同类设备价格应显著下降，计算效率逐年成倍提升，因此2028年及以后趋势会好转；同时表示衡量AI投资先看是否做出有价值的产品，再看财务回报，难以给出固定回本时间表。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-earningscalls",
+            "media-thepaper-call",
+            "media-timeweekly-call"
+          ]
+        },
+        {
+          "text": "资源再配置：公司正式表述“分配了更多算力用于模型即服务及GPU租赁”，并称处于增加算力的早期阶段、将其中一部分通过腾讯云提供给外部付费客户。资源从纯内部自用转向部分外售。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-press-release",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "战略修正：管理层承认元宝未达预期，已大幅削减支出，转向能力建设与AI搜索；消费端重心转向微信内的小微，公司称小微全量开放后的季度成本仍将低于今年早些时候元宝的季度成本。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-earningscalls",
+            "media-eeo-call",
+            "media-thepaper-call",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "管理层承诺集中在“现金口径”和“2028年”，没有给出折旧路径、云收入与毛利、WorkBuddy净收入与成本、算力规模等可计量指标。下一两个季度，市场只能从利润率与现金流倒推AI回报。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "call-transcript-earningscalls"
+          ],
+          "falsifier": "4Q26业绩或年报披露云收入金额与毛利率，或单独披露新AI产品收入。"
+        },
+        {
+          "text": "小微变现时间表存在转述差异：36氪转引为“未来6到12个月”能清楚看到，Investing.com摘要为“6到18个月”；目标是对微信每年数千亿元的收入流带来10%–20%加成（转述，未经公司书面确认）。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "media-36kr-weixi",
+            "call-transcript-investing"
+          ]
+        },
+        {
+          "text": "组织调整：管理层称要以更少的人运营现有业务，把人力重新配置到新增长；季末员工119,398人（环比+3.0%），员工福利开支同比仅+0.6%。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "call-transcript-earningscalls",
+            "official-results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争格局",
+      "claims": [
+        {
+          "text": "C端通用助手：QuestMobile数据显示，2026年9月豆包月活4.19亿、千问1.58亿、DeepSeek 1.23亿，元宝3,733万位列第四。腾讯在C端独立助手处于第二梯队（单一第三方数据源，多家媒体转载）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "questmobile-ai-apps-nfnews",
+            "questmobile-ai-apps-199it"
+          ]
+        },
+        {
+          "text": "元宝收缩、小微内嵌微信、WorkBuddy主攻生产力，说明腾讯从正面争夺C端独立助手流量，转向“微信分发+企业付费”：获客成本更低，但放弃了独立入口的竞争。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "questmobile-ai-apps-nfnews",
+            "call-transcript-earningscalls",
+            "official-presentation"
+          ],
+          "falsifier": "元宝月活在4Q26回升至5,000万以上，且公司重新加大元宝投放。"
+        },
+        {
+          "text": "【AI专题·同业】阿里9月季度资本开支504.77亿元（+60%），AI云与算力服务收入609.73亿元（+53%），AI相关产品收入179.18亿元，自由现金流-344.72亿元；百度三季度资本开支73.49亿元（+116%），AI云基础设施收入82亿元（+94%），AI驱动业务收入132亿元（+37%），自由现金流-45.71亿元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "peer-alibaba-results",
+            "peer-baidu-results"
+          ]
+        },
+        {
+          "text": "【AI专题·同口径对比】资本开支/收入：腾讯39.3%（计提口径；现金口径31.4%），阿里18.6%（现金购置口径，财季7–9月），百度23.9%（现金口径，含爱奇艺）。腾讯单季投入绝对额和强度均为三家最高，却是唯一未披露AI收入金额的公司。口径差异：阿里AI云与算力服务含平头哥及算力设备方案，百度AI云基础设施含GPU云。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "peer-alibaba-results",
+            "peer-baidu-results"
+          ]
+        },
+        {
+          "text": "短剧竞争：QuestMobile 9月红果短剧月活4.3亿，微信绿泡泡短剧小程序月活1.56亿；微信4Q26微短剧激励规则下，人均观看时长达标的内容方可获75%现金分成另加10%广告金（媒体）。专家纪要称绿泡泡日活近2,000万（未经核实）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-thepaper-minidrama",
+            "media-minidrama-rules",
+            "media-minidrama-expert-notes"
+          ]
+        },
+        {
+          "text": "短剧把微信广告从“几乎零内容成本的库存”推向“带分成成本的库存”，与营销服务毛利率下降的官方解释一致；红果规模约为绿泡泡的2.8倍，内容激励短期难以退坡。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "media-thepaper-minidrama",
+            "media-minidrama-rules"
+          ],
+          "falsifier": "营销服务毛利率在两个季度内恢复至56%以上。"
+        },
+        {
+          "text": "资本开支竞赛：媒体报道字节跳动2026年AI资本开支计划超过2,000亿元，总资本开支或最高至700亿美元（非公司披露，彭博、财联社等报道）。",
+          "claim_type": "external_fact",
+          "confidence": "low",
+          "source_ids": [
+            "media-bytedance-capex-cls",
+            "media-bytedance-capex-bbg"
+          ]
+        },
+        {
+          "text": "模型层：Hy4于11月4日发布，公司称按Agent Arena（11月6日数据）位列中国模型第一；媒体报道其在Artificial Analysis智能指数中位列中国模型第二，11月4–5日的报道称其仅次于Kimi K3.1 Pro，权重尚未开源（公司称将近期开源）。排名口径与时点存在差异。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "media-hy4-donews",
+            "media-hy4-21jingji"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external_shocks",
+      "title": "外部冲击穿透",
+      "claims": [
+        {
+          "text": "美国BIS《解决先进半导体远程访问问题》临时最终规则于2026年11月19日生效：全球任何数据中心向总部位于D:5国家（含中国）或澳门的企业提供超过1,200万“合计TPP”算力，需事先取得许可；既有服务须在90天内取得许可；新增对印尼、马来西亚、新加坡、泰国、巴西的许可要求；商业推荐系统不在许可要求之内。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "us-federal-register-bis-ifr",
+            "law-zhonglun-bis"
+          ]
+        },
+        {
+          "text": "该规则的传导主要在训练端：海外训练算力受限，下一代Hy模型推出时间延后（管理层已承认）；推理与云收入受影响较小（管理层称推理可用少量国产芯片运行），广告推荐系统被豁免；海外预付合同退出可能带来预付款回流。本季财报尚无该规则的痕迹。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "us-federal-register-bis-ifr",
+            "call-transcript-earningscalls",
+            "media-thepaper-call"
+          ],
+          "falsifier": "4Q26出现与算力合同相关的大额减值或损失，或云服务收入增速跌破25%。"
+        },
+        {
+          "text": "元器件成本：管理层称DRAM年初同比上涨约400%，核心产品仍在消化涨价；TrendForce预计4Q26一般型DRAM合约价环比上涨10%–15%，NAND上涨15%–20%。算力单位成本上行会抬高资本开支与折旧。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-thepaper-call",
+            "media-36kr-weixi",
+            "trendforce-dram-4q26"
+          ]
+        },
+        {
+          "text": "宏观消费：国家统计局数据显示10月社会消费品零售总额同比+0.4%，1–10月+1.0%，网上商品零售额+2.9%。公司披露商业支付笔数增长但笔均金额下降，金融科技服务收入仅低个位数增长。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "nbs-retail-sales-oct-2026",
+            "official-results",
+            "official-presentation"
+          ]
+        },
+        {
+          "text": "游戏外部变量：GTA 6于11月19日发售，Sensor Tower估算预售收入约16.5亿美元，4Q26全球游戏注意力竞争加剧；管理层称国际游戏放缓早于GTA 6，明年将恢复更正常的买断制新品节奏。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-gta6-launch",
+            "media-gta6-anadolu",
+            "call-transcript-earningscalls"
+          ]
+        },
+        {
+          "text": "汇率：国际游戏报告口径-9%、固定汇率-4%，汇率拖累约5个百分点；其他综合收益中可重分类的货币换算差额-77.48亿元。",
+          "claim_type": "official_fact",
+          "confidence": "high",
+          "source_ids": [
+            "official-results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "market_reaction",
+      "title": "市场反应归因",
+      "claims": [
+        {
+          "text": "11月19日腾讯收跌6.55%至348.40港元，成交268亿港元居港股首位；同日恒生指数-1.95%、恒生科技指数-2.33%，腾讯相对恒生科技跑输约4.2个百分点。",
+          "claim_type": "external_fact",
+          "confidence": "high",
+          "source_ids": [
+            "media-yahoo-hk-close",
+            "media-stcn-close"
+          ]
+        },
+        {
+          "text": "预期差：路透转引LSEG一致预期收入2,107.7亿元，实际低约1.6%；IFRS归母净利636.12亿元高于LSEG预期594.6亿元，主要由100.57亿元投资收益支撑。媒体转引的市场预估（提供方未注明）IFRS经营利润665.9亿元、经调整净利665亿元，实际经营利润591.47亿元低约11%，经调整净利基本符合。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-lseg-consensus",
+            "media-qqnews-estimates",
+            "official-results"
+          ]
+        },
+        {
+          "text": "股价反应主要来自经营利润与资本开支，而不是收入：收入只低约1.6%，经营利润低约11%，资本开支与预付款远超预期；IFRS净利超预期依赖投资收益，质量偏低。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "media-lseg-consensus",
+            "media-qqnews-estimates",
+            "media-sina-brokers",
+            "official-results"
+          ],
+          "falsifier": "若后续两周股价走势与腾讯经营指标无关、而主要随恒生科技与美联储预期波动，则本次下跌更多是市场β而非业绩反应。"
+        },
+        {
+          "text": "券商反应：花旗、高盛、瑞银、摩根士丹利、摩根大通、里昂等8家下调目标价，无一下调评级；高盛认为2027年或为每股盈利低谷，里昂预计四季度自由现金流转正，瑞银指出剔除AI的经营利润增速由19%降至8%。股价年内累计下跌约42%（媒体）。",
+          "claim_type": "external_fact",
+          "confidence": "medium",
+          "source_ids": [
+            "media-sina-brokers"
+          ]
+        },
+        {
+          "text": "市场已部分定价“2027年盈利低谷”的叙事，但尚未充分定价“折旧峰值后移”的可能：券商普遍以现金资本开支见顶作为拐点，而本季资产负债表显示转固与预付款仍在高位。",
+          "claim_type": "inference",
+          "confidence": "low",
+          "source_ids": [
+            "media-sina-brokers",
+            "official-results"
+          ],
+          "falsifier": "4Q26非IFRS经营利润率回升至34%以上，且折旧环比增速低于10%。"
+        }
+      ]
+    },
+    {
+      "id": "future_scenarios",
+      "title": "未来动作与三档情景",
+      "claims": [
+        {
+          "text": "情景口径：以下区间针对2026年四季度，单位为亿元人民币；“核心利润”=剔除新AI产品的非IFRS经营利润，“集团利润”=集团非IFRS经营利润，两者每季均由公司披露，可直接回溯。参考：4Q25营收1,944亿元，图表显示非IFRS经营利润率35.8%、剔除新AI产品利润率39.3%（据此约为696亿元与764亿元，为推导近似值）。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-presentation"
+          ],
+          "falsifier": "公司在4Q26停止披露剔除新AI产品的经营利润，则情景需改用集团非IFRS经营利润单一口径回溯。"
+        },
+        {
+          "text": "基准情景（55%）：核心利润780–840亿元，集团利润610–690亿元。营销服务增速15%–19%、毛利率52%–55%；云服务增速30%–40%但金融科技及企业服务毛利率48%–51%；新AI产品拖累150–190亿元，折旧环比增长10%–20%。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation"
+          ],
+          "falsifier": "4Q26集团非IFRS经营利润低于610亿元或高于690亿元。"
+        },
+        {
+          "text": "乐观情景（15%）：核心利润840–880亿元，集团利润700–750亿元。营销服务增速≥19%且毛利率回升至55%以上；云服务增速≥35%且分部毛利率≥51%；WorkBuddy付费转化与元宝削减使新AI产品拖累收窄至150亿元以下。",
+          "claim_type": "scenario",
+          "confidence": "low",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "call-transcript-earningscalls"
+          ],
+          "falsifier": "4Q26新AI产品拖累超过150亿元或营销服务毛利率低于55%。"
+        },
+        {
+          "text": "悲观情景（30%）：核心利润720–780亿元，集团利润500–610亿元。广告增速跌破15%或毛利率低于52%；BIS规则导致合同取消损失或算力短缺，云增速跌破25%；DRAM涨价叠加折旧，核心利润率跌破37%，新AI产品拖累超过190亿元。",
+          "claim_type": "scenario",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "us-federal-register-bis-ifr",
+            "trendforce-dram-4q26"
+          ],
+          "falsifier": "4Q26集团非IFRS经营利润高于610亿元且核心利润率不低于38%。"
+        },
+        {
+          "text": "上季判断回溯：2Q26报告的基准情景（非IFRS经营利润750–810亿元，概率55%）未兑现；实际680.73亿元低于悲观情景下限690亿元，非IFRS归母净利665.19亿元落在悲观区间610–670亿元内。上季可证伪条件“若投入继续扩大而增速和利润率同步走弱，则判断加强”已触发：资本开支环比+54%，非IFRS经营利润率环比-4.1个百分点，广告增速由22%降至19%，自由现金流由-138亿元扩大至-691亿元。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "prior-q2-report",
+            "official-results"
+          ]
+        },
+        {
+          "text": "上季遗漏：2Q26报告低估了新AI产品拖累的爬升速度（环比+46%）、AI成本向核心业务的渗透（营销服务毛利率-4.9个百分点环比）以及元器件涨价；也未预见公司把部分算力转向外售（MaaS与GPU租赁）。本季情景已上调悲观概率至30%。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "prior-q2-report",
+            "official-results",
+            "official-press-release"
+          ],
+          "falsifier": "若4Q26结果回到2Q26报告基准区间（非IFRS经营利润750亿元以上），说明本季属一次性波动，上调悲观概率是过度反应。"
+        }
+      ]
+    },
+    {
+      "id": "research_signal",
+      "title": "研究信号",
+      "claims": [
+        {
+          "text": "核心论点：关键不在于现金资本开支是否见顶，而在于利润表的AI拖累峰值尚未到来。现金口径约650亿元/季的投入已被管理层定义为峰值，但1,629亿元非流动预付款、物业厂房设备季内净增436亿元与持续上行的折旧，意味着新AI产品拖累（本季152亿元）和嵌入核心业务的AI成本仍在爬升，而可计量的AI收入只有增长倍数。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "call-transcript-earningscalls"
+          ],
+          "falsifier": "4Q26新AI产品拖累收窄至150亿元以下、非IFRS经营利润率回升至34%以上、折旧环比增速低于10%，三者同时出现。"
+        },
+        {
+          "text": "【AI专题·收入结论】腾讯仍未披露AI收入金额：云服务+35%、WorkBuddy收入环比超过5倍、MaaS环比超过3倍是全部官方口径；电话会口径的WorkBuddy年化毛收入超过5亿美元若持续，约合每季8.4亿元人民币，不足集团收入的0.5%（推断）。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "call-transcript-earningscalls"
+          ],
+          "falsifier": "公司披露新AI产品或云收入金额，且单季AI相关收入超过100亿元。"
+        },
+        {
+          "text": "【AI专题·投入结论】单季资本开支814.33亿元（+527%）、现金资本开支651亿元，叠加约860亿元算力预付款，单季算力现金投入约1,511亿元、占收入73%；研发323.62亿元（+42%），新AI产品拖累扩大至152亿元。腾讯的投入强度已超过阿里与百度。",
+          "claim_type": "derived_metric",
+          "confidence": "high",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "official-2q26-results",
+            "peer-alibaba-results",
+            "peer-baidu-results"
+          ]
+        },
+        {
+          "text": "【AI专题·回报结论】回报目前体现在使用量与收入增速，而不是毛利：金融科技及企业服务环比新增33.69亿元收入只带来1.29亿元毛利（增量毛利率3.8%），同期该分部销售成本中的折旧环比增加12.20亿元；营销服务毛利率因AI运营成本与短剧内容成本同比下降4.3个百分点。AI云与新AI产品的单位经济仍待折旧高峰之后验证。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-2q26-results",
+            "official-presentation"
+          ],
+          "falsifier": "4Q26金融科技及企业服务毛利率回升至51%以上，同时云服务收入增速不低于30%。"
+        },
+        {
+          "text": "【AI专题·下季可证伪指标】(1) 新AI产品拖累（剔除新AI产品经营利润减集团非IFRS经营利润）≤150亿元支持“拖累见顶”，>190亿元支持“拖累仍在爬升”；(2) 物业厂房设备及投资物业折旧>140亿元确认折旧浪潮；(3) 云服务收入增速≥30%且金融科技及企业服务毛利率≥50%；(4) 现金资本开支在550–750亿元之间，且包含预付款的自由现金流不低于-300亿元。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "call-transcript-earningscalls"
+          ],
+          "falsifier": "任一指标落在相反阈值区间，即按对应方向修正结论。"
+        },
+        {
+          "text": "评级“中性”（由上季“中性偏积极”下调），置信度中等：核心业务与现金创造仍健康（剔除预付款经营现金流+3.9%，剔除新AI产品利润率40.2%），但AI拖累、折旧与外部算力约束使2026Q4–2027的利润路径偏下行，且可计量回报披露不足。",
+          "claim_type": "inference",
+          "confidence": "medium",
+          "source_ids": [
+            "official-results",
+            "official-presentation",
+            "prior-q2-report"
+          ],
+          "falsifier": "4Q26出现AI收入金额披露、新AI产品拖累环比收窄、营销服务毛利率回升三项中至少两项。"
+        }
+      ]
+    }
+  ],
+  "socratic_review": {
+    "questions": [
+      {
+        "id": "q1",
+        "question": "市场共识是什么？",
+        "answer": "共识认为核心业务稳健（剔除新AI产品经营利润+8%），AI投入是阶段性前置，现金资本开支已见顶，2027年可能是每股盈利低谷；8家券商下调目标价但不下调评级。",
+        "source_ids": [
+          "media-sina-brokers",
+          "official-press-release",
+          "call-transcript-earningscalls"
+        ],
+        "counterevidence": "剔除新AI产品的经营利润增速已由2Q26的+18.9%降至+7.6%，“核心稳健”本身在减速。",
+        "status": "answered"
+      },
+      {
+        "id": "q2",
+        "question": "共识依赖哪个隐藏假设？",
+        "answer": "隐含假设是“现金资本开支见顶＝利润拖累见顶”，以及“剔除新AI产品”口径覆盖了全部AI成本。前者忽略折旧滞后，后者忽略营销服务等核心业务中的AI运营成本。",
+        "source_ids": [
+          "official-results",
+          "official-presentation"
+        ],
+        "counterevidence": "管理层称部分预付合同将取消并回流，若转固规模下降，折旧上行斜率可能低于推断。",
+        "status": "answered"
+      },
+      {
+        "id": "q3",
+        "question": "本季哪项事实最强烈地抵触共识？",
+        "answer": "非流动预付款由年初245亿元升至1,629亿元、物业厂房设备年内增加926亿元、折旧环比+25.6%，说明转固与折旧的高峰在现金资本开支之后；同时营销服务毛利率同比-4.3个百分点，官方原因包含AI运营成本。",
+        "source_ids": [
+          "official-results",
+          "official-2q26-results"
+        ],
+        "counterevidence": "剔除预付款的经营现金流约886.5亿元、同比+3.9%，现金创造能力没有恶化。",
+        "status": "answered"
+      },
+      {
+        "id": "q4",
+        "question": "AI投入影响利润的机制是什么？",
+        "answer": "机制分三条：研发中的算力与训练（非员工研发支出同比+152%）；新增设备转固后的折旧进入销售成本与研发；推理与短剧内容成本进入营销服务与云的销售成本。云收入加速但金融科技及企业服务环比增量毛利率仅3.8%。",
+        "source_ids": [
+          "official-results",
+          "official-2q26-results",
+          "official-presentation"
+        ],
+        "counterevidence": "金融科技及企业服务分部同时包含支付业务，云的毛利率未单独披露，增量毛利率可能被支付业务的季节性扭曲。",
+        "status": "answered"
+      },
+      {
+        "id": "q5",
+        "question": "为什么是现在？",
+        "answer": "国产推理算力逐月到货、长期算力合同在二三季度集中签署并预付；Hy4在11月发布、WorkBuddy用户与token爆发需要推理扩容（公司称为Hy4推理集群十倍扩容）；美国远程访问新规于11月19日生效前后，公司需要锁定算力。",
+        "source_ids": [
+          "official-results",
+          "media-hy4-capacity",
+          "us-federal-register-bis-ifr",
+          "media-timeweekly-call"
+        ],
+        "counterevidence": "预付款时点也可能受供应商付款条款与价格上行预期驱动，与产品需求无直接关系。",
+        "status": "answered"
+      },
+      {
+        "id": "q6",
+        "question": "季节性、口径或一次性因素能否解释同一现象？",
+        "answer": "部分可以：营销服务环比下降有电商促销季节性；国际游戏下降有高基数与汇率（固定汇率-4%）；IFRS净利受投资收益（100.57亿元）抬升。但新AI产品拖累连续三季上升（88亿→105亿→152亿元）不是季节性。",
+        "source_ids": [
+          "official-results",
+          "official-presentation",
+          "official-2q26-presentation"
+        ],
+        "counterevidence": "四季度通常是研发与营销费用高峰，季节性可能放大下季拖累，不能简单外推。",
+        "status": "answered"
+      },
+      {
+        "id": "q7",
+        "question": "如果没有AI投入，结果会是什么样？",
+        "answer": "按公司口径，剔除新AI产品的非IFRS经营利润为833亿元、利润率40.2%，与去年同期持平；但这一反事实仍包含核心业务中的AI运营成本，真实的“无AI”利润率无法从披露中得到。",
+        "source_ids": [
+          "official-press-release",
+          "official-presentation",
+          "official-results"
+        ],
+        "counterevidence": "没有AI能力的广告推荐与短剧插播，广告曝光与eCPM可能更弱，反事实收入也会更低。",
+        "status": "answered"
+      },
+      {
+        "id": "q8",
+        "question": "一阶效应成立时，二阶后果是什么？",
+        "answer": "若折旧峰值后移，2027年的利润低谷可能比券商预期更深、持续更久；资本配置继续让位算力，回购已由约147亿元降至约61亿元；净债务扩大会提高利息支出（利息及相关开支36.72亿元，+14.5%）。",
+        "source_ids": [
+          "official-results",
+          "official-presentation",
+          "official-2q26-presentation"
+        ],
+        "counterevidence": "公司拥有约5,054亿元上市投资与3,972亿元非上市投资，可通过减持补充现金，回购下降不必然持续。",
+        "status": "answered"
+      },
+      {
+        "id": "q9",
+        "question": "最强多头与最强空头分别怎么说？",
+        "answer": "多头：WorkBuddy已实现年化毛收入超过5亿美元、收入环比超过5倍，云增速升至35%，剔除预付款自由现金流仍为正，股价年内下跌约42%后估值偏低。空头：AI收入不披露金额，新AI产品拖累逐季扩大，广告毛利率被AI成本与短剧分成侵蚀，美国新规拖慢模型迭代，资产负债表已转为净债务。",
+        "source_ids": [
+          "call-transcript-earningscalls",
+          "official-presentation",
+          "official-results",
+          "media-sina-brokers",
+          "us-federal-register-bis-ifr"
+        ],
+        "counterevidence": "多头的5亿美元为第三方文字稿与媒体转述的毛收入；空头的净债务规模相对总现金很小。",
+        "status": "answered"
+      },
+      {
+        "id": "q10",
+        "question": "哪些已经被定价？",
+        "answer": "业绩后股价下跌6.55%、年内下跌约42%，券商普遍下调2026–2028年盈利预测2%–11%，“2027年为盈利低谷”已部分定价；尚未看到市场讨论折旧峰值后移。",
+        "source_ids": [
+          "media-yahoo-hk-close",
+          "media-sina-brokers"
+        ],
+        "counterevidence": "没有授权的一致预期数据库，无法确认盈利预测下调的完整分布，判断依赖媒体转述。",
+        "status": "answered"
+      },
+      {
+        "id": "q11",
+        "question": "管理层最无法单靠花钱解决的约束是什么？",
+        "answer": "先进训练算力的获取。美国远程访问新规与高端GPU不可得，使下一代Hy模型推出时间延后；管理层只能押注国产供应链成熟与推理效率提升，这不是增加预算能直接解决的。",
+        "source_ids": [
+          "us-federal-register-bis-ifr",
+          "call-transcript-earningscalls",
+          "media-21cbh-call"
+        ],
+        "counterevidence": "管理层称推理可用少量国产芯片高效运行，云收入不会受实质影响；WorkBuddy可调用多家第三方模型，降低对自研模型的依赖。",
+        "status": "answered"
+      },
+      {
+        "id": "q12",
+        "question": "资源投向是否证实了所说的战略方向？",
+        "answer": "基本证实：研发+42%、技术基础设施成本+132%、算力预付款约860亿元，与“模型+应用+基础设施”的表述一致；元宝支出被大幅削减、营销费用增速降至6%，说明资源从C端获客转向模型与推理。",
+        "source_ids": [
+          "official-results",
+          "official-presentation",
+          "media-eeo-call"
+        ],
+        "counterevidence": "公司未披露各AI产品的投入拆分，元宝削减幅度无法量化。",
+        "status": "answered"
+      },
+      {
+        "id": "q13",
+        "question": "哪一步必须先成功？失败后什么会变得不可能？",
+        "answer": "WorkBuddy必须先证明净收入与毛利可规模化，因为它是唯一已有收入、且直接消耗推理算力的产品；若其单位经济无法改善，外售算力（MaaS、GPU租赁）将成为主要回收渠道，腾讯的AI回报会更接近云租赁的低毛利模式。",
+        "source_ids": [
+          "official-presentation",
+          "call-transcript-earningscalls",
+          "media-stheadline-call"
+        ],
+        "counterevidence": "管理层称WorkBuddy付费用户的模型服务毛利率已与腾讯云整体毛利率相当（媒体转述），若属实，单位经济的瓶颈主要在免费用户补贴。",
+        "status": "unresolved"
+      }
+    ],
+    "surviving_insights": [
+      {
+        "id": "insight-1",
+        "title": "现金资本开支见顶，不等于利润拖累见顶",
+        "consensus_view": "管理层称现金资本开支（约650亿元/季）已处峰值，券商据此把2027年视为盈利低谷。",
+        "new_view": "利润表的AI拖累峰值会晚于现金峰值：1,629亿元非流动预付款与持续转固的设备将在未来数季抬升折旧，2027年的利润低谷可能更深、持续更久。",
+        "mechanism": "算力预付款（经营现金流）→交付后转入物业厂房设备（计提资本开支高于现金资本开支163亿元，季内物业厂房设备+436亿元、在建工程+159亿元）→按使用年限折旧进入销售成本与研发→利润率在现金投入持平后继续下行。",
+        "implication": "下调2026Q4–2027的非IFRS经营利润率路径，把悲观情景概率由上季25%上调至30%；跟踪折旧而非资本开支作为拐点指标。",
+        "source_ids": [
+          "official-results",
+          "official-2q26-results",
+          "call-transcript-earningscalls"
+        ],
+        "counterevidence": "管理层称部分预付合同将取消并回流，计算效率提升与2028年设备降价可能降低未来转固规模；部分算力用于GPU租赁会同步带来收入。",
+        "falsifier": "4Q26物业厂房设备及投资物业折旧环比增速不超过10%，且非IFRS经营利润率回升至34%以上。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-2",
+        "title": "云收入加速，是“没有毛利的收入”",
+        "consensus_view": "云服务增速由21%升至35%，被视为AI投入开始回报的证据。",
+        "new_view": "新增云收入目前近乎零边际毛利：金融科技及企业服务环比新增33.69亿元收入只带来1.29亿元毛利（增量毛利率3.8%），同期该分部销售成本中的折旧环比增加12.20亿元。AI回报眼下体现为收入，还不是利润。",
+        "mechanism": "算力外售（MaaS、GPU租赁）与WorkBuddy免费额度→新交付算力先折旧、后爬坡利用率→收入增长快于毛利增长→分部毛利率由52.1%降至49.6%。",
+        "implication": "云增速不能按历史云毛利率估值；“AI回报”验证指标应从收入增速转向分部毛利率与增量毛利率。",
+        "source_ids": [
+          "official-results",
+          "official-2q26-results",
+          "official-presentation",
+          "official-press-release"
+        ],
+        "counterevidence": "该分部包含金融科技，支付业务的季节性与组合会扭曲增量毛利率；管理层称WorkBuddy付费用户的模型服务毛利率已与腾讯云整体相当（媒体转述）。",
+        "falsifier": "4Q26金融科技及企业服务毛利率回升至51%以上，同时云服务收入增速不低于30%。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 1,
+          "mechanism_clarity": 2,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 2
+        },
+        "total_score": 11
+      },
+      {
+        "id": "insight-3",
+        "title": "核心业务也在为AI付费，“剔除新AI产品”高估了核心弹性",
+        "consensus_view": "剔除新AI产品后经营利润+8%、利润率40.2%持平，说明核心业务未受AI拖累。",
+        "new_view": "AI成本已渗入核心业务：营销服务毛利率同比-4.3个百分点，官方原因包含AI相关运营成本；剔除新AI产品的经营利润增速由+18.9%降至+7.6%，利润率环比下降1.8个百分点，而去年同期为环比上升。",
+        "mechanism": "广告推荐与AI插播的推理算力、元器件涨价（DRAM）计入核心业务成本→营销服务毛利率下降→“剔除新AI产品”口径下的核心利润增速放缓，但这部分成本不出现在新AI产品拖累中。",
+        "implication": "真实AI成本＝新AI产品拖累（152亿元）＋核心业务中未拆分的AI成本；核心利润增速假设应下调，悲观情景触发条件包含营销服务毛利率低于52%。",
+        "source_ids": [
+          "official-results",
+          "official-presentation",
+          "official-2q26-presentation",
+          "media-thepaper-call"
+        ],
+        "counterevidence": "营销服务毛利率下降同时有短剧内容成本，公司未拆分两者；四季度起短剧分成规则调整也可能改变毛利结构。",
+        "falsifier": "4Q26剔除新AI产品的经营利润同比增速回到12%以上，且营销服务毛利率不低于55%。",
+        "scores": {
+          "non_obviousness": 2,
+          "evidence_strength": 2,
+          "mechanism_clarity": 1,
+          "materiality": 2,
+          "falsifiability": 2,
+          "distinctness": 1
+        },
+        "total_score": 10
+      }
+    ],
+    "no_novel_insight_reason": null
+  },
+  "scenarios": [
+    {
+      "name": "optimistic",
+      "probability": 15,
+      "triggers": [
+        "营销服务同比增速≥19%且毛利率回升至55%以上",
+        "云服务收入增速≥35%且金融科技及企业服务毛利率≥51%",
+        "WorkBuddy付费转化与元宝削减使新AI产品拖累收窄至150亿元以下",
+        "国际游戏在《怪物猎人：旅人》等新品带动下止跌"
+      ],
+      "segment_profit_range": [
+        840,
+        880
+      ],
+      "group_profit_range": [
+        700,
+        750
+      ],
+      "unit": "RMB 100 million",
+      "horizon": "2026Q4",
+      "segment_profit_definition": "剔除新AI产品的非IFRS经营利润（公司口径，核心业务利润代理），单位亿元人民币",
+      "group_profit_definition": "集团非IFRS经营利润（含新AI产品拖累），单位亿元人民币"
+    },
+    {
+      "name": "base",
+      "probability": 55,
+      "triggers": [
+        "营销服务增速15%–19%，毛利率52%–55%",
+        "云服务增速30%–40%，金融科技及企业服务毛利率48%–51%",
+        "新AI产品拖累150–190亿元，物业厂房设备折旧环比增长10%–20%",
+        "现金资本开支在550–750亿元区间，预付款流出下降"
+      ],
+      "segment_profit_range": [
+        780,
+        840
+      ],
+      "group_profit_range": [
+        610,
+        690
+      ],
+      "unit": "RMB 100 million",
+      "horizon": "2026Q4",
+      "segment_profit_definition": "剔除新AI产品的非IFRS经营利润（公司口径，核心业务利润代理），单位亿元人民币",
+      "group_profit_definition": "集团非IFRS经营利润（含新AI产品拖累），单位亿元人民币"
+    },
+    {
+      "name": "pessimistic",
+      "probability": 30,
+      "triggers": [
+        "广告增速跌破15%或营销服务毛利率低于52%",
+        "BIS远程访问规则导致合同取消损失或算力短缺，云服务增速跌破25%",
+        "DRAM涨价叠加折旧，剔除新AI产品利润率跌破37%",
+        "新AI产品拖累超过190亿元"
+      ],
+      "segment_profit_range": [
+        720,
+        780
+      ],
+      "group_profit_range": [
+        500,
+        610
+      ],
+      "unit": "RMB 100 million",
+      "horizon": "2026Q4",
+      "segment_profit_definition": "剔除新AI产品的非IFRS经营利润（公司口径，核心业务利润代理），单位亿元人民币",
+      "group_profit_definition": "集团非IFRS经营利润（含新AI产品拖累），单位亿元人民币"
+    }
+  ],
+  "quality": {
+    "blocking_issues": [],
+    "warnings": [
+      "电话会内容来自第三方文字稿（EarningsCalls.dev 仅前半场、措辞为转写改写；Investing.com 为摘要）与媒体转述，未取得腾讯官方逐字稿，管理层引语需人工复核。",
+      "一致预期来自媒体转引（路透转引LSEG；腾讯新闻等转引的市场预估未注明提供方），未使用授权数据库，beat/miss 不作为正式结论。",
+      "演示稿中的剔除新AI产品经营利润、现金资本开支、自由现金流等为0.1亿元级（RMB0.1bn）精度，衍生的新AI产品拖累存在约±0.5亿元舍入误差。",
+      "4Q25非IFRS经营利润及剔除新AI产品利润为由演示稿图表利润率与收入推导的近似值，仅用于情景锚定。",
+      "AI收入（云收入金额、新AI产品收入、WorkBuddy净收入）全部为 missing；文中折算的WorkBuddy每季8.4亿元为推断，不是事实。",
+      "上季（2Q26）网站报告存在两处表述错误：执行摘要将自由现金流写为“转负13.8亿元”（应为-138亿元），并称云业务增速“低双位数”（2Q26演示稿为“low-twenties”，即约21%）。本报告以官方原文为准。"
+    ],
+    "unresolved_conflicts": [
+      "小微变现时间表：36氪转引“6到12个月”，Investing.com摘要“6到18个月”。",
+      "GPU租赁增速：演示稿为“快速增长”；第三方文字稿称同比及环比均超过30%，36氪称环比超过30%，星岛环球网称同比超过30%。",
+      "计提资本开支高于现金资本开支163亿元：经济观察报解读为预付款交付后转入，但同期应付账款季内增加236亿元，也可能来自未付设备款；公司未说明。",
+      "Hy4排名：公司称按Agent Arena（11月6日）为中国模型第一；11月4–5日媒体报道称其仅次于Kimi K3.1 Pro、总榜第13–14名，口径与时点不同。",
+      "WorkBuddy年化“毛收入”中第三方模型token的占比未知，净收入无法推导。"
+    ],
+    "human_review_required": [
+      "管理层电话会引语与语境（第三方转写）",
+      "折旧峰值后移、核心业务AI成本渗透等因果归因",
+      "三档情景概率与利润区间",
+      "评级由“中性偏积极”下调为“中性”的投资结论",
+      "Kearney 风格改写后的证据边界"
+    ]
+  }
+}
