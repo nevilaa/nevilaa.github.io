@@ -4,7 +4,7 @@
 >
 > 报告期：2026H1，即截至 2026-06-30 止六个月。中期数据未经审计，已由安永按 HKSRE 2410 审阅。公司只披露半年度业绩，本报告不拆算任何季度数字。
 >
-> 报告状态：draft / REVIEW_REQUIRED（发布前需人工审批）
+> 报告状态：published（2026-10-03 经用户审批发布）
 >
 > 原始财报：[HKEXnews 中期业绩公告（2026-08-26）](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf)｜[2026 中期报告（2026-09-30）](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0930/2026093002173.pdf)｜[公司 IR 新闻稿](https://www.minimax.io/news/minimax-announces-first-half-2026-financial-results-1787744160)
 >

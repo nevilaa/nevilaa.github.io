@@ -2,7 +2,7 @@
 
 > 股票代码：9961.HK（ADR：TCOM）｜报告期：截至 2026-06-30 的季度｜发布：2026-09-15 美东盘后 / 2026-09-16 香港时间
 >
-> 报告状态：**draft｜REVIEW_REQUIRED**（需人工审批后才能发布）
+> 报告状态：published（2026-10-03 经用户审批发布）
 >
 > 原始财报：[SEC 6-K EX-99.1](https://www.sec.gov/Archives/edgar/data/1269238/000119312526392473/d167816dex991.htm)｜[HKEXnews 业绩公告（英文）](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600011.pdf)｜[HKEXnews 业绩公告（中文）](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600012_c.pdf)｜处罚决定：[国市监处罚〔2026〕29号](https://www.samr.gov.cn/xw/zj/art/2026/art_46d2c74cbd7249f189622dd030e3c3a7.html)
 >

@@ -6,7 +6,7 @@
 >
 > 业绩发布：2026-08-20（港交所 17:46 HKT 刊发；美股盘前发布，电话会 7:30 ET）
 >
-> 报告状态：**draft / REVIEW_REQUIRED**（需人工审核后方可发布）
+> 报告状态：published（2026-10-03 经用户审批发布）
 >
 > 原始财报：[港交所 HKEXnews：Announcement of the June Quarter 2026 Results](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000745.pdf)｜[SEC 6-K Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/1577552/000110465926099220/tm2623667d1_ex99-1.htm)｜[官网投资者演示](https://data.alibabagroup.com/ecms-files/1567773279/a9d0a2f3-beca-402c-b3c1-526c2064d10f/June%20Quarter%202026%20Results.pdf)｜[电话会实录（英文）](https://data.alibabagroup.com/ecms-files/1567773279/9a0e4864-83fe-4a69-aa1e-e5c14f5b2e73/EN%20Jun%202026%20Q%20-%20Alibaba%20Earnings%20Call.pdf)｜[电话会实录（中文）](https://data.alibabagroup.com/ecms-files/1567773279/6a298f57-826a-460c-a85b-fd9b11f2339d/CN%20Jun%202026%20Q%20-%20Alibaba%20Earnings%20Call.pdf)
 >

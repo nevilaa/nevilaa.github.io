@@ -6,7 +6,7 @@
 >
 > 分析日期：2026-10-03
 >
-> 报告状态：**draft（待人工审批，不得公开发布）**
+> 报告状态：published（2026-10-03 经用户审批发布）
 >
 > 原始财报：[港交所业绩公告（中文）](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900315_c.pdf) ／ [港交所业绩公告（英文）](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900314.pdf) ／ [2026 年中期报告](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0903/2026090300643_c.pdf) ／ [公司 IR 演示材料](https://ir.kuaishou.com/zh-hans)
 >

@@ -4,7 +4,7 @@
 >
 > 报告期：截至 2026-06-30 的季度（业绩公告 2026-08-28 16:30 HKT 发布）
 >
-> 报告状态：draft / REVIEW_REQUIRED（未经人工审核，不得发布）
+> 报告状态：published（2026-10-03 经用户审批发布）
 >
 > 原始财报：[HKEXnews 业绩公告（英文）](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800435.pdf)｜[中文版](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf)｜[2026 中期报告](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0929/2026092900007.pdf)
 >
